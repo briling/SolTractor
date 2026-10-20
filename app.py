@@ -7,37 +7,6 @@ import ollama
 MODEL = "llama3.1"
 
 # 1. Define the Actions (Python Functions)
-def get_user_balance(user_name: str) -> str:
-    """Mock database lookup action."""
-    mock_db = {"alice": "\$1,250.00", "bob": "\$420.50"}
-    balance = mock_db.get(user_name.lower())
-    if balance is not None:
-        return {
-            "text": f"Database Action Result: {user_name}'s balance is \${balance:,.2f}.",
-            "chart_data": None
-        }
-    return {"text": f"Database Action Result: User '{user_name}' not found.", "chart_data": None}
-
-def calculate_investment_growth(principal: float, rate: float, years: int) -> dict:
-    """Mathematical action that also generates numerical array history for plotting."""
-    growth_history = []
-    current_balance = principal
-
-    # Generate continuous timeline steps for chart mapping
-    for year in range(0, years + 1):
-        growth_history.append({
-            "Year": year,
-            "Balance (\$)": round(current_balance, 2)
-        })
-        current_balance *= (1 + (rate / 100))
-
-    future_value = growth_history[-1]["Balance (\$)"]
-
-    return {
-        "text": f"Calculation Action Result: Future value after {years} years is \${future_value:,.2f}.",
-        "chart_data": growth_history  # Feed this array directly to Streamlit's visual engine
-    }
-
 
 def get_dataset(dataset: str) -> dict:
     """Retrieves the dataset needed to answer the question."""
@@ -46,8 +15,8 @@ def get_dataset(dataset: str) -> dict:
     if dataset not in ["odor", "perovskite"]:
         return {"text": f"Dataset Action Result: Dataset '{dataset}' not found.", "chart_data": None, "data": None}
     if dataset=="odor":
-        df1 = pd.read_csv('molecules.csv')
-        df2 = pd.read_csv('behavior.csv')
+        df1 = pd.read_csv('data/odor/molecules.csv')
+        df2 = pd.read_csv('data/odor/behavior.csv')
         df = pd.concat((df1, df2), axis=1).drop('Stimulus', axis=1)
     elif dataset=="perovskite":
         df = None
@@ -59,14 +28,8 @@ def get_dataset(dataset: str) -> dict:
 
 
 available_functions = {
-    "get_user_balance": get_user_balance,
-    "calculate_investment_growth": calculate_investment_growth,
     "get_dataset": get_dataset,
 }
-
-
-
-
 
 
 # 3. Define the functions schemas for Ollama
@@ -89,38 +52,6 @@ tools = [
             },
         },
     },
-
-
-    {
-        "type": "function",
-        "function": {
-            "name": "get_user_balance",
-            "description": "Retrieves the account balance for a specific user name.",
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "user_name": {"type": "string", "description": "The first name of the user."}
-                },
-                "required": ["user_name"],
-            },
-        },
-    },
-    {
-        "type": "function",
-        "function": {
-            "name": "calculate_investment_growth",
-            "description": "Calculates future value of an investment using compound interest.",
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "principal": {"type": "number", "description": "Starting money amount."},
-                    "rate": {"type": "number", "description": "Annual interest rate percentage."},
-                    "years": {"type": "integer", "description": "Number of years to compound."},
-                },
-                "required": ["principal", "rate", "years"],
-            },
-        },
-    }
 ]
 
 st.title("🦛 HypoAgent")
