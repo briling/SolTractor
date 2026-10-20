@@ -1,0 +1,13 @@
+name: osi
+channels:
+  - defaults
+  - conda-pypi
+dependencies:
+  - numpy=2.5.3=py313h4c24699_0
+  - numpy-base=2.5.3=py313h00548fb_0
+  - ollama=0.6.3=py3_none_any_0
+  - pandas=3.0.6=py313h86c3e14_0
+  - pip=26.2.1=pyhc872135_0
+  - python=3.13.16=h3ef32e2_102_cp313
+  - streamlit=1.64.0=py313h06a4308_0
+prefix: /home/xe/soft/miniconda3/envs/osi
