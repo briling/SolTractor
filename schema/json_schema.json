@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "OSI Hackathon Schema",
-  "description": "Equilibrium solution data with phases, extracted amounts, PubChem substances, and publication references.",
-  "$comment": "Validates an EquilibriumSolution data object, without an EntryArchive data wrapper. Fields remain optional as in schema.archive.yaml. Numeric values use the declared storage units, except Amount.value, which uses Amount.units. The unit keyword preserves NOMAD storage units; JSON Schema validators do not convert units or run NOMAD normalizers. Each phase has an optional substance described by PubChemPureSubstanceSection.",
+  "description": "Equilibrium solution data with phases, phase components, extracted amounts, PubChem substances, and publication references.",
+  "$comment": "Validates an EquilibriumSolution data object, without an EntryArchive data wrapper. Fields remain optional as in schema.archive.yaml. Numeric values use the declared storage units, except Amount.value, which uses Amount.units. The unit keyword preserves NOMAD storage units; JSON Schema validators do not convert units or run NOMAD normalizers. Each phase and phase component has an optional substance described by PubChemPureSubstanceSection.",
   "x-nomad-source-schema": "schema.archive.yaml",
   "x-nomad-sources": [
     "https://docs.nomad-lab.eu/reference/basesections.html",
@@ -248,6 +248,28 @@
         }
       }
     },
+    "PhaseComponent": {
+      "title": "PhaseComponent",
+      "description": "A component within a phase, with its substance and extracted amount.",
+      "allOf": [
+        { "$ref": "#/$defs/ArchiveSection" }
+      ],
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Short descriptive name identifying this component within the phase."
+        },
+        "substance": {
+          "$ref": "#/$defs/PubChemPureSubstanceSection",
+          "description": "Chemical identity and PubChem details of the substance forming this component."
+        },
+        "amount": {
+          "$ref": "#/$defs/Amount",
+          "description": "Extracted amount expressed by its type, value, and units."
+        }
+      }
+    },
     "Phase": {
       "title": "Phase",
       "allOf": [
@@ -271,6 +293,11 @@
         "substance": {
           "$ref": "#/$defs/PubChemPureSubstanceSection",
           "description": "Chemical identity and PubChem details of the substance forming this phase."
+        },
+        "components": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/PhaseComponent" },
+          "description": "Components forming this phase, with their substance details and extracted amounts."
         }
       }
     },

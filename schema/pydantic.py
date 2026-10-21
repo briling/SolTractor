@@ -198,8 +198,25 @@ class Amount(ArchiveSection):
     )
 
 
+class PhaseComponent(ArchiveSection):
+    """A component within a phase, with its substance and extracted amount."""
+
+    name: str | None = Field(
+        default=None,
+        description="Short descriptive name identifying this component within the phase.",
+    )
+    substance: PubChemPureSubstanceSection | None = Field(
+        default=None,
+        description="Chemical identity and PubChem details of the substance forming this component.",
+    )
+    amount: Amount | None = Field(
+        default=None,
+        description="Extracted amount expressed by its type, value, and units.",
+    )
+
+
 class Phase(ArchiveSection):
-    """A phase, its extracted amount, and its substance within a solution."""
+    """A phase, its extracted amount, substance, and components within a solution."""
 
     name: str | None = Field(
         default=None,
@@ -216,6 +233,10 @@ class Phase(ArchiveSection):
     substance: PubChemPureSubstanceSection | None = Field(
         default=None,
         description="Chemical identity and PubChem details of the substance forming this phase.",
+    )
+    components: list[PhaseComponent] = Field(
+        default_factory=list,
+        description="Components forming this phase, with their substance details and extracted amounts.",
     )
 
 
