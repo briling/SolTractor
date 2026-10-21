@@ -78,8 +78,11 @@ disagreements between the extraction and the database need the page image as arb
 The text layer is one reading of every page; `mineru/DEPLOY.md` describes the second,
 the document vision model MinerU 2.5-Pro run on a GPU node over the page images. Its
 results for the ground-truth volumes live in `ground_truth/mineru/SDS-N/` (page JSON,
-run logs, the converted boxes, the NIST alignments and `CHECKS.md` with the numbers; the
-bulky raw output stays outside the repo behind the ignored `raw/` link). Two passes per
+run logs, the converted boxes, the NIST alignments, `CHECKS.md` with the numbers and
+`example/` with one crop and its returned table). The bulky raw output (the model output
+with region images, the crop PNGs, the per-crop results) and the PDFs live in the HU Box
+library `sds-extraction`, which keeps the layout of the staging folder; sync it next to
+the clone and link it as `ground_truth/mineru/SDS-N/raw` (ignored) and `pdfs`. Two passes per
 volume:
 
 - whole pages: every sheet comes back as one table whose cells are the printed boxes,
