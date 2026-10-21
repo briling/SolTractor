@@ -1,0 +1,34 @@
+sheet_id,system,score,page,index_on_page,dup,n_values,n_found,recall,missing
+59_321,"1,10-Phenanthroline with Ethanol and Water",,,,,27,0,,
+59_319,"1,10-Phenanthroline with Methanol and Water",0.87,272,0,,18,17,0.94,0.00
+59_320,"1,10-Phenanthroline with Methanol and Water",,,,,27,0,,
+59_29,"Fluoranthene with 1,2,3,5-Tetranitrobenzene",,,,,48,0,,
+59_5,"Fluoranthene with 1,2,4,5-Tetramethylbenzene",0.93,36,0,,42,40,0.95,0.000 0.000
+59_28,"Fluoranthene with 1,3,5-Trinitrobenzene",0.91,53,0,,39,37,0.95,0.000 0.000
+59_26,"Fluoranthene with 1,3-Dinitrobenzene",,,,,51,0,,
+59_27,"Fluoranthene with 1,4-Dinitrobenzene",0.92,52,0,,27,26,0.96,0.056
+59_14,"Fluoranthene with 1,4-Dioxane",0.62,303,1,,2,1,0.5,1.54
+59_21,Fluoranthene with 1-Hydroxy-2-methylbenzene,0.9,48,1,,2,2,1.0,
+59_19,Fluoranthene with 1-Octanol,1.0,47,0,,2,2,1.0,
+59_20,Fluoranthene with 1-Octanol,0.93,48,0,,2,2,1.0,
+59_34,"Fluoranthene with 2,4,6-Trinitroaniline",0.51,326,0,,36,8,0.22,0.000 444.7 0.223 0.777 0.352 0.648 464.2 0.485 0.515 464.2 0.518 0.482 460.7 0.616 0.384 459.2 0.648 0.352 441.2 414.2 
+59_33,"Fluoranthene with 2,4,6-Trinitromethoxybenzene",,,,,42,0,,
+59_32,"Fluoranthene with 2,4,6-Trinitromethylbenzene",,,,,36,0,,
+59_30,"Fluoranthene with 2,4-Dinitromethylbenzene",,,,,45,0,,
+59_31,"Fluoranthene with 2,4-Dinitrophenol",,,,,45,0,,
+59_8,"Fluoranthene with 2,7-Dimethylnaphthalene",,,,,36,0,,
+59_35,"Fluoranthene with 2-Chloro-1,3,5-trinitrobenzene",,,,,33,0,,
+59_7,Fluoranthene with 2-Methylnaphthalene,0.96,38,0,,45,45,1.0,
+59_22,Fluoranthene with 2-Propanone,0.53,35,0,,3,1,0.33,0.0711 0.9289
+59_36,"Fluoranthene with 3-Methyl-2,4,6-trinitrophenol",,,,,36,0,,
+59_11,Fluoranthene with Acenaphthene,,,,,36,0,,
+59_10,Fluoranthene with Anthracene,,,,,45,0,,
+59_2,Fluoranthene with Benzene,0.9,33,0,,12,11,0.92,0.3826
+59_3,Fluoranthene with Benzene,0.96,34,0,,51,47,0.92,0.076 290.2 0.651 383.2
+59_16,Fluoranthene with Chlorobenzene,1.0,46,0,,2,2,1.0,
+59_13,Fluoranthene with Chrysene,0.95,44,0,,42,40,0.95,0.000 0.000
+59_1,Fluoranthene with Cyclohexane,,,,,15,0,,
+59_25,Fluoranthene with Dimethyl sulfoxide,0.93,50,0,,2,2,1.0,
+59_18,Fluoranthene with Ethanol,0.53,49,1,,3,1,0.33,0.00514 0.9949
+59_9,Fluoranthene with Fluorene,0.93,40,0,,42,40,0.95,0.000 0.000
+59_17,Fluoranthene with Methanol,0.9,46,1,,2,2,1.0,

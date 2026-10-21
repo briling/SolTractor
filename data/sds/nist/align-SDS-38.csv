@@ -1,0 +1,19 @@
+sheet_id,system,score,page,index_on_page,dup,n_values,n_found,recall,missing
+38_230,"(+)-(R)-P-Mentha-1,8-diene (d-Limonene) with Water",,,,,13,0,,
+38_325,(2-Ethylcyclopentyl) benzene with Water,0.8,414,0,,9,9,1.0,
+38_124,"1,2,3-Trimethylbenzene with Water",0.85,188,0,,20,20,1.0,
+38_131,"1,2,4-Trimethylbenzene with Water",0.91,196,0,,20,20,1.0,
+38_353,"1,4-Dicyclopentylbutane with Water",0.74,446,0,,9,8,0.89,0.0088
+38_77,"1,4-Dimethylcyclohexane with Water",0.87,122,0,,16,16,1.0,
+38_461,10-Butylbenz[a]anthracene with Water,,,,,8,0,,
+38_444,10-Ethylbenz[a]anthracene with Water,,,,,21,0,,
+38_236,1-Decene with Water,,,,,12,0,,
+38_305,1-Ethylnaphthalene with Sodium chloride and Water,,,,,16,0,,
+38_303,1-Ethylnaphthalene with Water,0.84,392,0,,0,0,,
+38_304,1-Ethylnaphthalene with Water,0.9,391,0,,20,20,1.0,
+38_428,1-Methylbenz[a]anthracene with Water,,,,,9,0,,
+38_258,1-Methylnaphthalene with Sodium chloride and Water,,,,,18,0,,
+38_253,1-Methylnaphthalene with Water,0.84,334,0,,17,16,0.94,50
+38_256,1-Methylnaphthalene with Water,0.81,337,0,,45,44,0.98,1.78
+38_257,1-Methylnaphthalene with Water,0.9,338,0,,16,16,1.0,
+38_365,1-Methylphenanthrene with Water,,,,,24,0,,
