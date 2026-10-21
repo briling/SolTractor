@@ -13,3 +13,4 @@ data/sds/boxes/*
 !data/sds/boxes/SDS-60.jsonl
 !data/sds/boxes/SDS-62.jsonl
 data/sds/nist/*.log
+data/sds/cas/pubchem-cache.json
