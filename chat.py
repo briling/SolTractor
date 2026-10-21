@@ -4,6 +4,7 @@ import pandas as pd
 
 st.title("🦛 HypoAgent")
 st.set_page_config(page_title="HypoAgent", page_icon="🦛")
+ASSISTANT_PNG = "nomad.png"
 
 # initialize chat history in session state if it doesn't exist
 if "messages" not in st.session_state:
@@ -12,7 +13,7 @@ if "messages" not in st.session_state:
     ]
 
 def display_message(message):
-    with st.chat_message(message["role"]):
+    with st.chat_message(message["role"], avatar=ASSISTANT_PNG if message["role"] == "assistant" else ':material/person_raised_hand:'):
         if message["type"] == "text":
             st.write(message["content"])
         elif message["type"] == "line_chart":
