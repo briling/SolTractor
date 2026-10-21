@@ -14,6 +14,7 @@ tables, 67,169 table rows. Crawled 2026-10-21.
 |---|---|
 | `data/nist_gt.jsonl` | One JSON record per compilation sheet (5,162 lines, ~13 MB). **The starting point for all further processing** |
 | `data/nist_measurements.jsonl` | Normalised: one JSON record per measurement, i.e. per table row (62,142 lines, ~96 MB), built from `nist_gt.jsonl` — see [Measurements](#measurements-nist_measurementsjsonl) |
+| `data/nist_measurements.jsonl.gz` | The same file gzipped (2.7 MB), the copy kept in git. `gunzip -k data/nist_measurements.jsonl.gz`, or rebuild with `normalize_nist.py` |
 | `data/index.json` | Crawl index: volume → systems → sheet ids, with the `evaluated` flag |
 | `data/raw_html/<id>.html` | Cached detail pages; re-parsing never needs the network |
 | `scrape_nist.py` | Crawler (resumable: re-running only fetches what is missing) |
