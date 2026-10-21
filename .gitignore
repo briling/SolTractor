@@ -1,10 +1,10 @@
 .venv/
 __pycache__/
 *.py[cod]
-data/sds/pdfs
-data/sds/ground_truth/pdfs/
-data/sds/ground_truth/nist/raw/
-data/sds/ground_truth/nist/*.log
-data/sds/boxes/
-data/sds/cas/pubchem-cache.json
-data/sds/ground_truth/mineru/*/raw
+data/pdfs
+data/ground_truth/pdfs/
+data/ground_truth/nist/raw/
+data/ground_truth/nist/*.log
+data/boxes/
+data/cas/pubchem-cache.json
+data/ground_truth/mineru/*/raw
