@@ -5,46 +5,132 @@ The initial export is intentionally limited to the first 10 measurement records:
     python export_nist_archives.py
 """
 import argparse
+import importlib.machinery
+import importlib.util
 import json
 from pathlib import Path
+import sys
 
 
 ROOT = Path(__file__).parent
 DEFAULT_INPUT = ROOT / "data" / "nist_measurements.jsonl"
 DEFAULT_SHEETS = ROOT / "data" / "nist_gt.jsonl"
 DEFAULT_OUTPUT = ROOT / "data" / "nist_archives"
-SCHEMA_REFERENCE = "schema.archive.yaml#/definitions/section/EquilibriumSolution"
 INITIAL_RECORD_LIMIT = 10
+MEASUREMENT_PRIORITY = {
+    "amount_concentration": 0,
+    "mass_concentration": 1,
+    "molality": 2,
+    "mass_per_kg": 3,
+    "mass_per_100g_solution": 4,
+    "mass_fraction": 5,
+    "mole_fraction": 6,
+    "gas_mole_fraction": 7,
+    "amount_per_mass": 8,
+    "mass_ratio": 9,
+    "volume_ratio": 10,
+    "composition": 11,
+    "solubility": 12,
+}
 
 
-def archive_component(component):
-    """Return the PureSubstanceComponent fields available in the source data."""
-    return {"name": component["name"]}
+def load_schema_models():
+    """Load pydantic_schema.py without pydantic.py shadowing the package."""
+    package_paths = [path for path in sys.path if Path(path or ".").resolve() != ROOT]
+    package_spec = importlib.machinery.PathFinder.find_spec("pydantic", package_paths)
+    if package_spec is None or package_spec.loader is None:
+        raise RuntimeError("The Pydantic package is required to load pydantic_schema.py.")
+    package = importlib.util.module_from_spec(package_spec)
+    sys.modules["pydantic"] = package
+    package_spec.loader.exec_module(package)
+
+    schema_spec = importlib.util.spec_from_file_location(
+        "archive_schema_models", ROOT / "pydantic_schema.py"
+    )
+    if schema_spec is None or schema_spec.loader is None:
+        raise RuntimeError("Could not load pydantic_schema.py.")
+    schema = importlib.util.module_from_spec(schema_spec)
+    schema_spec.loader.exec_module(schema)
+    return schema
+
+
+def substance(component):
+    return {
+        "name": component["name"],
+        "molecular_formula": component["formula"],
+        "cas_number": component["cas"],
+    }
 
 
 def record_components(record):
-    components = [record["solute"], *(record["solvent"] or [])]
-    return [archive_component(component) for component in components if component]
+    return [component for component in [record["solute"], *(record["solvent"] or [])] if component]
 
 
-def measurement_values(record):
-    values = []
-    for source in ("solubility", "solvent_composition", "composition", "properties"):
+def measurement_candidates(record):
+    candidates = []
+    for source in ("solubility", "solvent_composition", "composition"):
         for value in record[source] or []:
-            values.append({
-                key: value[key]
-                for key in (
-                    "quantity",
-                    "value",
-                    "unit",
-                    "species",
-                    "value_qualifier",
-                    "note",
-                    "compiler_calculated",
-                )
-                if value.get(key) is not None
-            } | {"source_header": value["header"]})
-    return values
+            component_name = (
+                record["solute"]["name"] if source == "solubility" else value.get("species")
+            )
+            if component_name:
+                candidates.append({
+                    "component_name": component_name,
+                    "quantity": value["quantity"],
+                    "value": value["value"],
+                    "unit": value["unit"],
+                    "source_header": value["header"],
+                })
+    return candidates
+
+
+def preferred_measurements(record):
+    """Choose one directly reported value per component, without inference or conversion."""
+    selected = {}
+    for candidate in measurement_candidates(record):
+        name = candidate["component_name"]
+        key = (MEASUREMENT_PRIORITY.get(candidate["quantity"], len(MEASUREMENT_PRIORITY)),)
+        if name not in selected or key < selected[name][0]:
+            selected[name] = (key, candidate)
+    return [candidate for _, candidate in selected.values()]
+
+
+def phase_components(components, measurements, schema):
+    result = []
+    for component in components:
+        measurement = measurements.get(component["name"])
+        amount = None
+        if measurement:
+            amount = schema.Amount(
+                type=measurement["quantity"],
+                value=measurement["value"],
+                units=measurement["unit"],
+                source_header=measurement["source_header"],
+            )
+        result.append(schema.PhaseComponent(
+            name=component["name"],
+            substance=schema.PubChemPureSubstanceSection(**substance(component)),
+            amount=amount,
+        ))
+    return result
+
+
+def additional_phases(record, components, schema):
+    phases = []
+    phase_comment = record["phase"] or ""
+    if record["solid_phase"] or "solid" in phase_comment.lower():
+        phases.append(schema.Phase(
+            name=record["solid_phase"] or phase_comment,
+            state_of_matter=schema.StateOfMatter.solid,
+            components=phase_components(components, {}, schema),
+        ))
+    if "gas" in phase_comment.lower() or "vapor" in phase_comment.lower():
+        phases.append(schema.Phase(
+            name=phase_comment,
+            state_of_matter=schema.StateOfMatter.gas,
+            components=phase_components(components, {}, schema),
+        ))
+    return phases
 
 
 def load_measurement_methods(sheets_path):
@@ -57,22 +143,28 @@ def load_measurement_methods(sheets_path):
     return methods
 
 
-def archive_for(record, methods):
+def archive_for(record, methods, schema):
     """Map a normalized measurement to the fields defined by EquilibriumSolution."""
     components = record_components(record)
-    data = {
-        "m_def": SCHEMA_REFERENCE,
-        "components": components,
-        "phases": [{"name": record["system_name"], "components": components}],
-        "measurement_values": measurement_values(record),
-    }
+    measurements = {value["component_name"]: value for value in preferred_measurements(record)}
+    solution = schema.EquilibriumSolution(
+        name=record["system_name"],
+        phases=[
+            schema.Phase(
+                name="liquid solution",
+                state_of_matter=schema.StateOfMatter.liquid,
+                components=phase_components(components, measurements, schema),
+            ),
+            *additional_phases(record, components, schema),
+        ],
+    )
     if method := methods.get(record["sheet_id"]):
-        data["measurement_methods"] = [method]
+        solution.measurement_methods = [method]
     if record["temperature_K"] is not None:
-        data["temperature"] = record["temperature_K"]
+        solution.temperature = record["temperature_K"]
     if record["pressure_kPa"] is not None:
-        data["pressure"] = record["pressure_kPa"] * 1_000
-    return {"data": data}
+        solution.pressure = record["pressure_kPa"] * 1_000
+    return {"data": solution.model_dump(mode="json", exclude_none=True)}
 
 
 def output_path(output_directory, measurement_id):
@@ -97,6 +189,7 @@ def main():
 
     args.output_dir.mkdir(parents=True, exist_ok=True)
     methods = load_measurement_methods(args.sheets)
+    schema = load_schema_models()
     count = 0
     with args.input.open(encoding="utf-8") as source:
         for line in source:
@@ -105,7 +198,7 @@ def main():
             record = json.loads(line)
             destination = output_path(args.output_dir, record["measurement_id"])
             destination.write_text(
-                json.dumps(archive_for(record, methods), ensure_ascii=False, indent=2) + "\n",
+                json.dumps(archive_for(record, methods, schema), ensure_ascii=False, indent=2) + "\n",
                 encoding="utf-8",
             )
             count += 1

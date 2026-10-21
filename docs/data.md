@@ -39,8 +39,10 @@ python export_nist_archives.py
 
 Files are written to `data/nist_archives/`, named after the measurement id (for example,
 `62_197_t0_r1.json`). The exporter maps temperature, pressure, components, phase, normalized
-measurement values (including concentrations), and NIST's measurement-method text to
-`schema.archive.yaml`.
+measurement values, and NIST's measurement-method text to the Pydantic model in
+`pydantic_schema.py`. One liquid `Phase` contains all components; each component has at
+most one directly reported `Amount`, preferring amount concentration over other supported
+quantities. Explicit solid-phase and gas-phase source fields add corresponding phases.
 
 ## How the website maps to the data
 
