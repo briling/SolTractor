@@ -187,7 +187,7 @@ keep it outside the PDF folder):
 ```bash
 sudo apt-get install -y poppler-utils        # pdftotext, pdftoppm
 mkdir -p ~/sds/crops
-python3 -I crop_tables.py ~/sds/pdfs/SDS-60.pdf ~/sds/crops/SDS-60      # from data/sds/scripts/
+python3 -I crop_tables.py ~/sds/pdfs/SDS-60.pdf ~/sds/crops/SDS-60      # from scripts/
 ```
 
 Output: `p<page>_<band>.png` at 300 dpi, full page width, plus `manifest.csv`
