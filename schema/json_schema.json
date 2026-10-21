@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "OSI Hackathon Schema",
   "description": "Equilibrium solution data with phases, chemical components, and publication references.",
-  "$comment": "Validates an EquilibriumSolution data object, without an EntryArchive data wrapper. Fields remain optional as in schema.archive.yaml. Numeric values use the declared storage units. The unit and m_annotations keywords preserve NOMAD metadata; JSON Schema validators do not convert units or run NOMAD normalizers. Component preserves the PureSubstanceComponent wrapper and specializes pure_substance to PubChemPureSubstanceSection.",
+  "$comment": "Validates an EquilibriumSolution data object, without an EntryArchive data wrapper. Fields remain optional as in schema.archive.yaml. Numeric values use the declared storage units. The unit keyword preserves NOMAD storage units; JSON Schema validators do not convert units or run NOMAD normalizers. Component preserves the PureSubstanceComponent wrapper and specializes pure_substance to PubChemPureSubstanceSection.",
   "x-nomad-source-schema": "schema.archive.yaml",
   "x-nomad-sources": [
     "https://docs.nomad-lab.eu/reference/basesections.html",
@@ -42,35 +42,20 @@
       "properties": {
         "name": {
           "type": "string",
-          "description": "Human-readable name of the section.",
-          "m_annotations": {
-            "eln": { "component": "StringEditQuantity" }
-          }
+          "description": "Human-readable name of the section."
         },
         "datetime": {
           "type": "string",
           "format": "date-time",
-          "description": "Date and time associated with the section.",
-          "m_annotations": {
-            "eln": { "component": "DateTimeEditQuantity" }
-          }
+          "description": "Date and time associated with the section."
         },
         "lab_id": {
           "type": "string",
-          "description": "Identifier unique within the laboratory producing the data.",
-          "m_annotations": {
-            "eln": { "component": "StringEditQuantity" }
-          }
+          "description": "Identifier unique within the laboratory producing the data."
         },
         "description": {
           "type": "string",
-          "description": "Additional information not captured by the other fields.",
-          "m_annotations": {
-            "eln": {
-              "component": "RichTextEditQuantity",
-              "props": { "height": 200 }
-            }
-          }
+          "description": "Additional information not captured by the other fields."
         }
       }
     },
@@ -85,26 +70,16 @@
       "properties": {
         "name": {
           "type": "string",
-          "description": "Component label.",
-          "m_annotations": {
-            "eln": { "component": "StringEditQuantity" }
-          }
+          "description": "Component label."
         },
         "mass": {
           "type": "number",
           "unit": "kilogram",
-          "description": "Mass of this component.",
-          "m_annotations": {
-            "eln": { "component": "NumberEditQuantity" },
-            "display": { "unit": "milligram" }
-          }
+          "description": "Mass of this component."
         },
         "mass_fraction": {
           "type": "number",
-          "description": "Component mass divided by the mixture mass.",
-          "m_annotations": {
-            "eln": { "component": "NumberEditQuantity" }
-          }
+          "description": "Component mass divided by the mixture mass."
         }
       }
     },
@@ -119,83 +94,50 @@
       "properties": {
         "name": {
           "type": "string",
-          "description": "Name of the substance.",
-          "m_annotations": {
-            "eln": { "component": "StringEditQuantity" }
-          }
+          "description": "Name of the substance."
         },
         "iupac_name": {
           "type": "string",
-          "description": "Systematic IUPAC name of the substance.",
-          "m_annotations": {
-            "eln": { "component": "StringEditQuantity" }
-          }
+          "description": "Systematic IUPAC name of the substance."
         },
         "molecular_formula": {
           "type": "string",
-          "description": "Chemical formula.",
-          "m_annotations": {
-            "eln": { "component": "StringEditQuantity" }
-          }
+          "description": "Chemical formula."
         },
         "molecular_mass": {
           "type": "number",
           "unit": "dalton",
-          "description": "Mass of a molecule with the most likely isotopic composition.",
-          "m_annotations": {
-            "eln": { "component": "NumberEditQuantity" }
-          }
+          "description": "Mass of a molecule with the most likely isotopic composition."
         },
         "molar_mass": {
           "type": "number",
           "unit": "gram / mole",
-          "description": "Mass per mole using the substance's isotopic composition.",
-          "m_annotations": {
-            "eln": { "component": "NumberEditQuantity" }
-          }
+          "description": "Mass per mole using the substance's isotopic composition."
         },
         "monoisotopic_mass": {
           "type": "number",
           "unit": "dalton",
-          "description": "Molecular mass calculated from the most abundant isotope of each element.",
-          "m_annotations": {
-            "eln": { "component": "NumberEditQuantity" }
-          }
+          "description": "Molecular mass calculated from the most abundant isotope of each element."
         },
         "inchi": {
           "type": "string",
-          "description": "InChI structure identifier.",
-          "m_annotations": {
-            "eln": { "component": "StringEditQuantity" }
-          }
+          "description": "InChI structure identifier."
         },
         "inchi_key": {
           "type": "string",
-          "description": "Hashed InChI identifier.",
-          "m_annotations": {
-            "eln": { "component": "StringEditQuantity" }
-          }
+          "description": "Hashed InChI identifier."
         },
         "smile": {
           "type": "string",
-          "description": "SMILES representation of the structure.",
-          "m_annotations": {
-            "eln": { "component": "StringEditQuantity" }
-          }
+          "description": "SMILES representation of the structure."
         },
         "canonical_smile": {
           "type": "string",
-          "description": "Canonical SMILES representation of the structure.",
-          "m_annotations": {
-            "eln": { "component": "StringEditQuantity" }
-          }
+          "description": "Canonical SMILES representation of the structure."
         },
         "cas_number": {
           "type": "string",
-          "description": "CAS Registry Number.",
-          "m_annotations": {
-            "eln": { "component": "StringEditQuantity" }
-          }
+          "description": "CAS Registry Number."
         }
       }
     },
@@ -211,17 +153,11 @@
       "properties": {
         "pub_chem_cid": {
           "type": "integer",
-          "description": "PubChem compound identifier (CID).",
-          "m_annotations": {
-            "eln": { "component": "NumberEditQuantity" }
-          }
+          "description": "PubChem compound identifier (CID)."
         },
         "pub_chem_link": {
           "type": "string",
-          "description": "Link to the PubChem compound record.",
-          "m_annotations": {
-            "eln": { "component": "StringEditQuantity" }
-          }
+          "description": "Link to the PubChem compound record."
         }
       }
     },
@@ -236,10 +172,7 @@
       "properties": {
         "substance_name": {
           "type": "string",
-          "description": "Substance name used within the containing mixture.",
-          "m_annotations": {
-            "eln": { "component": "StringEditQuantity" }
-          }
+          "description": "Substance name used within the containing mixture."
         },
         "pure_substance": {
           "$ref": "#/$defs/PureSubstanceSection",
@@ -271,13 +204,7 @@
       "properties": {
         "DOI_number": {
           "type": "string",
-          "description": "DOI identifying the publication or dataset.",
-          "m_annotations": {
-            "eln": {
-              "component": "EnumEditQuantity",
-              "props": { "suggestions": [] }
-            }
-          }
+          "description": "DOI identifying the publication or dataset."
         },
         "publication_authors": {
           "type": "array",
@@ -308,18 +235,12 @@
       "properties": {
         "name": {
           "type": "string",
-          "description": "Short descriptive name identifying this phase within the equilibrium solution.",
-          "m_annotations": {
-            "eln": { "component": "StringEditQuantity" }
-          }
+          "description": "Short descriptive name identifying this phase within the equilibrium solution."
         },
         "state_of_matter": {
           "type": "string",
           "enum": ["solid", "liquid", "gas"],
-          "description": "Physical state of the phase, such as solid, liquid, or gas.",
-          "m_annotations": {
-            "eln": { "component": "EnumEditQuantity" }
-          }
+          "description": "Physical state of the phase, such as solid, liquid, or gas."
         },
         "components": {
           "type": "array",
@@ -338,36 +259,22 @@
         "temperature": {
           "type": "number",
           "unit": "kelvin",
-          "description": "Isothermal temperature of the solution.",
-          "m_annotations": {
-            "eln": { "component": "NumberEditQuantity" },
-            "display": { "unit": "celsius" }
-          }
+          "description": "Isothermal temperature of the solution."
         },
         "pressure": {
           "type": "number",
           "unit": "pascal",
-          "description": "Gas pressure over the solution (assumed to be isobar).",
-          "m_annotations": {
-            "eln": { "component": "NumberEditQuantity" },
-            "display": { "unit": "pascal" }
-          }
+          "description": "Gas pressure over the solution (assumed to be isobar)."
         },
         "measurement_methods": {
           "type": "array",
           "items": { "type": "string" },
-          "description": "Methods used to measure the equilibrium properties of the solution.",
-          "m_annotations": {
-            "eln": { "component": "StringEditQuantity" }
-          }
+          "description": "Methods used to measure the equilibrium properties of the solution."
         },
         "mixing_methods": {
           "type": "array",
           "items": { "type": "string" },
-          "description": "Methods used to mix the components when preparing the solution.",
-          "m_annotations": {
-            "eln": { "component": "StringEditQuantity" }
-          }
+          "description": "Methods used to mix the components when preparing the solution."
         },
         "components": {
           "type": "array",
