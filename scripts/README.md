@@ -70,7 +70,7 @@ Text-layer witness for a volume: `fetch_volumes.sh`, `segment_boxes.py SDS-N`, t
 ground-truth volume `nist_scrape.py N` and `align_nist.py N`.
 
 Vision witness: `crop_tables.py` here, the page pass and the crop pass on the GPU node
-(`docs/DEPLOY-mineru.md`), then `mineru_to_boxes.py`, `crops_to_boxes.py`, and
+(driven by the internal brief in the HU Box library), then `mineru_to_boxes.py`, `crops_to_boxes.py`, and
 `align_nist.py N --boxes ... --out ...` to score the result with the same yardstick.
 
 Quality control of an extraction: `backsearch.py` for the values, `cas_survey.py` and
