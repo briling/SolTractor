@@ -24,6 +24,24 @@ definitions:
             eln:
               component: StringEditQuantity
 
+    PhaseComponent:
+      base_sections:
+        - nomad.datamodel.data.ArchiveSection
+      quantities:
+        name:
+          type: str
+          description: "Short descriptive name identifying this component within the phase."
+          m_annotations:
+            eln:
+              component: StringEditQuantity
+      sub_sections:
+        substance:
+          section: nomad.datamodel.metainfo.basesections.PubChemPureSubstanceSection
+          description: "Chemical identity and PubChem details of the substance forming this component."
+        amount:
+          section: Amount
+          description: "Extracted amount expressed by its type, value, and units."
+
     Phase:
       base_sections:
         - nomad.datamodel.data.ArchiveSection
@@ -52,6 +70,10 @@ definitions:
         substance:
           section: nomad.datamodel.metainfo.basesections.PubChemPureSubstanceSection
           description: "Chemical identity and PubChem details of the substance forming this phase."
+        components:
+          repeats: true
+          section: "#/PhaseComponent"
+          description: "Components forming this phase, with their substance details and extracted amounts."
 
     EquilibriumSolution:
       base_sections:
