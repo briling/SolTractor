@@ -31,3 +31,20 @@ def numbers(cell: str) -> list[str]:
 
 def cas_numbers(s: str) -> list[str]:
     return re.findall(r'\b\d{2,7}-\d{2}-\d\b', strict(s))
+
+
+CAS = re.compile(r'^\d{2,7}-\d{2}-\d$')
+
+
+def cas_valid(cas: str) -> bool | None:
+    """Check digit of a CAS Registry Number; None if the string is not CAS-shaped.
+
+    Digits are weighted by their position counted from the right (the check
+    digit excluded), summed, and reduced modulo 10: 7440-59-7 -> 97 -> 7.
+    """
+    cas = cas.strip()
+    if not CAS.match(cas):
+        return None
+    digits = cas.replace('-', '')
+    body, check = digits[:-1], int(digits[-1])
+    return sum(int(d) * w for d, w in zip(reversed(body), range(1, len(body) + 1))) % 10 == check

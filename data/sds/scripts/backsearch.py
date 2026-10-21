@@ -2,19 +2,22 @@
 
 Usage: python -I backsearch.py SDS-N value [value ...] [--page N] [--context 30]
 
+A value shaped like a CAS Registry Number is also validated by its check digit
+(CAS-OK / CAS-BAD), independently of whether it is found in the text.
+
 Two match tiers. STRICT: single spaces inside numbers/CAS numbers are removed
 ("2 9 8 . 15" -> "298.15") while multi-space column gaps are kept; spaces
 before punctuation are dropped; a few OCR confusions are folded. LOOSE:
 only lowercase alphanumerics are compared, which survives any spacing or
 punctuation noise. Each value is reported as OK/ELSEWHERE/MISSING against
 the expected page (or FOUND/MISSING without one), with the tier that hit.
-Exit status 1 if any value is not OK/FOUND.
+Exit status 1 if any value is not OK/FOUND or fails the CAS check digit.
 """
 import argparse, pathlib, re, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
-from textnorm import loose, strict  # noqa: E402
+from textnorm import cas_valid, loose, strict  # noqa: E402
 
 
 def main() -> None:
@@ -42,7 +45,10 @@ def main() -> None:
             status = 'FOUND' if hits else 'MISSING'
             ok &= bool(hits)
         shown = hits[:8] + (['...'] if len(hits) > 8 else [])
-        print(f'{status:9s} {tier_used or "-":6s} {v!r:34s} pages {shown}')
+        cas = cas_valid(strict(v))
+        note = '' if cas is None else '  CAS-OK' if cas else '  CAS-BAD'
+        ok &= cas is not False
+        print(f'{status:9s} {tier_used or "-":6s} {v!r:34s} pages {shown}{note}')
         if a.context and hits:
             pg = a.page if a.page in hits else hits[0]
             p = dict(tiers)[tier_used][pg - 1]
