@@ -121,12 +121,7 @@ class PureSubstanceSection(ArchiveSection):
 
 
 class PubChemPureSubstanceSection(PureSubstanceSection):
-    """Pure substance with PubChem compound identifiers and chemical properties.
-
-    Set ``m_def`` to
-    ``nomad.datamodel.metainfo.basesections.PubChemPureSubstanceSection`` when
-    loading this subsection through the original NOMAD YAML schema.
-    """
+    """Pure substance with PubChem compound identifiers and chemical properties."""
 
     pub_chem_cid: int | None = Field(
         default=None,
@@ -186,7 +181,7 @@ class PublicationReference(ArchiveSection):
 
 
 class Phase(ArchiveSection):
-    """A phase and its components within an equilibrium solution."""
+    """A phase and its substance within an equilibrium solution."""
 
     name: str | None = Field(
         default=None,
@@ -208,11 +203,14 @@ class Phase(ArchiveSection):
         default=None,
         description="Amount of substance in this phase divided by the total amount of substance in the equilibrium solution.",
     )
-    components: list[Component] = Field(default_factory=list)
+    substance: PubChemPureSubstanceSection | None = Field(
+        default=None,
+        description="Chemical identity and PubChem details of the substance forming this phase.",
+    )
 
 
 class EquilibriumSolution(EntryData, BaseSection):
-    """Equilibrium solution with phases, components, and publication references."""
+    """Equilibrium solution with phases and publication references."""
 
     temperature: float | None = Field(
         default=None,
