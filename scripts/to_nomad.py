@@ -3,10 +3,12 @@
 Usage: uv run python scripts/to_nomad.py SDS-60 boxes.jsonl out_dir [--zip]
 
 One EquilibriumSolution entry per table row of a compilation sheet: temperature
-and pressure from the t/°C, T/K and P columns, one Phase per printed component
-with its CAS number, name and formula, and the mass or mole fraction of that
-component when a `100 w_i` or `10^n x_i` column is printed (prefactor removed).
-Columns the schema has no quantity for (Bunsen, Ostwald, Henry, concentrations,
+and pressure from the t/°C, T/K and P columns, and one Phase (the saturated
+solution of the row) whose components are the printed components with CAS
+number, name and formula. A component's Amount is its mole fraction when a
+`10^n x_i` column is printed, else its mass fraction from `100 w_i` (prefactor
+removed); the schema holds one Amount per component, so a second fraction and
+the columns it has no quantity for (Bunsen, Ostwald, Henry, concentrations,
 mass ratios) are kept verbatim in `description`, together with the provenance
 (volume, page, sheet, raw row, citation, witness), until the schema grows.
 Entries are validated with schema/pydantic.py before writing. Output layout:
@@ -17,7 +19,7 @@ from datetime import datetime, timezone
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
-from schema.pydantic import EquilibriumSolution, Phase, PubChemPureSubstanceSection, PublicationReference  # noqa: E402
+from schema.pydantic_schema import Amount, EquilibriumSolution, Phase, PhaseComponent, PubChemPureSubstanceSection, PublicationReference  # noqa: E402
 sys.path.insert(0, str(ROOT / 'scripts'))
 from paths import volume_root  # noqa: E402
 from textnorm import loose, strict  # noqa: E402
@@ -48,6 +50,7 @@ def column(head: str) -> dict:
     """Classify a header cell: kind, component index, prefactor, unit."""
     h = tex(head)
     h = re.sub(r'\(compilers?\)', '', h).strip()
+    h = re.sub(r'^\d(?=[A-Za-z]/)', '', h)                      # footnote mark glued to the symbol: "1T/K"
     col = {'raw': head.strip(), 'kind': 'other', 'i': None, 'pre': 1.0, 'unit': None}
     m = re.match(r'^(?:(?P<pre>\d+(?:\^-?\d+)?|10\^-?\d+)\s+)?(?P<body>.*)$', h)
     pre, body = m.group('pre'), m.group('body')
@@ -68,19 +71,37 @@ def column(head: str) -> dict:
     return col
 
 
+NUMBERED = re.compile(r'\((\d)\)|(?<![\d.,])(\d)\.(?=\s*[A-Za-z])')      # "(1) Water" or "1. Ethene"
+
+
 def parse_components(text: str) -> list[dict]:
+    marks = list(NUMBERED.finditer(text))
     out = []
-    for m in re.finditer(r'\((\d)\)\s*(.*?)(?=\(\d\)\s|$)', text, re.S):
-        parts = [p.strip() for p in m.group(2).split(';')]
+    for k, m in enumerate(marks):
+        body = text[m.end():marks[k + 1].start() if k + 1 < len(marks) else len(text)]
+        parts = [p.strip() for p in body.split(';')]
         name = parts[0] if parts else ''
         formula = tex(parts[1]) if len(parts) > 1 else None
-        cas = re.search(r'\[(\d{2,7}-\d{2}-\d)\]', m.group(2))
+        cas = re.search(r'\[(\d{2,7}-\d{2}-\d)\]', body)
         formula = re.sub(r'[_\s]', '', formula) if formula else None
-        out.append({'i': int(m.group(1)), 'name': re.sub(r'\s+', ' ', name), 'formula': formula or None, 'cas': cas.group(1) if cas else None})
+        out.append({'i': int(m.group(1) or m.group(2)), 'name': re.sub(r'\s+', ' ', name), 'formula': formula or None, 'cas': cas.group(1) if cas else None})
     return out
 
 
 YEAR = re.compile(r'\b(1[89]\d\d|20\d\d)\b')
+BOX_NAME = re.compile(r'COMPONENTS|ORIGINAL MEASUREMENTS|VARIABLES|PREPARED BY|SOURCE AND PURITY|METHOD|REFERENCES|AUXILIARY|ESTIMATED ERROR|CRITICAL EVALUATION', re.I)
+RANGE = r'(?![\d.]|\s*(?:[-–,]|to|and)\s*-?\d)'                              # not part of "293.15-303.15" or "5, 25 and 45"
+SINGLE_T = re.compile(r'(?:T/K\s*=\s*(?P<K>\d{3}(?:\.\d+)?)|(?<![-–] )(?<![-–\d.])(?P<C>-?\d{1,3}(?:\.\d+)?)\s*°\s*C)' + RANGE)
+SINGLE_P = re.compile(r'[pP](?:_\{?\d\}?)?/(?P<u>kPa|MPa|atm|bar|mmHg|Torr|Pa)\s*=\s*(?P<v>\d+(?:\.\d+)?)' + RANGE)
+
+
+def conditions_from_variables(text: str) -> tuple[float | None, float | None]:
+    """Temperature (K) and pressure (Pa) when the VARIABLES box states a single value, e.g. "T/K = 298.15", "at 27°C", "P/kPa = 101.325"."""
+    t = SINGLE_T.search(text)
+    p = SINGLE_P.search(text)
+    temperature = (float(t.group('K')) if t and t.group('K') else float(t.group('C')) + 273.15 if t else None)
+    pressure = float(p.group('v')) * PRESSURE_UNITS[p.group('u').lower()] if p else None
+    return temperature, pressure
 
 
 def layer_citations(vol: str) -> dict[int, list[str]]:
@@ -167,7 +188,8 @@ def main() -> None:
     records = [json.loads(l) for l in a.boxes.open()]
     out = a.out; (out).mkdir(parents=True, exist_ok=True)
     shutil.copy(ROOT / 'schema' / 'schema.archive.yaml', out / 'schema.archive.yaml')
-    stats = {'sheets': 0, 'rows': 0, 'entries': 0, 'no_components': 0, 'no_header': 0, 'no_temperature': 0, 'unmapped_columns': {}}
+    stats = {'sheets': 0, 'rows': 0, 'entries': 0, 'no_components': 0, 'no_header': 0, 'sheet_as_table': 0,
+             'no_temperature': 0, 'conditions_from_variables': 0, 'unmapped_columns': {}}
     layer = layer_citations(vol)
     for r in records:
         if r['kind'] != 'compilation':
@@ -181,6 +203,10 @@ def main() -> None:
         if not head:
             stats['no_header'] += 1
             continue
+        if any(BOX_NAME.search(h) for h in head):                 # the crop caught the whole sheet, not the table
+            stats['sheet_as_table'] += 1
+            continue
+        var_t, var_p = conditions_from_variables(r['boxes'].get('variables', ''))
         cols = [column(h) for h in head]
         for c in cols:
             if c['kind'] == 'other':
@@ -193,7 +219,8 @@ def main() -> None:
             e = EquilibriumSolution(m_def=M_DEF, lab_id=f"{vol}/p{r['page']:03d}/{r['index_on_page']}/r{ri:02d}",
                                     measurement_methods=[method] if method else [], publication_references=[ref])
             extra = []
-            phases = {c['i']: Phase(name=c['name'], substance=PubChemPureSubstanceSection(name=c['name'], molecular_formula=c['formula'], cas_number=c['cas'])) for c in comps}
+            parts = {c['i']: PhaseComponent(name=c['name'], substance=PubChemPureSubstanceSection(name=c['name'], molecular_formula=c['formula'], cas_number=c['cas'])) for c in comps}
+            fractions = {}                                        # (component, kind) -> value, one Amount per component
             for col, cell, v in zip(cols, row, vals):
                 if v is None:
                     continue
@@ -203,13 +230,26 @@ def main() -> None:
                     e.temperature = v
                 elif col['kind'] == 'pressure':
                     e.pressure = v * PRESSURE_UNITS[col['unit']]
-                elif col['kind'] in ('mass_fraction', 'molar_fraction') and col['i'] in phases:
-                    setattr(phases[col['i']], col['kind'], v / col['pre'])
+                elif col['kind'] in ('mass_fraction', 'molar_fraction') and col['i'] in parts and (col['i'], col['kind']) not in fractions:
+                    fractions[(col['i'], col['kind'])] = (v / col['pre'], col, cell)
                 else:
                     extra.append(f"{tex(col['raw'])} = {cell.strip()}")
+            if e.temperature is None and var_t is not None:
+                e.temperature = var_t
+                extra.append(f"temperature from VARIABLES: {r['boxes'].get('variables', '').strip()}")
+                stats['conditions_from_variables'] += 1
+            if e.pressure is None and var_p is not None:
+                e.pressure = var_p
             if e.temperature is None:
                 stats['no_temperature'] += 1
-            e.phases = [phases[k] for k in sorted(phases)]
+            for i in parts:
+                picked = next((k for k in ('molar_fraction', 'mass_fraction') if (i, k) in fractions), None)
+                for k in ('molar_fraction', 'mass_fraction'):
+                    if (i, k) in fractions and k != picked:
+                        extra.append(f"{tex(fractions[(i, k)][1]['raw'])} = {fractions[(i, k)][2].strip()}")
+                if picked:
+                    parts[i].amount = Amount(type=picked.replace('_', ' '), value=fractions[(i, picked)][0], units='dimensionless')
+            e.phases = [Phase(name='saturated solution', components=[parts[k] for k in sorted(parts)])]
             e.name = f"{vol} p{r['page']} sheet {r['index_on_page']} row {ri}: " + ' / '.join(c['name'] for c in comps)
             e.description = '\n'.join([f"source: IUPAC Solubility Data Series volume {vol[4:]}, page {r['page']}, sheet {r['index_on_page']}, table row {ri}",
                                        f"witness: MinerU 2.5-Pro crop pass; columns: {' | '.join(tex(h) for h in head)}",
