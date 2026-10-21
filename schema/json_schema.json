@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "OSI Hackathon Schema",
-  "description": "Equilibrium solution data with phases, chemical components, and publication references.",
-  "$comment": "Validates an EquilibriumSolution data object, without an EntryArchive data wrapper. Fields remain optional as in schema.archive.yaml. Numeric values use the declared storage units. The unit keyword preserves NOMAD storage units; JSON Schema validators do not convert units or run NOMAD normalizers. Component preserves the PureSubstanceComponent wrapper and specializes pure_substance to PubChemPureSubstanceSection.",
+  "description": "Equilibrium solution data with phases, PubChem substances, and publication references.",
+  "$comment": "Validates an EquilibriumSolution data object, without an EntryArchive data wrapper. Fields remain optional as in schema.archive.yaml. Numeric values use the declared storage units. The unit keyword preserves NOMAD storage units; JSON Schema validators do not convert units or run NOMAD normalizers. Each phase has an optional substance described by PubChemPureSubstanceSection.",
   "x-nomad-source-schema": "schema.archive.yaml",
   "x-nomad-sources": [
     "https://docs.nomad-lab.eu/reference/basesections.html",
@@ -144,7 +144,7 @@
     "PubChemPureSubstanceSection": {
       "title": "PubChemPureSubstanceSection",
       "description": "Pure substance with PubChem compound identifiers and inherited chemical properties.",
-      "$comment": "When loading this subsection through the original NOMAD YAML schema, set m_def to nomad.datamodel.metainfo.basesections.PubChemPureSubstanceSection to select this specialized section. JSON Schema validation does not populate defaults or fetch PubChem data.",
+      "$comment": "JSON Schema validation does not populate defaults or fetch PubChem data.",
       "x-nomad-definition": "nomad.datamodel.metainfo.basesections.PubChemPureSubstanceSection",
       "allOf": [
         { "$ref": "#/$defs/PureSubstanceSection" }
@@ -255,9 +255,9 @@
           "type": "number",
           "description": "Amount of substance in this phase divided by the total amount of substance in the equilibrium solution."
         },
-        "components": {
-          "type": "array",
-          "items": { "$ref": "#/$defs/Component" }
+        "substance": {
+          "$ref": "#/$defs/PubChemPureSubstanceSection",
+          "description": "Chemical identity and PubChem details of the substance forming this phase."
         }
       }
     },

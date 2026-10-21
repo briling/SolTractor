@@ -44,9 +44,9 @@ definitions:
             eln:
               component: NumberEditQuantity
       sub_sections:
-        components:
-          repeats: true
-          section: nomad.datamodel.metainfo.basesections.PureSubstanceComponent
+        substance:
+          section: nomad.datamodel.metainfo.basesections.PubChemPureSubstanceSection
+          description: "Chemical identity and PubChem details of the substance forming this phase."
 
     EquilibriumSolution:
       base_sections:
