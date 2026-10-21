@@ -1,0 +1,76 @@
+definitions:
+  name: 'OSI Hackathon Schema'
+  sections:
+    Phase:
+      base_sections:
+        - nomad.datamodel.data.ArchiveSection
+      quantities:
+        name:
+          type: str
+          description: "Short descriptive name identifying this phase within the equilibrium solution."
+          m_annotations:
+            eln:
+              component: StringEditQuantity
+        state_of_matter:
+          type:
+            type_kind: Enum
+            type_data:
+              - solid
+              - liquid
+              - gas
+          description: "Physical state of the phase, such as solid, liquid, or gas."
+          m_annotations:
+            eln:
+              component: EnumEditQuantity
+      sub_sections:
+        components:
+          repeats: true
+          section: nomad.datamodel.metainfo.basesections.PureSubstanceComponent
+
+    EquilibriumSolution:
+      base_sections:
+        - nomad.datamodel.data.EntryData
+        - nomad.datamodel.metainfo.basesections.BaseSection
+      quantities:
+        temperature:
+          type: np.float64
+          unit: kelvin
+          description: "Isothermal temperature of the solution."
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+            display:
+              unit: celsius
+        pressure:
+          type: np.float64
+          unit: pascal
+          description: "Gas pressure over the solution (assumed to be isobar)."
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+            display:
+              unit: pascal
+        measurement_methods:
+          type: str
+          shape: ["*"]
+          description: "Methods used to measure the equilibrium properties of the solution."
+          m_annotations:
+            eln:
+              component: StringEditQuantity
+        mixing_methods:
+          type: str
+          shape: ["*"]
+          description: "Methods used to mix the components when preparing the solution."
+          m_annotations:
+            eln:
+              component: StringEditQuantity
+      sub_sections:
+        components:
+          repeats: true
+          section: nomad.datamodel.metainfo.basesections.PureSubstanceComponent
+        phases:
+          repeats: true
+          section: "#/Phase"
+        publication_references:
+          repeats: true
+          section: nomad.datamodel.metainfo.basesections.PublicationReference
