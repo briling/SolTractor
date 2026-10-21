@@ -196,6 +196,18 @@ class Phase(ArchiveSection):
         default=None,
         description="Physical state of the phase, such as solid, liquid, or gas.",
     )
+    mass_fraction: float | None = Field(
+        default=None,
+        description="Mass of this phase divided by the total mass of the equilibrium solution.",
+    )
+    partial_pressure: float | None = Field(
+        default=None,
+        description="Partial pressure of this phase in the equilibrium system.",
+    )
+    molar_fraction: float | None = Field(
+        default=None,
+        description="Amount of substance in this phase divided by the total amount of substance in the equilibrium solution.",
+    )
     components: list[Component] = Field(default_factory=list)
 
 
@@ -218,6 +230,5 @@ class EquilibriumSolution(EntryData, BaseSection):
         default_factory=list,
         description="Methods used to mix the components when preparing the solution.",
     )
-    components: list[Component] = Field(default_factory=list)
     phases: list[Phase] = Field(default_factory=list)
     publication_references: list[PublicationReference] = Field(default_factory=list)

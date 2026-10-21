@@ -22,6 +22,27 @@ definitions:
           m_annotations:
             eln:
               component: EnumEditQuantity
+        mass_fraction:
+          type: np.float64
+          description: "Mass of this phase divided by the total mass of the equilibrium solution."
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+        partial_pressure:
+          type: np.float64
+          unit: pascal
+          description: "Partial pressure of this phase in the equilibrium system."
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+            display:
+              unit: pascal
+        molar_fraction:
+          type: np.float64
+          description: "Amount of substance in this phase divided by the total amount of substance in the equilibrium solution."
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
       sub_sections:
         components:
           repeats: true
@@ -65,9 +86,6 @@ definitions:
             eln:
               component: StringEditQuantity
       sub_sections:
-        components:
-          repeats: true
-          section: nomad.datamodel.metainfo.basesections.PureSubstanceComponent
         phases:
           repeats: true
           section: "#/Phase"

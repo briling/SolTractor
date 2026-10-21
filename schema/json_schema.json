@@ -242,6 +242,19 @@
           "enum": ["solid", "liquid", "gas"],
           "description": "Physical state of the phase, such as solid, liquid, or gas."
         },
+        "mass_fraction": {
+          "type": "number",
+          "description": "Mass of this phase divided by the total mass of the equilibrium solution."
+        },
+        "partial_pressure": {
+          "type": "number",
+          "unit": "pascal",
+          "description": "Partial pressure of this phase in the equilibrium system."
+        },
+        "molar_fraction": {
+          "type": "number",
+          "description": "Amount of substance in this phase divided by the total amount of substance in the equilibrium solution."
+        },
         "components": {
           "type": "array",
           "items": { "$ref": "#/$defs/Component" }
@@ -275,10 +288,6 @@
           "type": "array",
           "items": { "type": "string" },
           "description": "Methods used to mix the components when preparing the solution."
-        },
-        "components": {
-          "type": "array",
-          "items": { "$ref": "#/$defs/Component" }
         },
         "phases": {
           "type": "array",
