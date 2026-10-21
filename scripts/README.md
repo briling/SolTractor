@@ -63,6 +63,7 @@ without knowing which witness produced it.
 | `mineru_to_boxes.py page.json boxes.jsonl` | MinerU page output | boxes jsonl | turn MinerU's one-table-per-sheet HTML into boxes records: a sheet starts at a COMPONENTS cell, a table without one continues the sheet before |
 | `crops_to_boxes.py boxes.jsonl tables.jsonl out.jsonl` | boxes jsonl, crop results | boxes jsonl | replace each sheet's flattened EXPERIMENTAL VALUES text by the row-structured table read from its crop, matched by shared numbers on the same page |
 | `mineru_viewer.py extracted/ out.html` | MinerU page output | HTML | show each sheet's region image next to the table MinerU returned, for eyeballing |
+| `to_nomad.py SDS-N boxes.jsonl out/ --zip` | a boxes jsonl (crop pass), the text layer's citation lines, `schema/` | `out/schema.archive.yaml`, `out/SDS-N/p<page>-<sheet>/r<row>.archive.json`, zip | one `EquilibriumSolution` entry per table row: temperature and pressure (from the table, else from a single-valued VARIABLES box), one phase whose components are the printed components with CAS, name, formula and an `Amount` (mole fraction, else mass fraction); unmapped columns and provenance in `description`; crops that caught the whole sheet are skipped; validated with `schema/pydantic_schema.py`; run with `uv run python` |
 
 ## Typical sequences
 
@@ -75,3 +76,7 @@ Vision witness: `crop_tables.py` here, the page pass and the crop pass on the GP
 
 Quality control of an extraction: `backsearch.py` for the values, `cas_survey.py` and
 `cas_resolve.py` for the identifiers.
+
+NOMAD upload: `uv run python scripts/to_nomad.py SDS-60 data/ground_truth/mineru/SDS-60/boxes-crops.jsonl out/nomad-SDS-60 --zip`
+writes the entries next to a copy of the schema and zips them as an upload; the volume 60
+zip is in the HU Box library under `nomad/`.
