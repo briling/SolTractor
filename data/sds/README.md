@@ -24,3 +24,26 @@ this folder, e.g.
 python3 -I data/sds/scripts/scan_columns.py SDS-30 --tokens --lines 4
 python3 -I data/sds/scripts/backsearch.py SDS-1 "298.15" "10361-37-2" --page 45
 ```
+
+## Mined vs unmined volumes
+
+The IUPAC-NIST Solubility Database (NIST SRD 106, https://srdata.nist.gov/solubility/,
+data last updated 2012) holds 18 volumes keyed by hand: 20, 37, 38, 57, 58, 59, 60, 62,
+66-73, 77, 78. Each compilation sheet is one page
+(`sol_detail.aspx?sysID=<vol>_<n>`) with the components, original measurement, variables,
+an HTML table of the experimental values with explicit column headers and units, and the
+method, purity and error boxes; critical evaluations are separate pages. Volumes are
+listed at `dataSeries.aspx`, systems per volume at `sol_sys.aspx?nm_dataSeries=DS<k>`,
+and sheets per system at `sol_sys_lst.aspx?sysID=<id>&SerialID=DS<k>` (paged, 30 per page).
+
+`volumes.csv` classifies the 65 monograph volumes:
+
+| status  | volumes | pages | meaning |
+|---------|--------:|------:|---------|
+| mined   | 8       | 3168  | PDF on the mirror and sheets in the NIST database: ground truth for calibrating extraction and QC |
+| unmined | 46      | 17921 | PDF on the mirror, not in the database: the extraction target |
+| index   | 3       |       | cumulative indexes (19, 39, 53), no data sheets |
+| missing | 8       |       | not on the mirror (5/6, 16/17, 27/28, 45/46) |
+
+The NIST transcription is not error-free either (e.g. a purity keyed as "00.78 %"), so
+disagreements between the extraction and the database need the page image as arbiter.

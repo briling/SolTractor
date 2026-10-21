@@ -1,0 +1,66 @@
+volume,title,kind,on_mirror,pages,in_nist_db,nist_series_id,status
+1,Helium and Neon,data,True,411,False,,unmined
+2,"Krypton, Xenon and Radon",data,True,377,False,,unmined
+3,"Silver Azide, Cyanide, Cyanamides, Cyanate, Selenocyanate and Thiocyanate",data,True,265,False,,unmined
+4,Argon,data,True,347,False,,unmined
+5,Hydrogen and Deuterium (Part 1),data,False,,False,,missing
+6,Hydrogen and Deuterium (Part 2),data,False,,False,,missing
+7,Oxygen and Ozone,data,True,533,False,,unmined
+8,Oxides of Nitrogen,data,True,383,False,,unmined
+9,Ethane,data,True,281,False,,unmined
+10,Nitrogen and Air,data,True,613,False,,unmined
+11,"Alkali Metal, Alkaline Earth Metal and Ammonium Halides, Amide Solvents",data,True,370,False,,unmined
+12,"Sulfur Dioxide, Chlorine, Fluorine and Chlorine Oxides",data,True,494,False,,unmined
+13,"Scandium, Yttrium, Lanthanum and Lanthanide Nitrates",data,True,514,False,,unmined
+14,Alkaline Earth Metal Halates,data,True,351,False,,unmined
+15,Alcohols with Water,data,True,456,False,,unmined
+16,Antibiotics: 1. beta-Lactam Antibiotics (Part 1),data,False,,False,,missing
+17,Antibiotics: 1. beta-Lactam Antibiotics (Part 2),data,False,,False,,missing
+18,Tetraphenylborates,data,True,261,False,,unmined
+19,Cumulative Index: Volumes 1-18,index,True,309,False,,index
+20,"Halogenated Benzenes, Toluenes and Phenols with Water",data,True,287,True,DS1,mined
+21,"Ammonia, Amines, Phosphine, Arsine, Stibine, Silane, Germane and Stannane in Organic Solvents",data,True,360,False,,unmined
+22,"Scandium, Yttrium, Lanthanum and Lanthanide Halides in Non-aqueous Solvents",data,True,418,False,,unmined
+23,"Copper, Silver, Gold and Zinc, Cadmium, Mercury Oxides and Hydroxides",data,True,379,False,,unmined
+24,"Propane, Butane and 2-Methylpropane",data,True,467,False,,unmined
+25,Metals in Mercury,data,True,461,False,,unmined
+26,"Sulfites, Selenites and Tellurites",data,True,474,False,,unmined
+27,Methane (Part 1),data,False,,False,,missing
+28,Methane (Part 2),data,False,,False,,missing
+29,"Mercury in Liquids, Compressed Gases, Molten Salts and Other Elements",data,True,267,False,,unmined
+30,"Alkali Metal Halates, Ammonium Iodate and Iodic Acid",data,True,534,False,,unmined
+31,Alkali Metal Orthophosphates,data,True,368,False,,unmined
+32,"Hydrogen Sulfide, Deuterium Sulfide and Hydrogen Selenide",data,True,368,False,,unmined
+33,Molten Alkali Metal Alkanoates,data,True,380,False,,unmined
+34,4-Aminobenzenesulfonamides. Part I: Non-cyclic Substituents,data,True,373,False,,unmined
+35,4-Aminobenzenesulfonamides. Part II: 5-membered Heterocyclic Substituents,data,True,371,False,,unmined
+36,4-Aminobenzenesulfonamides. Part III: 6-membered Heterocyclic Substituents and Miscellaneous Systems,data,True,553,False,,unmined
+37,Hydrocarbons with Water and Seawater. Part I: Hydrocarbons C5 to C7,data,True,547,True,DS8,mined
+38,Hydrocarbons with Water and Seawater. Part II: Hydrocarbons C8 to C36,data,True,581,True,DS9,mined
+39,Cumulative Index: Volumes 20-38,index,True,376,False,,index
+40,"Halides, Oxyhalides and Salts of Halogen Complexes of Ti, Zr, Hf, V, Nb and Ta",data,True,363,False,,unmined
+41,Alkaline Earth Metal Perchlorates,data,True,301,False,,unmined
+42,Hydrogen Halides in Non-aqueous Solvents,data,True,494,False,,unmined
+43,Carbon Monoxide,data,True,329,False,,unmined
+44,Copper and Silver Halates,data,True,265,False,,unmined
+45,Gases in Molten Salts (Part 1),data,False,,False,,missing
+46,Gases in Molten Salts (Part 2),data,False,,False,,missing
+47,Alkali Metal and Ammonium Halides in Water and Heavy Water,data,True,562,False,,unmined
+48,Esters with Water. Part I: Esters 2-C to 6-C,data,True,371,False,,unmined
+49,Esters with Water. Part II: Esters 7-C to 32-C,data,True,264,False,,unmined
+50,Carbon Dioxide in Non-aqueous Solvents at Pressures Less Than 200 kPa,data,True,500,False,,unmined
+51,Intermetallic Compounds in Mercury,data,True,289,False,,unmined
+52,Alkaline Earth Hydroxides in Water and Aqueous Solutions,data,True,388,False,,unmined
+53,Cumulative Index: Volumes 40-52,index,False,,False,,index
+54,Polycyclic Aromatic Hydrocarbons in Pure and Binary Solvents,data,True,383,False,,unmined
+55,Actinide Nitrates,data,True,381,False,,unmined
+56,Alcohols with Hydrocarbons,data,True,320,False,,unmined
+57,Ethene,data,True,375,True,DS18,mined
+58,"Polycyclic Aromatic Hydrocarbons: Binary Non-aqueous Systems, Part I",data,True,384,True,DS6,mined
+59,"Polycyclic Aromatic Hydrocarbons: Binary Non-aqueous Systems, Part II",data,True,377,True,DS7,mined
+60,Halogenated Methanes with Water,data,True,216,True,DS2,mined
+61,"Alkali Metal and Ammonium Perchlorates, Part I: Lithium and Sodium Perchlorates",data,True,286,False,,unmined
+62,Carbon Dioxide in Water and Aqueous Electrolyte Solutions,data,True,401,True,DS16,mined
+63,"Metals in Liquid Alkali Metals, Part I: Be to Os",data,True,324,False,,unmined
+64,"Metals in Liquid Alkali Metals, Part II: Co to Bi",data,True,360,False,,unmined
+65,Copper(I) Halides and Pseudohalides,data,True,312,False,,unmined
