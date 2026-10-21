@@ -20,9 +20,9 @@ Writes cas/cas_resolved.csv, one row per distinct CAS string.
 """
 import argparse, collections, csv, json, pathlib, re, sys, time, urllib.error, urllib.parse, urllib.request
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from paths import ROOT, all_boxes  # noqa: E402
 from textnorm import cas_valid, loose, strict  # noqa: E402
 
-ROOT = pathlib.Path(__file__).resolve().parent.parent
 PUG = 'https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/'
 CAS = re.compile(r'(?<!\d)\d{2,7}-\d{2}-\d(?!\d)')
 COMPONENT = re.compile(r'(?:\(\s*\d\s*\)|^\s*\d\s*\.)?\s*([^;\[\]]{3,80}?)\s*;\s*([A-Za-z0-9().·\s]{1,30}?)\s*;?\s*[\[(]?\s*(\d{2,7}-\d{2}-\d)', re.M)
@@ -67,7 +67,7 @@ def main() -> None:
     cache_file = ROOT / 'cas' / 'pubchem-cache.json'
     cache = json.load(cache_file.open()) if cache_file.exists() else {}
     seen: dict[str, dict] = {}
-    for f in sorted((ROOT / 'boxes').glob('SDS-*.jsonl'), key=lambda p: int(p.stem.split('-')[1])):
+    for f in all_boxes():
         for line in f.open():
             r = json.loads(line)
             comp = strict(r['boxes'].get('components', ''))

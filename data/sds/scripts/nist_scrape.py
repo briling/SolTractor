@@ -9,8 +9,9 @@ server. Only the standard library is used.
 """
 import argparse, html, json, pathlib, re, sys, time, urllib.parse, urllib.request
 from html.parser import HTMLParser
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from paths import NIST, ROOT  # noqa: E402
 
-ROOT = pathlib.Path(__file__).resolve().parent.parent
 BASE = 'https://srdata.nist.gov/solubility/'
 SERIES = {20: 'DS1', 37: 'DS8', 38: 'DS9', 57: 'DS18', 58: 'DS6', 59: 'DS7', 60: 'DS2',
           62: 'DS16', 66: 'DS15', 67: 'DS3', 68: 'DS4', 69: 'DS5', 70: 'DS17', 71: 'DS10',
@@ -119,7 +120,7 @@ def sheet_ids(list_page: str) -> list[str]:
 
 def scrape_volume(vol: int, delay: float) -> None:
     ds = SERIES[vol]
-    raw = ROOT / 'nist' / 'raw' / f'SDS-{vol}'
+    raw = NIST / 'raw' / f'SDS-{vol}'
     raw.mkdir(parents=True, exist_ok=True)
     vol_page = fetch(f'{BASE}sol_sys.aspx?nm_dataSeries={ds}', raw / 'systems.html', delay)
     systems = re.findall(r'sysID=(\d+)&amp;SerialID=' + ds + r'[^>]*>([^<]*)', vol_page)
@@ -145,7 +146,7 @@ def scrape_volume(vol: int, delay: float) -> None:
             rec['system_name'] = html.unescape(sys_name)
             records.append(rec)
         print(f'  {sys_id} {html.unescape(sys_name)}: {len(ids)} sheets ({npage - 1} pages)', flush=True)
-    out = ROOT / 'nist' / f'SDS-{vol}.json'
+    out = NIST / f'SDS-{vol}.json'
     out.write_text(json.dumps(records, indent=1, ensure_ascii=False))
     kinds = {k: sum(r['kind'] == k for r in records) for k in ('compilation', 'evaluation')}
     print(f'SDS-{vol}: {len(records)} sheets {kinds} -> {out.relative_to(ROOT)}', flush=True)

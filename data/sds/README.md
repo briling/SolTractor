@@ -10,6 +10,9 @@ Text extraction with quality control from the IUPAC Solubility Data Series
 - `scripts/fetch_volumes.sh`  download + text cache.
 - `scripts/scan_columns.py`   tally EXPERIMENTAL VALUES table headers per volume.
 - `extracted/`  LLM extraction output.
+- `ground_truth/`  the 8 volumes keyed in the NIST database, kept apart from the extraction
+           targets: their `pdfs/`, `text/`, `boxes/` and `extracted/`, plus `nist/` (the
+           scraped database sheets and their alignment with the OCR sheets).
 
 Each volume is a sequence of fixed-form data sheets: COMPONENTS / ORIGINAL
 MEASUREMENTS / VARIABLES / PREPARED BY / EXPERIMENTAL VALUES / AUXILIARY
@@ -17,8 +20,9 @@ INFORMATION (METHOD, SOURCE AND PURITY, ESTIMATED ERROR, REFERENCES), plus
 CRITICAL EVALUATION sheets per system.
 
 The PDFs are not committed (687 MB); run `scripts/fetch_volumes.sh` from this folder
-to download them into `pdfs/` and regenerate `text/`. Scripts resolve paths relative to
-this folder, e.g.
+to download them into `pdfs/` (`ground_truth/pdfs/` for the mined volumes) and regenerate
+`text/`. Scripts take a volume name and resolve its folder themselves (`scripts/paths.py`,
+from the status in `volumes.csv`), e.g.
 
 ```bash
 python3 -I data/sds/scripts/scan_columns.py SDS-30 --tokens --lines 4
@@ -40,7 +44,7 @@ and sheets per system at `sol_sys_lst.aspx?sysID=<id>&SerialID=DS<k>` (paged, 30
 
 | status  | volumes | pages | meaning |
 |---------|--------:|------:|---------|
-| mined   | 8       | 3168  | PDF on the mirror and sheets in the NIST database: ground truth for calibrating extraction and QC |
+| mined   | 8       | 3168  | PDF on the mirror and sheets in the NIST database: ground truth for calibrating extraction and QC, under `ground_truth/` |
 | unmined | 46      | 17921 | PDF on the mirror, not in the database: the extraction target |
 | index   | 3       |       | cumulative indexes (19, 39, 53), no data sheets |
 | missing | 8       |       | not on the mirror (5/6, 16/17, 27/28, 45/46) |
@@ -50,18 +54,21 @@ disagreements between the extraction and the database need the page image as arb
 
 ## Pipeline scripts
 
+- `scripts/paths.py`: where a volume's files live (`ground_truth/` for mined volumes,
+  this folder otherwise).
 - `scripts/textnorm.py`: normalization shared by the QC scripts (strict: OCR-spaced
   digits and punctuation; loose: alphanumerics only; numeric tokens of a cell; CAS numbers).
 - `scripts/segment_boxes.py SDS-N`: cuts the OCR text into sheets and their printed boxes
   (`boxes/SDS-N.jsonl`, one record per sheet). Box headers are matched fuzzily and the
   two-column regions are split at the column of the right-hand header. Committed for the
-  mined volumes only; the others regenerate in seconds.
+  mined volumes only (`ground_truth/boxes/`); the others regenerate in seconds.
 - `scripts/nist_scrape.py 60 [...]`: scrapes the NIST database sheets of a volume into
-  `nist/SDS-N.json` (same box names, plus the experimental table as headers and rows).
-  Raw HTML is cached in the ignored `nist/raw/`.
+  `ground_truth/nist/SDS-N.json` (same box names, plus the experimental table as headers
+  and rows). Raw HTML is cached in the ignored `ground_truth/nist/raw/`. Volumes 66-78 are
+  JPCRD articles without a PDF here, so only their NIST sheets are kept.
 - `scripts/align_nist.py 60`: matches NIST sheets to OCR sheets (solute CAS numbers,
   citation tokens, and recall of the keyed table values in the OCR box; one-to-one) and
-  writes `nist/align-SDS-N.csv`. For volume 60: 263 of 288 sheets aligned, 97% of the
+  writes `ground_truth/nist/align-SDS-N.csv`. For volume 60: 263 of 288 sheets aligned, 97% of the
   keyed table values occur verbatim in the matching OCR box.
 - `scripts/backsearch.py SDS-N value ... --page P`: confirms extracted values against the
   OCR layer.
