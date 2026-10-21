@@ -15,8 +15,8 @@ be checked value by value against the page.
 - `scripts/`: the pipeline, stdlib-only Python run as `python3 -I scripts/<name>.py`,
   plus `fetch_volumes.sh`. Documented in `docs/sds-pipeline.md`.
 - `schema/`: the target record as a NOMAD YAML schema, a JSON schema and a pydantic model.
-- `docs/`: `sds-pipeline.md` (data, scripts, QC numbers) and `DEPLOY-mineru.md` (running
-  the document vision model on a GPU node as the second witness).
+- `docs/`: `sds-pipeline.md` (data, scripts, QC numbers). The brief for running the
+  document vision model on a GPU node is internal and lives in the HU Box library, not here.
 
 ## Setup
 

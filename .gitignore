@@ -8,3 +8,4 @@ data/ground_truth/nist/*.log
 data/boxes/
 data/cas/pubchem-cache.json
 data/ground_truth/mineru/*/raw
+docs/DEPLOY-mineru.md

@@ -75,7 +75,7 @@ disagreements between the extraction and the database need the page image as arb
 
 ## Second witness: MinerU on the page images
 
-The text layer is one reading of every page; `docs/DEPLOY-mineru.md` describes the second,
+The text layer is one reading of every page; the second is
 the document vision model MinerU 2.5-Pro run on a GPU node over the page images. Its
 results for the ground-truth volumes live in `ground_truth/mineru/SDS-N/` (page JSON,
 run logs, the converted boxes, the NIST alignments, `CHECKS.md` with the numbers and
