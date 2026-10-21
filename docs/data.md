@@ -38,9 +38,9 @@ python export_nist_archives.py
 ```
 
 Files are written to `data/nist_archives/`, named after the measurement id (for example,
-`62_197_t0_r1.json`). The exporter maps temperature, pressure, components, and the system
-phase to `schema.archive.yaml`; the schema does not yet define fields for measurement values
-such as solubility or composition.
+`62_197_t0_r1.json`). The exporter maps temperature, pressure, components, phase, normalized
+measurement values (including concentrations), and NIST's measurement-method text to
+`schema.archive.yaml`.
 
 ## How the website maps to the data
 
