@@ -1,0 +1,6503 @@
+[
+ {
+  "sheet_id": "78_99",
+  "system_id": "78039",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_99",
+  "system": "Acetonitrile with 1,1,1-Trichloro-2,2,2-trifluoroethane",
+  "components": "(1) 1,1,1-Trichloro-2,2,2-trifluoroethane; C2Cl3F3; [354-58-5]\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Ott, J.B.; Woodfield, B.F.; Guanquan, C.; Boerio-Goates, J.; Goates, J.R., J. Chem. Thermodyn. 19, 177-84 (1987).",
+  "variables": "Temperature = 226 to 284",
+  "prepared_by": "Valerii  P. Sazonov",
+  "critical_evaluation": "No region of liquid-liquid immiscibility was observed. A full solid-liquid phase diagram in mole fractions over the specified temperature range was reported in the original publication.\nA eutectic was reported at 226.14 K (-47.01°C, compiler) at x_1 = 0.922 (100 w_1 = 72.1, compiler).",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The synthetic method was used. The freezing-temperature apparatus has been described previously^1 but the temperature -measurement system is new. Temperatures were measured with a Leeds and Northrup platinum resistance thermometer and with a Solartron Model 7081 digital multimeter which has a sensitivity on the 100 Ω scale of 10 μΩ. The multimeter used a 1 mA current for measurements of resistance less than 100 Ω. The resistance meter was interfaced to a Hewlett-Packard Model 9845C computer through an IEEE bus. The computer read and stored a resistance measurement every 4 s from which cooling and warming curves of time against temperature could be constructed. The computer could be signaled to record visual melting temperatures during the recording process. The results were continually plotted on a video monitor, recorded on disk, and eventually plotted to provide a permanent record of the time-against-temperature cooling and warming curves.",
+  "source_purity": "(1) MBC Omnisolv; purified by fractional distillation in a vacuum-jacketed 2 m column packed with glass helices and operated at a reflux ratio of approximately 100; purity 0.9998 mole fractions; melting point=-43.87 °C.\n(2) Aldrich; reagent grade; purified by fractional distillation in a vacuum-jacketed 2 m column packed with glass helices and operated at a reflux ratio of approximately 100; purity 0.9998 mole fractions; melting point=14.37°C.",
+  "estimated_error": "Temperature: ± 0.05 K.",
+  "references": "1. J. R. Goates, J. B. Ott, and A. H. Budge, J. Phys. Chem. 65, 2162 (1961).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1,1,1-Trichloro-2,2,2-trifluoroethane",
+    "formula": "C2Cl3F3",
+    "cas": "354-58-5"
+   },
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "Mole Fraction x_1"
+    ],
+    "rows": [
+     [
+      "14.37",
+      "287.52",
+      "0.000",
+      "0.0000"
+     ],
+     [
+      "11.26",
+      "284.41",
+      "0.575",
+      "0.0257"
+     ],
+     [
+      "8.71",
+      "281.86",
+      "1.19",
+      "0.0523"
+     ],
+     [
+      "6.00",
+      "279.15",
+      "2.18",
+      "0.0922"
+     ],
+     [
+      "3.89",
+      "277.04",
+      "3.281",
+      "0.1341"
+     ],
+     [
+      "1.89",
+      "275.04",
+      "4.860",
+      "0.1891"
+     ],
+     [
+      "-0.49",
+      "272.66",
+      "8.071",
+      "0.2861"
+     ],
+     [
+      "-1.93",
+      "271.22",
+      "12.01",
+      "0.3839"
+     ],
+     [
+      "-3.16",
+      "269.99",
+      "17.49",
+      "0.4918"
+     ],
+     [
+      "-4.61",
+      "268.54",
+      "24.53",
+      "0.5974"
+     ],
+     [
+      "-7.25",
+      "265.90",
+      "33.41",
+      "0.6961"
+     ],
+     [
+      "-13.16",
+      "259.99",
+      "45.43",
+      "0.7917"
+     ],
+     [
+      "-26.95",
+      "246.20",
+      "59.90",
+      "0.8721"
+     ],
+     [
+      "-41.95",
+      "231.20",
+      "69.85",
+      "0.9136"
+     ],
+     [
+      "-47.01",
+      "226.14",
+      "72.1",
+      "0.922"
+     ],
+     [
+      "-46.45",
+      "226.70",
+      "77.41",
+      "0.9399"
+     ],
+     [
+      "-45.79",
+      "227.36",
+      "83.71",
+      "0.9591"
+     ],
+     [
+      "-44.83",
+      "228.32",
+      "91.60",
+      "0.9803"
+     ],
+     [
+      "-43.87",
+      "229.28",
+      "100.00",
+      "1.0000"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Acetonitrile with 1,1,1-Trichloro-2,2,2-trifluoroethane"
+ },
+ {
+  "sheet_id": "78_132",
+  "system_id": "78064",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_132",
+  "system": "Acetonitrile with 1,1'-Oxybispentane (dipentyl ether)",
+  "components": "(1) 1,1’-Oxybispentane (dipentyl ether); C10H22O; [693-65-2]\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Sazonov, V.P.; Gudkina, L.V., Zh. Prikl. Khim. (Leningrad) 47, 2515-8 (1974).",
+  "variables": "Temperature = 298 K to 306 K",
+  "prepared_by": "Valerii  P. Sazonov",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The synthetic method was used. No experimental details were reported.",
+  "source_purity": "(1) Soyuzreaktiv, USSR; CP reagent; dried over P_2O_5 and twice distilled in a laboratory packed column; n(20 °C, D) = 1.3440, d(20 °C, 4 °C) = 0.7828.\n(2) Soyuzreaktiv, USSR; pure grade reagent; dried over CaCl_2 and purified by two vacuum distillations over sodium; d(20 °C, 4 °C) = 0.7838.",
+  "estimated_error": "Solubility: Not reported.\nTemperature: Not reported.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1,1’-Oxybispentane (dipentyl ether)",
+    "formula": "C10H22O",
+    "cas": "693-65-2"
+   },
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "10^2 * Mass Fraction w_1",
+     "Mole Fraction x_1 (compiler)",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "24.50",
+      "297.65",
+      "-",
+      "-",
+      "Ether-rich phase"
+     ],
+     [
+      "28.60",
+      "301.75",
+      "-",
+      "-",
+      "Ether-rich phase"
+     ],
+     [
+      "29.00",
+      "302.15",
+      "24.6",
+      "0.557",
+      "Ether-rich phase"
+     ],
+     [
+      "30.80",
+      "303.95",
+      "-",
+      "-",
+      "Ether-rich phase"
+     ],
+     [
+      "31.55",
+      "304.70",
+      "29.3",
+      "0.615",
+      "Ether-rich phase"
+     ],
+     [
+      "32.40",
+      "305.55",
+      "-",
+      "-",
+      "Ether-rich phase"
+     ],
+     [
+      "32.65",
+      "305.80",
+      "34.7",
+      "0.672",
+      "Ether-rich phase"
+     ],
+     [
+      "32.90",
+      "306.05.",
+      "39.9",
+      "0.719",
+      "Ether-rich phase"
+     ],
+     [
+      "32.95",
+      "306.10",
+      "44.6",
+      "0.756",
+      "Ether-rich phase"
+     ],
+     [
+      "24.50",
+      "297.65",
+      "70.1",
+      "0.900",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "28.60",
+      "301.75",
+      "64.9",
+      "0.877",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "29.00",
+      "302.15",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "30.80",
+      "303.95",
+      "60.0",
+      "0.853",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "31.55",
+      "304.70",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "32.40",
+      "305.55",
+      "54.6",
+      "0.823",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "32.65",
+      "305.80",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "32.90",
+      "306.05.",
+      "50.0",
+      "0.794",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "32.95",
+      "306.10",
+      "44.6",
+      "0.756 (UCST)",
+      "Acetonitrile-rich phase"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Acetonitrile with 1,1'-Oxybispentane (dipentyl ether)"
+ },
+ {
+  "sheet_id": "78_105",
+  "system_id": "78045",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_105",
+  "system": "Acetonitrile with 1,2,3-Propanetriol (glycerol)",
+  "components": "(1) 1,2,3-Propanetriol (glycerol); C3H8O3; [56-81-5]\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Sazonov V.P.; Gudkina, L.V., Zh. Prikl. Khim. (Leningrad) 46, 1076 (1973).",
+  "variables": "Temperature = 299 K to 320 K",
+  "prepared_by": "Valerii  P. Sazonov",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The synthetic method was used. Determinations were made in sealed tubes, which were heated and allowed to cool slowly in water bath. Thermometers were calibrated to 0.01 K.",
+  "source_purity": "(1) Soyuzreaktiv, USSR; CP reagent; dried over P_2O_5 and twice distilled in a laboratory packed column; n(20 °C, D) = 1.3440, d(20 °C, 4 °C) = 0.7828.\n(2) Soyuzreaktiv, USSR; pure grade reagent; purified by two vacuum distillations; water content by the method Fischer less than 0.04 mass. %.",
+  "estimated_error": "Temperature: ± 0.02 K.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1,2,3-Propanetriol (glycerol)",
+    "formula": "C3H8O3",
+    "cas": "56-81-5"
+   },
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "10^2 * Mass Fraction w_1",
+     "Mole Fraction x_1 (compiler)",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "25.4",
+      "298.6",
+      "8.35",
+      "0.170",
+      "Glycerol-rich phase"
+     ],
+     [
+      "31.3",
+      "304.5",
+      "-",
+      "-",
+      "Glycerol-rich phase"
+     ],
+     [
+      "37.4",
+      "310.6",
+      "10.0",
+      "0.200",
+      "Glycerol-rich phase"
+     ],
+     [
+      "39.3",
+      "312.5",
+      "-",
+      "-",
+      "Glycerol-rich phase"
+     ],
+     [
+      "46.7",
+      "319.9",
+      "-",
+      "-",
+      "Glycerol-rich phase"
+     ],
+     [
+      "25.4",
+      "298.6",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "31.3",
+      "304.5",
+      "95.0",
+      "0.977",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "37.4",
+      "310.6",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "39.3",
+      "312.5",
+      "94.0",
+      "0.972",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "46.7",
+      "319.9",
+      "92.4",
+      "0.965",
+      "Acetonitrile-rich phase"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Acetonitrile with 1,2,3-Propanetriol (glycerol)"
+ },
+ {
+  "sheet_id": "78_136",
+  "system_id": "78068",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_136",
+  "system": "Acetonitrile with 1,2,3-Trialkyl glyceryl ethers",
+  "components": "(1) 1,2,3-Trialkyl glyceryl ethers; C47H96O3 - C57H116O3; []\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Schmid, H.H.O.; Mangold, H.K.; Lundberg, W.O.; Baumann, W.J., Microchem. J. 11, 306-14 (1966).",
+  "variables": "Temperature = 464 K to 495 K",
+  "prepared_by": "Valerii  P. Sazonov",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A microscope equipped with a heating stage as in Schmid  et al.^1 was employed for determining UCST values. No experimental details are given.",
+  "source_purity": "(1) Baker Chemical Co.; reagent No. 9011.\n(2) Synthesized as in work of Baumann and Mangold.^2",
+  "estimated_error": "Solubility: Not specified.\nTemperature: Not specified.",
+  "references": "1. H. H. O. Schmid, H. K. Mangold, and W. O. Lundberg, J. Am. Oil Chem. Soc. 42, 372 (1965).\n2. W. J. Baumann and H. K. Mangold, J. Org. Chem. 29, 3055 (1964).",
+  "components_parsed": [
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "Chemical Name"
+    ],
+    "rows": [
+     [
+      "191.0",
+      "464.2",
+      "1-(Dodecyloxy)-2,3-bis(hexadecyloxy)propane; C47H96O3; [6076-43-3]"
+     ],
+     [
+      "196.5",
+      "469.7",
+      "(Z,Z,Z)-1,2,3-Tris(9-octadecenyloxy)propane; C57H110O3; [10431-15-9]"
+     ],
+     [
+      "198.0",
+      "471.2",
+      "1-(Dodecyloxy)-2-(hexadecyloxy)-3-(octadecyloxy)propane; C49H100O3; [6068-27-5]"
+     ],
+     [
+      "204.5",
+      "477.7",
+      "1-(Dodecyloxy)-2,3-bis(octadecyloxy)propane; C51H104O3; [5896-48-0]"
+     ],
+     [
+      "204.5",
+      "477.7",
+      "1,2,3-Tris(hexadecyloxy)propane; C51H104O3; [6110-59-4]"
+     ],
+     [
+      "206.0",
+      "479.2",
+      "(Z,Z)-1,2-Bis(9-octadecenyloxy)-3-(octadecyloxy)propane; C57H112O3; [10431-14-8]"
+     ],
+     [
+      "213.5",
+      "486.7",
+      "(Z)-1-(9-Octadecenyloxy)-2,3-bis(octadecyloxy)propane; C57H114O3; [13166-06-8]"
+     ],
+     [
+      "222.0",
+      "495.2",
+      "1,2,3-Tris(octadecyloxy)propane; C57H116O3; [6076-42-2]"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Acetonitrile with 1,2,3-Trialkyl glyceryl ethers"
+ },
+ {
+  "sheet_id": "78_211",
+  "system_id": "78136",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_211",
+  "system": "Acetonitrile with 1,2-Dialkoxy-glycerides",
+  "components": "(1) 1,2-Dialkoxy-glycerides; C45H90O4 - C59H118O4; []\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Schmid, H.H.O.; Mangold, H.K.; Lundberg, W.O.; Baumann, W.J., Microchem. J. 11, 306-14 (1966).",
+  "variables": "Temperature = 435 K to 483 K",
+  "prepared_by": "Valerii  P. Sazonov",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A microscope equipped with a heating stage as in work^1 was employed for determining UCST values. No experimental details are given.",
+  "source_purity": "(1) Baker Chemical Co.; reagent No. 9011.\n(2) Synthesized as described elsewhere.^2",
+  "estimated_error": "Solubility: Not specified.\nTemperature: Not specified.",
+  "references": "1. H. H. O. Schmid, H. K. Mangold, and W. O. Lundberg, J. Am. Oil Chem. Soc. 42, 372 (1965).\n2. W. J. Baumann and H. K. Mangold, J. Org. Chem. 29, 3055 (1964).",
+  "components_parsed": [
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "Chemical Name"
+    ],
+    "rows": [
+     [
+      "162.0",
+      "435.2",
+      "2-(Dodecyloxy)-3-(octadecyloxy)propyl ester lauric acid; C45H90O4; [10322-44-8]"
+     ],
+     [
+      "176.0",
+      "449.2",
+      "(Z,Z,Z)-2,3-Bis(9-octadecenyloxy)propyl ester oleic acid; C57H108O4; [10322-53-9]"
+     ],
+     [
+      "177.0",
+      "450.2.",
+      "2-(Hexadecyloxy)-3-(octadecyloxy)propyl ester lauric acid; C49H98O4; [10322-47-1]"
+     ],
+     [
+      "182.5",
+      "455.7",
+      "2,3-Bis(hexadecyloxy)propyl ester hexadecanoic acid; C51H102O4; [10322-42-6]"
+     ],
+     [
+      "183.0",
+      "456.2",
+      "2-(Dodecyloxy)-3-(octadecyloxy)propyl ester stearic acid; C51H102O4; [10322-45-9]"
+     ],
+     [
+      "183.5",
+      "456.7",
+      "2,3-Bis(octadecyloxy)propyl ester lauric acid; C51H102O4; [10322-49-3]"
+     ],
+     [
+      "185.0",
+      "458.2",
+      "(Z,Z)-2-(9-octadecenyloxy)-3-(octadecyloxy)propyl ester oleic acid; C57H110O4; [10322-52-8]"
+     ],
+     [
+      "190.0",
+      "463.2",
+      "3-(Octadecyloxy)-2-(tetradecyloxy)propyl ester stearic acid; C53H106O4; [10322-46-0]"
+     ],
+     [
+      "193.0",
+      "466.2",
+      "(Z)-2,3-Bis(octadecyloxy)propyl ester oleic acid; C57H112O4; [10322-51-7]"
+     ],
+     [
+      "197.0",
+      "467.2",
+      "2-(Hexadecyloxy)-3-(octadecyloxy)propyl ester stearic acid; C55H110O4; [10322-48-2]"
+     ],
+     [
+      "197.0",
+      "467.2",
+      "3-(Hexadecyloxy)-2-(octadecyloxy)propyl ester stearic acid; C55H110O4; [10322-43-7]"
+     ],
+     [
+      "203.0",
+      "476.2",
+      ",3-Bis(octadecyloxy)propyl ester stearic acid; C57H114O4; [10322-50-6]"
+     ],
+     [
+      "209.5",
+      "482.7",
+      "2-(Eicosyloxy)-3-(octadecyloxy)propyl ester stearic acid; C59H118O4; [10322-54-0]"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Acetonitrile with 1,2-Dialkoxy-glycerides"
+ },
+ {
+  "sheet_id": "78_135",
+  "system_id": "78067",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_135",
+  "system": "Acetonitrile with 1,2-Dialkyl glyceryl ethers",
+  "components": "(1) 1,2-Dialkyl glyceryl ethers; C33H68O3 - C41H84O3; []\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Schmid, H.H.O.; Mangold, H.K.; Lundberg, W.O.; Baumann, W.J., Microchem. J. 11, 306-14 (1966).",
+  "variables": "Temperature = 392 K to 430 K",
+  "prepared_by": "Valerii  P. Sazonov",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A microscope equipped with a heating stage as in Schmid et al.^1 was employed for determining UCST values. No experimental details are given.",
+  "source_purity": "(1) Baker Chemical Co.; reagent No. 9011.\n(2) Synthesized as in work of Baumann and Mangold.^2",
+  "estimated_error": "Solubility: Not specified.\nTemperature: Not specified.",
+  "references": "1. H. H. O. Schmid, H. K. Mangold, and W. O. Lundberg, J. Am. Oil Chem. Soc. 42, 372 (1965).\n2. W. J. Baumann and H. K. Mangold, J. Org. Chem. 29, 3055 (1964).",
+  "components_parsed": [
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "Chemical Name"
+    ],
+    "rows": [
+     [
+      "118.5",
+      "391.7",
+      "2-(Dodecyloxy)-3-(octadecyloxy)-1-propanol; C33H68O3; [6076-36-4]"
+     ],
+     [
+      "121.5",
+      "394.7",
+      "2,3-Bis(9-octadecenyloxy)-(Z,Z)-1-propanol; C39H76O3; [6076-41-1]"
+     ],
+     [
+      "129.5",
+      "402.7",
+      "3-(Octadecyloxy)-2-(tetradecyloxy)-1-propanol; C35H72O3; [6076-37-5]"
+     ],
+     [
+      "130.0",
+      "403.2",
+      "2,3-Bis(hexadecyloxy)-1-propanol; C35H72O3; [6076-35-3]"
+     ],
+     [
+      "135.5",
+      "408.7",
+      "3-(Octadecyloxy)-2-(cis-9-octadecenyloxy)-1-propanol; C39H78O3;"
+     ],
+     [
+      "135.5",
+      "408.7",
+      "3-(cis-9-Octadecenyloxy)-2-(octadecyloxy)-1-propanol; C39H78O3;"
+     ],
+     [
+      "138.5",
+      "411.7",
+      "3-(Octadecyloxy)-2-(trans-9-octadecenyloxy)-1-propanol; C39H78O3;"
+     ],
+     [
+      "140.5",
+      "413.7",
+      "3-(Hexadecyloxy)-2-(octadecyloxy)-1-propanol; C37H76O3; [6110-57-2]"
+     ],
+     [
+      "140.5",
+      "413.7",
+      "2-(Hexadecyloxy)-3-(octadecyloxy)-1-propanol; C37H76O3; [6110-58-3]"
+     ],
+     [
+      "148.5",
+      "421.7",
+      "2,3-Bis(octadecyloxy)-1-propanol; C39H80O3; [6076-38-6]"
+     ],
+     [
+      "156.5",
+      "429.7",
+      "2-(Eicosyloxy)-3-(octadecyloxy)-1-propanol; C41H84O3; [6068-26-4]"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Acetonitrile with 1,2-Dialkyl glyceryl ethers"
+ },
+ {
+  "sheet_id": "78_209",
+  "system_id": "78134",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_209",
+  "system": "Acetonitrile with 1,3-Diglycerides",
+  "components": "(1) 1,3-Diglycerides; C31H60O5 - C39H76O5; []\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Schmid, H.H.O.; Mangold, H.K.; Lundberg, W.O.; J. Am. Oil Chem. Soc. 42, 372 (1965).",
+  "variables": "Temperature = 333 K to 376 K",
+  "prepared_by": "Valerii  P. Sazonov",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The synthetic method was used. A Reichert microscope, type RCH, with a heating stage was used. A 26 x 38 mm slide was adapted to hold capillaries on the stage. Two glass strips were glued, using water glass, to the slide, leaving a 0.5 mm channel. The slide was then placed in the adjustable device of the heating stage. (1) and (2) were put into capillary tubing (0.2 to 0.3 mm diameter) by dipping consecutively into both liquids. The height of the liquid was 7 to 10 mm. Room temperature solids were melted on a glass slide over a microburner. The capillary was sealed at both ends to a length of 30 to 35 mm, then inserted in to the channel on the slide and heated on the stage. The UCST was determined by following the appearance and disappearance of the meniscus.",
+  "source_purity": "(1) Baker Chemical Co.; reagent No. 9011; n(20 °C, D) = 1.3445, d(20 °C, 4 °C) = 0.780.\n(2) Not specified.",
+  "estimated_error": "Temperature: ± 0.5 K.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "Chemical Name"
+    ],
+    "rows": [
+     [
+      "60.0",
+      "333.2",
+      "1,3-Ditetradecanoyloxy-2-propanol; C31H60O5; [7770-09-4]"
+     ],
+     [
+      "82.0",
+      "255.2",
+      "1,3-Dihexadecanoyloxy-2-propanol; C35H68O5; [502-52-3]"
+     ],
+     [
+      "103.0",
+      "376.2",
+      "1,3-Dioctadecanoyloxy-2-propanol; C39H76O5; [504-40-5]"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Acetonitrile with 1,3-Diglycerides"
+ },
+ {
+  "sheet_id": "78_106",
+  "system_id": "78046",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_106",
+  "system": "Acetonitrile with 1,4-Benzenediol (hydroquinone)",
+  "components": "(1) 1,4-Benzenediol (hydroquinone); C6H6O2; [123-31-9]\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Chekhova, G.N., Dissertation, Novosibirsk Institute of Inorganic Chemistry, 1975.",
+  "variables": "Temperature = 229 K to 444 K",
+  "prepared_by": "Valerii  P. Sazonov and Nikolai V. Sazonov",
+  "critical_evaluation": "No region of liquid-liquid immiscibility was observed. A full solid-liquid phase diagram in mole percent over the specified temperature range was reported in the original publication.\nA eutectic was reported at  –44.5 °C (228.7 K, compilers) at x_1 = 0.975 (100 w_1 = 93.6, compilers).",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The synthetic method was used. Solutions of various compositions were located in glass vessels and placed in a cooling mixture. The change of temperature was measured by the thermocouple. No experimental details given.",
+  "source_purity": "(1) Source not specified; for chromatography; not purified; melting point = –42.2 °C.\n(2) Source not specified; purified by the recrystallization; melting point = 170.3 °C.",
+  "estimated_error": "Temperature: ± 0.2 K.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1,4-Benzenediol (hydroquinone)",
+    "formula": "C6H6O2",
+    "cas": "123-31-9"
+   },
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "Mole Fraction x_1"
+    ],
+    "rows": [
+     [
+      "170.3",
+      "443.5",
+      "0.0",
+      "0.000"
+     ],
+     [
+      "169.9",
+      "443.1",
+      "0.4",
+      "0.011"
+     ],
+     [
+      "169.2",
+      "442.4",
+      "1.9",
+      "0.049"
+     ],
+     [
+      "166.5",
+      "439.7",
+      "4.4",
+      "0.109"
+     ],
+     [
+      "163.3",
+      "436.5",
+      "6.5",
+      "0.157"
+     ],
+     [
+      "161.2",
+      "434.4",
+      "8.1",
+      "0.192"
+     ],
+     [
+      "156.5",
+      "429.7",
+      "10.5",
+      "0.240"
+     ],
+     [
+      "156.0",
+      "429.2",
+      "10.8",
+      "0.246"
+     ],
+     [
+      "149.1",
+      "422.3",
+      "16.2",
+      "0.341"
+     ],
+     [
+      "142.0",
+      "415.2",
+      "19.6",
+      "0.396"
+     ],
+     [
+      "134.0",
+      "407.2",
+      "23.7",
+      "0.454"
+     ],
+     [
+      "124.1",
+      "397.3",
+      "29.0",
+      "0.523"
+     ],
+     [
+      "103.7",
+      "376.9",
+      "39.3",
+      "0.625"
+     ],
+     [
+      "97.5",
+      "370.7",
+      "44.1",
+      "0.679"
+     ],
+     [
+      "91.1",
+      "364.3",
+      "48.9",
+      "0.720"
+     ],
+     [
+      "89.8",
+      "363.0",
+      "50.7",
+      "0.734"
+     ],
+     [
+      "70.1",
+      "343.3",
+      "65.0",
+      "0.833"
+     ],
+     [
+      "50.0",
+      "323.2",
+      "76.1",
+      "0.895"
+     ],
+     [
+      "20.0",
+      "293.2",
+      "88.1",
+      "0.952"
+     ],
+     [
+      "-44.5",
+      "228.7",
+      "93.6",
+      "0.975"
+     ],
+     [
+      "-43.3",
+      "229.9",
+      "98.9",
+      "0.996"
+     ],
+     [
+      "-42.2",
+      "231.0",
+      "100.0",
+      "1.000"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Acetonitrile with 1,4-Benzenediol (hydroquinone)"
+ },
+ {
+  "sheet_id": "78_126",
+  "system_id": "78058",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_126",
+  "system": "Acetonitrile with 10-Nonadecanone",
+  "components": "(1) 10-Nonadecanone; C19H38O; [504-57-4]\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Garland , F.M.; Hoerr, C.W.; Pool, W.O.; Ralston, A.W., J. Org. Chem. 8, 344-57 (1943).",
+  "variables": "Temperature = 283 K to 333 K",
+  "prepared_by": "Valerii  P. Sazonov",
+  "critical_evaluation": "The solubilities of 10-nonadecanone (2) in acetonitrile (1) in mass percent including the region of immisciblity over the indicated temperature range were reported in graphical form and in a table. Monotectic equilibrium is realized at 49.3 °C (322.5 K, compiler). The upper critical solution temperature was extracted from the reported graphs by the compiler and found to be 60.4 °C (333.6 K).",
+  "experimental_values": "",
+  "notes": "^a  Solid-liquid equilibrium.\n^b  Liquid-liquid equilibrium.\n^c  The compiler extracted these data from the published graphs.",
+  "method": "The synthetic method was used. The solubilities of (2) in (1) were determined in sealed tubes by the method and apparatus described elsewhere.^1,2",
+  "source_purity": "(1) Source not specified; best grade reagent; dried and twice distilled.\n(2) Obtained from the ketoesters by hydrolyzing the latter with 5 % alcoholic potassium hydroxide; purified by several recrystallization from ethanol; freezing point = 57.8 °C",
+  "estimated_error": "Temperature: ± 0.2 K.",
+  "references": "1. H. J. Harwood, A. W. Ralston, and W. M. Selby, J. Am. Chem. Soc. 63, 1916 (1941).\n2. A. W. Ralston, C. W. Hoerr, and E. J. Hoffman, J. Am. Chem. Soc. 64, 1516 (1942).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "10-Nonadecanone",
+    "formula": "C19H38O",
+    "cas": "504-57-4"
+   },
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "g_2/100 g solution",
+     "10^2 * Mass Fraction w_2 (compiler)",
+     "Mole Fraction x_2 (compiler)"
+    ],
+    "rows": [
+     [
+      "10.0",
+      "283.2",
+      "0.8",
+      "0.8 (a)",
+      "0.001"
+     ],
+     [
+      "21.8 (c)",
+      "295.0",
+      "-",
+      "0.9 (a)",
+      "0.001"
+     ],
+     [
+      "30.0",
+      "303.2",
+      "1.6",
+      "1.6 (a)",
+      "0.002"
+     ],
+     [
+      "30.2 (c)",
+      "303.4",
+      "-",
+      "1.8 (a)",
+      "0.003"
+     ],
+     [
+      "40.0 (c)",
+      "313.2",
+      "-",
+      "4.1 (a)",
+      "0.006"
+     ],
+     [
+      "44.2 (c)",
+      "317.4",
+      "-",
+      "6.5 (a)",
+      "0.010"
+     ],
+     [
+      "47.5 (c)",
+      "320.7",
+      "-",
+      "11.5 (a)",
+      "0.019"
+     ],
+     [
+      "49.0 (c)",
+      "322.2",
+      "-",
+      "16.8 (a)",
+      "0.029"
+     ],
+     [
+      "49.1 (c)",
+      "322.3",
+      "-",
+      "19.1 (a)",
+      "0.033"
+     ],
+     [
+      "49.5 (c)",
+      "322.7",
+      "-",
+      "72.2 (a)",
+      "0.274"
+     ],
+     [
+      "50.0",
+      "323.2",
+      "27.0",
+      "21.3 (b)",
+      "0.038"
+     ],
+     [
+      "50.0 (c)",
+      "323.2",
+      "-",
+      "70.8 (b)",
+      "0.261"
+     ],
+     [
+      "50.4 (c)",
+      "323.6",
+      "-",
+      "80.4 (a)",
+      "0.374"
+     ],
+     [
+      "50.9 (c)",
+      "324.1",
+      "-",
+      "21.5 (b)",
+      "0.038"
+     ],
+     [
+      "51.1 (c)",
+      "324.3",
+      "-",
+      "84.4 (a)",
+      "0.440"
+     ],
+     [
+      "52.3 (c)",
+      "325.5",
+      "-",
+      "89.5 (a)",
+      "0.553"
+     ],
+     [
+      "53.6 (c)",
+      "326.8",
+      "-",
+      "24.5 (b)",
+      "0.045"
+     ],
+     [
+      "55.0 (c)",
+      "328.2",
+      "-",
+      "95.6 (a)",
+      "0.759"
+     ],
+     [
+      "55.3 (c)",
+      "328.5",
+      "-",
+      "65.5 (a)",
+      "0.216"
+     ],
+     [
+      "58.9 (c)",
+      "332.1",
+      "-",
+      "35.1 (b)",
+      "0.073"
+     ],
+     [
+      "59.1 (c)",
+      "332.3",
+      "-",
+      "56.9 (b)",
+      "0.161"
+     ],
+     [
+      "59.5 (c)",
+      "332.7",
+      "-",
+      "37.7 (b)",
+      "0.081"
+     ],
+     [
+      "60.0 (c)",
+      "333.2",
+      "-",
+      "52.0 (b)",
+      "0.136"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Acetonitrile with 10-Nonadecanone"
+ },
+ {
+  "sheet_id": "78_151",
+  "system_id": "78083",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_151",
+  "system": "Acetonitrile with 12-Hydroxy-cis-9-octadecenoic acid",
+  "components": "(1) 12-Hydroxy-cis-9-octadecenoic acid; C18H34O3; [141-22-0]\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Schmid, H.H.O.; Mangold, H.K.; Lundberg, W.O.; Microchem. J. 11, 376-83 (1966).",
+  "variables": "Temperature = 298 K",
+  "prepared_by": "Valerii  P. Sazonov",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The synthetic method was used. As described elsewhere,^1 a microscope equipped with a heating stage was used. The sealed glass capillary, containing (1) and  (2), was held on the heating stage by an aluminum slide. The stage was cooled by acetone/CO_2, and heated electrically by a regulating transformer. For capillaries with inner diameter 0.2 - 0.3 mm, the amount required for one CST determination is about 0.2 to 2 μL.",
+  "source_purity": "(1) Baker Chemical Co.; reagent No. 9011.\n(2) Not specified.",
+  "estimated_error": "Solubility: Not reported.\nTemperature: Not reported.",
+  "references": "1. H. H. O. Schmid, H. K. Mangold, and W. O. Lundberg, J. Am. Oil Chem. Soc. 42, 372 (1965).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "12-Hydroxy-cis-9-octadecenoic acid",
+    "formula": "C18H34O3",
+    "cas": "141-22-0"
+   },
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "Chemical Name"
+    ],
+    "rows": [
+     [
+      "25.0",
+      "298.2",
+      "12-Hydroxy-cis-9-octadecenoic acid"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Acetonitrile with 12-Hydroxy-cis-9-octadecenoic acid"
+ },
+ {
+  "sheet_id": "78_127",
+  "system_id": "78059",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_127",
+  "system": "Acetonitrile with 12-Tricosanone",
+  "components": "(1) 12-Tricosanone; C23H46O; [540-09-0]\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Garland , F.M.; Hoerr, C.W.; Pool, W.O.; Ralston, A.W., J. Org. Chem. 8, 344-57 (1943).",
+  "variables": "Temperature = 283 Kto 355 K",
+  "prepared_by": "Valerii  P. Sazonov",
+  "critical_evaluation": "The solubilities of 12-tricosanone (2) in acetonitrile (1) in mass percent including the region of immisciblity over the indicated temperature range were reported in graphical form and in a table. Monotectic equilibrium is realized at 62.3 °C (335.5 K, compiler). The upper critical solution temperature was reported to be above 82 °C.",
+  "experimental_values": "",
+  "notes": "^a  Solid-liquid equilibrium.\n^b  Liquid-liquid equilibrium.\n^c  The compiler extracted these data from the published graphs.",
+  "method": "The synthetic method was used. The solubilities of (2) in (1) were determined in sealed tubes by the method and apparatus described elsewhere.^1,2",
+  "source_purity": "(1) Source not specified; best grade reagent; dried and twice distilled.\n(2) Obtained from the ketoesters by hydrolyzing with 5 % alcoholic potassium hydroxide; purified by several recrystallizations from ethanol; freezing point = 69.3 °C.",
+  "estimated_error": "Temperature: ± 0.2 K.",
+  "references": "1. A. W. Ralston, C. W. Hoerr, and E. J. Hoffman, J. Am. Chem. Soc. 64, 1516 (1942).\n2. C. W. Hoerr and A. W. Ralston, J. Am. Chem. Soc. 64, 2824 (1942).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "12-Tricosanone",
+    "formula": "C23H46O",
+    "cas": "540-09-0"
+   },
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "g_2/100 g solution",
+     "10^2 * Mass Fraction w_2 (compiler)",
+     "Mole Fraction x_2 (compiler)"
+    ],
+    "rows": [
+     [
+      "10.0",
+      "283.2",
+      "<0.1",
+      "<0.1 (a)",
+      "0.0001"
+     ],
+     [
+      "23.3 (c)",
+      "296.5",
+      "-",
+      "0.3 (a)",
+      "0.0004"
+     ],
+     [
+      "30.0",
+      "303.2",
+      "0.4",
+      "0.4 (a)",
+      "0.0005"
+     ],
+     [
+      "35.0 (c)",
+      "308.2",
+      "-",
+      "0.5 (a)",
+      "0.0006"
+     ],
+     [
+      "45.9 (c)",
+      "319.1",
+      "-",
+      "0.7 (a)",
+      "0.0009"
+     ],
+     [
+      "50.0",
+      "323.2",
+      "1.2",
+      "1.2 (a)",
+      "0.0015"
+     ],
+     [
+      "53.0 (c)",
+      "326.2",
+      "-",
+      "1.9 (a)",
+      "0.002"
+     ],
+     [
+      "56.1 (c)",
+      "329.3",
+      "-",
+      "3.1 (a)",
+      "0.004"
+     ],
+     [
+      "60.4 (c)",
+      "333.6",
+      "-",
+      "6.2 (a)",
+      "0.008"
+     ],
+     [
+      "62.7 (c)",
+      "335.9",
+      "-",
+      "82.3 (a)",
+      "0.361"
+     ],
+     [
+      "63.4 (c)",
+      "336.6",
+      "-",
+      "87.8 (a)",
+      "0.466"
+     ],
+     [
+      "64.5 (c)",
+      "337.7",
+      "-",
+      "91.8 (a)",
+      "0.576"
+     ],
+     [
+      "65.5 (c)",
+      "338.7",
+      "-",
+      "9.3 (b)",
+      "0.012"
+     ],
+     [
+      "65.9 (c)",
+      "339.1",
+      "-",
+      "95.0 (a)",
+      "0.697"
+     ],
+     [
+      "66.4 (c)",
+      "339.6",
+      "-",
+      "79.5 (b)",
+      "0.320"
+     ],
+     [
+      "70.0",
+      "343.2",
+      "12.4",
+      "11.0 (b)",
+      "0.015"
+     ],
+     [
+      "72.7 (c)",
+      "345.9",
+      "-",
+      "78.0 (b)",
+      "0.301"
+     ],
+     [
+      "74.8 (c)",
+      "348.0",
+      "-",
+      "13.2 (b)",
+      "0.018"
+     ],
+     [
+      "75.1 (c)",
+      "348.3",
+      "-",
+      "77.1 (b)",
+      "0.290"
+     ],
+     [
+      "80.5 (c)",
+      "353.7",
+      "-",
+      "16.2 (b)",
+      "0.023"
+     ],
+     [
+      "81.1 (c)",
+      "354.3",
+      "-",
+      "74.3 (b)",
+      "0.260"
+     ],
+     [
+      "82.0",
+      "355.2",
+      "22.8",
+      "18.6 (b)",
+      "0.027"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Acetonitrile with 12-Tricosanone"
+ },
+ {
+  "sheet_id": "78_128",
+  "system_id": "78060",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_128",
+  "system": "Acetonitrile with 14-Heptacosanone",
+  "components": "(1) 14-Heptacosanone; C27H54O; [542-50-7]\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Garland , F.M.; Hoerr, C.W.; Pool, W.O.; Ralston, A.W., J. Org. Chem. 8, 344-57 (1943).",
+  "variables": "Temperature = 303 K to 355 K",
+  "prepared_by": "Valerii  P. Sazonov",
+  "critical_evaluation": "The solubilities of 14-heptacosanone (2) in acetonitrile (1) in mass percent including the region of immisciblity over the indicated temperature range were reported in graphical form and in a table.  Monotectic equilibrium is realized at 71.8 °C (345.0 K, compiler). The upper critical solution temperature was reported to be above 82 °C.",
+  "experimental_values": "",
+  "notes": "^a  Solid-liquid equilibrium.\n^b  Liquid-liquid equilibrium.\n^c  Data extracted from the published graphs by the compiler.",
+  "method": "The synthetic method was used. The solubilities of (2) in (1) were determined in sealed tubes by the method and apparatus described elsewhere.^1,2",
+  "source_purity": "(1) Source not specified; best grade reagent; dried and twice distilled.\n(2) Obtained from the ketoesters by hydrolyzing with 5 % alcoholic potassium hydroxide; purified by several crystallizations from ethanol; freezing point = 77.2 °C.",
+  "estimated_error": "Temperature: ± 0.2 K.",
+  "references": "1. A. W. Ralston, C. W. Hoerr, and E. J. Hoffman, J. Am. Chem. Soc. 64, 1516 (1942).\n2. C. W. Hoerr and A. W. Ralston, J. Am. Chem. Soc. 64, 2824 (1942).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "14-Heptacosanone",
+    "formula": "C27H54O",
+    "cas": "542-50-7"
+   },
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "g_2/100 g solution",
+     "10^2 * Mass Fraction w_2 (compiler)",
+     "Mole Fraction x_2 (compiler)"
+    ],
+    "rows": [
+     [
+      "30.0",
+      "303.2",
+      "≈ 0.1",
+      "≈ 0.1 (a)",
+      "0.0001"
+     ],
+     [
+      "50.0",
+      "323.2",
+      "0.2",
+      "0.2 (a)",
+      "0.0002"
+     ],
+     [
+      "55.6 (c)",
+      "328.8",
+      "-",
+      "0.3 (a)",
+      "0.0003"
+     ],
+     [
+      "62.1 (c)",
+      "335.3",
+      "-",
+      "1.0 (a)",
+      "0.001"
+     ],
+     [
+      "68.2 (c)",
+      "341.4",
+      "-",
+      "2.7 (a)",
+      "0.003"
+     ],
+     [
+      "70.0",
+      "343.2",
+      "4.1",
+      "3.9 (a)",
+      "0.004"
+     ],
+     [
+      "70.9 (c)",
+      "344.1",
+      "-",
+      "4.5 (a)",
+      "0.005"
+     ],
+     [
+      "72.0 (c)",
+      "345.2",
+      "-",
+      "85.9 (b)",
+      "0.388"
+     ],
+     [
+      "72.2 (c)",
+      "345.4",
+      "-",
+      "88.2 (a)",
+      "0.437"
+     ],
+     [
+      "72.5 (c)",
+      "345.7",
+      "-",
+      "91.8 (a)",
+      "0.538"
+     ],
+     [
+      "74.5 (c)",
+      "347.7",
+      "-",
+      "96.4 (a)",
+      "0.736"
+     ],
+     [
+      "77.3 (c)",
+      "350.5",
+      "-",
+      "6.4 (b)",
+      "0.007"
+     ],
+     [
+      "77.3 (c)",
+      "350.5",
+      "-",
+      "84.8 (b)",
+      "0.367"
+     ],
+     [
+      "82.0",
+      "355.2",
+      "8.1",
+      "7.5 (b)",
+      "0.008"
+     ],
+     [
+      "82.0 (c)",
+      "355.2",
+      "-",
+      "83.6 (b)",
+      "0.347"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Acetonitrile with 14-Heptacosanone"
+ },
+ {
+  "sheet_id": "78_129",
+  "system_id": "78061",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_129",
+  "system": "Acetonitrile with 16-Hentricontanone",
+  "components": "(1) 16-Hentricontanone; C31H62O; [502-73-8]\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Garland , F.M.; Hoerr, C.W.; Pool, W.O.; Ralston, A.W., J. Org. Chem. 8, 344-57 (1943).",
+  "variables": "Temperature = 323 K to 355 K",
+  "prepared_by": "Valerii  P. Sazonov",
+  "critical_evaluation": "The solubilities of 16-hentricontanone (2) in acetonitrile (1) in mass percent including the region of immisciblity over the indicated temperature range were reported in graphical form and in a table. Monotectic equilibrium is realized at 78.2 °C (351.4 K, compiler). The upper critical solution temperature was reported to be above 82 °C.",
+  "experimental_values": "",
+  "notes": "^a  Solid-liquid equilibrium.\n^b  Liquid-liquid equilibrium.\n^c  These data were extracted by the compiler from the published graphs.",
+  "method": "The synthetic method was used. The solubilities of (2) in (1) were determined in sealed tubes by the method and apparatus described elsewhere.^1,2",
+  "source_purity": "(1) Source not specified; best grade reagent; dried and twice distilled.\n(2) Obtained from the ketoesters by hydrolyzing with 5 % alcoholic potassium hydroxide; purified by several crystallizations from ethanol; freezing point = 83.7 °C.",
+  "estimated_error": "Temperature: ± 0.2 K.",
+  "references": "1. A. W. Ralston, C. W. Hoerr, and E. J. Hoffman, J. Am. Chem. Soc. 64, 1516 (1942).\n2. C. W. Hoerr and A. W. Ralston, J. Am. Chem. Soc. 64, 2824 (1942).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "16-Hentricontanone",
+    "formula": "C31H62O",
+    "cas": "502-73-8"
+   },
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "g_2/100 g solution",
+     "10^2 * Mass Fraction w_2 (compiler)",
+     "Mole Fraction x_2 (compiler)"
+    ],
+    "rows": [
+     [
+      "50.0",
+      "323.2",
+      "≈ 0.1",
+      "≈ 0.1 (a)",
+      "0.0001"
+     ],
+     [
+      "61.4 (c)",
+      "334.6",
+      "-",
+      "0.2 (a)",
+      "0.0002"
+     ],
+     [
+      "67.8 (c)",
+      "341.0",
+      "-",
+      "0.9 (a)",
+      "0.0008"
+     ],
+     [
+      "70.0",
+      "343.2",
+      "1.0",
+      "1.0 (a)",
+      "0.0009"
+     ],
+     [
+      "76.4 (c)",
+      "349.6",
+      "-",
+      "2.3 (a)",
+      "0.002"
+     ],
+     [
+      "78.5 (c)",
+      "351.7",
+      "-",
+      "90.0 (a)",
+      "0.450"
+     ],
+     [
+      "79.1 (c)",
+      "352.3",
+      "-",
+      "91.6 (a)",
+      "0.498"
+     ],
+     [
+      "80.5 (c)",
+      "353.7",
+      "-",
+      "95.5 (a)",
+      "0.659"
+     ],
+     [
+      "81.4 (c)",
+      "354.6",
+      "-",
+      "96.6 (a)",
+      "0.721"
+     ],
+     [
+      "82.0",
+      "355.2",
+      "3.3",
+      "3.2 (b)",
+      "0.003"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Acetonitrile with 16-Hentricontanone"
+ },
+ {
+  "sheet_id": "78_130",
+  "system_id": "78062",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_130",
+  "system": "Acetonitrile with 18-Pentatriacontanone",
+  "components": "(1) 18-Pentatriacontanone; C35H70O; [504-53-0]\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Garland , F.M.; Hoerr, C.W.; Pool, W.O.; Ralston, A.W., J. Org. Chem. 8, 344-57 (1943).",
+  "variables": "Temperature = 323 K to 355 K",
+  "prepared_by": "Valerii  P. Sazonov",
+  "critical_evaluation": "The solubilities of 18-pentatriacontanone (2) in acetonitrile (1) in mass percent over the indicated temperature range were reported in graphical form and in a table.",
+  "experimental_values": "",
+  "notes": "^*  Data extracted from the published graphs by the compiler.",
+  "method": "The synthetic method was used. The solubilities of (2) in (1) were determined in sealed tubes by the method and apparatus described elsewhere.^1,2",
+  "source_purity": "(1) Source not specified; best grade reagent; dried and twice distilled.\n(2) Obtained from the ketoesters by hydrolyzing with 5 % alcoholic potassium hydroxide; purified by several crystallizations from ethanol; freezing point = 88.7 °C.",
+  "estimated_error": "Temperature: ± 0.2 K.",
+  "references": "1. A. W. Ralston, C. W. Hoerr, and E. J. Hoffman, J. Am. Chem. Soc. 64, 1516 (1942).\n2. C. W. Hoerr and A. W. Ralston, J. Am. Chem. Soc. 64, 2824 (1942).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "18-Pentatriacontanone",
+    "formula": "C35H70O",
+    "cas": "504-53-0"
+   },
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "g_2/100 g solution",
+     "10^2 * Mass Fraction w_2 (compiler)",
+     "Mole Fraction x_2 (compiler)"
+    ],
+    "rows": [
+     [
+      "50.0",
+      "323.2",
+      "<0.1",
+      "<0.1",
+      "0.0001"
+     ],
+     [
+      "70.0",
+      "343.2",
+      "0.2",
+      "0.2",
+      "0.0002"
+     ],
+     [
+      "76.1*",
+      "349.3",
+      "-",
+      "0.4",
+      "0.0003"
+     ],
+     [
+      "82.0",
+      "355.2",
+      "1.1",
+      "1.1",
+      "0.001"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Acetonitrile with 18-Pentatriacontanone"
+ },
+ {
+  "sheet_id": "78_112",
+  "system_id": "78048",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_112",
+  "system": "Acetonitrile with 1-Alcohols",
+  "components": "(1) 1-Alcohols; C10H18O - C20H42O; []\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Schmid, H.H.O.; Mangold, H.K.; Lundberg, W.O., Microchem. J. 9, 134 (1965).",
+  "variables": "Temperature = 296 K to 347 K",
+  "prepared_by": "Valerii  P. Sazonov and Nikolai V. Sazonov",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The synthetic method was used. A Reichert microscope, type RCH, equipped with a heating stage was used as described elsewhere.^1 The disappearance and reappearance of the interface between (1) and (2) could be observed without difficulty.",
+  "source_purity": "(1) Baker Chemical Co.; reagent, No. 9011; n(20 °C, D) = 1.3445, d(20 °C, 4 °C) = 0.780.\n(2) Some alcohols obtained from the Hormel Institute and from Lachat Chemicals; all other alcohols prepared by reduction of the corresponding methyl esters with lithium aluminum hydride; purified by gas-liquid partition chromatography.",
+  "estimated_error": "Temperature: ± 0.5 K.",
+  "references": "1. H. H. O. Schmid, H. K. Mangold, W. O. Lundberg, J. Am. Oil Chem. Soc. 42, 372 (1965).",
+  "components_parsed": [
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "Chemical Name"
+    ],
+    "rows": [
+     [
+      "23.0",
+      "296.2",
+      "1-Decanol; C10H22O; [112-30-1]"
+     ],
+     [
+      "29.0",
+      "302.2",
+      "1-Undecanol; C11H24O; [112-42-5]"
+     ],
+     [
+      "34.5",
+      "307.7",
+      "1-Dodecanol; C12H26O; [112-53-8]"
+     ],
+     [
+      "40.0",
+      "313.2",
+      "1-Tridecanol; C13H28O; [112-70-9]"
+     ],
+     [
+      "44.5",
+      "317.7",
+      "1-Tetradecanol; C14H30O; [112-72-1]"
+     ],
+     [
+      "50.0",
+      "323.2",
+      "1-Pentadecanol; C15H32O; [629-76-5]"
+     ],
+     [
+      "54.5",
+      "327.7",
+      "1-Hexadecanol; C16H34O; [36653-82-4]"
+     ],
+     [
+      "59.5",
+      "332.7",
+      "1-Heptadecanol; C17H36O; [1454-85-9]"
+     ],
+     [
+      "64.0",
+      "337.2",
+      "1-Octadecanol; C18H38O; [112-92-5]"
+     ],
+     [
+      "69.0",
+      "342.2",
+      "1-Nonadecanol; C19H40O; [1454-84-8]"
+     ],
+     [
+      "74.0",
+      "347.2",
+      "1-Eicosanol; C20H42O; [629-96-9]"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Acetonitrile with 1-Alcohols"
+ },
+ {
+  "sheet_id": "78_210",
+  "system_id": "78135",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_210",
+  "system": "Acetonitrile with 1-Alkoxy-diglycerides",
+  "components": "(1) 1-Alkoxy-diglycerides; C45H88O5 - C61H120O5; []\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Schmid, H.H.O.; Mangold, H.K.; Lundberg, W.O.; Baumann, W.J., Microchem. J. 11, 306-14 (1966).",
+  "variables": "Temperature = 415 K to 470 K",
+  "prepared_by": "Valerii  P. Sazonov",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A microscope equipped with a heating stage as in work^1 was employed for determining UCST values. No experimental details are given.",
+  "source_purity": "(1) Baker Chemical Co.; reagent No. 9011.\n(2) Synthesized as described elsewhere.^2",
+  "estimated_error": "Solubility: Not specified.\nTemperature: Not specified.",
+  "references": "1. H. H. O. Schmid, H. K. Mangold, and W. O. Lundberg, J. Am. Oil Chem. Soc. 42, 372 (1965).\n2. W. J. Baumann and H. K. Mangold, J. Org. Chem. 29, 3055 (1964).",
+  "components_parsed": [
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "Chemical Name"
+    ],
+    "rows": [
+     [
+      "141.5",
+      "414.7",
+      "1-[(Octadecyloxy)methyl]-1,2-ethanediyl ester lauric acid; C45H88O5; [10322-28-8]"
+     ],
+     [
+      "157.5",
+      "430.7",
+      "1-[(Octadecyloxy)methyl]-1,2-ethanediyl ester tetradecanoic acid; C49H96O5; [10322-29-9]"
+     ],
+     [
+      "157.5",
+      "430.7",
+      "(Z)-[(9-Octadecenyloxy)methyl]-1,2-ethanediyl ester oleic acid; C57H106O5; [10322-38-0]"
+     ],
+     [
+      "158.0",
+      "431.2",
+      "1-[(Decyloxy)methyl]-1,2-ethanediyl ester stearic acid; C49H96O5; [10431-17-1]"
+     ],
+     [
+      "161.0",
+      "434.2",
+      "1-[(Undecyloxy)methyl]-1,2-ethanediyl ester stearic acid; C50H98O5; [10322-31-3]"
+     ],
+     [
+      "164.0",
+      "437.2",
+      "1-[(Dodecyloxy)methyl]-1,2-ethanediyl ester stearic acid; C51H100O5; [10322-32-4]"
+     ],
+     [
+      "167.0",
+      "440.2",
+      "1-[(Octadecyloxy)methyl]-1,2-ethanediyl ester oleic acid; C57H108O5; [10329-25-6]"
+     ],
+     [
+      "167.5",
+      "440.7",
+      "1-[(Tridecyloxy)methyl]-1,2-ethanediyl ester stearic acid; C52H102O5; [10322-33-5]"
+     ],
+     [
+      "171.0",
+      "444.2",
+      "1-[(Octadecyloxy)methyl]-1,2-ethanediyl ester palmitic acid; C53H104O5; [10322-30-2]"
+     ],
+     [
+      "171.5",
+      "444.7",
+      "1-[(Tetradecyloxy)methyl]-1,2-ethanediyl ester stearic acid; C53H104O5; [10322-34-6]"
+     ],
+     [
+      "174.5",
+      "447.7",
+      "1-[(Pentadecyloxy)methyl]-1,2-ethanediyl ester stearic acid; C54H106O5; [10431-21-7]"
+     ],
+     [
+      "175.0",
+      "448.2",
+      "(Z)-[(9-Octadecenyloxy)methyl]-ethylene ester stearic acid; C57H110O5; [10322-37-9]"
+     ],
+     [
+      "178.0",
+      "451.2",
+      "1-[(Hexadecyloxy)methyl]-1,2-ethanediyl ester stearic acid; C55H108O5; [923-63-7]"
+     ],
+     [
+      "181.5",
+      "454.7",
+      "1-[(Heptadecyloxy)methyl]-1,2-ethanediyl ester stearic acid; C56H110O5; [10322-27-7]"
+     ],
+     [
+      "184.5",
+      "457.7",
+      "1-[(Octadecyloxy)methyl]-1,2-ethanediyl ester stearic acid; C57H112O5; [923-62-6]"
+     ],
+     [
+      "187.5",
+      "460.7",
+      "1-[(Nonadecyloxy)methyl]-1,2-ethanediyl ester stearic acid; C58H114O5; [10322-39-1]"
+     ],
+     [
+      "191.0",
+      "464.2",
+      "1-[(Eicosyloxy)methyl]-1,2-ethanediyl ester stearic acid; C59H116O5; [10322-40-4]"
+     ],
+     [
+      "194.0",
+      "467.2",
+      "1-[(Heneicosyloxy)methyl]-1,2-ethanediyl ester stearic acid; C60H118O5; [10322-41-5]"
+     ],
+     [
+      "197.0",
+      "470.2",
+      "1-[(Octadecyloxy)methyl]-ethylene ester eicosanoic acid; C61H120O5; [10322-36-8]"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Acetonitrile with 1-Alkoxy-diglycerides"
+ },
+ {
+  "sheet_id": "78_134",
+  "system_id": "78066",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_134",
+  "system": "Acetonitrile with 1-Alkyl glyceryl ethers",
+  "components": "(1) 1-Alkyl glyceryl ethers; C13H28O3 - C24H50O3; []\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Schmid, H.H.O.; Mangold, H.K.; Lundberg, W.O.; Baumann, W.J., Microchem. J. 11, 306-14 (1966).",
+  "variables": "Temperature = 295 K to 349 K",
+  "prepared_by": "Valerii  P. Sazonov",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A microscope equipped with a heating stage as in Schmid et al.^1 was employed for determining UCST values. No experimental details are given.",
+  "source_purity": "(1) Baker Chemical Co.; reagent No. 9011.\n(2) Synthesized as in Baumann and Mangold.^2",
+  "estimated_error": "Solubility: Not specified.\nTemperature: Not specified.",
+  "references": "1. H. H. O. Schmid, H. K. Mangold, and W. O. Lundberg, J. Am. Oil Chem. Soc. 42, 372 (1965).\n2. W. J. Baumann and H. K. Mangold, J. Org. Chem. 29, 3055 (1964).",
+  "components_parsed": [
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "Chemical Name"
+    ],
+    "rows": [
+     [
+      "21.5",
+      "294.7",
+      "1-(cis,cis,cis-9,12,15-Octadecatrienoxy)-2,3-propanediol; C21H38O3;"
+     ],
+     [
+      "25.5",
+      "298.7",
+      "1-Decoxy-2,3-propanediol; C13H28O3; [92219-12-0]"
+     ],
+     [
+      "32.5",
+      "305.7",
+      "1-Undecoxy-2,3-propanediol; C14H30O3; [126923-57-7]"
+     ],
+     [
+      "33.5",
+      "306.7",
+      "1-(cis,cis-9,12-Octadecadienoxy)-2,3-propanediol; C21H40O3; [70518-62-6]"
+     ],
+     [
+      "38.0",
+      "311.2",
+      "1-Dodecoxy-2,3-propanediol; C15H32O3; [1561-07-5]"
+     ],
+     [
+      "40.0",
+      "313.2",
+      "1-(cis-9-Hexadecenoxy)-2,3-propanediol; C19H38O3;"
+     ],
+     [
+      "43.5",
+      "316.7",
+      "1-Tridecoxy-2,3-propanediol; C16H34O3; [126923-58-8]"
+     ],
+     [
+      "48.0",
+      "321.2",
+      "1-Tetradecoxy-2,3-propanediol; C17H36O3; [92219-13-1]"
+     ],
+     [
+      "49.0",
+      "322.2",
+      "1-(cis-9-Octadecenoxy)-2,3-propanediol; C21H42O3; [2929-07-9]"
+     ],
+     [
+      "51.5",
+      "324.7",
+      "1-(trans-9-Octadecenoxy)-2,3-propanediol; C21H42O3; [593-31-7]"
+     ],
+     [
+      "53.0",
+      "326.2.",
+      "1-Pentadecoxy-2,3-propanediol; C18H38O3; [124770-96-3]"
+     ],
+     [
+      "57.0",
+      "330.2",
+      "1-Hexadecoxy-2,3-propanediol; C19H40O3; [506-03-6]"
+     ],
+     [
+      "61.0",
+      "334.2",
+      "1-Heptadecoxy-2,3-propanediol; C20H42O3; [113817-63-3]"
+     ],
+     [
+      "65.0",
+      "338.2",
+      "1-Octadecoxy-2,3-propanediol; C21H44O3; [544-62-7]"
+     ],
+     [
+      "68.5",
+      "341.7",
+      "1-Nonadecoxy-2,3-propanediol; C22H46O3; [10431-03-5]"
+     ],
+     [
+      "72.0",
+      "345.2",
+      "1-Eicosoxy-2,3-propanediol; C23H48O3; [158850-88-5]"
+     ],
+     [
+      "76.0",
+      "349.2",
+      "1-Heneicosoxy-2,3-propanediol; C24H50O3; [158789-24-3]"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Acetonitrile with 1-Alkyl glyceryl ethers"
+ },
+ {
+  "sheet_id": "78_103",
+  "system_id": "78043",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_103",
+  "system": "Acetonitrile with 1-Bromoalkanes",
+  "components": "(1) 1-Bromoalkanes; C8H17Br, C10H21Br, C12H25Br, C14H29Br, C16H33Br and C18H37Br; []\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Schmid, H.H.O.; Mangold, H.K.; Lundberg, W.O.; J. Am. Oil Chem. Soc. 42, 372 (1965).",
+  "variables": "Temperature = 291 K to 393 K",
+  "prepared_by": "Valerii P. Sazonov",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The synthetic method was used. A Reichert microscope, type RCH, with a heating stage was used. A 26 x 38 mm slide was adapted to hold capillaries on the stage. Two glass strips were glued, using water glass, to the slide, leaving a 0.5 mm channel. The slide was then placed in the adjustable device of the heating stage. (1) and (2) were put into capillary tubing (0.2 to 0.3 mm diameters) by dipping consecutively into both liquids. The height of the liquid was 7 to 10 mm. Room temperature solids were melted on a glass slide over a micro burner. The capillary was sealed at both ends to a length of 30 to 35 mm, then inserted in to the channel on the slide and heated on the stage. The UCST was determined by following the appearance and disappearance of the meniscus.",
+  "source_purity": "(1) Baker Chemical Co.; reagent, No. 9011; n(20 °C, D) = 1.3445, d(20 °C, 4 °C) = 0.780.\n(2) Not specified.",
+  "estimated_error": "Temperature: ± 0.5 K.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "Chemical Name"
+    ],
+    "rows": [
+     [
+      "17.5",
+      "290.7",
+      "1-Bromooctane; C8H17Br; [111-83-1]"
+     ],
+     [
+      "45.5",
+      "318.7",
+      "1-Bromodecane; C10H21Br; [112-29-8]"
+     ],
+     [
+      "69.0",
+      "342.2",
+      "1-Bromododecane; C12H25Br; [143-15-7]"
+     ],
+     [
+      "87.5",
+      "360.7",
+      "1-Bromotetradecane; C14H29Br; [112-71-0]"
+     ],
+     [
+      "104.5",
+      "377.7",
+      "1-Bromohexadecane; C16H33Br; [112-82-3]"
+     ],
+     [
+      "120.0",
+      "393.2",
+      "1-Bromooctadecane; C18H37Br; [112-89-0]"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Acetonitrile with 1-Bromoalkanes"
+ },
+ {
+  "sheet_id": "78_108",
+  "system_id": "78047",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_108",
+  "system": "Acetonitrile with 1-Decanol",
+  "components": "(1) 1-Decanol; C10H22O; [112-30-1]\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Hoerr, C.W.; Harwood, H.J.; Ralston, A.W., J. Org. Chem. 9, 267 (1944).",
+  "variables": "Temperature = 269 K to 295 K",
+  "prepared_by": "Valerii  P. Sazonov and Nikolai V. Sazonov",
+  "critical_evaluation": "The solubilities of acetonitrile (1) and 1-decanol (2) in mass percent including the region of immisciblity over the indicated temperature range were reported in graphical and tabular form. Monotectic equilibrium occurs at 5.1 °C (278.3 K, compilers). The upper critical solution temperature was extracted by the compilers to be 22.2 °C (295.6 K).",
+  "experimental_values": "",
+  "notes": "^a  Solid-liquid equilibrium.\n^b  Liquid-liquid equilibrium.\n^c  Data extracted from the published graphs by the compilers.\nMonotectic equilibrium occurs at 5.1 °C (278.3 K, compilers).",
+  "method": "The solubility measurements were made with the equipment and in the manner described elsewhere.^1,2",
+  "source_purity": "(1) Source not specified; purity not specified.\n(2) Prepared by catalytic hydrogenation of ethyl decanoate; purified by vacuum distillation; freezing point = 6.88 °C.",
+  "estimated_error": "Solubility: Not specified.\nTemperature: Not specified.",
+  "references": "1. C. W. Hoerr, E. F. Binkerd, W. O. Pool, and A. W. Ralston, J. Org. Chem. 9, 68 (1944).\n2. A. W. Ralston, C. W. Hoerr, W. O. Pool,  and H. J. Harwood, J. Org. Chem. 9,102 (1944).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1-Decanol",
+    "formula": "C10H22O",
+    "cas": "112-30-1"
+   },
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "10^2 * Mass Fraction w_1",
+     "g_2/100 g solution",
+     "Mole Fraction x_1 (compiler)",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "-4.4 (c)",
+      "268.8",
+      "-",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "0.0",
+      "273.2",
+      "-",
+      "5.8",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "0.9 (c)",
+      "274.1",
+      "-",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "3.9 (c)",
+      "277.1",
+      "-",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "5.2 (c)",
+      "278.4",
+      "7.7 (a)",
+      "-",
+      "0.243",
+      "Alcohol-rich phase"
+     ],
+     [
+      "5.7 (c)",
+      "278.9",
+      "3.6 (a)",
+      "-",
+      "0.126",
+      "Alcohol-rich phase"
+     ],
+     [
+      "8.0 (c)",
+      "281.2",
+      "-",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "10.0",
+      "283.2",
+      "-",
+      "21.6",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "12.3 (c)",
+      "285.5",
+      "14.2 (b)",
+      "-",
+      "0.390",
+      "Alcohol-rich phase"
+     ],
+     [
+      "15.7 (c)",
+      "288.9",
+      "-",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "19.5 (c)",
+      "292.7",
+      "-",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "20.0",
+      "293.2",
+      "-",
+      "52.0",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "20.3 (c)",
+      "293.5",
+      "29.7 (b)",
+      "-",
+      "0.620",
+      "Alcohol-rich phase"
+     ],
+     [
+      "21.8 (c)",
+      "295.0",
+      "-",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "22.0 (c)",
+      "295.2",
+      "41.8 (b)",
+      "-",
+      "0.735",
+      "Alcohol-rich phase"
+     ],
+     [
+      "-4.4 (c)",
+      "268.8",
+      "97.3 (a)",
+      "-",
+      "0.993",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "0.0",
+      "273.2",
+      "94.5 (a)",
+      "5.8",
+      "0.985",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "0.9 (c)",
+      "274.1",
+      "93.6 (a)",
+      "-",
+      "0.983",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "3.9 (c)",
+      "277.1",
+      "88.1 (a)",
+      "-",
+      "0.966",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "5.2 (c)",
+      "278.4",
+      "-",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "5.7 (c)",
+      "278.9",
+      "-",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "8.0 (c)",
+      "281.2",
+      "83.5 (b)",
+      "-",
+      "0.951",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "10.0",
+      "283.2",
+      "82.2 (b)",
+      "21.6",
+      "0.947",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "12.3 (c)",
+      "285.5",
+      "-",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "15.7 (c)",
+      "288.9",
+      "76.4 (b)",
+      "-",
+      "0.926",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "19.5 (c)",
+      "292.7",
+      "68.4 (b)",
+      "-",
+      "0.893",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "20.0",
+      "293.2",
+      "65.8 (b)",
+      "52.0",
+      "0.881",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "20.3 (c)",
+      "293.5",
+      "-",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "21.8 (c)",
+      "295.0",
+      "54.5 (b)",
+      "-",
+      "0.822",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "22.0 (c)",
+      "295.2",
+      "-",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Acetonitrile with 1-Decanol"
+ },
+ {
+  "sheet_id": "78_109",
+  "system_id": "78047",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_109",
+  "system": "Acetonitrile with 1-Decanol",
+  "components": "(1) 1-Decanol; C10H22O; [112-30-1]\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Majgler-Baranowska, H.; Pyzuk, W.; Jeute, W.; Ziolo, J., J. Chem. Eng. Data 26, 51 (1981).",
+  "variables": "Temperature = 290 K to 297 K",
+  "prepared_by": "Valerii  P. Sazonov and Nikolai V. Sazonov",
+  "critical_evaluation": "The mutual solubility of acetonitrile (1) and 1-decanol (2) in volume fractions was reported over the temperature range in graphical form. Data were extracted from the published graphs by the compilers. Timmermans1 values of the density of acetonitrile ρ(20 °C) = 782.2 g·L^-1 and Marsden and Mann^2 value for 1-decanol ρ(20 °C) = 829.2 g·L^-1 at 293.2 K (20.0 °C) were used for conversions.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The synthetic method was used. Miscibility temperature was determined by observing turbidity changes during heating and cooling of vigorously shaken solutions. No experimental details given.",
+  "source_purity": "(1) Fluka; purity 99.5 mass %; dried and distilled over CaH_2.\n(2) Source not specified; purity 98 mass %; dried, vacuum fractionated and redistilled over CaH_2.",
+  "estimated_error": "Temperature: ± 0.05 K.",
+  "references": "1. J. Timmermans, Physico-Chemical Constants of Pure Organic Compounds, Elsevier Publishing Co., New York, 1950.\n2. C. Marsden and S. Mann, Solvents Guide, Cleaver-Hume Press Ltd., London, 1963.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1-Decanol",
+    "formula": "C10H22O",
+    "cas": "112-30-1"
+   },
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "10^2 * Mass Fraction w_1",
+     "Mole Fraction x_1",
+     "Ø_1",
+     "Ø_1 Note",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "16.3",
+      "289.5",
+      "-",
+      "-",
+      "-",
+      "100",
+      "Alcohol-rich phase"
+     ],
+     [
+      "19.3",
+      "292.5",
+      "19.0",
+      "0.475",
+      "20.0",
+      "100",
+      "Alcohol-rich phase"
+     ],
+     [
+      "20.3",
+      "293.5",
+      "21.2",
+      "0.509",
+      "22.2",
+      "100",
+      "Alcohol-rich phase"
+     ],
+     [
+      "20.8",
+      "294.0",
+      "22.6",
+      "0.530",
+      "23.7",
+      "100",
+      "Alcohol-rich phase"
+     ],
+     [
+      "22.1",
+      "295.3",
+      "25.4",
+      "0.568",
+      "26.5",
+      "100",
+      "Alcohol-rich phase"
+     ],
+     [
+      "22.6",
+      "295.8",
+      "27.0",
+      "0.588",
+      "28.1",
+      "100",
+      "Alcohol-rich phase"
+     ],
+     [
+      "23.0",
+      "296.2",
+      "31.4",
+      "0.640",
+      "32.7",
+      "100",
+      "Alcohol-rich phase"
+     ],
+     [
+      "23.2",
+      "296.4",
+      "38.2",
+      "0.704",
+      "39.6",
+      "100",
+      "Alcohol-rich phase"
+     ],
+     [
+      "23.6",
+      "296.8",
+      "40.1",
+      "0.721",
+      "41.5",
+      "100",
+      "Alcohol-rich phase"
+     ],
+     [
+      "23.7",
+      "296.9",
+      "-",
+      "-",
+      "-",
+      "100",
+      "Alcohol-rich phase"
+     ],
+     [
+      "23.8",
+      "297.0",
+      "-",
+      "-",
+      "-",
+      "100",
+      "Alcohol-rich phase"
+     ],
+     [
+      "23.9",
+      "297.1",
+      "44.5",
+      "0.756",
+      "45.9",
+      "100",
+      "Alcohol-rich phase"
+     ],
+     [
+      "16.3",
+      "289.5",
+      "76.9",
+      "0.928",
+      "77.9",
+      "100",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "19.3",
+      "292.5",
+      "-",
+      "-",
+      "-",
+      "100",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "20.3",
+      "293.5",
+      "-",
+      "-",
+      "-",
+      "100",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "20.8",
+      "294.0",
+      "-",
+      "-",
+      "-",
+      "100",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "22.1",
+      "295.3",
+      "65.0",
+      "0.878",
+      "66.4",
+      "100",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "22.6",
+      "295.8",
+      "-",
+      "-",
+      "-",
+      "100",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "23.0",
+      "296.2",
+      "-",
+      "-",
+      "-",
+      "100",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "23.2",
+      "296.4",
+      "-",
+      "-",
+      "-",
+      "100",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "23.6",
+      "296.8",
+      "-",
+      "-",
+      "-",
+      "100",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "23.7",
+      "296.9",
+      "49.3",
+      "0.789",
+      "50.8",
+      "100",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "23.8",
+      "297.0",
+      "44.9",
+      "0.759",
+      "46.3",
+      "100",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "23.9",
+      "297.1",
+      "44.5",
+      "0.756 (UCST)",
+      "45.9",
+      "100",
+      "Acetonitrile-rich phase"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Acetonitrile with 1-Decanol"
+ },
+ {
+  "sheet_id": "78_110",
+  "system_id": "78047",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_110",
+  "system": "Acetonitrile with 1-Decanol",
+  "components": "(1) 1-Decanol; C10H22O; [112-30-1]\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Szydlowski, J.; Szykula, M., Fluid Phase Equilib. 154, 79 (1999).",
+  "variables": "Temperature = 295 K to 297 K",
+  "prepared_by": "Valerii  P. Sazonov and Nikolai V. Sazonov",
+  "critical_evaluation": "The upper critical solution temperature was reported to be 296.61 ± 0.016 K (23.46 °C, compilers) at x_c = 0.767 ± 0.002 (100 w = 46.0, compilers).",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The synthetic method was used. A simplified version of the apparatus described elsewhere was used.^1 Temperature was changed at the rate < 0.01 K/min and there was no visible influence of the rate on the transition temperature up to the rate 0.1 K/min. Due to the very weak turbidity a long capillary cell was employed. A 5 mW Polythec HeNe laser was used as a probe for detecting the phase separation.",
+  "source_purity": "(1) Byk-Malinckrodt; AR; purified by a column distillation; purity of the collected fractions at least 99.9 mole % by GLC.\n(2) Aldrich; dried over molecular sieves and distilled.",
+  "estimated_error": "Temperature: ± 5 mK",
+  "references": "1. J. Szydlowski, L. P. Rebelo, W. A. Van Hook, Rev. Sci. Instrum. 63, 1717 (1992).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1-Decanol",
+    "formula": "C10H22O",
+    "cas": "112-30-1"
+   },
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "Mole Fraction x_1",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "21.92",
+      "295.07",
+      "33.5",
+      "0.660",
+      "Alcohol-rich phase"
+     ],
+     [
+      "22.19",
+      "295.34",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "22.73",
+      "295.88",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "22.84",
+      "295.99",
+      "36.6",
+      "0.690",
+      "Alcohol-rich phase"
+     ],
+     [
+      "23.02",
+      "296.17",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "23.14",
+      "296.29",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "23.30",
+      "296.45",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "23.33",
+      "296.48",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "23.36",
+      "296.51",
+      "40.0",
+      "0.720",
+      "Alcohol-rich phase"
+     ],
+     [
+      "23.42",
+      "296.57",
+      "43.2",
+      "0.746",
+      "Alcohol-rich phase"
+     ],
+     [
+      "23.44",
+      "296.59",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "23.45",
+      "296.60",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "23.47",
+      "296.62",
+      "45.1",
+      "0.760",
+      "Alcohol-rich phase"
+     ],
+     [
+      "21.92",
+      "295.07",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "22.19",
+      "295.34",
+      "63.0",
+      "0.868",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "22.73",
+      "295.88",
+      "59.5",
+      "0.850",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "22.84",
+      "295.99",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "23.02",
+      "296.17",
+      "57.7",
+      "0.840",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "23.14",
+      "296.29",
+      "55.9",
+      "0.835",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "23.30",
+      "296.45",
+      "53.0",
+      "0.830",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "23.33",
+      "296.48",
+      "51.7.",
+      "0.813",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "23.36",
+      "296.51",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "23.42",
+      "296.57",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "23.44",
+      "296.59",
+      "49.1",
+      "0.805",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "23.45",
+      "296.60",
+      "47.9",
+      "0.788",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "23.47",
+      "296.62",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Acetonitrile with 1-Decanol"
+ },
+ {
+  "sheet_id": "78_107",
+  "system_id": "78047",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_107",
+  "system": "Acetonitrile with 1-Decanol",
+  "components": "(1) 1-Decanol; C10H22O; [112-30-1]\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "Valerii P. Sazonov and Nikolai V. Sazonov, Technical University, Samara, Russia, October, 2001",
+  "critical_evaluation": "",
+  "experimental_values": "Quantitative solubility data for the system acetonitrile (1) and 1-decanol (2) have been reported in the publications listed in Table 1.\n\nIn addition to these data Schmid et al.^5 determined of the upper critical temperature solution of components (1) and (2) in the course of a study of binary solubilities of acetonitrile and (C10-C20) alcohols. All original data are compiled in the data sheets immediately following this Critical Evaluation.\n\n\nThe upper critical solution temperature has been reported as 295.6 K,1 295.9 K,2 296.2 K,5 296.61 K,4 and 297.1 K,5 these data are in reasonable agreement and thus their average value: UCST = 296.3 ± 0.5 K and is recommended. The corresponding critical solution composition has been reported as x_cl = 0.756^3 and as x_cl = 0.767^4 and averaged value, x_cl = 0.762 ± 0.005 is recommended.\n\n\nMonotectic equilibrium has been reported to occur at 278.3 K.1\n\n\nAll experimental values reported^1, 3,4 have been approximated by an equation based on the scaling law (described in the introduction to this volume) for which the following parameters have been derived:\n\na_1 = 0.4740, a_2= 1.8944, b_1 = -3.8277, b_2 = 0.6260\n\n(mean standard error of estimate was 0.0269).\n\n\nFor approximation x_cl and UCST from Szydlowski and Szykula^4 have been used. In the opinion of the evaluators, the mutual solubilities calculated by this equation may be treated as tentative. The results of calculations for the selected temperatures are presented in Table 2. This relationship together with experimental points^1, 3,4 are also presented in  Fig. 13.\nQuantitative solubility data for the system acetonitrile (1) and 1-decanol (2) have been reported in the publications listed in Table 1.\n\nIn addition to these data Schmid et al.^5 determined of the upper critical temperature solution of components (1) and (2) in the course of a study of binary solubilities of acetonitrile and (C10-C20) alcohols. All original data are compiled in the data sheets immediately following this Critical Evaluation.\n\n\nThe upper critical solution temperature has been reported as 295.6 K,1 295.9 K,2 296.2 K,5 296.61 K,4 and 297.1 K,5 these data are in reasonable agreement and thus their average value: UCST = 296.3 ± 0.5 K and is recommended. The corresponding critical solution composition has been reported as x_cl = 0.756^3 and as x_cl = 0.767^4 and averaged value, x_cl = 0.762 ± 0.005 is recommended.\n\n\nMonotectic equilibrium has been reported to occur at 278.3 K.1\n\n\nAll experimental values reported^1, 3,4 have been approximated by an equation based on the scaling law (described in the introduction to this volume) for which the following parameters have been derived:\n\na_1 = 0.4740, a_2= 1.8944, b_1 = -3.8277, b_2 = 0.6260\n\n(mean standard error of estimate was 0.0269).\n\n\nFor approximation x_cl and UCST from Szydlowski and Szykula^4 have been used. In the opinion of the evaluators, the mutual solubilities calculated by this equation may be treated as tentative. The results of calculations for the selected temperatures are presented in Table 2. This relationship together with experimental points^1, 3,4 are also presented in  Fig. 13.",
+  "notes": "",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  Hoerr, C.W.; Harwood, H.J.; Ralston, A.W., J. Org. Chem. 9, 267 (1944).\n2  Francis, A. W.; J. Phys. Chem. 60, 20 (1956).\n3  Majgler-Baranowska, H.; Pyzuk, W.; Jeute, W.; Ziolo, J., J. Chem. Eng. Data 26, 51 (1981).\n4  Szydlowski, J.; Szykula, M., Fluid Phase Equilib. 154, 79 (1999).\n5  Schmid, H.H.O.; Mangold, H.K.; Lundberg, W.O., Microchem. J. 9, 134 (1965).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1-Decanol",
+    "formula": "C10H22O",
+    "cas": "112-30-1"
+   },
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "10^2 * Mass Fraction w_1",
+     "Mole Fraction x_1",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "280.2",
+      "7.9",
+      "0.248",
+      "Alcohol-rich phase"
+     ],
+     [
+      "283.2",
+      "10.7",
+      "0.317",
+      "Alcohol-rich phase"
+     ],
+     [
+      "286.2",
+      "14.2",
+      "0.389",
+      "Alcohol-rich phase"
+     ],
+     [
+      "289.2",
+      "18.4",
+      "0.465",
+      "Alcohol-rich phase"
+     ],
+     [
+      "292.2",
+      "23.9",
+      "0.548",
+      "Alcohol-rich phase"
+     ],
+     [
+      "294.2",
+      "29.0",
+      "0.612",
+      "Alcohol-rich phase"
+     ],
+     [
+      "295.2",
+      "32.5",
+      "0.650",
+      "Alcohol-rich phase"
+     ],
+     [
+      "296.2",
+      "37.8",
+      "0.701",
+      "Alcohol-rich phase"
+     ],
+     [
+      "296.3",
+      "38.6",
+      "0.708",
+      "Alcohol-rich phase"
+     ],
+     [
+      "296.4",
+      "39.7",
+      "0.717",
+      "Alcohol-rich phase"
+     ],
+     [
+      "280.2",
+      "85.5",
+      "0.958",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "283.2",
+      "83.1",
+      "0.950",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "286.2",
+      "80.2",
+      "0.940",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "289.2",
+      "76.2",
+      "0.925",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "292.2",
+      "70.2",
+      "0.901",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "294.2",
+      "64.9",
+      "0.877",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "295.2",
+      "61.0",
+      "0.858",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "296.2",
+      "55.2",
+      "0.826",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "296.3",
+      "54.2",
+      "0.820",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "296.4",
+      "53.2",
+      "0.814",
+      "Acetonitrile-rich phase"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Acetonitrile with 1-Decanol"
+ },
+ {
+  "sheet_id": "78_115",
+  "system_id": "78051",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_115",
+  "system": "Acetonitrile with 1-Dodecanol",
+  "components": "(1) 1-Dodecanol; C12H26O; [112-53-8]\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Hoerr, C.W.; Harwood, H.J.; Ralston, A.W., J. Org. Chem. 9, 267 (1944).",
+  "variables": "Temperature = 273 K to 309 K",
+  "prepared_by": "Valerii  P. Sazonov and Nikolai V. Sazonov",
+  "critical_evaluation": "The solubilities of acetonitrile (1) and 1-dodecanol (2) in mass percent including the region of immisciblity over the indicated temperature range were reported in graphical and tabular form. Monotectic equilibrium occurs at 20.0 °C (293.2 K, compilers). The upper critical solution temperature was extracted from the reported graphs by the compilers and found to be 35.7 °C (308.9 K).",
+  "experimental_values": "",
+  "notes": "^a  Solid-liquid equilibrium.\n^b  Liquid-liquid equilibrium.\n^c  Data extracted from the published graphs by the compilers.",
+  "method": "The solubility measurements were made with the equipment and in the manner described elsewhere.^1,2",
+  "source_purity": "(1) Source not specified; purity not specified.\n(2) Source not specified; commercial product; purified by vacuum distillation in a Stedman packed column; freezing point = 23.95 °C.",
+  "estimated_error": "Solubility: Not specified.\nTemperature: Not specified.",
+  "references": "1. C. W. Hoerr, E. F. Binkerd, W. O. Pool, and A. W. Ralston, J. Org. Chem. 9, 68 (1944).\n2. A. W. Ralston, C. W. Hoerr, W. O. Pool,  and H. J. Harwood. Org. Chem. 9, 102 (1944).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1-Dodecanol",
+    "formula": "C12H26O",
+    "cas": "112-53-8"
+   },
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "10^2 * Mass Fraction w_1",
+     "g_2/100 g solution",
+     "Mole Fraction x_1 (compiler)",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "0.0",
+      "273.2",
+      "-",
+      "1.0",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "0.2 (c)",
+      "273.4",
+      "-",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "6.2 (c)",
+      "279.4",
+      "-",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "10.0",
+      "283.2",
+      "-",
+      "3.9",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "12.8 (c)",
+      "286.0",
+      "-",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "15.5 (c)",
+      "288.7",
+      "-",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "19.0 (c)",
+      "292.2",
+      "-",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "20.0",
+      "293.2",
+      "-",
+      "16.7",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "20.2 (c)",
+      "293.4",
+      "10.5 (a)",
+      "-",
+      "0.348",
+      "Alcohol-rich phase"
+     ],
+     [
+      "21.5 (c)",
+      "294.7",
+      "5.0 (a)",
+      "-",
+      "0.193",
+      "Alcohol-rich phase"
+     ],
+     [
+      "24.1 (c)",
+      "297.3",
+      "15.5 (b)",
+      "-",
+      "0.454",
+      "Alcohol-rich phase"
+     ],
+     [
+      "24.8 (c)",
+      "298.0",
+      "-",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "30.0",
+      "303.2",
+      "-",
+      "29.9",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "30.5 (c)",
+      "303.7",
+      "24.3 (b)",
+      "-",
+      "0.593",
+      "Alcohol-rich phase"
+     ],
+     [
+      "31.5 (c)",
+      "304.7",
+      "-",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "34.2 (c)",
+      "307.4",
+      "-",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "34.4 (c)",
+      "307.6",
+      "35.6 (b)",
+      "-",
+      "0.715",
+      "Alcohol-rich phase"
+     ],
+     [
+      "35.5 (c)",
+      "308.7",
+      "-",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "35.6 (c)",
+      "308.8",
+      "47.0 (b)",
+      "-",
+      "0.801",
+      "Alcohol-rich phase"
+     ],
+     [
+      "0.0",
+      "273.2",
+      "99.0 (a)",
+      "1.0",
+      "0.998",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "0.2 (c)",
+      "273.4",
+      "98.9 (a)",
+      "-",
+      "0.998",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "6.2 (c)",
+      "279.4",
+      "97.8 (a)",
+      "-",
+      "0.995",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "10.0",
+      "283.2",
+      "96.2 (a)",
+      "3.9",
+      "0.991",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "12.8 (c)",
+      "286.0",
+      "94.5 (a)",
+      "-",
+      "0.987",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "15.5 (c)",
+      "288.7",
+      "92.7 (a)",
+      "-",
+      "0.983",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "19.0 (c)",
+      "292.2",
+      "88.6 (a)",
+      "-",
+      "0.972",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "20.0",
+      "293.2",
+      "85.7 (a)",
+      "16.7",
+      "0.965",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "20.2 (c)",
+      "293.4",
+      "-",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "21.5 (c)",
+      "294.7",
+      "-",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "24.1 (c)",
+      "297.3",
+      "-",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "24.8 (c)",
+      "298.0",
+      "83.4 (b)",
+      "-",
+      "0.958",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "30.0",
+      "303.2",
+      "76.9 (b)",
+      "29.9",
+      "0.938",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "30.5 (c)",
+      "303.7",
+      "-",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "31.5 (c)",
+      "304.7",
+      "73.9 (b)",
+      "-",
+      "0.928",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "34.2 (c)",
+      "307.4",
+      "65.0 (b)",
+      "-",
+      "0.894",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "34.4 (c)",
+      "307.6",
+      "-",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "35.5 (c)",
+      "308.7",
+      "53.8 (b)",
+      "-",
+      "0.841",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "35.6 (c)",
+      "308.8",
+      "-",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Acetonitrile with 1-Dodecanol"
+ },
+ {
+  "sheet_id": "78_116",
+  "system_id": "78051",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_116",
+  "system": "Acetonitrile with 1-Dodecanol",
+  "components": "(1) 1-Dodecanol; C12H26O; [112-53-8]\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Sazonov V.P.; Gudkina, L.V., Zh. Prikl. Khim. (Leningrad) 46, 1076 (1973).",
+  "variables": "Temperature = 299 K to 308 K",
+  "prepared_by": "Valerii  P. Sazonov and Nikolai V. Sazonov",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The synthetic method was used. Determinations were made in sealed tubes, which were heated and allowed to cool slowly in water bath. Thermometers were calibrated to 0.01 K.",
+  "source_purity": "(1) Soyuzreaktiv, USSR; CP reagent; dried over P_2O_5 and twice distilled in a laboratory packed column; n(20 °C, D) = 1.3440, d(20 °C, 4 °C) = 0.7828.\n(2) Soyuzreaktiv, USSR; pure grade reagent; purified by two vacuum distillations; n(20 °C, D) = 1.4410, d(20 °C, 4 °C) = 0.8349.",
+  "estimated_error": "Temperature: ± 0.02 K.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1-Dodecanol",
+    "formula": "C12H26O",
+    "cas": "112-53-8"
+   },
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "10^2 * Mass Fraction w_1",
+     "Mole Fraction x_1 (compiler)",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "26.10",
+      "299.25",
+      "15.0",
+      "0.445",
+      "Alcohol-rich phase"
+     ],
+     [
+      "26.85",
+      "300.00",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "30.15",
+      "303.30",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "30.70",
+      "303.85",
+      "20.0",
+      "0.532",
+      "Alcohol-rich phase"
+     ],
+     [
+      "32.50",
+      "305.65",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "32.85",
+      "306.00",
+      "25.0",
+      "0.602",
+      "Alcohol-rich phase"
+     ],
+     [
+      "33.90",
+      "307.05",
+      "30.0",
+      "0.661",
+      "Alcohol-rich phase"
+     ],
+     [
+      "34.00",
+      "307.15",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "34.90",
+      "308.05",
+      "35.0",
+      "0.710",
+      "Alcohol-rich phase"
+     ],
+     [
+      "35.10",
+      "308.25",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "35.20",
+      "308.35",
+      "40.0",
+      "0.752",
+      "Alcohol-rich phase"
+     ],
+     [
+      "35.25",
+      "308.40",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "35.30",
+      "308.45",
+      "45.0",
+      "0.788",
+      "Alcohol-rich phase"
+     ],
+     [
+      "26.10",
+      "299.25",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "26.85",
+      "300.00",
+      "80.0",
+      "0.948",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "30.15",
+      "303.30",
+      "75.0",
+      "0.932",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "30.70",
+      "303.85",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "32.50",
+      "305.65",
+      "70.0",
+      "0.914.",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "32.85",
+      "306.00",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "33.90",
+      "307.05",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "34.00",
+      "307.15",
+      "65.0",
+      "0.894",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "34.90",
+      "308.05",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "35.10",
+      "308.25",
+      "60.0",
+      "0.872",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "35.20",
+      "308.35",
+      "55.0",
+      "0.847",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "35.25",
+      "308.40",
+      "50.0",
+      "0.820",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "35.30",
+      "308.45",
+      "45.0",
+      "0.788 (UCST)",
+      "Acetonitrile-rich phase"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Acetonitrile with 1-Dodecanol"
+ },
+ {
+  "sheet_id": "78_114",
+  "system_id": "78051",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_114",
+  "system": "Acetonitrile with 1-Dodecanol",
+  "components": "(1) 1-Dodecanol; C12H26O; [112-53-8]\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "Valerii P. Sazonov and Nikolai V. Sazonov, Technical University, Samara, Russia, November, 2001",
+  "critical_evaluation": "",
+  "experimental_values": "Solubilities in the system comprising acetonitrile (1) and 1-dodecanol (2) have been reported in four publications. Hoerr et al.^1 studied the phase equilibrium of the liquid-liquid-solid system and the mutual solubility of (1) and (2) between 273 and 309 K by the synthetic method. Francis^2 determined the upper critical solution temperature of (1) and (2) by the synthetic method. Schmid et al.^3 measured of the upper critical temperature solution of components (1) and (2) in the course of a study of solubilities of binary systems of acetonitrile and (C10-C20) alcohols. Sazonov and Gudkina^4 defined  the mutual solubilities of acetonitrile and 1-dodecanol between 299 and 308 K by the synthetic method.\n\n\nThe upper critical solution temperature has been reported as 307.7 K,3 308.4 K,2 308.45 K,4 and 308.9 K,1 these data are in reasonable agreement and thus their average value: UCST = 308.4 ± 0.5 K and is recommended. The corresponding critical solution composition has been reported as x_cl = 0.788.^4\n\n\nMonotectic equilibrium has been reported to occur at 293.2 K.1\n\n\nAll experimental values reported ^1,4 have been approximated by an equation based on the scaling law (described in the introduction to this volume) for which the following parameters have been derived:\n\na_1 = 0.6791, a_2= 0.7569, b_1 = -0.4051, b_2 = -1.8542\n\n(mean standard error of estimate was 0.0105).\n\n\nFor approximation x_cl and UCST^4 have been used. In the opinion of the evaluators, the mutual solubilities calculated by this equation may be treated as tentative. The results of calculations for the selected temperatures are presented in the following table. This relationship, together with experimental points,^1,4 are also presented in  Fig. 14.\nSolubilities in the system comprising acetonitrile (1) and 1-dodecanol (2) have been reported in four publications. Hoerr et al.^1 studied the phase equilibrium of the liquid-liquid-solid system and the mutual solubility of (1) and (2) between 273 and 309 K by the synthetic method. Francis^2 determined the upper critical solution temperature of (1) and (2) by the synthetic method. Schmid et al.^3 measured of the upper critical temperature solution of components (1) and (2) in the course of a study of solubilities of binary systems of acetonitrile and (C10-C20) alcohols. Sazonov and Gudkina^4 defined  the mutual solubilities of acetonitrile and 1-dodecanol between 299 and 308 K by the synthetic method.\n\n\nThe upper critical solution temperature has been reported as 307.7 K,3 308.4 K,2 308.45 K,4 and 308.9 K,1 these data are in reasonable agreement and thus their average value: UCST = 308.4 ± 0.5 K and is recommended. The corresponding critical solution composition has been reported as x_cl = 0.788.^4\n\n\nMonotectic equilibrium has been reported to occur at 293.2 K.1\n\n\nAll experimental values reported ^1,4 have been approximated by an equation based on the scaling law (described in the introduction to this volume) for which the following parameters have been derived:\n\na_1 = 0.6791, a_2= 0.7569, b_1 = -0.4051, b_2 = -1.8542\n\n(mean standard error of estimate was 0.0105).\n\n\nFor approximation x_cl and UCST^4 have been used. In the opinion of the evaluators, the mutual solubilities calculated by this equation may be treated as tentative. The results of calculations for the selected temperatures are presented in the following table. This relationship, together with experimental points,^1,4 are also presented in  Fig. 14.",
+  "notes": "",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  Hoerr, C.W.; Harwood, H.J.; Ralston, A.W., J. Org. Chem. 9, 267 (1944).\n2  Francis, A. W.; J. Phys. Chem. 60, 20 (1956).\n3  Schmid, H.H.O.; Mangold, H.K.; Lundberg, W.O., Microchem. J. 9, 134 (1965).\n4  Sazonov V.P.; Gudkina, L.V., Zh. Prikl. Khim. (Leningrad) 46, 1076 (1973).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1-Dodecanol",
+    "formula": "C12H26O",
+    "cas": "112-53-8"
+   },
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "10^2 * Mass Fraction w_1",
+     "Mole Fraction x_1",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "293.2",
+      "9.6",
+      "0.325",
+      "Alcohol-rich phase"
+     ],
+     [
+      "298.2",
+      "13.7",
+      "0.418",
+      "Alcohol-rich phase"
+     ],
+     [
+      "303.2",
+      "19.8",
+      "0.528",
+      "Alcohol-rich phase"
+     ],
+     [
+      "304.2",
+      "21.5",
+      "0.554",
+      "Alcohol-rich phase"
+     ],
+     [
+      "305.2",
+      "23.5",
+      "0.582",
+      "Alcohol-rich phase"
+     ],
+     [
+      "306.2",
+      "25.9",
+      "0.614",
+      "Alcohol-rich phase"
+     ],
+     [
+      "307.2",
+      "29.4",
+      "0.654",
+      "Alcohol-rich phase"
+     ],
+     [
+      "307.7",
+      "31.8",
+      "0.679",
+      "Alcohol-rich phase"
+     ],
+     [
+      "308.2",
+      "35.8",
+      "0.717",
+      "Alcohol-rich phase"
+     ],
+     [
+      "308.3",
+      "37.2",
+      "0.729",
+      "Alcohol-rich phase"
+     ],
+     [
+      "293.2",
+      "82.4",
+      "0.955",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "298.2",
+      "81.4",
+      "0.952",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "303.2",
+      "76.0",
+      "0.935",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "304.2",
+      "74.2",
+      "0.929",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "305.2",
+      "72.0",
+      "0.921",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "306.2",
+      "68.8",
+      "0.909",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "307.2",
+      "64.3",
+      "0.891",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "307.7",
+      "61.1",
+      "0.877",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "308.2",
+      "55.9",
+      "0.852",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "308.3",
+      "54.0",
+      "0.842",
+      "Acetonitrile-rich phase"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Acetonitrile with 1-Dodecanol"
+ },
+ {
+  "sheet_id": "78_69",
+  "system_id": "78025",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_69",
+  "system": "Acetonitrile with 1-Heptene",
+  "components": "(1) 1-Heptene; C7H14; [592-76-7]\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "Valerii P. Sazonov, Technical University, Samara, Russia, July, 2001",
+  "critical_evaluation": "",
+  "experimental_values": "Solubilities in the system comprising acetonitrile (1) and 1-heptene (2) have been reported in three publications over a very limited range of temperatures. Francis^1 reported the upper critical solution temperature. Kikic and Alessi ^2 studied the mutual solubility of (1) and (2) at 291 K by an analytical method. Pavlova et al.^3 measured the upper critical solution temperature by a synthetic method. The upper critical solution temperature has been reported as 311.2 K1 and 314.4 K,3 these data are in reasonable agreement and thus their average value: UCST = 312.8 ± 1.6 K. The corresponding critical solution composition has been not reported.\n\nAccordingly, all the available data (see the relevant data sheets) must be regarded as tentative.\nSolubilities in the system comprising acetonitrile (1) and 1-heptene (2) have been reported in three publications over a very limited range of temperatures. Francis^1 reported the upper critical solution temperature. Kikic and Alessi ^2 studied the mutual solubility of (1) and (2) at 291 K by an analytical method. Pavlova et al.^3 measured the upper critical solution temperature by a synthetic method. The upper critical solution temperature has been reported as 311.2 K1 and 314.4 K,3 these data are in reasonable agreement and thus their average value: UCST = 312.8 ± 1.6 K. The corresponding critical solution composition has been not reported.\n\nAccordingly, all the available data (see the relevant data sheets) must be regarded as tentative.",
+  "notes": "",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  Francis, A.W., Critical Solution Temperature, Washington, Adv. Chem. Ser. 31 (1961).\n2  Kikic I.; Alessi, P., Ann. Chim. (Rome) 64, 363 (1974).\n3  Pavlova, O.P.; Gaile, A.A.; Proskuryakov, V.A.; Li, I.F., Zh. Fiz. Khim. 49, 2874 (1975).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1-Heptene",
+    "formula": "C7H14",
+    "cas": "592-76-7"
+   },
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [],
+  "kind": "compilation",
+  "system_name": "Acetonitrile with 1-Heptene"
+ },
+ {
+  "sheet_id": "78_70",
+  "system_id": "78025",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_70",
+  "system": "Acetonitrile with 1-Heptene",
+  "components": "(1) 1-Heptene; C7H14; [592-76-7]\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Kikic I.; Alessi, P., Ann. Chim. (Rome) 64, 363 (1974).",
+  "variables": "Temperature = 291 K",
+  "prepared_by": "Valerii  P. Sazonov",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The analytical method was used. A sample of each phase was withdrawn with a syringe and immediately analyzed by GLC. No experimental details given.",
+  "source_purity": "(1) 3M Minnesota; used without any preliminary treatment, since the analysis by GLC did not indicate any detectable impurity.\n(2) Fluka; 99.9 mole percent minimum purity; not purified.",
+  "estimated_error": "Temperature: ± 0.1 K.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1-Heptene",
+    "formula": "C7H14",
+    "cas": "592-76-7"
+   },
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "Mole Fraction x_1",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "18.0",
+      "291.2",
+      "8.46",
+      "0.181",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "18.0",
+      "291.2",
+      "74.2",
+      "0.873",
+      "Acetonitrile-rich phase"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Acetonitrile with 1-Heptene"
+ },
+ {
+  "sheet_id": "78_71",
+  "system_id": "78025",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_71",
+  "system": "Acetonitrile with 1-Heptene",
+  "components": "(1) 1-Heptene; C7H14; [592-76-7]\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Pavlova, O.P.; Gaile, A.A.; Proskuryakov, V.A.; Li, I.F., Zh. Fiz. Khim. 49, 2874 (1975).",
+  "variables": "Temperature = 314 K",
+  "prepared_by": "Valerii  P. Sazonov",
+  "critical_evaluation": "The upper critical solution temperature (UCST) was reported to be 41.2 °C (314.4 K, compiler).",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The synthetic method was used. No experimental details given.",
+  "source_purity": "(1) Not specified.\n(2) Not specified.",
+  "estimated_error": "Solubility: Not reported.\nTemperature: Not reported.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1-Heptene",
+    "formula": "C7H14",
+    "cas": "592-76-7"
+   },
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "Acetonitrile with 1-Heptene"
+ },
+ {
+  "sheet_id": "78_120",
+  "system_id": "78053",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_120",
+  "system": "Acetonitrile with 1-Hexadecanol",
+  "components": "(1) 1-Hexadecanol; C16H34O; [36653-82-4]\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Hoerr, C.W.; Harwood, H.J.; Ralston, A.W., J. Org. Chem. 9, 267 (1944).",
+  "variables": "Temperature = 293 K to 331 K",
+  "prepared_by": "Valerii  P. Sazonov and Nikolai V. Sazonov",
+  "critical_evaluation": "The solubilities of acetonitrile (1) and 1-hexadecanol (2) in mass percent including the region of immisciblity over the indicated temperature range were reported in graphical and tabular form. Monotectic equilibrium occurs at 44.5 °C (317.7 K, compilers). The upper critical solution temperature was extracted from the reported graphs by the compilers and found to be 57.5 °C (330.7 K).",
+  "experimental_values": "",
+  "notes": "^a  Solid-liquid equilibrium.\n^b  Liquid-liquid equilibrium.\n^c  These data were extracted by the compilers from the published graphs.",
+  "method": "The solubility measurements were made with the equipment and in the manner described elsewhere .^1,2",
+  "source_purity": "(1) Source not specified; purity not specified.\n(2) Source not specified; commercial product; purified by recrystallization; freezing point = 49.62 °C.",
+  "estimated_error": "Solubility: Not specified.\nTemperature: Not specified.",
+  "references": "1. C. W. Hoerr, E. F. Binkerd, W. O. Pool, and A. W. Ralston, J. Org. Chem. 9, 68 (1944).\n2. A. W. Ralston, C. W. Hoerr, W. O. Pool, and H. J. Harwood, J. Org. Chem. 9,102 (1944).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1-Hexadecanol",
+    "formula": "C16H34O",
+    "cas": "36653-82-4"
+   },
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "10^2 * Mass Fraction w_1",
+     "g_2/100 g solution",
+     "Mole Fraction x_1 (compiler)",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "20.0",
+      "293.2",
+      "-",
+      "≈",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "30.0",
+      "303.2",
+      "-",
+      "1.1",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "38.4 (c)",
+      "311.6",
+      "-",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "40.0",
+      "313.2",
+      "-",
+      "5.6",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "42.9 (c)",
+      "316.1",
+      "-",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "45.0 (c)",
+      "318.2",
+      "12.5 (a)",
+      "-",
+      "0.458",
+      "Alcohol-rich phase"
+     ],
+     [
+      "46.2 (c)",
+      "319.4",
+      "-",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "46.5 (c)",
+      "319.7",
+      "6.4 (a)",
+      "-",
+      "0.288",
+      "Alcohol-rich phase"
+     ],
+     [
+      "47.5 (c)",
+      "320.7",
+      "19.8 (b)",
+      "-",
+      "0.593",
+      "Alcohol-rich phase"
+     ],
+     [
+      "50.0",
+      "323.2",
+      "-",
+      "20.9",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "53.8 (c)",
+      "327.0",
+      "-",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "54.5",
+      "327.7",
+      "30.6 (b)",
+      "-",
+      "0.723",
+      "Alcohol-rich phase"
+     ],
+     [
+      "57.1 (c)",
+      "330.3",
+      "-",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "57.4 (c)",
+      "330.6",
+      "47.5 (b)",
+      "-",
+      "0.842",
+      "Alcohol-rich phase"
+     ],
+     [
+      "20.0",
+      "293.2",
+      "99.9 (a)",
+      "≈ 0.1",
+      "0.999",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "30.0",
+      "303.2",
+      "98.9 (a)",
+      "1.1",
+      "0.998",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "38.4 (c)",
+      "311.6",
+      "96.4 (a)",
+      "-",
+      "0.994",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "40.0",
+      "313.2",
+      "94.7 (a)",
+      "5.6",
+      "0.991",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "42.9 (c)",
+      "316.1",
+      "91.5 (a)",
+      "-",
+      "0.985",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "45.0 (c)",
+      "318.2",
+      "-",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "46.2 (c)",
+      "319.4",
+      "86.8 (b)",
+      "-",
+      "0.975",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "46.5 (c)",
+      "319.7",
+      "-",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "47.5 (c)",
+      "320.7",
+      "-",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "50.0",
+      "323.2",
+      "82.7 (b)",
+      "20.9",
+      "0.966",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "53.8 (c)",
+      "327.0",
+      "76.1 (b)",
+      "-",
+      "0.950",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "54.5",
+      "327.7",
+      "-",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "57.1 (c)",
+      "330.3",
+      "63.6 (b)",
+      "-",
+      "0.912",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "57.4 (c)",
+      "330.6",
+      "-",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Acetonitrile with 1-Hexadecanol"
+ },
+ {
+  "sheet_id": "78_119",
+  "system_id": "78053",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_119",
+  "system": "Acetonitrile with 1-Hexadecanol",
+  "components": "(1) 1-Hexadecanol; C16H34O; [36653-82-4]\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "Valerii P. Sazonov and Nikolai V. Sazonov, Technical University, Samara, Russia, November, 2001",
+  "critical_evaluation": "",
+  "experimental_values": "Solubilities in the system comprising acetonitrile (1) and 1-hexadecanol (2) have been reported in two publications. Hoerr et al.^1 studied the phase equilibrium of the liquid-liquid-solid system and the mutual solubility of (1) and (2) between 293 and 331 K by the synthetic method. Schmid et al.^2 measured of the upper critical temperature solution of components (1) and (2) in the course of a study of binary solubilities of acetonitrile and (C10-C20) alcohols. In addition to these data Francis3 reported the upper critical solution temperature of this system.\n\nThe upper critical solution temperature has been reported as 327.7 K,2 330.7 K,1 and 331.2 K.3 The UCST by Schmid et al.^2 is rejected. The average of the remaining values, UCST = 331.0 ±  0.3 K, is treated as tentative. The corresponding critical solution composition has been calculated by the evaluators as x_cl = 0.86 from the data of Hoerr et al.^1\n\n\nMonotectic equilibrium has been reported to occur at 317.7 K.1\n\nAll experimental values reported^1 have been approximated by an equation based on the scaling law (described in the introduction to this volume) for which the following parameters have been derived:\n\na_1 = 0.4132 a_2= 1.0803, b_1 = -0.3432, b_2 = -1.5032\n\n(mean standard error of estimate was 0.0057).\n\n\nFor approximation x_cl and UCST from Hoerr et al.^1 have been used. In the opinion of the evaluators, the mutual solubilities calculated by this equation may be treated as tentative. The results of calculations for the selected temperatures are presented in the following table. This relationship, together with experimental results,^1 are also presented in  Fig. 16.\nSolubilities in the system comprising acetonitrile (1) and 1-hexadecanol (2) have been reported in two publications. Hoerr et al.^1 studied the phase equilibrium of the liquid-liquid-solid system and the mutual solubility of (1) and (2) between 293 and 331 K by the synthetic method. Schmid et al.^2 measured of the upper critical temperature solution of components (1) and (2) in the course of a study of binary solubilities of acetonitrile and (C10-C20) alcohols. In addition to these data Francis3 reported the upper critical solution temperature of this system.\n\nThe upper critical solution temperature has been reported as 327.7 K,2 330.7 K,1 and 331.2 K.3 The UCST by Schmid et al.^2 is rejected. The average of the remaining values, UCST = 331.0 ±  0.3 K, is treated as tentative. The corresponding critical solution composition has been calculated by the evaluators as x_cl = 0.86 from the data of Hoerr et al.^1\n\n\nMonotectic equilibrium has been reported to occur at 317.7 K.1\n\nAll experimental values reported^1 have been approximated by an equation based on the scaling law (described in the introduction to this volume) for which the following parameters have been derived:\n\na_1 = 0.4132 a_2= 1.0803, b_1 = -0.3432, b_2 = -1.5032\n\n(mean standard error of estimate was 0.0057).\n\n\nFor approximation x_cl and UCST from Hoerr et al.^1 have been used. In the opinion of the evaluators, the mutual solubilities calculated by this equation may be treated as tentative. The results of calculations for the selected temperatures are presented in the following table. This relationship, together with experimental results,^1 are also presented in  Fig. 16.",
+  "notes": "",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  Hoerr, C.W.; Harwood, H.J.; Ralston, A.W., J. Org. Chem. 9, 267 (1944).\n2  Schmid, H.H.O.; Mangold, H.K.; Lundberg, W.O., Microchem. J. 9, 134 (1965).\n3  Francis, A.W., Critical Solution Temperature, Washington, Adv. Chem. Ser. 31 (1961).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1-Hexadecanol",
+    "formula": "C16H34O",
+    "cas": "36653-82-4"
+   },
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "10^2 * Mass Fraction w_1",
+     "Mole Fraction x_1",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "318.2",
+      "17.3",
+      "0.553",
+      "Alcohol-rich phase"
+     ],
+     [
+      "323.2",
+      "22.8",
+      "0.635",
+      "Alcohol-rich phase"
+     ],
+     [
+      "328.2",
+      "32.1",
+      "0.736",
+      "Alcohol-rich phase"
+     ],
+     [
+      "329.2",
+      "35.4",
+      "0.764",
+      "Alcohol-rich phase"
+     ],
+     [
+      "329.7",
+      "37.5",
+      "0.780",
+      "Alcohol-rich phase"
+     ],
+     [
+      "330.2",
+      "40.5",
+      "0.801",
+      "Alcohol-rich phase"
+     ],
+     [
+      "330.4",
+      "42.2",
+      "0.812",
+      "Alcohol-rich phase"
+     ],
+     [
+      "330.5",
+      "43.4",
+      "0.819",
+      "Alcohol-rich phase"
+     ],
+     [
+      "318.2",
+      "88.3",
+      "0.978",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "323.2",
+      "82.8",
+      "0.966",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "328.2",
+      "72.6",
+      "0.940",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "329.2",
+      "68.6",
+      "0.928",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "329.7",
+      "66.0",
+      "0.920",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "330.2",
+      "62.8",
+      "0.909",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "330.4",
+      "60.6",
+      "0.901",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "330.5",
+      "59.3",
+      "0.896",
+      "Acetonitrile-rich phase"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Acetonitrile with 1-Hexadecanol"
+ },
+ {
+  "sheet_id": "78_101",
+  "system_id": "78041",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_101",
+  "system": "Acetonitrile with 1-Hydropentadecafluoroheptane",
+  "components": "(1) 1-Hydropentadecafluoroheptane; C7HF15; [375-83-7]\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Konecky, J.O.; Deal, C.H., J. Phys. Chem. 67, 504-6 (1963).",
+  "variables": "Temperature = 256 K to 317 K",
+  "prepared_by": "Valerii  P. Sazonov and Nikolai V. Sazonov",
+  "critical_evaluation": "The mutual solubility of acetonitrile and 1-hydropentadecafluoroheptane in volume fractions were reported over the temperature range in graphical form. Data presented here were extracted by the compilers from the reported graphs. Timmermans^1 values of density acetonitrile ρ(25 °C) = 776.8 g·L^-1, was used in the above conversions.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The synthetic (cloud point) method using sealed Pyrex tubes was employed. All values reported are an average of at least three determinations agreeing within 0.2 °C or better. No details were reported.",
+  "source_purity": "(1) Source not specified; spectroscopic grade; not purified.\n(2) Prepared by the decarboxylation of perfluoro-n-octanoic acid; dried over phosphorus pent oxide and distilled on a 10 plate microhelipod column at a reflux ratio of 5/1; boiling point = 95 °C/100.1 kPa, p(25 °C)=1718 g·L^-1.",
+  "estimated_error": "Solubility: Not reported.\nTemperature: Not reported.",
+  "references": "1. J. Timmermans, Physico-Chemical Constants of Pure Organic Compounds (Elsevier, New York, 1950).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1-Hydropentadecafluoroheptane",
+    "formula": "C7HF15",
+    "cas": "375-83-7"
+   },
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "10^2 * Mass Fraction w_1",
+     "Mole Fraction x_1",
+     "Ø_1",
+     "Ø_1 Note",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "-17.1",
+      "256.1",
+      "8.1",
+      "0.639",
+      "16.4",
+      "100",
+      "Fluorohydrocarbon-rich phase"
+     ],
+     [
+      "1.4",
+      "274.6",
+      "9.3",
+      "0.672",
+      "18.5",
+      "100",
+      "Fluorohydrocarbon-rich phase"
+     ],
+     [
+      "6.4",
+      "279.6",
+      "-",
+      "-",
+      "-",
+      "100",
+      "Fluorohydrocarbon-rich phase"
+     ],
+     [
+      "28.5",
+      "301.7",
+      "-",
+      "-",
+      "-",
+      "100",
+      "Fluorohydrocarbon-rich phase"
+     ],
+     [
+      "28.6",
+      "301.8",
+      "15.3",
+      "0.783",
+      "28.6",
+      "100",
+      "Fluorohydrocarbon-rich phase"
+     ],
+     [
+      "39.2",
+      "312.4",
+      "22.1",
+      "0.850",
+      "38.5",
+      "100",
+      "Fluorohydrocarbon-rich phase"
+     ],
+     [
+      "42.5",
+      "315.7",
+      "-",
+      "-",
+      "-",
+      "100",
+      "Fluorohydrocarbon-rich phase"
+     ],
+     [
+      "42.8",
+      "316.0",
+      "28.5",
+      "0.890",
+      "46.8",
+      "100",
+      "Fluorohydrocarbon-rich phase"
+     ],
+     [
+      "43.7",
+      "316.9",
+      "37.6",
+      "0.923",
+      "57.1",
+      "100",
+      "Fluorohydrocarbon-rich phase"
+     ],
+     [
+      "43.8",
+      "317.0",
+      "-",
+      "-",
+      "-",
+      "100",
+      "Fluorohydrocarbon-rich phase"
+     ],
+     [
+      "-17.1",
+      "256.1",
+      "-",
+      "-",
+      "-",
+      "100",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "1.4",
+      "274.6",
+      "-",
+      "-",
+      "-",
+      "100",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "6.4",
+      "279.6",
+      "89.3",
+      "0.994",
+      "94.9",
+      "100",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "28.5",
+      "301.7",
+      "78.3",
+      "0.986",
+      "88.9",
+      "100",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "28.6",
+      "301.8",
+      "-",
+      "-",
+      "-",
+      "100",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "39.2",
+      "312.4",
+      "-",
+      "-",
+      "-",
+      "100",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "42.5",
+      "315.7",
+      "55.7",
+      "0.962",
+      "73.5",
+      "100",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "42.8",
+      "316.0",
+      "-",
+      "-",
+      "-",
+      "100",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "43.7",
+      "316.9",
+      "-",
+      "-",
+      "-",
+      "100",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "43.8",
+      "317.0",
+      "-",
+      "- (UCST)",
+      "-",
+      "100",
+      "Acetonitrile-rich phase"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Acetonitrile with 1-Hydropentadecafluoroheptane"
+ },
+ {
+  "sheet_id": "78_123",
+  "system_id": "78055",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_123",
+  "system": "Acetonitrile with 1-Octadecanol",
+  "components": "(1) 1-Octadecanol; C18H38O; [112-92-5]\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Hoerr, C.W.; Harwood, H.J.; Ralston, A.W., J. Org. Chem. 9, 267 (1944).",
+  "variables": "Temperature = 303 K to 336 K",
+  "prepared_by": "Valerii  P. Sazonov and Nikolai V. Sazonov",
+  "critical_evaluation": "The solubilities of acetonitrile (1) and 1-octadecanol (2) in mass percent including the region of immisciblity over the indicated temperature range were reported in graphical form and in a table. Monotectic equilibrium occurs at 52.5 °C (325.7 K, compiler). The upper critical solution temperature was extracted from the reported graphs by the compiler and found to be 63.6 °C (336.8 K).",
+  "experimental_values": "",
+  "notes": "^a  Solid-liquid equilibrium.\n^b   Liquid-liquid equilibrium.\n^c  These data were extracted by the compiler from the published graphs.",
+  "method": "The solubility measurements were made with the equipment and in the manner described elsewhere.^1,2",
+  "source_purity": "(1) Source not specified; purity not specified.\n(2) Prepared by catalytic hydrogenation of ethyl stearate; purified by vacuum distillation; freezing point = 57.98 °C.",
+  "estimated_error": "Solubility: Not specified.\nTemperature: Not specified.",
+  "references": "1. C. W. Hoerr, E. F. Binkerd, W. O. Pool, and A. W. Ralston, J. Org. Chem. 9, 68 (1944).\n2. A. W. Ralston, C. W. Hoerr, W. O. Pool, and H. J. Harwood, J. Org. Chem. 9,102 (1944).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1-Octadecanol",
+    "formula": "C18H38O",
+    "cas": "112-92-5"
+   },
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "10^2 * Mass Fraction w_1",
+     "g_2/100 g solution",
+     "Mole Fraction x_1 (compiler)",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "30.0",
+      "303.2",
+      "-",
+      "0.3",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "36.4 (c)",
+      "309.6",
+      "-",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "40.0",
+      "313.2",
+      "-",
+      "1.6",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "42.0 (c)",
+      "315.2",
+      "-",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "48.2 (c)",
+      "321.4",
+      "-",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "50.0",
+      "323.2",
+      "-",
+      "7.6",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "51.8 (c)",
+      "325.0",
+      "-",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "52.9 (c)",
+      "326.1",
+      "15.0 (a)",
+      "-",
+      "0.538",
+      "Alcohol-rich phase"
+     ],
+     [
+      "54.0 (c)",
+      "327.2",
+      "9.3 (a)",
+      "-",
+      "0.403",
+      "Alcohol-rich phase"
+     ],
+     [
+      "54.4 (c)",
+      "327.6",
+      "-",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "55.5 (c)",
+      "328.7",
+      "4.8 (a)",
+      "-",
+      "0.249",
+      "Alcohol-rich phase"
+     ],
+     [
+      "55.6 (c)",
+      "328.8",
+      "22.3 (b)",
+      "-",
+      "0.654",
+      "Alcohol-rich phase"
+     ],
+     [
+      "60.8 (c)",
+      "334.0",
+      "31.2 (b)",
+      "-",
+      "0.749",
+      "Alcohol-rich phase"
+     ],
+     [
+      "62.5 (c)",
+      "335.7",
+      "-",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "63.2 (c)",
+      "336.4",
+      "46.4 (b)",
+      "-",
+      "0.851",
+      "Alcohol-rich phase"
+     ],
+     [
+      "30.0",
+      "303.2",
+      "99.7 (a)",
+      "0.3",
+      "0.999",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "36.4 (c)",
+      "309.6",
+      "99.1 (a)",
+      "-",
+      "0.999",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "40.0",
+      "313.2",
+      "98.4 (a)",
+      "1.6",
+      "0.998",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "42.0 (c)",
+      "315.2",
+      "98.2 (a)",
+      "-",
+      "0.997",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "48.2 (c)",
+      "321.4",
+      "95.3 (a)",
+      "-",
+      "0.993",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "50.0",
+      "323.2",
+      "92.9 (a)",
+      "7.6",
+      "0.989",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "51.8 (c)",
+      "325.0",
+      "90.0 (b)",
+      "-",
+      "0.983",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "52.9 (c)",
+      "326.1",
+      "-",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "54.0 (c)",
+      "327.2",
+      "-",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "54.4 (c)",
+      "327.6",
+      "86.2 (b)",
+      "-",
+      "0.976",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "55.5 (c)",
+      "328.7",
+      "-",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "55.6 (c)",
+      "328.8",
+      "-",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "60.8 (c)",
+      "334.0",
+      "-",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "62.5 (c)",
+      "335.7",
+      "68.2 (b)",
+      "-",
+      "0.934",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "63.2 (c)",
+      "336.4",
+      "-",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Acetonitrile with 1-Octadecanol"
+ },
+ {
+  "sheet_id": "78_122",
+  "system_id": "78055",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_122",
+  "system": "Acetonitrile with 1-Octadecanol",
+  "components": "(1) 1-Octadecanol; C18H38O; [112-92-5]\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "Valerii P. Sazonov and Nikolai V. Sazonov, Technical University, Samara, Russia, November, 2001",
+  "critical_evaluation": "",
+  "experimental_values": "Solubilities in the system comprising acetonitrile (1) and 1-octadecanol (2) have been reported in two publications. Hoerr et al.^1 studied the phase equilibrium of the liquid-liquid-solid system and the mutual solubility of (1) and (2) between 303 and 337 K by the synthetic method. Schmid et al.^2 measured of the upper critical temperature solution of components (1) and (2) in the course of a study of binary solubilities of acetonitrile and (C10-C20) alcohols. In addition to these data, Francis^3 reported the upper critical solution temperature of this system.\n\n\nThe upper critical solution temperature has been reported as 336.2 K,3 336.8 K,1 and 337.2 K,2 these data are in reasonable agreement and thus their average value: UCST = 336.7 ± 0.4 K and is recommended.  The corresponding critical solution composition has been calculated by evaluators as x_cl = 0.88 from the data of Hoerr et al.^1\n\n\nMonotectic equilibrium has been reported to occur at 325.7 K.1\n\n\nAll experimental values reported1 have been approximated by an equation based on the scaling law (described in the introduction to this volume) for which the following parameters have been derived:\n\na_1 = 0.3143 a_2= 1.5386, b_1 = -0.4256, b_2 = -1.6183\n\n(mean standard error of estimate was 0.0080).\n\n\nFor approximation x_cl and UCST from Hoerr et al.^1 have been used. In the opinion of the evaluators, the mutual solubilities calculated by this equation may be treated as tentative. The results of calculations for the selected temperatures are presented in the following table. This relationship, together with experimental results,^1 are also presented in  Fig. 17.\nSolubilities in the system comprising acetonitrile (1) and 1-octadecanol (2) have been reported in two publications. Hoerr et al.^1 studied the phase equilibrium of the liquid-liquid-solid system and the mutual solubility of (1) and (2) between 303 and 337 K by the synthetic method. Schmid et al.^2 measured of the upper critical temperature solution of components (1) and (2) in the course of a study of binary solubilities of acetonitrile and (C10-C20) alcohols. In addition to these data, Francis^3 reported the upper critical solution temperature of this system.\n\n\nThe upper critical solution temperature has been reported as 336.2 K,3 336.8 K,1 and 337.2 K,2 these data are in reasonable agreement and thus their average value: UCST = 336.7 ± 0.4 K and is recommended.  The corresponding critical solution composition has been calculated by evaluators as x_cl = 0.88 from the data of Hoerr et al.^1\n\n\nMonotectic equilibrium has been reported to occur at 325.7 K.1\n\n\nAll experimental values reported1 have been approximated by an equation based on the scaling law (described in the introduction to this volume) for which the following parameters have been derived:\n\na_1 = 0.3143 a_2= 1.5386, b_1 = -0.4256, b_2 = -1.6183\n\n(mean standard error of estimate was 0.0080).\n\n\nFor approximation x_cl and UCST from Hoerr et al.^1 have been used. In the opinion of the evaluators, the mutual solubilities calculated by this equation may be treated as tentative. The results of calculations for the selected temperatures are presented in the following table. This relationship, together with experimental results,^1 are also presented in  Fig. 17.",
+  "notes": "",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  Hoerr, C.W.; Harwood, H.J.; Ralston, A.W., J. Org. Chem. 9, 267 (1944).\n2  Schmid, H.H.O.; Mangold, H.K.; Lundberg, W.O., Microchem. J. 9, 134 (1965).\n3  Francis, A.W., Critical Solution Temperature, Washington, Adv. Chem. Ser. 31 (1961).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1-Octadecanol",
+    "formula": "C18H38O",
+    "cas": "112-92-5"
+   },
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "10^2 * Mass Fraction w_1",
+     "Mole Fraction x_1",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "328.2",
+      "21.2",
+      "0.640",
+      "Alcohol-rich phase"
+     ],
+     [
+      "333.2",
+      "30.3",
+      "0.741",
+      "Alcohol-rich phase"
+     ],
+     [
+      "334.2",
+      "33.1",
+      "0.765",
+      "Alcohol-rich phase"
+     ],
+     [
+      "335.2",
+      "36.6",
+      "0.792",
+      "Alcohol-rich phase"
+     ],
+     [
+      "335.7",
+      "39.0",
+      "0.808",
+      "Alcohol-rich phase"
+     ],
+     [
+      "336.2",
+      "41.9",
+      "0.826",
+      "Alcohol-rich phase"
+     ],
+     [
+      "336.4",
+      "43.4",
+      "0.835",
+      "Alcohol-rich phase"
+     ],
+     [
+      "336.6",
+      "45.7",
+      "0.847",
+      "Alcohol-rich phase"
+     ],
+     [
+      "328.2",
+      "85.5",
+      "0.975",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "333.2",
+      "75.5",
+      "0.953",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "334.2",
+      "72.7",
+      "0.946",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "335.2",
+      "68.9",
+      "0.936",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "335.7",
+      "66.8",
+      "0.930",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "336.2",
+      "63.9",
+      "0.921",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "336.4",
+      "62.3",
+      "0.916",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "336.6",
+      "60.0",
+      "0.908",
+      "Acetonitrile-rich phase"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Acetonitrile with 1-Octadecanol"
+ },
+ {
+  "sheet_id": "78_118",
+  "system_id": "78052",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_118",
+  "system": "Acetonitrile with 1-Tetradecanol",
+  "components": "(1) 1-Tetradecanol; C14H30O; [112-72-1]\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Hoerr, C.W.; Harwood, H.J.; Ralston, A.W., J. Org. Chem. 9, 267 (1944).",
+  "variables": "Temperature = 283 K to 322 K",
+  "prepared_by": "Valerii  P. Sazonov and Nikolai V. Sazonov",
+  "critical_evaluation": "The solubilities of acetonitrile (1) and 1-tetradecanol (2) in mass percent including the region of immisciblity over the indicated temperature range were reported in graphical and tabular form. Monotectic equilibrium occurs at 33.5 °C (306.7 K, compilers). The upper critical solution temperature was extracted from the reported graphs by the compilers and found to be 48.4 °C (321.6 K).",
+  "experimental_values": "",
+  "notes": "^a  Solid-liquid equilibrium.\n^b  Liquid-liquid equilibrium.\n^c  These data were extracted by the compilers from the published graphs.",
+  "method": "The solubility measurements were made with the equipment and in the manner described elsewhere.^1,2",
+  "source_purity": "(1) Source not specified; purity not specified.\n(2) Prepared by catalytic hydrogenation of methyl myristate; purified by vacuum distillation; freezing point = 38.26 °C.",
+  "estimated_error": "Solubility: Not specified.\nTemperature: Not specified.",
+  "references": "1. C. W. Hoerr, E. F. Binkerd, W. O. Pool, and A. W. Ralston, J. Org. Chem. 9, 68 (1944).\n2. A. W. Ralston, C. W. Hoerr, W. O. Pool,  and H. J. Harwood, J. Org. Chem. 9,102 (1944).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1-Tetradecanol",
+    "formula": "C14H30O",
+    "cas": "112-72-1"
+   },
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "10^2 * Mass Fraction w_1",
+     "g_2/100 g solution",
+     "Mole Fraction x_1 (compiler)",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "10.0",
+      "283.2",
+      "-",
+      "<0.1",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "20.0",
+      "293.2",
+      "-",
+      "1.3",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "21.5 (c)",
+      "294.7",
+      "-",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "28.2 (c)",
+      "301.4",
+      "-",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "30.0",
+      "303.2",
+      "-",
+      "7.7",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "31.9 (c)",
+      "305.1",
+      "-",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "33.6 (c)",
+      "306.8",
+      "11.8 (a)",
+      "-",
+      "0.411",
+      "Alcohol-rich phase"
+     ],
+     [
+      "35.2 (c)",
+      "308.4",
+      "5.9 (a)",
+      "-",
+      "0.247",
+      "Alcohol-rich phase"
+     ],
+     [
+      "37.5 (c)",
+      "310.7",
+      "17.8 (b)",
+      "-",
+      "0.531",
+      "Alcohol-rich phase"
+     ],
+     [
+      "38.2 (c)",
+      "311.4",
+      "-",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "40.0",
+      "313.2",
+      "-",
+      "22.1",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "44.9 (c)",
+      "318.1",
+      "28.5 (b)",
+      "-",
+      "0.676",
+      "Alcohol-rich phase"
+     ],
+     [
+      "45.3 (c)",
+      "318.5",
+      "-",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "48.2 (c)",
+      "321.4",
+      "-",
+      "-",
+      "-",
+      "Alcohol-rich phase"
+     ],
+     [
+      "48.3 (c)",
+      "321.5",
+      "45.0 (b)",
+      "-",
+      "0.810",
+      "Alcohol-rich phase"
+     ],
+     [
+      "10.0",
+      "283.2",
+      ">99.9 (a)",
+      "<0.1",
+      "0.999",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "20.0",
+      "293.2",
+      "98.7 (a)",
+      "1.3",
+      "0.998",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "21.5 (c)",
+      "294.7",
+      "98.2 (a)",
+      "-",
+      "0.997",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "28.2 (c)",
+      "301.4",
+      "94.7 (a)",
+      "-",
+      "0.989",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "30.0",
+      "303.2",
+      "92.9 (a)",
+      "7.7",
+      "0.986",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "31.9 (c)",
+      "305.1",
+      "90.0 (a)",
+      "-",
+      "0.979",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "33.6 (c)",
+      "306.8",
+      "-",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "35.2 (c)",
+      "308.4",
+      "-",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "37.5 (c)",
+      "310.7",
+      "-",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "38.2 (c)",
+      "311.4",
+      "83.8 (b)",
+      "-",
+      "0.964",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "40.0",
+      "313.2",
+      "81.9 (b)",
+      "22.1",
+      "0.959",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "44.9 (c)",
+      "318.1",
+      "-",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "45.3 (c)",
+      "318.5",
+      "72.5 (b)",
+      "-",
+      "0.932",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "48.2 (c)",
+      "321.4",
+      "58.9 (b)",
+      "-",
+      "0.882",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "48.3 (c)",
+      "321.5",
+      "-",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Acetonitrile with 1-Tetradecanol"
+ },
+ {
+  "sheet_id": "78_117",
+  "system_id": "78052",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_117",
+  "system": "Acetonitrile with 1-Tetradecanol",
+  "components": "(1) 1-Tetradecanol; C14H30O; [112-72-1]\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "Valerii P. Sazonov and Nikolai V. Sazonov, Technical University, Samara, Russia, November, 2001",
+  "critical_evaluation": "",
+  "experimental_values": "Solubilities in the system comprising acetonitrile (1) and 1-tetradecanol (2) have been reported in two publications. Hoerr et al.^1 studied the phase equilibrium of the liquid-liquid-solid system and the mutual solubility of (1) and (2) between 283 and 322 K by the synthetic method. Schmid et al.^2 measured of the upper critical temperature solution of components (1) and (2) in the course of study of binary solubilities of acetonitrile and (C10-C20) alcohols. In addition to these data Francis^3 reported the upper critical solution temperature of this system.\n\nThe upper critical solution temperature has been reported as 317.7 K,2 321.2 K,3 and 321.6 K.1 The UCST by Schmid et al.^2 is rejected. The average of the remaining values, UCST = 321.4 ±  0.2 K, is treated as tentative. The corresponding critical solution composition has been calculated by evaluator as x_cl = 0.84 from the data.^1\n\n\nMonotectic equilibrium has been reported to occur at 306.7 K.1\n\nAll experimental values reported^1 have been approximated by an equation based on the scaling law (described in the introduction to this volume) for which the following parameters have been derived:\n\na_1 = 0.4516, a_2= 1.1462, b_1 = 0.2848, b_2 = -2.0623\n\n(mean standard error of estimate was 0.0020).\n\n\nFor approximation x_cl and UCST from Hoerr et al.^1 have been used. In the opinion of the evaluators, the mutual solubilities calculated by this equation may be treated as tentative. The results of calculations for the selected temperatures are presented in the following table. This relationship, together with experimental results,^1 are also presented in  Fig. 15.\nSolubilities in the system comprising acetonitrile (1) and 1-tetradecanol (2) have been reported in two publications. Hoerr et al.^1 studied the phase equilibrium of the liquid-liquid-solid system and the mutual solubility of (1) and (2) between 283 and 322 K by the synthetic method. Schmid et al.^2 measured of the upper critical temperature solution of components (1) and (2) in the course of study of binary solubilities of acetonitrile and (C10-C20) alcohols. In addition to these data Francis^3 reported the upper critical solution temperature of this system.\n\nThe upper critical solution temperature has been reported as 317.7 K,2 321.2 K,3 and 321.6 K.1 The UCST by Schmid et al.^2 is rejected. The average of the remaining values, UCST = 321.4 ±  0.2 K, is treated as tentative. The corresponding critical solution composition has been calculated by evaluator as x_cl = 0.84 from the data.^1\n\n\nMonotectic equilibrium has been reported to occur at 306.7 K.1\n\nAll experimental values reported^1 have been approximated by an equation based on the scaling law (described in the introduction to this volume) for which the following parameters have been derived:\n\na_1 = 0.4516, a_2= 1.1462, b_1 = 0.2848, b_2 = -2.0623\n\n(mean standard error of estimate was 0.0020).\n\n\nFor approximation x_cl and UCST from Hoerr et al.^1 have been used. In the opinion of the evaluators, the mutual solubilities calculated by this equation may be treated as tentative. The results of calculations for the selected temperatures are presented in the following table. This relationship, together with experimental results,^1 are also presented in  Fig. 15.",
+  "notes": "",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  Hoerr, C.W.; Harwood, H.J.; Ralston, A.W., J. Org. Chem. 9, 267 (1944).\n2  Schmid, H.H.O.; Mangold, H.K.; Lundberg, W.O., Microchem. J. 9, 134 (1965).\n3  Francis, A.W., Critical Solution Temperature, Washington, Adv. Chem. Ser. 31 (1961).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1-Tetradecanol",
+    "formula": "C14H30O",
+    "cas": "112-72-1"
+   },
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "10^2 * Mass Fraction w_1",
+     "Mole Fraction x_1",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "308.2",
+      "15.5",
+      "0.489",
+      "Alcohol-rich phase"
+     ],
+     [
+      "313.2",
+      "20.6",
+      "0.575",
+      "Alcohol-rich phase"
+     ],
+     [
+      "318.2",
+      "28.9",
+      "0.680",
+      "Alcohol-rich phase"
+     ],
+     [
+      "319.2",
+      "31.5",
+      "0.706",
+      "Alcohol-rich phase"
+     ],
+     [
+      "320.2",
+      "34.9",
+      "0.737",
+      "Alcohol-rich phase"
+     ],
+     [
+      "320.7",
+      "37.2",
+      "0.756",
+      "Alcohol-rich phase"
+     ],
+     [
+      "321.2",
+      "40.6",
+      "0.781",
+      "Alcohol-rich phase"
+     ],
+     [
+      "321.4",
+      "42.6",
+      "0.795",
+      "Alcohol-rich phase"
+     ],
+     [
+      "321.5",
+      "44.1",
+      "0.805",
+      "Alcohol-rich phase"
+     ],
+     [
+      "308.2",
+      "86.5",
+      "0.971",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "313.2",
+      "81.7",
+      "0.959",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "318.2",
+      "73.4",
+      "0.935",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "319.2",
+      "70.6",
+      "0.926",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "320.2",
+      "66.8",
+      "0.913",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "320.7",
+      "64.3",
+      "0.904",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "321.2",
+      "60.5",
+      "0.889",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "321.4",
+      "58.4",
+      "0.88",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "321.5",
+      "56.6",
+      "0.872",
+      "Acetonitrile-rich phase"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Acetonitrile with 1-Tetradecanol"
+ },
+ {
+  "sheet_id": "78_83",
+  "system_id": "78029",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_83",
+  "system": "Acetonitrile with 2,2,4-Trimethylpentane",
+  "components": "(1) 2,2,4-Trimethylpentane; C8H18; [540-84-1]\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Cornish, R.E.; Archibald, R.C.; Murphy, E.A.; Evans, H.M., Ind. Eng. Chem. 26, 397 (1934).",
+  "variables": "Temperature = 354 K",
+  "prepared_by": "Valerii  P. Sazonov",
+  "critical_evaluation": "The upper critical solution temperature (UCST) was reported to be 81.0 °C (354.2 K, compiler).",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The synthetic method was used. Determinations were made in test tubes, which were heated and allowed to cool slowly in air. Thermometers were roughly calibrated.",
+  "source_purity": "(1) Prepared from sodium cyanide and dimethyl sulfate; the crude product was distilled and successively washed with solid sodium hydroxide and P_2O_5; carefully fractionated in a 6.09-meter column; d(20 °C,4 °C)=0.78215.\n(2) Source not specified; fractionated in a 6.09-meter column; boiling point = (99.3 ± 0.05) °C, melting point = -(107.5 ± 0.5) °C; n(20 °C, D) = 1.391 62; d(20 °C,20 °C) = 0.693 14.",
+  "estimated_error": "Solubility: Not reported.\nTemperature: Not reported.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "2,2,4-Trimethylpentane",
+    "formula": "C8H18",
+    "cas": "540-84-1"
+   },
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "Acetonitrile with 2,2,4-Trimethylpentane"
+ },
+ {
+  "sheet_id": "78_131",
+  "system_id": "78063",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_131",
+  "system": "Acetonitrile with 2,2'-Oxybispropane (dipropyl ether)",
+  "components": "(1) 2,2’-Oxybispropane (dipropyl ether); C6H14O; [108-20-3]\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Cornish, R.E.; Archibald, R.C.; Murphy, E.A.; Evans, H.M., Ind. Eng. Chem. 26, 397 (1934).",
+  "variables": "Temperature = 233 K",
+  "prepared_by": "Valerii  P. Sazonov",
+  "critical_evaluation": "The upper critical solution temperature (UCST) was reported as < –40 °C (< 233 K, compiler).",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The synthetic method was used. Determinations were made in test tubes, which were heated and allowed to cool slowly in air. Thermometers were roughly calibrated.",
+  "source_purity": "(1) Prepared from sodium cyanide and dimethyl sulfate; the crude product was distilled off and successively washed with solid sodium hydroxide and P_2O_5; carefully fractionated in a 6.09 m column; d(20 °C,4 °C)=0.782 15.\n(2) Source not specified; purified by fractionating in a 6.09 m column.",
+  "estimated_error": "Solubility: Not reported.\nTemperature: Not reported.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "2,2’-Oxybispropane (dipropyl ether)",
+    "formula": "C6H14O",
+    "cas": "108-20-3"
+   },
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "Acetonitrile with 2,2'-Oxybispropane (dipropyl ether)"
+ },
+ {
+  "sheet_id": "78_113",
+  "system_id": "78050",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_113",
+  "system": "Acetonitrile with 2-Alcohols",
+  "components": "(1) 2-Alcohols; C11H24O - C19H40O; []\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Schmid, H.H.O.; Mangold, H.K.; Lundberg, W.O., Microchem. J. 9, 134 (1965).",
+  "variables": "Temperature = 296 K to 339 K",
+  "prepared_by": "Valerii  P. Sazonov",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The synthetic method was used. A Reichert microscope, type RCH, equipped with a heating stage was used as described elsewhere.^1 The disappearance and reappearance of the interface between (1) and (2) could be observed without difficulty.",
+  "source_purity": "(1) Baker Chemical Co.; reagent, No. 9011; n(20 °C, D) = 1.3445, d(20 °C, 4 °C) = 0.780.\n(2) Some alcohols obtained from Aldrich Chemical Co.; all other alcohols prepared by reduction of the corresponding methyl ketones with lithium aluminum hydride; purified by gas-liquid partition chromatography.",
+  "estimated_error": "Temperature: ± 0.5 K.",
+  "references": "1. H. H. O. Schmid, H. K. Mangold, W. O. Lundberg, J. Am. Oil Chem. Soc. 42, 372 (1965).",
+  "components_parsed": [
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "Chemical Name"
+    ],
+    "rows": [
+     [
+      "22.5",
+      "295.7",
+      "2-Undecanol; C11H24O; [1653-30-1]"
+     ],
+     [
+      "29.0",
+      "302.2",
+      "2-Dodecanol; C12H26O; [10203-28-8]"
+     ],
+     [
+      "35.0",
+      "308.2",
+      "2-Tridecanol; C13H28O; [1653-31-2]"
+     ],
+     [
+      "39.5",
+      "312.7",
+      "2-Tetradecanol; C14H30O; [4706-81-4]"
+     ],
+     [
+      "45.0",
+      "318.2",
+      "2-Pentadecanol; C15H32O; [1653-34-5]"
+     ],
+     [
+      "50.0",
+      "323.2",
+      "2-Hexadecanol; C16H34O; [34019-44-8]"
+     ],
+     [
+      "55.5",
+      "328.7",
+      "2-Heptadecanol; C17H36O; [16813-18-6]"
+     ],
+     [
+      "66.0",
+      "339.2",
+      "2-Nonadecanol; C19H40O; [26533-36-8]"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Acetonitrile with 2-Alcohols"
+ },
+ {
+  "sheet_id": "78_216",
+  "system_id": "78141",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_216",
+  "system": "Acetonitrile with 2-Heptadecylbenzothiazole",
+  "components": "(1) 2-Heptadecylbenzothiazole; C24H39NS; []\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "DuBrow, P.L.; Hoerr, C.W.; Harwood, H.J., J. Am. Chem. Soc. 74, 6241-5 (1952).",
+  "variables": "Temperature = 313 K and 323 K",
+  "prepared_by": "Valerii  P. Sazonov",
+  "critical_evaluation": "Not miscible below 82 °C (355 K, compiler).",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The synthetic method was used. The solubilities were determined by observing visually the temperatures at which known concentrations precipitated upon cooling and dissolved upon heating.",
+  "source_purity": "(1) Source not specified; reagent grade; freshly distilled.\n(2) Prepared by the reaction of highly purified stearic acid with 2-aminobenzenethiol at elevated temperatures, using catalytic amounts of HCl; purified by vacuum distillation in a Vigreux column; crystallized from 5% solution in ethanol; freezing point=3",
+  "estimated_error": "Temperature: ± 0.1.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "g_2/100 g solution",
+     "10^2 * Mass Fraction w_2 (compiler)",
+     "Mole Fraction x_2 (compiler)"
+    ],
+    "rows": [
+     [
+      "40.0",
+      "313.2",
+      "<0.1",
+      "<0.1",
+      "0.0001"
+     ],
+     [
+      "50.0",
+      "323.2",
+      "1.0",
+      "1.0",
+      "0.001"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Acetonitrile with 2-Heptadecylbenzothiazole"
+ },
+ {
+  "sheet_id": "78_42",
+  "system_id": "78018",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_42",
+  "system": "Acetonitrile with 2-Methylbutane",
+  "components": "(1) 2-Methylbutane; C5H12; [78-78-4]\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "Valerii P. Sazonov and Nikolai V. Sazonov, Technical University, Samara, Russia, September, 2001",
+  "critical_evaluation": "",
+  "experimental_values": "Quantitative solubility data for the system of acetonitrile (1) + 2-methylbutane (2) have been reported in the publications listed in Table 1.\n\nAll original data are compiled in the data sheets immediately following this Critical Evaluation.\n\n\nThe upper critical solution temperature has been reported as 338.2 K.2 The corresponding critical solution composition has been calculated by evaluators as x_cl = 0.50 from the data.^2\n\nAll experimental values reported^1-4 have been approximated by an equation based on the scaling law (described in the introduction to this volume) for which the following parameters have been derived:\na_1 = 0.9283, a_2= –0.2839, b_1 = 0.7857, b_2 = –0.7455\n\n(mean standard error of estimate was 0.0191).\n\n\nFor approximation x_cl and UCST determined by Pavlov et al.^2 have been used. In the opinion of the evaluators, the mutual solubilities calculated by this equation may be treated as tentative. The results of calculations for the selected temperatures are presented in Table 2. This relationship together with experimental points reported^1-4 are also presented in  Fig. 5.\nQuantitative solubility data for the system of acetonitrile (1) + 2-methylbutane (2) have been reported in the publications listed in Table 1.\n\nAll original data are compiled in the data sheets immediately following this Critical Evaluation.\n\n\nThe upper critical solution temperature has been reported as 338.2 K.2 The corresponding critical solution composition has been calculated by evaluators as x_cl = 0.50 from the data.^2\n\nAll experimental values reported^1-4 have been approximated by an equation based on the scaling law (described in the introduction to this volume) for which the following parameters have been derived:\na_1 = 0.9283, a_2= -0.2839, b_1 = 0.7857, b_2 = -0.7455\n\n(mean standard error of estimate was 0.0191).\n\n\nFor approximation x_cl and UCST determined by Pavlov et al.^2 have been used. In the opinion of the evaluators, the mutual solubilities calculated by this equation may be treated as tentative. The results of calculations for the selected temperatures are presented in Table 2. This relationship together with experimental points reported^1-4 are also presented in  Fig. 5.",
+  "notes": "",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  Burova, G.V.; Kogan, V.B.; Nemtsov, M.S., Zh. Prikl. Khim. (Leningrad) 36, 988 (1963).\n2  Pavlov, S.Yu.; Serafimov, L.A.; Pavlova, S.P.; Kofman, L.S., Zh. Fiz. Khim. 40, 2719 (1966).\n3  Pavlov, S.Yu.; Pavlova, S.P.; Serafimov, L.A.; Kofman, L.S., Izv. Vyssh. Uchebn. Zaved., Khim. Khim. Tekhnol. 10, 915 (1967).\n4  Rakotondramanana, S.; Borredon, M.E.; Mollnier, J., J. Chem. Eng. Data 32, 308-11 (1987).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "2-Methylbutane",
+    "formula": "C5H12",
+    "cas": "78-78-4"
+   },
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "10^2 * Mass Fraction w_1",
+     "Mole Fraction x_1",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "273.2",
+      "0.7",
+      "0.012",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "283.2",
+      "1.8",
+      "0.032",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "293.2",
+      "3.3",
+      "0.056",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "298.2",
+      "4.1",
+      "0.070",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "303.2",
+      "5.0",
+      "0.085",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "308.2",
+      "6.1",
+      "0.103",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "313.2",
+      "7.4",
+      "0.123",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "318.2",
+      "8.9",
+      "0.147",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "323.3",
+      "10.9",
+      "0.177",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "328.2",
+      "13.5",
+      "0.215",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "333.2",
+      "17.5",
+      "0.271",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "334.2",
+      "18.6",
+      "0.286",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "335.2",
+      "20.0",
+      "0.305",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "336.2",
+      "21.8",
+      "0.329",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "337.2",
+      "24.6",
+      "0.364",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "337.7",
+      "26.8",
+      "0.391",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "273.2",
+      "90.9",
+      "0.946",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "283.2",
+      "87.8",
+      "0.927",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "293.2",
+      "84.4",
+      "0.905",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "298.2",
+      "82.6",
+      "0.893",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "303.2",
+      "80.5",
+      "0.879",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "308.2",
+      "78.3",
+      "0.864",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "313.2",
+      "75.8",
+      "0.846",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "318.2",
+      "72.8",
+      "0.825",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "323.3",
+      "69.3",
+      "0.799",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "328.2",
+      "65.2",
+      "0.767",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "333.2",
+      "59.2",
+      "0.718",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "334.2",
+      "57.4",
+      "0.703",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "335.2",
+      "55.4",
+      "0.686",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "336.2",
+      "53.0",
+      "0.665",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "337.2",
+      "49.5",
+      "0.633",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "337.7",
+      "46.7",
+      "0.606",
+      "Acetonitrile-rich phase"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Acetonitrile with 2-Methylbutane"
+ },
+ {
+  "sheet_id": "78_43",
+  "system_id": "78018",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_43",
+  "system": "Acetonitrile with 2-Methylbutane",
+  "components": "(1) 2-Methylbutane; C5H12; [78-78-4]\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Burova, G.V.; Kogan, V.B.; Nemtsov, M.S., Zh. Prikl. Khim. (Leningrad) 36, 988 (1963).",
+  "variables": "Temperature = 295 K to 330 K",
+  "prepared_by": "Valerii  P. Sazonov and Nikolai V. Sazonov",
+  "critical_evaluation": "The mutual solubilities of acetonitrile (1) and 2-methylbutane (2) in mass percent over the specified temperature range were reported in graphical form in the original publication. Numerical data were extracted from the published graphs by the compilers.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The synthetic method was used. A sample of (1) was placed in a 10 mL ampoule, cooled, and a given amount of hydrocarbon was added. Sealed ampoules were placed into a glass-walled thermostat. The temperature of the thermostat was increased gradually with periodic stirring and a preliminary determination of the clear-point temperature in every ampoule was made. A more precise value of the cloud-point temperature was determined by allowing the thermostat to cool. The determination was repeated several times.",
+  "source_purity": "(1) Source not specified; purity not specified; distilled as in1; boiling point = 81.8 °C, n(20 °C, D) = 1.3440, d(20 °C, 4 °C) = 0.7818.\n(2) Source not specified; purity not specified; distilled through a column of 90 theoretical plates as in Ogorodnikov et al.^2; boiling point = 27.88 °C, n(20 °C, D) = 1.35383.",
+  "estimated_error": "Solubility: Not reported.\nTemperature: Not reported.",
+  "references": "1. S. K. Ogorodnikov, V. B. Kogan, and M. S. Nemtsov, G. V. Burova, Zh. Prikl. Khim. (Leningrad) 34, 1096 (1961).\n2. S. K. Ogorodnikov, V. B. Kogan, and M. S. Nemtsov,  Zh. Prikl. Khim. (Leningrad) 33, 1599 (1960).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "2-Methylbutane",
+    "formula": "C5H12",
+    "cas": "78-78-4"
+   },
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "10^2 * Mass Fraction w_1",
+     "Mole Fraction x_1",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "22.0",
+      "295.2",
+      "-",
+      "-",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "23.0",
+      "296.2",
+      "3.0",
+      "0.052",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "27.0",
+      "300.2",
+      "-",
+      "-",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "31.5",
+      "304.7",
+      "5.0",
+      "0.085",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "42.0",
+      "315.2",
+      "8.0",
+      "0.133",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "48.5",
+      "321.7",
+      "10.0",
+      "0.163",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "50.0",
+      "323.2",
+      "-",
+      "-",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "56.0",
+      "329.2",
+      "-",
+      "-",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "56.5",
+      "329.7",
+      "15.0",
+      "0.237",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "22.0",
+      "295.2",
+      "86.5",
+      "0.920",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "23.0",
+      "296.2",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "27.0",
+      "300.2",
+      "83.5",
+      "0.899",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "31.5",
+      "304.7",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "42.0",
+      "315.2",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "48.5",
+      "321.7",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "50.0",
+      "323.2",
+      "75.0",
+      "0.840",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "56.0",
+      "329.2",
+      "68.0",
+      "0.789",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "56.5",
+      "329.7",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Acetonitrile with 2-Methylbutane"
+ },
+ {
+  "sheet_id": "78_44",
+  "system_id": "78018",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_44",
+  "system": "Acetonitrile with 2-Methylbutane",
+  "components": "(1) 2-Methylbutane; C5H12; [78-78-4]\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Pavlov, S.Yu.; Serafimov, L.A.; Pavlova, S.P.; Kofman, L.S., Zh. Fiz. Khim. 40, 2719 (1966).",
+  "variables": "Temperature = 275 K to 338 K",
+  "prepared_by": "Valerii  P. Sazonov and Nikolai V. Sazonov",
+  "critical_evaluation": "The mutual solubilities of acetonitrile (1) and 2-methylbutane (2) in mass percent over the specified temperature range were reported in graphical form in the original publication. Numerical data were extracted from the published graphs by the compilers. UCST was reported as 65.0 °C (338.2 K, compilers).",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The synthetic method was used. No experimental details were reported.",
+  "source_purity": "(1) Source not specified; purity not specified; distilled; purity ≥99.80 mass. %; boiling point = 81.6 °C, n(20 °C, D) = 1.3442, d(20 °C, 4 °C) = 0.7828.\n(2) Source not specified; purity not specified; distilled through a column of 70 theoretical plates; purity ≥99.75 mass. %; n(20 °C, D) = 1.3538, d(20 °C, 4 °C) = 0.6197.",
+  "estimated_error": "Solubility: Not reported.\nTemperature: Not reported.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "2-Methylbutane",
+    "formula": "C5H12",
+    "cas": "78-78-4"
+   },
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "10^2 * Mass Fraction w_1",
+     "Mole Fraction x_1",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "1.3",
+      "274.5",
+      "-",
+      "-",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "7.8",
+      "281.0",
+      "2.5",
+      "0.043",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "9.1",
+      "282.3",
+      "-",
+      "-",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "15.6",
+      "288.8",
+      "3.3",
+      "0.057",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "17.0",
+      "290.2",
+      "-",
+      "-",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "25.6",
+      "298.8",
+      "-",
+      "-",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "29.8",
+      "303.0",
+      "4.5",
+      "0.077",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "35.5",
+      "308.7",
+      "-",
+      "-",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "41.7",
+      "314.9",
+      "6.8",
+      "0.114",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "50.0",
+      "323.2",
+      "10.0",
+      "0.163",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "55.4",
+      "328.6",
+      "-",
+      "-",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "58.3",
+      "331.5",
+      "16.2",
+      "0.254",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "62.3",
+      "335.5",
+      "-",
+      "-",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "63.5",
+      "336.7",
+      "25.1",
+      "0.370",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "64.5",
+      "337.7",
+      "-",
+      "-",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "1.3",
+      "274.5",
+      "88.1",
+      "0.929",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "7.8",
+      "281.0",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "9.1",
+      "282.3",
+      "87.7",
+      "0.926",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "15.6",
+      "288.8",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "17.0",
+      "290.2",
+      "86.2",
+      "0.917",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "25.6",
+      "298.8",
+      "83.8",
+      "0.901",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "29.8",
+      "303.0",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "35.5",
+      "308.7",
+      "80.0",
+      "0.876",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "41.7",
+      "314.9",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "50.0",
+      "323.2",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "55.4",
+      "328.6",
+      "66.2",
+      "0.775",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "58.3",
+      "331.5",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "62.3",
+      "335.5",
+      "54.5",
+      "0.678",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "63.5",
+      "336.7",
+      "-",
+      "-",
+      "Acetonitrile-rich phase"
+     ],
+     [
+      "64.5",
+      "337.7",
+      "41.0",
+      "0.550",
+      "Acetonitrile-rich phase"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Acetonitrile with 2-Methylbutane"
+ },
+ {
+  "sheet_id": "78_45",
+  "system_id": "78018",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_45",
+  "system": "Acetonitrile with 2-Methylbutane",
+  "components": "(1) 2-Methylbutane; C5H12; [78-78-4]\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Pavlov, S.Yu.; Pavlova, S.P.; Serafimov, L.A.; Kofman, L.S., Izv. Vyssh. Uchebn. Zaved., Khim. Khim. Tekhnol. 10, 915 (1967).",
+  "variables": "Temperature = 282 K to 328 K",
+  "prepared_by": "Valerii  P. Sazonov and Nikolai V. Sazonov",
+  "critical_evaluation": "The solubilities of 2-methylbutane (2) in acetonitrile (1) in mass percent over the temperature range were presented in graphical form and in a table.",
+  "experimental_values": "",
+  "notes": "^*  The compilers extracted these data from published graphs.",
+  "method": "The synthetic method was used. No details were reported.",
+  "source_purity": "(1) Source not specified; pure grade reagent; fractionally distilled.\n(2) Source not specified; purity 99.7 mass %.",
+  "estimated_error": "Solubility: Not specified.\nTemperature: Not specified.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "2-Methylbutane",
+    "formula": "C5H12",
+    "cas": "78-78-4"
+   },
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "10^2 * Mass Fraction w_2",
+     "Mole Fraction x_2 (compiler)"
+    ],
+    "rows": [
+     [
+      "9.0*",
+      "282.2",
+      "12.1",
+      "0.073"
+     ],
+     [
+      "20.0",
+      "293.2",
+      "14.4",
+      "0.087"
+     ],
+     [
+      "26.5*",
+      "299.7",
+      "16.6",
+      "0.102"
+     ],
+     [
+      "36.0*",
+      "309.2",
+      "20.1",
+      "0.125"
+     ],
+     [
+      "40.0",
+      "313.2",
+      "21.8",
+      "0.137"
+     ],
+     [
+      "44.5*",
+      "317.7",
+      "24.4",
+      "0.155"
+     ],
+     [
+      "55.0*",
+      "328.2",
+      "33.8",
+      "0.225"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Acetonitrile with 2-Methylbutane"
+ },
+ {
+  "sheet_id": "78_46",
+  "system_id": "78018",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=78_46",
+  "system": "Acetonitrile with 2-Methylbutane",
+  "components": "(1) 2-Methylbutane; C5H12; [78-78-4]\n(2) Acetonitrile; C2H3N; [75-05-8]",
+  "original_measurements": "Rakotondramanana, S.; Borredon, M.E.; Mollnier, J., J. Chem. Eng. Data 32, 308-11 (1987).",
+  "variables": "Temperature = 293 K",
+  "prepared_by": "Valerii  P. Sazonov",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The titration method was used. No experimental details were reported.",
+  "source_purity": "(1) Source not specified; commercial product; minimum purity of 99 mass %; dried with a 4 A molecular sieve.\n(2) Source not specified; commercial product; minimum purity of 99 mass %.",
+  "estimated_error": "Temperature: ± 0.5 K.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "2-Methylbutane",
+    "formula": "C5H12",
+    "cas": "78-78-4"
+   },
+   {
+    "index": 2,
+    "name": "Acetonitrile",
+    "formula": "C2H3N",
+    "cas": "75-05-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "10^2 * Mass Fraction w_1",
+     "Mole Fraction x_1 (compiler)",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "20.0",
+      "293.2",
+      "3.5",
+      "0.060",
+      "Hydrocarbon-rich phase"
+     ],
+     [
+      "20.0",
+      "293.2",
+      "85.9",
+      "0.915",
+      "Acetonitrile-rich phase"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Acetonitrile with 2-Methylbutane"
+ }
+]

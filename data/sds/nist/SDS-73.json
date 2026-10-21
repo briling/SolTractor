@@ -1,0 +1,7516 @@
+[
+ {
+  "sheet_id": "73_40",
+  "system_id": "73001",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_40",
+  "system": "Aluminum formate with other formates (Sc, Y, La, Ce, Pr, Nd, Sm, Eu, Gd, Tb, Dy, Ho, Er) and Water",
+  "components": "(1) Aluminum formate; Al(CHO2)3; [7360-53-4]\n(2) Cerium formate; Ce(CHO2)3; [3252-51-5]\n(3) Dysprosium formate; Dy(CHO2)3; [3252-58-2]\n(4) Erbium formate; Er(CHO2)3; [15331-72-3]\n(5) Europium formate; Eu(CHO2)3; [3252-55-9]\n(6) Gadolinium formate; Gd(CHO2)3; [3252-56-0]\n(7) Holmium formate; Ho(CHO2)3; [3252-59-3]\n(8) Lanthanum formate; La(CHO2)3; [2081-11-0]\n(9) Neodymium formate; Nd(CHO2)3; [3252-53-7]\n(10) Praseodymium formate; Pr(CHO2)3; [3252-52-6]\n(11) Samarium formate; Sm(CHO2)3; [3252-54-8]\n(12) Scandium formate; Sc(CHO2)3; [23405-01-8]\n(13) Terbium formate; Tb(CHO2)3; [3252-57-1]\n(14) Water; H2O; [7732-18-5]\n(15) Yttrium formate; Y(CHO2)3; [15331-71-2]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "Thedford P. Dirkse, Calvin College, Grand Rapids, Michigan.  U. S. A.",
+  "critical_evaluation": "",
+  "experimental_values": "3.3. Tri-positive Metal Formates        In this section the data for the water solubility of the selected formates are presented.  With one exception, yttrium formate, there is only one published report for the water solubility for each of the metal formates listed above.  None of these reports presents a complete thermogram.  In many of the reports only a few data points are given.  The reports dealing with the solubility of yttrium formate each present only one data point and several of these are single solubility values taken from studies of three-component systems (located in Sec. 2 of this volume).  Because of the scarcity of water solubility data no critical evaluation can be made of the solubility values that are reported, nor can any recommendations be made about  the validity of the values that have been published.  Therefore, the pages that follow in this section merely present the solubility data as they have been published.",
+  "notes": "",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Aluminum formate",
+    "formula": "Al(CHO2)3",
+    "cas": "7360-53-4"
+   },
+   {
+    "index": 2,
+    "name": "Cerium formate",
+    "formula": "Ce(CHO2)3",
+    "cas": "3252-51-5"
+   },
+   {
+    "index": 3,
+    "name": "Dysprosium formate",
+    "formula": "Dy(CHO2)3",
+    "cas": "3252-58-2"
+   },
+   {
+    "index": 4,
+    "name": "Erbium formate",
+    "formula": "Er(CHO2)3",
+    "cas": "15331-72-3"
+   },
+   {
+    "index": 5,
+    "name": "Europium formate",
+    "formula": "Eu(CHO2)3",
+    "cas": "3252-55-9"
+   },
+   {
+    "index": 6,
+    "name": "Gadolinium formate",
+    "formula": "Gd(CHO2)3",
+    "cas": "3252-56-0"
+   },
+   {
+    "index": 7,
+    "name": "Holmium formate",
+    "formula": "Ho(CHO2)3",
+    "cas": "3252-59-3"
+   },
+   {
+    "index": 8,
+    "name": "Lanthanum formate",
+    "formula": "La(CHO2)3",
+    "cas": "2081-11-0"
+   },
+   {
+    "index": 9,
+    "name": "Neodymium formate",
+    "formula": "Nd(CHO2)3",
+    "cas": "3252-53-7"
+   },
+   {
+    "index": 10,
+    "name": "Praseodymium formate",
+    "formula": "Pr(CHO2)3",
+    "cas": "3252-52-6"
+   },
+   {
+    "index": 11,
+    "name": "Samarium formate",
+    "formula": "Sm(CHO2)3",
+    "cas": "3252-54-8"
+   },
+   {
+    "index": 12,
+    "name": "Scandium formate",
+    "formula": "Sc(CHO2)3",
+    "cas": "23405-01-8"
+   },
+   {
+    "index": 13,
+    "name": "Terbium formate",
+    "formula": "Tb(CHO2)3",
+    "cas": "3252-57-1"
+   },
+   {
+    "index": 14,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 15,
+    "name": "Yttrium formate",
+    "formula": "Y(CHO2)3",
+    "cas": "15331-71-2"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [],
+    "rows": []
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Aluminum formate with other formates (Sc, Y, La, Ce, Pr, Nd, Sm, Eu, Gd, Tb, Dy, Ho, Er) and Water"
+ },
+ {
+  "sheet_id": "73_41",
+  "system_id": "73002",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_41",
+  "system": "Aluminum formate with Water",
+  "components": "(1) Aluminum formate; Al(CHO2)3; [7360-53-4]\n(2) Water; H2O; [7732-18-5]",
+  "original_measurements": "Chapligina, H.M.; Babievskaya, I.Z.; Kudinov, I.B., Zh. Neorg. Khim. 29, 2206-10 (1984)",
+  "variables": "Concentration = Composition at 25 ºC to 100 ºC",
+  "prepared_by": "Chr. Balarew and St. Trendafilova",
+  "critical_evaluation": "The molality values were calculated by the compilers.\nNote: AlOH(CHO_2)_2·0.5H_2O is totally converted to the trihydrate at 50 °C in a solution containing 25 mass % formic acid.",
+  "experimental_values": "",
+  "notes": "^a  The solid phases are: A = Al(CHO_2)_3•3H_2O; B = AlOH(CHO_2)_2•0.5H_2O; C = AlOH(CHO_2)_2.",
+  "method": "No information is given about the method used. The aluminum content was determined complexometrically by back titrating excess Trilon B with a 0.1 N Pb(NO_3)_2 solution.  Xylenol orange was the indicator. The formate ion content was determined permanganometrically or by titration with dilute NaOH.",
+  "source_purity": "Aluminum formate was prepared by dissolving p.a. grade AlCl_3•6H2O and p.a. grade NaHCO_3 at room temperature in a minimum quantity of 10% p.a. grade formic acid. After 5-6 h a residue of Al(CHO_2)_3•3H2O is formed. It is separated by filtration and air dried.  Aluminum formate was also formed by dissolving a fresh suspension of Al(OH)_3 in 30-35% p.a. grade formic acid at 60 °C, filtering and air drying.",
+  "estimated_error": "Solubility: No information is given.\nTemperature: No information is given.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Aluminum formate",
+    "formula": "Al(CHO2)3",
+    "cas": "7360-53-4"
+   },
+   {
+    "index": 2,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Chemical_1",
+     "Phase",
+     "Mass Fraction w_1",
+     "m_1 [mol kg-1]",
+     "Chemical_2",
+     "Mass Fraction w_2",
+     "Solid Phase(s)^a"
+    ],
+    "rows": [
+     [
+      "25",
+      "Al(CHO2)3",
+      "Liquid",
+      "6.19",
+      "0.407",
+      "Al3+",
+      "1.03",
+      "A"
+     ],
+     [
+      "50",
+      "Al(CHO2)3",
+      "Liquid",
+      "7.03",
+      "0.467",
+      "Al3+",
+      "1.17",
+      "A"
+     ],
+     [
+      "100",
+      "Al(CHO2)3",
+      "Liquid",
+      "-",
+      "-",
+      "Al3+",
+      "Hydrolysis",
+      "B"
+     ]
+    ]
+   },
+   {
+    "headers": [
+     "t/°C",
+     "Chemical_1",
+     "Phase",
+     "Mass Fraction w_1",
+     "m_1 [mol kg-1]",
+     "Chemical_2",
+     "Mass Fraction w_2",
+     "Solid Phase(s)^a"
+    ],
+    "rows": [
+     [
+      "25",
+      "Al(CHO2)3",
+      "Liquid",
+      "3.24",
+      "0.207",
+      "Al3+",
+      "0.54",
+      "B"
+     ],
+     [
+      "50",
+      "Al(CHO2)3",
+      "Liquid",
+      "3.30",
+      "0.211",
+      "Al3+",
+      "0.55",
+      "B"
+     ],
+     [
+      "100",
+      "Al(CHO2)3",
+      "Liquid",
+      "1.44",
+      "0.09",
+      "Al3+",
+      "0.24",
+      "C"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Aluminum formate with Water"
+ },
+ {
+  "sheet_id": "73_72",
+  "system_id": "73003",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_72",
+  "system": "Ammonium formate with Barium formate and Water",
+  "components": "(1) Ammonium formate; NH4CHO2; [540-69-2]\n(2) Barium formate; Ba(CHO2)2; [541-43-5]\n(3) Water; H2O; [7732-18-5]",
+  "original_measurements": "Itkina, L.S.; Nadzharyan, K.A.; Lepeshkov, I.N., Zh. Neorg. Khim. 26, 1086-91 (1981).",
+  "variables": "Concentration = Composition at 25 ºC.",
+  "prepared_by": "Chr. Balarew and St. Trendafilova",
+  "critical_evaluation": "The molality values were calculated by the compilers.",
+  "experimental_values": "",
+  "notes": "^a  The solid phases are: A = NH_4CHO_2; B = Ba(CHO_2)_2.",
+  "method": "The isothermal method was used. The mixtures were placed in glass vessels in a thermostat and stirred mechanically.  Equilibrium was reached in 2 weeks. The ammonium content of both phases was determined by the tetraphenylborate method. The barium content was determined gravimetrically as BaSO4. The composition of the solid phases was determined by Schreinemakers' method, by x-ray diffraction and by thermogravimetry.",
+  "source_purity": "p.a. grade Ba(CHO_2)_2 was recrystallized twice from a 1% solution of formic acid. NH_4CHO_2 was prepared by passing ammonia into 90% formic acid. The crystals were washed with ethanol and vacuum dried over sulfuric acid.",
+  "estimated_error": "Temperature: The temperature was kept constant to within ± 0.1°C.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Ammonium formate",
+    "formula": "NH4CHO2",
+    "cas": "540-69-2"
+   },
+   {
+    "index": 2,
+    "name": "Barium formate",
+    "formula": "Ba(CHO2)2",
+    "cas": "541-43-5"
+   },
+   {
+    "index": 3,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical_1",
+     "Phase",
+     "Mass Fraction w_1",
+     "m_1 [mol kg-1]",
+     "Chemical_2",
+     "Mass Fraction w_2",
+     "m_2 [mol kg-1]",
+     "Solid Phase(s)^a"
+    ],
+    "rows": [
+     [
+      "NH4CHO2",
+      "Liquid",
+      "60.53",
+      "24.32",
+      "Ba(CHO2)2",
+      "---",
+      "---",
+      "A"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "59.08",
+      "23.81",
+      "Ba(CHO2)2",
+      "1.57",
+      "0.175",
+      "A+B"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "58.41",
+      "23.19",
+      "Ba(CHO2)2",
+      "1.65",
+      "0.182",
+      "B"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "56.54",
+      "21.46",
+      "Ba(CHO2)2",
+      "1.68",
+      "0.177",
+      "B"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "51.23",
+      "17.23",
+      "Ba(CHO2)2",
+      "1.62",
+      "0.151",
+      "B"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "39.60",
+      "10.69",
+      "Ba(CHO2)2",
+      "1.63",
+      "0.122",
+      "B"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "38.50",
+      "10.29",
+      "Ba(CHO2)2",
+      "2.18",
+      "0.162",
+      "B"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "36.72",
+      "9.537",
+      "Ba(CHO2)2",
+      "2.22",
+      "0.160",
+      "B"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "24.78",
+      "5.457",
+      "Ba(CHO2)2",
+      "3.21",
+      "0.196",
+      "B"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "11.57",
+      "2.333",
+      "Ba(CHO2)2",
+      "9.80",
+      "0.548",
+      "B"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "---",
+      "---",
+      "Ba(CHO2)2",
+      "23.71",
+      "1.367",
+      "A"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Ammonium formate with Barium formate and Water"
+ },
+ {
+  "sheet_id": "73_88",
+  "system_id": "73004",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_88",
+  "system": "Ammonium formate with Cadmium formate and Water",
+  "components": "(1) Ammonium formate; NH4CHO2; [540-69-2]\n(2) Cadmium formate; Cd(CHO2)2; [4464-23-7]\n(3) Water; H2O; [7732-18-5]",
+  "original_measurements": "Itkina, L.S.; Nadzharyan, K.A., Zh. Neorg. Khim. 26, 2231 (1981).",
+  "variables": "Concentration = Composition at 25 ºC",
+  "prepared_by": "Chr. Balarew and St. Trendafilova",
+  "critical_evaluation": "The mass % and molality values were calculated by the compilers.",
+  "experimental_values": "",
+  "notes": "^a  The solid phases are: A = Cd(CHO_2)_2•2H_2O; B = NH_4Cd(CHO_2)_3.",
+  "method": "The isothermal method was used. The methods of analysis are not described. The composition of the solid phases was determined by Schreinemakers' method.",
+  "source_purity": "No information is given.",
+  "estimated_error": "Solubility: No information is given.\nTemperature: No information is given.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Ammonium formate",
+    "formula": "NH4CHO2",
+    "cas": "540-69-2"
+   },
+   {
+    "index": 2,
+    "name": "Cadmium formate",
+    "formula": "Cd(CHO2)2",
+    "cas": "4464-23-7"
+   },
+   {
+    "index": 3,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical_1",
+     "Phase",
+     "Mass Fraction w_1",
+     "10^0 * Mole Fraction_1",
+     "m_1 [mol kg-1]",
+     "Chemical_2",
+     "Mass Fraction w_2",
+     "Mole Fraction_2",
+     "m_2 [mol kg-1]",
+     "Solid Phase(s)^a"
+    ],
+    "rows": [
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "27.0",
+      "3.97",
+      "2.56",
+      "NH4CHO2",
+      "21.0",
+      "9.93",
+      "6.40",
+      "A+B"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Ammonium formate with Cadmium formate and Water"
+ },
+ {
+  "sheet_id": "73_192",
+  "system_id": "73005",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_192",
+  "system": "Ammonium formate with Cadmium formate, Barium formate and Water",
+  "components": "(1) Ammonium formate; NH4CHO2; [540-69-2]\n(2) Barium formate; Ba(CHO2)2; [541-43-5]\n(3) Cadmium formate; Cd(CHO2)2; [4464-23-7]\n(4) Water; H2O; [7732-18-5]",
+  "original_measurements": "Itkina, L.S.; Nadzharyan, K.A.; Lepeshkov, I.N., Zh. Neorg. Khim. 26, 1086-91 (1981).",
+  "variables": "Concentration = Composition at 25 ºC",
+  "prepared_by": "Chr. Balarew and St. Trendafilova",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  The molality values were calculated by the compilers.\n^b  The solid phases are: A = NH_4CHO_2; B = Cd(CHO_2)_2•2H_2O; C = Ba(CHO_2)_2;\nD = NH_4Cd(CHO_2)_3; E = CdBa(CHO_2)_4•2H_2O.",
+  "method": "The isothermal method was used. Equilibrium was reached in 2 weeks. The NH_4^+ content was determined by the tetraphenylborate method. The cadmium content was determined by complexometric titration using Eriochrome Black T as indicator.  The barium content was determined gravimetrically. The composition of the solid phases was determined by Schreinemakers method, by DT analysis, IR spectroscopy and x-ray diffraction.",
+  "source_purity": "Cd(CHO2)_2•2H2O was prepared by neutralizing 85% formic acid with p.a. grade CdCO_3. p.a. grade Ba(CHO2)_2 was used. The barium and cadmium formates were recrystallized twice from a 1% formic acid solution. Ammonium formate was prepared by passing NH_3 into 90% formic acid. The crystals were washed with ethanol and dried under vacuum over sulfuric acid.",
+  "estimated_error": "Temperature: The temperature was controlled to within ±0.1 °C.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Ammonium formate",
+    "formula": "NH4CHO2",
+    "cas": "540-69-2"
+   },
+   {
+    "index": 2,
+    "name": "Barium formate",
+    "formula": "Ba(CHO2)2",
+    "cas": "541-43-5"
+   },
+   {
+    "index": 3,
+    "name": "Cadmium formate",
+    "formula": "Cd(CHO2)2",
+    "cas": "4464-23-7"
+   },
+   {
+    "index": 4,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical_1",
+     "Phase",
+     "Mass Fraction w_1",
+     "m_1 [mol kg-1]^a",
+     "Chemical_2",
+     "Mass Fraction w_2",
+     "m_2 [mol kg-1]^a",
+     "Chemical_3",
+     "Mass Fraction w_3",
+     "m_3 [mol kg-1]",
+     "Solid Phase(s)^b"
+    ],
+    "rows": [
+     [
+      "NH4CHO2",
+      "Liquid",
+      "60.53",
+      "24.32",
+      "Cd(CHO2)2",
+      "0.0",
+      "0.0",
+      "Ba(CHO2)2",
+      "0.0",
+      "0.0",
+      "A"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "0.0",
+      "0.0",
+      "Cd(CHO2)2",
+      "14.10",
+      "0.811",
+      "Ba(CHO2)2",
+      "0.0",
+      "0.0",
+      "B"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "0.0",
+      "0.0",
+      "Cd(CHO2)2",
+      "0.0",
+      "0.0",
+      "Ba(CHO2)2",
+      "23.71",
+      "1.367",
+      "C"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "59.08",
+      "23.81",
+      "Cd(CHO2)2",
+      "0.0",
+      "0.0",
+      "Ba(CHO2)2",
+      "1.57",
+      "0.175",
+      "A+C"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "51.24",
+      "19.39",
+      "Cd(CHO2)2",
+      "5.32",
+      "0.627",
+      "Ba(CHO2)2",
+      "1.53",
+      "0.161",
+      "A+C"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "48.90",
+      "18.24",
+      "Cd(CHO2)2",
+      "7.52",
+      "0.874",
+      "Ba(CHO2)2",
+      "1.07",
+      "0.111",
+      "A+C"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "51.80",
+      "22.96",
+      "Cd(CHO2)2",
+      "10.46",
+      "1.444",
+      "Ba(CHO2)2",
+      "1.96",
+      "0.241",
+      "A+C"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "51.45",
+      "23.73",
+      "Cd(CHO2)2",
+      "12.16",
+      "1.747",
+      "Ba(CHO2)2",
+      "2.01",
+      "0.257",
+      "A+C"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "52.50",
+      "23.79",
+      "Cd(CHO2)2",
+      "12.50",
+      "1.764",
+      "Ba(CHO2)2",
+      "0.0",
+      "0.0",
+      "A+D"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "52.43",
+      "24.63",
+      "Cd(CHO2)2",
+      "11.92",
+      "1.744",
+      "Ba(CHO2)2",
+      "1.89",
+      "0.246",
+      "A+C+D"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "21.01",
+      "6.403",
+      "Cd(CHO2)2",
+      "26.95",
+      "2.558",
+      "Ba(CHO2)2",
+      "0.0",
+      "0.0",
+      "B+D"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "22.12",
+      "7.039",
+      "Cd(CHO2)2",
+      "27.69",
+      "2.744",
+      "Ba(CHO2)2",
+      "0.35",
+      "0.031",
+      "B+D+E"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "0.0",
+      "0.0",
+      "Cd(CHO2)2",
+      "12.46",
+      "0.738",
+      "Ba(CHO2)2",
+      "4.17",
+      "0.220",
+      "B+E"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "12.45",
+      "2.725",
+      "Cd(CHO2)2",
+      "14.06",
+      "0.959",
+      "Ba(CHO2)2",
+      "1.05",
+      "0.064",
+      "B+E"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "16.46",
+      "3.818",
+      "Cd(CHO2)2",
+      "14.54",
+      "1.051",
+      "Ba(CHO2)2",
+      "0.64",
+      "0.041",
+      "B+E"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "21.06",
+      "5.939",
+      "Cd(CHO2)2",
+      "22.23",
+      "1.953",
+      "Ba(CHO2)2",
+      "0.48",
+      "0.038",
+      "B+E"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "22.57",
+      "6.903",
+      "Cd(CHO2)2",
+      "24.53",
+      "2.337",
+      "Ba(CHO2)2",
+      "1.05",
+      "0.089",
+      "B+E"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "29.54",
+      "9.040",
+      "Cd(CHO2)2",
+      "18.13",
+      "1.728",
+      "Ba(CHO2)2",
+      "0.51",
+      "0.043",
+      "D+E"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "33.65",
+      "10.37",
+      "Cd(CHO2)2",
+      "14.39",
+      "1.381",
+      "Ba(CHO2)2",
+      "0.49",
+      "0.042",
+      "D+E"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "39.28",
+      "13.16",
+      "Cd(CHO2)2",
+      "12.63",
+      "1.318",
+      "Ba(CHO2)2",
+      "0.74",
+      "0.069",
+      "D+E"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "46.30",
+      "18.20",
+      "Cd(CHO2)2",
+      "11.89",
+      "1.456",
+      "Ba(CHO2)2",
+      "1.46",
+      "0.159",
+      "C+D+E"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "0.0",
+      "0.0",
+      "Cd(CHO2)2",
+      "1.02",
+      "0.066",
+      "Ba(CHO2)2",
+      "22.44",
+      "1.289",
+      "C+E"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "17.06",
+      "3.655",
+      "Cd(CHO2)2",
+      "1.02",
+      "0.068",
+      "Ba(CHO2)2",
+      "7.90",
+      "0.469",
+      "C+E"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "24.94",
+      "5.768",
+      "Cd(CHO2)2",
+      "1.35",
+      "0.097",
+      "Ba(CHO2)2",
+      "5.14",
+      "0.330",
+      "C+E"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "25.52",
+      "5.781",
+      "Cd(CHO2)2",
+      "1.55",
+      "0.109",
+      "Ba(CHO2)2",
+      "2.93",
+      "0.184",
+      "C+E"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "28.16",
+      "6.729",
+      "Cd(CHO2)2",
+      "2.95",
+      "0.220",
+      "Ba(CHO2)2",
+      "2.53",
+      "0.168",
+      "C+E"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "43.96",
+      "16.01",
+      "Cd(CHO2)2",
+      "10.90",
+      "1.236",
+      "Ba(CHO2)2",
+      "1.59",
+      "0.161",
+      "C+E"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "48.40",
+      "18.13",
+      "Cd(CHO2)2",
+      "7.40",
+      "0.863",
+      "Ba(CHO2)2",
+      "1.86",
+      "0.193",
+      "C"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "21.49",
+      "5.535",
+      "Cd(CHO2)2",
+      "16.36",
+      "1.312",
+      "Ba(CHO2)2",
+      "0.58",
+      "0.041",
+      "E"
+     ],
+     [
+      "NH4CHO2",
+      "Liquid",
+      "25.01",
+      "7.658",
+      "Cd(CHO2)2",
+      "22.44",
+      "2.140",
+      "Ba(CHO2)2",
+      "0.76",
+      "0.065",
+      "E"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Ammonium formate with Cadmium formate, Barium formate and Water"
+ },
+ {
+  "sheet_id": "73_195",
+  "system_id": "73006",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_195",
+  "system": "Ammonium formate with Formic acid",
+  "components": "(1) Ammonium formate; NH4CHO2; [540-69-2]\n(2) Formic acid; CH2O2; [64-18-6]",
+  "original_measurements": "Groschuff, E., Ber Dtsch. Chem. Ges. 36, 1783, 4351 (1903).",
+  "variables": "Temperature = 270.2 K to 398.2 K",
+  "prepared_by": "T. A. Ageyeva",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  The starting solute was NH_4CHO_2•CH_2O_2.  The solubility values are expressed in terms of NH_4CHO_2.\n^b  These values were calculated by the compiler.\n^c  The solid phases are: A = NH_4CHO_2•CH_2O_2; B = NH_4CHO_2 (labile); C = NH_4CHO_2 (stable).",
+  "method": "The freezing point method was used to study the system. No other information is given.",
+  "source_purity": "NH_4CHO2•CH2O2 was prepared by the reaction of equimolar quantities of  NH_4CHO2 and anhydrous formic acid.  On cooling with ice to 283 K, small hexahedral plates separated out.  No other information is given.",
+  "estimated_error": "Temperature: Nothing is specified.  The compiler estimates that the temperature was controlled to within ± 0.5 K.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Ammonium formate",
+    "formula": "NH4CHO2",
+    "cas": "540-69-2"
+   },
+   {
+    "index": 2,
+    "name": "Formic acid",
+    "formula": "CH2O2",
+    "cas": "64-18-6"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Mass Fraction w_1",
+     "10^0 * Mole Fraction_1^b",
+     "Solid Phase(s)^c"
+    ],
+    "rows": [
+     [
+      "-3",
+      "35.3",
+      "28.5",
+      "A"
+     ],
+     [
+      "8.5",
+      "40.6",
+      "33.3",
+      "A"
+     ],
+     [
+      "21.5",
+      "50.0",
+      "42.2",
+      "A"
+     ],
+     [
+      "11.0",
+      "50.0",
+      "42.2",
+      "B"
+     ],
+     [
+      "39",
+      "57.8",
+      "50.0",
+      "C"
+     ],
+     [
+      "78",
+      "73.1",
+      "66.5",
+      "C"
+     ],
+     [
+      "116",
+      "100",
+      "100",
+      "m.p."
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Ammonium formate with Formic acid"
+ },
+ {
+  "sheet_id": "73_196",
+  "system_id": "73006",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_196",
+  "system": "Ammonium formate with Formic acid",
+  "components": "(1) Ammonium formate; NH4CHO2; [540-69-2]\n(2) Formic acid; CH2O2; [64-18-6]",
+  "original_measurements": "Kendall, J.; Adler, H., J. Am. Chem. Soc. 43, 1470 (1921).",
+  "variables": "Temperature = 239.4 K to 390.5 K",
+  "prepared_by": "T. A. Ageyeva",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  The solid phases are: A = CH_2O_2; B = NH_4CHO_2•3CH_2O_2; C = NH_4CHO_2; D = NH_4CH_2O_2•CH_2O_2.\n^b  Denotes equilibrium temperature for unstable NH_4CHO_2.\n^c  Denotes equilibrium temperature for stable NH_4CHO_2.",
+  "method": "The only information given is that the solubility values were determined by the freezing point method.",
+  "source_purity": "The ammonium salt was prepared by passing NH_3 into 90% formic acid.  The product was recrystallized from absolute alcohol and dried over 99% sulfuric acid in a vacuum; m.p.=390.5±0.2 K.  The formic acid was prepared by treating a c.p. product with B_2O_3.  It was then distilled in vacuo until a product melting above 281.6 K was obtained.",
+  "estimated_error": "Solubility: Nothing is specified.\nTemperature: Nothing is specified.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Ammonium formate",
+    "formula": "NH4CHO2",
+    "cas": "540-69-2"
+   },
+   {
+    "index": 2,
+    "name": "Formic acid",
+    "formula": "CH2O2",
+    "cas": "64-18-6"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^0 * Mole Fraction_1",
+     "Solid Phase(s)^a"
+    ],
+    "rows": [
+     [
+      "8.47",
+      "0.0",
+      "A"
+     ],
+     [
+      "7.0",
+      "1.53",
+      "A"
+     ],
+     [
+      "4.5",
+      "3.70",
+      "A"
+     ],
+     [
+      "0.6",
+      "6.28",
+      "A"
+     ],
+     [
+      "-2.8",
+      "8.19",
+      "A"
+     ],
+     [
+      "-6.9",
+      "10.14",
+      "A"
+     ],
+     [
+      "-12.6",
+      "12.43",
+      "A"
+     ],
+     [
+      "-19.8",
+      "14.86",
+      "A"
+     ],
+     [
+      "-26.9",
+      "17.11",
+      "A"
+     ],
+     [
+      "-33.8",
+      "18.95",
+      "A"
+     ],
+     [
+      "-31.3",
+      "20.43",
+      "B"
+     ],
+     [
+      "-30.0",
+      "21.73",
+      "B"
+     ],
+     [
+      "-29.3",
+      "23.33",
+      "B"
+     ],
+     [
+      "20.4",
+      "44.38",
+      "C"
+     ],
+     [
+      "29.3",
+      "46.06",
+      "C"
+     ],
+     [
+      "37.5",
+      "47.87",
+      "C"
+     ],
+     [
+      "53.1",
+      "51.88",
+      "C"
+     ],
+     [
+      "74.3",
+      "59.98",
+      "C"
+     ],
+     [
+      "89.5",
+      "68.23",
+      "C"
+     ],
+     [
+      "96.5",
+      "74.32",
+      "C"
+     ],
+     [
+      "98.5",
+      "76.20",
+      "C"
+     ],
+     [
+      "103.7",
+      "83.46",
+      "C"
+     ],
+     [
+      "108.5",
+      "88.41",
+      "C"
+     ],
+     [
+      "111.7",
+      "91.64",
+      "C"
+     ],
+     [
+      "117.3",
+      "100.0",
+      "C"
+     ]
+    ]
+   },
+   {
+    "headers": [
+     "Initial Temperature (T_In)/°C",
+     "Final Temperature (T_Fin)/°C",
+     "10^0 * Mole Fraction_1",
+     "Solid Phase(s)^a"
+    ],
+    "rows": [
+     [
+      "-32.5",
+      "",
+      "23.33",
+      "D"
+     ],
+     [
+      "-26.0",
+      "",
+      "24.83",
+      "D"
+     ],
+     [
+      "-23.5",
+      "",
+      "25.41",
+      "D"
+     ],
+     [
+      "-18.7",
+      "-13.7",
+      "26.64",
+      "D"
+     ],
+     [
+      "-14.0",
+      "-8.7",
+      "27.90",
+      "D"
+     ],
+     [
+      "",
+      "0.7",
+      "30.11",
+      "D"
+     ],
+     [
+      "1.3",
+      "10.4",
+      "33.25",
+      "D"
+     ],
+     [
+      "7.4",
+      "17.3",
+      "36.29",
+      "D"
+     ],
+     [
+      "11.3",
+      "22.2",
+      "39.30",
+      "D"
+     ],
+     [
+      "13.8",
+      "24.9",
+      "41.90",
+      "D"
+     ],
+     [
+      "14.3",
+      "25.8",
+      "42.94",
+      "D"
+     ],
+     [
+      "15.0",
+      "",
+      "44.38",
+      "D"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Ammonium formate with Formic acid"
+ },
+ {
+  "sheet_id": "73_193",
+  "system_id": "73007",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_193",
+  "system": "Ammonium formate with Formic acid and Water",
+  "components": "(1) Ammonium formate; NH4CHO2; [540-69-2]\n(2) Formic acid; CH2O2; [64-18-6]\n(3) Water; H2O; [7732-18-5]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "Tatiana Ageyeva and Oleg Golubchikov, Institute of Non-Aqueous Solutions Chemistry, Russian Academy of Sciences, Ivanovo, Russia, July, 1993.",
+  "critical_evaluation": "",
+  "experimental_values": "6. Nonaqueous Metal Formate Systems\n\nThe solubility of metal formates has been measured in water, organic and organic-water solvents, but most of the solubility data for metal formates has been obtained from systems in which water is the solvent.  Of the organic solvents, formic acid is especially suited to serve as a solvent for the metal formates.  However, the formates are less soluble in formic acid than in water.  There are three exceptions to this statement: ammonium formate, lithium formate and sodium formate.  The behavior of ammonium formate will here be considered separately from that of the other metal formates6.1. Ammonium formate\n\nBinary Systems        (1) The NH_4CHO_2-HCHO_2 system.  Three publications^1-3 present solubility data for ammonium formate in formic acid.  The solubility data were obtained over a temperature range of 193.0 to 390 K.  The values werre determined by the freezing point method.  The data in two of the articles^1,2 agree with each other to within 0 to 7%.  The agreement improves as the temperature increases.  There is agreement also  with respect to the identity of the equilibrium solid phase.  The difference in the solubility values is likely due to the fact  that in one report^1 the starting salt was NH_4CHO_2·HCHO_2 but the solubility was calculated as due to NH_4CHO_2.  Becker and Davidson^3 studied the concentration-temperature equilibrium of the formic acid-ammonia system over a wide range of component concentrations.  The data are presented only in graphical form in Becker and Davidson^3 but the numerical data are also available.^4  Because the data were obtained for a wide range of concentrations, they may be considered as representing two systems: NH_4CHO_2-HCHO_2 and NH_4CHO_2-NH_3.  The data for the NH_4CHO_2-HCHO_2 system is consistent with the data of Kendall and Adler.^2 In our opinion, The data of these two studies are more reliable than the data presented by Groschuff.^1  The reason for this estimate is that the data obtained in Kendall and Adler^2 were obtained using NH_4CHO_2 as the starting material and these data have a smaller experimental error associated with them.  As a result, the recommended value for the solubility of ammonium formate in formic acid at 298.2 K is 4.19 mol%.  The equilibrium solid phase is NH_4CHO_2·HCHO_2.        (2) The NH_4CHO_2-NH_3 system.  The solubility of ammonium formate in ammonia has been reported by Lindenberg^5 over a temperature range of 195 to 243 K and a pressure range of 0 to 1 atm.  Only a graphical representation of the data is given.  However, the concentration-temperature data of the system agree within about 4% of the data for this system by others.  All the data are in agreement at temperatures below 213 K.  The solubility of ammonium formate in ammonia at 237 K and 1 atm is given as 133.1 g NH_4CHO_2 in 100 g NH_3  (Becker and Davidson^3) and 123.1 g salt in 100 g NH_3 (Lindenberg^5).  An equilibrium solid phase is NH_4CHO_2·3NH_3.  However, these data can only be classified as tentative because there are no independent data to confirm them.Ternary Systems        Groschuff^1 has reported solubility data for the NH_4CHO_2-HCHO_2-H_2O system at 266.7 to 312.2 K.  These values show that the solubility of ammonium formate decreases as the water content of the system increases.  The values are classified as tentative because there is no other report of a solubility study of this system.",
+  "notes": "",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  Groschuff, E., Ber. 36, 4351 (1903).\n2  Kendall, J.; Adler, H., J. Am. Chem. Soc. 43, 1470 (1921).\n3  Becker, B.; Davidson, A.W., J. Am. Chem. Soc. 85, 157 (1963).\n4  University Microfilms, Inc., Ann Arbor, Mich, L.C. Card No Mic 60-893.\n5  Lindenberg, W., Z. Naturforsch. 22b, 1 (1967).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Ammonium formate",
+    "formula": "NH4CHO2",
+    "cas": "540-69-2"
+   },
+   {
+    "index": 2,
+    "name": "Formic acid",
+    "formula": "CH2O2",
+    "cas": "64-18-6"
+   },
+   {
+    "index": 3,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [],
+    "rows": []
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Ammonium formate with Formic acid and Water"
+ },
+ {
+  "sheet_id": "73_194",
+  "system_id": "73007",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_194",
+  "system": "Ammonium formate with Formic acid and Water",
+  "components": "(1) Ammonium formate; NH4CHO2; [540-69-2]\n(2) Formic acid; CH2O2; [64-18-6]\n(3) Water; H2O; [7732-18-5]",
+  "original_measurements": "Groschuff, E., Ber. 36, 4351 (1903).",
+  "variables": "Concentration = Composition at 266.7 K to 312.2 K",
+  "prepared_by": "T. A. Ageyeva",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "Table 1  ^a  These values were calculated by the compiler.\nTable 1  ^b  The solid phases are: A = NH_4CHO_2•CH_2O_2; B = NH_4CHO_2 (labile); C = NH_4CHO_2 (stable).\nTable 2  ^a  The solid phases are: A = NH_4CHO_2 (stable); B = NH_4CHO_2 (unstable);\nC = NH_4CHO_2•HCHO_2 (unstable); D = NH_4CHO_2•HCHO_2 (stable).",
+  "method": "The freezing point method was used to study the system.",
+  "source_purity": "NH_4CHO2•CH2O2 was prepared by the reaction of equimolar quantities of NH_4CHO2 and anhydrous formic acid.  On cooling with ice to 283 K, small hexahedral plates separated out.  No other information is given.",
+  "estimated_error": "Temperature: Nothing is specified.  The compiler estimates that the temperature was controlled to within ± 0.5 K.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Ammonium formate",
+    "formula": "NH4CHO2",
+    "cas": "540-69-2"
+   },
+   {
+    "index": 2,
+    "name": "Formic acid",
+    "formula": "CH2O2",
+    "cas": "64-18-6"
+   },
+   {
+    "index": 3,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Chemical_1",
+     "Mass Fraction w_1",
+     "10^0 * Mole Fraction_1^a",
+     "Chemical_2",
+     "Mass Fraction w_2",
+     "Mole Fraction_2^a",
+     "Chemical_3",
+     "Mass Fraction w_3",
+     "Mole Fraction_3^a",
+     "Solid Phase(s)^b"
+    ],
+    "rows": [
+     [
+      "-6.5",
+      "NH4CHO2",
+      "46.7",
+      "29.1",
+      "CH2O2",
+      "34.1",
+      "29.1",
+      "H2O",
+      "19.2",
+      "41.8",
+      "A"
+     ],
+     [
+      "1.5",
+      "NH4CHO2",
+      "49.6",
+      "33.3",
+      "CH2O2",
+      "36.2",
+      "33.3",
+      "H2O",
+      "14.2",
+      "33.4",
+      "A"
+     ],
+     [
+      "4",
+      "NH4CHO2",
+      "50.4",
+      "34.6",
+      "CH2O2",
+      "36.8",
+      "34.6",
+      "H2O",
+      "12.8",
+      "30.8",
+      "A"
+     ],
+     [
+      "6",
+      "NH4CHO2",
+      "51.3",
+      "36.1",
+      "CH2O2",
+      "37.4",
+      "36.1",
+      "H2O",
+      "11.3",
+      "27.8",
+      "A"
+     ],
+     [
+      "8.5",
+      "NH4CHO2",
+      "52.1",
+      "37.5",
+      "CH2O2",
+      "38.0",
+      "37.5",
+      "H2O",
+      "9.9",
+      "25",
+      "A"
+     ],
+     [
+      "-7",
+      "NH4CHO2",
+      "49.6",
+      "33.3",
+      "CH2O2",
+      "36.2",
+      "33.3",
+      "H2O",
+      "14.2",
+      "33.4",
+      "B"
+     ],
+     [
+      "13",
+      "NH4CHO2",
+      "53.0",
+      "39.2",
+      "CH2O2",
+      "38.6",
+      "39.1",
+      "H2O",
+      "8.4",
+      "22",
+      "C"
+     ],
+     [
+      "29",
+      "NH4CHO2",
+      "55.8",
+      "45.1",
+      "CH2O2",
+      "40.7",
+      "45.0",
+      "H2O",
+      "3.5",
+      "9.9",
+      "C"
+     ],
+     [
+      "39",
+      "NH4CHO2",
+      "57.8",
+      "50.0",
+      "CH2O2",
+      "42.2",
+      "50.0",
+      "H2O",
+      "0",
+      "0",
+      "C"
+     ]
+    ]
+   },
+   {
+    "headers": [
+     "Chemical_1",
+     "10^0 * Mole Fraction_1",
+     "Chemical_2",
+     "Mole Fraction_2",
+     "Chemical_3",
+     "Mole Fraction_3",
+     "Solid Phase(s)^c"
+    ],
+    "rows": [
+     [
+      "NH4CHO2",
+      "25.6",
+      "HCHO2",
+      "0",
+      "H2O",
+      "74.4",
+      "A"
+     ],
+     [
+      "NH4CHO2",
+      "29.4",
+      "HCHO2",
+      "8.9",
+      "H2O",
+      "61.7",
+      "A"
+     ],
+     [
+      "NH4CHO2",
+      "38.2",
+      "HCHO2",
+      "38.2",
+      "H2O",
+      "23.6",
+      "A"
+     ],
+     [
+      "NH4CHO2",
+      "42.0",
+      "HCHO2",
+      "58.0",
+      "H2O",
+      "0",
+      "B"
+     ],
+     [
+      "NH4CHO2",
+      "38.4",
+      "HCHO2",
+      "38.4",
+      "H2O",
+      "23.2",
+      "C"
+     ],
+     [
+      "NH4CHO2",
+      "34.0",
+      "HCHO2",
+      "66.0",
+      "H2O",
+      "0",
+      "D"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Ammonium formate with Formic acid and Water"
+ },
+ {
+  "sheet_id": "73_11",
+  "system_id": "73008",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_11",
+  "system": "Ammonium formate with Water",
+  "components": "(1) Ammonium formate; NH4CHO2; [540-69-2]\n(2) Water; H2O; [7732-18-5]",
+  "original_measurements": "Groschuff, E., Ber Dtsch. Chem. Ges. 36, 1783, 4351 (1903).",
+  "variables": "Temperature = -1 ºC to -116 ºC",
+  "prepared_by": "Chr. Balarew and St. Trendafilova",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  These values were calculated by the compilers.\n^b  Melting point.",
+  "method": "The precise quantities of solute and solvent are weighed and mixed. After the solute has completely dissolved the mixture is cooled until a small quantity of precipitate is formed. The temperature at which the solid disappears is measured.",
+  "source_purity": "No information is given.",
+  "estimated_error": "Solubility: There is some error due to loss of ammonia vapor, but this was not evaluated quantitatively.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Ammonium formate",
+    "formula": "NH4CHO2",
+    "cas": "540-69-2"
+   },
+   {
+    "index": 2,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Phase",
+     "Mass Fraction w_1",
+     "m_1 [mol kg-1]^a",
+     "Solid Phase(s)"
+    ],
+    "rows": [
+     [
+      "-1",
+      "Liquid",
+      "50.0",
+      "15.9",
+      "NH4CHO2"
+     ],
+     [
+      "+12.5",
+      "Liquid",
+      "55.6",
+      "19.9",
+      "NH4CHO2"
+     ],
+     [
+      "20.0",
+      "Liquid",
+      "58.9",
+      "22.7",
+      "NH4CHO2"
+     ],
+     [
+      "29.0",
+      "Liquid",
+      "62.5",
+      "26.4",
+      "NH4CHO2"
+     ],
+     [
+      "39.0",
+      "Liquid",
+      "66.7",
+      "31.8",
+      "NH4CHO2"
+     ],
+     [
+      "63.5",
+      "Liquid",
+      "76.9",
+      "52.8",
+      "NH4CHO2"
+     ],
+     [
+      "116.0",
+      "Liquid",
+      "100.0",
+      "---",
+      "Melting point (b)"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Ammonium formate with Water"
+ },
+ {
+  "sheet_id": "73_169",
+  "system_id": "73010",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_169",
+  "system": "Barium formate with Barium chloride and Water",
+  "components": "(1) Barium chloride; BaCl2; [10361-37-2]\n(2) Barium formate; Ba(CHO2)2; [541-43-5]\n(3) Water; H2O; [7732-18-5]",
+  "original_measurements": "Stoilova, D., Bulg. Chem. Commun. 25, 249-57 (1992).",
+  "variables": "Concentration = Composition at 25 ºC",
+  "prepared_by": "Chr. Balarew and St. Trendafilova",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  The molality values were calculated by the compilers.\n^b  The solid phases are: A = Ba(CHO_2)_2; B = BaCl_2•2H_2O.",
+  "method": "The method used was the isothermal decrease of supersaturation. Equilibrium was reached in 10-15 h. The barium content was determined complexometrically. The chloride ion content was determined volumetrically by the Mohr method. The barium formate concentration was estimated by difference. The composition of the ideally suction-dried solid phase was \rdetermined by the Schreinemakers method. X-ray diffraction and DT analysis were also used.",
+  "source_purity": "The barium chloride was p.a. grade (Merck). The barium formate was prepared by the reaction of dilute formic acid with barium oxide, carbonate or hydroxide all of which were p.a. grade (Merck or Fluka).",
+  "estimated_error": "Solubility: No information is given.\nTemperature: No information is given.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Barium chloride",
+    "formula": "BaCl2",
+    "cas": "10361-37-2"
+   },
+   {
+    "index": 2,
+    "name": "Barium formate",
+    "formula": "Ba(CHO2)2",
+    "cas": "541-43-5"
+   },
+   {
+    "index": 3,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical_1",
+     "Phase",
+     "Mass Fraction w_1",
+     "m_1 [mol kg-1]^a",
+     "Chemical_2",
+     "Mass Fraction w_2",
+     "m_2 [mol kg-1]^a",
+     "Solid Phase(s)^b"
+    ],
+    "rows": [
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "23.48",
+      "1.343",
+      "BaCl2",
+      "---",
+      "---",
+      "A"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "20.48",
+      "1.249",
+      "BaCl2",
+      "7.75",
+      "0.519",
+      "A"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "17.50",
+      "1.191",
+      "BaCl2",
+      "18.18",
+      "1.357",
+      "A"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "17.33",
+      "1.303",
+      "BaCl2",
+      "24.26",
+      "1.994",
+      "A"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "16.86",
+      "1.256",
+      "BaCl2",
+      "24.39",
+      "1.994",
+      "eutonic"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "16.81",
+      "1.243",
+      "BaCl2",
+      "23.98",
+      "1.945",
+      "eutonic"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "12.85",
+      "0.899",
+      "BaCl2",
+      "24.58",
+      "1.886",
+      "B"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "9.97",
+      "0.673",
+      "BaCl2",
+      "25.21",
+      "1.868",
+      "B"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "4.93",
+      "0.314",
+      "BaCl2",
+      "26.33",
+      "1.839",
+      "B"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "1.59",
+      "0.097",
+      "BaCl2",
+      "26.79",
+      "1.796",
+      "B"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "---",
+      "---",
+      "BaCl2",
+      "27.11",
+      "1.786",
+      "B"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Barium formate with Barium chloride and Water"
+ },
+ {
+  "sheet_id": "73_170",
+  "system_id": "73010",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_170",
+  "system": "Barium formate with Barium chloride and Water",
+  "components": "(1) Barium chloride; BaCl2; [10361-37-2]\n(2) Barium formate; Ba(CHO2)2; [541-43-5]\n(3) Water; H2O; [7732-18-5]",
+  "original_measurements": "Stoilova, D., Bulg. Chem. Commun. 25, 249-57 (1992).",
+  "variables": "Concentration = Composition at 50 ºC",
+  "prepared_by": "Chr. Balarew and St. Trendafilova",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  The molality values were calculated by the compilers.\n^b  The solid phases are: A = Ba(CHO_2)_2; B = BaCl_2•2H_2O.",
+  "method": "The method used was the isothermal decrease of supersaturation. Equilibrium was reached in 10-15 hrs. The barium content was determined complexometrically. The chloride ion content was determined volumetrically by the Mohr method. The barium formate concentration was estimated by difference. The composition of the ideally suction-dried solid phase was \rdetermined by the Schreinemakers method.  X-ray diffraction and DT analysis were also used.",
+  "source_purity": "The barium chloride was p.a. grade (Merck). The barium formate was prepared by the reaction of dilute formic acid with barium oxide, carbonate or hydroxide all of which were p.a. grade (Merck or Fluka).",
+  "estimated_error": "Solubility: No information is given.\nTemperature: No information is given.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Barium chloride",
+    "formula": "BaCl2",
+    "cas": "10361-37-2"
+   },
+   {
+    "index": 2,
+    "name": "Barium formate",
+    "formula": "Ba(CHO2)2",
+    "cas": "541-43-5"
+   },
+   {
+    "index": 3,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical_1",
+     "Phase",
+     "Mass Fraction w_1",
+     "m_1 [mol kg-1]^a",
+     "Chemical_2",
+     "Mass Fraction w_2",
+     "m_2 [mol kg-1]^a",
+     "Solid Phase(s)^b"
+    ],
+    "rows": [
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "26.13",
+      "1.556",
+      "BaCl2",
+      "----",
+      "----",
+      "A"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "21.30",
+      "1.383",
+      "BaCl2",
+      "10.99",
+      "0.779",
+      "A"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "17.35",
+      "1.283",
+      "BaCl2",
+      "23.16",
+      "1.869",
+      "A"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "17.35",
+      "1.354",
+      "BaCl2",
+      "26.29",
+      "2.240",
+      "eutonic"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "16.55",
+      "1.273",
+      "BaCl2",
+      "26.29",
+      "2.209",
+      "eutonic"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "16.69",
+      "1.273",
+      "BaCl2",
+      "25.67",
+      "2.139",
+      "B"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "11.85",
+      "0.853",
+      "BaCl2",
+      "27.05",
+      "2.126",
+      "B"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "7.40",
+      "0.504",
+      "BaCl2",
+      "28.02",
+      "2.083",
+      "B"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "----",
+      "----",
+      "BaCl2",
+      "30.06",
+      "2.064",
+      "B"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Barium formate with Barium chloride and Water"
+ },
+ {
+  "sheet_id": "73_133",
+  "system_id": "73011",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_133",
+  "system": "Barium formate with Cadmium formate and Water",
+  "components": "(1) Barium formate; Ba(CHO2)2; [541-43-5]\n(2) Cadmium formate; Cd(CHO2)2; [4464-23-7]\n(3) Water; H2O; [7732-18-5]",
+  "original_measurements": "Nadzharyan, K.A.; Itkina, L.S.; Lepeshkov, I.N., Zh. Neorg. Khim. 25, 1676-9 (1980).",
+  "variables": "Concentration = Composition at 25 ºC",
+  "prepared_by": "Chr. Balarew and St. Trendafilova",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  The molality values were calculated by the compilers.\n^b  The solid phases are: A = Cd(CHO_2)_2•2H_2O; B = CdBa(CHO_2)_4•2H_2O; C = Ba(CHO_2)_2.",
+  "method": "The isothermal method was used. The mixtures were placed in glass vessels in a thermostat and stirred mechanically. Equilibrium was reached in 2 weeks. The barium content of both phases was determined gravimetrically as BaSO_ 4 in the presence of Complexon III.^1 The cadmium content was determined complexometrically. The composition of the solid phases was determined by Schreinemakers' method, IR spectroscopy, TG analysis, and x-ray diffraction.",
+  "source_purity": "The barium formate was p.a. grade. The cadmium formate was prepared by the reaction of 85% formic acid with p.a. grade CdCO_3. Both formates were recrystallized twice from a 1% formic acid solution.",
+  "estimated_error": "Temperature: Not given.",
+  "references": "^1R. Pribil and D. Maricova, Chem. Listy 46, 542 (1952).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Barium formate",
+    "formula": "Ba(CHO2)2",
+    "cas": "541-43-5"
+   },
+   {
+    "index": 2,
+    "name": "Cadmium formate",
+    "formula": "Cd(CHO2)2",
+    "cas": "4464-23-7"
+   },
+   {
+    "index": 3,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical_1",
+     "Phase",
+     "Mass Fraction w_1",
+     "m_1 [mol kg-1]^a",
+     "Chemical_2",
+     "Mass Fraction w_2",
+     "m_2 [mol kg-1]^a",
+     "Solid Phase(s)^b"
+    ],
+    "rows": [
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "14.10",
+      "0.811",
+      "Ba(CHO2)2",
+      "---",
+      "---",
+      "A"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "12.91",
+      "0.748",
+      "Ba(CHO2)2",
+      "1.89",
+      "0.098",
+      "A"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "12.46",
+      "0.738",
+      "Ba(CHO2)2",
+      "4.17",
+      "0.220",
+      "A+B"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "11.11",
+      "0.646",
+      "Ba(CHO2)2",
+      "3.97",
+      "0.206",
+      "B"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "9.34",
+      "0.534",
+      "Ba(CHO2)2",
+      "4.33",
+      "0.221",
+      "B"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "6.33",
+      "0.354",
+      "Ba(CHO2)2",
+      "5.32",
+      "0.265",
+      "B"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "3.86",
+      "0.217",
+      "Ba(CHO2)2",
+      "8.16",
+      "0.408",
+      "B"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "1.58",
+      "0.093",
+      "Ba(CHO2)2",
+      "14.84",
+      "0.781",
+      "B"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "1.51",
+      "0.091",
+      "Ba(CHO2)2",
+      "16.92",
+      "0.912",
+      "B"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "1.22",
+      "0.078",
+      "Ba(CHO2)2",
+      "21.16",
+      "1.199",
+      "B"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "1.02",
+      "0.066",
+      "Ba(CHO2)2",
+      "22.44",
+      "1.289",
+      "B+C"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "---",
+      "---",
+      "Ba(CHO2)2",
+      "23.71",
+      "1.367",
+      "C"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Barium formate with Cadmium formate and Water"
+ },
+ {
+  "sheet_id": "73_134",
+  "system_id": "73011",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_134",
+  "system": "Barium formate with Cadmium formate and Water",
+  "components": "(1) Barium formate; Ba(CHO2)2; [541-43-5]\n(2) Cadmium formate; Cd(CHO2)2; [4464-23-7]\n(3) Water; H2O; [7732-18-5]",
+  "original_measurements": "Nadzharyan, K.A.; Itkina, L.S.; Lepeshkov, I.N., Zh. Neorg. Khim. 25, 1676-9 (1980).",
+  "variables": "Concentration = Composition at 50 ºC",
+  "prepared_by": "Chr. Balarew and St. Trendafilova",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  The molality values were calculated by the compilers.\n^b  The solid phases are: A = Cd(CHO_2)_2•2H_2O; B = CdBa(CHO_2)_4•2H_2O; C = Ba(CHO_2)_2.",
+  "method": "The isothermal method was used. The mixtures were placed in glass vessels in a thermostat and stirred mechanically.  Equilibrium was reached in 1.5 weeks. The barium content of both phases was determined gravimetrically as BaSO_4 in the presence of Complexon III.^1 The cadmium content was determined complexometrically. The composition of the solid phases was determined by Schreinemakers' method, IR spectroscopy, TG analysis and x-ray diffraction.",
+  "source_purity": "The barium formate was p.a. grade. The cadmium formate was prepared by the reaction of 85% formic acid with p.a. grade CdCO_3. Both formates were recrystallized twice from a 1% formic acid solution.",
+  "estimated_error": "Temperature: Not given.",
+  "references": "^1R. Pribil and D. Maricova, Chem. Listy 46, 542 (1952).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Barium formate",
+    "formula": "Ba(CHO2)2",
+    "cas": "541-43-5"
+   },
+   {
+    "index": 2,
+    "name": "Cadmium formate",
+    "formula": "Cd(CHO2)2",
+    "cas": "4464-23-7"
+   },
+   {
+    "index": 3,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical_1",
+     "Phase",
+     "Mass Fraction w_1",
+     "m_1 [mol kg-1]^a",
+     "Chemical_2",
+     "Mass Fraction w_2",
+     "m_2 [mol kg-1]^a",
+     "Solid Phase(s)^b"
+    ],
+    "rows": [
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "27.77",
+      "1.899",
+      "Ba(CHO2)2",
+      "---",
+      "---",
+      "A"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "25.34",
+      "1.765",
+      "Ba(CHO2)2",
+      "3.73",
+      "0.231",
+      "A"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "25.11",
+      "1.793",
+      "Ba(CHO2)2",
+      "5.70",
+      "0.362",
+      "A+B"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "23.82",
+      "1.665",
+      "Ba(CHO2)2",
+      "5.53",
+      "0.344",
+      "B"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "17.54",
+      "1.145",
+      "Ba(CHO2)2",
+      "6.82",
+      "0.396",
+      "B"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "12.96",
+      "0.814",
+      "Ba(CHO2)2",
+      "8.36",
+      "0.467",
+      "B"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "8.30",
+      "0.515",
+      "Ba(CHO2)2",
+      "12.10",
+      "0.668",
+      "B"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "2.65",
+      "0.169",
+      "Ba(CHO2)2",
+      "19.83",
+      "1.125",
+      "B"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "1.54",
+      "0.106",
+      "Ba(CHO2)2",
+      "26.88",
+      "1.651",
+      "B"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "1.27",
+      "0.087",
+      "Ba(CHO2)2",
+      "27.00",
+      "1.655",
+      "B+C"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "---",
+      "---",
+      "Ba(CHO2)2",
+      "26.83",
+      "1.612",
+      "C"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Barium formate with Cadmium formate and Water"
+ },
+ {
+  "sheet_id": "73_223",
+  "system_id": "73009",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_223",
+  "system": "Barium formate with Formic acid",
+  "components": "(1) Barium formate; Ba(CHO2)2; [541-43-5]\n(2) Formic acid; CH2O2; [64-18-6]",
+  "original_measurements": "Kendall, J.; Adler, H., J. Am. Chem. Soc. 43, 1470 (1921).",
+  "variables": "Temperature = -4.9 ºC to 31.8 ºC",
+  "prepared_by": "T. A. Ageyeva",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The only information given is that the solubility values were measured by the freezing point method.",
+  "source_purity": "The barium salt was prepared by dissolving a pure sample of the carbonate in 90% formic acid.  The salt obtained was recrystallized 3 times from water and dried to constant weight at 413 K; purity is not specified.  The formic acid was prepared by treating a c.p. product with B_2O_3.  It was then distilled in vacuo until a product melting above 281.6 K was obtained.",
+  "estimated_error": "Temperature: Nothing is specified.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Barium formate",
+    "formula": "Ba(CHO2)2",
+    "cas": "541-43-5"
+   },
+   {
+    "index": 2,
+    "name": "Formic acid",
+    "formula": "CH2O2",
+    "cas": "64-18-6"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^0 * Mole Fraction_1",
+     "Solid Phase(s)"
+    ],
+    "rows": [
+     [
+      "8.4",
+      "0.0",
+      "CH2O2"
+     ],
+     [
+      "7.2",
+      "0.91",
+      "CH2O2"
+     ],
+     [
+      "6.1",
+      "1.74",
+      "CH2O2"
+     ],
+     [
+      "5.1",
+      "2.30",
+      "CH2O2"
+     ],
+     [
+      "2.6",
+      "3.73",
+      "CH2O2"
+     ],
+     [
+      "0.5",
+      "4.67",
+      "CH2O2"
+     ],
+     [
+      "-0.3",
+      "5.12",
+      "CH2O2"
+     ],
+     [
+      "-4.9",
+      "6.95",
+      "CH2O2"
+     ],
+     [
+      "9.5",
+      "8.52",
+      "Ba(CHO2)2•CH2O2"
+     ],
+     [
+      "15.5",
+      "8.86",
+      "Ba(CHO2)2•CH2O2"
+     ],
+     [
+      "19.0",
+      "9.23",
+      "Ba(CHO2)2•CH2O2"
+     ],
+     [
+      "24.9",
+      "9.83",
+      "Ba(CHO2)2•CH2O2"
+     ],
+     [
+      "26.5",
+      "10.03",
+      "Ba(CHO2)2•CH2O2"
+     ],
+     [
+      "31.8",
+      "10.75",
+      "Ba(CHO2)2•CH2O2"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Barium formate with Formic acid"
+ },
+ {
+  "sheet_id": "73_231",
+  "system_id": "73012",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_231",
+  "system": "Barium formate with Formic acid and Water",
+  "components": "(1) Barium formate; Ba(CHO2)2; [541-43-5]\n(2) Formic acid; CH2O2; [64-18-6]\n(3) Water; H2O; [7732-18-5]",
+  "original_measurements": "Dunn, L.J.; Philip, J.C., J. Chem. Soc. 658 (1934).",
+  "variables": "Concentration = Composition at 25 ºC",
+  "prepared_by": "T. A. Ageyeva",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  These values were calculated by the compiler.\n^b  The solid phases are:  A = Ba(CHO_2)_2; B = Ba(CHO_2)_2•CH_2O_2.",
+  "method": "The isothermal method was used. The methods of analysis are not described.  The composition of the solid phases was determined by the Schreinemakers method.",
+  "source_purity": "The salt was prepared from pure formic acid and barium carbonate or hydroxide; purity is not specified. Commercial formic acid was used.",
+  "estimated_error": "Solubility: No information is given.\nTemperature: The temperature was controlled to within ± 0.01 °C.  Nothing is said about the solubility values.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Barium formate",
+    "formula": "Ba(CHO2)2",
+    "cas": "541-43-5"
+   },
+   {
+    "index": 2,
+    "name": "Formic acid",
+    "formula": "CH2O2",
+    "cas": "64-18-6"
+   },
+   {
+    "index": 3,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical_1",
+     "Mass Fraction w_1",
+     "10^0 * Mole Fraction_1^a",
+     "Chemical_2",
+     "Mass Fraction w_2",
+     "Mole Fraction_2^a",
+     "Chemical_3",
+     "Mass Fraction w_3^a",
+     "Mole Fraction_3^a",
+     "Solid Phase(s)^b"
+    ],
+    "rows": [
+     [
+      "CH2O2",
+      "0.0",
+      "0.0",
+      "Ba(CHO2)2",
+      "23.51",
+      "2.38",
+      "H2O",
+      "76.49",
+      "97.62",
+      "A"
+     ],
+     [
+      "CH2O2",
+      "5.39",
+      "2.83",
+      "Ba(CHO2)2",
+      "24.25",
+      "2.59",
+      "H2O",
+      "70.36",
+      "94.58",
+      "A"
+     ],
+     [
+      "CH2O2",
+      "10.57",
+      "5.86",
+      "Ba(CHO2)2",
+      "25.03",
+      "2.89",
+      "H2O",
+      "64.40",
+      "91.25",
+      "A"
+     ],
+     [
+      "CH2O2",
+      "15.41",
+      "9.01",
+      "Ba(CHO2)2",
+      "25.72",
+      "3.05",
+      "H2O",
+      "58.87",
+      "87.94",
+      "A"
+     ],
+     [
+      "CH2O2",
+      "22.43",
+      "14.25",
+      "Ba(CHO2)2",
+      "26.87",
+      "3.46",
+      "H2O",
+      "50.70",
+      "82.29",
+      "A"
+     ],
+     [
+      "CH2O2",
+      "22.38",
+      "14.05",
+      "Ba(CHO2)2",
+      "26.09",
+      "3.32",
+      "H2O",
+      "51.53",
+      "82.63",
+      "B"
+     ],
+     [
+      "CH2O2",
+      "28.49",
+      "18.86",
+      "Ba(CHO2)2",
+      "24.71",
+      "3.27",
+      "H2O",
+      "46.80",
+      "78.11",
+      "B"
+     ],
+     [
+      "CH2O2",
+      "38.07",
+      "26.83",
+      "Ba(CHO2)2",
+      "23.11",
+      "3.30",
+      "H2O",
+      "38.82",
+      "69.87",
+      "B"
+     ],
+     [
+      "CH2O2",
+      "47.50",
+      "36.95",
+      "Ba(CHO2)2",
+      "22.56",
+      "3.56",
+      "H2O",
+      "29.94",
+      "59.49",
+      "B"
+     ],
+     [
+      "CH2O2",
+      "58.40",
+      "53.33",
+      "Ba(CHO2)2",
+      "23.45",
+      "4.34",
+      "H2O",
+      "18.15",
+      "42.33",
+      "B"
+     ],
+     [
+      "CH2O2",
+      "65.80",
+      "71.00",
+      "Ba(CHO2)2",
+      "25.72",
+      "5.63",
+      "H2O",
+      "8.48",
+      "23.37",
+      "B"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Barium formate with Formic acid and Water"
+ },
+ {
+  "sheet_id": "73_135",
+  "system_id": "73013",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_135",
+  "system": "Barium formate with Lead formate and Water",
+  "components": "(1) Barium formate; Ba(CHO2)2; [541-43-5]\n(2) Lead formate; Pb(CHO2)2; [811-54-1]\n(3) Water; H2O; [7732-18-5]",
+  "original_measurements": "Fock, A., Z. Kristallogr. u Mineralogie 28, 337-413 (1897).",
+  "variables": "Concentration = Composition at 25 ºC",
+  "prepared_by": "Chr. Balarew and St. Trendafilova",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  These values, and the molalities, were calculated by the compilers.\n^b  The solid phase are: A = Ba(CHO_2)_2; B = (Pb,Ba)(CHO_2)_2; C = Pb(CHO_2)_2.",
+  "method": "A saturated solution of one component was prepared at 25 °C. Then the second component was added while the mixture was heated. After cooling to 25 °C the crystals were removed, crushed and again added to the mixture, which was then stirred for 4 h. Samples were then removed for analysis. The lead was determined gravimetrically as PbS.",
+  "source_purity": "Commercially available substances were used.",
+  "estimated_error": "Temperature: Not given.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Barium formate",
+    "formula": "Ba(CHO2)2",
+    "cas": "541-43-5"
+   },
+   {
+    "index": 2,
+    "name": "Lead formate",
+    "formula": "Pb(CHO2)2",
+    "cas": "811-54-1"
+   },
+   {
+    "index": 3,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical_1",
+     "Phase",
+     "Mass Fraction w_1^a",
+     "m_1 [mol kg-1]",
+     "Solubility_1 [mol/L]",
+     "Chemical_2",
+     "Mass Fraction w_2^a",
+     "m_2 [mol kg-1]",
+     "Solubility_2 [mol/L]",
+     "Solid Phase(s)^b",
+     "ρ",
+     "Distribution Coefficient^Ba2+/Pb2+"
+    ],
+    "rows": [
+     [
+      "Pb(CHO2)2",
+      "Liquid",
+      "0.0",
+      "0.0",
+      "0.0",
+      "Ba(CHO2)2",
+      "23.42",
+      "1.345",
+      "1255",
+      "A",
+      "1.2204",
+      "---"
+     ],
+     [
+      "Pb(CHO2)2",
+      "Liquid",
+      "0.09",
+      "0.004",
+      "3.72",
+      "Ba(CHO2)2",
+      "23.42",
+      "1.346",
+      "1260",
+      "B",
+      "1.2213",
+      "0.17"
+     ],
+     [
+      "Pb(CHO2)2",
+      "Liquid",
+      "0.23",
+      "0.010",
+      "9.44",
+      "Ba(CHO2)2",
+      "23.65",
+      "1.366",
+      "1274",
+      "B",
+      "1.2251",
+      "0.13"
+     ],
+     [
+      "Pb(CHO2)2",
+      "Liquid",
+      "0.42",
+      "0.019",
+      "17.88",
+      "Ba(CHO2)2",
+      "25.69",
+      "1.529",
+      "1418",
+      "B",
+      "1.2529",
+      "0.09"
+     ],
+     [
+      "Pb(CHO2)2",
+      "Liquid",
+      "0.93",
+      "0.041",
+      "38.49",
+      "Ba(CHO2)2",
+      "23.65",
+      "1.379",
+      "1286",
+      "B",
+      "1.2341",
+      "0.09"
+     ],
+     [
+      "Pb(CHO2)2",
+      "Liquid",
+      "1.87",
+      "0.083",
+      "77.83",
+      "Ba(CHO2)2",
+      "22.74",
+      "1.326",
+      "1237",
+      "B",
+      "1.2355",
+      "0.05"
+     ],
+     [
+      "Pb(CHO2)2",
+      "Liquid",
+      "2.50",
+      "0.090",
+      "95.50",
+      "Ba(CHO2)2",
+      "0.0",
+      "0.0",
+      "0.0",
+      "C",
+      "1.0911",
+      "---"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Barium formate with Lead formate and Water"
+ },
+ {
+  "sheet_id": "73_23",
+  "system_id": "73014",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_23",
+  "system": "Barium formate with Water",
+  "components": "(1) Barium formate; Ba(CHO2)2; [541-43-5]\n(2) Water; H2O; [7732-18-5]",
+  "original_measurements": "Krasnitzki, E. R.,Monatsh. Chem. 8, 595 (1887).",
+  "variables": "Temperature = 1 ºC to 76 ºC",
+  "prepared_by": "Chr.Balarew",
+  "critical_evaluation": "Author's Comments: The solubility data (g/100g H_2O) are mean values obtained by the cooling and the heating method.",
+  "experimental_values": "",
+  "notes": "^a  These values and the molality values were calculated by the compiler.\n^b  The solid phase is: A=Ba(CHO_2)_2.",
+  "method": "The apparatus and method were described earlier.^1 The mixtures were shaken for 10-1.5 hours. Dilute sulfuric acid was added to a weighed sample. The mixture was evaporated on a water bath. The remaining sulfuric acid was driven off by heating to constant weight of barium sulfate.",
+  "source_purity": "Barium carbonate was dissolved in formic acid to form the barium formate. The crystals were analyzed.",
+  "estimated_error": "Solubility: The solubility is ± 0.2 g/100 g water.",
+  "references": "^1Raupenstrauch; Monatsh. Chem. 6, 563 (1885).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Barium formate",
+    "formula": "Ba(CHO2)2",
+    "cas": "541-43-5"
+   },
+   {
+    "index": 2,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "g_1/g_2",
+     "Phase",
+     "Mass Fraction w_1^a",
+     "m_1 [mol kg-1]",
+     "Solid Phase(s)^b"
+    ],
+    "rows": [
+     [
+      "1",
+      "27.76",
+      "Liquid",
+      "21.72",
+      "1.220",
+      "A"
+     ],
+     [
+      "22.5",
+      "30.46",
+      "Liquid",
+      "23.34",
+      "1.339",
+      "A"
+     ],
+     [
+      "38",
+      "34.35",
+      "Liquid",
+      "25.56",
+      "1.510",
+      "A"
+     ],
+     [
+      "54",
+      "38.24",
+      "Liquid",
+      "27.66",
+      "1.681",
+      "A"
+     ],
+     [
+      "63.6",
+      "39.44",
+      "Liquid",
+      "28.28",
+      "1.734",
+      "A"
+     ],
+     [
+      "76",
+      "39.93",
+      "Liquid",
+      "28.53",
+      "1.755",
+      "A"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Barium formate with Water"
+ },
+ {
+  "sheet_id": "73_24",
+  "system_id": "73014",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_24",
+  "system": "Barium formate with Water",
+  "components": "(1) Barium formate; Ba(CHO2)2; [541-43-5]\n(2) Water; H2O; [7732-18-5]",
+  "original_measurements": "Calame, P., Z. Physik. Chem. 27, 401 (1898).",
+  "variables": "Temperature = -2.230 ºC  to -0.315 ºC",
+  "prepared_by": "Chr.Balarew",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  These values were calculated by the compiler.",
+  "method": "Freezing point determinations were made with a Beckmann apparatus having a thermometer graduated in 0.01 °C.  The barium content was determined gravimetrically.",
+  "source_purity": "Kahlbaum or Merck reagents were used.",
+  "estimated_error": "Temperature: ±0.01 °C.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Barium formate",
+    "formula": "Ba(CHO2)2",
+    "cas": "541-43-5"
+   },
+   {
+    "index": 2,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Phase",
+     "Mass Fraction w_1",
+     "m_1 [mol kg-1]^a",
+     "Solid Phase(s)"
+    ],
+    "rows": [
+     [
+      "-2.230",
+      "Liquid",
+      "10.43",
+      "0.512",
+      "ice"
+     ],
+     [
+      "-1.155",
+      "Liquid",
+      "5.44",
+      "0.253",
+      "ice"
+     ],
+     [
+      "-0.605",
+      "Liquid",
+      "2.76",
+      "0.125",
+      "ice"
+     ],
+     [
+      "-0.315",
+      "Liquid",
+      "1.41",
+      "0.063",
+      "ice"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Barium formate with Water"
+ },
+ {
+  "sheet_id": "73_25",
+  "system_id": "73014",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_25",
+  "system": "Barium formate with Water",
+  "components": "(1) Barium formate; Ba(CHO2)2; [541-43-5]\n(2) Water; H2O; [7732-18-5]",
+  "original_measurements": "Stanley, H., Chemical News 89, 193 (1904).",
+  "variables": "Concentration = Composition at 0 ºC to 100 ºC",
+  "prepared_by": "Chr.Balarew and St. Trendafilova",
+  "critical_evaluation": "Note: There are many arithmetical errors in this paper. The compilers have calculated and recalculated all the data in the above table.",
+  "experimental_values": "",
+  "notes": "^a  These values and the molality values were calculated by the compilers.\n^b  The solid phase is: A= Ba(CHO_2)_2.",
+  "method": "The isothermal method was used. The thermometer was graduated in tenths of a degree C.  The barium content was determined gravimetrically as BaSO_4.",
+  "source_purity": "Barium formate was prepared by the reaction of the carbonate with formic acid.",
+  "estimated_error": "Temperature: The temperature was controlled to within ±0.02 °C.See note under Experimental Values.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Barium formate",
+    "formula": "Ba(CHO2)2",
+    "cas": "541-43-5"
+   },
+   {
+    "index": 2,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "g_1/g_2",
+     "Phase",
+     "Mass Fraction w_1^a",
+     "m_1 [mol kg-1]",
+     "Solid Phase(s)^b"
+    ],
+    "rows": [
+     [
+      "0.0",
+      "30.07",
+      "Liquid",
+      "23.12",
+      "1.322",
+      "A"
+     ],
+     [
+      "10.0",
+      "30.42",
+      "Liquid",
+      "23.33",
+      "1.338",
+      "A"
+     ],
+     [
+      "35.0",
+      "32.40",
+      "Liquid",
+      "24.47",
+      "1.425",
+      "A"
+     ],
+     [
+      "54.5",
+      "36.45",
+      "Liquid",
+      "26.71",
+      "1.603",
+      "A"
+     ],
+     [
+      "73.6",
+      "39.00",
+      "Liquid",
+      "28.06",
+      "1.715",
+      "A"
+     ],
+     [
+      "93.2",
+      "46.27",
+      "Liquid",
+      "31.63",
+      "2.034",
+      "A"
+     ],
+     [
+      "100.0",
+      "46.38",
+      "Liquid",
+      "31.68",
+      "2.039",
+      "A"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Barium formate with Water"
+ },
+ {
+  "sheet_id": "73_26",
+  "system_id": "73014",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_26",
+  "system": "Barium formate with Water",
+  "components": "(1) Barium formate; Ba(CHO2)2; [541-43-5]\n(2) Water; H2O; [7732-18-5]",
+  "original_measurements": "Ashton, F.W.; Houston, D.F.; Saylor, C.P., J. Res. Nat. Bur. Stand. 11, 233-53 (1933).",
+  "variables": "Temperature = 0 ºC to 100 ºC",
+  "prepared_by": "Chr.Balarew and St. Trendafilova",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  These values and the molality values were calculated by the compilers.\n^b  The solid phase is: A= Ba(CHO_2)_2.",
+  "method": "The isothermal method was used. Samples were taken at 6 and 18 h, filtered into weighing bottles and weighed. They were then evaporated to dryness in an oven at 125 °C, cooled in a desiccator and weighed. From the weight of anhydrous salt thus obtained, the solubility in g/100 g H_2O was calculated. The barium content was determined by dissolving a sample in sulfuric acid, concentrating it by evaporation, and the acid driven off. The residue was then ignited, cooled, and weighed as sulfate.",
+  "source_purity": "Commercial barium formate was recrystallized twice from aqueous solutions, dried at 125 °C and stored in a desiccator. The calcium and strontium content is 0.05%.",
+  "estimated_error": "Solubility: The solubility is ±0.1 g/100 g H_2O.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Barium formate",
+    "formula": "Ba(CHO2)2",
+    "cas": "541-43-5"
+   },
+   {
+    "index": 2,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "g_1/g_2",
+     "Phase",
+     "Mass Fraction w_1^a",
+     "m_1 [mol kg-1]",
+     "Solid Phase(s)^b"
+    ],
+    "rows": [
+     [
+      "0",
+      "26.2",
+      "Liquid",
+      "20.8",
+      "1.15",
+      "A"
+     ],
+     [
+      "10",
+      "28.0",
+      "Liquid",
+      "21.9",
+      "1.23",
+      "A"
+     ],
+     [
+      "20",
+      "29.9",
+      "Liquid",
+      "23.0",
+      "1.32",
+      "A"
+     ],
+     [
+      "30",
+      "31.9",
+      "Liquid",
+      "24.2",
+      "1.40",
+      "A"
+     ],
+     [
+      "40",
+      "34.0",
+      "Liquid",
+      "25.4",
+      "1.50",
+      "A"
+     ],
+     [
+      "50",
+      "36.3",
+      "Liquid",
+      "26.6",
+      "1.60",
+      "A"
+     ],
+     [
+      "60",
+      "38.6",
+      "Liquid",
+      "27.9",
+      "1.70",
+      "A"
+     ],
+     [
+      "70",
+      "41.3",
+      "Liquid",
+      "29.2",
+      "1.82",
+      "A"
+     ],
+     [
+      "80",
+      "44.2",
+      "Liquid",
+      "30.7",
+      "1.94",
+      "A"
+     ],
+     [
+      "90",
+      "47.6",
+      "Liquid",
+      "32.3",
+      "2.09",
+      "A"
+     ],
+     [
+      "100",
+      "51.3",
+      "Liquid",
+      "33.9",
+      "2.26",
+      "A"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Barium formate with Water"
+ },
+ {
+  "sheet_id": "73_159",
+  "system_id": "73015",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_159",
+  "system": "Barium formate with Yttrium formate and Water",
+  "components": "(1) Barium formate; Ba(CHO2)2; [541-43-5]\n(2) Water; H2O; [7732-18-5]\n(3) Yttrium formate; Y(CHO2)3; [15331-71-2]",
+  "original_measurements": "Portnova, S.M.; Krassilov, Yu. I.; Kuznetzov, N.T.; Balakaeva, I.V., Zh. Neorg. Khim. 35, 237-41 (1990).",
+  "variables": "Concentration = Composition at 25 ºC",
+  "prepared_by": "Chr. Balarew and St. Trendafilova",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  The molality values were calculated by the compilers.\n^b  The solid phases are: A = Y(CHO_2)_3•2H_2O; B = BaY(CHO_2)_5•2H_2O; C = Ba(CHO_2)_2.",
+  "method": "The isothermal method was used. Four weeks were allowed for equilibration. The Y^3+ content was determined complexometrically. The Ba^2+ content was determined gravimetrically as BaSO_4 after the Y^3+ was bound with EDTA. The composition of the solid phases was determined by the Schreinemakers method, by DT analysis and by x-ray fluorescence spectroscopy.",
+  "source_purity": "The formates were obtained by neutralizing dilute formic acid with p.a. grade yttrium or barium oxides.",
+  "estimated_error": "Solubility: No information given.\nTemperature: No information given.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Barium formate",
+    "formula": "Ba(CHO2)2",
+    "cas": "541-43-5"
+   },
+   {
+    "index": 2,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 3,
+    "name": "Yttrium formate",
+    "formula": "Y(CHO2)3",
+    "cas": "15331-71-2"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical_1",
+     "Phase",
+     "Mass Fraction w_1",
+     "m_1 [mol kg-1]^a",
+     "Chemical_2",
+     "Mass Fraction w_2",
+     "m_2 [mol kg-1]^a",
+     "Solid Phase(s)^b"
+    ],
+    "rows": [
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "---",
+      "---",
+      "Y(CHO2)3",
+      "21.41",
+      "1.216",
+      "A"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "5.47",
+      "0.311",
+      "Y(CHO2)3",
+      "17.19",
+      "0.992",
+      "A"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "8.56",
+      "0.506",
+      "Y(CHO2)3",
+      "17.12",
+      "1.029",
+      "A"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "12.43",
+      "0.764",
+      "Y(CHO2)3",
+      "16.06",
+      "1.003",
+      "A"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "14.24",
+      "0.900",
+      "Y(CHO2)3",
+      "16.20",
+      "1.040",
+      "A"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "16.54",
+      "1.097",
+      "Y(CHO2)3",
+      "17.17",
+      "1.156",
+      "A"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "16.24",
+      "1.066",
+      "Y(CHO2)3",
+      "16.74",
+      "1.115",
+      "A"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "11.22",
+      "0.686",
+      "Y(CHO2)3",
+      "16.90",
+      "1.050",
+      "A+B"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "12.74",
+      "0.765",
+      "Y(CHO2)3",
+      "14.06",
+      "0.858",
+      "B"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "13.49",
+      "0.800",
+      "Y(CHO2)3",
+      "12.38",
+      "0.746",
+      "B"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "14.24",
+      "0.846",
+      "Y(CHO2)3",
+      "11.72",
+      "0.707",
+      "B"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "15.23",
+      "0.906",
+      "Y(CHO2)3",
+      "10.88",
+      "0.657",
+      "B"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "17.17",
+      "1.018",
+      "Y(CHO2)3",
+      "8.66",
+      "0.521",
+      "B"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "19.12",
+      "1.144",
+      "Y(CHO2)3",
+      "7.36",
+      "0.447",
+      "B"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "24.18",
+      "1.509",
+      "Y(CHO2)3",
+      "5.34",
+      "0.338",
+      "B"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "23.94",
+      "1.483",
+      "Y(CHO2)3",
+      "5.06",
+      "0.318",
+      "B"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "24.37",
+      "1.517",
+      "Y(CHO2)3",
+      "4.99",
+      "0.315",
+      "B"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "24.34",
+      "1.514",
+      "Y(CHO2)3",
+      "4.98",
+      "0.315",
+      "B+C"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "24.37",
+      "1.582",
+      "Y(CHO2)3",
+      "7.87",
+      "0.519",
+      "C"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "24.00",
+      "1.454",
+      "Y(CHO2)3",
+      "3.41",
+      "0.210",
+      "C"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "24.18",
+      "1.448",
+      "Y(CHO2)3",
+      "2.39",
+      "0.145",
+      "C"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "23.72",
+      "1.389",
+      "Y(CHO2)3",
+      "1.17",
+      "0.070",
+      "C"
+     ],
+     [
+      "Ba(CHO2)2",
+      "Liquid",
+      "23.88",
+      "1.393",
+      "Y(CHO2)3",
+      "0.71",
+      "0.042",
+      "C"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Barium formate with Yttrium formate and Water"
+ },
+ {
+  "sheet_id": "73_191",
+  "system_id": "73016",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_191",
+  "system": "Bismuth formate with Potassium formate, Formic acid and Water",
+  "components": "(1) Potassium formate; KCHO2; [590-29-4]\n(2) Bismuth formate; Bi(CHO2)3; [25573-24-4]\n(3) Formic acid; CH2O2; [64-18-6]\n(4) Water; H2O; [7732-18-5]",
+  "original_measurements": "Chaplygina, N.M.; Itkina, L.S., Zh. Neorg. Khim. 26, 1097-1103 (1981).",
+  "variables": "Concentration = Composition at 25 ºC",
+  "prepared_by": "Chr. Balarew and St. Trendafilova",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  The molality values were calculated by the compilers.\n^b  The solid phases are: A = KCHO_2; B = KCHO_2•CH_2O_2; C = K2Bi(CHO_2)_5; D = Bi(CHO_2)_3.",
+  "method": "The isothermal method was used. Equilibrium was reached in 3 weeks. The potassium content of both phases was determined by flame photometry. The bismuth content was determined by complexometric titration using Pirokatechin violet as indicator. The formate content was determined by titration with 0.05 N NaOH after adding sodium oxalate to suppress the hydrolysis of the bismuth salts. The composition of the solid phases was determined by Schreinemakers method, by DT analysis, IR spectroscopy and x-ray diffraction.",
+  "source_purity": "Bi(CHO2)_3  was prepared by neutralizing 40% p.a. grade formic acid with suprapure reagent grade Bi_2O_3. Potassium formate was prepared by neutralizing p.a. grade 85% formic acid with p.a. grade KOH. The salt was washed with ethanol and dried over sulfuric acid.",
+  "estimated_error": "Solubility: No information is given\nTemperature: No information is given.",
+  "references": "^1C. I. Stalhandske, Acta Chem. Scand. 23, 1525 (1969).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Potassium formate",
+    "formula": "KCHO2",
+    "cas": "590-29-4"
+   },
+   {
+    "index": 2,
+    "name": "Bismuth formate",
+    "formula": "Bi(CHO2)3",
+    "cas": "25573-24-4"
+   },
+   {
+    "index": 3,
+    "name": "Formic acid",
+    "formula": "CH2O2",
+    "cas": "64-18-6"
+   },
+   {
+    "index": 4,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical_1",
+     "Phase",
+     "Mass Fraction w_1",
+     "m_1 [mol kg-1]^a",
+     "Chemical_2",
+     "Mass Fraction w_2",
+     "m_2 [mol kg-1]^a",
+     "Chemical_3",
+     "Mass Fraction w_3",
+     "m_3 [mol kg-1]",
+     "Solid Phase(s)^b"
+    ],
+    "rows": [
+     [
+      "CH2O2",
+      "Liquid",
+      "0.0",
+      "0.0",
+      "KCHO2",
+      "81.82",
+      "53.51",
+      "Bi(CHO2)3",
+      "0.0",
+      "0.0",
+      "A"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "4.85",
+      "5.85",
+      "KCHO2",
+      "77.00",
+      "50.84",
+      "Bi(CHO2)3",
+      "0.14",
+      "0.023",
+      "A+B+C"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "5.16",
+      "4.07",
+      "KCHO2",
+      "67.13",
+      "28.96",
+      "Bi(CHO2)3",
+      "0.15",
+      "0.016",
+      "B+C"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "7.17",
+      "4.99",
+      "KCHO2",
+      "61.43",
+      "23.40",
+      "Bi(CHO2)3",
+      "0.18",
+      "0.017",
+      "B+C"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "13.72",
+      "9.062",
+      "KCHO2",
+      "53.13",
+      "19.20",
+      "Bi(CHO2)3",
+      "0.25",
+      "0.022",
+      "B+C"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "23.62",
+      "15.77",
+      "KCHO2",
+      "43.48",
+      "15.88",
+      "Bi(CHO2)3",
+      "0.35",
+      "0.031",
+      "B+C"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "24.48",
+      "16.59",
+      "KCHO2",
+      "43.08",
+      "15.98",
+      "Bi(CHO2)3",
+      "0.38",
+      "0.034",
+      "B+C"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "29.26",
+      "22.05",
+      "KCHO2",
+      "41.51",
+      "17.12",
+      "Bi(CHO2)3",
+      "0.40",
+      "0.040",
+      "B+C"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "36.57",
+      "34.63",
+      "KCHO2",
+      "40.02",
+      "20.73",
+      "Bi(CHO2)3",
+      "0.46",
+      "0.058",
+      "B+C"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "49.15",
+      "111.0",
+      "KCHO2",
+      "40.75",
+      "50.37",
+      "Bi(CHO2)3",
+      "0.48",
+      "0.145",
+      "B+C"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "57.14",
+      "542.2",
+      "KCHO2",
+      "40.10",
+      "208.2",
+      "Bi(CHO2)3",
+      "0.47",
+      "0.597",
+      "B+C"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "59.34",
+      "1386",
+      "KCHO2",
+      "38.70",
+      "494.8",
+      "Bi(CHO2)3",
+      "1.03",
+      "3.22",
+      "C"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "57.14",
+      "226.6",
+      "KCHO2",
+      "36.67",
+      "79.57",
+      "Bi(CHO2)3",
+      "0.71",
+      "0.38",
+      "C"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "51.63",
+      "94.04",
+      "KCHO2",
+      "35.86",
+      "35.74",
+      "Bi(CHO2)3",
+      "0.58",
+      "0.141",
+      "C"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "45.58",
+      "48.57",
+      "KCHO2",
+      "31.26",
+      "18.23",
+      "Bi(CHO2)3",
+      "2.77",
+      "0.395",
+      "C"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "43.14",
+      "45.64",
+      "KCHO2",
+      "34.94",
+      "20.23",
+      "Bi(CHO2)3",
+      "1.38",
+      "0.195",
+      "C"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "35.59",
+      "33.44",
+      "KCHO2",
+      "40.87",
+      "21.01",
+      "Bi(CHO2)3",
+      "0.41",
+      "0.52",
+      "C"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "29.21",
+      "16.88",
+      "KCHO2",
+      "31.24",
+      "9.877",
+      "Bi(CHO2)3",
+      "1.94",
+      "0.150",
+      "C"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "28.68",
+      "16.25",
+      "KCHO2",
+      "30.07",
+      "9.326",
+      "Bi(CHO2)3",
+      "2.91",
+      "0.221",
+      "C"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "27.77",
+      "16.92",
+      "KCHO2",
+      "35.15",
+      "11.72",
+      "Bi(CHO2)3",
+      "1.41",
+      "0.115",
+      "C"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "21.75",
+      "14.05",
+      "KCHO2",
+      "44.20",
+      "15.62",
+      "Bi(CHO2)3",
+      "0.41",
+      "0.035",
+      "C"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "20.93",
+      "9.393",
+      "KCHO2",
+      "27.76",
+      "6.817",
+      "Bi(CHO2)3",
+      "2.89",
+      "0.173",
+      "C"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "15.40",
+      "5.994",
+      "KCHO2",
+      "23.11",
+      "4.922",
+      "Bi(CHO2)3",
+      "5.66",
+      "0.295",
+      "C"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "13.86",
+      "8.083",
+      "KCHO2",
+      "48.67",
+      "15.53",
+      "Bi(CHO2)3",
+      "0.21",
+      "0.016",
+      "C"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "11.74",
+      "6.570",
+      "KCHO2",
+      "48.86",
+      "14.96",
+      "Bi(CHO2)3",
+      "0.57",
+      "0.043",
+      "C"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "1.51",
+      "0.505",
+      "KCHO2",
+      "33.30",
+      "6.089",
+      "Bi(CHO2)3",
+      "0.16",
+      "0.007",
+      "C"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "4.75",
+      "1.50",
+      "KCHO2",
+      "25.60",
+      "4.435",
+      "Bi(CHO2)3",
+      "1.02",
+      "0.043",
+      "C+D"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "5.68",
+      "1.80",
+      "KCHO2",
+      "23.87",
+      "4.129",
+      "Bi(CHO2)3",
+      "1.71",
+      "0.072",
+      "C+D"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "6.54",
+      "2.16",
+      "KCHO2",
+      "26.02",
+      "4.693",
+      "Bi(CHO2)3",
+      "1.52",
+      "0.067",
+      "C+D"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "12.52",
+      "4.797",
+      "KCHO2",
+      "25.60",
+      "5.368",
+      "Bi(CHO2)3",
+      "5.17",
+      "0.265",
+      "C+D"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "17.51",
+      "7.119",
+      "KCHO2",
+      "23.95",
+      "5.328",
+      "Bi(CHO2)3",
+      "5.09",
+      "0.277",
+      "C+D"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "20.76",
+      "9.315",
+      "KCHO2",
+      "25.19",
+      "6.185",
+      "Bi(CHO2)3",
+      "5.62",
+      "0.337",
+      "C+D"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "47.82",
+      "53.34",
+      "KCHO2",
+      "29.88",
+      "18.24",
+      "Bi(CHO2)3",
+      "2.82",
+      "0.421",
+      "C+D"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "55.89",
+      "96.08",
+      "KCHO2",
+      "30.28",
+      "28.48",
+      "Bi(CHO2)3",
+      "1.19",
+      "0.274",
+      "C+D"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "54.91",
+      "71.40",
+      "KCHO2",
+      "27.17",
+      "19.33",
+      "Bi(CHO2)3",
+      "1.21",
+      "0.210",
+      "D"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "48.76",
+      "38.64",
+      "KCHO2",
+      "22.81",
+      "9.891",
+      "Bi(CHO2)3",
+      "1.01",
+      "0.107",
+      "D"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "40.68",
+      "29.95",
+      "KCHO2",
+      "27.10",
+      "10.92",
+      "Bi(CHO2)3",
+      "2.71",
+      "0.267",
+      "D"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "39.22",
+      "19.57",
+      "KCHO2",
+      "16.36",
+      "4.468",
+      "Bi(CHO2)3",
+      "0.88",
+      "0.059",
+      "D"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "36.86",
+      "18.36",
+      "KCHO2",
+      "18.18",
+      "4.955",
+      "Bi(CHO2)3",
+      "1.33",
+      "0.089",
+      "D"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "32.53",
+      "18.39",
+      "KCHO2",
+      "25.59",
+      "8.486",
+      "Bi(CHO2)3",
+      "4.63",
+      "0.361",
+      "D"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "27.46",
+      "13.34",
+      "KCHO2",
+      "24.68",
+      "6.559",
+      "Bi(CHO2)3",
+      "3.12",
+      "0.203",
+      "D"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "23.10",
+      "10.79",
+      "KCHO2",
+      "25.02",
+      "6.400",
+      "Bi(CHO2)3",
+      "5.31",
+      "0.332",
+      "D"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "21.62",
+      "9.453",
+      "KCHO2",
+      "23.42",
+      "5.603",
+      "Bi(CHO2)3",
+      "5.26",
+      "0.308",
+      "D"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "19.78",
+      "6.792",
+      "KCHO2",
+      "15.15",
+      "2.847",
+      "Bi(CHO2)3",
+      "1.79",
+      "0.082",
+      "D"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "19.53",
+      "5.909",
+      "KCHO2",
+      "7.91",
+      "1.310",
+      "Bi(CHO2)3",
+      "0.74",
+      "0.299",
+      "D"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "19.22",
+      "7.630",
+      "KCHO2",
+      "22.09",
+      "4.798",
+      "Bi(CHO2)3",
+      "3.95",
+      "0.210",
+      "D"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "18.20",
+      "5.711",
+      "KCHO2",
+      "11.66",
+      "2.002",
+      "Bi(CHO2)3",
+      "0.89",
+      "0.037",
+      "D"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "17.14",
+      "6.937",
+      "KCHO2",
+      "23.30",
+      "5.160",
+      "Bi(CHO2)3",
+      "5.87",
+      "0.318",
+      "D"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "11.30",
+      "4.173",
+      "KCHO2",
+      "23.90",
+      "4.830",
+      "Bi(CHO2)3",
+      "5.96",
+      "0.294",
+      "D"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "78.18",
+      "1049",
+      "KCHO2",
+      "20.14",
+      "147.8",
+      "Bi(CHO2)3",
+      "0.06",
+      "0.11",
+      "D"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "86.90",
+      "3433",
+      "KCHO2",
+      "12.53",
+      "270.9",
+      "Bi(CHO2)3",
+      "0.02",
+      "0.11",
+      "D"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "93.43",
+      "3275",
+      "KCHO2",
+      "5.94",
+      "113.9",
+      "Bi(CHO2)3",
+      "0.01",
+      "0.05",
+      "D"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "98.70",
+      "2841",
+      "KCHO2",
+      "0.54",
+      "8.5",
+      "Bi(CHO2)3",
+      "0.005",
+      "0.02",
+      "D"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "29.00",
+      "18.99",
+      "KCHO2",
+      "37.28",
+      "13.36",
+      "Bi(CHO2)3",
+      "0.53",
+      "0.046",
+      "C"
+     ],
+     [
+      "CH2O2",
+      "Liquid",
+      "26.78",
+      "17.20",
+      "KCHO2",
+      "38.95",
+      "13.69",
+      "Bi(CHO2)3",
+      "0.43",
+      "0.037",
+      "C"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Bismuth formate with Potassium formate, Formic acid and Water"
+ },
+ {
+  "sheet_id": "73_173",
+  "system_id": "73017",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_173",
+  "system": "Cadmium formate with Cadmium chloride and Water",
+  "components": "(1) Cadmium chloride; CdCl2; [10108-64-2]\n(2) Cadmium formate; Cd(CHO2)2; [4464-23-7]\n(3) Water; H2O; [7732-18-5]",
+  "original_measurements": "Stoilova, D., Bulg. Chem. Commun. 25, 249-57 (1992).",
+  "variables": "Concentration = Composition at 25 ºC",
+  "prepared_by": "Chr. Balarew and St. Trendafilova",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  The molality values were calculated by the compilers.\n^b  The solid phases are: A = Cd(CHO_2)_2•2H_2O; B = Cd(CHO_2)_2•CdCl_2•2H_2O; C = CdCl_2•2.5H_2O.",
+  "method": "The method used was the isothermal decrease of supersaturation. Equilibrium was reached in 10-15 hrs. The cadmium content was determined complexometrically. The chloride ion content was determined volumetrically by the Mohr method. The cadmium formate concentration was estimated by difference. The composition of the ideally suction-dried solid phase was \rdetermined by the Schreinemakers method. X-ray diffraction and DT analysis were also used.",
+  "source_purity": "The cadmium chloride was p. a. grade (Merck). The cadmium formate was prepared by the reaction of dilute formic acid with cadmium oxide,  carbonate or hydroxide all of which were p.a. grade (Merck or Fluka).",
+  "estimated_error": "Solubility: No information is given.\nTemperature: No information is given.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Cadmium chloride",
+    "formula": "CdCl2",
+    "cas": "10108-64-2"
+   },
+   {
+    "index": 2,
+    "name": "Cadmium formate",
+    "formula": "Cd(CHO2)2",
+    "cas": "4464-23-7"
+   },
+   {
+    "index": 3,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical_1",
+     "Phase",
+     "Mass Fraction w_1",
+     "m_1 [mol kg-1]^a",
+     "Chemical_2",
+     "Mass Fraction w_2",
+     "m_2 [mol kg-1]^a",
+     "Solid Phase(s)^b"
+    ],
+    "rows": [
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "12.45",
+      "0.702",
+      "CdCl2",
+      "----",
+      "---",
+      "A"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "20.40",
+      "1.464",
+      "CdCl2",
+      "10.79",
+      "0.855",
+      "A"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "27.17",
+      "2.460",
+      "CdCl2",
+      "18.27",
+      "1.827",
+      "A"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "30.77",
+      "3.629",
+      "CdCl2",
+      "27.35",
+      "3.563",
+      "A"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "32.39",
+      "4.244",
+      "CdCl2",
+      "29.91",
+      "4.328",
+      "A"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "32.07",
+      "4.229",
+      "CdCl2",
+      "30.47",
+      "4.437",
+      "eutonic"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "24.50",
+      "2.945",
+      "CdCl2",
+      "34.41",
+      "4.568",
+      "B"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "18.50",
+      "2.180",
+      "CdCl2",
+      "39.59",
+      "5.153",
+      "B"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "15.65",
+      "1.845",
+      "CdCl2",
+      "42.46",
+      "5.529",
+      "B"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "14.60",
+      "1.769",
+      "CdCl2",
+      "44.63",
+      "5.972",
+      "B"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "12.73",
+      "1.662",
+      "CdCl2",
+      "49.43",
+      "7.126",
+      "B"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "13.47",
+      "1.804",
+      "CdCl2",
+      "49.65",
+      "7.344",
+      "eutonic"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "7.86",
+      "0.932",
+      "CdCl2",
+      "50.47",
+      "6.607",
+      "C"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "7.20",
+      "0.852",
+      "CdCl2",
+      "51.08",
+      "6.679",
+      "C"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "5.71",
+      "0.665",
+      "CdCl2",
+      "51.89",
+      "6.676",
+      "C"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "----",
+      "----",
+      "CdCl2",
+      "54.69",
+      "6.585",
+      "C"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Cadmium formate with Cadmium chloride and Water"
+ },
+ {
+  "sheet_id": "73_174",
+  "system_id": "73017",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_174",
+  "system": "Cadmium formate with Cadmium chloride and Water",
+  "components": "(1) Cadmium chloride; CdCl2; [10108-64-2]\n(2) Cadmium formate; Cd(CHO2)2; [4464-23-7]\n(3) Water; H2O; [7732-18-5]",
+  "original_measurements": "Stoilova, D., Bulg. Chem. Commun. 25, 249-57 (1992).",
+  "variables": "Concentration = Composition at 60 ºC",
+  "prepared_by": "Chr. Balarew and St. Trendafilova",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  The molality values were calculated by the compilers.\n^b  The solid phases are: A = Cd(CHO_2)_2•2H_2O; B = Cd(CHO_2)_2•CdCl_2; C = CdCl_2•H_2O.",
+  "method": "The method used was the isothermal decrease of supersaturation. Equilibrium was reached in 10-15 hrs. The cadmium content was determined complexometrically. The chloride ion content was determined volumetrically by the Mohr method. The cadmium formate concentration was estimated by difference. The composition of the ideally suction-dried solid phase was determined by the Schreinemakers method. X-ray diffraction and DT analysis were also used.",
+  "source_purity": "The cadmium chloride was p. a. grade (Merck). The cadmium formate was prepared by the reaction of dilute formic acid with cadmium oxide, carbonate or hydroxide, all of which were p.a. grade (Merck or Fluka).",
+  "estimated_error": "Solubility: No information is given.\nTemperature: No information is given.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Cadmium chloride",
+    "formula": "CdCl2",
+    "cas": "10108-64-2"
+   },
+   {
+    "index": 2,
+    "name": "Cadmium formate",
+    "formula": "Cd(CHO2)2",
+    "cas": "4464-23-7"
+   },
+   {
+    "index": 3,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical_1",
+     "Phase",
+     "Mass Fraction w_1",
+     "m_1 [mol kg-1]^a",
+     "Chemical_2",
+     "Mass Fraction w_2",
+     "m_2 [mol kg-1]^a",
+     "Solid Phase(s)^b"
+    ],
+    "rows": [
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "37.30",
+      "2.938",
+      "CdCl2",
+      "----",
+      "----",
+      "A"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "41.97",
+      "4.267",
+      "CdCl2",
+      "9.44",
+      "1.060",
+      "A"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "46.44",
+      "6.170",
+      "CdCl2",
+      "16.38",
+      "2.403",
+      "A"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "47.88",
+      "6.999",
+      "CdCl2",
+      "18.33",
+      "2.959",
+      "eutonic"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "47.01",
+      "7.084",
+      "CdCl2",
+      "20.21",
+      "3.363",
+      "B"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "37.29",
+      "4.861",
+      "CdCl2",
+      "24.82",
+      "3.573",
+      "B"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "30.54",
+      "3.644",
+      "CdCl2",
+      "28.06",
+      "3.697",
+      "B"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "19.27",
+      "2.376",
+      "CdCl2",
+      "40.67",
+      "5.538",
+      "B"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "15.52",
+      "2.310",
+      "CdCl2",
+      "51.29",
+      "8.430",
+      "B"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "11.49",
+      "1.580",
+      "CdCl2",
+      "52.60",
+      "7.991",
+      "C"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "7.89",
+      "1.014",
+      "CdCl2",
+      "53.67",
+      "7.617",
+      "C"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "----",
+      "----",
+      "CdCl2",
+      "57.76",
+      "7.441",
+      "C"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Cadmium formate with Cadmium chloride and Water"
+ },
+ {
+  "sheet_id": "73_179",
+  "system_id": "73018",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_179",
+  "system": "Cadmium formate with Sodium hydroxide and Water",
+  "components": "(1) Cadmium formate; Cd(CHO2)2; [4464-23-7]\n(2) Sodium hydroxide; NaOH; [1310-73-2]\n(3) Water; H2O; [7732-18-5]",
+  "original_measurements": "Gyunner, E.A.; Melnichenko, N.D.; Yakhkind,  N.D.; Velmozhnii, I.S.; Katseva, G.N., Zh. Neorg. Khim. 24, 2172-2175 (1979).",
+  "variables": "Concentration = Composition at 20 ºC",
+  "prepared_by": "Chr. Balarew and St. Trendafilova",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  The solid phases are: A = Cd(OH)(CHO_2); B = Cd(OH)_2.",
+  "method": "The system is studied by the method of physico-chemical analysis. After attaining the equilibrium, the residue concentrations of Cd^2+ and OH^- are measured and also refractive index (n) of the liquid phases. The methods of measurements are according to Ref. 1.",
+  "source_purity": "The cadmium formate is obtained from cadmium carbonate and formic acid. The obtained product is twice recrystallized.",
+  "estimated_error": "Temperature: t =±0.05 °C.",
+  "references": "^1E. A. Gyunner, N. D. Melnichenko, N. D. Yakhkind, G. N. Bobrishev, and G. N. Katseva, Zh. Neorg. Khim. 23, 711 (1978).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Cadmium formate",
+    "formula": "Cd(CHO2)2",
+    "cas": "4464-23-7"
+   },
+   {
+    "index": 2,
+    "name": "Sodium hydroxide",
+    "formula": "NaOH",
+    "cas": "1310-73-2"
+   },
+   {
+    "index": 3,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical_1",
+     "Phase",
+     "10^0 * Mole Fraction_1",
+     "Chemical_2",
+     "Mole Fraction_2",
+     "Solid Phase(s)^a"
+    ],
+    "rows": [
+     [
+      "NaOH",
+      "Liquid",
+      "10.0",
+      "Cd(CHO2)2",
+      "0.95",
+      "A"
+     ],
+     [
+      "NaOH",
+      "Liquid",
+      "15.0",
+      "Cd(CHO2)2",
+      "1.01",
+      "A"
+     ],
+     [
+      "NaOH",
+      "Liquid",
+      "20.0",
+      "Cd(CHO2)2",
+      "1.03",
+      "A"
+     ],
+     [
+      "NaOH",
+      "Liquid",
+      "25.0",
+      "Cd(CHO2)2",
+      "1.02",
+      "A"
+     ],
+     [
+      "NaOH",
+      "Liquid",
+      "30.0",
+      "Cd(CHO2)2",
+      "1.01",
+      "A"
+     ],
+     [
+      "NaOH",
+      "Liquid",
+      "33.3",
+      "Cd(CHO2)2",
+      "1.02",
+      "A"
+     ],
+     [
+      "NaOH",
+      "Liquid",
+      "40.0",
+      "Cd(CHO2)2",
+      "1.04",
+      "variable composition"
+     ],
+     [
+      "NaOH",
+      "Liquid",
+      "45.0",
+      "Cd(CHO2)2",
+      "1.11",
+      "variable composition"
+     ],
+     [
+      "NaOH",
+      "Liquid",
+      "50.0",
+      "Cd(CHO2)2",
+      "1.21",
+      "variable composition"
+     ],
+     [
+      "NaOH",
+      "Liquid",
+      "55.0",
+      "Cd(CHO2)2",
+      "1.41",
+      "variable composition"
+     ],
+     [
+      "NaOH",
+      "Liquid",
+      "60.0",
+      "Cd(CHO2)2",
+      "1.63",
+      "variable composition"
+     ],
+     [
+      "NaOH",
+      "Liquid",
+      "62.5",
+      "Cd(CHO2)2",
+      "---",
+      "variable composition"
+     ],
+     [
+      "NaOH",
+      "Liquid",
+      "65.0",
+      "Cd(CHO2)2",
+      "---",
+      "variable composition"
+     ],
+     [
+      "NaOH",
+      "Liquid",
+      "66.7",
+      "Cd(CHO2)2",
+      "2.00",
+      "B"
+     ],
+     [
+      "NaOH",
+      "Liquid",
+      "70.0",
+      "Cd(CHO2)2",
+      "2.01",
+      "B"
+     ],
+     [
+      "NaOH",
+      "Liquid",
+      "75.0",
+      "Cd(CHO2)2",
+      "1.96",
+      "B"
+     ],
+     [
+      "NaOH",
+      "Liquid",
+      "80.0",
+      "Cd(CHO2)2",
+      "1.97",
+      "B"
+     ],
+     [
+      "NaOH",
+      "Liquid",
+      "85.0",
+      "Cd(CHO2)2",
+      "2.05",
+      "B"
+     ],
+     [
+      "NaOH",
+      "Liquid",
+      "90.0",
+      "Cd(CHO2)2",
+      "2.05",
+      "B"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Cadmium formate with Sodium hydroxide and Water"
+ },
+ {
+  "sheet_id": "73_38",
+  "system_id": "73019",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_38",
+  "system": "Cadmium formate with Water",
+  "components": "(1) Cadmium formate; Cd(CHO2)2; [4464-23-7]\n(2) Water; H2O; [7732-18-5]",
+  "original_measurements": "Nadzhafyan, K.A.; Kaganskii, I.M.; Stamikosto, E.V.; Erayser, L.N.; Skulskaya, E.I., Zh. Neorg. Khim. 34, 2152 (1989).",
+  "variables": "Temperature = 20.05 ºC to 50.05  ºC",
+  "prepared_by": "Chr. Balarew and St. Trendafilova",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  These values were calculated by the compilers.\n^b  The solid phase is: A = Cd(CHO_2)_2•2H_2O.\n^c  These values were determined using the isothermal method. The other values were obtained using the polythermal method.",
+  "method": "The isothermal and polythermal method were used.^1 Equilibrium was achieved in 1.5-2 weeks. The cadmium content was determined by complexometric titration using Eriochrome Black T as indicator. The solid phase was identified using Schreinemakers', spectroscopic , thermal and x-ray methods.",
+  "source_purity": "Cd(CHO_2)_2•2H_2O was prepared from c.p. grade cadmium carbonate and 85% formic acid. The product was recrystallised twice from 1% formic acid. Purity is not specified. The water is freshly distilled.",
+  "estimated_error": "Temperature: The temperature was controlled to within ±1 °C^1",
+  "references": "^1K. A. Nadzharyan, L. S. Itkina, and I. N. Lepeshkov,  Zh. Neorg. Khim. 25, 1676 (1980).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Cadmium formate",
+    "formula": "Cd(CHO2)2",
+    "cas": "4464-23-7"
+   },
+   {
+    "index": 2,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Phase",
+     "Mass Fraction w_1",
+     "m_1 [mol kg-1]^a",
+     "Solid Phase(s)^b"
+    ],
+    "rows": [
+     [
+      "t = 20.05 °C",
+      "Liquid phase Cd(CHO2)2",
+      "12.0",
+      "0.674",
+      "A"
+     ],
+     [
+      "t = 25.05 °C (c)",
+      "Liquid phase Cd(CHO2)2",
+      "14.10",
+      "0.809",
+      "A"
+     ],
+     [
+      "t = 30.05 °C",
+      "Liquid phase Cd(CHO2)2",
+      "15.0",
+      "0.872",
+      "A"
+     ],
+     [
+      "t = 40.05 °C",
+      "Liquid phase Cd(CHO2)2",
+      "19.3",
+      "1.181",
+      "A"
+     ],
+     [
+      "t = 50.05 °C",
+      "Liquid phase Cd(CHO2)2",
+      "26.2",
+      "1.754",
+      "A"
+     ],
+     [
+      "t = 50.05 °C",
+      "Liquid phase Cd(CHO2)2",
+      "27.77",
+      "1.899",
+      "A"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Cadmium formate with Water"
+ },
+ {
+  "sheet_id": "73_39",
+  "system_id": "73019",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_39",
+  "system": "Cadmium formate with Water",
+  "components": "(1) Cadmium formate; Cd(CHO2)2; [4464-23-7]\n(2) Water; H2O; [7732-18-5]",
+  "original_measurements": "Ashton, F.W.; Houston, D.F.; Saylor, C.P., J. Res. Nat. Bur. Stand. 11, 233-53 (1933).",
+  "variables": "Temperature = 0 ºC to 100 ºC",
+  "prepared_by": "Chr. Balarew and St. Trendafilova",
+  "critical_evaluation": "The molality values were calculated by the compilers.",
+  "experimental_values": "",
+  "notes": "^a  The solid phases are: A = Cd(CHO_2)_2•2H_2O; B = Cd(CHO_2)_2.",
+  "method": "The isothermal method was used. Samples were taken at 6 and 18 h, filtered into weighing bottles and weighed. They were then evaporated in an oven at 125 °C, cooled in a desiccator and reweighed. From the weight of anhydrous salt the solubility in g/100g H_2O was calculated.",
+  "source_purity": "An aqueous solution of commercial cadmium formate was heated on a steam bath. A precipitate, which contained iron, was filtered off, and the salt was recrystallized twice from a weak formic acid solution. It was dried at 105 °C and stored in a desiccator. The dihydrate was then prepared by recrystallization at room temperature from a 1% formic acid solution. The anhydrous salt was obtained by another recrystallization at 70-75 °C.",
+  "estimated_error": "Solubility: ± 0.1 g/100 g H2O.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Cadmium formate",
+    "formula": "Cd(CHO2)2",
+    "cas": "4464-23-7"
+   },
+   {
+    "index": 2,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "g_1/g_2",
+     "Phase",
+     "Mass Fraction w_1",
+     "m_1 [mol kg-1]",
+     "Solid Phase(s)^a"
+    ],
+    "rows": [
+     [
+      "0",
+      "8.4",
+      "Liquid",
+      "7.8",
+      "0.42",
+      "A"
+     ],
+     [
+      "10",
+      "11.1",
+      "Liquid",
+      "9.99",
+      "0.548",
+      "A"
+     ],
+     [
+      "20",
+      "14.4",
+      "Liquid",
+      "12.6",
+      "0.711",
+      "A"
+     ],
+     [
+      "30",
+      "18.6",
+      "Liquid",
+      "15.7",
+      "0.919",
+      "A"
+     ],
+     [
+      "40",
+      "25.4",
+      "Liquid",
+      "20.3",
+      "1.26",
+      "A"
+     ],
+     [
+      "50",
+      "38.5",
+      "Liquid",
+      "27.8",
+      "1.90",
+      "A"
+     ],
+     [
+      "60",
+      "59.5",
+      "Liquid",
+      "37.3",
+      "2.94",
+      "A"
+     ],
+     [
+      "66",
+      "75.5",
+      "Liquid",
+      "43.0",
+      "3.73",
+      "A"
+     ],
+     [
+      "70",
+      "77.0",
+      "Liquid",
+      "43.5",
+      "3.80",
+      "B"
+     ],
+     [
+      "80",
+      "80.5",
+      "Liquid",
+      "44.6",
+      "3.98",
+      "B"
+     ],
+     [
+      "90",
+      "85.2",
+      "Liquid",
+      "46.0",
+      "4.21",
+      "B"
+     ],
+     [
+      "100",
+      "94.6",
+      "Liquid",
+      "48.6",
+      "4.67",
+      "B"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Cadmium formate with Water"
+ },
+ {
+  "sheet_id": "73_163",
+  "system_id": "73020",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_163",
+  "system": "Cadmium formate with Yttrium formate and Water",
+  "components": "(1) Cadmium formate; Cd(CHO2)2; [4464-23-7]\n(2) Water; H2O; [7732-18-5]\n(3) Yttrium formate; Y(CHO2)3; [15331-71-2]",
+  "original_measurements": "Portnova, S.M.; Balakieva, I.V.; Krassilov, Yu. I., Zh. Neorg. Khim. 35, 230-5 (1990).",
+  "variables": "Concentration = Composition at 25 ºC",
+  "prepared_by": "Chr. Balarew and St. Trendafilova",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  The molality values were calculated by the compilers.\n^b  The solid phases are: A = Cd(CHO_2)_2•2H_2O; B = Y(CHO_2)_3•2H_2O.",
+  "method": "The isothermal method was used. One month was allowed for equilibration. The Y3+ and Cd^2+ contents were determined complexometrically using diethyldithiarbamate.^1 The composition of the solid phases was determined by the Schreinemakers method.",
+  "source_purity": "The formates were obtained by neutralizing dilute formic acid with p.a. grade Y(OH)_3  and basic cadmium carbonate.",
+  "estimated_error": "Temperature: Not given.",
+  "references": "^1J. S. Fritz, R. T. Oliver, and D. L. Pietryc, Anal. Chem. 30, 1111 (1958).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Cadmium formate",
+    "formula": "Cd(CHO2)2",
+    "cas": "4464-23-7"
+   },
+   {
+    "index": 2,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 3,
+    "name": "Yttrium formate",
+    "formula": "Y(CHO2)3",
+    "cas": "15331-71-2"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical_1",
+     "Phase",
+     "Mass Fraction w_1",
+     "m_1 [mol kg-1]^a",
+     "Chemical_2",
+     "Mass Fraction w_2",
+     "m_2 [mol kg-1]^a",
+     "Solid Phase(s)^b"
+    ],
+    "rows": [
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "14.10",
+      "0.811",
+      "Y(CHO2)3",
+      "---",
+      "---",
+      "A"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "12.70",
+      "0.796",
+      "Y(CHO2)3",
+      "8.51",
+      "0.482",
+      "A"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "13.60",
+      "0.950",
+      "Y(CHO2)3",
+      "15.70",
+      "0.991",
+      "A"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "13.78",
+      "1.028",
+      "Y(CHO2)3",
+      "20.03",
+      "1.351",
+      "A+B"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "12.31",
+      "0.905",
+      "Y(CHO2)3",
+      "20.53",
+      "1.365",
+      "B"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "9.25",
+      "0.640",
+      "Y(CHO2)3",
+      "19.36",
+      "1.211",
+      "B"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "6.23",
+      "0.414",
+      "Y(CHO2)3",
+      "19.43",
+      "1.167",
+      "B"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "5.83",
+      "0.386",
+      "Y(CHO2)3",
+      "19.65",
+      "1.177",
+      "B"
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "4.15",
+      "0.268",
+      "Y(CHO2)3",
+      "19.43",
+      "1.135",
+      ""
+     ],
+     [
+      "Cd(CHO2)2",
+      "Liquid",
+      "---",
+      "---",
+      "Y(CHO2)3",
+      "21.41",
+      "1.216",
+      "B"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Cadmium formate with Yttrium formate and Water"
+ },
+ {
+  "sheet_id": "73_183",
+  "system_id": "73022",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_183",
+  "system": "Calcium formate with Boric acid and Water",
+  "components": "(1) Boric acid; H3BO3; [10043-35-3]\n(2) Calcium formate; Ca(CHO2)2; [544-17-2]\n(3) Water; H2O; [7732-18-5]",
+  "original_measurements": "Eremeeva, I.L.; Kalacheva, V.G.; Schwartz, E. M., Zh. Neorg. Khim. 22, 861-2 (1977).",
+  "variables": "Concentration = Composition at 10 ºC",
+  "prepared_by": "Chr. Balarew and St. Trendafilova",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  The molality values were calculated by the compilers.\n^b  The solid phases are: A = Ca(CHO_2)_2; B = H_3BO_3.",
+  "method": "The isothermal method was used.  Equilibrium was established when a constant pH, diffraction coefficient and concentration of H_3BO_3 were reached.  The Ca^2+ and B^3+ contents were determined as CaO and B_2O_3. The composition of the solid phases was determined by the Schreinemakers method.",
+  "source_purity": "Ca(CHO2)_2  was prepared by reaction of CaCO_3  with CH2O2. The product was recrystallized twice. Suprapure grade boric acid was used.",
+  "estimated_error": "Temperature: ± 0.02 °C.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Boric acid",
+    "formula": "H3BO3",
+    "cas": "10043-35-3"
+   },
+   {
+    "index": 2,
+    "name": "Calcium formate",
+    "formula": "Ca(CHO2)2",
+    "cas": "544-17-2"
+   },
+   {
+    "index": 3,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical_1",
+     "Phase",
+     "Mass Fraction w_1",
+     "m_1 [mol kg-1]^a",
+     "Chemical_2",
+     "Mass Fraction w_2",
+     "m_2 [mol kg-1]^a",
+     "Solid Phase(s)^b"
+    ],
+    "rows": [
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "14.06",
+      "1.26",
+      "H3BO3",
+      "0.0",
+      "0.0",
+      "A"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "13.91",
+      "1.28",
+      "H3BO3",
+      "2.44",
+      "0.47",
+      "A"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "13.84",
+      "1.28",
+      "H3BO3",
+      "3.01",
+      "0.59",
+      "A"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "13.87",
+      "1.29",
+      "H3BO3",
+      "3.27",
+      "0.64",
+      "A"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "13.87",
+      "1.28",
+      "H3BO3",
+      "3.16",
+      "0.62",
+      "A"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "13.74",
+      "1.28",
+      "H3BO3",
+      "3.89",
+      "0.76",
+      "A"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "13.72",
+      "1.29",
+      "H3BO3",
+      "4.30",
+      "0.85",
+      "A"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "13.70",
+      "1.29",
+      "H3BO3",
+      "4.79",
+      "0.95",
+      "A+B"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "10.44",
+      "0.94",
+      "H3BO3",
+      "4.50",
+      "0.86",
+      "B"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "6.02",
+      "0.52",
+      "H3BO3",
+      "4.30",
+      "0.78",
+      "B"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "4.21",
+      "0.35",
+      "H3BO3",
+      "3.99",
+      "0.70",
+      "B"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "3.22",
+      "0.27",
+      "H3BO3",
+      "3.81",
+      "0.66",
+      "B"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "1.08",
+      "0.09",
+      "H3BO3",
+      "3.67",
+      "0.62",
+      "B"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "0.0",
+      "0.0",
+      "H3BO3",
+      "3.52",
+      "0.52",
+      "B"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Calcium formate with Boric acid and Water"
+ },
+ {
+  "sheet_id": "73_184",
+  "system_id": "73022",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_184",
+  "system": "Calcium formate with Boric acid and Water",
+  "components": "(1) Boric acid; H3BO3; [10043-35-3]\n(2) Calcium formate; Ca(CHO2)2; [544-17-2]\n(3) Water; H2O; [7732-18-5]",
+  "original_measurements": "Eremeeva, I.L.; Kalacheva, V.G.; Schwartz, E. M., Zh. Neorg. Khim. 22, 861-2 (1977).",
+  "variables": "Concentration = Composition at 25 ºC",
+  "prepared_by": "St. Tepavicharova and St. Trendafilova",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  The molality values were calculated by the compilers.\n^b  The solid phases are: A = Ca(CHO_2)_2; B = H_3BO_3.",
+  "method": "The isothermal method was used. Equilibrium was established when a constant pH, diffraction coefficient and concentration of H_3BO_3 were reached. The Ca^2+ and B^3+ contents were \rdetermined as CaO and B_2O_3. The composition of the solid phases was determined by the Schreinemakers method.",
+  "source_purity": "Ca(CHO2)_2 was prepared by reaction of CaCO_3 with CH2O2. The product was recrystallized twice. Suprapure grade boric acid was used.",
+  "estimated_error": "Temperature: ± 0.02 °C.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Boric acid",
+    "formula": "H3BO3",
+    "cas": "10043-35-3"
+   },
+   {
+    "index": 2,
+    "name": "Calcium formate",
+    "formula": "Ca(CHO2)2",
+    "cas": "544-17-2"
+   },
+   {
+    "index": 3,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical_1",
+     "Phase",
+     "Mass Fraction w_1",
+     "m_1 [mol kg-1]^a",
+     "Chemical_2",
+     "Mass Fraction w_2",
+     "m_2 [mol kg-1]^a",
+     "Solid Phase(s)^b"
+    ],
+    "rows": [
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "14.43",
+      "1.30",
+      "H3BO3",
+      "0.0",
+      "0.0",
+      "A"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "14.30",
+      "1.30",
+      "H3BO3",
+      "1.46",
+      "0.28",
+      "A"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "13.98",
+      "1.29",
+      "H3BO3",
+      "2.60",
+      "0.50",
+      "A"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "13.80",
+      "1.28",
+      "H3BO3",
+      "3.09",
+      "0.60",
+      "A"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "13.70",
+      "1.29",
+      "H3BO3",
+      "4.46",
+      "0.88",
+      "A"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "13.90",
+      "1.31",
+      "H3BO3",
+      "4.40",
+      "0.87",
+      "A"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "13.94",
+      "1.32",
+      "H3BO3",
+      "4.61",
+      "0.92",
+      "A"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "13.80",
+      "1.31",
+      "H3BO3",
+      "5.25",
+      "1.05",
+      "“"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "13.5",
+      "1.28",
+      "H3BO3",
+      "5.75",
+      "1.15",
+      "A+B"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "12.80",
+      "1.21",
+      "H3BO3",
+      "5.65",
+      "1.12",
+      "B"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "11.0",
+      "1.01",
+      "H3BO3",
+      "5.64",
+      "1.00",
+      "B"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "10.0",
+      "0.91",
+      "H3BO3",
+      "5.59",
+      "1.07",
+      "B"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "7.22",
+      "0.64",
+      "H3BO3",
+      "5.58",
+      "1.03",
+      "B"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "6.40",
+      "0.56",
+      "H3BO3",
+      "5.53",
+      "1.02",
+      "B"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "3.70",
+      "0.31",
+      "H3BO3",
+      "5.48",
+      "0.98",
+      "B"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "1.60",
+      "0.13",
+      "H3BO3",
+      "5.52",
+      "0.96",
+      "B"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "0.0",
+      "0.0",
+      "H3BO3",
+      "5.51",
+      "0.94",
+      "B"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Calcium formate with Boric acid and Water"
+ },
+ {
+  "sheet_id": "73_167",
+  "system_id": "73023",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_167",
+  "system": "Calcium formate with Calcium chloride and Water",
+  "components": "(1) Calcium chloride; CaCl2; [10043-52-4]\n(2) Calcium formate; Ca(CHO2)2; [544-17-2]\n(3) Water; H2O; [7732-18-5]",
+  "original_measurements": "Stoilova, D., Bulg. Chem. Commun. 25, 249-57 (1992).",
+  "variables": "Concentration = Composition at 25 ºC",
+  "prepared_by": "Chr. Balarew and St. Trendafilova",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  The molality values were calculated by the compilers.\n^b  The solid phases are: A = Ca(CHO_2)_2; B = CaCl_2•6H_2O.",
+  "method": "The method used was the isothermal decrease of supersaturation.  Equilibrium was reached in 10-15 h. The calcium content was determined complexometrically. The chloride ion content  was determined volumetrically by the Mohr method. The calcium formate concentration was estimated by difference. The composition of the ideally suction-dried solid phase was determined by the Schreinemakers method. X-ray diffraction and DT analysis were also used.",
+  "source_purity": "The calcium chloride was p.a. grade (Merck). The calcium formate was prepared by the reaction of dilute formic acid with calcium oxide, carbonate or hydroxide, all of which were p.a. grade (Merck or Fluka).",
+  "estimated_error": "Solubility: No information is given.\nTemperature: No information is given.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Calcium chloride",
+    "formula": "CaCl2",
+    "cas": "10043-52-4"
+   },
+   {
+    "index": 2,
+    "name": "Calcium formate",
+    "formula": "Ca(CHO2)2",
+    "cas": "544-17-2"
+   },
+   {
+    "index": 3,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical_1",
+     "Phase",
+     "Mass Fraction w_1",
+     "m_1 [mol kg-1]^a",
+     "Chemical_2",
+     "Mass Fraction w_2",
+     "m_2 [mol kg-1]^a",
+     "Solid Phase(s)^b"
+    ],
+    "rows": [
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "14.62",
+      "1.316",
+      "CaCl2",
+      "----",
+      "----",
+      "A"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "11.51",
+      "1.051",
+      "CaCl2",
+      "4.31",
+      "0.461",
+      "A"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "8.94",
+      "0.855",
+      "CaCl2",
+      "10.68",
+      "1.197",
+      "A"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "6.99",
+      "0.697",
+      "CaCl2",
+      "15.90",
+      "1.858",
+      "A"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "4.65",
+      "0.489",
+      "CaCl2",
+      "22.27",
+      "2.746",
+      "A"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "4.03",
+      "0.452",
+      "CaCl2",
+      "27.42",
+      "3.604",
+      "A"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "3.74",
+      "0.466",
+      "CaCl2",
+      "34.55",
+      "5.044",
+      "A"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "4.45",
+      "0.597",
+      "CaCl2",
+      "38.23",
+      "6.009",
+      "eutonic"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "2.75",
+      "0.378",
+      "CaCl2",
+      "41.35",
+      "6.665",
+      "B"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "----",
+      "----",
+      "CaCl2",
+      "45.30",
+      "7.462",
+      "B"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Calcium formate with Calcium chloride and Water"
+ },
+ {
+  "sheet_id": "73_127",
+  "system_id": "73024",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_127",
+  "system": "Calcium formate with Copper(II) formate and Water",
+  "components": "(1) Calcium formate; Ca(CHO2)2; [544-17-2]\n(2) Copper(II) formate; Cu(CHO2)2; [544-19-4]\n(3) Water; H2O; [7732-18-5]",
+  "original_measurements": "Portnova, S.M.; Palitskaya, T.A., Zh. Neorg. Khim. 37, 2126-31 (1992).",
+  "variables": "Concentration = Composition at 25 ºC",
+  "prepared_by": "Chr. Balarew and St. Trendafilova",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  The molality values were calculated by the compilers.\n^b  The solid phases are: A = Ca(CHO_2)_2; B = Ca_2Cu(CHO_2)_6; C = Cu(CHO_2)_2•2H_2O; D = Cu(CHO_2)_2•4H_2O.",
+  "method": "The isothermal solubility method was used. Four weeks were allowed for equilibration. The copper content was determined iodometrically. The calcium ion content was determined complexometrically^1 using diethyldithiocarbamate. The composition of the solid phase was determined by the Schreinemakers' method. X-ray diffraction, DT and TG, DTG, T analysis were also used.",
+  "source_purity": "The copper formate was prepared by the reaction of p.a. grade. CuCO_3 with p.a. grade formic acid. The calcium formate was prepared by the reaction of pure Ca(OH) _2 with p.a. grade formic acid.",
+  "estimated_error": "Solubility: No information is given.\nTemperature: No information is given.",
+  "references": "^1S. M. Portnova, I. V. Balakaeva, and Yu. I. Krassilov, Zh. Neorg. Khim. 35, 230 (1990).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Calcium formate",
+    "formula": "Ca(CHO2)2",
+    "cas": "544-17-2"
+   },
+   {
+    "index": 2,
+    "name": "Copper(II) formate",
+    "formula": "Cu(CHO2)2",
+    "cas": "544-19-4"
+   },
+   {
+    "index": 3,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical_1",
+     "Phase",
+     "Mass Fraction w_1",
+     "m_1 [mol kg-1]^a",
+     "Chemical_2",
+     "Mass Fraction w_2",
+     "m_2 [mol kg-1]^a",
+     "Solid Phase(s)^b"
+    ],
+    "rows": [
+     [
+      "Cu(CHO2)2",
+      "Liquid",
+      "---",
+      "---",
+      "Ca(CHO2)2",
+      "14.43",
+      "1.296",
+      "A"
+     ],
+     [
+      "Cu(CHO2)2",
+      "Liquid",
+      "0.69",
+      "0.052",
+      "Ca(CHO2)2",
+      "13.69",
+      "1.229",
+      "A"
+     ],
+     [
+      "Cu(CHO2)2",
+      "Liquid",
+      "2.31",
+      "0.180",
+      "Ca(CHO2)2",
+      "14.09",
+      "1.295",
+      "A"
+     ],
+     [
+      "Cu(CHO2)2",
+      "Liquid",
+      "4.62",
+      "0.371",
+      "Ca(CHO2)2",
+      "14.20",
+      "1.344",
+      "A"
+     ],
+     [
+      "Cu(CHO2)2",
+      "Liquid",
+      "4.97",
+      "0.402",
+      "Ca(CHO2)2",
+      "14.48",
+      "1.382",
+      "A"
+     ],
+     [
+      "Cu(CHO2)2",
+      "Liquid",
+      "5.08",
+      "0.411",
+      "Ca(CHO2)2",
+      "14.40",
+      "1.374",
+      "A"
+     ],
+     [
+      "Cu(CHO2)2",
+      "Liquid",
+      "5.18",
+      "0.420",
+      "Ca(CHO2)2",
+      "14.56",
+      "1.394",
+      "A+B"
+     ],
+     [
+      "Cu(CHO2)2",
+      "Liquid",
+      "5.62",
+      "0.457",
+      "Ca(CHO2)2",
+      "14.25",
+      "1.367",
+      "B"
+     ],
+     [
+      "Cu(CHO2)2",
+      "Liquid",
+      "6.11",
+      "0.496",
+      "Ca(CHO2)2",
+      "13.72",
+      "1.315",
+      "B"
+     ],
+     [
+      "Cu(CHO2)2",
+      "Liquid",
+      "9.47",
+      "0.791",
+      "Ca(CHO2)2",
+      "12.53",
+      "1.235",
+      "B"
+     ],
+     [
+      "Cu(CHO2)2",
+      "Liquid",
+      "10.45",
+      "0.881",
+      "Ca(CHO2)2",
+      "12.30",
+      "1.224",
+      "B"
+     ],
+     [
+      "Cu(CHO2)2",
+      "Liquid",
+      "10.93",
+      "0.925",
+      "Ca(CHO2)2",
+      "12.12",
+      "1.210",
+      "B"
+     ],
+     [
+      "Cu(CHO2)2",
+      "Liquid",
+      "10.96",
+      "0.928",
+      "Ca(CHO2)2",
+      "12.14",
+      "1.213",
+      "B+C"
+     ],
+     [
+      "Cu(CHO2)2",
+      "Liquid",
+      "10.91",
+      "0.922",
+      "Ca(CHO2)2",
+      "12.03",
+      "1.200",
+      "C"
+     ],
+     [
+      "Cu(CHO2)2",
+      "Liquid",
+      "10.80",
+      "0.907",
+      "Ca(CHO2)2",
+      "11.64",
+      "1.153",
+      "C"
+     ],
+     [
+      "Cu(CHO2)2",
+      "Liquid",
+      "10.38",
+      "0.850",
+      "Ca(CHO2)2",
+      "10.15",
+      "0.982",
+      "C"
+     ],
+     [
+      "Cu(CHO2)2",
+      "Liquid",
+      "9.96",
+      "0.805",
+      "Ca(CHO2)2",
+      "9.51",
+      "0.908",
+      "C"
+     ],
+     [
+      "Cu(CHO2)2",
+      "Liquid",
+      "9.25",
+      "0.737",
+      "Ca(CHO2)2",
+      "9.01",
+      "0.847",
+      "C"
+     ],
+     [
+      "Cu(CHO2)2",
+      "Liquid",
+      "9.47",
+      "0.742",
+      "Ca(CHO2)2",
+      "7.43",
+      "0.687",
+      "C+D"
+     ],
+     [
+      "Cu(CHO2)2",
+      "Liquid",
+      "8.64",
+      "0.657",
+      "Ca(CHO2)2",
+      "5.79",
+      "0.520",
+      "D"
+     ],
+     [
+      "Cu(CHO2)2",
+      "Liquid",
+      "8.56",
+      "0.647",
+      "Ca(CHO2)2",
+      "5.34",
+      "0.477",
+      "D"
+     ],
+     [
+      "Cu(CHO2)2",
+      "Liquid",
+      "8.46",
+      "0.629",
+      "Ca(CHO2)2",
+      "4.00",
+      "0.351",
+      "D"
+     ],
+     [
+      "Cu(CHO2)2",
+      "Liquid",
+      "8.34",
+      "0.615",
+      "Ca(CHO2)2",
+      "3.34",
+      "0.291",
+      "D"
+     ],
+     [
+      "Cu(CHO2)2",
+      "Liquid",
+      "8.28",
+      "0.608",
+      "Ca(CHO2)2",
+      "3.02",
+      "0.262",
+      "D"
+     ],
+     [
+      "Cu(CHO2)2",
+      "Liquid",
+      "8.24",
+      "0.599",
+      "Ca(CHO2)2",
+      "2.24",
+      "0.192",
+      "D"
+     ],
+     [
+      "Cu(CHO2)2",
+      "Liquid",
+      "8.82",
+      "0.636",
+      "Ca(CHO2)2",
+      "0.95",
+      "0.081",
+      "D"
+     ],
+     [
+      "Cu(CHO2)2",
+      "Liquid",
+      "9.05",
+      "0.654",
+      "Ca(CHO2)2",
+      "0.83",
+      "0.071",
+      "D"
+     ],
+     [
+      "Cu(CHO2)2",
+      "Liquid",
+      "9.46",
+      "0.680",
+      "Ca(CHO2)2",
+      "---",
+      "---",
+      "D"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Calcium formate with Copper(II) formate and Water"
+ },
+ {
+  "sheet_id": "73_128",
+  "system_id": "73024",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_128",
+  "system": "Calcium formate with Copper(II) formate and Water",
+  "components": "(1) Calcium formate; Ca(CHO2)2; [544-17-2]\n(2) Lead formate; Pb(CHO2)2; [811-54-1]\n(3) Water; H2O; [7732-18-5]",
+  "original_measurements": "Portnova, S.M.; Palitskaya, T.A., Zh. Neorg. Khim. 34, 204-9 (1989).",
+  "variables": "Concentration = Composition at 25 ºC",
+  "prepared_by": "Chr. Balarew and St. Trendafilova",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  The molality values were calculated by the compilers.\n^b  The solid phases are: A = Pb(CHO_2)_2; B = Ca(CHO_2)_2.",
+  "method": "The isothermal method was used. Four weeks were allowed for equilibration. The Ca^2+ content was determined complexometrically in a basic medium using Methylthymolblue as indicator. The Pb^2+ content was determined trilonometrically. The composition of the solid phases was determined by the Schreinemakers' method, IR spectroscopy, DTA, and X-ray diffraction.",
+  "source_purity": "The formates were obtained by neutralizing formic acid with p. grade calcium hydroxide and p. grade PbCO_3.",
+  "estimated_error": "Temperature: No information is given.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Calcium formate",
+    "formula": "Ca(CHO2)2",
+    "cas": "544-17-2"
+   },
+   {
+    "index": 2,
+    "name": "Lead formate",
+    "formula": "Pb(CHO2)2",
+    "cas": "811-54-1"
+   },
+   {
+    "index": 3,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical_1",
+     "Phase",
+     "Mass Fraction w_1",
+     "m_1 [mol kg-1]^a",
+     "Chemical_2",
+     "Mass Fraction w_2",
+     "m_2 [mol kg-1]^a",
+     "Solid Phase(s)^b"
+    ],
+    "rows": [
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "0.0",
+      "0.0",
+      "Pb(CHO2)2",
+      "2.00",
+      "0.07",
+      "A"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "2.32",
+      "0.18",
+      "Pb(CHO2)2",
+      "0.79",
+      "0.03",
+      "A"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "3.99",
+      "0.32",
+      "Pb(CHO2)2",
+      "0.74",
+      "0.03",
+      "A"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "8.01",
+      "0.67",
+      "Pb(CHO2)2",
+      "0.79",
+      "0.03",
+      "A"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "13.70",
+      "1.24",
+      "Pb(CHO2)2",
+      "1.30",
+      "0.05",
+      "A + B"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "14.07",
+      "1.28",
+      "Pb(CHO2)2",
+      "1.42",
+      "0.06",
+      "B"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "14.10",
+      "1.28",
+      "Pb(CHO2)2",
+      "1.22",
+      "0.05",
+      "B"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "14.56",
+      "1.33",
+      "Pb(CHO2)2",
+      "1.03",
+      "0.04",
+      "B"
+     ],
+     [
+      "Ca(CHO2)2",
+      "Liquid",
+      "14.43",
+      "1.30",
+      "Pb(CHO2)2",
+      "0.0",
+      "0.0",
+      "B"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Calcium formate with Copper(II) formate and Water"
+ },
+ {
+  "sheet_id": "73_224",
+  "system_id": "73025",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_224",
+  "system": "Calcium formate with Formic acid",
+  "components": "(1) Calcium formate; Ca(CHO2)2; [544-17-2]\n(2) Formic acid; CH2O2; [64-18-6]",
+  "original_measurements": "Kendall, J.; Adler, H., J. Am. Chem. Soc. 43, 1470 (1921).",
+  "variables": "Temperature = 6.6 ºC to128.6 ºC",
+  "prepared_by": "T. A. Ageyeva",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The only information given is that the solubility values were measured by the freezing point method.",
+  "source_purity": "The calcium salt was prepared by  dissolving a pure sample of the carbonate in 90% formic acid.  The salt obtained was recrystallized several times from water and dried to constant weight at 413 K; purity is not specified.  The formic acid was prepared by treating a c.p. product with B_2O_3.  It was then distilled in vacuo  until a product melting above 281.6 K was obtained.",
+  "estimated_error": "Solubility: Nothing is specified.\nTemperature: Nothing is specified.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Calcium formate",
+    "formula": "Ca(CHO2)2",
+    "cas": "544-17-2"
+   },
+   {
+    "index": 2,
+    "name": "Formic acid",
+    "formula": "CH2O2",
+    "cas": "64-18-6"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^0 * Mole Fraction_1",
+     "Solid Phase(s)"
+    ],
+    "rows": [
+     [
+      "8.4",
+      "0.0",
+      "CH2O2"
+     ],
+     [
+      "8.1",
+      "0.16",
+      "CH2O2"
+     ],
+     [
+      "7.7",
+      "0.48",
+      "CH2O2"
+     ],
+     [
+      "7.4",
+      "0.71",
+      "CH2O2"
+     ],
+     [
+      "7.2",
+      "0.93",
+      "CH2O2"
+     ],
+     [
+      "6.9",
+      "1.27",
+      "CH2O2"
+     ],
+     [
+      "6.6",
+      "1.53",
+      "CH2O2"
+     ],
+     [
+      "128.6",
+      "0.39",
+      "Ca(CHO2)2"
+     ],
+     [
+      "100.0",
+      "0.57",
+      "Ca(CHO2)2"
+     ],
+     [
+      "79.0",
+      "0.83",
+      "Ca(CHO2)2"
+     ],
+     [
+      "61.0",
+      "1.10",
+      "Ca(CHO2)2"
+     ],
+     [
+      "49.7",
+      "1.26",
+      "Ca(CHO2)2"
+     ],
+     [
+      "45.5",
+      "1.35",
+      "Ca(CHO2)2"
+     ],
+     [
+      "35.0",
+      "1.54",
+      "Ca(CHO2)2"
+     ],
+     [
+      "30.0",
+      "1.61",
+      "Ca(CHO2)2"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Calcium formate with Formic acid"
+ },
+ {
+  "sheet_id": "73_228",
+  "system_id": "73026",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_228",
+  "system": "Calcium formate with Formic acid and Water",
+  "components": "(1) Calcium formate; Ca(CHO2)2; [544-17-2]\n(2) Formic acid; CH2O2; [64-18-6]\n(3) Water; H2O; [7732-18-5]",
+  "original_measurements": "Dunn, L.J.; Philip, J.C., J. Chem. Soc. 658 (1934).",
+  "variables": "Concentration = Composition at 25 ºC",
+  "prepared_by": "T. A. Ageyeva",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  These values were calculated by the compiler.",
+  "method": "The isothermal method was used.  The calcium formate content was determined gravimetrically as calcium formate.  The composition of the solid phases was determined by the Schreinemakers method.",
+  "source_purity": "The salt was prepared from pure formic acid and calcium carbonate, purity not specified. Commercial formic acid was used.",
+  "estimated_error": "Temperature: The temperature was controlled to within ± 0.01 °C. Nothing is said about the solubility values.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Calcium formate",
+    "formula": "Ca(CHO2)2",
+    "cas": "544-17-2"
+   },
+   {
+    "index": 2,
+    "name": "Formic acid",
+    "formula": "CH2O2",
+    "cas": "64-18-6"
+   },
+   {
+    "index": 3,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical_1",
+     "Mass Fraction w_1",
+     "10^0 * Mole Fraction_1^a",
+     "Chemical_2",
+     "Mass Fraction w_2",
+     "Mole Fraction_2^a",
+     "Chemical_3",
+     "Mass Fraction w_3^a",
+     "Mole Fraction_3^a",
+     "Solid Phase(s)"
+    ],
+    "rows": [
+     [
+      "CH2O2",
+      "0.0",
+      "0.0",
+      "Ca(CHO2)2",
+      "14.43",
+      "2.28",
+      "H2O",
+      "85.57",
+      "97.72",
+      "Ca(CHO2)2"
+     ],
+     [
+      "CH2O2",
+      "18.48",
+      "9.24",
+      "Ca(CHO2)2",
+      "12.11",
+      "2.14",
+      "H2O",
+      "69.41",
+      "88.62",
+      "Ca(CHO2)2"
+     ],
+     [
+      "CH2O2",
+      "27.41",
+      "14.56",
+      "Ca(CHO2)2",
+      "11.16",
+      "2.10",
+      "H2O",
+      "61.43",
+      "83.34",
+      "Ca(CHO2)2"
+     ],
+     [
+      "CH2O2",
+      "36.31",
+      "20.57",
+      "Ca(CHO2)2",
+      "10.20",
+      "2.04",
+      "H2O",
+      "53.49",
+      "77.39",
+      "Ca(CHO2)2"
+     ],
+     [
+      "CH2O2",
+      "53.30",
+      "34.60",
+      "Ca(CHO2)2",
+      "8.42",
+      "1.93",
+      "H2O",
+      "38.28",
+      "63.47",
+      "Ca(CHO2)2"
+     ],
+     [
+      "CH2O2",
+      "61.60",
+      "43.09",
+      "Ca(CHO2)2",
+      "7.60",
+      "1.88",
+      "H2O",
+      "30.80",
+      "55.03",
+      "Ca(CHO2)2"
+     ],
+     [
+      "CH2O2",
+      "69.90",
+      "53.08",
+      "Ca(CHO2)2",
+      "6.86",
+      "1.84",
+      "H2O",
+      "23.24",
+      "45.08",
+      "Ca(CHO2)2"
+     ],
+     [
+      "CH2O2",
+      "85.40",
+      "77.12",
+      "Ca(CHO2)2",
+      "5.43",
+      "1.74",
+      "H2O",
+      "9.17",
+      "21.14",
+      "Ca(CHO2)2"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Calcium formate with Formic acid and Water"
+ },
+ {
+  "sheet_id": "73_129",
+  "system_id": "73027",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_129",
+  "system": "Calcium formate with Lead formate and Water",
+  "components": "(1) Nickel formate; Ni(CHO2)2; [3349-06-2]\n(2) Strontium formate; Sr(CHO2)2; [592-89-2]\n(3) Water; H2O; [7732-18-5]",
+  "original_measurements": "Fakeev, A.A.; Akhmatova, Zh. T.; Iskhakova, L.D.; Konkova, O.B.; Zhadanov, B.V., Zh. Neorg. Khim. 41,702-704 (1996).",
+  "variables": "Concentration = Composition at 25 ºC",
+  "prepared_by": "Chr. Balarew and St. Trendafilova",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  The molality values were calculated by the compilers.\n^b  The solid phases are: A = Sr(CHO_2)_2•2H_2O; B = Ni(CHO_2)_2.•2H_2O.",
+  "method": "The system was studied by the isothermal solubility method. Equilibrium was reached in about  48 h. Ni^2+ was determined complexometrically at pH 5 using \"tetra\" as indicator. ^1  Sr^2+ was also determined complexometrically at pH 10.5-11.0 using Calzein and Thymolblue as indicator. The solid phase composition was determined by the graphic method of  Schreinemakers', x-ray diffraction  analysis and IR spectroscopy.",
+  "source_purity": "The formates of strontium and nickel were prepared by dissolving strontium carbonate and basic nickel carbonate, respectively, in formic acid. The reagents used were \"p.a.'' grade.",
+  "estimated_error": "Solubility: Not given.\nTemperature: Not given.",
+  "references": "^1H. B. Tonassen and C. Chamblin. Anal. Chem. 30, 10, 1660 (1958).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Nickel formate",
+    "formula": "Ni(CHO2)2",
+    "cas": "3349-06-2"
+   },
+   {
+    "index": 2,
+    "name": "Strontium formate",
+    "formula": "Sr(CHO2)2",
+    "cas": "592-89-2"
+   },
+   {
+    "index": 3,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical_1",
+     "Phase",
+     "Mass Fraction w_1",
+     "m_1 [mol kg-1]^a",
+     "Chemical_2",
+     "Mass Fraction w_2",
+     "m_2 [mol kg-1]^a",
+     "Solid Phase(s)^b"
+    ],
+    "rows": [
+     [
+      "Sr(CHO2)2",
+      "Liquid",
+      "11.8",
+      "0.753",
+      "Ni(CHO2)2",
+      "0.00",
+      "0.00",
+      "A"
+     ],
+     [
+      "Sr(CHO2)2",
+      "Liquid",
+      "11.6",
+      "0.740",
+      "Ni(CHO2)2",
+      "0.20",
+      "0.015",
+      "A"
+     ],
+     [
+      "Sr(CHO2)2",
+      "Liquid",
+      "11.6",
+      "0.742",
+      "Ni(CHO2)2",
+      "0.50",
+      "0.038",
+      "A+B"
+     ],
+     [
+      "Sr(CHO2)2",
+      "Liquid",
+      "11.6",
+      "0.742",
+      "Ni(CHO2)2",
+      "0.50",
+      "0.038",
+      "A+B"
+     ],
+     [
+      "Sr(CHO2)2",
+      "Liquid",
+      "10.7",
+      "0.679",
+      "Ni(CHO2)2",
+      "0.60",
+      "0.045",
+      "B"
+     ],
+     [
+      "Sr(CHO2)2",
+      "Liquid",
+      "9.0",
+      "0.561",
+      "Ni(CHO2)2",
+      "0.700",
+      "0.052",
+      "B"
+     ],
+     [
+      "Sr(CHO2)2",
+      "Liquid",
+      "7.1",
+      "0.433",
+      "Ni(CHO2)2",
+      "0.700",
+      "0.051",
+      "B"
+     ],
+     [
+      "Sr(CHO2)2",
+      "Liquid",
+      "5.4",
+      "0.324",
+      "Ni(CHO2)2",
+      "0.90",
+      "0.064",
+      "B"
+     ],
+     [
+      "Sr(CHO2)2",
+      "Liquid",
+      "4.0",
+      "0.237",
+      "Ni(CHO2)2",
+      "1.00",
+      "0.070",
+      "B"
+     ],
+     [
+      "Sr(CHO2)2",
+      "Liquid",
+      "2.4",
+      "0.139",
+      "Ni(CHO2)2",
+      "1.10",
+      "0.076",
+      "B"
+     ],
+     [
+      "Sr(CHO2)2",
+      "Liquid",
+      "1.2",
+      "0.070",
+      "Ni(CHO2)2",
+      "1.40",
+      "0.097",
+      "B"
+     ],
+     [
+      "Sr(CHO2)2",
+      "Liquid",
+      "0.0",
+      "0.000",
+      "Ni(CHO2)2",
+      "1.90",
+      "0.130",
+      "B"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Calcium formate with Lead formate and Water"
+ },
+ {
+  "sheet_id": "73_227",
+  "system_id": "73028",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_227",
+  "system": "Calcium formate with Methanol",
+  "components": "(1) Calcium formate; Ca(CHO2)2; [544-17-2]\n(2) Methanol; CH4O; [67-56-1]",
+  "original_measurements": "Henstock, H., J. Chem. Soc. 1340 (1934).",
+  "variables": "",
+  "prepared_by": "T. A. Ageyeva",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  These values were calculated by the compiler.",
+  "method": "The isothermal solubility method was used to study the systems.  The apparatus used for the solubility measurements at 288.2 K was similar to that described earlier.^1  At the boiling point, the solutions were prepared in a wide flask under reflux.  To determine the quantity of solutes, portions of the saturated solutions were weighed at 288.2 K in a graduated pipette.^2  A filter thimble was used to separate undissolved salt.^3",
+  "source_purity": "The salt was either purchased as the purest obtainable or prepared from pure materials. Methanol was purified first by removing acetone.^4   Aldehyde was abstracted  by treatment with iodine.^5   Distillation with concentrated sulfuric acid removed basic substances as well as most of the water.^6  Acidic substances were removed by distillation from caustic potash. The alcohol was finally distilled over metallic sodium; b.p. = 339.2 K at 758 mm.",
+  "estimated_error": "Temperature: The only information given is that the temperature varied within ± 0.1 °C.",
+  "references": "^1J. N. Brönsted and A. Petersen, J. Am. Chem. S. 43, 2265 (1921).\n^2F. D. Chattaway and W. J. Lambert, J. Chem. S. 107, 1766 (1915).\n^3T. J. Ward, Analyst  44, 137 (1919).\n^4R. C. Menzies, J. Chem. S. 121, 2787 (1922).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Calcium formate",
+    "formula": "Ca(CHO2)2",
+    "cas": "544-17-2"
+   },
+   {
+    "index": 2,
+    "name": "Methanol",
+    "formula": "CH4O",
+    "cas": "67-56-1"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Mass Fraction w_1",
+     "10^0 * Mole Fraction_1^a"
+    ],
+    "rows": [
+     [
+      "15.0",
+      "0.27",
+      "0.07"
+     ],
+     [
+      "66.6",
+      "0.23",
+      "0.06"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Calcium formate with Methanol"
+ },
+ {
+  "sheet_id": "73_157",
+  "system_id": "73021",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_157",
+  "system": "Calcium formate with other formates (Ba, Ni, Co, Cu, Cd, Y, Bi) and Water",
+  "components": "(1) Barium formate; Ba(CHO2)2; [541-43-5]\n(2) Bismuth formate; Bi(CHO2)3; [25573-24-4]\n(3) Cadmium formate; Cd(CHO2)2; [4464-23-7]\n(4) Calcium formate; Ca(CHO2)2; [544-17-2]\n(5) Cobalt formate; Co(CHO2)2; [544-18-3]\n(6) Copper formate; Cu(CHO2)2; [544-19-4]\n(7) Nickel formate; Ni(CHO2)2; [3349-06-2]\n(8) Water; H2O; [7732-18-5]\n(9) Yttrium formate; Y(CHO2)3; [15331-71-2]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "Thedford P. Dirkse, Calvin College, Grand Rapids, Michigan.  U.S.A.",
+  "critical_evaluation": "",
+  "experimental_values": "4.7. M(CHO_2)_2-M^1(CHO_2)_3-H_2O systems        Each system included in this section is composed of the following: (1) a bi-positive metal formate; (2) a tri-positive metal formate; (3) water.  Solubility data have been reported for seven systems of this type.  The values published for each of these systems are presented on the following pages.  However, because there is only one report for each system, the data are presented without being evaluated.",
+  "notes": "",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Barium formate",
+    "formula": "Ba(CHO2)2",
+    "cas": "541-43-5"
+   },
+   {
+    "index": 2,
+    "name": "Bismuth formate",
+    "formula": "Bi(CHO2)3",
+    "cas": "25573-24-4"
+   },
+   {
+    "index": 3,
+    "name": "Cadmium formate",
+    "formula": "Cd(CHO2)2",
+    "cas": "4464-23-7"
+   },
+   {
+    "index": 4,
+    "name": "Calcium formate",
+    "formula": "Ca(CHO2)2",
+    "cas": "544-17-2"
+   },
+   {
+    "index": 5,
+    "name": "Cobalt formate",
+    "formula": "Co(CHO2)2",
+    "cas": "544-18-3"
+   },
+   {
+    "index": 6,
+    "name": "Copper formate",
+    "formula": "Cu(CHO2)2",
+    "cas": "544-19-4"
+   },
+   {
+    "index": 7,
+    "name": "Nickel formate",
+    "formula": "Ni(CHO2)2",
+    "cas": "3349-06-2"
+   },
+   {
+    "index": 8,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 9,
+    "name": "Yttrium formate",
+    "formula": "Y(CHO2)3",
+    "cas": "15331-71-2"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [],
+    "rows": []
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Calcium formate with other formates (Ba, Ni, Co, Cu, Cd, Y, Bi) and Water"
+ },
+ {
+  "sheet_id": "73_185",
+  "system_id": "73029",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_185",
+  "system": "Calcium formate with Phosphoric acid and Water",
+  "components": "(1) Calcium formate; Ca(CHO2)2; [544-17-2]\n(2) Phosphoric acid; H3PO4; [7664-38-2]\n(3) Water; H2O; [7732-18-5]",
+  "original_measurements": "Kuanisheva, N.A., Khazikhanova, B.H.; Kalacheva, V.G., Zh. Neorg. Khim. 31, 2426-8 (1986).",
+  "variables": "Concentration = Composition at 25 ºC",
+  "prepared_by": "Chr. Balarew and St. Trendafilova",
+  "critical_evaluation": "The molality values were calculated by the compilers.",
+  "experimental_values": "",
+  "notes": "^a  The solid phases are: A = Ca(CHO_2)_2; B = Ca(CHO_2)_2 + CaHPO_4; C = CaHPO_4;\nD = Ca(H_2PO_4)_2•H_2O + CaHPO_4; E = Ca(H_2PO_4)_2.",
+  "method": "The isothermal method was used.  Equilibrium was attained in 5-6 hours. The glass vessels in the thermostat were coated with glycerin.",
+  "source_purity": "75% p.a. grade H_3PO_4 was used. p.a. grade calcium formate was recrystallized.",
+  "estimated_error": "Temperature: t = ±0.1 °C.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Calcium formate",
+    "formula": "Ca(CHO2)2",
+    "cas": "544-17-2"
+   },
+   {
+    "index": 2,
+    "name": "Phosphoric acid",
+    "formula": "H3PO4",
+    "cas": "7664-38-2"
+   },
+   {
+    "index": 3,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical_1",
+     "Phase",
+     "Mass Fraction w_1",
+     "m_1 [mol kg-1]",
+     "Chemical_2",
+     "Mass Fraction w_2",
+     "m_2 [mol kg-1]",
+     "Chemical_3",
+     "Mass Fraction w_3",
+     "m_3 [mol kg-1]",
+     "Chemical_4",
+     "Mass Fraction w_4",
+     "m_4 [mol kg-1]",
+     "Solid Phase(s)^a"
+    ],
+    "rows": [
+     [
+      "CaO",
+      "Liquid",
+      "7.41",
+      "1.427",
+      "P2O5",
+      "0",
+      "0",
+      "Ca(CHO2)2",
+      "17.19",
+      "1.595",
+      "H3PO4",
+      "---",
+      "---",
+      "A"
+     ],
+     [
+      "CaO",
+      "Liquid",
+      "5.26",
+      "0.995",
+      "P2O5",
+      "0.51",
+      "0.038",
+      "Ca(CHO2)2",
+      "12.20",
+      "1.076",
+      "H3PO4",
+      "0.697",
+      "0.082",
+      "B"
+     ],
+     [
+      "CaO",
+      "Liquid",
+      "5.06",
+      "0.957",
+      "P2O5",
+      "0.66",
+      "0.049",
+      "Ca(CHO2)2",
+      "11.73",
+      "1.032",
+      "H3PO4",
+      "0.906",
+      "0.106",
+      "B"
+     ],
+     [
+      "CaO",
+      "Liquid",
+      "4.25",
+      "0.801",
+      "P2O5",
+      "1.15",
+      "0.086",
+      "Ca(CHO2)2",
+      "9.86",
+      "0.856",
+      "H3PO4",
+      "1.593",
+      "0.184",
+      "B"
+     ],
+     [
+      "CaO",
+      "Liquid",
+      "4.2",
+      "0.793",
+      "P2O5",
+      "1.4",
+      "0.104",
+      "Ca(CHO2)2",
+      "9.74",
+      "0.847",
+      "H3PO4",
+      "1.933",
+      "0.223",
+      "C"
+     ],
+     [
+      "CaO",
+      "Liquid",
+      "4.47",
+      "0.883",
+      "P2O5",
+      "5.24",
+      "0.409",
+      "Ca(CHO2)2",
+      "10.37",
+      "0.967",
+      "H3PO4",
+      "7.235",
+      "0.896",
+      "C"
+     ],
+     [
+      "CaO",
+      "Liquid",
+      "6.0",
+      "1.305",
+      "P2O5",
+      "12.00",
+      "1.031",
+      "Ca(CHO2)2",
+      "13.92",
+      "1.539",
+      "H3PO4",
+      "16.569",
+      "2.433",
+      "D"
+     ],
+     [
+      "CaO",
+      "Liquid",
+      "4.11",
+      "0.973",
+      "P2O5",
+      "20.58",
+      "1.925",
+      "Ca(CHO2)2",
+      "9.53",
+      "1.180",
+      "H3PO4",
+      "28.417",
+      "4.674",
+      "E"
+     ],
+     [
+      "CaO",
+      "Liquid",
+      "2.33",
+      "0.622",
+      "P2O5",
+      "30.83",
+      "3.249",
+      "Ca(CHO2)2",
+      "5.40",
+      "0.798",
+      "H3PO4",
+      "42.570",
+      "8.350",
+      "E"
+     ],
+     [
+      "CaO",
+      "Liquid",
+      "2.8",
+      "0.679",
+      "P2O5",
+      "23.68",
+      "2.269",
+      "Ca(CHO2)2",
+      "6.49",
+      "0.820",
+      "H3PO4",
+      "32.69",
+      "5.485",
+      "E"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Calcium formate with Phosphoric acid and Water"
+ },
+ {
+  "sheet_id": "73_15",
+  "system_id": "73030",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_15",
+  "system": "Calcium formate with Water",
+  "components": "(1) Calcium formate; Ca(CHO2)2; [544-17-2]\n(2) Water; H2O; [7732-18-5]",
+  "original_measurements": "Krasnitzki, E. R.,Monatsh. Chem. 8, 595 (1887).",
+  "variables": "Temperature = 0.8 ºC to 80.5 ºC.",
+  "prepared_by": "Chr.Balarew",
+  "critical_evaluation": "The molality values were calculated by the compilers.\nAuthors' Comment: The solubility data (g/100g H_2O) are the mean values obtained by the cooling and by the heating method.",
+  "experimental_values": "",
+  "notes": "^a  The solid phase is: A = Ca(CHO_2)_2.",
+  "method": "The apparatus and method were described earlier.^1 The mixtures were shaken for 1-1.5 h. Dilute sulfuric acid was added to a weighed sample. The mixture was evaporated on a water bath. The remaining sulfuric acid was driven off by heating to constant weight of calcium sulfate.",
+  "source_purity": "Calcium carbonate, obtained by heating calcium oxalate, was dissolved in formic acid. The crystals were recrystallized and analyzed.",
+  "estimated_error": "Solubility: ± 0.04 g/100 g water.",
+  "references": "^1Raupenstrauch, Monatsh. Chem.  6, 563 (1885).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Calcium formate",
+    "formula": "Ca(CHO2)2",
+    "cas": "544-17-2"
+   },
+   {
+    "index": 2,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "g_1/g_2",
+     "Phase",
+     "Mass Fraction w_1",
+     "m_1 [mol kg-1]",
+     "Solid Phase(s)^a"
+    ],
+    "rows": [
+     [
+      "0.8",
+      "16.28",
+      "Liquid",
+      "14.00",
+      "1.251",
+      "A"
+     ],
+     [
+      "15.5",
+      "16.72",
+      "Liquid",
+      "14.32",
+      "1.284",
+      "A"
+     ],
+     [
+      "26.3",
+      "17.04",
+      "Liquid",
+      "14.55",
+      "1.309",
+      "A"
+     ],
+     [
+      "39.7",
+      "17.36",
+      "Liquid",
+      "14.79",
+      "1.334",
+      "A"
+     ],
+     [
+      "56.6",
+      "17.70",
+      "Liquid",
+      "15.03",
+      "1.359",
+      "A"
+     ],
+     [
+      "76.0",
+      "17.99",
+      "Liquid",
+      "15.24",
+      "1.382",
+      "A"
+     ],
+     [
+      "80.5",
+      "18.07",
+      "Liquid",
+      "15.30",
+      "1.388",
+      "A"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Calcium formate with Water"
+ },
+ {
+  "sheet_id": "73_16",
+  "system_id": "73030",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_16",
+  "system": "Calcium formate with Water",
+  "components": "(1) Calcium formate; Ca(CHO2)2; [544-17-2]\n(2) Water; H2O; [7732-18-5]",
+  "original_measurements": "Calame, P., Z. Physik. Chem. 27, 401 (1898).",
+  "variables": "Temperature = -2.205 ºC to -0.316 ºC",
+  "prepared_by": "Chr.Balarew",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  These values were calculated by the compilers.",
+  "method": "Freezing point determinations were made with a Beckmann apparatus having a thermometer graduated in 0.01 °C. The calcium content was determined gravimetrically.",
+  "source_purity": "Kahlbaum or Merck reagents were used.",
+  "estimated_error": "Temperature: ±0.01 °C.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Calcium formate",
+    "formula": "Ca(CHO2)2",
+    "cas": "544-17-2"
+   },
+   {
+    "index": 2,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Phase",
+     "Mass Fraction w_1",
+     "m_1 [mol kg-1]^a",
+     "Solid Phase(s)"
+    ],
+    "rows": [
+     [
+      "-2.205",
+      "Liquid",
+      "6.24",
+      "0.511",
+      "ice"
+     ],
+     [
+      "-1.142",
+      "Liquid",
+      "3.19",
+      "0.253",
+      "ice"
+     ],
+     [
+      "-0.595",
+      "Liquid",
+      "1.60",
+      "0.125",
+      "ice"
+     ],
+     [
+      "-0.316",
+      "Liquid",
+      "0.81",
+      "0.063",
+      "ice"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Calcium formate with Water"
+ },
+ {
+  "sheet_id": "73_17",
+  "system_id": "73030",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_17",
+  "system": "Calcium formate with Water",
+  "components": "(1) Calcium formate; Ca(CHO2)2; [544-17-2]\n(2) Water; H2O; [7732-18-5]",
+  "original_measurements": "Lumsden, J.C., J. Chem. Soc. (London) 81, 355 (1902).",
+  "variables": "Temperature = 0 ºC to 100 ºC",
+  "prepared_by": "St. Trendafilova and Chr. Balarew",
+  "critical_evaluation": "The molality values were calculated by the compilers.",
+  "experimental_values": "",
+  "notes": "^a  The solid phase is: A = Ca(CHO_2)_2.",
+  "method": "The isothermal method was used. The solid and liquid phases were separated from each other by filtration. Each of the phases was then analyzed but no description of the analytical methods is given.",
+  "source_purity": "The calcium salt was prepared by the action of Kahlbaum pure acid on precipitated CaCO_3. Water was removed from the reaction mixture by evaporation and the solid was then recrystallized from water.",
+  "estimated_error": "Solubility: No information is given.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Calcium formate",
+    "formula": "Ca(CHO2)2",
+    "cas": "544-17-2"
+   },
+   {
+    "index": 2,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "g_1/g_2",
+     "Phase",
+     "Mass Fraction w_1",
+     "m_1 [mol kg-1]",
+     "Solid Phase(s)^a"
+    ],
+    "rows": [
+     [
+      "0",
+      "16.15",
+      "Liquid",
+      "13.90",
+      "1.241",
+      "A"
+     ],
+     [
+      "10",
+      "16.37",
+      "Liquid",
+      "14.07",
+      "1.258",
+      "A"
+     ],
+     [
+      "20",
+      "16.60",
+      "Liquid",
+      "14.24",
+      "1.276",
+      "A"
+     ],
+     [
+      "30",
+      "16.82",
+      "Liquid",
+      "14.40",
+      "1.293",
+      "A"
+     ],
+     [
+      "40",
+      "17.05",
+      "Liquid",
+      "14.57",
+      "1.310",
+      "A"
+     ],
+     [
+      "50",
+      "17.27",
+      "Liquid",
+      "14.73",
+      "1.327",
+      "A"
+     ],
+     [
+      "60",
+      "17.50",
+      "Liquid",
+      "14.89",
+      "1.345",
+      "A"
+     ],
+     [
+      "70",
+      "17.72",
+      "Liquid",
+      "15.09",
+      "1.362",
+      "A"
+     ],
+     [
+      "80",
+      "17.95",
+      "Liquid",
+      "15.22",
+      "1.379",
+      "A"
+     ],
+     [
+      "90",
+      "18.17",
+      "Liquid",
+      "15.38",
+      "1.396",
+      "A"
+     ],
+     [
+      "100",
+      "18.40",
+      "Liquid",
+      "15.54",
+      "1.414",
+      "A"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Calcium formate with Water"
+ },
+ {
+  "sheet_id": "73_18",
+  "system_id": "73030",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_18",
+  "system": "Calcium formate with Water",
+  "components": "(1) Calcium formate; Ca(CHO2)2; [544-17-2]\n(2) Water; H2O; [7732-18-5]",
+  "original_measurements": "Stanley, H., Chemical News 89, 193 (1904).",
+  "variables": "Concentration = Composition at 0 ºC to 100 ºC.",
+  "prepared_by": "Chr.Balarew and St. Trendafilova",
+  "critical_evaluation": "The molality values were calculated by the compilers.\nNote: The compilers assume that as with the data for barium and strontium formates, there are errors in these data also.  However, the compilers have not been able to recalculate the data because the primary weight data are not given in the paper.",
+  "experimental_values": "",
+  "notes": "^a  The solid phase is: A = Ca(CHO_2)_2.",
+  "method": "The isothermal method was used. The thermometer was graduated in tenths of a degree C. The analytical method is not described.",
+  "source_purity": "Calcium formate was prepared by the reaction of the carbonate with formic acid.",
+  "estimated_error": "Temperature: The temperature was controlled to within ±0.02 °C.See note under Experimental Values.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Calcium formate",
+    "formula": "Ca(CHO2)2",
+    "cas": "544-17-2"
+   },
+   {
+    "index": 2,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "g_1/g_2",
+     "Phase",
+     "Mass Fraction w_1",
+     "m_1 [mol kg-1]",
+     "Solid Phase(s)^a"
+    ],
+    "rows": [
+     [
+      "0.0",
+      "16.00",
+      "Liquid",
+      "13.79",
+      "1.23",
+      "A"
+     ],
+     [
+      "51.7",
+      "17.32",
+      "Liquid",
+      "14.76",
+      "1.33",
+      "A"
+     ],
+     [
+      "100.0",
+      "18.29",
+      "Liquid",
+      "15.46",
+      "1.41",
+      "A"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Calcium formate with Water"
+ },
+ {
+  "sheet_id": "73_19",
+  "system_id": "73030",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=73_19",
+  "system": "Calcium formate with Water",
+  "components": "(1) Calcium formate; Ca(CHO2)2; [544-17-2]\n(2) Water; H2O; [7732-18-5]",
+  "original_measurements": "Ashton, F.W.; Houston, D.F.; Saylor, C.P., J. Res. Nat. Bur. Stand. 11, 233-53 (1933).",
+  "variables": "Temperature = 20 ºC and 42 ºC",
+  "prepared_by": "Chr.Balarew and St. Trendafilova",
+  "critical_evaluation": "Note:  Most of the data are given only in graphical form.  A table of evaluated data^1-3 is also given.",
+  "experimental_values": "",
+  "notes": "^a  These values were calculated by the compilers.\n^b  The solid phase is: A = Ca(CHO_2)_2.",
+  "method": "The isothermal method was used.  Samples were taken at 6 and 18 h, filtered into weighing bottles and weighed.  They were then evaporated to dryness in an oven at 125 °C, cooled in a desiccator and weighed. From the weight of anhydrous salt thus obtained, the solubility in g/100g H_2O was calculated. The calcium content was determined by dissolving a sample in sulfuric acid, concentrating it by evaporation, and the acid driven off. The residue was then ignited, cooled, and weighed as sulfate.",
+  "source_purity": "Commercial calcium formate was used. It was recrystallized twice, dried at 125 °C and stored in a desiccator.",
+  "estimated_error": "Solubility: ± 0.1 g/100 g H_2O.",
+  "references": "^1E. R. v. Krasnicki, Monatsh. Chem. 81, 355 (1887).\n^2J. C. Lumsden, J. Chem. Soc. London 81, 355 (1902).\n^3H. Stanley, Chem. News 89, 193 (1904).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Calcium formate",
+    "formula": "Ca(CHO2)2",
+    "cas": "544-17-2"
+   },
+   {
+    "index": 2,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "g_1/g_2",
+     "Phase",
+     "Mass Fraction w_1",
+     "m_1 [mol kg-1]^a",
+     "Solid Phase(s)^b"
+    ],
+    "rows": [
+     [
+      "20",
+      "16.7",
+      "Liquid",
+      "14.3",
+      "1.28",
+      "A"
+     ],
+     [
+      "42",
+      "17.2",
+      "Liquid",
+      "14.6",
+      "1.32",
+      "A"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Calcium formate with Water"
+ }
+]

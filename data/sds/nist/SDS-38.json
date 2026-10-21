@@ -1,0 +1,2414 @@
+[
+ {
+  "sheet_id": "38_230",
+  "system_id": "38001",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_230",
+  "system": "(+)-(R)-P-Mentha-1,8-diene (d-Limonene) with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) (+)-(R)-P-Mentha-1,8-diene (d-Limonene); C10H16; [5989-27-5]",
+  "original_measurements": "Massaldi, H.A.; King, C.J.,  J. Chem. Eng. Data 1973, 18, 393-7.",
+  "variables": "Temperature = 0 °C - 25 °C",
+  "prepared_by": "A. Maczynski and Z. Maczynska",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A technique based on head-space analysis by gas-liquid chromatography was developed to determine solubilities of sparing soluble organics.  Saturated solutions need not be prepared in advance whereby phase separation problems are avoided, nor have liquid samples to be analyzed.  This method is versatile enough to allow determinations provided that the pure vapor pressure of the substances is known. The gas chromatograph was a Varian Aerograph Model 1740 with a flame ionization detector.",
+  "source_purity": "(1) Matheson Coleman and bell Co., highest purity; kept under N_2 atmosphere at -2°C in a dark container; used as received.\n(2) not specified.",
+  "estimated_error": "Temperature: ± 0.05°C",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "(+)-(R)-P-Mentha-1,8-diene (d-Limonene)",
+    "formula": "C10H16",
+    "cas": "5989-27-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^3 * g_1/100 g solution (compiler)",
+     "V_2/V_1 [mL2/mL1]",
+     "10^6 * Mole Fraction x_1",
+     "10^4 * n_1/V_2 [mol/L]"
+    ],
+    "rows": [
+     [
+      "0",
+      "0.97",
+      "9.7",
+      "1.3",
+      "0.708"
+     ],
+     [
+      "5",
+      "1.04",
+      "10.4",
+      "1.4",
+      "0.767"
+     ],
+     [
+      "25",
+      "1.38",
+      "13.8",
+      "1.8",
+      "1.013"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "(+)-(R)-P-Mentha-1,8-diene (d-Limonene) with Water"
+ },
+ {
+  "sheet_id": "38_325",
+  "system_id": "38002",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_325",
+  "system": "(2-Ethylcyclopentyl) benzene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) (2-Ethylcyclopentyl) benzene; C13H18; [4810-07-5]",
+  "original_measurements": "Englin, B.A.; Plate, A.F.; Tugolukov, V.M. Pryanishnikova, M.A., Khim. Tekhnol. Topl. Masel 1965, 10, 42-6.",
+  "variables": "Temperature = 10 °C - 30 °C",
+  "prepared_by": "A. Maczynski and Z. Maczynska",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Component (1) was introduced into a thermostatted flask and saturated for 5 hr. with (2).  Next, calcium hydride was added and the evolving hydrogen volume measured and hence the concentration of (2) in (1) was evaluated.",
+  "source_purity": "(1) Not specified.\n(2) Not specified.",
+  "estimated_error": "Temperature: Not specified.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "(2-Ethylcyclopentyl) benzene",
+    "formula": "C13H18",
+    "cas": "4810-07-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "g_2/100 g solution",
+     "10^3 * Mole Fraction x_2 (compiler)"
+    ],
+    "rows": [
+     [
+      "10",
+      "0.0103",
+      "1.00"
+     ],
+     [
+      "20",
+      "0.0168",
+      "1.62"
+     ],
+     [
+      "30",
+      "0.0273",
+      "2.64"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "(2-Ethylcyclopentyl) benzene with Water"
+ },
+ {
+  "sheet_id": "38_352",
+  "system_id": "38003",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_352",
+  "system": "(E)-Stilbene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) (E)-Stilbene; C14H12; [103-30-3]",
+  "original_measurements": "Andrews, L.J.; Keefer, R.M., J. Am. Chem. Soc. 1950, 72, 5034-7.",
+  "variables": "Temperature = 25 °C",
+  "prepared_by": "A. Maczynski and Z. Maczynska",
+  "critical_evaluation": "The solubility of (E)-stilbene in water at 25°C was reported to be 2.9 × 10^–5 g(1)/100 g sln. The corresponding mole fraction, x_1, calculated by the compilers is 2 × 10^–8.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A mixture of (1) and (2) was rotated for twenty hours in a constant temperature bath at 25 °C. A sample (5-20 mL) of the aqueous phase was withdrawn and extracted with a measured volume of hexane (10-50 mL) by shaking in a glass-stoppered Erlenmeyer flask. Next, the absorbance of the hexane phase was measured against a hexane blank on the Beckman spectrophotometer.",
+  "source_purity": "(1) from the State University of Iowa; m.p. 120-121 °C.\n(2) not specified",
+  "estimated_error": "Temperature: Not specified",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "(E)-Stilbene",
+    "formula": "C14H12",
+    "cas": "103-30-3"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "(E)-Stilbene with Water"
+ },
+ {
+  "sheet_id": "38_166",
+  "system_id": "38004",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_166",
+  "system": "1,1,3-Trimethylcyclohexane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,1,3-Trimethylcyclohexane; C9H18; [3073-66-3]",
+  "original_measurements": "Price, L.C., Am. Assoc. Petrol. Geol. Bull. 1976, 60, 213-44.",
+  "variables": "Temperature = 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The solubility of 1,1,3-trimethylcyclohexane in water at 25°C and at system pressure was reported to be 1.77 mg(1)/kg(2). The corresponding mass percent and mole fraction, x_1, calculated by the compiler are 1.77 × 10^–4 g(1)/100 g sln and 2.53 × 10^–7.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility was determined at laboratory temperatures by use of screw-cap test tubes.  The (1) phase floated on top of the water and insured saturation of the (2) phase in 2 to 4 days.  Analyses were carried out by GLC using a Hewlett-Packard model 5751 gas chromatograph with dual-flame ionization detectors.  Many details are given in the paper.",
+  "source_purity": "(1) Phillips Petroleum Company; Chemical Samples Company or Aldrich Chemical Company; 99+%.\n(2) distilled.",
+  "estimated_error": "Solubility: ± 0.05  mg(1)/kg(2)\nTemperature: ± 1°C",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,1,3-Trimethylcyclohexane",
+    "formula": "C9H18",
+    "cas": "3073-66-3"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1,1,3-Trimethylcyclohexane with Water"
+ },
+ {
+  "sheet_id": "38_167",
+  "system_id": "38004",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_167",
+  "system": "1,1,3-Trimethylcyclohexane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,1,3-Trimethylcyclohexane; C9H18; [3073-66-3]",
+  "original_measurements": "Krzyzanowska, T.; Szeliga, J.,  Nafta (Katowice) 1978, 12, 413-7.",
+  "variables": "Temperature = 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The solubility of 1,1,3-trimethylcyclohexane in water at 25°C was reported to be 0.115 mg(1)/kg(2). The corresponding mass percent and mole fraction, x_1, calculated by compiler are 1.15  × 10^–5 g(1)/100 g sln and 1.64 × 10^–8. Editor's Note: Based on the results for this and other hydrocarbon-water systems, uncertainty exists about whether the datum compiled here is independent of that of Price for the same system (see previous page). Consequently, this system has not been evaluated.",
+  "experimental_values": "",
+  "notes": "^a  Obtained by averaging where appropriate; σ_n has no statistical significance.",
+  "method": "The saturated solutions of (1) in (2) were prepared in two ways.  First, 200 mL of (1) was injected into 20 mL of (2) and thermostatted at 25°C.  Second, the mixture of (1) and (2) as above was thermostatted at 70°C and then cooled to 25°C.  The time required to obtain equilibrium was three weeks.  The solubility of (1) in (2) was measured by glc.  A Perkin-Elmer model F-11 gas chromatograph equipped with a 100-150 mesh Porasil column (70°C) and a flame ionization detector was used.  Saturated solutions of heptane in (2) were used as standard solutions.",
+  "source_purity": "(1) not specified.\n(2) not specified.",
+  "estimated_error": "Solubility: 0.02 mg(1)/kg(2) (standard deviation from 7- 9 determinations)",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,1,3-Trimethylcyclohexane",
+    "formula": "C9H18",
+    "cas": "3073-66-3"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1,1,3-Trimethylcyclohexane with Water"
+ },
+ {
+  "sheet_id": "38_71",
+  "system_id": "38005",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_71",
+  "system": "1,1,3-Trimethylcyclopentane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,1,3-Trimethylcyclopentane; C8H16; [4516-69-2]",
+  "original_measurements": "Price, L.C., Am. Assoc. Petrol. Geol. Bull. 1976, 60, 213-44.",
+  "variables": "Temperature = 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The solubility of 1,1,3-trimethylcyclopentane in water at 25°C and at system pressure was reported to be 3.73 mg(1)/kg(2). The corresponding mass percent and mole fraction, x_1, calculated by the compilers are 3.73 × 10^–4 g(1)/100 g sln and 5.99 × 10^–7.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility was determined at laboratory temperatures by use of screw-cap test tubes.  The (1) phase floated on top of the water and insured saturation of the (2) phase in 2 to 4 days.  Analyses were carried out by GLC using a Hewlett-Packard model 5751 gas chromatograph with dual-flame ionization detectors.  Many details are given in the paper.",
+  "source_purity": "(1) Phillips Petroleum Company; Chemical Samples Company or Aldrich Chemical Company; 99+%.\n(2) distilled.",
+  "estimated_error": "Solubility: ± 0.17 mg(1)/kg(2)\nTemperature: ± 1°C",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,1,3-Trimethylcyclopentane",
+    "formula": "C8H16",
+    "cas": "4516-69-2"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1,1,3-Trimethylcyclopentane with Water"
+ },
+ {
+  "sheet_id": "38_72",
+  "system_id": "38005",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_72",
+  "system": "1,1,3-Trimethylcyclopentane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,1,3-Trimethylcyclopentane; C8H16; [4516-69-2]",
+  "original_measurements": "Krzyzanowska, T.; Szeliga, J.,  Nafta (Katowice) 1978, 12, 413-7.",
+  "variables": "Temperature = 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The solubility of 1,1,3-trimethylcyclopentane in water at 25°C was reported to be 2.04 mg(1)/kg(2). The corresponding mass percent and mole fraction, x_1, calculated by compilers are 2.04 × 10^–4 g(1)/100 g sln and 3.27 × 10^–7.Editor's Note:  Based on the results for this and other hydrocarbon-water systems, uncertainty exists about whether the datum compiled here is independent of that of price for the same system (see previous page).  Consequently, this system has not been evaluated.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The saturated solutions of (1) in (2) were prepared in two ways.  First, 200 mL of (1) was injected into 20 mL of (2) and thermostatted at 25°C.  Second, the mixture of (1) and (2) as above was thermostatted at 70°C and then cooled to 25°C.  The time required to obtain equilibrium was three weeks.  The solubility of (1) in (2) was measured by glc.  A Perkin-Elmer model F-11 gas chromatograph equipped with a 100-150 mesh Porasil column (70°C) and a flame ionization detector was used.  Saturated solutions of heptane in (2) were used as standard solutions.",
+  "source_purity": "(1) not specified.\n(2) not specified.",
+  "estimated_error": "Solubility: 0.10 mg(1)/kg(2) (standard deviation from 7- 9 determinations)",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,1,3-Trimethylcyclopentane",
+    "formula": "C8H16",
+    "cas": "4516-69-2"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1,1,3-Trimethylcyclopentane with Water"
+ },
+ {
+  "sheet_id": "38_125",
+  "system_id": "38183",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_125",
+  "system": "1,2,3-Trimethylbenzene with Artificial seawater",
+  "components": "(1) Artificial seawater (ref 1); ; []\n(2) 1,2,3-Trimethylbenzene; C9H12; [526-73-8]",
+  "original_measurements": "Sutton, C.; Calder, J.A., J. Chem. Eng. Data 1975, 20, 320-2.",
+  "variables": "Temperature = 25.0 °C\npH = One salinity: 34.5 g salts/kg sln\nConcentration = One salinity: 34.5 g salts/kg sln",
+  "prepared_by": "M. Kleinschmidt",
+  "critical_evaluation": "The solubility of 1,2,3-trimethylbenzene in artificial seawater is reported to be 48.6 mg(1)/kg sln. The corresponding mass percent and mole fraction, x_1, calculated by the compiler are 4.86 × 10^–3 g(1)/100 g sln and 7.47 × 10^–6 assuming the artificial seawater composition of ref 1.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A test tube containing (1) was placed in a flask containing (2) thus allowing for equilibration through the vapor phase.  The saturated solution was extracted with hexane and analyzed by gas chromatography.",
+  "source_purity": "(1) from either Aldrich Chemical Co. or Matheson Coleman and Bell, 99+% pure.\n(2) made from doubly distilled water and salts 99+% pure.",
+  "estimated_error": "Solubility: 0.5 (std. Dev)\nTemperature: ± 0.1°C",
+  "references": "^1Lyman, J.; Fleming, R.H.; J. Mar. Res. 1940, 3, 135.",
+  "components_parsed": [
+   {
+    "index": 2,
+    "name": "1,2,3-Trimethylbenzene",
+    "formula": "C9H12",
+    "cas": "526-73-8"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1,2,3-Trimethylbenzene with Artificial seawater"
+ },
+ {
+  "sheet_id": "38_122",
+  "system_id": "38006",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_122",
+  "system": "1,2,3-Trimethylbenzene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2,3-Trimethylbenzene; C9H12; [526-73-8]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "G.T. Hefter, School of Mathematical and Physical Sciences, Murdoch University, Perth, W.A., Australia. December 1986",
+  "critical_evaluation": "",
+  "experimental_values": "Quantitative solubility data for 1,2,3-trimethylbenzene (1) in water (2) have been reported in the publications listed in Table 1.  No data have been reported on the solubility of water in 1,2,3-trimethylbenzene.\n\n\n\n\nThe original data in both of these publications are compiled in the Data Sheets immediately following this Critical Evaluation.\n\n\n\n\nThe available data are summarized in Table 2.  At 298K, the only temperature where comparison is possible, the data of Sutton and Calder (ref 1) and Sanemasa et al. (ref 2) are in reasonable agreement (Table 2) and their average may be considered as the Tentative solubility.\n\n\n\n\nAt other temperatures, only the data of Sanemasa et al. are available so no Critical Evaluation is possible.  Nevertheless, it may be noted that for other hydrocarbons in water the data of Sanemasa et al. are normally reliable.",
+  "notes": "Notes:\nTable 2^a  Obtained by averaging where appropriate; σ_n has no statistical significance.",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  Sutton, C.; Calder, J.A., J. Chem. Eng. Data 1975, 20, 320-2.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2,3-Trimethylbenzene",
+    "formula": "C9H12",
+    "cas": "526-73-8"
+   }
+  ],
+  "tables": [],
+  "kind": "compilation",
+  "system_name": "1,2,3-Trimethylbenzene with Water"
+ },
+ {
+  "sheet_id": "38_123",
+  "system_id": "38006",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_123",
+  "system": "1,2,3-Trimethylbenzene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2,3-Trimethylbenzene; C9H12; [526-73-8]",
+  "original_measurements": "Sutton, C.; Calder, J.A., J. Chem. Eng. Data 1975, 20, 320-2.",
+  "variables": "Temperature = 25 °C",
+  "prepared_by": "A. Maczynski and Z. Maczynska",
+  "critical_evaluation": "The solubility of 1,2,3-trimethylbenzene in water at 25°C was reported to be 75.2 mg(1)/kg(2). The corresponding mass percent and mole fraction, x_1, calculated by the compilers are 0.00752 g(1)/100 g sln and 1.126 × 10^–5.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The concentration of (1) in (2) was determined by gas chromatography.",
+  "source_purity": "(1) Aldrich Chemical Co. or Matheson Coleman and Bell purified by distillation through a Vigreageaux Column; 94.4% purity determined by gas chromatography.\n(2) Distilled.",
+  "estimated_error": "Solubility: 0.6 (the standard deviation of the mean for six replicates).\nTemperature: ± 0.1°C",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2,3-Trimethylbenzene",
+    "formula": "C9H12",
+    "cas": "526-73-8"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1,2,3-Trimethylbenzene with Water"
+ },
+ {
+  "sheet_id": "38_124",
+  "system_id": "38006",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_124",
+  "system": "1,2,3-Trimethylbenzene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2,3-Trimethylbenzene; C9H12; [526-73-8]",
+  "original_measurements": "Sanemasa, I.; Araki, M.; Deguchi, T.; Nagai, H., Bull. Chem. Soc. Jpn. 1982, 55, 1054-62.",
+  "variables": "Temperature = 1 °C - 45 °C",
+  "prepared_by": "G.T. Hefter",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  Assuming solution densities to be the same as those of pure water at the same temperature (ref 1).",
+  "method": "The apparatus is similar to an earlier design (ref 2) and is described in detail in the paper. 100-200 cm  of (2) and 10-20 cm^3 of liquid (1) were placed in separate but connected thermostatted flasks. After thermal equilibrium was established a recirculating stream of air was used to vaporize liquid (1) and to transport the vapor to the flask containing (2).  Five 10 cm^3 aliquots were withdrawn into separatory funnels.  The concentration of (1) in (2) was then determined by extraction into chloroform followed by UV-spectrophotometry.  Standards for the spectrophotometry were prepared by weight from pure liquid solutes.",
+  "source_purity": "(1) Analytical reagent grade (Wako Pure Chemical Ind. Ltd.), no stated purity, used without further purification.\n(2) Redistilled; no further details given.",
+  "estimated_error": "Solubility: see table, type of error not specified.\nTemperature: ± 0.01°C.",
+  "references": "^1Kell, G.S.,  J. Chem. Eng. Data. 1975, 20, 97.\n^2Sanemasa, I.; Araki, M.; Deguchi, Y.; Nagai, H.,  Chem. Lett. 1981, 225-8.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2,3-Trimethylbenzene",
+    "formula": "C9H12",
+    "cas": "526-73-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^4 * Concentration c_1 [mol dm**-3]",
+     "10^3 * g_1/100 g solution (compiler)",
+     "g_1/100 g soln. Note (compiler)",
+     "10^6 * Mole Fraction x_1 (compiler)",
+     "x_1 Comp Note"
+    ],
+    "rows": [
+     [
+      "15",
+      "4.98 ± 0.19",
+      "5.99",
+      "a",
+      "8.97",
+      "a"
+     ],
+     [
+      "25",
+      "5.20 ± 0.32",
+      "6.27",
+      "a",
+      "9.40",
+      "a"
+     ],
+     [
+      "35",
+      "5.97 ± 0.41",
+      "7.22",
+      "a",
+      "10.8",
+      "a"
+     ],
+     [
+      "45",
+      "7.02 ± 0.19",
+      "8.52",
+      "a",
+      "12.8",
+      "a"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,2,3-Trimethylbenzene with Water"
+ },
+ {
+  "sheet_id": "38_204",
+  "system_id": "38007",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_204",
+  "system": "1,2,4,5-Tetramethylbenzene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2,4,5-Tetramethylbenzene; C10H14; [95-93-2]",
+  "original_measurements": "Price, L.C., Am. Assoc. Petrol. Geol. Bull. 1976, 60, 213-44.",
+  "variables": "Temperature = 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The solubility of 1,2,4,5-tetramethylbenzene in water at 25°C and at system pressure was reported to be 3.48 mg(1)/kg(2). The corresponding mass per cent and mole fraction, x_1, calculated by the compiler are 3.48 × 10^–4 g(1)/100 g sln and 4.67 × 10^–7.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility was determined at laboratory temperatures by use of screw-cap test tubes.  The (1) phase floated on top of the water and insured saturation of the (2) phase in 2 to 4 days.  Analyses were carried out using a Hewlett-Packard model 5751 gas chromatograph with dual-flame ionization detectors.  Many details are given in the paper.",
+  "source_purity": "(1) Phillips Petroleum Company; Chemical Samples Company or Aldrich Chemical Company; 99+%.\n(2) distilled.",
+  "estimated_error": "Solubility: ± 0.28  mg(1)/kg(2)\nTemperature: ± 1°C",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2,4,5-Tetramethylbenzene",
+    "formula": "C10H14",
+    "cas": "95-93-2"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1,2,4,5-Tetramethylbenzene with Water"
+ },
+ {
+  "sheet_id": "38_205",
+  "system_id": "38007",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_205",
+  "system": "1,2,4,5-Tetramethylbenzene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2,4,5-Tetramethylbenzene; C10H14; [95-93-2]",
+  "original_measurements": "Krzyzanowska, T.; Szeliga, J.,  Nafta (Katowice) 1978, 12, 413-7.",
+  "variables": "Temperature = 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The solubility of 1,2,4,5-tetramethylbenzene in water at 25°C was reported to be 3.48 mg(1)/kg(2).The corresponding mass percent and mole fraction,x_1, calculated by compiler are 3.48 × 10^–4 g(1)/100 g sln and 4.67 × 10^–7.Editor's Note: Based on the results for this and other hydrocarbon-water systems, uncertainity exists about whether the datum compiled here is independent of that of Price for the same system (see previous page). Consequently, this system has not been evaluated.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The saturated solutions of (1) in (2) were prepared in two ways.  First, 200 mL of (1) was injected into 20 mL of (2) and thermostatted at 25°C.  Second, the mixture of (1) and (2) as above was thermostated at 70°C and then cooled to 25°C.  The time required to obtain equilibrium was three weeks.  The solubility of (1) in (2) was measured by glc.  A Perkin-Elmer model F-11 gas chromatograph equipped with a 100-150 mesh Porasil column (70°C) and a flame ionization detector was used.  Saturated solutions of heptane in (2) were used as standard solutions.",
+  "source_purity": "(1) not specified.\n(2) not specified.",
+  "estimated_error": "Solubility: 0.1 mg(1)/kg(2) (standard deviation from 7- 9 determinations)",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2,4,5-Tetramethylbenzene",
+    "formula": "C10H14",
+    "cas": "95-93-2"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1,2,4,5-Tetramethylbenzene with Water"
+ },
+ {
+  "sheet_id": "38_132",
+  "system_id": "38008",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_132",
+  "system": "1,2,4-Trimethylbenzene with Artificial seawater",
+  "components": "(1) Artificial seawater (ref 1); ; []\n(2) 1,2,4-Trimethylbenzene; C9H12; [95-63-6]",
+  "original_measurements": "Sutton, C.; Calder, J.A., J. Chem. Eng. Data 1975, 20, 320-2.",
+  "variables": "Temperature = 25.0 °C\npH = One salinity: 34.5 g salts/kg  sln\nConcentration = One salinity: 34.5 g salts/kg  sln",
+  "prepared_by": "M. Kleinschmidt",
+  "critical_evaluation": "The solubility of 1,2,4-trimethylbenzene in artificial seawater is reported to be 39.6 mg(1)/kg sln. The corresponding mass percent and mole fraction, x_1, calculated by the compiler are 3.96 × 10^–3 g(1)/100 g sln and 6.09 × 10^–6 assuming the artificial seawater composition of ref 1.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A test tube containing (1) was placed in a flask containing (2) thus allowing for equilibration through the vapor phase.  The saturated solution was extracted with hexane and analyzed by gas chromatography.",
+  "source_purity": "(1) from either Aldrich Chemical Co. or Matheson Coleman and Bell, 99+% pure.\n(2) made from doubly distilled water and salts 99+% pure.",
+  "estimated_error": "Solubility: 0.5 (std. Dev.)\nTemperature: ± 0.1°C",
+  "references": "^1Lyman, J.; Fleming, R.H.; J. Mar. Res. 1940, 3, 135.",
+  "components_parsed": [
+   {
+    "index": 2,
+    "name": "1,2,4-Trimethylbenzene",
+    "formula": "C9H12",
+    "cas": "95-63-6"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1,2,4-Trimethylbenzene with Artificial seawater"
+ },
+ {
+  "sheet_id": "38_126",
+  "system_id": "38009",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_126",
+  "system": "1,2,4-Trimethylbenzene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2,4-Trimethylbenzene; C9H12; [95-63-6]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "G.T. Hefter, School of Mathematical and Physical Sciences, Murdoch University, Perth, W.A., Australia. August 1985.",
+  "critical_evaluation": "",
+  "experimental_values": "Quantitative solubility data for 1,2,4-trimethylbenzene (1) in water (2) have been reported in the publications listed in Table 1.\n\n\n\n\nThe original data in these publications are compiled in the Data Sheets immediately following this Critical Evaluation.  No data have been reported for the solubility of water in 1,2,4-trimethylbenzene.\n\n\n\n\nAll the available data are collected in Table 2 with the exception of that of Krzyzanowska and Szeliga (ref 4) that does not appear  to be independent of that of Price (ref 3) and thus has been excluded from consideration.  At 298K the only temperature where comparison is possible, the data are in excellent agreement so that the mean can be Recommended, although interestingly the value of Price (ref 3) is somewhat lower than those reported by other workers as for many of the higher hydrocarbons investigated by this author.  At other temperatures only the data of Sanemasa et al. (ref 5) are available and must thus be regarded as Tentative.",
+  "notes": "Notes:\nTable 2^a  Obtained by averaging where appropriate; σ_n has no statistical significance",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  McAuliffe, C., J. Phys. Chem. 1966, 70, 1267-75.\n2  Sutton, C.; Calder, J.A., J. Chem. Eng. Data 1975, 20, 320-2.\n3  Price, L.C., Am. Assoc. Petrol. Geol. Bull. 1976, 60, 213-44.\n4  Krzyzanowska, T.; Szeliga, J.,  Nafta (Katowice) 1978, 12, 413-7.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2,4-Trimethylbenzene",
+    "formula": "C9H12",
+    "cas": "95-63-6"
+   }
+  ],
+  "tables": [],
+  "kind": "compilation",
+  "system_name": "1,2,4-Trimethylbenzene with Water"
+ },
+ {
+  "sheet_id": "38_127",
+  "system_id": "38009",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_127",
+  "system": "1,2,4-Trimethylbenzene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2,4-Trimethylbenzene; C9H12; [95-63-6]",
+  "original_measurements": "McAuliffe, C., J. Phys. Chem. 1966, 70, 1267-75.",
+  "variables": "Temperature = 25 °C",
+  "prepared_by": "A. Maczynski, Z. Maczynska, and A. Szafranski",
+  "critical_evaluation": "The solubility of 1,2,4-trimethylbenzene in water at 25°C was reported to be 57 g(1)/10^6 g(2). The corresponding mass percent and mole fraction, x_1, calculated by the compilers are 0.0057 g(1)/100 g sln and 8.5 × 10^–6.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "In a 250-mL bottle, 10-20 mL of (1) was vigorously shaken for 1 hr, or magnetically stirred for 1 day, with 200 mL of (2) at 25°C.  The bottle was set aside for 2 days to allow droplets of undissolved (1) to separate.  Absence of emulsion was checked microscopically.  A sample of the hydrocarbon-saturated water was withdrawn with a Hamilton syringe and gas liquid chromatographed in conjuction with a flame-ionization detector.",
+  "source_purity": "(1) Phillips Petroleum or Columbia Chemical; used as received.\n(2) distilled.",
+  "estimated_error": "Solubility: 4 g(1)/10^6 g(2) (standard deviation of mean)\nTemperature: ± 1.5°C",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2,4-Trimethylbenzene",
+    "formula": "C9H12",
+    "cas": "95-63-6"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1,2,4-Trimethylbenzene with Water"
+ },
+ {
+  "sheet_id": "38_128",
+  "system_id": "38009",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_128",
+  "system": "1,2,4-Trimethylbenzene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2,4-Trimethylbenzene; C9H12; [95-63-6]",
+  "original_measurements": "Sutton, C.; Calder, J.A., J. Chem. Eng. Data 1975, 20, 320-2.",
+  "variables": "Temperature = 25 °C",
+  "prepared_by": "A. Maczynski and Z. Maczynska",
+  "critical_evaluation": "The solubility of 1,2,4-trimethylbenzene in water at 25°C was reported to be 59.0 mg(1)/kg(2). The corresponding mass percent and mole fraction, x_1, calculated by the compilers are 0. 00590 g(1)/100 g sln and 8.83 × 10^–6.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The concentration of (1) in (2) was determined by gas chromatography.",
+  "source_purity": "(1) Aldrich Chemical Co. or Matheson Coleman and Bell 99+%.\n(2) distilled.",
+  "estimated_error": "Solubility: 0.8 mg(1)/kg(2) (the standard deviation of the mean for six replicates)\nTemperature: ± 0.1°C",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2,4-Trimethylbenzene",
+    "formula": "C9H12",
+    "cas": "95-63-6"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1,2,4-Trimethylbenzene with Water"
+ },
+ {
+  "sheet_id": "38_129",
+  "system_id": "38009",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_129",
+  "system": "1,2,4-Trimethylbenzene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2,4-Trimethylbenzene; C9H12; [95-63-6]",
+  "original_measurements": "Price, L.C., Am. Assoc. Petrol. Geol. Bull. 1976, 60, 213-44.",
+  "variables": "Temperature = 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The solubility of 1,2,4-trimethylbenzene in water at 25°C and at system pressure was reported to be 51.9 mg(1)/kg(2). The corresponding mass percent and mole fraction, x_1, calculated by the compiler are 0.00519 g(1)/100 g sln and 7.77  × 10^–6.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility was determined at laboratory temperatures by use of screw-cap test tubes.  The (1) phase floated on top of the water and insured saturation of the (2) phase in 2 to 4 days.  Analyses were carried out by GLC using a Hewlett-Packard model 5751 gas chromatograph with dual-flame ionization detectors.  Many details are given in the paper.",
+  "source_purity": "(1) Phillips Petroleum Company; Chemical Samples Company or Aldrich Chemical Company; 99+%.\n(2) distilled.",
+  "estimated_error": "Solubility: ± 1.2  mg(1)/kg(2)\nTemperature: ± 1°C",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2,4-Trimethylbenzene",
+    "formula": "C9H12",
+    "cas": "95-63-6"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1,2,4-Trimethylbenzene with Water"
+ },
+ {
+  "sheet_id": "38_130",
+  "system_id": "38009",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_130",
+  "system": "1,2,4-Trimethylbenzene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2,4-Trimethylbenzene; C9H12; [95-63-6]",
+  "original_measurements": "Krzyzanowska, T.; Szeliga, J.,  Nafta (Katowice) 1978, 12, 413-7.",
+  "variables": "Temperature = 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The solubility of 1,2,4-trimethylbenzene in water at 25°C was reported to be 51.9 mg(1)/kg(2). The corresponding mass percent and mole fraction, x_1, calculated by compiler are 0.00519 g(1)/100 g sln and 7.78 × 10^–6. Editor's Note: Based on the results for this and other hydrocarbon-water systems, uncertainty exists about whether the datum compiled here is independent of that of Price for the same system (see previous page).",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The saturated solutions of (1) in (2) were prepared in two ways.  First, 200 mL of (1) was injected into 20 mL of (2) and thermostatted at 25°C.  Second, the mixture of (1) and (2) as above was thermostatted at 70°C and then cooled to 25°C.  The time required to obtain equilibrium was three weeks.  The solubility of (1) in (2) was measured by glc.  A Perkin-Elmer model F-11 gas chromatograph equipped with a 100-150 mesh Porasil column (70°C) and a flame ionization detector was used.  Saturated solutions of heptane in (2) were used as standard solutions.",
+  "source_purity": "(1) not specified.\n(2) not specified.",
+  "estimated_error": "Solubility: 1.6 mg(1)/kg(2) (standard deviation from 7- 9 determinations)",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2,4-Trimethylbenzene",
+    "formula": "C9H12",
+    "cas": "95-63-6"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1,2,4-Trimethylbenzene with Water"
+ },
+ {
+  "sheet_id": "38_131",
+  "system_id": "38009",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_131",
+  "system": "1,2,4-Trimethylbenzene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2,4-Trimethylbenzene; C9H12; [95-63-6]",
+  "original_measurements": "Sanemasa, I.; Araki, M.; Deguchi, T.; Nagai, H., Bull. Chem. Soc. Jpn. 1982, 55, 1054-62.",
+  "variables": "Temperature = 15 °C - 45 °C",
+  "prepared_by": "G.T. Hefter",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  Assuming solution densities to be the same as those of pure water at the same temperature (ref 1).",
+  "method": "The apparatus is similar to an earlier design (ref 2) and is described in detail in the paper.  100-200 cm^3 of (2) and 10-20 cm^3 of liquid (1) were placed in separate but connected thermostatted flasks.  After thermal equilibrium was established a recirculating stream of air was used to vaporize liquid (1) and to transport the vapor to the flask containing (2).  Five 10 cm^3 aliquots were withdrawn into separatory funnels.  The concentration of (1) in (2) was then determined by extraction into chloroform followed by UV-spectrophotometry.  Standards for the spectrophotometry were prepared by weight from pure liquid solutes.",
+  "source_purity": "(1) Analytical reagent grade (Wako Pure Chemical Ind. Ltd.), stated purity 95.0%, used without further purification.\n(2) Redistilled; no further details given.",
+  "estimated_error": "Solubility: see table, type of error not specified.\nTemperature: ± 0.01°C",
+  "references": "^1Kell, G.S.,  J. Chem. Eng. Data 1975, 20, 97.\n^2Sanemasa, I.; Araki, M.; Deguchi, Y.; Nagai, H.,  Chem. Lett. 1981, 225-8.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2,4-Trimethylbenzene",
+    "formula": "C9H12",
+    "cas": "95-63-6"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^4 * Concentration c_1 [mol dm**-3]",
+     "10^3 * g_1/100 g solution (compiler)",
+     "g_1/100 g soln. Note (compiler)",
+     "10^6 * Mole Fraction x_1 (compiler)",
+     "x_1 Comp Note"
+    ],
+    "rows": [
+     [
+      "15",
+      "4.35 ± 0.12",
+      "5.23",
+      "a",
+      "7.84",
+      "a"
+     ],
+     [
+      "25",
+      "4.69 ± 0.07",
+      "5.65",
+      "a",
+      "8.48",
+      "a"
+     ],
+     [
+      "35",
+      "5.14 ± 0.20",
+      "6.21",
+      "a",
+      "9.32",
+      "a"
+     ],
+     [
+      "45",
+      "5.71 ± 0.07",
+      "6.93",
+      "a",
+      "10.4",
+      "a"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,2,4-Trimethylbenzene with Water"
+ },
+ {
+  "sheet_id": "38_290",
+  "system_id": "38010",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_290",
+  "system": "1,3-Dimethylnaphthalene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,3-Dimethylnaphthalene; C12H12; [575-41-7]",
+  "original_measurements": "Mackay, D.; Shiu, W.Y., J. Chem. Eng. Data. 1977, 22, 399-402.",
+  "variables": "Temperature = 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The solubility of 1,3-dimethylnaphthalene in water at 25°C was reported to be 8.0 mg(1) dm^–3 sln and x_1 = 9.2 × 10^–7.The corresponding mass percent calculated by the compiler is 8.0 × 10^–4 g(1)/100 g sln.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A saturated solution of (1) in (2) was vigorously stirred in a 250 mL flask for 24 hrs. and subsequently settled at 25°C for at least 48 hrs.  Then the saturated solution was decanted and filtered and 50-100 mL extracted with approximately 5 mL of cyclohexane in a separatory funnel.  After shaking for 2 hrs. the cyclohexane extract was removed for analysis.  An Aminco-Browman spectrophotofluorometer (American Instruments Ltd.) was used for analysis.  Many details are given in the paper.",
+  "source_purity": "(1) Aldrich Chemicals, Eastman Kodak, or K and K Laboratories, commercial highest grade; used as received.\n(2) doubly distilled.",
+  "estimated_error": "Solubility: ± 0.5 mg(1) dm^-3 sln (maximum deviation from several determinations).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,3-Dimethylnaphthalene",
+    "formula": "C12H12",
+    "cas": "575-41-7"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1,3-Dimethylnaphthalene with Water"
+ },
+ {
+  "sheet_id": "38_324",
+  "system_id": "38011",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_324",
+  "system": "1,4,5-Trimethylnaphthalene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,4,5-Trimethylnaphthalene; C13H14; [213-41-1]",
+  "original_measurements": "Mackay, D.; Shiu, W.Y., J. Chem. Eng. Data. 1977, 22, 399-402.",
+  "variables": "Temperature = 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "THe solubility of 1,4,5-trimethylnaphthalene in water at 25°C was reported to be 2.1 mg(1) dm^–3 sln and x_1 = 2.15 × 10^–7.The corresponding mass percent calculated by the compiler is 2.1 × 10^–4 g(1)/100 g sln.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A saturated solution of (1) in (2) was vigorously stirred in a 250 mL flask for 24 hrs. and subsequently settled at 25°C for at least 48 hrs.  Then the saturated solution was decanted and filtered and 50-100 mL extracted with approximately 5 mL of cyclohexane in a separatory funnel.  After shaking for 2 hrs. the cyclohexane extract was removed for analysis.  An Aminco-Browman spectrophotofluorometer (American Instruments Ltd.) was used for analysis.  Many details are given in the paper.",
+  "source_purity": "(1) Aldrich Chemicals, Eastman Kodak, or K and K Laboratories, commercial highest grade; used as received.\n(2) doubly distilled.",
+  "estimated_error": "Solubility: ± 0.1 mg(1) dm^-3 sln (maximum deviation from several determinations).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,4,5-Trimethylnaphthalene",
+    "formula": "C13H14",
+    "cas": "213-41-1"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1,4,5-Trimethylnaphthalene with Water"
+ },
+ {
+  "sheet_id": "38_353",
+  "system_id": "38012",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_353",
+  "system": "1,4-Dicyclopentylbutane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,4-Dicyclopentylbutane; C14H26; [2980-70-3]",
+  "original_measurements": "Englin, B.A.; Plate, A.F.; Tugolukov, V.M. Pryanishnikova, M.A., Khim. Tekhnol. Topl. Masel 1965, 10, 42-6.",
+  "variables": "Temperature = 10 °C - 30 °C",
+  "prepared_by": "A. Maczynski and Z. Maczynska",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Component (1) was introduced into a thermostatted flask and saturated for 5 hr. with (2). Next, calcium hydride was added and the evolving hydrogen volume measured and hence the concentration of (2) in (1) was evaluated.",
+  "source_purity": "(1) Not specified.\n(2) Not specified.",
+  "estimated_error": "Temperature: Not specified",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,4-Dicyclopentylbutane",
+    "formula": "C14H26",
+    "cas": "2980-70-3"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "g_2/100 g solution",
+     "10^3 * Mole Fraction x_2 (compiler)"
+    ],
+    "rows": [
+     [
+      "10",
+      "0.0088",
+      "0.94"
+     ],
+     [
+      "20",
+      "0.0139",
+      "1.50"
+     ],
+     [
+      "30",
+      "0.0241",
+      "2.59"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,4-Dicyclopentylbutane with Water"
+ },
+ {
+  "sheet_id": "38_77",
+  "system_id": "38013",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_77",
+  "system": "1,4-Dimethylcyclohexane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,4-Dimethylcyclohexane; C8H16; [589-90-2]",
+  "original_measurements": "Guseva, A.N.; Parnov, E.I., Vestn. Mosk. Univ. Khim. 1964, 19, 77-8.",
+  "variables": "Temperature = 57 °C - 240 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Presumably the measurements were made in sealed glass tubes, as reported in ref 1.  No more details were reported in the paper.",
+  "source_purity": "(1) not specified.\n(2) not specified.",
+  "estimated_error": "Temperature: not specified.",
+  "references": "^1Guseva, A.N.; Parnov, E.I.,  Vestn. Mosk. Univ. Khim. 1963, 18, 76.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,4-Dimethylcyclohexane",
+    "formula": "C8H16",
+    "cas": "589-90-2"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "g_1/100 g solution",
+     "g_1/100 g solution (compiler)",
+     "10^4 * Mole Fraction x_1 (compiler)",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "57",
+      "0.0017",
+      "0.0017",
+      "0.027",
+      "Solubility of 1,4-dimethylcyclohexane in water"
+     ],
+     [
+      "105",
+      "0.0056",
+      "0.0056",
+      "0.090",
+      "Solubility of 1,4-dimethylcyclohexane in water"
+     ],
+     [
+      "165",
+      "0.0263",
+      "0.0263",
+      "0.422",
+      "Solubility of 1,4-dimethylcyclohexane in water"
+     ],
+     [
+      "240",
+      "0.257",
+      "0.257",
+      "4.120",
+      "Solubility of 1,4-dimethylcyclohexane in water"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,4-Dimethylcyclohexane with Water"
+ },
+ {
+  "sheet_id": "38_79",
+  "system_id": "38013",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_79",
+  "system": "1,4-Dimethylcyclohexane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,4-Dimethylcyclohexane; C8H16; [589-90-2]",
+  "original_measurements": "Krzyzanowska, T.; Szeliga, J.,  Nafta (Katowice) 1978, 12, 413-7.",
+  "variables": "Temperature = 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The solubility of 1,4-dimethylcyclohexane in water at 25°C was reported to be 3.84 mg(1)/kg(2). The corresponding mass percent and mole fraction, x_1, calculated by compilers are 3.84 × 10^–4 g(1)/100 g sln and 6.16 × 10^–7. Editor's Note: Based on the results for this and other hydrocarbon-water systems, uncertainty exists about whether the datum compiled here is independent of that of Price for the same system (see previous page). Consequently, this system has not been evaluated.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The saturated solutions of (1) in (2) were prepared in two ways.  First, 200 mL of (1) was injected into 20 mL of (2) and thermostatted at 25°C.  Second, the mixture of (1) and (2) as above was thermostatted at 70°C and then cooled to 25°C.  The time required to obtain equilibrium was three weeks.  The solubility of (1) in (2) was measured by glc.  A Perkin-Elmer model F-11 gas chromatograph equipped with a 100-150 mesh Porasil column (70°C) and a flame ionization detector was used.  Saturated solutions of heptane in (2) were used as standard solutions.",
+  "source_purity": "(1) not specified.\n(2) not specified.",
+  "estimated_error": "Solubility: 0.12 mg(1)/kg(2) (standard deviation from 7- 9 determinations)",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,4-Dimethylcyclohexane",
+    "formula": "C8H16",
+    "cas": "589-90-2"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1,4-Dimethylcyclohexane with Water"
+ },
+ {
+  "sheet_id": "38_291",
+  "system_id": "38014",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_291",
+  "system": "1,4-Dimethylnaphthalene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,4-Dimethylnaphthalene; C12H12; [571-58-4]",
+  "original_measurements": "Mackay, D.; Shiu, W.Y., J. Chem. Eng. Data. 1977, 22, 399-402.",
+  "variables": "Temperature = 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The solubility of 1,4-dimethylnaphthalene in water at 25°C was reported to be 11.4 mg(1) dm^–3 sln and x_1 = 1.31 × 10^–6.The corresponding mass percent calculated by the compiler is 0.00114 g(1)/100 g sln.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A saturated solution of (1) in (2) was vigorously stirred in a 250 mL flask for 24 hrs. and subsequently settled at 25°C for at least 48 hrs.  Then the saturated solution was decanted and filtered and 50-100 mL extracted with approximately 5 mL of cyclohexane in a separatory funnel.  After shaking for 2 hrs. the cyclohexane extract was removed for analysis.  An Aminco-Browman spectrophotofluorometer (American Instruments Ltd.) was used for analysis.  Many details are given in the paper.",
+  "source_purity": "(1) Aldrich Chemicals, Eastman Kodak, or K and K Laboratories, commercial highest grade; used as received.\n(2) doubly distilled.",
+  "estimated_error": "Solubility: ± 0.1 mg(1) dm^-3 sln (maximum deviation from several determinations).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,4-Dimethylnaphthalene",
+    "formula": "C12H12",
+    "cas": "571-58-4"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1,4-Dimethylnaphthalene with Water"
+ },
+ {
+  "sheet_id": "38_78",
+  "system_id": "38015",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_78",
+  "system": "1,4-trans-Dimethylcyclohexane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,4-trans-Dimethylcyclohexane; C8H16; [2207-04-7]",
+  "original_measurements": "Price, L.C., Am. Assoc. Petrol. Geol. Bull. 1976, 60, 213-44.",
+  "variables": "Temperature = 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The solubility of 1,4-trans-dimethylcyclohexane in water at 25°C and at system pressure was reported to be 3.84 mg(1)/kg(2). The corresponding mass percent and mole fraction, x_1, calculated by the compilers are 3.84 × 10^–4 g(1)/100 g sln and 6.16 × 10^–7.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility was determined at laboratory temperatures by use of screw-cap test tubes.  The (1) phase floated on top of the water and insured saturation of the (2) phase in 2 to 4 days.  Analyses were carried out by GLC using a Hewlett-Packard model 5751 gas chromatograph with dual-flame ionization detectors.  Many details are given in the paper.",
+  "source_purity": "(1) Phillips Petroleum Company; Chemical Samples Company or Aldrich Chemical Company; 99+%.\n(2) distilled.",
+  "estimated_error": "Solubility: ± 0.17  mg(1)/kg(2)\nTemperature: ± 1°C",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,4-trans-Dimethylcyclohexane",
+    "formula": "C8H16",
+    "cas": "2207-04-7"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1,4-trans-Dimethylcyclohexane with Water"
+ },
+ {
+  "sheet_id": "38_292",
+  "system_id": "38016",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_292",
+  "system": "1,5-Dimethylnaphthalene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,5-Dimethylnaphthalene; C12H12; [571-61-9]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "G.T. Hefter, School of Mathematical and Physical Sciences, Murdoch University, Perth, W.A., Australia.\nA. Maczynski, Institute of Physical Chemistry, Polish Academy of Sciences, Warszawa, Poland. June 1986.",
+  "critical_evaluation": "",
+  "experimental_values": "Quantitative solubility data for 1,5-dimthylnaphthalene (1) in water (2) have been reported in the publications listed in Table 1.  No data have been reported on the solubility of water in 1,5-dimethylnaphthalene.\n\n\n\n\nThe original data and related information in both of these publications are compiled in the Data Sheets immediately following this Critical Evaluation.\n\n\n\nThe two values available (Table 1), obtained by different methods, are in reasonable agreement and their mean can be considered as a Tentative value. (Table 2).",
+  "notes": "Notes:\nTable 2^a  Obtained by averaging; σ_n has no statistical significance.",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  Eganhouse, R.P.; Calder, J.A., Geochim. Cosmochim. Acta 1976, 40, 555-61.\n2  Mackay, D.; Shiu, W.Y., J. Chem. Eng. Data. 1977, 22, 399-402.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,5-Dimethylnaphthalene",
+    "formula": "C12H12",
+    "cas": "571-61-9"
+   }
+  ],
+  "tables": [],
+  "kind": "compilation",
+  "system_name": "1,5-Dimethylnaphthalene with Water"
+ },
+ {
+  "sheet_id": "38_293",
+  "system_id": "38016",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_293",
+  "system": "1,5-Dimethylnaphthalene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,5-Dimethylnaphthalene; C12H12; [571-61-9]",
+  "original_measurements": "Eganhouse, R.P.; Calder, J.A., Geochim. Cosmochim. Acta 1976, 40, 555-61.",
+  "variables": "Temperature = 25 °C",
+  "prepared_by": "A. Maczynski",
+  "critical_evaluation": "The solubility of 1.5-dimethylnaphthalene in water at 25°C was reported to be 2.74 mg(1)/kg(2) and 1.8 × 10^–5 mol(1) dm^–3(2).The corresponding mass percent and mole fraction, x_1, calculated by the compiler are 2.74 × 10^–4 g(1)/100 g sln and 8.70 × 10^–7.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A mixture of 500 mL (2) and 0.001 mol (1) was equilibrated in an Erlenmeyer flask for 12 h (agitation) + 24 h (stationary).  The saturated solution, 100 mL, was extracted with hexane, concentrated by evaporation under nitrogen and analyzed by glc.  A 5700 A Hewlett-Packard instrument equipped with dual compensating columns and flame ionization detectors was employed.",
+  "source_purity": "(1) source not specified; analytical grade; used as received; no impurities by glc.\n(2) doubly distilled; free of trace organics.",
+  "estimated_error": "Solubility: ± 0.1 mg(1)/kg(2) (from eight determinations)\nTemperature: ± 0.5°C",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,5-Dimethylnaphthalene",
+    "formula": "C12H12",
+    "cas": "571-61-9"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1,5-Dimethylnaphthalene with Water"
+ },
+ {
+  "sheet_id": "38_294",
+  "system_id": "38016",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_294",
+  "system": "1,5-Dimethylnaphthalene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,5-Dimethylnaphthalene; C12H12; [571-61-9]",
+  "original_measurements": "Mackay, D.; Shiu, W.Y., J. Chem. Eng. Data. 1977, 22, 399-402.",
+  "variables": "Temperature = 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The solubility of 1.5-dimethylnaphthalene in water at 25°C was reported to be 3.38 mg(1) dm^–3 sln and x_1 = 3.77 × 10^–7.The corresponding mass percent calculated by the compiler is 3.38 × 10^–4 g(1)/100 g sln.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A saturated solution of (1) in (2) was vigorously stirred in a 250 mL flask for 24 hrs. and subsequently settled at 25°C for at least 48 hrs.  Then the saturated solution was decanted and filtered and 50-100 mL extracted with approximately 5 mL of cyclohexane in a separatory funnel.  After shaking for 2 hrs. the cyclohexane extract was removed for analysis.  An Aminco-Browman spectrophotofluorometer (American Instruments Ltd.) was used for analysis.  Many details are given in the paper.",
+  "source_purity": "(1) Aldrich Chemicals, Eastman Kodak, or K and K Laboratories, commercial highest grade; used as received.\n(2) doubly distilled.",
+  "estimated_error": "Solubility: ± 0.04 mg(1) dm^-3 sln (maximum deviation from several determinations).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,5-Dimethylnaphthalene",
+    "formula": "C12H12",
+    "cas": "571-61-9"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1,5-Dimethylnaphthalene with Water"
+ },
+ {
+  "sheet_id": "38_163",
+  "system_id": "38017",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_163",
+  "system": "1,8-Nonadiyne with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,8-Nonadiyne; C9H12; [2396-65-8]",
+  "original_measurements": "McAuliffe, C., J. Phys. Chem. 1966, 70, 1267-75.",
+  "variables": "Temperature = 25 °C",
+  "prepared_by": "A. Maczynski, Z. Maczynska, and A. Szafranski",
+  "critical_evaluation": "The solubility of 1,8-nonadiyne in water at 25°C was reported to be 125 g(1)/10^6 g(2). The corresponding mass percent and mole fraction, x_1, calculated by the compilers are 0.0125 g(1)/100 g sln and 1.9 × 10^–5.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "In a 250-mL bottle, 10-20 mL of (1) was vigorously shaken for 1 hr, or magnetically stirred for 1 day, with 200 mL of (2) at 25°C.  The bottle was set aside for 2 days to allow droplets of undissolved (1) to separate.  Absence of emulsion was checked microscopically.  A sample of the hydrocarbon-saturated water was withdrawn with a Hamilton syringe and gas liquid chromatographed in conjuction with a flame-ionization detector.",
+  "source_purity": "(1) Phillips Petroleum or Columbia Chemical; used as received.\n(2) distilled.",
+  "estimated_error": "Solubility: 3 g(1)/10^6 g(2) (standard deviation of mean)\nTemperature: ± 1.5°C",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,8-Nonadiyne",
+    "formula": "C9H12",
+    "cas": "2396-65-8"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1,8-Nonadiyne with Water"
+ },
+ {
+  "sheet_id": "38_461",
+  "system_id": "38018",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_461",
+  "system": "10-Butylbenz[a]anthracene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 10-Butylbenz[a]anthracene; C22H20; [31632-63-0]",
+  "original_measurements": "Davis, W.W.; Krahl, M.E.; Cloves, G.H.A., J. Am. Chem. Soc. 1942, 64, 108-10.",
+  "variables": "Temperature = 27 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The best value recommended by the authors is 8.0 × 10^-6 g(1) L^-1 (2).\nWith the assumption that 1.00 L sln = 1.00 kg sln, the corresponding mass percent and mole fraction, x_1, calculated by the compiler are 8.0 × 10^-7 g(1)/100 g sln and 5.1 × 10^-10.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The method consisted of preparing serial dilutions of a suspension of (1) in (2) and determining nephelometrically the amount of (1) per unit volume beyond which further dilution caused no reduction in light scattering, which remained equal to that of pure (2). A Bausch and Lomb Dubosque colorimeter model 100-mm was employed. Many details are reported in ref. 1.",
+  "source_purity": "(1) Prepared at Harvard University; m.p. range 96.4-96.7 °C.\n(2) Dust-free.",
+  "estimated_error": "Solubility: See above.\nTemperature: ± 3 °C",
+  "references": "^1Davis, W.W.; Parker, Jr., T.V., J. Am. Chem. Soc. 1942, 64, 101.\n^2Davis, W.W.; Krahl, M.E.; Cloves, G.H.A., J. Am. Chem. Soc. 1940, 62, 3086.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "10-Butylbenz[a]anthracene",
+    "formula": "C22H20",
+    "cas": "31632-63-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^6 * g_1/V_2 [g/L]"
+    ],
+    "rows": [
+     [
+      "27",
+      "7 ± 0.7"
+     ],
+     [
+      "27",
+      "7 ± 0.7"
+     ],
+     [
+      "27",
+      "7 ± 0.7"
+     ],
+     [
+      "27",
+      "8 ± 1"
+     ],
+     [
+      "27",
+      "8 ± 1"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "10-Butylbenz[a]anthracene with Water"
+ },
+ {
+  "sheet_id": "38_444",
+  "system_id": "38019",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_444",
+  "system": "10-Ethylbenz[a]anthracene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 10-Ethylbenz[a]anthracene; C20H16; [14854-08-1]",
+  "original_measurements": "Davis, W.W.; Krahl, M.E.; Cloves, G.H.A., J. Am. Chem. Soc. 1942, 64, 108-10.",
+  "variables": "Temperature = 27 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The best value recommended by the authors is 4.5 x 10^-5 g(1) L^-1 (2). With the assumption that 1.00 L sln = 1.00 kg sln, the corresponding mass percent and mole fraction, x_1, calculated by the compiler are 4.5 x 10^-6 g(1)/100 g sln and 3.2 x 10^-9.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The method consisted of preparing serial dilutions of a suspension of (1) in (2) and determining nephelometrically the amount of (1) per unit volume beyond which further dilution caused no reduction in light scattering, which remained equal to that of pure (2). A Bausch and Lomb Dubosque colorimeter model 100-mm was employed. Many details are reported in ref. 1.",
+  "source_purity": "(1) Prepared at Harvard University; m.p. range 112. 4--112.8 °C (cf. ref 2).\n(2) Dust-free.",
+  "estimated_error": "Solubility: See above.\nTemperature: ± 3 °C",
+  "references": "^1Davis, W.W.; Parker, Jr., T.V., J. Am. Chem. Soc. 1942, 64, 101.\n^2Davis, W.W.; Krahl, M.E.; Cloves, G.H.A., J. Am. Chem. Soc. 1940, 62, 3086.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "10-Ethylbenz[a]anthracene",
+    "formula": "C20H16",
+    "cas": "14854-08-1"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^5 * g_1/V_2 [g/L]"
+    ],
+    "rows": [
+     [
+      "27",
+      "4.5 ± 0.5"
+     ],
+     [
+      "27",
+      "4.5 ± 0.5"
+     ],
+     [
+      "27",
+      "3.5 ± 0.5"
+     ],
+     [
+      "27",
+      "4.5 ± 0.3"
+     ],
+     [
+      "27",
+      "4.5 ± 0.5"
+     ],
+     [
+      "27",
+      "4.0 ± 0.5"
+     ],
+     [
+      "27",
+      "4.0 ± 0.8"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "10-Ethylbenz[a]anthracene with Water"
+ },
+ {
+  "sheet_id": "38_430",
+  "system_id": "38020",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_430",
+  "system": "10-Methylbenz[a]anthracene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 10-Methylbenz[a]anthracene; C19H14; [2381-15-9]",
+  "original_measurements": "Davis, W.W.; Krahl, M.E.; Cloves, G.H.A., J. Am. Chem. Soc. 1942, 64, 108-10.",
+  "variables": "Temperature = 27 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The solubility of 10-methylbenz[a]anthracene in water at 27°C was reported to be 5.5 × 10^–5 g(1) L^–1(2). (Four identical results have been obtained) With the assumption that 1.00 L sln = 1.00 kg sln, the corresponding mass percent and mole fraction, x_1, calculated by the compiler are 5.5 × 10^–6 g(1)/100 g sln and 4.1 × 10^–11.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The method consisted of preparing serial dilutions of a suspension of (1) in (2) and determining nephelometrically the amount of (1) per unit volume beyond which further dilution caused no reduction in light scattering, which remained equal to that of pure (2). A Bausch and Lomb Dubosque colorimeter model 100-mm was employed. Many details are reported in ref. 1.",
+  "source_purity": "(1) Prepared at Harvard University; m.p. range 140.0-140.5 °C (cf. ref 2).\n(2) Dust-free.",
+  "estimated_error": "Solubility: ± 0.5 × 10^-5 g(1) dm^-3(2)\nTemperature: ± 3 °C",
+  "references": "^1Davis, W.W.; Parker, Jr., T.V., J. Am. Chem. Soc. 1942, 64, 101.\n^2Davis, W.W.; Krahl, M.E.; Cloves, G.H.A., J. Am. Chem. Soc. 1940, 62, 3086.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "10-Methylbenz[a]anthracene",
+    "formula": "C19H14",
+    "cas": "2381-15-9"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "10-Methylbenz[a]anthracene with Water"
+ },
+ {
+  "sheet_id": "38_236",
+  "system_id": "38021",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_236",
+  "system": "1-Decene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Decene; C10H20; [872-05-9]",
+  "original_measurements": "Natarajan, G.S.; Venkatachalam, K.A., J. Chem. Eng. Data 1972, 17, 328-9.",
+  "variables": "Temperature = 15 °C - 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson and G.T. Hefter",
+  "critical_evaluation": "Compiler's note: Although the data have not been measured in pure water the low concentration of the added acid is unlikely to cause the olefin solubility to differ markedly from that in pure water.  Further solubility data are given in the paper for 0.05 and 0.1 mol/L HCℓ.",
+  "experimental_values": "",
+  "notes": "^a  Uncertainties stated to be \"standard deviationsfrom mean\".\n^b  Assuming a solution density of 1.00 g mL^-1 at all temperatures.",
+  "method": "15 mL of the aqueous medium was equilibrated with 1 mL of (1) by mechanical shaking in a thermostatted glass burette.  After settling (judged visually), 5 mL of the aqeuous layer was withdrawn and the olefin content determined by titration with bromine using standard procedures.",
+  "source_purity": "(1) BDH:  99%\n(2) Not specified.",
+  "estimated_error": "Solubility: see table above.\nTemperature: ± 0.05 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Decene",
+    "formula": "C10H20",
+    "cas": "872-05-9"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Concentration c_1 [mol dm**-3]",
+     "10^3 * g_1/100 g solution (compiler)",
+     "g_1/100 g soln. Note (compiler)",
+     "10^6 * Mole Fraction x_1 (compiler)",
+     "10^5 * n_1/V_2 [mol/L]"
+    ],
+    "rows": [
+     [
+      "15",
+      "a",
+      "1.1",
+      "b",
+      "1.5",
+      "8.2"
+     ],
+     [
+      "20",
+      "a",
+      "0.85",
+      "b",
+      "1.1",
+      "6.1"
+     ],
+     [
+      "25",
+      "a",
+      "0.57",
+      "b",
+      "0.73",
+      "4.1"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "1-Decene with Water"
+ },
+ {
+  "sheet_id": "38_305",
+  "system_id": "38022",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_305",
+  "system": "1-Ethylnaphthalene with Sodium chloride and Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Ethylnaphthalene; C12H12; [1127-76-0]\n(3) Sodium chloride; NaCl; [7647-14-5]",
+  "original_measurements": "Schwarz, F.P., J. Chem. Eng. Data. 1977, 22, 273-7.",
+  "variables": "Temperature = 8.1 °C - 28.5 °C\npH = Salinity: 30 g(2)/kg sln\nConcentration = Salinity: 30 g(2)/kg sln",
+  "prepared_by": "W.Y. Shiu, D. Mackay",
+  "critical_evaluation": "The corresponding mass percent and mole fraction x_1, at 25.0 ° c calculated by the compilers are 7.12 x 10^-4 g(1)/100 g sln and 8.44 x 10^-7.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility of 1-ethylnaphthalene in NaCl solution was determined by fluorescence and UV absorption measurements.  In the fluorescence method, saturated solution was prepared by adding excess amount of 1-ethylnapthalene to an air-tight 1x1 cm quartz fluorescence cell containing 5 mL of salt solution.  The cell was rotated at 20 rpm for at least 72 hr in a thermostatted water bath and then its fluorescent intensity was measured at 365 nm.  The Spectrofluorimeter employed a ratio-photon counting mode where 1- ethylnaphthalene concentration was linearly related to the fluorescence signal.  The UV method was used to obtain the absorptivity of 1-ethylnaphthalene in ethanol solution therefore provide an absolute solubility scale for the fluorescence method.",
+  "source_purity": "(1) 1-Ethylnaphthalene:  purity > 99 mole %\nSodium chloride:  reagent grade\nWater:  distilled over a KMnO_4 - NaOH solution and passed through a Sephadex column\nEthanol:  reagent grade",
+  "estimated_error": "Solubility: ± 2.0% (author)\nTemperature: ± 0.1°C (author)",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Ethylnaphthalene",
+    "formula": "C12H12",
+    "cas": "1127-76-0"
+   },
+   {
+    "index": 3,
+    "name": "Sodium chloride",
+    "formula": "NaCl",
+    "cas": "7647-14-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^5 * n_1/V_2 [mol/L]"
+    ],
+    "rows": [
+     [
+      "8.1",
+      "3.65"
+     ],
+     [
+      "11.1",
+      "3.87"
+     ],
+     [
+      "17.4",
+      "4.23"
+     ],
+     [
+      "20.3",
+      "4.45"
+     ],
+     [
+      "23.3",
+      "4.38"
+     ],
+     [
+      "25.0",
+      "4.67"
+     ],
+     [
+      "26.2",
+      "4.53"
+     ],
+     [
+      "28.5",
+      "4.82"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "1-Ethylnaphthalene with Sodium chloride and Water"
+ },
+ {
+  "sheet_id": "38_301",
+  "system_id": "38023",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_301",
+  "system": "1-Ethylnaphthalene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Ethylnaphthalene; C12H12; [1127-76-0]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "G.T. Hefter, School of Mathematical and Physical Sciences, Murdoch University, Perth, W.A., Australia.\nA. Maczynski, Institute of Physical Chemistry, Polish Academy of Sciences, Warszawa, Poland. April 1986.",
+  "critical_evaluation": "",
+  "experimental_values": "Quantitative solubility data for 1–ethylnaphthalene (1) in water (2) have been reported in the publications listed in Table 1.  No data have been reported on the solubility of water in 1-ethylnaphthalene.\n\n\n\n\nThe original data in all of these publications are compiled in the Data Sheets immediately following this Critical Evaluation.\n\n\n\n\nThe data available (Table 1) are summarized in Table 2 and plotted in  Figure 1.  For the purpose of this Evaluation the values of Schwarz (ref 3) are not considered as independent determinations.  Nevertheless, the excellent agreement between the data of Schwarz and Wasik (ref 2,3) and Mackay and Shiu (ref 1) art 298K suggests the values of Schwarz and Wasik at other temperatures can be considered as Tentative.",
+  "notes": "Notes:\nTable 2^a  Values marked with an asterisk ( * ) were obtained by the Evaluators by graphical interpolation of the authors' original data.\nTable 2^b  Obtained by averaging where appropriate; σ_n has no statistical significance.",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  Mackay, D.; Shiu, W.Y., J. Chem. Eng. Data. 1977, 22, 399-402.\n2  Schwarz, F.P.; Wasik, S.P., J. Chem. Eng. Data 1977, 22, 270-3.\n3  Schwarz, F.P., J. Chem. Eng. Data. 1977, 22, 273-7.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Ethylnaphthalene",
+    "formula": "C12H12",
+    "cas": "1127-76-0"
+   }
+  ],
+  "tables": [],
+  "kind": "compilation",
+  "system_name": "1-Ethylnaphthalene with Water"
+ },
+ {
+  "sheet_id": "38_302",
+  "system_id": "38023",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_302",
+  "system": "1-Ethylnaphthalene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Ethylnaphthalene; C12H12; [1127-76-0]",
+  "original_measurements": "Mackay, D.; Shiu, W.Y., J. Chem. Eng. Data. 1977, 22, 399-402.",
+  "variables": "Temperature = 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The solubility of 1-ethylnaphthalene in water at 25°C was reported to be 10.7 mg(1) dm^–3 sln and x_1 = 1.24 × 10^–6.the corresponding mass percent calculated by the compiler is 0.00107 g(1)/100 g sln.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A saturated solution of (1) in (2) was vigorously stirred in a 250 mL flask for 24 hrs. and subsequently settled at 25°C for at least 48 hrs.  Then the saturated solution was decanted and filtered and 50-100 mL extracted with approximately 5 mL of cyclohexane in a separatory funnel.  After shaking for 2 hrs. the cyclohexane extract was removed for analysis.  An Aminco-Browman spectrophotofluorometer (American Instruments Ltd.) was used for analysis.  Many details are given in the paper.",
+  "source_purity": "(1) Aldrich Chemicals, Eastman Kodak, or K and K Laboratories, commercial highest grade; used as received.\n(2) doubly distilled.",
+  "estimated_error": "Solubility: ± 0.3 mg(1) dm^-3 sln (maximum deviation from several determinations).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Ethylnaphthalene",
+    "formula": "C12H12",
+    "cas": "1127-76-0"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1-Ethylnaphthalene with Water"
+ },
+ {
+  "sheet_id": "38_303",
+  "system_id": "38023",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_303",
+  "system": "1-Ethylnaphthalene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Ethylnaphthalene; C12H12; [1127-76-0]",
+  "original_measurements": "Schwarz, F.P., J. Chem. Eng. Data. 1977, 22, 273-7.",
+  "variables": "Temperature = 8.6 °C - 31.7 °C",
+  "prepared_by": "A. Maczynski",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Two methods were used:\nAt 25°C the solubility of (1) in (2) was determined from UV absorption measurements and was used as a standard at other temperatures.  At other temperatures the spectrofluorimetry method was used.\nThe sealed fluorescence cells contained 5 mL of the aqueous solution and an excess of (1) were rotated at least 72 h in a water bath, then removed, quickly wiped dry and placed in the fluorimeter.",
+  "source_purity": "(1) source not specified; better than 99.9 mole%, by glc; used as received.\n(2) distilled over KMnO_4 and NaOH and passed through a Sephadex column.",
+  "estimated_error": "Solubility: see above.\nTemperature: ± 0.1°C",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Ethylnaphthalene",
+    "formula": "C12H12",
+    "cas": "1127-76-0"
+   }
+  ],
+  "tables": [],
+  "kind": "compilation",
+  "system_name": "1-Ethylnaphthalene with Water"
+ },
+ {
+  "sheet_id": "38_304",
+  "system_id": "38023",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_304",
+  "system": "1-Ethylnaphthalene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Ethylnaphthalene; C12H12; [1127-76-0]",
+  "original_measurements": "Schwarz, F.P.; Wasik, S.P., J. Chem. Eng. Data 1977, 22, 270-3.",
+  "variables": "Temperature = 10 °C - 25 °C",
+  "prepared_by": "A. Maczynski",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility of (1) in (2) was determined from its absorbance.  Since the concentration of (1) in (2) are too low to determine its extinction coefficent accurately, the absorption measurements were performed on measured volumes of the saturated solutions diluted with equal volumes of ethanol.",
+  "source_purity": "(1) Chemical Samples Co., Columbus, Ohio; better than 99.9 mole%.\n(2) distilled from KMnO_4 and passed through a Sephadex column.",
+  "estimated_error": "Solubility: see above\nTemperature: ± 0.1°C",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Ethylnaphthalene",
+    "formula": "C12H12",
+    "cas": "1127-76-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^4 * g_1/100 g solution (compiler)",
+     "10^7 * Mole Fraction x_1 (compiler)",
+     "10^5 * n_1/V_2 [mol/L]"
+    ],
+    "rows": [
+     [
+      "10",
+      "8.1",
+      "9.4",
+      "5.2 ± 0.2"
+     ],
+     [
+      "14",
+      "8.1",
+      "9.4",
+      "5.2 ± 0.1"
+     ],
+     [
+      "20",
+      "10.0",
+      "11.5",
+      "6.4 ± 0.1"
+     ],
+     [
+      "25",
+      "10.0",
+      "11.5",
+      "6.4 ± 0.1"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1-Ethylnaphthalene with Water"
+ },
+ {
+  "sheet_id": "38_428",
+  "system_id": "38024",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_428",
+  "system": "1-Methylbenz[a]anthracene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Methylbenz[a]anthracene; C19H14; [2498-77-3]",
+  "original_measurements": "Davis, W.W.; Krahl, M.E.; Cloves, G.H.A., J. Am. Chem. Soc. 1942, 64, 108-10.",
+  "variables": "Temperature = 27 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The best value recommended by the authors is 5.5 × 10^-5 g(1) L^-1 (2).\nAssuming that 1.00 L sln = 1.00 kg sln, the corresponding mass percent and mole fraction, x_1, calculated by the compiler are 5.5 × 10^-6 g(1)/100 g sln and 4.1 × 10^-11.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The method consisted of preparing serial dilutions of a suspension of (1) in (2) and determining nephelometrically the amount of (1) per unit volume beyond which further dilution caused no reduction in light scattering, which remained equal to that of pure (2). A Bausch and Lomb Dubosque colorimeter model 100-mm was employed. Many details are reported in ref. 1.",
+  "source_purity": "(1) Prepared at Harvard University; m.p. range 138.5-139.0 °C (cf. ref 2).\n(2) Dust-free.",
+  "estimated_error": "Solubility: See above.\nTemperature: ± 3 °C",
+  "references": "^1Davis, W.W.; Parker, Jr., T.V., J. Am. Chem. Soc. 1942, 64, 101.\n^2Davis, W.W.; Krahl, M.E.; Cloves, G.H.A., J. Am. Chem. Soc. 1940, 62, 3086.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Methylbenz[a]anthracene",
+    "formula": "C19H14",
+    "cas": "2498-77-3"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^5 * g_1/V_2 [g/L]"
+    ],
+    "rows": [
+     [
+      "27",
+      "5.5 ± 0.2"
+     ],
+     [
+      "27",
+      "5.4 ± 0.4"
+     ],
+     [
+      "27",
+      "5.5 ± 0.2"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "1-Methylbenz[a]anthracene with Water"
+ },
+ {
+  "sheet_id": "38_258",
+  "system_id": "38025",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_258",
+  "system": "1-Methylnaphthalene with Sodium chloride and Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) Sodium chloride; NaCl; [7647-14-5]\n(3) 1-Methylnaphthalene; C11H10; [90-12-0]",
+  "original_measurements": "Schwarz, F.P., J. Chem. Eng. Data. 1977, 22, 273-7.",
+  "variables": "Temperature = 8.1 °C - 28.5 °C\npH = Salinity: 30 g(2)/kg sln\nConcentration = Salinity: 30 g(2)/kg sln",
+  "prepared_by": "W.Y. Shiu, D. Mackay",
+  "critical_evaluation": "The corresponding mass percent and mole fraction, x_1, at 25.0° calculated by the compiler are 2.34 × 10^–3 g(1)/100 g sln and 3.06 × 10^–6.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility of 1-methylnaphthalene in NaCl solution was determined by fluorescence and UV absorption measurements.  In the fluorescence method, saturated solution was prepared by adding excess amount of 1-methylnapthalene to an air-tight 1x1 cm quartz fluorescence cell containing 5 mL salt solution.  The cell was rotated at 20 rpm for at least cell 72 hr in a thermostatted water bath and then its fluorescent intensity was measured at 350 and 320 nm.  The Spectrofluorimeter employed a ratio-photon counting mode where 1- methylnaphthalene concentration was linearly related to the fluorescence signal.  The UV method was used to obtain the absorptivity of 1-methylnaphthalene in ethanol therefore provide an absolute solubility scale for the fluorescence method.",
+  "source_purity": "(1) 1-Methylnaphthalene:  purity > 99%, Sodium chloride:  reagent grade, Ethanol:  reagent grade,  Water:  distilled over a KMnO_4 - NaOH solution and passed through a Sephadex column.",
+  "estimated_error": "Solubility: ± 3.6% (author)\nTemperature: ± 0.1°C (author)",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "Sodium chloride",
+    "formula": "NaCl",
+    "cas": "7647-14-5"
+   },
+   {
+    "index": 3,
+    "name": "1-Methylnaphthalene",
+    "formula": "C11H10",
+    "cas": "90-12-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^4 * Concentration c_1 [mol dm**-3]"
+    ],
+    "rows": [
+     [
+      "8.1",
+      "1.23"
+     ],
+     [
+      "11.1",
+      "1.35"
+     ],
+     [
+      "15.5",
+      "1.49"
+     ],
+     [
+      "17.4",
+      "1.53"
+     ],
+     [
+      "18.2",
+      "1.54"
+     ],
+     [
+      "20.7",
+      "1.54"
+     ],
+     [
+      "23.3",
+      "1.63"
+     ],
+     [
+      "25.0",
+      "1.69"
+     ],
+     [
+      "28.5",
+      "1.81"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "1-Methylnaphthalene with Sodium chloride and Water"
+ },
+ {
+  "sheet_id": "38_252",
+  "system_id": "38026",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_252",
+  "system": "1-Methylnaphthalene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Methylnaphthalene; C11H10; [90-12-0]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "G.T. Hefter, School of Mathematical and Physical Sciences, Murdoch University, Perth, W.A., Australia. February 1986.",
+  "critical_evaluation": "",
+  "experimental_values": "Quantitative solubility data for the 1-methylnaphthalene (1) – water (2) system have been reported in the publications listed in Table 1.\n\n\n\n\nThe original data in all of these publications are compiled in the Data Sheets immediately following this Critical Evaluation.\n\n\n\n\nFor further convenience further discussion of this system is divided into two parts.\n\n\n\n\n\n1.    SOLUBILITY OF 1-METHYLNAPHTHALENE (1) IN WATER (2)\n\n\n\nAll the available data on the solubility of 1-methylnaphthalene in water are summarized in Table 1 with the exception of those of Schwarz and Wasik which have been rejected as they are much more scattered that those in the paper by Schwarz (ref 5).  There are insufficient data to warrant plotting.\n\n\n\n\nAt 298K, the only temperature where comparison is possible, the data are in excellent agreement and the average value can be Recommended.  At other temperatures only the data of Schwarz (ref 5) are available and must thus be considered as Tentative only.\n\n\n\n\n\n2.     SOLUBILITY OF WATER (2) IN 1-METHYLNAPHTHALENE (1)\n\n\n\nAs only the data of Englin et al. (ref 1) are available on the solubility of water in 1-methylnaphthalene  no Critical Evaluation is possible.  However, it may be noted that the solubility values of Englin et al. are generally reliable for T < 300K but are larger than Recommended values at higher temperatures.   The interested user is referred to the relevant Data Sheet for experimental values.",
+  "notes": "Notes:\nTable 2^a  Values marked with an asterisk (*) have been obtained by the Evaluator by graphical interpolation of the original data.\nTable 2^b  Obtained by averaging where relevant; σ_n has no statistical significance.",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  Englin, B.A.; Plate, A.F.; Tugolukov, V.M. Pryanishnikova, M.A., Khim. Tekhnol. Topl. Masel 1965, 10, 42-6.\n2  Eganhouse, R.P.; Calder, J.A., Geochim. Cosmochim. Acta 1976, 40, 555-61.\n3  Mackay, D.; Shiu, W.Y., J. Chem. Eng. Data. 1977, 22, 399-402.\n4  Schwarz, F.P.; Wasik, S.P., J. Chem. Eng. Data 1977, 22, 270-3.\n5  Schwarz, F.P., J. Chem. Eng. Data. 1977, 22, 273-7.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Methylnaphthalene",
+    "formula": "C11H10",
+    "cas": "90-12-0"
+   }
+  ],
+  "tables": [],
+  "kind": "compilation",
+  "system_name": "1-Methylnaphthalene with Water"
+ },
+ {
+  "sheet_id": "38_253",
+  "system_id": "38026",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_253",
+  "system": "1-Methylnaphthalene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Methylnaphthalene; C11H10; [90-12-0]",
+  "original_measurements": "Englin, B.A.; Plate, A.F.; Tugolukov, V.M. Pryanishnikova, M.A., Khim. Tekhnol. Topl. Masel 1965, 10, 42-6.",
+  "variables": "Temperature = 0 °C - 50 °C",
+  "prepared_by": "A. Maczynski and Z. Maczynska",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Component (1) was introduced into a thermostatted flask and saturated for 5 hr. with (2).  Next, calcium hydride was added and the evolving hydrogen volume measured and hence the concentration of (2) in (1) was evaluated.",
+  "source_purity": "(1) Not specified.\n(2) Not specified.",
+  "estimated_error": "Temperature: Not specified.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Methylnaphthalene",
+    "formula": "C11H10",
+    "cas": "90-12-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "g_2/100 g solution",
+     "10^3 * Mole Fraction x_2 (compiler)"
+    ],
+    "rows": [
+     [
+      "0",
+      "0.0202",
+      "1.59"
+     ],
+     [
+      "10",
+      "0.0282",
+      "2.22"
+     ],
+     [
+      "20",
+      "0.0377",
+      "2.97"
+     ],
+     [
+      "30",
+      "0.0485",
+      "3.82"
+     ],
+     [
+      "40",
+      "0.0619",
+      "4.87"
+     ],
+     [
+      "50",
+      "0.0760",
+      "5.97"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1-Methylnaphthalene with Water"
+ },
+ {
+  "sheet_id": "38_254",
+  "system_id": "38026",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_254",
+  "system": "1-Methylnaphthalene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Methylnaphthalene; C11H10; [90-12-0]",
+  "original_measurements": "Eganhouse, R.P.; Calder, J.A., Geochim. Cosmochim. Acta 1976, 40, 555-61.",
+  "variables": "Temperature = 25 °C",
+  "prepared_by": "A. Maczynski",
+  "critical_evaluation": "The solubility of 1-methylnaphthalene in water at 25°C was reported to be 25.8 mg(1)/kg (2) and 1.81 × 10^–4 mol(l) L (2).The corresponding mass percent and mole fraction, x_1, calculated by the compiler are 2.58 × 10^–3 g(1)/100 g sln and 3.27 × 10^–6.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A mixture of 500 mL (2) and 0.001 mol (1) was equilibrated in an Erlenmeyer flask for 12 h (agitation) + 24 h (stationary).  The saturated solution, 100 mL was extracted with hexane, concentrated by evaporation under nitrogen and analyzed by glc.  A 5700 A Hewlett-Packard instrument equipped with dual compensating columns and flame ionization detectors was employed.",
+  "source_purity": "(1) source not specified; analytical grade; used as received; no impurities by glc.\n(2) doubly distilled; free of trace organics.",
+  "estimated_error": "Solubility: ± 1.2 mg(1)/kg(2) (from eight determinations)\nTemperature: ± 0.5°C",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Methylnaphthalene",
+    "formula": "C11H10",
+    "cas": "90-12-0"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1-Methylnaphthalene with Water"
+ },
+ {
+  "sheet_id": "38_255",
+  "system_id": "38026",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_255",
+  "system": "1-Methylnaphthalene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Methylnaphthalene; C11H10; [90-12-0]",
+  "original_measurements": "Mackay, D.; Shiu, W.Y., J. Chem. Eng. Data. 1977, 22, 399-402.",
+  "variables": "Temperature = 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The solubility of 1-methylnaphthalene in water at  25°C was reported to be 28.5 mg(1) dm^–3 sln and x_1 = 3.55 × 10^–6.The corresponding mass percent calculated by the comiler is 0.00285 g(1)/100 g sln.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A saturated solution of (1) in (2) was vigorously stirred in a 250 mL flask for 24 hrs. and subsequently settled at 25°C for at least 48 hrs.  Then the saturated solution was decanted and filtered and 50-100 mL extracted with approximately 5 mL of cyclohexane in a separatory funnel.  After shaking for 2 hrs. the cyclohexane extract was removed for analysis.  An Aminco-Drowman spectrophotofluorometer (American Instruments Ltd.) was used for analysis.  Many details are given in the paper.",
+  "source_purity": "(1) Aldrich Chemicals, Eastman Kodak, or K and K Laboratories, commercial highest grade; used as received.\n(2) doubly distilled.",
+  "estimated_error": "Solubility: ± 0.3 mg(1) dm^-3 sln (maximum deviation from several determinations).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Methylnaphthalene",
+    "formula": "C11H10",
+    "cas": "90-12-0"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1-Methylnaphthalene with Water"
+ },
+ {
+  "sheet_id": "38_256",
+  "system_id": "38026",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_256",
+  "system": "1-Methylnaphthalene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Methylnaphthalene; C11H10; [90-12-0]",
+  "original_measurements": "Schwarz, F.P., J. Chem. Eng. Data. 1977, 22, 273-7.",
+  "variables": "Temperature = 8.6 °C - 31.7 °C",
+  "prepared_by": "A. Maczynski",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Two methods were used:\nAt 25°C the solubility of (1) in (2) was determined from UV absorption measurements and was used as a standard at other temperatures.  At other temperatures the spectrofluorimetry method was used.\nThe sealed fluorescence sells contained 5 mL of the aqueous solution and an excess of (1) were rotated at least 72 h in a water bath, then removed, quickly wiped dry and placed in the fluorimeter.",
+  "source_purity": "(1) source not specified; better than 99.9 mole%, by glc; used as received.\n(2) distilled over KMnO_4 and NaOH and passed through a Sephadex column.",
+  "estimated_error": "Solubility: see above.\nTemperature: ± 0.1°C",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Methylnaphthalene",
+    "formula": "C11H10",
+    "cas": "90-12-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^4 * Concentration c_1 [mol dm**-3]",
+     "g_1/100 g solution (compiler)",
+     "g_1/100 g soln. Note (compiler)",
+     "10^6 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "8.6",
+      "1.40 ± 0.03",
+      "1.99",
+      "3",
+      "2.52"
+     ],
+     [
+      "14.0",
+      "1.59 ± 0.03",
+      "2.26",
+      "3",
+      "2.86"
+     ],
+     [
+      "17.1",
+      "1.61 ± 0.03",
+      "2.29",
+      "3",
+      "2.90"
+     ],
+     [
+      "20.0",
+      "1.78 ± 0.02",
+      "2.53",
+      "3",
+      "3.21"
+     ],
+     [
+      "23.0",
+      "1.94 ± 0.02",
+      "2.76",
+      "3",
+      "3.49"
+     ],
+     [
+      "25.0",
+      "2.11 ± 0.07",
+      "3.00",
+      "3",
+      "3.80"
+     ],
+     [
+      "26.1",
+      "2.14 ± 0.02",
+      "3.04",
+      "3",
+      "3.85"
+     ],
+     [
+      "29.2",
+      "2.34 ± 0.05",
+      "3.33",
+      "3",
+      "4.21"
+     ],
+     [
+      "31.7",
+      "2.55 ± 0.04",
+      "3.27",
+      "3",
+      "4.59"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1-Methylnaphthalene with Water"
+ },
+ {
+  "sheet_id": "38_257",
+  "system_id": "38026",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_257",
+  "system": "1-Methylnaphthalene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Methylnaphthalene; C11H10; [90-12-0]",
+  "original_measurements": "Schwarz, F.P.; Wasik, S.P., J. Chem. Eng. Data 1977, 22, 270-3.",
+  "variables": "Temperature = 10 °C - 25 °C",
+  "prepared_by": "A. Maczynski",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility of (1) in (2) was determined from its absorbance.  Since the concentration of (1) in (2) are too low to determine its extinction coefficent accurately, the absorption measurements were performed on measured volumes of the saturated solutions diluted with equal volumes of ethanol.",
+  "source_purity": "(1) Chemical Samples Co., Columbus, Ohio; better than 99.9 mole%.\n(2) distilled from KMnO_4 and passed through a Sephadex column.",
+  "estimated_error": "Solubility: ± 2 x 10^-5 mol(1) dm^-3\nTemperature: ± 0.1°C",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Methylnaphthalene",
+    "formula": "C11H10",
+    "cas": "90-12-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^4 * Concentration c_1 [mol dm**-3]",
+     "g_1/100 g solution (compiler)",
+     "g_1/100 g soln. Note (compiler)",
+     "10^6 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "10",
+      "1.6",
+      "2.3",
+      "3",
+      "2.9"
+     ],
+     [
+      "14",
+      "2.0",
+      "2.8",
+      "3",
+      "3.6"
+     ],
+     [
+      "20",
+      "2.0",
+      "2.8",
+      "3",
+      "3.6"
+     ],
+     [
+      "25",
+      "2.1",
+      "3.0",
+      "3",
+      "3.8"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1-Methylnaphthalene with Water"
+ },
+ {
+  "sheet_id": "38_366",
+  "system_id": "38131",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_366",
+  "system": "1-Methylphenanthrene with Sodium chloride and Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Methylphenanthrene; C15H12; [832-69-6]\n(3) Sodium chloride; NaCl; [7647-14-5]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A saturated solution of (1) was prepared by pumping salt water through a \"generation column\" which was packed with glass beads coated with 1% by weight of (1). The saturated solution was extracted with an \"extractor column\" packed with a superficially porous bonded C_18 stationary phase, then a water-acetonitrile solvent was passed through for extraction. The extract was introduced into a liquid chromatograph and the concentration of (1) was measured with UV detector.",
+  "source_purity": "(1) Greater than 97% pure.\n(2) Reagent grade.\n(3) Distilled from potassium permanganate-sodium hydroxide and passed through an XAD-2 column",
+  "estimated_error": "Solubility: K_s ± 0.018; S_o ± 0.003\nTemperature: ± 0.05 °C",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Methylphenanthrene",
+    "formula": "C15H12",
+    "cas": "832-69-6"
+   },
+   {
+    "index": 3,
+    "name": "Sodium chloride",
+    "formula": "NaCl",
+    "cas": "7647-14-5"
+   }
+  ],
+  "tables": [],
+  "kind": "compilation",
+  "system_name": "1-Methylphenanthrene with Sodium chloride and Water"
+ },
+ {
+  "sheet_id": "38_365",
+  "system_id": "38132",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_365",
+  "system": "1-Methylphenanthrene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Methylphenanthrene; C15H12; [832-69-6]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The dynamic coupled column liquid chromatography (DCCLC) method was based on generating saturated solutions by pumping water through a column packed with glass beads that have been coated with the component (1) (generator column). The concentration of (1) in the effluent of the generator column was measured by a modification of the coupled column liquid chromatographic process that has been described in ref 1.",
+  "source_purity": "(1) Commercial product; less than 3% impurities.\n(2) Distilled over KMnO_4 and NaOH and passed through a column packed with XAD-2 (Rohm and Hass, Philadelphia, Pa).",
+  "estimated_error": "Solubility: stand. dev. See above.\nTemperature: ± 0.05 °C",
+  "references": "^1May, W.; Chesler, S.; Cram, S.; Gump, B.; Hertz, H.; Enagonio, D.; Dyszel, S., J. Chromatogr. Sci. 1975, 13, 535.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Methylphenanthrene",
+    "formula": "C15H12",
+    "cas": "832-69-6"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "g_1/100 g solution (compiler)",
+     "g_1/100 g soln. Note (compiler)",
+     "10^8 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "6.6",
+      "0.952",
+      "5",
+      "0.892"
+     ],
+     [
+      "8.9",
+      "1.14",
+      "5",
+      "1.07"
+     ],
+     [
+      "14.0",
+      "1.47",
+      "5",
+      "1.38"
+     ],
+     [
+      "19.2",
+      "1.93",
+      "5",
+      "1.81"
+     ],
+     [
+      "24.1",
+      "2.55",
+      "5",
+      "2.39"
+     ],
+     [
+      "25.0",
+      "2.69",
+      "5",
+      "2.69"
+     ],
+     [
+      "26.9",
+      "3.04",
+      "5",
+      "2.85"
+     ],
+     [
+      "29.9",
+      "3.55",
+      "5",
+      "3.32"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1-Methylphenanthrene with Water"
+ },
+ {
+  "sheet_id": "38_164",
+  "system_id": "38027",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=38_164",
+  "system": "1-Nonyne with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Nonyne; C9H16; [3452-09-3]",
+  "original_measurements": "McAuliffe, C., J. Phys. Chem. 1966, 70, 1267-75.",
+  "variables": "Temperature = 25 °C",
+  "prepared_by": "A. Maczynski, Z. Maczynska, and A. Szafranski",
+  "critical_evaluation": "The solubility of 1-nonyne in water at 25°C was reported to be 7.2 g(1)/10^6 g(2). The corresponding mass percent and mole fraction, x_1, calculated by the compilers are 0.00072 g(1)/100 g sln and 1.0 × 10^–6.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "In a 250-mL bottle, 10-20 mL of (1) was vigorously shaken for 1 hr, or magnetically stirred for 1 day, with 200 mL of (2) at 25°C.  The bottle was set aside for 2 days to allow droplets of undissolved (1) to separate.  Absence of emulsion was checked microscopically.  A sample of the hydrocarbon-saturated water was withdrawn with a Hamilton syringe and gas liquid chromatographed in conjuction with a flame-ionization detector.",
+  "source_purity": "(1) Phillips Petroleum or Columbia Chemical; used as received.\n(2) distilled.",
+  "estimated_error": "Solubility: 0.5 g(1)/10^6 g(2) (standard deviation of mean)\nTemperature: ± 1.5°C",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Nonyne",
+    "formula": "C9H16",
+    "cas": "3452-09-3"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1-Nonyne with Water"
+ }
+]

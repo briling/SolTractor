@@ -1,0 +1,7513 @@
+[
+ {
+  "sheet_id": "70_75",
+  "system_id": "70001",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=70_75",
+  "system": "2-Methylpropane with Poly(trimethylsilyl propyne) (PTMSP)",
+  "components": "(1) Poly(trimethylsilyl propyne) (PTMSP); ; [87842-32-8]\n(2) 2-Methylpropane; C4H10; [75-28-5]",
+  "original_measurements": "H. Odani, H. Shimomura, K. Nakanishi, T. Masuda and T. Higashimura, Japan-US Polymer Symposium, pp. 251-252 (1985).",
+  "variables": "Temperature = 298 K\nPressure = 0-100 kPa",
+  "prepared_by": "Yu. P. Yampol'skii",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Sorption was studied by a gravimetric method.",
+  "source_purity": "PTMSP: synthesized according to Ref. 1 and stored in methanol until used.",
+  "estimated_error": "Temperature: No information given.",
+  "references": "^1K. Tskada,.tH. Matsuya, T. Masuda, and T. Higashimura, J. AppI. Polym. Sci.30, 1605 (1985).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Poly(trimethylsilyl propyne) (PTMSP)",
+    "formula": "",
+    "cas": "87842-32-8"
+   },
+   {
+    "index": 2,
+    "name": "2-Methylpropane",
+    "formula": "C4H10",
+    "cas": "75-28-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Pressure [kPa]",
+     "Sorption [(V*_1(STP)/V*_2)]"
+    ],
+    "rows": [
+     [
+      "4.22",
+      "14.74"
+     ],
+     [
+      "9.03",
+      "20.59"
+     ],
+     [
+      "12.78",
+      "23.79"
+     ],
+     [
+      "24.40",
+      "30.22"
+     ],
+     [
+      "27.09",
+      "30.65"
+     ],
+     [
+      "41.94",
+      "35.56"
+     ],
+     [
+      "67.73",
+      "43.01"
+     ],
+     [
+      "93.33",
+      "50.19"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "2-Methylpropane with Poly(trimethylsilyl propyne) (PTMSP)"
+ },
+ {
+  "sheet_id": "70_38",
+  "system_id": "70002",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=70_38",
+  "system": "2-Methylpropane with Polystyrene (PS)",
+  "components": "(1) Polystyrene (PS); ; [9003-53-6]\n(2) 2-Methylpropane; C4H10; [75-28-5]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "Yu. P. Yampol-skii, A. V. Topchiev Institute of Petrochemical Synthesis, Russian Academy of Sciences, April, 1994",
+  "critical_evaluation": "",
+  "experimental_values": "Three experimental sutdies^1-3 are available for the solubility of 2-methylpropane in PS. The results have been obtained by means of inverse gas chromatography.\nSolubility coefficients S/(cm^3(STP) g^-1 atm^-1) from these papers are compared below.It is evident that there is a reasonable agreement between the data at higher temperatures, but at the lower temperature the discrepancy becomes significant. Further research is desirable to resolve this system.",
+  "notes": "",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  L.I. Stiel and D.F. Harnish,  AI.Ch.E. Journal 22, 117-122 (1976).\n2  M. Ohzono, Y. Iwai and Y. Arai, Kagaku Kogaku Ronbunshu 10, 536 (1984).\n3  Y. Iwai, M. Ohzono and Y. Arai, Chem. Eng. Commun. 34, 225 (1985).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Polystyrene (PS)",
+    "formula": "",
+    "cas": "9003-53-6"
+   },
+   {
+    "index": 2,
+    "name": "2-Methylpropane",
+    "formula": "C4H10",
+    "cas": "75-28-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Keunen coefficient, S",
+     "Reference"
+    ],
+    "rows": [
+     [
+      "423",
+      "1.20",
+      "1"
+     ],
+     [
+      "423",
+      "0.77",
+      "2,3"
+     ],
+     [
+      "448",
+      "0.86",
+      "1"
+     ],
+     [
+      "448",
+      "0.66",
+      "2,3"
+     ],
+     [
+      "473",
+      "0.65",
+      "1"
+     ],
+     [
+      "473",
+      "0.58",
+      "2,3"
+     ],
+     [
+      "498",
+      "0.52",
+      "1"
+     ],
+     [
+      "498",
+      "0.50",
+      "2,3"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "2-Methylpropane with Polystyrene (PS)"
+ },
+ {
+  "sheet_id": "70_78",
+  "system_id": "70003",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=70_78",
+  "system": "Argon with Krypton, Xenon, Carbon dioxide, Nitrous oxide, Methane and Poly(trimethylsilyl propyne) (PTMSP)",
+  "components": "(1) Poly(trimethylsilyl propyne) (PTMSP); ; [87842-32-8]\n(2) Argon with Krypton, Xenon, Carbon dioxide, Nitrous oxide, Methane; Ar, Kr, Xe, CO2, NO, CH4; [7440-37-1, 7439-90-9, 7440-63-3, 124-38-9, 10024-9]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Sorption measurements were performed using McBain balance as is described in Ref. 1",
+  "source_purity": "PTMSP: prepared by polymerization in the presence of TaCl_5 as a catalyst: density 0.964 g/cm^3 (measured in a gradient column). M_w = 590 000, M_w = 125 000, glass transition temperature 503 K.",
+  "estimated_error": "Temperature: No information given.",
+  "references": "^1 V. V. Volkov, A. K. Bokarev, and S. G. Durgaryan, Vysokomol. Soedin., Ser. A 26, 1294 (1984).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Poly(trimethylsilyl propyne) (PTMSP)",
+    "formula": "",
+    "cas": "87842-32-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical Name",
+     "10^2 * Henry's law constant, K [cm^3(STP) cm^-3 cm Hg^-1]",
+     "Langmuir's parameter, C_H [cm^3(STP) cm^-3]",
+     "Affinity Coefficient b [cm/Hg]"
+    ],
+    "rows": [
+     [
+      "CO2",
+      "4.70",
+      "47.70",
+      "0.141"
+     ],
+     [
+      "N20",
+      "6.15",
+      "42.88",
+      "0.329"
+     ],
+     [
+      "Xe",
+      "4.84",
+      "61.73",
+      "0.399"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Argon with Krypton, Xenon, Carbon dioxide, Nitrous oxide, Methane and Poly(trimethylsilyl propyne) (PTMSP)"
+ },
+ {
+  "sheet_id": "70_60",
+  "system_id": "70004",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=70_60",
+  "system": "Argon with Nitrogen, Carbon dioxide and Poly(vinyl benzoate) (PVB)",
+  "components": "(1) Argon with Nitrogen, Carbon dioxide; Ar, N2, CO2; [7440-37-1, 7727-37-9, 124-38-9]\n(2) Poly(vinyl benzoate) (PVB); ; [24991-32-0]",
+  "original_measurements": "Y. Kamiya, K. Mizoguchi, Y. Naito and T. Hirose, J. Polym. Sci., Polym. Phys. Ed. 24, 535 (1986).",
+  "variables": "Temperature = 298 K - 343 K\nPressure = 0-5.0 MPa",
+  "prepared_by": "A.K. Bokarev",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Sorption isotherms were measured gravimetrically with a Cahn model 2000 electrobalance.",
+  "source_purity": "Ar: purity 99.999 %.\nN_2: purity 99.999 %.\nCO_2: purity 99.99 %.\nPVB: reaction of poly(vinyl alcohol) and benzoyl chloride (see Ref. 1).",
+  "estimated_error": "Temperature: No information given.",
+  "references": "^1T. Hirose, K. Mizoguchi, and Y. Kamiya, 5. Appt. Polyin. Sci. 30, 401 (1985).",
+  "components_parsed": [
+   {
+    "index": 2,
+    "name": "Poly(vinyl benzoate) (PVB)",
+    "formula": "",
+    "cas": "24991-32-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Pressure [MPa]",
+     "Solubility [(V*_1(STP)/V*_2)]",
+     "Method/Comments"
+    ],
+    "rows": [
+     [
+      "308.2",
+      "0.20",
+      "0.09",
+      "Sorption"
+     ],
+     [
+      "308.2",
+      "0.61",
+      "0.26",
+      "Sorption"
+     ],
+     [
+      "308.2",
+      "1.10",
+      "0.44",
+      "Sorption"
+     ],
+     [
+      "308.2",
+      "2.08",
+      "0.79",
+      "Sorption"
+     ],
+     [
+      "308.2",
+      "3.05",
+      "1.11",
+      "Sorption"
+     ],
+     [
+      "308.2",
+      "4.03",
+      "1.39",
+      "Sorption"
+     ],
+     [
+      "308.2",
+      "5.01",
+      "1.68",
+      "Sorption"
+     ],
+     [
+      "308.2",
+      "0.36",
+      "0.15",
+      "Desorption"
+     ],
+     [
+      "308.2",
+      "0.85",
+      "0.37",
+      "Desorption"
+     ],
+     [
+      "308.2",
+      "1.33",
+      "0.55",
+      "Desorption"
+     ],
+     [
+      "308.2",
+      "2.56",
+      "0.98",
+      "Desorption"
+     ],
+     [
+      "308.2",
+      "3.54",
+      "1.26",
+      "Desorption"
+     ],
+     [
+      "308.2",
+      "4.52",
+      "1.58",
+      "Desorption"
+     ],
+     [
+      "323.2",
+      "0.22",
+      "0.05",
+      "Sorption"
+     ],
+     [
+      "323.2",
+      "0.61",
+      "0.17",
+      "Sorption"
+     ],
+     [
+      "323.2",
+      "1.09",
+      "0.31",
+      "Sorption"
+     ],
+     [
+      "323.2",
+      "2.07",
+      "0.58",
+      "Sorption"
+     ],
+     [
+      "323.2",
+      "3.06",
+      "0.82",
+      "Sorption"
+     ],
+     [
+      "323.2",
+      "4.04",
+      "1.07",
+      "Sorption"
+     ],
+     [
+      "323.2",
+      "5.02",
+      "1.29",
+      "Sorption"
+     ],
+     [
+      "323.2",
+      "0.36",
+      "0.10",
+      "Desoprtion"
+     ],
+     [
+      "323.2",
+      "0.85",
+      "0.25",
+      "Desorption"
+     ],
+     [
+      "323.2",
+      "1.59",
+      "0.47",
+      "Desorption"
+     ],
+     [
+      "323.2",
+      "2.57",
+      "0.73",
+      "Desorption"
+     ],
+     [
+      "323.2",
+      "3.31",
+      "0.92",
+      "Desorption"
+     ],
+     [
+      "323.2",
+      "4.28",
+      "1.14",
+      "Desorption"
+     ],
+     [
+      "338.2",
+      "0.22",
+      "0.02",
+      "Sorption"
+     ],
+     [
+      "338.2",
+      "0.61",
+      "0.10",
+      "Sorption"
+     ],
+     [
+      "338.2",
+      "1.09",
+      "0.21",
+      "Sorption"
+     ],
+     [
+      "338.2",
+      "2.07",
+      "0.42",
+      "Sorption"
+     ],
+     [
+      "338.2",
+      "3.05",
+      "0.62",
+      "Sorption"
+     ],
+     [
+      "338.2",
+      "4.04",
+      "0.81",
+      "Sorption"
+     ],
+     [
+      "338.2",
+      "5.02",
+      "0.99",
+      "Sorption"
+     ],
+     [
+      "338.2",
+      "0.35",
+      "0.07",
+      "DeSorption"
+     ],
+     [
+      "338.2",
+      "0.84",
+      "0.19",
+      "Desorption"
+     ],
+     [
+      "338.2",
+      "1.35",
+      "0.30",
+      "Desorption"
+     ],
+     [
+      "338.2",
+      "2.32",
+      "0.50",
+      "Desorption"
+     ],
+     [
+      "338.2",
+      "3.31",
+      "0.70",
+      "Desorption"
+     ],
+     [
+      "338.2",
+      "4.29",
+      "0.87",
+      "Desorption"
+     ]
+    ]
+   },
+   {
+    "headers": [
+     "T/K",
+     "Pressure [MPa]",
+     "Solubility [(V*_1(STP)/V*_2)]",
+     "Method/Comments"
+    ],
+    "rows": [
+     [
+      "298.2",
+      "0.11",
+      "0.15",
+      "Sorption"
+     ],
+     [
+      "298.2",
+      "0.60",
+      "0.77",
+      "Sorption"
+     ],
+     [
+      "298.2",
+      "1.09",
+      "1.29",
+      "Sorption"
+     ],
+     [
+      "298.2",
+      "2.12",
+      "2.25",
+      "Sorption"
+     ],
+     [
+      "298.2",
+      "3.09",
+      "3.09",
+      "Sorption"
+     ],
+     [
+      "298.2",
+      "4.13",
+      "3.87",
+      "Sorption"
+     ],
+     [
+      "298.2",
+      "4.52",
+      "4.14",
+      "Sorption"
+     ],
+     [
+      "298.2",
+      "5.02",
+      "4.47",
+      "Sorption"
+     ],
+     [
+      "298.2",
+      "0.35",
+      "0.49",
+      "Desorption"
+     ],
+     [
+      "298.2",
+      "0.85",
+      "1.01",
+      "Desorption"
+     ],
+     [
+      "298.2",
+      "1.58",
+      "1.80",
+      "Desorption"
+     ],
+     [
+      "298.2",
+      "2.55",
+      "2.71",
+      "Desorption"
+     ],
+     [
+      "298.2",
+      "3.78",
+      "3.68",
+      "Desorption"
+     ],
+     [
+      "308.2",
+      "0.07",
+      "0.06",
+      "Sorption"
+     ],
+     [
+      "308.2",
+      "0.60",
+      "0.63",
+      "Sorption"
+     ],
+     [
+      "308.2",
+      "1.08",
+      "1.09",
+      "Sorption"
+     ],
+     [
+      "308.2",
+      "2.07",
+      "1.92",
+      "Sorption"
+     ],
+     [
+      "308.2",
+      "3.04",
+      "2.71",
+      "Sorption"
+     ],
+     [
+      "308.2",
+      "4.04",
+      "3.33",
+      "Sorption"
+     ],
+     [
+      "308.2",
+      "5.02",
+      "3.96",
+      "Sorption"
+     ],
+     [
+      "308.2",
+      "0.22",
+      "0.24",
+      "Desorption"
+     ],
+     [
+      "308.2",
+      "0.86",
+      "0.89",
+      "Desorption"
+     ],
+     [
+      "308.2",
+      "1.58",
+      "1.54",
+      "Desorption"
+     ],
+     [
+      "308.2",
+      "2.57",
+      "2.34",
+      "Desorption"
+     ],
+     [
+      "308.2",
+      "3.54",
+      "3.03",
+      "Desorption"
+     ],
+     [
+      "308.2",
+      "4.23",
+      "3.47",
+      "Desorption"
+     ],
+     [
+      "338.2",
+      "0.22",
+      "0.15",
+      "Sorption"
+     ],
+     [
+      "338.2",
+      "0.60",
+      "0.41",
+      "Sorption"
+     ],
+     [
+      "338.2",
+      "1.09",
+      "0.70",
+      "Sorption"
+     ],
+     [
+      "338.2",
+      "2.07",
+      "1.29",
+      "Sorption"
+     ],
+     [
+      "338.2",
+      "3.09",
+      "1.83",
+      "Sorption"
+     ],
+     [
+      "338.2",
+      "4.03",
+      "2.32",
+      "Sorption"
+     ],
+     [
+      "338.2",
+      "5.01",
+      "2.82",
+      "Sorption"
+     ],
+     [
+      "338.2",
+      "0.35",
+      "0.26",
+      "Desorption"
+     ],
+     [
+      "338.2",
+      "0.84",
+      "0.60",
+      "Desorption"
+     ],
+     [
+      "338.2",
+      "1.57",
+      "1.05",
+      "Desorption"
+     ],
+     [
+      "338.2",
+      "2.55",
+      "1.63",
+      "Desorption"
+     ],
+     [
+      "338.2",
+      "3.54",
+      "2.13",
+      "Desorption"
+     ],
+     [
+      "338.2",
+      "4.52",
+      "2.61",
+      "Desorption"
+     ],
+     [
+      "343.2",
+      "0.11",
+      "0.09",
+      "Sorption"
+     ],
+     [
+      "343.2",
+      "0.36",
+      "0.18",
+      "Sorption"
+     ],
+     [
+      "343.2",
+      "1.08",
+      "0.50",
+      "Sorption"
+     ],
+     [
+      "343.2",
+      "2.06",
+      "0.92",
+      "Sorption"
+     ],
+     [
+      "343.2",
+      "3.05",
+      "1.34",
+      "Sorption"
+     ],
+     [
+      "343.2",
+      "4.27",
+      "1.80",
+      "Sorption"
+     ],
+     [
+      "343.2",
+      "5.02",
+      "2.10",
+      "Sorption"
+     ],
+     [
+      "343.2",
+      "0.60",
+      "0.27",
+      "Desorption"
+     ],
+     [
+      "343.2",
+      "1.82",
+      "0.84",
+      "Desorption"
+     ],
+     [
+      "343.2",
+      "3.78",
+      "1.65",
+      "Desorption"
+     ]
+    ]
+   },
+   {
+    "headers": [
+     "T/K",
+     "Chemical Name",
+     "Henry's law constant, K [cm^3 (STP) cm^-3 atm^-1]",
+     "Langmuir's parameter, C_H [cm^3(STP)/cm^3]",
+     "Affinity Coefficient b [atm^-1]"
+    ],
+    "rows": [
+     [
+      "308",
+      "N2",
+      "0.0230",
+      "1.07",
+      "0.0222"
+     ],
+     [
+      "323",
+      "N2",
+      "0.0217",
+      "0.44",
+      "0.0222"
+     ],
+     [
+      "338",
+      "N2",
+      "0.0207",
+      "—",
+      "—"
+     ],
+     [
+      "298",
+      "Ar",
+      "0.0597",
+      "2.30",
+      "0.0398"
+     ],
+     [
+      "308",
+      "Ar",
+      "0.0563",
+      "1.80",
+      "0.0387"
+     ],
+     [
+      "318",
+      "Ar",
+      "0.0510",
+      "1.30",
+      "0.0382"
+     ],
+     [
+      "328",
+      "Ar",
+      "0.0458",
+      "0.91",
+      "0.0358"
+     ],
+     [
+      "338",
+      "Ar",
+      "0.0510",
+      "—",
+      "—"
+     ],
+     [
+      "343",
+      "Ar",
+      "0.0444",
+      "—",
+      "—"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Argon with Nitrogen, Carbon dioxide and Poly(vinyl benzoate) (PVB)"
+ },
+ {
+  "sheet_id": "70_83",
+  "system_id": "70005",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=70_83",
+  "system": "Argon with Nitrogen, Carbon dioxide, Methane and Poly(2,6-dimethylphenylene oxide) (PPO)",
+  "components": "(1) Argon with Nitrogen, Carbon dioxide, Methane; Ar, N2, CO2, CH4; [7440-37-1, 7727-37-9, 124-38-9, 74-82-8]\n(2) Poly(2,6-dimethylphenylene oxide) (PPO); ; [24938-67-8]",
+  "original_measurements": "K. Toi, G. Morel and D.R. Paul, J. Appl. Polym. Sci. 27, 2997 (1982).",
+  "variables": "Temperature = 308 K\nPressure = 0-2.5 MPa",
+  "prepared_by": "A.K. Bokarev",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Sorption measurements were made using facilities and procedures described previously, Ref. 1",
+  "source_purity": "PPO: General Electric Co., M_w = 34 000. M_w = 22 600.",
+  "estimated_error": "Temperature: No information given.",
+  "references": "^1 D. R. PasI, 8cr. Bunsenges Plsys. Chem. 83, 294 (1979).",
+  "components_parsed": [
+   {
+    "index": 2,
+    "name": "Poly(2,6-dimethylphenylene oxide) (PPO)",
+    "formula": "",
+    "cas": "24938-67-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical Name",
+     "Henry's law constant, K [cm^3 (STP) cm^-3 atm^-1]",
+     "Langmuir's parameter, C_H [cm^3(STP) cm^-3]",
+     "Affinity Coefficient b [atm^-1]"
+    ],
+    "rows": [
+     [
+      "Ar",
+      "0.21",
+      "9.4",
+      "0.058"
+     ],
+     [
+      "CO2",
+      "0.95",
+      "27.5",
+      "0.250"
+     ],
+     [
+      "CH4",
+      "0.33",
+      "18.1",
+      "0.110"
+     ],
+     [
+      "N2",
+      "0.12",
+      "7.1",
+      "0.040"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Argon with Nitrogen, Carbon dioxide, Methane and Poly(2,6-dimethylphenylene oxide) (PPO)"
+ },
+ {
+  "sheet_id": "70_28",
+  "system_id": "70006",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=70_28",
+  "system": "Argon with Nitrogen, Carbon dioxide, Methane and Poly(ethyl methacrylate) (PEMA)",
+  "components": "(1) Poly(ethyl methacrylate) (PEMA); C3H8; [9003-42-3]\n(2) Argon with Nitrogen, Carbon dioxide, Methane; Ar, N2, CO2, CH4; [7440-37-1, 7727-37-9, 124-38-9, 74-82-8]",
+  "original_measurements": "J.S. Chiou and D.R. Paul, J. Membr. Sci. 45, 167 (1989).",
+  "variables": "Temperature = 298 K - 318 K\nPressure = 0-3.8 MPa",
+  "prepared_by": "Yu. P. Yampol'skii",
+  "critical_evaluation": "Solubility coefficient for N_2 at 308 K; 0.058 cm^3(STP) cm^-3 atm^-1 (calculated by compiler).",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Sorption isotherms were measured by the pressure decay method using a dual volume sorption cell.",
+  "source_purity": "PEMA: DuPont Co. (Elvacite 2042).\nM_w = 438 000, glass transition temp. 342 K (DSC method).",
+  "estimated_error": "Temperature: No information given.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Poly(ethyl methacrylate) (PEMA)",
+    "formula": "C3H8",
+    "cas": "9003-42-3"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Chemical Name",
+     "Henry's law constant, K [cm^3 (STP) cm^-3 atm^-1]",
+     "Langmuir's parameter, C_H [cm^3(STP) cm^-3]",
+     "Affinity Coefficient b [atm^-1]"
+    ],
+    "rows": [
+     [
+      "298",
+      "CH4",
+      "0.183",
+      "2.87",
+      "0.0677"
+     ],
+     [
+      "308",
+      "CH4",
+      "0.165",
+      "2.24",
+      "0.0536"
+     ],
+     [
+      "313",
+      "CH4",
+      "0.144",
+      "1.87",
+      "0.0422"
+     ],
+     [
+      "308",
+      "Ar",
+      "0.0902",
+      "1.20",
+      "0.0405"
+     ]
+    ]
+   },
+   {
+    "headers": [
+     "Pressure [MPa]",
+     "Sorption [V*_1(STP)/V*_2)]"
+    ],
+    "rows": [
+     [
+      "0.20",
+      "0.73"
+     ],
+     [
+      "0.42",
+      "1.41"
+     ],
+     [
+      "0.64",
+      "2.02"
+     ],
+     [
+      "0.82",
+      "2.55"
+     ],
+     [
+      "1.02",
+      "3.03"
+     ],
+     [
+      "1.25",
+      "3.62"
+     ],
+     [
+      "0.26",
+      "0.55"
+     ],
+     [
+      "0.27",
+      "0.59"
+     ],
+     [
+      "0.55",
+      "1.12"
+     ],
+     [
+      "0.66",
+      "1.40"
+     ],
+     [
+      "0.81",
+      "1.60"
+     ],
+     [
+      "0.97",
+      "1.91"
+     ],
+     [
+      "1.24",
+      "2.45"
+     ],
+     [
+      "1.43",
+      "4.11"
+     ],
+     [
+      "1.63",
+      "4.50"
+     ],
+     [
+      "1.85",
+      "5.05"
+     ],
+     [
+      "2.06",
+      "5.62"
+     ],
+     [
+      "2.28",
+      "5.95"
+     ],
+     [
+      "2.47",
+      "6.19"
+     ],
+     [
+      "1.37",
+      "2.65"
+     ],
+     [
+      "1.43",
+      "2.81"
+     ],
+     [
+      "1.74",
+      "3.29"
+     ],
+     [
+      "1.96",
+      "3.62"
+     ],
+     [
+      "2.19",
+      "4.16"
+     ],
+     [
+      "2.29",
+      "4.14"
+     ],
+     [
+      "2.50",
+      "4.51"
+     ],
+     [
+      "2.71",
+      "6.85"
+     ],
+     [
+      "2.90",
+      "7.18"
+     ],
+     [
+      "3.33",
+      "8.10"
+     ],
+     [
+      "3.39",
+      "8.27"
+     ],
+     [
+      "2.67",
+      "4.89"
+     ],
+     [
+      "2.76",
+      "4.99"
+     ],
+     [
+      "3.00",
+      "5.39"
+     ],
+     [
+      "3.29",
+      "5.83"
+     ],
+     [
+      "3.30",
+      "5.89"
+     ],
+     [
+      "3.37",
+      "6.42"
+     ],
+     [
+      "3.67",
+      "6.42"
+     ]
+    ]
+   },
+   {
+    "headers": [
+     "Chemical Name",
+     "Pressure [MPa]",
+     "Sorption [V*_1(STP)/V*_2)]"
+    ],
+    "rows": [
+     [
+      "Ar",
+      "0.27",
+      "0.33"
+     ],
+     [
+      "Ar",
+      "0.39",
+      "0.48"
+     ],
+     [
+      "Ar",
+      "0.50",
+      "0.61"
+     ],
+     [
+      "Ar",
+      "0.77",
+      "0.94"
+     ],
+     [
+      "Ar",
+      "0.85",
+      "1.07"
+     ],
+     [
+      "Ar",
+      "1.04",
+      "1.22"
+     ],
+     [
+      "Ar",
+      "1.26",
+      "1.51"
+     ],
+     [
+      "Ar",
+      "1.40",
+      "1.68"
+     ],
+     [
+      "Ar",
+      "1.61",
+      "1.94"
+     ],
+     [
+      "Ar",
+      "1.75",
+      "2.05"
+     ],
+     [
+      "Ar",
+      "1.98",
+      "2.25"
+     ],
+     [
+      "Ar",
+      "2.04",
+      "2.42"
+     ],
+     [
+      "Ar",
+      "2.27",
+      "2.66"
+     ],
+     [
+      "Ar",
+      "2.45",
+      "2.77"
+     ],
+     [
+      "Ar",
+      "2.79",
+      "3.21"
+     ],
+     [
+      "Ar",
+      "2.85",
+      "3.21"
+     ],
+     [
+      "Ar",
+      "3.29",
+      "3.69"
+     ],
+     [
+      "Ar",
+      "3.43",
+      "3.82"
+     ],
+     [
+      "Ar",
+      "3.68",
+      "4.08"
+     ],
+     [
+      "CH4",
+      "0.25",
+      "0.70"
+     ],
+     [
+      "CH4",
+      "0.51",
+      "1.29"
+     ],
+     [
+      "CH4",
+      "0.75",
+      "1.89"
+     ],
+     [
+      "CH4",
+      "1.02",
+      "2.44"
+     ],
+     [
+      "CH4",
+      "1.34",
+      "3.20"
+     ],
+     [
+      "CH4",
+      "1.52",
+      "3.44"
+     ],
+     [
+      "CH4",
+      "1.82",
+      "4.15"
+     ],
+     [
+      "CH4",
+      "2.14",
+      "4.63"
+     ],
+     [
+      "CH4",
+      "2.23",
+      "5.00"
+     ],
+     [
+      "CH4",
+      "2.60",
+      "5.57"
+     ],
+     [
+      "CH4",
+      "2.83",
+      "6.01"
+     ],
+     [
+      "CH4",
+      "3.09",
+      "6.42"
+     ],
+     [
+      "CH4",
+      "3.20",
+      "6.71"
+     ],
+     [
+      "CH4",
+      "3.54",
+      "7.34"
+     ],
+     [
+      "CH4 (films conditioned in 30 atm of CO2)",
+      "0.33",
+      "0.90"
+     ],
+     [
+      "CH4 (films conditioned in 30 atm of CO2)",
+      "0.52",
+      "1.38"
+     ],
+     [
+      "CH4 (films conditioned in 30 atm of CO2)",
+      "0.61",
+      "1.62"
+     ],
+     [
+      "CH4 (films conditioned in 30 atm of CO2)",
+      "0.77",
+      "2.02"
+     ],
+     [
+      "CH4 (films conditioned in 30 atm of CO2)",
+      "0.92",
+      "2.30"
+     ],
+     [
+      "CH4 (films conditioned in 30 atm of CO2)",
+      "1.03",
+      "2.70"
+     ],
+     [
+      "CH4 (films conditioned in 30 atm of CO2)",
+      "1.28",
+      "3.09"
+     ],
+     [
+      "CH4 (films conditioned in 30 atm of CO2)",
+      "1.42",
+      "3.47"
+     ],
+     [
+      "CH4 (films conditioned in 30 atm of CO2)",
+      "1.62",
+      "3.75"
+     ],
+     [
+      "CH4 (films conditioned in 30 atm of CO2)",
+      "2.00",
+      "4.47"
+     ],
+     [
+      "CH4 (films conditioned in 30 atm of CO2)",
+      "2.07",
+      "4.69"
+     ],
+     [
+      "CH4 (films conditioned in 30 atm of CO2)",
+      "2.33",
+      "5.2"
+     ],
+     [
+      "CH4 (films conditioned in 30 atm of CO2)",
+      "2.53",
+      "5.28"
+     ],
+     [
+      "CH4 (films conditioned in 30 atm of CO2)",
+      "2.73",
+      "5.66"
+     ],
+     [
+      "CH4 (films conditioned in 30 atm of CO2)",
+      "2.76",
+      "5.90"
+     ],
+     [
+      "N2",
+      "0.28",
+      "0.17"
+     ],
+     [
+      "N2",
+      "0.34",
+      "0.26"
+     ],
+     [
+      "N2",
+      "0.62",
+      "0.41"
+     ],
+     [
+      "N2",
+      "0.68",
+      "0.46"
+     ],
+     [
+      "N2",
+      "0.90",
+      "0.59"
+     ],
+     [
+      "N2",
+      "1.05",
+      "0.61"
+     ],
+     [
+      "N2",
+      "1.45",
+      "0.87"
+     ],
+     [
+      "N2",
+      "1.56",
+      "0.95"
+     ],
+     [
+      "N2",
+      "1.62",
+      "0.95"
+     ],
+     [
+      "N2",
+      "1.89",
+      "1.10"
+     ],
+     [
+      "N2",
+      "2.11",
+      "1.23"
+     ],
+     [
+      "N2",
+      "2.25",
+      "1.34"
+     ],
+     [
+      "N2",
+      "2.32",
+      "1.39"
+     ],
+     [
+      "N2",
+      "2.63",
+      "1.54"
+     ],
+     [
+      "N2",
+      "2.83",
+      "1.62"
+     ],
+     [
+      "N2",
+      "2.91",
+      "1.73"
+     ],
+     [
+      "N2",
+      "3.16",
+      "1.86"
+     ],
+     [
+      "N2",
+      "3.39",
+      "2.03"
+     ],
+     [
+      "N2",
+      "3.53",
+      "1.99"
+     ],
+     [
+      "N2",
+      "3.67",
+      "2.21"
+     ],
+     [
+      "N2",
+      "3.78",
+      "2.21"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Argon with Nitrogen, Carbon dioxide, Methane and Poly(ethyl methacrylate) (PEMA)"
+ },
+ {
+  "sheet_id": "70_7",
+  "system_id": "70007",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=70_7",
+  "system": "Argon with Nitrogen, Carbon dioxide, Methane and Poly(vinyl chloride) (PVC)",
+  "components": "(1) Argon with Nitrogen, Carbon dioxide, Methane; Ar, N2, CO2, CH4; [7440-37-1, 7727-37-9, 124-38-9, 74-82-8]\n(2) Poly(vinyl chloride) (PVC); ; [9002-86-2]",
+  "original_measurements": "M.J. El-Hibri and D.R. Paul, J. Appl. Polym. Sci. 31, 2533 (1986).",
+  "variables": "Temperature = 308 K\nPressure = 0-2.5 MPa (0-25 atm)",
+  "prepared_by": "Yu. P. Yampol'skii",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^*  No drawing, annealing at 358 K.\n^**  Stretching to draw ratio 3 at 358 K.",
+  "method": "The sorption measurement was carried out using the pressure decay method, Ref. 1.",
+  "source_purity": "CH_4: purity 99 %.\nOther gases: purity 99.7 %.\nPVC: B.F. Goodrich Co. (CS 5760); density 1.389 g/cm^3, glass transition temperature 344 K. It contained 2 % of tin stabilizer.",
+  "estimated_error": "Temperature: No information given.",
+  "references": "^1 W.J. Koros, D.R. Paul, A.A. Rocha, J. Polym. Sci., Polym, Phys. Ed. 14, 687 (1976).",
+  "components_parsed": [
+   {
+    "index": 2,
+    "name": "Poly(vinyl chloride) (PVC)",
+    "formula": "",
+    "cas": "9002-86-2"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Chemical Name",
+     "Henry's law constant, K [cm^3(STP) cm^-3 cm Hg^-1]",
+     "Langmuir's parameter, C_H [cm^3(STP) cm^-3]",
+     "Affinity Coefficient b [atm^-1]"
+    ],
+    "rows": [
+     [
+      "308",
+      "Ar",
+      "0.0377",
+      "1.1320",
+      "0.0410"
+     ],
+     [
+      "308",
+      "N2",
+      "0.0169",
+      "0.4505",
+      "0.0448"
+     ],
+     [
+      "308",
+      "Co2",
+      "0.5870",
+      "8.9390",
+      "0.2094"
+     ],
+     [
+      "308",
+      "CO2*",
+      "0.6340",
+      "4.8500",
+      "0.3610"
+     ],
+     [
+      "308",
+      "CO2**",
+      "0.5800",
+      "5.1600",
+      "0.2430"
+     ],
+     [
+      "308",
+      "CH4",
+      "0.0513",
+      "2.3050",
+      "0.0622"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Argon with Nitrogen, Carbon dioxide, Methane and Poly(vinyl chloride) (PVC)"
+ },
+ {
+  "sheet_id": "70_164",
+  "system_id": "70008",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=70_164",
+  "system": "Argon with Nitrogen, Carbon dioxide, Methane and Polyethersulfone (PES) Victrex 600 P",
+  "components": "(1) Argon with Nitrogen, Carbon dioxide, Methane; Ar, N2, CO2, CH4; [7440-37-1, 7727-37-9, 124-38-9, 74-82-8]\n(2) Polyethersulfone (PES) Victrex 600 P; ; [25667-42-9]",
+  "original_measurements": "E.S. Sanders, J. Membr. Sci. 37, 63 (1988).",
+  "variables": "Temperature = 308 K\nPressure = 0-4.0 MPa",
+  "prepared_by": "Yu. P. Yampol'skii",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A high pressure sorption apparatus used was very similar to equipment described in Ref. 1.",
+  "source_purity": "Amorphous PES (grade 600 P. VICTREX): ICI, glass transition temperature 508 K.",
+  "estimated_error": "Temperature: No information given.",
+  "references": "^1E, S. Sanders, W. I. Koros, H. B. Hopfenberg, and V. T. Stannett, J. Membr. Sci. 13, 161 (1983).",
+  "components_parsed": [
+   {
+    "index": 2,
+    "name": "Polyethersulfone (PES) Victrex 600 P",
+    "formula": "",
+    "cas": "25667-42-9"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical Name",
+     "Henry's law constant, K [cm3(STP) cm-3 atm -1]",
+     "Langmuir's parameter, C_H [cm^3(STP) cm^-3]",
+     "Affinity Coefficient b [atm^-1]"
+    ],
+    "rows": [
+     [
+      "Ar",
+      "0.147",
+      "7.23",
+      "0.054"
+     ],
+     [
+      "CO2",
+      "0.631",
+      "29.78",
+      "0.313"
+     ],
+     [
+      "CH4",
+      "0.168",
+      "10.80",
+      "0.123"
+     ],
+     [
+      "N2",
+      "0.086",
+      "5.98",
+      "0.047"
+     ]
+    ]
+   },
+   {
+    "headers": [
+     "Chemical Name",
+     "Pressure [MPa]",
+     "Sorption [(V*_1(STP)/V*_2)]"
+    ],
+    "rows": [
+     [
+      "Ar",
+      "0.20",
+      "1.00"
+     ],
+     [
+      "Ar",
+      "0.32",
+      "1.48"
+     ],
+     [
+      "Ar",
+      "0.51",
+      "2.32"
+     ],
+     [
+      "Ar",
+      "0.89",
+      "3.68"
+     ],
+     [
+      "Ar",
+      "1.02",
+      "4.06"
+     ],
+     [
+      "Ar",
+      "1.35",
+      "5.00"
+     ],
+     [
+      "Ar",
+      "1.47",
+      "5.26"
+     ],
+     [
+      "Ar",
+      "1.83",
+      "6.32"
+     ],
+     [
+      "Ar",
+      "1.87",
+      "6.39"
+     ],
+     [
+      "Ar",
+      "2.12",
+      "6.84"
+     ],
+     [
+      "Ar",
+      "2.52",
+      "7.90"
+     ],
+     [
+      "Ar",
+      "2.67",
+      "8.10"
+     ],
+     [
+      "Ar",
+      "3.06",
+      "9.03"
+     ],
+     [
+      "Ar",
+      "3.32",
+      "9.52"
+     ],
+     [
+      "CO2",
+      "0.15",
+      "11.38"
+     ],
+     [
+      "CO2",
+      "0.18",
+      "12.79"
+     ],
+     [
+      "CO2",
+      "0.27",
+      "14.60"
+     ],
+     [
+      "CO2",
+      "0.27",
+      "15.91"
+     ],
+     [
+      "CO2",
+      "0.30",
+      "15.90"
+     ],
+     [
+      "CO2",
+      "0.40",
+      "18.02"
+     ],
+     [
+      "CO2",
+      "0.46",
+      "20.63"
+     ],
+     [
+      "CO2",
+      "0.58",
+      "23.04"
+     ],
+     [
+      "CO2",
+      "0.69",
+      "24.75"
+     ],
+     [
+      "CO2",
+      "0.77",
+      "25.76"
+     ],
+     [
+      "CO2",
+      "1.07",
+      "29.37"
+     ],
+     [
+      "CO2",
+      "1.21",
+      "31.58"
+     ],
+     [
+      "CO2",
+      "1.45",
+      "34.19"
+     ],
+     [
+      "CO2",
+      "1.27",
+      "31.47"
+     ],
+     [
+      "CO2",
+      "1.74",
+      "36.89"
+     ],
+     [
+      "CO2",
+      "1.78",
+      "36.79"
+     ],
+     [
+      "CO2",
+      "1.83",
+      "37.49"
+     ],
+     [
+      "CO2",
+      "2.09",
+      "39.90"
+     ],
+     [
+      "CO2",
+      "2.15",
+      "39.89"
+     ],
+     [
+      "CO2",
+      "2.21",
+      "39.89"
+     ],
+     [
+      "CO2",
+      "2.23",
+      "41.10"
+     ],
+     [
+      "CO2",
+      "2.40",
+      "41.39"
+     ],
+     [
+      "CO2",
+      "2.49",
+      "41.89"
+     ],
+     [
+      "CO2",
+      "2.61",
+      "43.80"
+     ],
+     [
+      "CO2",
+      "2.62",
+      "42.89"
+     ],
+     [
+      "CO2",
+      "2.61",
+      "42.29"
+     ],
+     [
+      "CO2",
+      "2.86",
+      "44.79"
+     ],
+     [
+      "CH4",
+      "0.32",
+      "3.81"
+     ],
+     [
+      "CH4",
+      "0.51",
+      "5.21"
+     ],
+     [
+      "CH4",
+      "0.93",
+      "7.51"
+     ],
+     [
+      "CH4",
+      "0.97",
+      "7.71"
+     ],
+     [
+      "CH4",
+      "1.18",
+      "8.61"
+     ],
+     [
+      "CH4",
+      "1.72",
+      "10.39 -"
+     ],
+     [
+      "CH4",
+      "1.79",
+      "10.69 -"
+     ],
+     [
+      "CH4",
+      "1.89",
+      "10.89"
+     ],
+     [
+      "CH4",
+      "2.35",
+      "12.28"
+     ],
+     [
+      "CH4",
+      "2.37",
+      "12.17"
+     ],
+     [
+      "CH4",
+      "2.66",
+      "12.87"
+     ],
+     [
+      "CH4",
+      "2.88",
+      "13.56"
+     ],
+     [
+      "CH4",
+      "2.91",
+      "13.26"
+     ],
+     [
+      "CH4",
+      "3.31",
+      "14.34"
+     ],
+     [
+      "CH4",
+      "3.65",
+      "15.13"
+     ],
+     [
+      "N2",
+      "0.22",
+      "0.77"
+     ],
+     [
+      "N2",
+      "0.35",
+      "1.13"
+     ],
+     [
+      "N2",
+      "0.45",
+      "1.35"
+     ],
+     [
+      "N2",
+      "0.49",
+      "1.52 -"
+     ],
+     [
+      "N2",
+      "0.62",
+      "1.94"
+     ],
+     [
+      "N2",
+      "0.77",
+      "2.23"
+     ],
+     [
+      "N2",
+      "0.89",
+      "2.52"
+     ],
+     [
+      "N2",
+      "1.03",
+      "2.81"
+     ],
+     [
+      "N2",
+      "1.17",
+      "3.10"
+     ],
+     [
+      "N2",
+      "1.27",
+      "3.26"
+     ],
+     [
+      "N2",
+      "1.41",
+      "3.58"
+     ],
+     [
+      "N2",
+      "1.47",
+      "3.68"
+     ],
+     [
+      "N2",
+      "1.84",
+      "4.29"
+     ],
+     [
+      "N2",
+      "1.98",
+      "4.55"
+     ],
+     [
+      "N2",
+      "2.23",
+      "4.87"
+     ],
+     [
+      "N2",
+      "2.33",
+      "5.16"
+     ],
+     [
+      "N2",
+      "2.57",
+      "5.58"
+     ],
+     [
+      "N2",
+      "3.02",
+      "5.90"
+     ],
+     [
+      "N2",
+      "3.24",
+      "6.45"
+     ],
+     [
+      "N2",
+      "3.41",
+      "6.48"
+     ],
+     [
+      "N2",
+      "3.69",
+      "6.97"
+     ],
+     [
+      "N2",
+      "3.91",
+      "7.26"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Argon with Nitrogen, Carbon dioxide, Methane and Polyethersulfone (PES) Victrex 600 P"
+ },
+ {
+  "sheet_id": "70_42",
+  "system_id": "70009",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=70_42",
+  "system": "Argon with Nitrogen, Carbon dioxide, Methane and Polystyrene (PS)",
+  "components": "(1) Polystyrene (PS); ; [9003-53-6]\n(2) Argon with Nitrogen, Carbon dioxide, Methane; Ar, N2, CO2, CH4; [7440-37-1, 7727-37-9, 124-38-9, 74-82-8]",
+  "original_measurements": "W.R. Vieth, P.M. Tam and A.S. Michaels, J. Colloid Interface Sci. 22, 360 (1966).",
+  "variables": "Temperature = 298 K\nPressure = 0-2.1 MPa (0-20 atm)",
+  "prepared_by": "A.K. Bokarev",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A direct measurement of the solubility was made with a volumetric apparatus. With the film sample placed in the sorption bomb, the sorption system is evacuated and flushed with gas several times. The system is then evacuated to 0.02mm Hg. Gas is then introduced rapidly; and the initial pressure recorded. Sorption takes place instantaneously and proceeds until the equilibrium pressure is established.",
+  "source_purity": "Gases: minimum purity 99.99 %.\nBiaxially oriented PS film; Dow Chemical Co., density 1.0490 g/cm^3.\nCast annealed PS film: prepared from a solution of about 20 % by weight of oriented PS in methylene dichloride, density 1.0474 g/cm^3.",
+  "estimated_error": "Solubility: Relative precision of solubilities: CO_2 8.1%; CH_4 6.3%; Ar 10.5%; N_2 15%.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Polystyrene (PS)",
+    "formula": "",
+    "cas": "9003-53-6"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical Name",
+     "Henry's law constant, K [cm^3 (STP)/g atm]",
+     "Langmuir's parameter, C_H [cm^3(STP) cm^-3]",
+     "Affinity Coefficient b [atm^-1]",
+     "Remark(s)"
+    ],
+    "rows": [
+     [
+      "N2",
+      "0.02",
+      "6.65",
+      "0.015",
+      "oriented---First Run"
+     ],
+     [
+      "Ar",
+      "0.06",
+      "7.55",
+      "0.021",
+      "oriented"
+     ],
+     [
+      "CH4",
+      "0.13",
+      "5.58",
+      "0.080",
+      "oriented"
+     ],
+     [
+      "CO2",
+      "0.57",
+      "6.05",
+      "0.400",
+      "oriented"
+     ],
+     [
+      "N2",
+      "0.025",
+      "8.3",
+      "0.013",
+      "unoriented"
+     ],
+     [
+      "Ar",
+      "0.065",
+      "9.1",
+      "0.021",
+      "unoriented"
+     ],
+     [
+      "CH4",
+      "0.160",
+      "7.4",
+      "0.108",
+      "unoriented"
+     ],
+     [
+      "CO2",
+      "0.650",
+      "7.7",
+      "0.370",
+      "unoriented"
+     ]
+    ]
+   },
+   {
+    "headers": [
+     "Chemical Name",
+     "Pressure [MPa]",
+     "Sorption [(V*_1(STP)/V*_2)]",
+     "Remark(s)"
+    ],
+    "rows": [
+     [
+      "Ar",
+      "0.42",
+      "0.98",
+      "oriented"
+     ],
+     [
+      "Ar",
+      "0.79",
+      "1.68",
+      "oriented"
+     ],
+     [
+      "Ar",
+      "1.12",
+      "2.17",
+      "oriented"
+     ],
+     [
+      "Ar",
+      "1.43",
+      "2.75",
+      "oriented"
+     ],
+     [
+      "Ar",
+      "1.78",
+      "3.25",
+      "oriented"
+     ],
+     [
+      "Ar",
+      "2.04",
+      "3.32",
+      "oriented"
+     ],
+     [
+      "CO2",
+      "0.14",
+      "3.07",
+      "oriented"
+     ],
+     [
+      "CO2",
+      "0.27",
+      "4.63",
+      "oriented"
+     ],
+     [
+      "CO2",
+      "0.41",
+      "6.19",
+      "oriented"
+     ],
+     [
+      "CO2",
+      "0.55",
+      "7.54",
+      "oriented"
+     ],
+     [
+      "CO2",
+      "0.69",
+      "8.77",
+      "oriented"
+     ],
+     [
+      "CO2",
+      "0.86",
+      "9.84",
+      "oriented"
+     ],
+     [
+      "CO2",
+      "1.02",
+      "10.86",
+      "oriented"
+     ],
+     [
+      "CO2",
+      "1.17",
+      "11.97",
+      "oriented"
+     ],
+     [
+      "CO2",
+      "1.37",
+      "13.12",
+      "oriented"
+     ],
+     [
+      "CO2",
+      "1.55",
+      "14.39",
+      "oriented"
+     ],
+     [
+      "CO2",
+      "1.73",
+      "15.33",
+      "oriented"
+     ],
+     [
+      "CH4",
+      "0.34",
+      "1.80",
+      "oriented"
+     ],
+     [
+      "CH4",
+      "0.51",
+      "2.54",
+      "oriented"
+     ],
+     [
+      "CH4",
+      "0.78",
+      "3.36",
+      "oriented"
+     ],
+     [
+      "CH4",
+      "1.05",
+      "4.14",
+      "oriented"
+     ],
+     [
+      "CH4",
+      "1.34",
+      "4.88",
+      "oriented"
+     ],
+     [
+      "CH4",
+      "1.63",
+      "5.49",
+      "oriented"
+     ],
+     [
+      "CH4",
+      "1.90",
+      "6.19",
+      "oriented"
+     ],
+     [
+      "N2",
+      "0.47",
+      "0.66",
+      "oriented"
+     ],
+     [
+      "N2",
+      "0.99",
+      "1.07",
+      "oriented"
+     ],
+     [
+      "N2",
+      "1.53",
+      "1.56",
+      "oriented"
+     ],
+     [
+      "N2",
+      "1.99",
+      "1.93",
+      "oriented"
+     ],
+     [
+      "Ar",
+      "0.54",
+      "1.23",
+      "unoriented"
+     ],
+     [
+      "Ar",
+      "0.99",
+      "1.97",
+      "unoriented"
+     ],
+     [
+      "Ar",
+      "1.50",
+      "2.71",
+      "unoriented"
+     ],
+     [
+      "Ar",
+      "1.84",
+      "3.20",
+      "unoriented"
+     ],
+     [
+      "Ar",
+      "2.06",
+      "3.48",
+      "unoriented"
+     ],
+     [
+      "CO2",
+      "0.17",
+      "3.36",
+      "unoriented"
+     ],
+     [
+      "CO2",
+      "0.34",
+      "5.57",
+      "unoriented"
+     ],
+     [
+      "CO2",
+      "0.51",
+      "7.42",
+      "unoriented"
+     ],
+     [
+      "CO2",
+      "0.68",
+      "8.89",
+      "unoriented"
+     ],
+     [
+      "CO2",
+      "0.88",
+      "10.29",
+      "unoriented"
+     ],
+     [
+      "CO2",
+      "1.08",
+      "11.56",
+      "unoriented"
+     ],
+     [
+      "CO2",
+      "1.32",
+      "12.91",
+      "unoriented"
+     ],
+     [
+      "CO2",
+      "1.54",
+      "14.47",
+      "unoriented"
+     ],
+     [
+      "CO2",
+      "1.77",
+      "15.53",
+      "unoriented"
+     ],
+     [
+      "CH4",
+      "0.43",
+      "2.38",
+      "unoriented"
+     ],
+     [
+      "CH4",
+      "0.85",
+      "3.57",
+      "unoriented"
+     ],
+     [
+      "CH4",
+      "1.26",
+      "4.67",
+      "unoriented"
+     ],
+     [
+      "CH4",
+      "1.77",
+      "5.78",
+      "unoriented"
+     ],
+     [
+      "CH4",
+      "2.02",
+      "6.27",
+      "unoriented"
+     ],
+     [
+      "N2",
+      "0.60",
+      "0.82",
+      "unoriented"
+     ],
+     [
+      "N2",
+      "1.08",
+      "1.15",
+      "unoriented"
+     ],
+     [
+      "N2",
+      "1.57",
+      "1.64",
+      "unoriented"
+     ],
+     [
+      "N2",
+      "2.06",
+      "1.97",
+      "unoriented"
+     ],
+     [
+      "Ar",
+      "0.56",
+      "1.60",
+      "oriented----Second Run"
+     ],
+     [
+      "Ar",
+      "1.05",
+      "2.42",
+      "oriented"
+     ],
+     [
+      "Ar",
+      "1.42",
+      "3.20",
+      "oriented"
+     ],
+     [
+      "Ar",
+      "1.77",
+      "3.73",
+      "oriented"
+     ],
+     [
+      "Ar",
+      "2.10",
+      "4.30",
+      "oriented"
+     ],
+     [
+      "CO2",
+      "0.35",
+      "6.35",
+      "oriented"
+     ],
+     [
+      "CO2",
+      "0.69",
+      "9.88",
+      "oriented"
+     ],
+     [
+      "CO2",
+      "1.04",
+      "13.12",
+      "oriented"
+     ],
+     [
+      "CO2",
+      "1.35",
+      "15.04",
+      "oriented"
+     ],
+     [
+      "CO2",
+      "1.75",
+      "18.40",
+      "oriented"
+     ],
+     [
+      "CO2",
+      "1.98",
+      "19.88",
+      "oriented"
+     ],
+     [
+      "CH4",
+      "0.48",
+      "3.40",
+      "oriented"
+     ],
+     [
+      "CH4",
+      "0.93",
+      "5.16",
+      "oriented"
+     ],
+     [
+      "CH4",
+      "1.36",
+      "6.60",
+      "oriented"
+     ],
+     [
+      "CH4",
+      "1.79",
+      "7.87",
+      "oriented"
+     ],
+     [
+      "CH4",
+      "2.06",
+      "8.44",
+      "oriented"
+     ],
+     [
+      "N2",
+      "0.58",
+      "0.98",
+      "oriented"
+     ],
+     [
+      "N2",
+      "1.09",
+      "1.48",
+      "oriented"
+     ],
+     [
+      "N2",
+      "1.55",
+      "1.89",
+      "oriented"
+     ],
+     [
+      "N2",
+      "2.09",
+      "2.42",
+      "oriented"
+     ],
+     [
+      "Ar",
+      "0.43",
+      "1.23",
+      "unoriented"
+     ],
+     [
+      "Ar",
+      "1.01",
+      "2.34",
+      "unoriented"
+     ],
+     [
+      "Ar",
+      "1.70",
+      "3.57",
+      "unoriented"
+     ],
+     [
+      "Ar",
+      "2.09",
+      "4.10",
+      "unoriented"
+     ],
+     [
+      "CO2",
+      "0.29",
+      "5.82",
+      "unoriented"
+     ],
+     [
+      "CO2",
+      "0.83",
+      "11.39",
+      "unoriented"
+     ],
+     [
+      "CO2",
+      "1.39",
+      "15.70",
+      "unoriented"
+     ],
+     [
+      "CO2",
+      "1.89",
+      "18.89",
+      "unoriented"
+     ],
+     [
+      "CH4",
+      "0.48",
+      "3.40",
+      "unoriented"
+     ],
+     [
+      "CH4",
+      "0.97",
+      "5.25",
+      "unoriented"
+     ],
+     [
+      "CH4",
+      "1.59",
+      "7.21",
+      "unoriented"
+     ],
+     [
+      "CH4",
+      "2.03",
+      "8.24",
+      "unoriented"
+     ],
+     [
+      "N2",
+      "0.49",
+      "0.78",
+      "unoriented"
+     ],
+     [
+      "N2",
+      "0.86",
+      "1.19",
+      "unoriented"
+     ],
+     [
+      "N2",
+      "1.33",
+      "1.64",
+      "unoriented"
+     ],
+     [
+      "N2",
+      "1.85",
+      "2.21",
+      "unoriented"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Argon with Nitrogen, Carbon dioxide, Methane and Polystyrene (PS)"
+ },
+ {
+  "sheet_id": "70_152",
+  "system_id": "70010",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=70_152",
+  "system": "Argon with Nitrogen, Carbon dioxide, Methane and Polysulfone (PSF)",
+  "components": "(1) Argon with Nitrogen, Carbon dioxide, Methane; Ar, N2, CO2, CH4; [7440-37-1, 7727-37-9, 124-38-9, 74-82-8]\n(2) Polysulfone (PSF); ; [25135-51-7]",
+  "original_measurements": "A.J. Erb and D.R. Paul, J. Membr. Sci. 8, 11 (1981). J.S. Chiou, Y. Maeda and D.R. Paul, J. Appl. Polym. Sci. 33, 1823 (1987).",
+  "variables": "Temperature = 308 K\nPressure = 0-3.0 MPa",
+  "prepared_by": "Yu. P. Yampol'skii",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Sorption apparatus and procedure are described in Ref. I.",
+  "source_purity": "Commercial PSF: Union Carbide Corp., studied in the form of melt extruded film; glass transition temperature 455 K (DSC).",
+  "estimated_error": "Temperature: No information given.",
+  "references": "^1W. J. Koros, A. H. Chan, and D. R. Paul, J. MembrPolym 2, 165 (1977).",
+  "components_parsed": [
+   {
+    "index": 2,
+    "name": "Polysulfone (PSF)",
+    "formula": "",
+    "cas": "25135-51-7"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Chemical Name",
+     "Henry's law constant, K [cm^3(STP)/cm^3 atm]",
+     "Langmuir's parameter, C_H [cm^3(STP) cm^-3]",
+     "Affinity Coefficient b [atm^-1]"
+    ],
+    "rows": [
+     [
+      "",
+      "Ar",
+      "0.150",
+      "6.72",
+      "0.0317"
+     ],
+     [
+      "",
+      "N2",
+      "0.0753",
+      "9.98",
+      "0.0156"
+     ],
+     [
+      "",
+      "CO2",
+      "0.664",
+      "17.90",
+      "0.3260"
+     ],
+     [
+      "",
+      "CH4",
+      "0.161",
+      "9.86",
+      "0.0698"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Argon with Nitrogen, Carbon dioxide, Methane and Polysulfone (PSF)"
+ },
+ {
+  "sheet_id": "70_77",
+  "system_id": "70011",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=70_77",
+  "system": "Argon with Nitrogen, Carbon dioxide, Methane, Ethane and Poly(trimethylsilyl propyne) (PTMSP)",
+  "components": "(1) Poly(trimethylsilyl propyne) (PTMSP); ; [87842-32-8]\n(2) Argon with Nitrogen, Carbon dioxide, Methane, Ethane; Ar, N2, CO2, CH4, C2H6; [7440-37-1, 7727-37-9, 124-38-9, 74-82-8, 74-84-0]",
+  "original_measurements": "V.I. Bondar, Yu. M. Kukharskii and V.V. Volkov, Abstracts, 5th Intern. Symposium on Solubility Phenomena, Moscow, p. 227 (1992).",
+  "variables": "Temperature = 298 K\nPressure = 0-11 MPa",
+  "prepared_by": "V.I. Bondar",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Solubility was measured by means of gravimetric method using Sartorius 4436 microbalance.",
+  "source_purity": "PTMSP: prepared according the method of Maeuda et al.^1",
+  "estimated_error": "Temperature: No information gives.",
+  "references": "^1T. Masuda, E. Isobe, and T. Higashimura, J. Atn. Chem. Soc. 105, 7473 (1983).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Poly(trimethylsilyl propyne) (PTMSP)",
+    "formula": "",
+    "cas": "87842-32-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical Name",
+     "Henry's law constant, K [cm^3 (STP) cm^-3 atm^-1]",
+     "Langmuir's parameter, C_H [cm^3(STP) cm^-3]",
+     "Affinity Coefficient b [atm^-1]"
+    ],
+    "rows": [
+     [
+      "Ar",
+      "0.096",
+      "90.9",
+      "0.015"
+     ],
+     [
+      "N2",
+      "0.062",
+      "60.0",
+      "0.017"
+     ],
+     [
+      "CO2",
+      "1.300",
+      "139.0",
+      "0.064"
+     ],
+     [
+      "CH4",
+      "0.200",
+      "88.3",
+      "0.041"
+     ],
+     [
+      "C2H6",
+      "2.830",
+      "75.1",
+      "0.473"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Argon with Nitrogen, Carbon dioxide, Methane, Ethane and Poly(trimethylsilyl propyne) (PTMSP)"
+ },
+ {
+  "sheet_id": "70_223",
+  "system_id": "70012",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=70_223",
+  "system": "Argon with Nitrogen, Carbon dioxide, Methane, Poly(methyl methacrylate) (PMMA) and Poly(vinylidene fluoride) (PVF2)",
+  "components": "(1) Poly(methyl methacrylate) (PMMA); ; [9011-14-7]\n(2) Argon with Nitrogen, Carbon dioxide, Methane; Ar, N2, CO2, CH4; [7440-37-1, 7727-37-9, 124-38-9, 74-82-8]\n(3) Poly(vinylidene fluoride) (PVF2); ; [24937-79-9]",
+  "original_measurements": "J.S. Chiou and D.R. Paul, J. Appl. Sci. 32, 4793 (1986).",
+  "variables": "Temperature = 308 K\nPressure = 0-2.7 MPa (0-27 atm)\nConcentration = mass % PVF = 0-100",
+  "prepared_by": "Yu. P. Yampol'skii",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "Table 3  ^  alpha is the crystallinity of PVF_2 in the blend.",
+  "method": "The apparatus and procedure were the name as described in Ref. 1.",
+  "source_purity": "PMMA: Rohtn and Hess (Plexiglas V(81 1)). glass transition temp. 378 K, completely amorphous. PVF_2: Pennwalt (Kynar 460N), crystallinity 60 %, melting point 433 K. Blends: films prepared by extrusion. Miscible blends were studied.",
+  "estimated_error": "Temperature: No information given.",
+  "references": "^1W. J. Koros, D. P.. Paul, and A. A. Rocha, J. Polym. Sci., Polym. Plays. Ed. 30, 2633 (1985).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Poly(methyl methacrylate) (PMMA)",
+    "formula": "",
+    "cas": "9011-14-7"
+   },
+   {
+    "index": 3,
+    "name": "Poly(vinylidene fluoride) (PVF2)",
+    "formula": "",
+    "cas": "24937-79-9"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical Name",
+     "Keunen coefficient, S [cm^3/cm^3 atm]"
+    ],
+    "rows": [
+     [
+      "Ar",
+      "0.0350"
+     ],
+     [
+      "N2",
+      "0.0206"
+     ],
+     [
+      "CH4",
+      "0.0488"
+     ]
+    ]
+   },
+   {
+    "headers": [
+     "T/K",
+     "Chemical Name",
+     "Henry's law constant, K [cm^3(STP)/cm^3 atm]",
+     "Langmuir's parameter, C_H [cm^3(STP) cm^-3]",
+     "Affinity Coefficient b [atm^-1]"
+    ],
+    "rows": [
+     [
+      "",
+      "Ar",
+      "0.1150",
+      "1.450",
+      "0.0480"
+     ],
+     [
+      "",
+      "N2",
+      "0.0737",
+      "0.814",
+      "0.0301"
+     ],
+     [
+      "",
+      "CH4",
+      "0.1820",
+      "3.620",
+      "0.0560"
+     ]
+    ]
+   },
+   {
+    "headers": [
+     "Henry's law constant, K [cm^3(STP)/cm^3 atm]",
+     "Langmuir's parameter, C_H [cm^3(STP) cm^-3]",
+     "Affinity Coefficient b [atm^-1]",
+     "K_a [cm^3(STP)/cm^3 atm]",
+     "Remark(s)"
+    ],
+    "rows": [
+     [
+      "0.0350",
+      "—",
+      "—",
+      "0.0779",
+      "100 [PVF(2) mass %]"
+     ],
+     [
+      "0.0480",
+      "—",
+      "—",
+      "0.0857",
+      "90"
+     ],
+     [
+      "0.0568",
+      "—",
+      "—",
+      "0.0849",
+      "80"
+     ],
+     [
+      "0.0742",
+      "—",
+      "—",
+      "0.0817",
+      "60"
+     ],
+     [
+      "0.0893",
+      "—",
+      "—",
+      "0.0893",
+      "40"
+     ],
+     [
+      "0.1040",
+      "0.982",
+      "0.0345",
+      "0.1040",
+      "20"
+     ],
+     [
+      "0.1150",
+      "1.450",
+      "0.0480",
+      "0.1150",
+      "0"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Argon with Nitrogen, Carbon dioxide, Methane, Poly(methyl methacrylate) (PMMA) and Poly(vinylidene fluoride) (PVF2)"
+ },
+ {
+  "sheet_id": "70_148",
+  "system_id": "70013",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=70_148",
+  "system": "Argon with Nitrogen, Methane and Copolyester (Kodar A-150)",
+  "components": "(1) Argon with Nitrogen, Methane; Ar, N2, CH4; [7440-37-1, 7727-37-9, 74-84-8]\n(2) Copolyester (Kodar A-150); ; []",
+  "original_measurements": "P. Masi, D.R. Paul and J.W. Barlow, J. Polym. Sci., Polym. Phys. Ed. 20, 15 (1982).",
+  "variables": "Temperature = 308 K\nPressure = 0-3.5 MPa",
+  "prepared_by": "A.K. Bokarev",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Sorption was measured using a pressure decay method described in Ref. 1. The specimens before measurement were exposed to CO_2 at 20 atm for 1 day.",
+  "source_purity": "Copolyester (Kodar A-15O): Eastman Chemical Products, Inc., film completely amorphous, ratio of units of isophthalic and terephthatic acids 20/80, M_n = 22 000, glass transition temperature 360 K (thermal analysis).",
+  "estimated_error": "Temperature: No information given.",
+  "references": "^1W. 3. Koran, D. R. Paul, and A. A. Rorhs, 3. PotymPolym, Polym. Phys. Ed. 14, 687 (1976).",
+  "components_parsed": [],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Henry's law constant, K [cm^3(STP) cm^-3 cm Hg^-1]",
+     "Langmuir's parameter, C_H [cm^3(STP) cm^-3]",
+     "Affinity Coefficient b [atm^-1]"
+    ],
+    "rows": [
+     [
+      "Ar",
+      "0.117",
+      "2.09",
+      "0.050"
+     ],
+     [
+      "CH4",
+      "0.174",
+      "2.76",
+      "0.094"
+     ],
+     [
+      "N2",
+      "0.078",
+      "1.40",
+      "0.034"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Argon with Nitrogen, Methane and Copolyester (Kodar A-150)"
+ },
+ {
+  "sheet_id": "70_93",
+  "system_id": "70014",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=70_93",
+  "system": "Argon with Nitrogen, Oxygen, Carbon dioxide and Poly(ethylene terephalate) (PETP)",
+  "components": "(1) Argon with Nitrogen, Oxygen, Carbon dioxide; Ar, N2, O2, CO2; [7440-37-1, 7727-37-9, 7782-44-7, 124-38-9]\n(2) Poly(ethylene terephthalate) (PETP); ; [25038-59-9]",
+  "original_measurements": "K. Toi, J. Polym. Sci., Polym. Phys. Ed. 11, 1829-39 (1973).",
+  "variables": "Temperature = 288 K - 315 K\nPressure = 0-101.3 kPa",
+  "prepared_by": "A.K. Bokarev",
+  "critical_evaluation": "Henry's law is obeyed by O_2, Ar, and N_2, in all samples of PETP at pressure up to 1 atm. The deviations from Henry's law were observed for CO_2. The dual mode sorption model equation was follow C=[1.89p/(1 + 0.45p)] + 0.38pa, where alpha is volume fraction of amorphous phase, for CO_2 / PETP systems.Heats of sorption for CO_2 in PETP-75 at 70 cm Hg gas pressure was equal to –5.37 kcal/mol.",
+  "experimental_values": "",
+  "notes": "^*  PETP-75.",
+  "method": "Manometric method was used for the measurement of solubility.  The pressure changes due to sorption were measured with a cathetometer.",
+  "source_purity": "Four samples of commercial PETP (Diafoil, Mitsubishi Plastics Ltd.) were studied: one having amorphous structure (PETP-75) and three having the degree of crystallinity of 48.0 % (PETP-50, 75, and 100, where figures are the thickness of the samples).  Completely amorphous PETP-75 had density 1.331 g/cc. Other samples had ρ = 1.400 g/cc. Commercial gases were used. CO_2 was purified by the sublimation method by means of liquid nitrogen.",
+  "estimated_error": "Solubility: + 3%.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 2,
+    "name": "Poly(ethylene terephthalate) (PETP)",
+    "formula": "",
+    "cas": "25038-59-9"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical Name",
+     "Keunen coefficient, S"
+    ],
+    "rows": [
+     [
+      "N2",
+      "0.084"
+     ],
+     [
+      "O2",
+      "0.092"
+     ],
+     [
+      "Ar",
+      "0.105"
+     ],
+     [
+      "CO2 (a)",
+      "1.353"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Argon with Nitrogen, Oxygen, Carbon dioxide and Poly(ethylene terephalate) (PETP)"
+ },
+ {
+  "sheet_id": "70_31",
+  "system_id": "70015",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=70_31",
+  "system": "Argon with Poly(ethyl methacrylate) (PEMA)",
+  "components": "(1) Poly(ethyl methacrylate) (PEMA); C3H8; [9003-42-3]\n(2) Argon; Ar; [7440-37-1]",
+  "original_measurements": "Y. Kamiya, K. Mizoguchi, Y. Naito and D. Bourbon, Intern. Congress on Membranes (ICOM-90), Chicago, pp. 1382-1384 (1990).",
+  "variables": "Temperature = 278.2 K - 358.2 K\nPressure = 0-5.0 MPa (0-50 atm)",
+  "prepared_by": "Yu. P. Yampol'skii",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Sorption isotherms were determined gravimetrically with an electronic microbalance Cahn 2000.",
+  "source_purity": "Ar: purity 99.999 %.\nPEMA: glass transition temperature 334 K.",
+  "estimated_error": "Temperature: No Information given.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Poly(ethyl methacrylate) (PEMA)",
+    "formula": "C3H8",
+    "cas": "9003-42-3"
+   },
+   {
+    "index": 2,
+    "name": "Argon",
+    "formula": "Ar",
+    "cas": "7440-37-1"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Henry's law constant, K [cm^3 (STP) cm^-3 atm^-1]",
+     "Langmuir's parameter, C_H [cm^3(STP) cm^-3]",
+     "Affinity Coefficient b [atm^-1]"
+    ],
+    "rows": [
+     [
+      "278.4",
+      "—",
+      "5.23",
+      "0.024"
+     ],
+     [
+      "283.2",
+      "—",
+      "4.21",
+      "0.023"
+     ],
+     [
+      "288.2",
+      "—",
+      "3.55",
+      "0.023"
+     ],
+     [
+      "298.2",
+      "—",
+      "2.75",
+      "0.020"
+     ],
+     [
+      "308.2",
+      "—",
+      "2.23",
+      "0.019"
+     ],
+     [
+      "318.2",
+      "—",
+      "2.36",
+      "0.014"
+     ],
+     [
+      "328.2",
+      "0.104",
+      "3.49",
+      "0.006"
+     ],
+     [
+      "338.2",
+      "0.094",
+      "1.40",
+      "0.006"
+     ],
+     [
+      "343.2",
+      "0.091",
+      "0.21",
+      "0.020"
+     ],
+     [
+      "348.2",
+      "0.088",
+      "—",
+      "—"
+     ],
+     [
+      "353.2",
+      "0.089",
+      "—",
+      "—"
+     ]
+    ]
+   },
+   {
+    "headers": [
+     "Pressure [MPa]",
+     "Sorption [(V*_1(STP)/V*_2)]"
+    ],
+    "rows": [
+     [
+      "0.51",
+      "1.01"
+     ],
+     [
+      "0.54",
+      "0.99"
+     ],
+     [
+      "0.56",
+      "1.05"
+     ],
+     [
+      "0.99",
+      "1.86"
+     ],
+     [
+      "1.02",
+      "1.81"
+     ],
+     [
+      "1.04",
+      "1.85"
+     ],
+     [
+      "1.51",
+      "2.61"
+     ],
+     [
+      "2.01",
+      "3.47"
+     ],
+     [
+      "2.01",
+      "3.39"
+     ],
+     [
+      "2.01",
+      "3.37"
+     ],
+     [
+      "2.51",
+      "4.16"
+     ],
+     [
+      "3.01",
+      "4.78"
+     ],
+     [
+      "3.02",
+      "4.70"
+     ],
+     [
+      "3.98",
+      "6.01"
+     ],
+     [
+      "3.98",
+      "5.94"
+     ],
+     [
+      "3.98",
+      "5.89"
+     ],
+     [
+      "4.90",
+      "7.13"
+     ],
+     [
+      "4.90",
+      "7.10"
+     ],
+     [
+      "0.34",
+      "0.28"
+     ],
+     [
+      "0.39",
+      "0.33"
+     ],
+     [
+      "0.85",
+      "0.76"
+     ],
+     [
+      "1.10",
+      "0.92"
+     ],
+     [
+      "1.10",
+      "0.99"
+     ],
+     [
+      "2.08",
+      "1.81"
+     ],
+     [
+      "2.08",
+      "1.85"
+     ],
+     [
+      "3.07",
+      "2.67"
+     ],
+     [
+      "3.07",
+      "2.71"
+     ],
+     [
+      "3.32",
+      "2.91"
+     ],
+     [
+      "4.05",
+      "3.49"
+     ],
+     [
+      "4.11",
+      "3.56"
+     ],
+     [
+      "5.04",
+      "4.33"
+     ],
+     [
+      "5.03",
+      "4.39"
+     ],
+     [
+      "0.51",
+      "0.54"
+     ],
+     [
+      "0.52",
+      "0.49"
+     ],
+     [
+      "0.10",
+      "1.07"
+     ],
+     [
+      "1.01",
+      "1.05"
+     ],
+     [
+      "1.50",
+      "1.58"
+     ],
+     [
+      "1.49",
+      "1.54"
+     ],
+     [
+      "1.99",
+      "2.10"
+     ],
+     [
+      "2.00",
+      "2.06"
+     ],
+     [
+      "2.96",
+      "3.12"
+     ],
+     [
+      "2.96",
+      "3.05"
+     ],
+     [
+      "3.95",
+      "4.06"
+     ],
+     [
+      "3.97",
+      "4.02"
+     ],
+     [
+      "4.95",
+      "5.07"
+     ],
+     [
+      "4.95",
+      "5.02"
+     ],
+     [
+      "0.51",
+      "0.74"
+     ],
+     [
+      "052",
+      "0.67"
+     ],
+     [
+      "1.00",
+      "1.43"
+     ],
+     [
+      "1.01",
+      "1.35"
+     ],
+     [
+      "0.99",
+      "1.29"
+     ],
+     [
+      "1.50",
+      "2.08"
+     ],
+     [
+      "1.50",
+      "1.92"
+     ],
+     [
+      "1.99",
+      "2.75"
+     ],
+     [
+      "2.00",
+      "2.69"
+     ],
+     [
+      "1.98",
+      "2.60"
+     ],
+     [
+      "1.99",
+      "2.52"
+     ],
+     [
+      "2.48",
+      "3.23"
+     ],
+     [
+      "2.48",
+      "3.08"
+     ],
+     [
+      "2.99",
+      "3.85"
+     ],
+     [
+      "3.02",
+      "3.85"
+     ],
+     [
+      "2.98",
+      "3.74"
+     ],
+     [
+      "2.99",
+      "3.67"
+     ],
+     [
+      "2.97",
+      "3.61"
+     ],
+     [
+      "3.47",
+      "4.33"
+     ],
+     [
+      "3.49",
+      "4.17"
+     ],
+     [
+      "3.95",
+      "4.90"
+     ],
+     [
+      "3.96",
+      "4.81"
+     ],
+     [
+      "3.97",
+      "4.69"
+     ],
+     [
+      "4.37",
+      "5.28"
+     ],
+     [
+      "4.49",
+      "5.22"
+     ],
+     [
+      "4.90",
+      "5.84"
+     ],
+     [
+      "4.96",
+      "5.87"
+     ],
+     [
+      "4.95",
+      "5.72"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Argon with Poly(ethyl methacrylate) (PEMA)"
+ },
+ {
+  "sheet_id": "70_33",
+  "system_id": "70016",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=70_33",
+  "system": "Argon with Polystyrene (PS)",
+  "components": "(1) Polystyrene (PS); ; [9003-53-6]\n(2) Argon; Ar; [7440-37-1]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "Yu. P. Yampol-skii, A. V. Topchiev Institute of Petrochemical Synthesis, Russian Academy of Sciences, April, 1994",
+  "critical_evaluation": "",
+  "experimental_values": "Only three papers^1-3 have been published for the system PS—argon. The work of Schulz and Gerrens^1 is inconsistent and should be excluded from further consideration. VietH et al.^3 reported sorption isotherms and dual mode sorption parameters for the solubility in oriented and unoriented PS at the ambient temperature, whereas Dursill^2 studied the solubility in PS above its glass transition temperature.     Pressure dependence of solubility is given below based on the parameters of sorption isotherms obtained by Vieth et al.^3     Combined consideration of the results from Refs. 2 and 3 results in the enthalpy of sorption of argon in PS equal to -7.1 kJ/mol.",
+  "notes": "Notes:\n^*  Combined consideration of the results from Refs. 2 and 3 results in the enthalpy of sorption of argon in PS equal to -7.1 kJ/mol.",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  G.V. Schulz and H. Gerrens, Z. Phys. Chem. 7, 182 (1956).\n2  P.L. Durill, Ph.D. Dissertation, Virginia Polytech. Inst. (1965).\n3  W.R. Vieth, P.M. Tam and A.S. Michaels, J. Colloid Interface Sci. 22, 360 (1966).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Polystyrene (PS)",
+    "formula": "",
+    "cas": "9003-53-6"
+   },
+   {
+    "index": 2,
+    "name": "Argon",
+    "formula": "Ar",
+    "cas": "7440-37-1"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Pressure [MPa]",
+     "Concentration C_1 [cm^3(STP) cm^-3]"
+    ],
+    "rows": [
+     [
+      "0.5",
+      "1.2"
+     ],
+     [
+      "1.0",
+      "2.2"
+     ],
+     [
+      "1.5",
+      "3.2"
+     ],
+     [
+      "2.0",
+      "4.0"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Argon with Polystyrene (PS)"
+ },
+ {
+  "sheet_id": "70_61",
+  "system_id": "70017",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=70_61",
+  "system": "Carbon dioxide and Poly(vinyl benzoate) (PVB)",
+  "components": "(1) Carbon dioxide; CO2; [124-38-9]\n(2) Poly(vinyl benzoate) (PVB); ; [24991-32-0]",
+  "original_measurements": "Y. Kamiya, T. Hirose, K. Mizoguchi and K. Terada., J. Polym. Sci., Part B: Polym. Phys. 26, 1409 (1988).",
+  "variables": "Temperature = 298 K\nPressure = 0-5.0 MPa",
+  "prepared_by": "A.K. Bokarev",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Sorption isotherms were measured gravimetrically with a Calm model 2000 electrobalance. A correction for the buoyancy was introduced.",
+  "source_purity": "CO_2:\tpurity 99.99 %.\nPVB:\treaction of poly(vinyl alcohol) and benzoyl chloride (see Ref. 1). Density (298 K)=1.214 g/cm^3.",
+  "estimated_error": "Temperature: No information given.",
+  "references": "^1T. Hirose, K. Mizoguchi, and Y. Kamiya, 3. App!. Polym. Sci. 30, 401 (1985).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Carbon dioxide",
+    "formula": "CO2",
+    "cas": "124-38-9"
+   },
+   {
+    "index": 2,
+    "name": "Poly(vinyl benzoate) (PVB)",
+    "formula": "",
+    "cas": "24991-32-0"
+   }
+  ],
+  "tables": [],
+  "kind": "compilation",
+  "system_name": "Carbon dioxide and Poly(vinyl benzoate) (PVB)"
+ },
+ {
+  "sheet_id": "70_62",
+  "system_id": "70017",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=70_62",
+  "system": "Carbon dioxide and Poly(vinyl benzoate) (PVB)",
+  "components": "(1) Carbon dioxide; CO2; [124-38-9]\n(2) Poly(vinyl benzoate) (PVB); ; [24991-32-0]",
+  "original_measurements": "T. Hirose, K. Mizoguchi, Y. Naito and Y. Kamiya, J. Appl. Polym. Sci. 35, 1715 (1988).",
+  "variables": "Temperature = 278 K - 358 K\nPressure = 0-100 kPa",
+  "prepared_by": "A.K. Bokarev",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Sorption measurements were made using facilities and procedures described in Ref. 1.",
+  "source_purity": "CO_2: purity >99.99 %.\nPVB films: preparation and its properties reported in Ref. 2. The sample films were exposed to CO_2 of 50 atm at 308 K before measurements.",
+  "estimated_error": "Temperature: No information given.",
+  "references": "^1T. Hirose, K. Mizoguchi, and Y. Kamiya, 5. Appl. Polym. Sci. 34, 1657 (1987).\n^2T. Hirose, K. Mizoguchi, and Y. Kamiya, ibid. 30, 401 (1985).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Carbon dioxide",
+    "formula": "CO2",
+    "cas": "124-38-9"
+   },
+   {
+    "index": 2,
+    "name": "Poly(vinyl benzoate) (PVB)",
+    "formula": "",
+    "cas": "24991-32-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Henry's law constant, K [cm^3 (STP) cm^-3 atm^-1]",
+     "Langmuir's parameter, C_H [cm^3(STP) cm^-3]",
+     "Affinity Coefficient b [atm^-1]"
+    ],
+    "rows": [
+     [
+      "278",
+      "1.78",
+      "4.69",
+      "1.60"
+     ],
+     [
+      "288",
+      "1.45",
+      "3.59",
+      "1.35"
+     ],
+     [
+      "298",
+      "1.18",
+      "3.52",
+      "0.821"
+     ],
+     [
+      "308",
+      "1.00",
+      "3.05",
+      "0.623"
+     ],
+     [
+      "318",
+      "0.851",
+      "1.78",
+      "0.547"
+     ],
+     [
+      "328",
+      "0.730",
+      "0.666",
+      "0.760"
+     ],
+     [
+      "338",
+      "0.641",
+      "—",
+      "—"
+     ],
+     [
+      "343",
+      "0.577",
+      "—",
+      "—"
+     ],
+     [
+      "348",
+      "0.545",
+      "—",
+      "—"
+     ],
+     [
+      "353",
+      "0.511",
+      "—",
+      "—"
+     ],
+     [
+      "358",
+      "0.472",
+      "—",
+      "—"
+     ]
+    ]
+   },
+   {
+    "headers": [
+     "T/K",
+     "Henry's law constant, K [cm^3 (STP) cm^-3 atm^-1]",
+     "Langmuir's parameter, C_H [cm^3(STP) cm^-3]",
+     "Affinity Coefficient b [atm^-1]"
+    ],
+    "rows": [
+     [
+      "288",
+      "1.45",
+      "1.71",
+      "1.338"
+     ],
+     [
+      "298",
+      "1.55",
+      "1.73",
+      "0.739"
+     ],
+     [
+      "308",
+      "1.00",
+      "0.890",
+      "0.828"
+     ],
+     [
+      "318",
+      "0.851",
+      "0.477",
+      "0.760"
+     ]
+    ]
+   },
+   {
+    "headers": [
+     "T/K",
+     "Pressure [kPa]",
+     "Sorption [(V*_1(STP)/V*_2)]"
+    ],
+    "rows": [
+     [
+      "278",
+      "6.72",
+      "0.51"
+     ],
+     [
+      "278",
+      "16.17",
+      "1.27"
+     ],
+     [
+      "278",
+      "26.85",
+      "1.86"
+     ],
+     [
+      "288",
+      "6.70",
+      "0.40"
+     ],
+     [
+      "288",
+      "13.55",
+      "0.74"
+     ],
+     [
+      "288",
+      "27.09",
+      "1.34"
+     ],
+     [
+      "298",
+      "6.84",
+      "0.26"
+     ],
+     [
+      "298",
+      "13.36",
+      "0.51"
+     ],
+     [
+      "298",
+      "26.23",
+      "0.94"
+     ],
+     [
+      "308",
+      "10.48",
+      "0.27"
+     ],
+     [
+      "308",
+      "19.53",
+      "0.52"
+     ],
+     [
+      "308",
+      "33.97",
+      "0.87"
+     ],
+     [
+      "318",
+      "6.66",
+      "0.11"
+     ],
+     [
+      "318",
+      "13.47",
+      "0.23"
+     ],
+     [
+      "318",
+      "26.63",
+      "0.46"
+     ],
+     [
+      "328",
+      "10.93",
+      "0.12"
+     ],
+     [
+      "328",
+      "12.66",
+      "0.10"
+     ],
+     [
+      "328",
+      "20.59",
+      "0.24"
+     ],
+     [
+      "328",
+      "24.70",
+      "0.24"
+     ],
+     [
+      "328",
+      "32.78",
+      "0.38"
+     ],
+     [
+      "338",
+      "14.39",
+      "0.07"
+     ],
+     [
+      "338",
+      "26.40",
+      "0.14"
+     ],
+     [
+      "338",
+      "34.13",
+      "0.21"
+     ],
+     [
+      "338",
+      "40.76",
+      "0.26"
+     ],
+     [
+      "348",
+      "20.09",
+      "0.07"
+     ],
+     [
+      "348",
+      "41.57",
+      "0.23"
+     ],
+     [
+      "358",
+      "33.68",
+      "0.16"
+     ],
+     [
+      "358",
+      "38.42",
+      "0.17"
+     ],
+     [
+      "358",
+      "53.13",
+      "0.24"
+     ],
+     [
+      "358",
+      "54.23",
+      "0.27"
+     ],
+     [
+      "278",
+      "40.08",
+      "2.53"
+     ],
+     [
+      "278",
+      "53.44",
+      "3.05"
+     ],
+     [
+      "278",
+      "66.96",
+      "3.59"
+     ],
+     [
+      "288",
+      "41.07",
+      "1.83"
+     ],
+     [
+      "288",
+      "54.11",
+      "2.28"
+     ],
+     [
+      "288",
+      "67.13",
+      "2.63"
+     ],
+     [
+      "298",
+      "40.84",
+      "1.34"
+     ],
+     [
+      "298",
+      "54.17",
+      "1.67"
+     ],
+     [
+      "298",
+      "67.03",
+      "2.00"
+     ],
+     [
+      "308",
+      "43.64",
+      "1.07"
+     ],
+     [
+      "308",
+      "54.27",
+      "1.28"
+     ],
+     [
+      "308",
+      "66.96",
+      "1.59"
+     ],
+     [
+      "318",
+      "40.89",
+      "0.67"
+     ],
+     [
+      "318",
+      "54.99",
+      "0.85"
+     ],
+     [
+      "318",
+      "68.14",
+      "1.06"
+     ],
+     [
+      "328",
+      "42.60",
+      "0.47"
+     ],
+     [
+      "328",
+      "47.04",
+      "0.55"
+     ],
+     [
+      "328",
+      "60.96",
+      "0.63"
+     ],
+     [
+      "328",
+      "63.34",
+      "0.67"
+     ],
+     [
+      "328",
+      "73.63",
+      "0.76"
+     ],
+     [
+      "338",
+      "53.72",
+      "0.35"
+     ],
+     [
+      "338",
+      "66.84",
+      "0.43"
+     ],
+     [
+      "338",
+      "66.67",
+      "0.44"
+     ],
+     [
+      "338",
+      "66.99",
+      "0.44"
+     ],
+     [
+      "348",
+      "54.69",
+      "0.31"
+     ],
+     [
+      "348",
+      "68.13",
+      "0.37"
+     ],
+     [
+      "358",
+      "62.45",
+      "0.29"
+     ],
+     [
+      "358",
+      "68.62",
+      "0.32"
+     ],
+     [
+      "358",
+      "68.94",
+      "0.32"
+     ],
+     [
+      "358",
+      "78.58",
+      "0.37"
+     ],
+     [
+      "278",
+      "79.84",
+      "4.03"
+     ],
+     [
+      "278",
+      "94.13",
+      "4.46"
+     ],
+     [
+      "288",
+      "80.78",
+      "3.02"
+     ],
+     [
+      "288",
+      "93.63",
+      "3.29"
+     ],
+     [
+      "298",
+      "82.26",
+      "2.35"
+     ],
+     [
+      "298",
+      "94.95",
+      "2.63"
+     ],
+     [
+      "308",
+      "80.11",
+      "1.78"
+     ],
+     [
+      "308",
+      "89.78",
+      "1.91"
+     ],
+     [
+      "308",
+      "94.23",
+      "2.07"
+     ],
+     [
+      "318",
+      "80.97",
+      "1.21"
+     ],
+     [
+      "318",
+      "99.03",
+      "1.44"
+     ],
+     [
+      "328",
+      "78.86",
+      "0.81"
+     ],
+     [
+      "328",
+      "86.77",
+      "0.89"
+     ],
+     [
+      "328",
+      "98.48",
+      "0.98"
+     ],
+     [
+      "328",
+      "99.59",
+      "0.98"
+     ],
+     [
+      "338",
+      "79.64",
+      "0.51"
+     ],
+     [
+      "338",
+      "93.38",
+      "0.59"
+     ],
+     [
+      "338",
+      "97.65",
+      "0.61"
+     ],
+     [
+      "348",
+      "80.46",
+      "0.43"
+     ],
+     [
+      "348",
+      "93.74",
+      "0.49"
+     ],
+     [
+      "358",
+      "81.27",
+      "0.38"
+     ],
+     [
+      "358",
+      "89.02",
+      "0.42"
+     ],
+     [
+      "358",
+      "95.03",
+      "0.44"
+     ],
+     [
+      "358",
+      "98.67",
+      "0.45"
+     ]
+    ]
+   },
+   {
+    "headers": [
+     "T/K",
+     "Pressure [kPa]",
+     "Sorption [(V*_1(STP)/V*_2)]"
+    ],
+    "rows": [
+     [
+      "288",
+      "7.04",
+      "0.21"
+     ],
+     [
+      "288",
+      "13.77",
+      "0.44"
+     ],
+     [
+      "288",
+      "20.65",
+      "0.64"
+     ],
+     [
+      "288",
+      "27.20",
+      "0.82"
+     ],
+     [
+      "288",
+      "34.24",
+      "1.04"
+     ],
+     [
+      "288",
+      "41.41",
+      "1.20"
+     ],
+     [
+      "288",
+      "54.47",
+      "1.48"
+     ],
+     [
+      "288",
+      "65.95",
+      "1.76"
+     ],
+     [
+      "288",
+      "80.89",
+      "2.02"
+     ],
+     [
+      "288",
+      "89.18",
+      "2.21"
+     ],
+     [
+      "288",
+      "99.66",
+      "2.39"
+     ],
+     [
+      "308",
+      "13.49",
+      "0.20"
+     ],
+     [
+      "298",
+      "6.83",
+      "0.11"
+     ],
+     [
+      "298",
+      "13.70",
+      "0.30"
+     ],
+     [
+      "298",
+      "27.07",
+      "0.57"
+     ],
+     [
+      "298",
+      "28.04",
+      "0.62"
+     ],
+     [
+      "298",
+      "40.13",
+      "0.85"
+     ],
+     [
+      "298",
+      "53.47",
+      "1.08"
+     ],
+     [
+      "298",
+      "66.68",
+      "1.35"
+     ],
+     [
+      "298",
+      "80.04",
+      "1.60"
+     ],
+     [
+      "298",
+      "93.35",
+      "1.76"
+     ],
+     [
+      "298",
+      "98.78",
+      "1.90"
+     ],
+     [
+      "298",
+      "99.52",
+      "1.82"
+     ],
+     [
+      "308",
+      "26.82",
+      "0.40"
+     ],
+     [
+      "308",
+      "41.12",
+      "0.64"
+     ],
+     [
+      "308",
+      "53.33",
+      "0.81"
+     ],
+     [
+      "308",
+      "67.44",
+      "0.98"
+     ],
+     [
+      "308",
+      "75.85",
+      "1.11"
+     ],
+     [
+      "308",
+      "82.82",
+      "1.19"
+     ],
+     [
+      "308",
+      "90.58",
+      "1.27"
+     ],
+     [
+      "308",
+      "98.66",
+      "1.36"
+     ],
+     [
+      "318",
+      "13.77",
+      "0.13"
+     ],
+     [
+      "318",
+      "27.40",
+      "0.30"
+     ],
+     [
+      "318",
+      "41.01",
+      "0.44"
+     ],
+     [
+      "318",
+      "53.85",
+      "0.61"
+     ],
+     [
+      "318",
+      "66.85",
+      "0.76"
+     ],
+     [
+      "318",
+      "80.44",
+      "0.86"
+     ],
+     [
+      "318",
+      "89.45",
+      "0.93"
+     ],
+     [
+      "318",
+      "98.79",
+      "1.01"
+     ]
+    ]
+   },
+   {
+    "headers": [
+     "T/K",
+     "Henry's law constant, K [cm^3 (STP) cm^-3 atm^-1]",
+     "Langmuir's parameter, C_H [cm^3(STP) cm^-3]",
+     "Affinity Coefficient b [atm^-1]",
+     "Remark(s)"
+    ],
+    "rows": [
+     [
+      "298",
+      "1.18",
+      "6.88",
+      "0.889",
+      "Just after exposure"
+     ],
+     [
+      "298",
+      "1.18",
+      "5.74",
+      "0.990",
+      "Next day"
+     ],
+     [
+      "298",
+      "1.18",
+      "5.00",
+      "0.942",
+      "7 days later"
+     ],
+     [
+      "298",
+      "1.18",
+      "3.54",
+      "1.008",
+      "11 months later"
+     ],
+     [
+      "298",
+      "1.18",
+      "3.52",
+      "0.827",
+      "After measurements at 298 K in Table 3"
+     ],
+     [
+      "298",
+      "1.18",
+      "1.73",
+      "0.739",
+      "After annealing at 358 K"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Carbon dioxide and Poly(vinyl benzoate) (PVB)"
+ },
+ {
+  "sheet_id": "70_138",
+  "system_id": "70057",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=70_138",
+  "system": "Carbon dioxide with  PAEK-6H6F  and PAEK-6F6H",
+  "components": "(1) Poly(aryl-isopropylidene-hexafluoro-isopropylidene ether ketone) (PAEK-6H6F) and Poly(aryl-hexafluoroisopropylidene-isopropylidene ether ketone) (PAEK-6F6H); ; [122165-96-2, 122165-95-1]\n(2) Carbon dioxide; CO2; [124-38-9]",
+  "original_measurements": "J.M. Mohr and D.R. Paul, Polymer 32, 2387 (1991).",
+  "variables": "Temperature = 308 K\nPressure = 0-2.0 MPa",
+  "prepared_by": "V.I. Bondar",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A pressure decay method was used as described in Ref. 1.",
+  "source_purity": "PAEK-6H6F, PAEK-6F6H: synthesized by the procedure described in Ref. 2. 6H6F: density 1.287 g/cm^3, T_g = 452 K. 6F6H: density 1.284 g/cm^3, T_g = 454 K.",
+  "estimated_error": "Temperature: No information given.",
+  "references": "^1W. J. Koros and D. R. Paul, 2. Polym. Sci., Polyrn. Phys. Ed. 14,1903 (1976)\n^2G L. Tullos, P. E. Cassidy, and A. K. St. Cisir, Proc. ACS, Div.Polym. Materials 60, 310 (1989).",
+  "components_parsed": [
+   {
+    "index": 2,
+    "name": "Carbon dioxide",
+    "formula": "CO2",
+    "cas": "124-38-9"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical Name",
+     "Henry's law constant, K [cm^3(STP)/cm^3 atm]",
+     "Langmuir's parameter, C_H [cm^3(STP) cm^-3]",
+     "Affinity Coefficient b [atm^-1]"
+    ],
+    "rows": [
+     [
+      "6H6F",
+      "0.840",
+      "10.90",
+      "0.373"
+     ],
+     [
+      "6F6H",
+      "0.756",
+      "12.70",
+      "0.331"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Carbon dioxide with  PAEK-6H6F  and PAEK-6F6H "
+ },
+ {
+  "sheet_id": "70_172",
+  "system_id": "70018",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=70_172",
+  "system": "Carbon dioxide with Cellulose 2,4-acetate (CA)",
+  "components": "(1) Carbon dioxide; CO2; [124-38-9]\n(2) Cellulose 2,4-acetate (CA); ; [9004-35-7]",
+  "original_measurements": "S.A. Stern and A.H. De Meringo, J. Polym. Sci., Polym. Phys. Ed. 16, 735 (1978).",
+  "variables": "Temperature = 273.0 K - 343.0 K\nPressure = 0-4.0 MPa",
+  "prepared_by": "A.K. Bokarev",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A volumetric method was used in measurement of the solubility. The gas pressure decay with time was followed by means of a gauge. Corrections for the equation of state of CO_2 were made according to Ref. 1.",
+  "source_purity": "CO_2: purity 99.9 %. CA: Eastman Kodak, Trademark Edukit; content of acetyl groups 39.8 %, density 1.36 g/cm^3.",
+  "estimated_error": "Solubility: Standard error of estimate of CO_2 concentration: from 5.5% at 273 K to 14% at 343 K.",
+  "references": "^1N E. Van Huff, G. Houghton, and 3. Coull, 2. Chem. Eng. Data 8, 336 (1963).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Carbon dioxide",
+    "formula": "CO2",
+    "cas": "124-38-9"
+   },
+   {
+    "index": 2,
+    "name": "Cellulose 2,4-acetate (CA)",
+    "formula": "",
+    "cas": "9004-35-7"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Henry's law constant, K [cm^3(STP)/cm^3 atm]",
+     "Langmuir's parameter, C_H [cm^3(STP) g^-1]",
+     "Affinity Coefficient b [atm^-1]"
+    ],
+    "rows": [
+     [
+      "273.0",
+      "2.50",
+      "32.77",
+      "0.511"
+     ],
+     [
+      "283.0",
+      "2.13",
+      "25.93",
+      "0.441"
+     ],
+     [
+      "303.0",
+      "0.911",
+      "31.31",
+      "0.134"
+     ],
+     [
+      "318.0",
+      "0.580",
+      "26.81",
+      "0.107"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Carbon dioxide with Cellulose 2,4-acetate (CA)"
+ },
+ {
+  "sheet_id": "70_171",
+  "system_id": "70019",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=70_171",
+  "system": "Carbon dioxide with Cellulose acetate (CA)",
+  "components": "(1) Carbon dioxide; CO2; [124-38-9]\n(2) Cellulose acetate (CA); ; [9004-35-7]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "Yu. P. Yampol-skii, A. V. Topchiev Institute of Petrochemical Synthesis, Russian Academy of Sciences, April, 1994",
+  "critical_evaluation": "",
+  "experimental_values": "Three papers are availsble on the system cellulose acetate—carbon dioxide.^1-3 In all the cases the degree of esterification\nand the origin of the samples were the same: CA obtained from Eastman Kodak Co. contained 39.8% of acetyl groups. Stem and De Meringo^1 studied sorption of CO^2 in\nCA at 273—343 K and reported the dual mode sorption parameters for somewhat narrower range of temperature. In a subsequent paper^2 of the same group the reported isotherm\nat 303 K was confirmed, but no sorption parameters were given. Sada et al.^3 studied the sorption in the temperature range 293—313 K. The table summarizes the sorption\nparameters found in Refs. 1 and 3 for this system. It can be seen that there is a reasonable agreement for Henry's law solubility coefficient k_D, but not for other two model\nparameters. The C'_H and b values reported in both papers monotonously decrease with temperature, but there is a significant discrepancy between two sets of values.\n\nFrom the temperature dependence of k_D and S it was found, respectively, log(S/(cm^3\n(STP)cm^3 atm^-1)) = -3.8226 + 1438.7/(T/K) log(k_D /(cm^3(STP)cm^3 atm^-1))\n= -3.9595 +  1236.3/(T/K) ΔH_D = —23.7 ± 1.8 kJ/mol  ΔH_s = —27.5 ± 2.3 kJ/mol.\n\nIt it difficult to give much credit to the parameters reported in any of these works. Nevertheless, as one may tentatively suspsct the effects of exposing the polymer\nto high pressure of CO^2 as a main reason for these differences, the data of Sada et al.^3 should be regarded as describing the sample 'as received,'while those of Stern\nand De Meringo^1 as characterizing the polymer swollen in high pressure gas. Much larger values of the Langmuir capacity parameter C'_H are typical for such samples.\nThe temperature dependencies of S and k_D are shown in  Figures 67 and\n68\n(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a4dfa37dde981931',t:'MTc5MjU3OTE2OA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();",
+  "notes": "Notes:\n^*  Units: k_D and S/cm^-3 atm^-1; C'_H/cm^3(STP) cm^-3; b/atm^-1.",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  S.A. Stern and A.H. De Meringo, J. Polym. Sci., Polym. Phys. Ed. 16, 735 (1978).\n2  S.A. Stern and S.S. Kulkarni, J. Membr. Sci. 10, 235 (1982).\n3  E. Sada, H. Kumazawa, Y. Yoshio, S.-T. Wang and P. Xu, J. Polym. Sci., Part B: Polym. Phys. 26, 1035 (1988).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Carbon dioxide",
+    "formula": "CO2",
+    "cas": "124-38-9"
+   },
+   {
+    "index": 2,
+    "name": "Cellulose acetate (CA)",
+    "formula": "",
+    "cas": "9004-35-7"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Henry's law constant, K",
+     "Langmuir's parameter, C_H",
+     "Affinity Coefficient b",
+     "Keunen coefficient, S [S = k_D + C'_Hb]",
+     "Reference"
+    ],
+    "rows": [
+     [
+      "273.2",
+      "3.4",
+      "44.57",
+      "0.511",
+      "26.2",
+      "1"
+     ],
+     [
+      "283.2",
+      "2.9",
+      "35.26",
+      "0.441",
+      "18.5",
+      "1"
+     ],
+     [
+      "293.2",
+      "1.83",
+      "22.7",
+      "0.500",
+      "13.2",
+      "3"
+     ],
+     [
+      "302.9",
+      "1.24",
+      "20.3",
+      "0.437",
+      "10.1",
+      "3"
+     ],
+     [
+      "303.2",
+      "1.24",
+      "42.6",
+      "0.134",
+      "6.9",
+      "1"
+     ],
+     [
+      "313.2",
+      "1.10",
+      "17.7",
+      "0.280",
+      "6.0",
+      "3"
+     ],
+     [
+      "318.2",
+      "0.79",
+      "36.5",
+      "0.107",
+      "4.7",
+      "1"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Carbon dioxide with Cellulose acetate (CA)"
+ },
+ {
+  "sheet_id": "70_174",
+  "system_id": "70019",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=70_174",
+  "system": "Carbon dioxide with Cellulose acetate (CA)",
+  "components": "(1) Carbon dioxide; CO2; [124-38-9]\n(2) Cellulose acetate (CA); ; [9004-35-7]",
+  "original_measurements": "E. Sada, H. Kumazawa, Y. Yoshio, S.-T. Wang and P. Xu, J. Polym. Sci., Part B: Polym. Phys. 26, 1035 (1988).",
+  "variables": "Temperature = 293 K - 313 K\nPressure = 0-1.5 MPa",
+  "prepared_by": "Yu. P. Yampol'skii",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^*  delta;H_H = –22.7 kJ/mol; deltaH_D = –17.8 kJ/mol.",
+  "method": "Sorption was measured by the pressure decay method. The procedure and apparatus were similar to those described in Ref. 1.",
+  "source_purity": "CA: Eastman Kodak (E 398-3); content of acetyl groups 39.8 %. The film cast from acetone solution was annealed in a water bath at 363 K for 10 min. The film was dried in vacuum for 24 h before measurement of sorption.",
+  "estimated_error": "Temperature: No information given.",
+  "references": "^1W. J. Koros, D. R. Paul, and A. A. Rocha, J. Polym. Sci., Polym. Phys. Ed. 14, 667 (1976).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Carbon dioxide",
+    "formula": "CO2",
+    "cas": "124-38-9"
+   },
+   {
+    "index": 2,
+    "name": "Cellulose acetate (CA)",
+    "formula": "",
+    "cas": "9004-35-7"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Henry's law constant, K [cm^3(STP)/cm^3 atm]",
+     "Langmuir's parameter, C_H [cm^3(STP) cm^-3]",
+     "Affinity Coefficient b [atm^-1]"
+    ],
+    "rows": [
+     [
+      "293",
+      "1.83",
+      "22.7",
+      "0.500"
+     ],
+     [
+      "302",
+      "1.24",
+      "20.3",
+      "0.437"
+     ],
+     [
+      "313",
+      "1.10",
+      "17.7",
+      "0.280"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Carbon dioxide with Cellulose acetate (CA)"
+ },
+ {
+  "sheet_id": "70_193",
+  "system_id": "70020",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=70_193",
+  "system": "Carbon dioxide with Copoly(pyromellitic dianhydride-oxydianiline) PMDA (polyimide Kapton H)",
+  "components": "(1) Carbon dioxide; CO2; [124-38-9]\n(2) Copoly(pyromellitic dianhydride-oxydianiline) PMDA-ODA (polyimide Kapton H); ; [25036-53-7]",
+  "original_measurements": "H. Hachisuka, Y. Tsujita, A. Takizawa and T. Kinoshita, Polymer J. 21, 681 (1989).",
+  "variables": "Temperature = 298 K\nPressure = 0-1.200 kPa",
+  "prepared_by": "Yu. P. Yampol'skii",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Sorption measurement was carried out by Cahn 2000 electromicro-balance.",
+  "source_purity": "CO_2: purity 99.9 %. Polyimide: prepared by imidization of the polyamide produced by the reaction of pyromellitic acid dianhydride with 4,4’ diaminodiphenyl ether in N-methylpyrrolidone solution. Imidization was carried out at 423 K for 50—400 h in vacuo. An additional sample with 100 % imide content was also studied. For the thermally treated samples, the imide content lay in the range 35 % to 58%.\nT_g of unimidized polymer and polyimide were equal to 428 and 683 K, respectively.",
+  "estimated_error": "Temperature: No information given.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Carbon dioxide",
+    "formula": "CO2",
+    "cas": "124-38-9"
+   },
+   {
+    "index": 2,
+    "name": "Copoly(pyromellitic dianhydride-oxydianiline) PMDA-ODA (polyimide Kapton H)",
+    "formula": "",
+    "cas": "25036-53-7"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Henry's law constant, K [cm^3(STP)/cm^3 cm Hg]",
+     "Langmuir's parameter, C_H [cm^3(STP) cm^-3]",
+     "Affinity Coefficient b [cm/Hg]",
+     "Remark(s)"
+    ],
+    "rows": [
+     [
+      "0.0596",
+      "2.14",
+      "0.0047",
+      "3.62 [imide content (%)]"
+     ],
+     [
+      "0.0810",
+      "72.84",
+      "0.0061",
+      "34.76"
+     ],
+     [
+      "0.0872",
+      "273.54",
+      "0.0072",
+      "40.61"
+     ],
+     [
+      "0.0956",
+      "211.76",
+      "0.0073",
+      "51.28"
+     ],
+     [
+      "0.0922",
+      "175.26",
+      "0.0075",
+      "57.93"
+     ],
+     [
+      "0.0720",
+      "34.44",
+      "0.0084",
+      "100"
+     ]
+    ]
+   },
+   {
+    "headers": [
+     "Pressure [kPa]",
+     "Sorption [(V*_1(STP)/V*_2)]",
+     "Remark(s)"
+    ],
+    "rows": [
+     [
+      "49",
+      "3.08",
+      "Film not imidized"
+     ],
+     [
+      "97",
+      "5.32",
+      "Film not imidized"
+     ],
+     [
+      "199",
+      "9.37",
+      "Film not imidized"
+     ],
+     [
+      "301",
+      "12.67",
+      "Film not imidized"
+     ],
+     [
+      "400",
+      "15.97",
+      "Film not imidized"
+     ],
+     [
+      "501",
+      "18.67",
+      "Film not imidized"
+     ],
+     [
+      "596",
+      "20.97",
+      "Film not imidized"
+     ],
+     [
+      "696",
+      "23.17",
+      "Film not imidized"
+     ],
+     [
+      "800",
+      "25.54",
+      "Film not imidized"
+     ],
+     [
+      "900",
+      "27.33",
+      "Film not imidized"
+     ],
+     [
+      "68",
+      "6.47",
+      "Film imidized for 50 h"
+     ],
+     [
+      "135",
+      "9.91",
+      "Film imidized for 50 h"
+     ],
+     [
+      "268",
+      "14.91",
+      "Film imidized for 50 h"
+     ],
+     [
+      "398",
+      "18.20",
+      "Film imidized for 50 h"
+     ],
+     [
+      "534",
+      "21.43",
+      "Film imidized for 50 h"
+     ],
+     [
+      "665",
+      "24.03",
+      "Film imidized for 50 h"
+     ],
+     [
+      "799",
+      "26.50",
+      "Film imidized for 50 h"
+     ],
+     [
+      "906",
+      "28.36",
+      "Film imidized for 50 h"
+     ],
+     [
+      "1052",
+      "30.45",
+      "Film imidized for 50 h"
+     ],
+     [
+      "1191",
+      "32.60",
+      "Film imidized for 50 h"
+     ],
+     [
+      "134",
+      "12.62",
+      "Film imidized for 100 h"
+     ],
+     [
+      "295",
+      "19.18",
+      "Film imidized for 100 h"
+     ],
+     [
+      "399",
+      "22.55",
+      "Film imidized for 100 h"
+     ],
+     [
+      "533",
+      "25.97",
+      "Film imidized for 100 h"
+     ],
+     [
+      "665",
+      "29.01",
+      "Film imidized for 100 h"
+     ],
+     [
+      "782",
+      "31.74",
+      "Film imidized for 100 h"
+     ],
+     [
+      "910",
+      "34.09",
+      "Film imidized for 100 h"
+     ],
+     [
+      "1056",
+      "36.68",
+      "Film imidized for 100 h"
+     ],
+     [
+      "1174",
+      "38.47",
+      "Film imidized for 100 h"
+     ],
+     [
+      "64",
+      "9.94",
+      "Film imidized for 200 h"
+     ],
+     [
+      "135",
+      "13.88",
+      "Film imidized for 200 h"
+     ],
+     [
+      "264",
+      "19.82",
+      "Film imidized for 200 h"
+     ],
+     [
+      "400",
+      "23.87",
+      "Film imidized for 200 h"
+     ],
+     [
+      "553",
+      "27.85",
+      "Film imidized for 200 h"
+     ],
+     [
+      "667",
+      "30.46",
+      "Film imidized for 200 h"
+     ],
+     [
+      "800",
+      "33.25",
+      "Film imidized for 200 h"
+     ],
+     [
+      "924",
+      "35.41",
+      "Film imidized for 200 h"
+     ],
+     [
+      "1044",
+      "37.44",
+      "Film imidized for 200 h"
+     ],
+     [
+      "1178",
+      "39.54",
+      "Film imidized for 200 h"
+     ],
+     [
+      "132",
+      "14.89",
+      "Film imidized for 400 h"
+     ],
+     [
+      "266",
+      "20.83",
+      "Film imidized for 400 h"
+     ],
+     [
+      "395",
+      "24.94",
+      "Film imidized for 400 h"
+     ],
+     [
+      "519",
+      "28.62",
+      "Film imidized for 400 h"
+     ],
+     [
+      "660",
+      "31.72",
+      "Film imidized for 400 h"
+     ],
+     [
+      "791",
+      "34.89",
+      "Film imidized for 400 h"
+     ],
+     [
+      "936",
+      "37.48",
+      "Film imidized for 400 h"
+     ],
+     [
+      "1048",
+      "39.46",
+      "Film imidized for 400 h"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Carbon dioxide with Copoly(pyromellitic dianhydride-oxydianiline) PMDA (polyimide Kapton H)"
+ },
+ {
+  "sheet_id": "70_211",
+  "system_id": "70021",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=70_211",
+  "system": "Carbon dioxide with Copoly(vinylidine cyanide-vinyl acetate) (CVC-VA)",
+  "components": "(1) Carbon dioxide; CO2; [124-38-9]\n(2) Copoly(vinylidine cyanide-vinyl acetate) (CVC-VA); ; [9003-24-1]",
+  "original_measurements": "H. Hachisuka, Y. Tsujita, A. Takizawa and T. Kinoshita, Polymer J. 29, 2050 (1988).",
+  "variables": "Temperature = 298 K\nPressure = 0-1.33 MPa",
+  "prepared_by": "Yu. P. Yampol'skii",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Sorption was determined using gravimetric apparatus with Cahn Electrobalance 2000 instrument. A buoyancy correction was made.",
+  "source_purity": "Alternating copolymer VC-VA: amorphous polymer intrinsic viscosity 4.9 dl/g, glass transition temperature of the films “as cast” 449 K.",
+  "estimated_error": "Temperature: No information given.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Carbon dioxide",
+    "formula": "CO2",
+    "cas": "124-38-9"
+   },
+   {
+    "index": 2,
+    "name": "Copoly(vinylidine cyanide-vinyl acetate) (CVC-VA)",
+    "formula": "",
+    "cas": "9003-24-1"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "10^2 * Henry's law constant, K [cm^3(STP) cm^-3 cm Hg^-1]",
+     "Langmuir's parameter, C_H [cm^3(STP) cm^-3]",
+     "10^3 * Affinity Coefficient b [cm/Hg]",
+     "Remark(s)"
+    ],
+    "rows": [
+     [
+      "1.65",
+      "17.3",
+      "3.65",
+      "Time of annealing/h: 0"
+     ],
+     [
+      "1.50",
+      "16.4",
+      "3.65",
+      "1"
+     ],
+     [
+      "1.50",
+      "15.0",
+      "3.65",
+      "5"
+     ],
+     [
+      "1.48",
+      "14.3",
+      "3.65",
+      "10"
+     ],
+     [
+      "1.48",
+      "14.2",
+      "3.65",
+      "15"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Carbon dioxide with Copoly(vinylidine cyanide-vinyl acetate) (CVC-VA)"
+ },
+ {
+  "sheet_id": "70_216",
+  "system_id": "70022",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=70_216",
+  "system": "Carbon dioxide with Copolyimide",
+  "components": "(1) Carbon dioxide; CO2; [124-38-9]\n(2) Copolyimide; ; []",
+  "original_measurements": "K. Okamoto, K. Tanaka, O. Yokoshi, K. Hidetoshi and A. Nakamura, Intern. Congress on Membranes ICOM-87, 9-P15, p.542-543 (1987).",
+  "variables": "Temperature = 353 K\nPressure = 0-2.5 MPa",
+  "prepared_by": "Yu. P. Yampol'skii",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Equilibrium sorption was measured by the pressure decay method using a dual-volume sorption cell.",
+  "source_purity": "The polymers films (both cast and annealed at 603 K for 5 h.) had the following characteristics: density 1.357 g/cm^3, glass transition temperature 623 K. Cast and annealed films had amorphous structure.",
+  "estimated_error": "",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Carbon dioxide",
+    "formula": "CO2",
+    "cas": "124-38-9"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Henry's law constant, K [cm^3(STP)/cm^3 atm]",
+     "Langmuir's parameter, C_H [cm^3(STP) cm^-3]",
+     "Affinity Coefficient b [atm^-1]",
+     "Remark(s)"
+    ],
+    "rows": [
+     [
+      "0.588",
+      "20.9",
+      "0.281",
+      "Cast"
+     ],
+     [
+      "0.573",
+      "18.5",
+      "0.249",
+      "Annealed"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Carbon dioxide with Copolyimide"
+ },
+ {
+  "sheet_id": "70_218",
+  "system_id": "70023",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=70_218",
+  "system": "Carbon dioxide with Copolymer of ethylene-vinyl-acetone (CEVA) and Chlorosulphonated polyethylene Hypalon-48 (CPE)",
+  "components": "(1) Carbon dioxide; CO2; [124-38-9]\n(2) Chlorosulphonated polyethylene Hypalon-48 (CPE); ; []\n(3) Copolymer of ethylene-vinyl-acetate (CEVA); ; [24937-78-8]",
+  "original_measurements": "J.A. Barrie and, W.D. Webb, Polymer 30, 327-332 (1989).",
+  "variables": "Temperature = 303 K - 323 K\nPressure = 0-33.25 kPa\nConcentration = CEVA conc. in blends, wt %: 0-100",
+  "prepared_by": "Yu. P. Yampol'skii",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Sorption measurements were performed using a vacuum electronic microbalance (Sartorius\nInstruments).",
+  "source_purity": "CEVA containing 45 wt.% of vinyl acetate with M_w = 37,700 from Bayer Co and CPE (Hypalon 48) from DuPont, UK obtained by sulphochlorination of PE having M_n = 23,900 (Cl content 44 wt.%) were studied. A small but not specified content of SO_2Cl groups in CPE is possible. Both polymers were shown by X-ray diffraction to be amorphous. Some phase separation is reported for the blends with CEVA content lower than 50 % (DSC data).",
+  "estimated_error": "",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Carbon dioxide",
+    "formula": "CO2",
+    "cas": "124-38-9"
+   },
+   {
+    "index": 3,
+    "name": "Copolymer of ethylene-vinyl-acetate (CEVA)",
+    "formula": "",
+    "cas": "24937-78-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Gas Temperature (T_gas)",
+     "Pressure [g/cm^3]",
+     "Keunen coefficient, S",
+     "Remark(s)"
+    ],
+    "rows": [
+     [
+      "303",
+      "257",
+      "0.98",
+      "2.00",
+      "100 [CEVA, wt%]"
+     ],
+     [
+      "303",
+      "257",
+      "0.98",
+      "1.87",
+      "90"
+     ],
+     [
+      "303",
+      "257",
+      "0.98",
+      "1.81",
+      "80"
+     ],
+     [
+      "303",
+      "257",
+      "0.98",
+      "1.71",
+      "70"
+     ],
+     [
+      "303",
+      "257",
+      "0.98",
+      "1.56",
+      "60"
+     ],
+     [
+      "303",
+      "257",
+      "0.98",
+      "1.52",
+      "50"
+     ],
+     [
+      "303",
+      "257",
+      "0.98",
+      "1.42",
+      "40"
+     ],
+     [
+      "303",
+      "257",
+      "0.98",
+      "1.33",
+      "30"
+     ],
+     [
+      "303",
+      "257",
+      "0.98",
+      "1.27",
+      "20"
+     ],
+     [
+      "303",
+      "293",
+      "1.27",
+      "1.10",
+      "0"
+     ],
+     [
+      "313",
+      "257",
+      "0.98",
+      "1.73",
+      "100"
+     ],
+     [
+      "313",
+      "257",
+      "0.98",
+      "1.59",
+      "90"
+     ],
+     [
+      "313",
+      "257",
+      "0.98",
+      "1.57",
+      "80"
+     ],
+     [
+      "313",
+      "257",
+      "0.98",
+      "1.44",
+      "70"
+     ],
+     [
+      "313",
+      "257",
+      "0.98",
+      "1.35",
+      "60"
+     ],
+     [
+      "313",
+      "257",
+      "0.98",
+      "1.32",
+      "50"
+     ],
+     [
+      "313",
+      "257",
+      "0.98",
+      "1.22",
+      "40"
+     ],
+     [
+      "313",
+      "257",
+      "0.98",
+      "1.15",
+      "30"
+     ],
+     [
+      "313",
+      "257",
+      "0.98",
+      "1.10",
+      "20"
+     ],
+     [
+      "313",
+      "293",
+      "1.27",
+      "0.96",
+      "0"
+     ],
+     [
+      "323",
+      "257",
+      "0.98",
+      "1.48",
+      "100"
+     ],
+     [
+      "323",
+      "257",
+      "0.98",
+      "1.38",
+      "90"
+     ],
+     [
+      "323",
+      "257",
+      "0.98",
+      "1.37",
+      "80"
+     ],
+     [
+      "323",
+      "257",
+      "0.98",
+      "1.26",
+      "70"
+     ],
+     [
+      "323",
+      "257",
+      "0.98",
+      "1.18",
+      "60"
+     ],
+     [
+      "323",
+      "257",
+      "0.98",
+      "1.17",
+      "50"
+     ],
+     [
+      "323",
+      "257",
+      "0.98",
+      "1.08",
+      "40"
+     ],
+     [
+      "323",
+      "257",
+      "0.98",
+      "1.00",
+      "30"
+     ],
+     [
+      "323",
+      "257",
+      "0.98",
+      "0.98",
+      "20"
+     ],
+     [
+      "323",
+      "293",
+      "1.27",
+      "0.85",
+      "0"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Carbon dioxide with Copolymer of ethylene-vinyl-acetone (CEVA) and Chlorosulphonated polyethylene Hypalon-48 (CPE)"
+ },
+ {
+  "sheet_id": "70_86",
+  "system_id": "70024",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=70_86",
+  "system": "Carbon dioxide with DOS, Phosphoric acid,  TCP and PPO",
+  "components": "(1) Carbon dioxide; CO2; [124-38-9]\n(2) Decanedioic acid, dioctyl ester (dioctyl sebacate, DOS), Phosphoric acid, tri(methyl phenyl) ester (tricresyl phosphate, TCP) and Poly(2,6-dimethylphenylene oxide) (PPO); C26H50O4, C21H21O4P; [2432-87-3, 1330-78-5]",
+  "original_measurements": "Y. Maeda and D.R. Paul, J. Polym. Sci., Part B: Polym. Phys. 25, 981 (1987).",
+  "variables": "Temperature = 308 K - 328 K\nPressure = 0-2.2 MPa (0-22 atm)",
+  "prepared_by": "A.K. Bokarev",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The apparatus and procedure for measuring sorption isotherms are described in Ref. 1.",
+  "source_purity": "PPO: General Electric Co., M_n = 22 600. M_w = 34 000, M_t = 57 200, glass transition temperature 482 K.",
+  "estimated_error": "Temperature: No information given.",
+  "references": "^1 W J. Koros, D. R. Paul, and A. A. Rocha, J. Polym. Sci., Polym. Phys. Ed. 14, 687 (1976).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Carbon dioxide",
+    "formula": "CO2",
+    "cas": "124-38-9"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Gas Temperature (T_gas)",
+     "Langmuir's parameter, C_H [cm^3(STP) cm^-3]",
+     "Affinity Coefficient b [atm ]",
+     "Method/Comments"
+    ],
+    "rows": [
+     [
+      "308",
+      "481.8",
+      "32.6",
+      "0.216",
+      "PPO"
+     ],
+     [
+      "318",
+      "481.8",
+      "30.0",
+      "0.164",
+      "PPO"
+     ],
+     [
+      "328",
+      "481.8",
+      "28.4",
+      "0.128",
+      "PPO"
+     ],
+     [
+      "308",
+      "427.1",
+      "21.6",
+      "0.181",
+      "TCP (mass %) 10%"
+     ],
+     [
+      "318",
+      "380.9",
+      "14.2",
+      "0.132",
+      "TCP (mass %) 20%"
+     ],
+     [
+      "328",
+      "345.0",
+      "3.8",
+      "0.251",
+      "TCP (mass %) 30%"
+     ],
+     [
+      "308",
+      "408.8",
+      "20.5",
+      "0.141",
+      "DOS (mass %) 10%"
+     ],
+     [
+      "318",
+      "354.1",
+      "7.3",
+      "0.172",
+      "DOS (mass %) 20%"
+     ],
+     [
+      "328",
+      "312.3",
+      "—",
+      "—",
+      "DOS (mass %) 30%"
+     ]
+    ]
+   },
+   {
+    "headers": [
+     "T/K",
+     "Pressure [MPa]",
+     "Sorption [(V*_1(STP)/V*_3)]"
+    ],
+    "rows": [
+     [
+      "308",
+      "0.04",
+      "4.24"
+     ],
+     [
+      "308",
+      "0.06",
+      "4.92"
+     ],
+     [
+      "308",
+      "0.08",
+      "5.94"
+     ],
+     [
+      "308",
+      "0.10",
+      "7.08"
+     ],
+     [
+      "308",
+      "0.12",
+      "8.33"
+     ],
+     [
+      "308",
+      "0.17",
+      "10.60"
+     ],
+     [
+      "308",
+      "0.19",
+      "11.17"
+     ],
+     [
+      "308",
+      "0.28",
+      "14.92"
+     ],
+     [
+      "308",
+      "0.37",
+      "17.64"
+     ],
+     [
+      "308",
+      "0.41",
+      "18.09"
+     ],
+     [
+      "308",
+      "0.42",
+      "19.34"
+     ],
+     [
+      "308",
+      "0.46",
+      "20.02"
+     ],
+     [
+      "308",
+      "0.55",
+      "21.82"
+     ],
+     [
+      "308",
+      "0.65",
+      "24.08"
+     ],
+     [
+      "308",
+      "0.83",
+      "27.13"
+     ],
+     [
+      "308",
+      "0.84",
+      "27.92"
+     ],
+     [
+      "308",
+      "1.02",
+      "30.16"
+     ],
+     [
+      "308",
+      "1.11",
+      "31.86"
+     ],
+     [
+      "308",
+      "1.18",
+      "32.41"
+     ],
+     [
+      "308",
+      "1.30",
+      "34.55"
+     ],
+     [
+      "308",
+      "1.37",
+      "35.45"
+     ],
+     [
+      "308",
+      "1.61",
+      "38.02"
+     ],
+     [
+      "308",
+      "1.89",
+      "41.15"
+     ],
+     [
+      "308",
+      "1.91",
+      "40.80"
+     ],
+     [
+      "308",
+      "2.00",
+      "41.70"
+     ],
+     [
+      "308",
+      "2.03",
+      "42.38"
+     ],
+     [
+      "318",
+      "0.09",
+      "4.80"
+     ],
+     [
+      "318",
+      "0.18",
+      "7.98"
+     ],
+     [
+      "318",
+      "0.19",
+      "8.66"
+     ],
+     [
+      "318",
+      "0.28",
+      "11.38"
+     ],
+     [
+      "318",
+      "0.32",
+      "12.28"
+     ],
+     [
+      "318",
+      "0.41",
+      "14.77"
+     ],
+     [
+      "318",
+      "0.55",
+      "17.60"
+     ],
+     [
+      "318",
+      "0.70",
+      "20.07"
+     ],
+     [
+      "318",
+      "0.79",
+      "21.54"
+     ],
+     [
+      "318",
+      "0.84",
+      "22.21"
+     ],
+     [
+      "318",
+      "0.91",
+      "23.45"
+     ],
+     [
+      "318",
+      "1.14",
+      "25.91"
+     ],
+     [
+      "318",
+      "1.34",
+      "28.38"
+     ],
+     [
+      "318",
+      "1.43",
+      "29.38"
+     ],
+     [
+      "318",
+      "1.50",
+      "30.51"
+     ],
+     [
+      "318",
+      "1.74",
+      "32.51"
+     ],
+     [
+      "318",
+      "1.76",
+      "32.16"
+     ],
+     [
+      "318",
+      "2.08",
+      "35.28"
+     ],
+     [
+      "318",
+      "2.16",
+      "35.60"
+     ],
+     [
+      "328",
+      "0.13",
+      "4.79"
+     ],
+     [
+      "328",
+      "0.19",
+      "6.38"
+     ],
+     [
+      "328",
+      "0.30",
+      "9.55"
+     ],
+     [
+      "328",
+      "0.38",
+      "11.13"
+     ],
+     [
+      "328",
+      "0.44",
+      "12.48"
+     ],
+     [
+      "328",
+      "0.57",
+      "14.62"
+     ],
+     [
+      "328",
+      "0.79",
+      "17.88"
+     ],
+     [
+      "328",
+      "0.95",
+      "19.56"
+     ],
+     [
+      "328",
+      "1.08",
+      "21.13"
+     ],
+     [
+      "328",
+      "1.27",
+      "23.48"
+     ],
+     [
+      "328",
+      "1.30",
+      "23.93"
+     ],
+     [
+      "328",
+      "1.68",
+      "26.70"
+     ],
+     [
+      "328",
+      "1.74",
+      "27.37"
+     ],
+     [
+      "328",
+      "1.82",
+      "28.15"
+     ],
+     [
+      "328",
+      "1.98",
+      "29.25"
+     ],
+     [
+      "328",
+      "2.09",
+      "30.02"
+     ]
+    ]
+   },
+   {
+    "headers": [
+     "Pressure [MPa]",
+     "Sorption [(V*_1(STP)/V_23)]",
+     "Remark(s)"
+    ],
+    "rows": [
+     [
+      "0.06",
+      "4.91",
+      "DOS 0 mass %"
+     ],
+     [
+      "0.08",
+      "5.85",
+      "DOS 0 mass %"
+     ],
+     [
+      "0.10",
+      "7.10",
+      "DOS 0 mass %"
+     ],
+     [
+      "0.12",
+      "8.29",
+      "DOS 0 mass %"
+     ],
+     [
+      "0.17",
+      "10.82",
+      "DOS 0 mass %"
+     ],
+     [
+      "0.19",
+      "11.27",
+      "DOS 0 mass %"
+     ],
+     [
+      "0.28",
+      "14.94",
+      "DOS 0 mass %"
+     ],
+     [
+      "0.38",
+      "17.82",
+      "DOS 0 mass %"
+     ],
+     [
+      "0.41",
+      "18.07",
+      "DOS 0 mass %"
+     ],
+     [
+      "0.43",
+      "19.31",
+      "DOS 0 mass %"
+     ],
+     [
+      "0.45",
+      "19.66",
+      "DOS 0 mass %"
+     ],
+     [
+      "0.47",
+      "19.91",
+      "DOS 0 mass %"
+     ],
+     [
+      "0.65",
+      "23.94",
+      "DOS 0 mass %"
+     ],
+     [
+      "0.83",
+      "27.17",
+      "DOS 0 mass %"
+     ],
+     [
+      "0.84",
+      "27.87",
+      "DOS 0 mass %"
+     ],
+     [
+      "1.01",
+      "30.01",
+      "DOS 0 mass %"
+     ],
+     [
+      "1.11",
+      "31.95",
+      "DOS 0 mass %"
+     ],
+     [
+      "1.17",
+      "32.35",
+      "DOS 0 mass %"
+     ],
+     [
+      "1.36",
+      "35.39",
+      "DOS 0 mass %"
+     ],
+     [
+      "1.61",
+      "37.94",
+      "DOS 0 mass %"
+     ],
+     [
+      "1.87",
+      "41.03",
+      "DOS 0 mass %"
+     ],
+     [
+      "1.89",
+      "40.63",
+      "DOS 0 mass %"
+     ],
+     [
+      "1.98",
+      "41.38",
+      "DOS 0 mass %"
+     ],
+     [
+      "2.01",
+      "42.38",
+      "DOS 0 mass %"
+     ],
+     [
+      "0.18",
+      "5.02",
+      "DOS 10 mass %"
+     ],
+     [
+      "0.23",
+      "6.36",
+      "DOS 10 mass %"
+     ],
+     [
+      "0.30",
+      "7.90",
+      "DOS 10 mass %"
+     ],
+     [
+      "0.46",
+      "10.44",
+      "DOS 10 mass %"
+     ],
+     [
+      "0.60",
+      "12.63",
+      "DOS 10 mass %"
+     ],
+     [
+      "0.84",
+      "15.48",
+      "DOS 10 mass %"
+     ],
+     [
+      "0.94",
+      "16.48",
+      "DOS 10 mass %"
+     ],
+     [
+      "1.15",
+      "18.77",
+      "DOS 10 mass %"
+     ],
+     [
+      "1.48",
+      "21.72",
+      "DOS 10 mass %"
+     ],
+     [
+      "1.53",
+      "21.97",
+      "DOS 10 mass %"
+     ],
+     [
+      "1.78",
+      "24.02",
+      "DOS 10 mass %"
+     ],
+     [
+      "2.09",
+      "26.32",
+      "DOS 10 mass %"
+     ],
+     [
+      "2.14",
+      "26.38",
+      "DOS 10 mass %"
+     ],
+     [
+      "0.13",
+      "2.44",
+      "DOS 20 mass %"
+     ],
+     [
+      "0.22",
+      "3.78",
+      "DOS 20 mass %"
+     ],
+     [
+      "0.27",
+      "4.28",
+      "DOS 20 mass %"
+     ],
+     [
+      "0.38",
+      "5.78",
+      "DOS 20 mass %"
+     ],
+     [
+      "0.50",
+      "7.27",
+      "DOS 20 mass %"
+     ],
+     [
+      "0.65",
+      "8.72",
+      "DOS 20 mass %"
+     ],
+     [
+      "0.72",
+      "9.52",
+      "DOS 20 mass %"
+     ],
+     [
+      "0.83",
+      "10.67",
+      "DOS 20 mass %"
+     ],
+     [
+      "0.97",
+      "12.22",
+      "DOS 20 mass %"
+     ],
+     [
+      "1.34",
+      "15.22",
+      "DOS 20 mass %"
+     ],
+     [
+      "1.43",
+      "15.82",
+      "DOS 20 mass %"
+     ],
+     [
+      "2.09",
+      "21.52",
+      "DOS 20 mass %"
+     ],
+     [
+      "1.76",
+      "18.67",
+      "DOS 20 mass %"
+     ],
+     [
+      "0.20",
+      "2.59",
+      "DOS 30 mass %"
+     ],
+     [
+      "0.28",
+      "3.44",
+      "DOS 30 mass %"
+     ],
+     [
+      "0.37",
+      "4.39",
+      "DOS 30 mass %"
+     ],
+     [
+      "0.48",
+      "5.69",
+      "DOS 30 mass %"
+     ],
+     [
+      "0.65",
+      "7.53",
+      "DOS 30 mass %"
+     ],
+     [
+      "0.95",
+      "10.43",
+      "DOS 30 mass %"
+     ],
+     [
+      "0.99",
+      "10.98",
+      "DOS 30 mass %"
+     ],
+     [
+      "1.19",
+      "12.83",
+      "DOS 30 mass %"
+     ],
+     [
+      "1.53",
+      "16.32",
+      "DOS 30 mass %"
+     ],
+     [
+      "1.37",
+      "14.62",
+      "DOS 30 mass %"
+     ],
+     [
+      "1.81",
+      "19.32",
+      "DOS 30 mass %"
+     ],
+     [
+      "2.09",
+      "22.51",
+      "DOS 30 mass %"
+     ],
+     [
+      "2.14",
+      "23.16",
+      "DOS 30 mass %"
+     ]
+    ]
+   },
+   {
+    "headers": [
+     "Pressure [MPa]",
+     "Sorption [(V*_1(STP)/V_23)]",
+     "Remark(s)"
+    ],
+    "rows": [
+     [
+      "0.04",
+      "3.19",
+      "TCP 0 mass %"
+     ],
+     [
+      "0.06",
+      "4.67",
+      "TCP 0 mass %"
+     ],
+     [
+      "0.08",
+      "5.81",
+      "TCP 0 mass %"
+     ],
+     [
+      "0.11",
+      "7.17",
+      "TCP 0 mass %"
+     ],
+     [
+      "0.14",
+      "8.19",
+      "TCP 0 mass %"
+     ],
+     [
+      "0.18",
+      "10.69",
+      "TCP 0 mass %"
+     ],
+     [
+      "0.20",
+      "11.03",
+      "TCP 0 mass %"
+     ],
+     [
+      "0.30",
+      "14.77",
+      "TCP 0 mass %"
+     ],
+     [
+      "0.39",
+      "17.83",
+      "TCP 0 mass %"
+     ],
+     [
+      "0.42",
+      "18.05",
+      "TCP 0 mass %"
+     ],
+     [
+      "0.44",
+      "19.30",
+      "TCP 0 mass %"
+     ],
+     [
+      "0.48",
+      "19.98",
+      "TCP 0 mass %"
+     ],
+     [
+      "0.56",
+      "21.79",
+      "TCP 0 mass %"
+     ],
+     [
+      "0.66",
+      "23.94",
+      "TCP 0 mass %"
+     ],
+     [
+      "0.83",
+      "27.21",
+      "TCP 0 mass %"
+     ],
+     [
+      "0.84",
+      "27.89",
+      "TCP 0 mass %"
+     ],
+     [
+      "1.01",
+      "30.14",
+      "TCP 0 mass %"
+     ],
+     [
+      "1.11",
+      "31.83",
+      "TCP 0 mass %"
+     ],
+     [
+      "1.18",
+      "32.39",
+      "TCP 0 mass %"
+     ],
+     [
+      "1.29",
+      "34.42",
+      "TCP 0 mass %"
+     ],
+     [
+      "1.36",
+      "35.21",
+      "TCP 0 mass %"
+     ],
+     [
+      "1.62",
+      "37.90",
+      "TCP 0 mass %"
+     ],
+     [
+      "1.87",
+      "41.27",
+      "TCP 0 mass %"
+     ],
+     [
+      "1.89",
+      "40.58",
+      "TCP 0 mass %"
+     ],
+     [
+      "1.99",
+      "41.48",
+      "TCP 0 mass %"
+     ],
+     [
+      "2.02",
+      "42.38",
+      "TCP 0 mass %"
+     ],
+     [
+      "0.13",
+      "4.54",
+      "TCP 10 mass %"
+     ],
+     [
+      "0.18",
+      "6.13",
+      "TCP 10 mass %"
+     ],
+     [
+      "0.23",
+      "7.15",
+      "TCP 10 mass %"
+     ],
+     [
+      "0.27",
+      "8.28",
+      "TCP 10 mass %"
+     ],
+     [
+      "0.35",
+      "9.75",
+      "TCP 10 mass %"
+     ],
+     [
+      "0.44",
+      "11.44",
+      "TCP 10 mass %"
+     ],
+     [
+      "0.58",
+      "13.81",
+      "TCP 10 mass %"
+     ],
+     [
+      "0.70",
+      "15.61",
+      "TCP 10 mass %"
+     ],
+     [
+      "0.73",
+      "16.29",
+      "TCP 10 mass %"
+     ],
+     [
+      "0.78",
+      "16.62",
+      "TCP 10 mass %"
+     ],
+     [
+      "0.83",
+      "17.18",
+      "TCP 10 mass %"
+     ],
+     [
+      "0.91",
+      "18.20",
+      "TCP 10 mass %"
+     ],
+     [
+      "1.11",
+      "20.21",
+      "TCP 10 mass %"
+     ],
+     [
+      "1.27",
+      "21.78",
+      "TCP 10 mass %"
+     ],
+     [
+      "1.35",
+      "22.33",
+      "TCP 10 mass %"
+     ],
+     [
+      "1.46",
+      "23.68",
+      "TCP 10 mass %"
+     ],
+     [
+      "1.71",
+      "25.46",
+      "TCP 10 mass %"
+     ],
+     [
+      "1.88",
+      "26.69",
+      "TCP 10 mass %"
+     ],
+     [
+      "1.95",
+      "27.13",
+      "TCP 10 mass %"
+     ],
+     [
+      "0.16",
+      "3.17",
+      "TCP 20 mass %"
+     ],
+     [
+      "0.21",
+      "4.08",
+      "TCP 20 mass %"
+     ],
+     [
+      "0.29",
+      "5.09",
+      "TCP 20 mass %"
+     ],
+     [
+      "0.34",
+      "6.10",
+      "TCP 20 mass %"
+     ],
+     [
+      "0.41",
+      "7.00",
+      "TCP 20 mass %"
+     ],
+     [
+      "0.51",
+      "8.12",
+      "TCP 20 mass %"
+     ],
+     [
+      "0.67",
+      "10.15",
+      "TCP 20 mass %"
+     ],
+     [
+      "0.81",
+      "11.83",
+      "TCP 20 mass %"
+     ],
+     [
+      "0.86",
+      "12.17",
+      "TCP 20 mass %"
+     ],
+     [
+      "1.89",
+      "20.53",
+      "TCP 20 mass %"
+     ],
+     [
+      "1.95",
+      "20.98",
+      "TCP 20 mass %"
+     ],
+     [
+      "1.14",
+      "14.74",
+      "TCP 20 mass %"
+     ],
+     [
+      "1.20",
+      "15.30",
+      "TCP 20 mass %"
+     ],
+     [
+      "1.40",
+      "17.20",
+      "TCP 20 mass %"
+     ],
+     [
+      "1.43",
+      "17.08",
+      "TCP 20 mass %"
+     ],
+     [
+      "0.40",
+      "4.73",
+      "TCP 30 mass %"
+     ],
+     [
+      "0.20",
+      "2.48",
+      "TCP 30 mass %"
+     ],
+     [
+      "0.26",
+      "3.16",
+      "TCP 30 mass %"
+     ],
+     [
+      "0.31",
+      "3.94",
+      "TCP 30 mass %"
+     ],
+     [
+      "0.43",
+      "5.18",
+      "TCP 30 mass %"
+     ],
+     [
+      "0.49",
+      "5.73",
+      "TCP 30 mass %"
+     ],
+     [
+      "0.55",
+      "6.29",
+      "TCP 30 mass %"
+     ],
+     [
+      "0.67",
+      "7.76",
+      "TCP 30 mass %"
+     ],
+     [
+      "0.93",
+      "10.10",
+      "TCP 30 mass %"
+     ],
+     [
+      "1.00",
+      "10.66",
+      "TCP 30 mass %"
+     ],
+     [
+      "1.06",
+      "11.22",
+      "TCP 30 mass %"
+     ],
+     [
+      "1.18",
+      "12.34",
+      "TCP 30 mass %"
+     ],
+     [
+      "1.48",
+      "14.91",
+      "TCP 30 mass %"
+     ],
+     [
+      "1.57",
+      "15.46",
+      "TCP 30 mass %"
+     ],
+     [
+      "1.77",
+      "17.59",
+      "TCP 30 mass %"
+     ],
+     [
+      "2.14",
+      "20.49",
+      "TCP 30 mass %"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Carbon dioxide with DOS, Phosphoric acid,  TCP and PPO"
+ },
+ {
+  "sheet_id": "70_168",
+  "system_id": "70025",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=70_168",
+  "system": "Carbon dioxide with Ethyl Cellulose (EC)",
+  "components": "(1) Carbon dioxide; CO2; [124-38-9]\n(2) Ethyl Cellulose (EC); ; [9004-57-3]",
+  "original_measurements": "A.H. Chan, W.J. Koros and D.R. Paul, J. Membr. Sci. 3, 117 (1978).",
+  "variables": "Temperature = 308 K\nPressure = 0-2.6 MPa",
+  "prepared_by": "Yu. P. Yampol'skii",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Sorption apparatus used was described in Ref. 1.",
+  "source_purity": "EC: Dow Chemical Co., presumed ethoxy groups content 48.6 %, glass transition temperature in the region 393—398 K.",
+  "estimated_error": "Temperature: No information given.",
+  "references": "^1W. J. Koros, and D. R. Paul, J. Polym. Sci., Polym. Phys. Ed. 14, 1903 (1976).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Carbon dioxide",
+    "formula": "CO2",
+    "cas": "124-38-9"
+   },
+   {
+    "index": 2,
+    "name": "Ethyl Cellulose (EC)",
+    "formula": "",
+    "cas": "9004-57-3"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Henry's law constant, K [cm3(STP) cm-3 atm -1]",
+     "Langmuir's parameter, C_H [cm^3(STP) cm^-3]",
+     "Affinity Coefficient b [atm^-1]"
+    ],
+    "rows": [
+     [
+      "1.189",
+      "4.847",
+      "0.365"
+     ]
+    ]
+   },
+   {
+    "headers": [
+     "Pressure [MPa]",
+     "Sorption [(V*_1(STP)/V*_2)]"
+    ],
+    "rows": [
+     [
+      "0.15",
+      "3.44"
+     ],
+     [
+      "0.24",
+      "5.09"
+     ],
+     [
+      "0.37",
+      "7.44"
+     ],
+     [
+      "0.66",
+      "11.50"
+     ],
+     [
+      "1.32",
+      "19.76"
+     ],
+     [
+      "1.97",
+      "27.19"
+     ],
+     [
+      "2.35",
+      "32.29"
+     ],
+     [
+      "2.62",
+      "35.59"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Carbon dioxide with Ethyl Cellulose (EC)"
+ },
+ {
+  "sheet_id": "70_21",
+  "system_id": "70026",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=70_21",
+  "system": "Carbon dioxide with Ethylene and Poly(methyl methacrylate) (PMMA)",
+  "components": "(1) Poly(methyl methacrylate) (PMMA); ; [9011-14-7]\n(2) Carbon dioxide; CO2; [124-38-9]\n(3) Ethylene; C2H4; [74-85-1]",
+  "original_measurements": "E.S. Sanders, W.J. Koros, H.B. Hopfenberg and V. Stannett, J. Membr. Sci. 13, 161 (1983).",
+  "variables": "Temperature = 308 K\nPressure = 0-0.8 MPa",
+  "prepared_by": "A.K. Bokarev",
+  "critical_evaluation": "The following figure concerns mixed gas sorption of CO_2 and C_2H_4.  Points are experimental data, solid lines are predictions of DMS equation and dashed lines are prediction of DMS equation for mixed penetrants:      C_1=k_D1p_1++C^1_H1b_1p_1/(1+b_1p_1+b_2p_2)      C_2=k_D2p_2++C^1_H2b_2p_2/(1+b_1p_1+b_2p_2).All the parameters for gases (1) and (2) are pure components sorption parameters from Table 2.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A novel apparatus to measure precisely both pure and mixed gas sorption in glassy polymers is described. A method for accurate calibration and operation of the equipment is discussed, based upon complete closure of the material balance of all gaseous components in all phases. The overall scheme of the sorption apparatus is illustrated and the details of the sorption cell are presented.",
+  "source_purity": "CO_2: Air Products, purity 99.99 % (Coleman grade).\nC_2H_4: Airco Research Triangle Park, purity 99.5 % (2.5 grade).\nPMMA: Aldrich Chemical Co., M_w = 600 000.",
+  "estimated_error": "Temperature: No information given",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Poly(methyl methacrylate) (PMMA)",
+    "formula": "",
+    "cas": "9011-14-7"
+   },
+   {
+    "index": 2,
+    "name": "Carbon dioxide",
+    "formula": "CO2",
+    "cas": "124-38-9"
+   },
+   {
+    "index": 3,
+    "name": "Ethylene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical Name",
+     "Pressure [MPa]",
+     "Sorption [(V*_1(STP)/V*_3)]"
+    ],
+    "rows": [
+     [
+      "C2H4",
+      "0.09",
+      "2.03"
+     ],
+     [
+      "C2H4",
+      "0.16",
+      "2.92"
+     ],
+     [
+      "C2H4",
+      "0.19",
+      "3.36"
+     ],
+     [
+      "C2H4",
+      "0.22",
+      "3.81"
+     ],
+     [
+      "C2H4",
+      "0.27",
+      "4.29"
+     ],
+     [
+      "C2H4",
+      "0.32",
+      "4.90"
+     ],
+     [
+      "C2H4",
+      "0.34",
+      "5.13"
+     ],
+     [
+      "C2H4",
+      "0.39",
+      "5.62"
+     ],
+     [
+      "C2H4",
+      "0.43",
+      "5.99"
+     ],
+     [
+      "C2H4",
+      "0.47",
+      "6.46"
+     ],
+     [
+      "C2H4",
+      "0.53",
+      "6.92"
+     ],
+     [
+      "C2H4",
+      "0.56",
+      "7.04"
+     ],
+     [
+      "C2H4",
+      "0.64",
+      "7.83"
+     ],
+     [
+      "C2H4",
+      "0.73",
+      "8.29"
+     ],
+     [
+      "C2H4",
+      "0.75",
+      "8.85"
+     ],
+     [
+      "C2H4",
+      "0.80",
+      "9.06"
+     ],
+     [
+      "CO2",
+      "0.06",
+      "2.37"
+     ],
+     [
+      "CO2",
+      "0.11",
+      "3.58"
+     ],
+     [
+      "CO2",
+      "0.12",
+      "4.03"
+     ],
+     [
+      "CO2",
+      "0.15",
+      "4.64"
+     ],
+     [
+      "CO2",
+      "0.20",
+      "5.85"
+     ],
+     [
+      "CO2",
+      "0.21",
+      "5.97"
+     ],
+     [
+      "CO2",
+      "0.24",
+      "6.79"
+     ],
+     [
+      "CO2",
+      "0.27",
+      "7.39"
+     ],
+     [
+      "CO2",
+      "0.30",
+      "8.05"
+     ],
+     [
+      "CO2",
+      "0.34",
+      "8.80"
+     ],
+     [
+      "CO2",
+      "0.39",
+      "9.66"
+     ],
+     [
+      "CO2",
+      "0.42",
+      "9.92"
+     ],
+     [
+      "CO2",
+      "0.45",
+      "10.45"
+     ],
+     [
+      "CO2",
+      "0.45",
+      "10.64"
+     ],
+     [
+      "CO2",
+      "0.48",
+      "10.92"
+     ],
+     [
+      "CO2",
+      "0.50",
+      "11.34"
+     ],
+     [
+      "CO2",
+      "0.53",
+      "11.90"
+     ],
+     [
+      "CO2",
+      "0.55",
+      "12.13"
+     ],
+     [
+      "CO2",
+      "0.56",
+      "12.30"
+     ],
+     [
+      "CO2",
+      "0.59",
+      "12.46"
+     ],
+     [
+      "CO2",
+      "0.63",
+      "13.25"
+     ],
+     [
+      "CO2",
+      "0.65",
+      "13.56"
+     ],
+     [
+      "CO2",
+      "0.67",
+      "13.72"
+     ],
+     [
+      "CO2",
+      "0.70",
+      "14.05"
+     ],
+     [
+      "CO2",
+      "0.70",
+      "14.19"
+     ]
+    ]
+   },
+   {
+    "headers": [
+     "Chemical Name",
+     "Henry's law constant, K [cm^3 (STP) cm^-3 atm^-1]",
+     "Concentration C_1 [cm^3(STP) cm^-3]",
+     "Affinity Coefficient b [atm^-1]"
+    ],
+    "rows": [
+     [
+      "CO2",
+      "0.916",
+      "12.59",
+      "0.236"
+     ],
+     [
+      "C2H4",
+      "0.531",
+      "7.09",
+      "0.259"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Carbon dioxide with Ethylene and Poly(methyl methacrylate) (PMMA)"
+ },
+ {
+  "sheet_id": "70_22",
+  "system_id": "70026",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=70_22",
+  "system": "Carbon dioxide with Ethylene and Poly(methyl methacrylate) (PMMA)",
+  "components": "(1) Poly(methyl methacrylate) (PMMA); ; [9011-14-7]\n(2) Carbon dioxide; CO2; [124-38-9]\n(3) Ethylene; C2H4; [74-85-1]",
+  "original_measurements": "E.S. Sanders, W.J. Koros, H.B. Hopfenberg and V. Stannett, J. Membr. Sci. 18, 53 (1984).",
+  "variables": "Temperature = 308 K\nPressure = 0-0.81 MPa",
+  "prepared_by": "Yu. P. Yampol'skii",
+  "critical_evaluation": "The two following figures (Fig. 6 and 7) deal with mixed gas sorption of CO_2 and C_2H_4.  Points are experimental data, solid lines are predictions of DMS equation and dashed lines are prediction of equation:      C_1=k_D1p_1++C^1_1b_1p_1/(1+b_1p_1+b_2p_2)      C_2=k_D2p_2++C^1_H2b_2p_2/(1+b_1p_1+b_2p_2).All the parameters for gases (1) and (2) are pure components sorption parameters from Table 2.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Apparatus specifically designed to measure mixed gas sorption was described is Ref. I. It consisted of four chambers: one chamber contained the polymer, three others were used to meter gases accurately (individual or mixtures) into the first one or for sampling gases directly into a gas chromatograph. All chambers were provided with pressure transducers (Gould Model PA 822). The method is based on the concept of maintaining material balance. For both pure gases and mixtures. PVT behaviour was taken into account.",
+  "source_purity": "C0_2: Air Products, purity 99.99 %.\nC_2H_4 Airco, purity 99.5 %.\nPMMA: Aldrich Chemical Co., M_v = 600 000, glass transition temperature 393 K.",
+  "estimated_error": "Temperature: Precision in T: ± 0.01 K.\nPressure: Relative precision of pressures: ± 0.3 %.",
+  "references": "^1E. S. Sanders, W. I. Koros, H. B, Hopfenberg, and V. T. Stannett, J. Membr, Sci. 13,161 (1983).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Poly(methyl methacrylate) (PMMA)",
+    "formula": "",
+    "cas": "9011-14-7"
+   },
+   {
+    "index": 2,
+    "name": "Carbon dioxide",
+    "formula": "CO2",
+    "cas": "124-38-9"
+   },
+   {
+    "index": 3,
+    "name": "Ethylene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical Name",
+     "Pressure [MPa]",
+     "Sorption [(V*_1(STP)/V*_3)]"
+    ],
+    "rows": [
+     [
+      "CO2",
+      "0.07",
+      "2.40"
+     ],
+     [
+      "CO2",
+      "0.13",
+      "4.09"
+     ],
+     [
+      "CO2",
+      "0.20",
+      "5.92"
+     ],
+     [
+      "CO2",
+      "0.22",
+      "6.25"
+     ],
+     [
+      "CO2",
+      "0.27",
+      "7.28"
+     ],
+     [
+      "CO2",
+      "0.31",
+      "8.08"
+     ],
+     [
+      "CO2",
+      "0.35",
+      "8.87"
+     ],
+     [
+      "C2H4",
+      "0.10",
+      "2.16"
+     ],
+     [
+      "C2H4",
+      "0.16",
+      "3.00"
+     ],
+     [
+      "C2H4",
+      "0.20",
+      "3.47"
+     ],
+     [
+      "C2H4",
+      "0.23",
+      "3.80"
+     ],
+     [
+      "C2H4",
+      "0.27",
+      "4.31"
+     ],
+     [
+      "C2H4",
+      "0.33",
+      "4.97"
+     ],
+     [
+      "CO2",
+      "0.43",
+      "9.86"
+     ],
+     [
+      "CO2",
+      "0.46",
+      "10.51"
+     ],
+     [
+      "CO2",
+      "0.46",
+      "10.70"
+     ],
+     [
+      "CO2",
+      "0.49",
+      "10.84"
+     ],
+     [
+      "CO2",
+      "0.51",
+      "11.31"
+     ],
+     [
+      "CO2",
+      "0.56",
+      "12.16"
+     ],
+     [
+      "CO2",
+      "0.57",
+      "12.44"
+     ],
+     [
+      "C2H4",
+      "0.35",
+      "5.20"
+     ],
+     [
+      "C2H4",
+      "0.39",
+      "5.67"
+     ],
+     [
+      "C2H4",
+      "0.44",
+      "6.00"
+     ],
+     [
+      "C2H4",
+      "0.47",
+      "6.47"
+     ],
+     [
+      "C2H4",
+      "0.54",
+      "6.93"
+     ],
+     [
+      "C2H4",
+      "0.56",
+      "7.00"
+     ],
+     [
+      "CO2",
+      "0.64",
+      "13.09"
+     ],
+     [
+      "CO2",
+      "0.66",
+      "13.61"
+     ],
+     [
+      "CO2",
+      "0.68",
+      "13.80"
+     ],
+     [
+      "CO2",
+      "0.70",
+      "14.22"
+     ],
+     [
+      "CO2",
+      "0.71",
+      "14.36"
+     ],
+     [
+      "C2H4",
+      "0.65",
+      "7.82"
+     ],
+     [
+      "C2H4",
+      "0.73",
+      "8.29"
+     ],
+     [
+      "C2H4",
+      "0.80",
+      "9.08"
+     ],
+     [
+      "C2H4",
+      "0.81",
+      "9.13"
+     ]
+    ]
+   },
+   {
+    "headers": [
+     "Chemical Name",
+     "Henry's law constant, K [cm^3(STP)/cm^3 atm]",
+     "Langmuir's parameter, C_H [cm^3(STP) cm^-3]",
+     "Affinity Coefficient b [atm^-1]"
+    ],
+    "rows": [
+     [
+      "CO2, Pressure based parameters",
+      "0.916",
+      "12.59",
+      "0.236"
+     ],
+     [
+      "C2H4, Pressure based parameters",
+      "0.531",
+      "7.09",
+      "0.259"
+     ],
+     [
+      "CO2, Fugacity based parameters",
+      "1.015",
+      "11.86",
+      "0.243"
+     ],
+     [
+      "C2H4, Fugacity based parameters",
+      "0.490",
+      "8.32",
+      "0.217"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Carbon dioxide with Ethylene and Poly(methyl methacrylate) (PMMA)"
+ },
+ {
+  "sheet_id": "70_23",
+  "system_id": "70027",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=70_23",
+  "system": "Carbon dioxide with Ethylene, Nitrous oxide and Poly(methyl methacrylate) (PMMA)",
+  "components": "(1) Poly(methyl methacrylate) (PMMA); ; [9011-14-7]\n(2) Carbon dioxide; CO2; [124-38-9]\n(3) Ethylene with Nitrous oxide; C2H4, N2O; [74-85-1, 10024-97-2]",
+  "original_measurements": "W.J. Koros and E.S. Sanders, J. Polym. Sci. Symp. 72, 142 (1985). E.S. Sanders and W.J. Koros J. Polym. Sci., Polym. Phys. Ed. 24, 175 (1986).",
+  "variables": "Temperature = 308 K\nPressure = 0-2.0 MPa",
+  "prepared_by": "A.K. Bokarev",
+  "critical_evaluation": "The following figures (Figs. 9-11) refer to mixed gas sorption of CO_2/C_2H_4 and CO_2/N_2O.  Points are experimental data, solid lines are predictions of DMS equation and dashed lines are prediction of equation:      C_1=k_D1p_1++C^1_H1b_1p_1/(1+b_1p_1+b_2p_2)      C_2=k_D2p_2++C^1_H2b_2p_2/(1+b_1p_1+b_2p_2).All the parameters for gases (1) and (2) are pure components sorption parameters from Table 1.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "An apparatus for precise measurement is both pure and mixed gas sorption in glassy polymers was used. Details in Ref. I.",
+  "source_purity": "CO_2: Air Products; purity 99.99 % (Coleman grade).\nC_2H_4: Airco Research Triangle Park; purity 99.5 % (2.5 grade).\nN_2O: Airco Research Triangle Park; purity 99.5 % (4.5 grade).\nPMMA: Aldrich Chemical Co.; M_w = 600 000.",
+  "estimated_error": "Temperature: No information given.",
+  "references": "^1E. S. Sanders, W. J. Koroa, B. Hopfenberg, as4 V. Stasnetl, J. Membr. Sd. 13, 161 (1983).\n^2W. J. Koros, J. Polym. Sci. Polym. Phys. Ed. 18, 981 (1980).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Poly(methyl methacrylate) (PMMA)",
+    "formula": "",
+    "cas": "9011-14-7"
+   },
+   {
+    "index": 2,
+    "name": "Carbon dioxide",
+    "formula": "CO2",
+    "cas": "124-38-9"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical Name",
+     "Henry's law constant, K [cm^3(STP)/cm^3 atm]",
+     "Langmuir's parameter, C_H [cm^3(STP) cm^-3]",
+     "Affinity Coefficient b [atm^-1]"
+    ],
+    "rows": [
+     [
+      "CO2",
+      "0.944",
+      "19.68",
+      "0.158"
+     ],
+     [
+      "C2H4",
+      "0.461",
+      "12.40",
+      "0.189"
+     ],
+     [
+      "N2O",
+      "1.068",
+      "18.00",
+      "0.186"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Carbon dioxide with Ethylene, Nitrous oxide and Poly(methyl methacrylate) (PMMA)"
+ },
+ {
+  "sheet_id": "70_131",
+  "system_id": "70028",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=70_131",
+  "system": "Carbon dioxide with Hexafluorpolycarbonate (HFPC)",
+  "components": "(1) Carbon dioxide; CO2; [124-38-9]\n(2) Hexafluorpolycarbonate (HFPC); ; [32291-26-2]",
+  "original_measurements": "G.K. Fleming and W.J. Koros, J. Polym. Sci., Part B: Polym. Phys. 28, 1137 (1990).",
+  "variables": "Temperature = 308 K\nPressure = 0.3-3.3 MPa",
+  "prepared_by": "V.I. Bondar",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Pressure decay sorption cell and procedure were described in Ref. 1.",
+  "source_purity": "HFPC: Dow Chemical Co., density 1.478 g/cm^3, glass transition temperature 445 K, d spacing 5.8 A (WAXD method). The polymer was conditioned before measurement of sorption isotherms by exposing to CO_2 at 33 atm.",
+  "estimated_error": "Temperature: No information given.",
+  "references": "^1G. K. Fleming and W. J. Koros, Macromolecules 19, 2285 (1986).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Carbon dioxide",
+    "formula": "CO2",
+    "cas": "124-38-9"
+   },
+   {
+    "index": 2,
+    "name": "Hexafluorpolycarbonate (HFPC)",
+    "formula": "",
+    "cas": "32291-26-2"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Pressure [MPa]",
+     "Solubility [(V*_1(STP)/V*_2)]",
+     "Remark(s)"
+    ],
+    "rows": [
+     [
+      "0.59",
+      "30.19",
+      "Sorption"
+     ],
+     [
+      "0.88",
+      "36.46",
+      "Sorption"
+     ],
+     [
+      "1.20",
+      "42.07",
+      "Sorption"
+     ],
+     [
+      "1.54",
+      "46.17",
+      "Sorption"
+     ],
+     [
+      "1.83",
+      "49.61",
+      "Sorption"
+     ],
+     [
+      "2.08",
+      "52.41",
+      "Sorption"
+     ],
+     [
+      "2.23",
+      "53.70",
+      "Sorption"
+     ],
+     [
+      "2.39",
+      "54.99",
+      "Sorption"
+     ],
+     [
+      "2.63",
+      "57.14",
+      "Sorption"
+     ],
+     [
+      "2.89",
+      "59.07",
+      "Sorption"
+     ],
+     [
+      "3.12",
+      "60.57",
+      "Sorption"
+     ],
+     [
+      "3.29",
+      "61.42",
+      "Sorption"
+     ],
+     [
+      "0.32",
+      "13.48",
+      "Desorption"
+     ],
+     [
+      "0.69",
+      "20.83",
+      "Desorption"
+     ],
+     [
+      "1.03",
+      "26.23",
+      "Desorption"
+     ],
+     [
+      "1.37",
+      "30.76",
+      "Desorption"
+     ],
+     [
+      "1.63",
+      "36.60",
+      "Desorption"
+     ],
+     [
+      "1.91",
+      "40.70",
+      "Desorption"
+     ],
+     [
+      "2.11",
+      "43.72",
+      "Desorption"
+     ],
+     [
+      "2.37",
+      "47.82",
+      "Desorption"
+     ],
+     [
+      "2.60",
+      "51.28",
+      "Desorption"
+     ],
+     [
+      "2.77",
+      "53.43",
+      "Desorption"
+     ],
+     [
+      "2.94",
+      "56.24",
+      "Desorption"
+     ],
+     [
+      "3.09",
+      "58.40",
+      "Desorption"
+     ],
+     [
+      "3.29",
+      "61.42",
+      "Desorption"
+     ]
+    ]
+   },
+   {
+    "headers": [
+     "Sorption [(V*_1(STP)/V*_2)]",
+     "Fugacity [MPa]"
+    ],
+    "rows": [
+     [
+      "16.40",
+      "0.36"
+     ],
+     [
+      "26.28",
+      "0.72"
+     ],
+     [
+      "33.42",
+      "1.08"
+     ],
+     [
+      "38.05",
+      "1.36"
+     ],
+     [
+      "42.04",
+      "1.63"
+     ],
+     [
+      "45.62",
+      "1.85"
+     ],
+     [
+      "49.40",
+      "2.11"
+     ],
+     [
+      "52.97",
+      "2.32"
+     ],
+     [
+      "55.92",
+      "2.52"
+     ],
+     [
+      "58.65",
+      "2.68"
+     ],
+     [
+      "61.38",
+      "2.82"
+     ]
+    ]
+   },
+   {
+    "headers": [
+     "Henry's law constant, K [cm^3 (STP) cm^-3 atm^-1]",
+     "Langmuir's parameter, C_H [cm^3(STP) cm^-3]",
+     "Affinity Coefficient b [atm^-1]",
+     "Remark(s)"
+    ],
+    "rows": [
+     [
+      "1.09",
+      "28.05",
+      "0.255",
+      "Type: Pressure"
+     ],
+     [
+      "1.33",
+      "25.48",
+      "0.275",
+      "Type: Fugacity"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Carbon dioxide with Hexafluorpolycarbonate (HFPC)"
+ },
+ {
+  "sheet_id": "70_136",
+  "system_id": "70029",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=70_136",
+  "system": "Carbon dioxide with Methane and Bisphenol chloral polycarbonate (BCPC)",
+  "components": "(1) Bisphenol chloral polycarbonate (BCPC); ; [31546-39-1]\n(2) Carbon dioxide with Methane; CO2, CH4; [124-38-9, 74-82-8]",
+  "original_measurements": "J.S. McHattie, W.J. Koros and D.R. Paul, J. Polym. Sci., Part B: Polym. Phys., 29, 731-746 (1991).",
+  "variables": "Temperature = 308 K\nPressure = 0-.20 MPa (0-20 atm)",
+  "prepared_by": "Yu. P. Yampol'skii",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The measurement of sorption was carried out using a pressure decay apparatus (see Ref.(1)). The films were cast from methylene dichloride solution.",
+  "source_purity": "PCPC from General Electric Co had a density 1.39 g/cc and glass transition temperature of 437 K. Its intrinsic viscosity in chloroform was 0.66 dl/g. Purity of gases not indicated.",
+  "estimated_error": "",
+  "references": "^1Koros, W.J.; Chan, A.H.; Paul, D.R. J. Membr. Sci., 1977, 2, 165.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Bisphenol chloral polycarbonate (BCPC)",
+    "formula": "",
+    "cas": "31546-39-1"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical Name",
+     "Henry's law constant, K [cm^3(STP)/cm^3 atm]",
+     "Langmuir's parameter, C_H [cm^3(STP) cm^-3]",
+     "Affinity Coefficient b [atm^-1]"
+    ],
+    "rows": [
+     [
+      "CO2",
+      "0.718",
+      "14.9",
+      "0.271"
+     ],
+     [
+      "CH4",
+      "0.130",
+      "6.64",
+      "0.088"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Carbon dioxide with Methane and Bisphenol chloral polycarbonate (BCPC)"
+ }
+]

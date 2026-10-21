@@ -1,0 +1,56 @@
+sheet_id,system,score,page,index_on_page,dup,n_values,n_found,recall,missing
+62_219,"Carbon dioxide with 1-Heptanesulfonic acid, sodium salt; (sodium 1-heptylsulfonate) and Water",,,,,37,0,,
+62_266,Carbon dioxide with Aerosol OT and Water,0.9,384,0,,15,15,1.0,
+62_111,Carbon dioxide with Aluminium chloride and Water,,,,,17,0,,
+62_269,Carbon dioxide with Aluminium sulfate and Water,,,,,14,0,,
+62_93,Carbon dioxide with Ammonium bromide and Water,0.76,174,0,,160,101,0.63,288.15 0.990 288.15 1.26 1.23 288.15 1.050 1.003 288.15 1.062 0.964 293.15 0.860 293.15 1.135 1.11 293.15 0.924 0.881 29
+62_87,Carbon dioxide with Ammonium chloride and Water,,,,,39,0,,
+62_88,Carbon dioxide with Ammonium chloride and Water,,,,,25,0,,
+62_89,Carbon dioxide with Ammonium chloride and Water,0.83,168,0,,193,139,0.72,288.15 0.990 288.15 1.052 1.03 288.15 0.942 0.907 288.15 0.843 0.780 288.15 0.686 293.15 0.860 293.15 0.906 0.887 293.15
+62_90,Carbon dioxide with Ammonium chloride and Water,,,,,123,0,,
+62_91,Carbon dioxide with Ammonium chloride and Water,0.95,170,0,,29,29,1.0,
+62_92,Carbon dioxide with Ammonium chloride and Water,,,,,201,0,,
+62_98,"Carbon dioxide with Ammonium chloride, Ammonium sulfate and Water",0.91,182,0,,166,164,0.99,0.6572 0.7658
+62_261,"Carbon dioxide with Ammonium chloride, Sodium chloride, Potassium chloride and Water",,,,,289,0,,
+62_99,Carbon dioxide with Ammonium nitrate and Water,,,,,41,0,,
+62_100,Carbon dioxide with Ammonium nitrate and Water,0.82,185,0,,216,152,0.7,288.15 0.990 288.15 0.969 288.15 0.977 0.953 288.15 0.944 0.907 288.15 0.872 0.787 288.15 0.809 0.648 293.15 0.860 293.1
+62_101,Carbon dioxide with Ammonium nitrate and Water,,,,,20,0,,
+62_94,Carbon dioxide with Ammonium sulfate and Water,,,,,23,0,,
+62_95,Carbon dioxide with Ammonium sulfate and Water,0.82,177,0,,211,157,0.74,288.15 0.990 288.15 0.928 0.915 288.15 0.850 0.825 288.15 0.688 0.648 288.15 0.548 293.15 0.860 293.15 0.823 0.811 293.1
+62_96,Carbon dioxide with Ammonium sulfate and Water,,,,,99,0,,
+62_97,Carbon dioxide with Ammonium sulfate and Water,,,,,400,0,,
+62_204,"Carbon dioxide with Ammonium sulfate, Sodium sulfate and Water",,,,,205,0,,
+62_102,"Carbon dioxide with Arsenic trioxide, Arsenic pentoxide, Hydrochloric acid and Water",0.9,187,0,,181,180,0.99,0.720
+62_103,Carbon dioxide with Arsenic trisufide (colloidal) and Water,,,,,90,0,,
+62_143,Carbon dioxide with Barium chloride and Water,,,,,8,0,,
+62_144,Carbon dioxide with Barium chloride and Water,,,,,20,0,,
+62_145,Carbon dioxide with Barium chloride and Water,,,,,14,0,,
+62_146,Carbon dioxide with Barium chloride and Water,,,,,35,0,,
+62_147,Carbon dioxide with Barium chloride and Water,0.95,237,0,,56,56,1.0,
+62_148,"Carbon dioxide with Barium chloride, Ammonium nitrate and Water",,,,,32,0,,
+62_130,Carbon dioxide with Calcium chloride and Water,,,,,63,0,,
+62_131,Carbon dioxide with Calcium chloride and Water,0.86,219,0,,761,698,0.92,454 10.7 10.8 572 600 0.9 3.6 3.7 161 5.1 314 319 431 455 6.6 554 625 10.8 107 15.0 109 210 20.5 212 20.7 283 22.5 22.1 
+62_132,Carbon dioxide with Calcium chloride and Water,,,,,26,0,,
+62_133,Carbon dioxide with Calcium chloride and Water,0.79,224,0,,145,142,0.98,0.00 0.00 0.00
+62_134,Carbon dioxide with Calcium chloride and Water,0.95,225,0,,76,76,1.0,
+62_135,Carbon dioxide with Calcium chloride and Water,,,,,52,0,,
+62_136,Carbon dioxide with Calcium chloride and Water,0.82,227,0,,65,63,0.97,2.3 27.16
+62_137,Carbon dioxide with Calcium chloride and Water,0.94,228,0,,11,11,1.0,
+62_138,Carbon dioxide with Calcium chloride and Water,0.9,229,0,,156,156,1.0,
+62_139,"Carbon dioxide with Calcium chloride, Ammonium nitrate and Water",,,,,27,0,,
+62_140,"Carbon dioxide with Calcium chloride, Methanol and Water",0.92,231,0,,122,117,0.96,0.9151 0.7867 1.775 0.9554 0.7292
+62_262,"Carbon dioxide with Calcium chloride, Strontium chloride, Barium chloride and Water",,,,,373,0,,
+62_141,Carbon dioxide with Calcium nitrate and Water,,,,,17,0,,
+62_142,Carbon dioxide with Calcium nitrate and Water,,,,,29,0,,
+62_259,Carbon dioxide with Cesium chloride and Water,0.92,375,1,,16,15,0.94,0.7769
+62_260,Carbon dioxide with Cesium chloride and Water,0.91,376,0,,52,48,0.92,303.15 303.15 303.15 303.15
+62_113,Carbon dioxide with Copper sulfate and Water,,,,,28,0,,
+62_114,Carbon dioxide with Copper sulfate and Water,0.9,201,0,,88,88,1.0,
+62_106,"Carbon dioxide with Diammonium salt of 2-hydroxy-1,2,3-propanetricarboxylic acid and Water",,,,,112,0,,
+62_263,Carbon dioxide with Electrolyte (saturated) and Water,,,,,61,0,,
+62_116,Carbon dioxide with Ferric hydroxide (colloidal) and Water,,,,,120,0,,
+62_118,Carbon dioxide with Ferric hydroxide (colloidal) and Water,0.94,205,0,,115,115,1.0,
+62_117,Carbon dioxide with Ferric hydroxide (colloidal); (Iron hydroxide) and Water,,,,,50,0,,
+62_120,Carbon dioxide with Ferriferrocyanide (colloidal); (Prussian blue) and Water,0.92,207,0,,115,110,0.96,287.12 287.12 287.12 287.12 287.12
+62_119,Carbon dioxide with Ferrous ammonium sulfate and Water,,,,,15,0,,
+62_110,Carbon dioxide with Hydrated aluminium oxide and Water,,,,,27,0,,
