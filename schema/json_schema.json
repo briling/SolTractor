@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "OSI Hackathon Schema",
-  "description": "Equilibrium solution data with phases, PubChem substances, and publication references.",
-  "$comment": "Validates an EquilibriumSolution data object, without an EntryArchive data wrapper. Fields remain optional as in schema.archive.yaml. Numeric values use the declared storage units. The unit keyword preserves NOMAD storage units; JSON Schema validators do not convert units or run NOMAD normalizers. Each phase has an optional substance described by PubChemPureSubstanceSection.",
+  "description": "Equilibrium solution data with phases, extracted amounts, PubChem substances, and publication references.",
+  "$comment": "Validates an EquilibriumSolution data object, without an EntryArchive data wrapper. Fields remain optional as in schema.archive.yaml. Numeric values use the declared storage units, except Amount.value, which uses Amount.units. The unit keyword preserves NOMAD storage units; JSON Schema validators do not convert units or run NOMAD normalizers. Each phase has an optional substance described by PubChemPureSubstanceSection.",
   "x-nomad-source-schema": "schema.archive.yaml",
   "x-nomad-sources": [
     "https://docs.nomad-lab.eu/reference/basesections.html",
@@ -226,6 +226,28 @@
         }
       }
     },
+    "Amount": {
+      "title": "Amount",
+      "description": "An extracted amount with its measure type, numeric value, and units.",
+      "allOf": [
+        { "$ref": "#/$defs/ArchiveSection" }
+      ],
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "description": "Kind of amount, such as molarity, molality, mass fraction, molar fraction, or partial pressure."
+        },
+        "value": {
+          "type": "number",
+          "description": "Numerical value of the extracted amount in the specified units."
+        },
+        "units": {
+          "type": "string",
+          "description": "Units associated with the value, such as mol/L, mol/kg, Pa, or dimensionless."
+        }
+      }
+    },
     "Phase": {
       "title": "Phase",
       "allOf": [
@@ -242,18 +264,9 @@
           "enum": ["solid", "liquid", "gas"],
           "description": "Physical state of the phase, such as solid, liquid, or gas."
         },
-        "mass_fraction": {
-          "type": "number",
-          "description": "Mass of this phase divided by the total mass of the equilibrium solution."
-        },
-        "partial_pressure": {
-          "type": "number",
-          "unit": "pascal",
-          "description": "Partial pressure of this phase in the equilibrium system."
-        },
-        "molar_fraction": {
-          "type": "number",
-          "description": "Amount of substance in this phase divided by the total amount of substance in the equilibrium solution."
+        "amount": {
+          "$ref": "#/$defs/Amount",
+          "description": "Extracted amount expressed by its type, value, and units."
         },
         "substance": {
           "$ref": "#/$defs/PubChemPureSubstanceSection",

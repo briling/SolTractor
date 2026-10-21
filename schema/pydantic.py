@@ -1,6 +1,7 @@
 """Pydantic v2 models for the OSI Hackathon NOMAD schema.
 
-Numbers use NOMAD storage units. Serialize with
+Numbers use NOMAD storage units; ``Amount.value`` uses the extracted
+``Amount.units``. Serialize with
 ``model_dump(mode="json", exclude_none=True)`` to omit unset scalar quantities
 and produce data compatible with ``json_schema.json``.
 """
@@ -180,8 +181,25 @@ class PublicationReference(ArchiveSection):
     )
 
 
+class Amount(ArchiveSection):
+    """An extracted amount with its measure type, numeric value, and units."""
+
+    type: str | None = Field(
+        default=None,
+        description="Kind of amount, such as molarity, molality, mass fraction, molar fraction, or partial pressure.",
+    )
+    value: float | None = Field(
+        default=None,
+        description="Numerical value of the extracted amount in the specified units.",
+    )
+    units: str | None = Field(
+        default=None,
+        description="Units associated with the value, such as mol/L, mol/kg, Pa, or dimensionless.",
+    )
+
+
 class Phase(ArchiveSection):
-    """A phase and its substance within an equilibrium solution."""
+    """A phase, its extracted amount, and its substance within a solution."""
 
     name: str | None = Field(
         default=None,
@@ -191,17 +209,9 @@ class Phase(ArchiveSection):
         default=None,
         description="Physical state of the phase, such as solid, liquid, or gas.",
     )
-    mass_fraction: float | None = Field(
+    amount: Amount | None = Field(
         default=None,
-        description="Mass of this phase divided by the total mass of the equilibrium solution.",
-    )
-    partial_pressure: float | None = Field(
-        default=None,
-        description="Partial pressure of this phase in the equilibrium system.",
-    )
-    molar_fraction: float | None = Field(
-        default=None,
-        description="Amount of substance in this phase divided by the total amount of substance in the equilibrium solution.",
+        description="Extracted amount expressed by its type, value, and units.",
     )
     substance: PubChemPureSubstanceSection | None = Field(
         default=None,
