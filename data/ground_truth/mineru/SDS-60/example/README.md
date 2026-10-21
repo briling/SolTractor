@@ -19,3 +19,9 @@ Raw HTML:
 ```html
 <table><tr><td colspan="4">EXPERIMENTAL VALUES:</td></tr><tr><td>t/°C</td><td>100  $g_{1}/g_{2}$ </td><td>100  $w_{1}$ (compiler)</td><td> $10^{4} x_{1}$ (compiler)</td></tr><tr><td>0</td><td> $9.7 \times 10^{-2}$ </td><td> $9.7 \times 10^{-2}$ </td><td>1.14</td></tr><tr><td>10</td><td> $8.3 \times 10^{-2}$ </td><td> $8.3 \times 10^{-2}$ </td><td>0.973</td></tr><tr><td>20</td><td> $8.0 \times 10^{-2}$ </td><td> $8.0 \times 10^{-2}$ </td><td>0.938</td></tr><tr><td>30</td><td> $8.5 \times 10^{-2}$ </td><td> $8.5 \times 10^{-2}$ </td><td>0.996</td></tr></table>
 ```
+
+`p041-0-r01.archive.json` is the NOMAD entry `scripts/to_nomad.py` makes of the second row of
+this table (10 °C): temperature in kelvin, the two components as phases with their CAS numbers,
+the mass and mole fraction of tetrachloromethane with the printed prefactors removed, the
+method text, the parsed citation, and the raw row and the unmapped `100 g_1/g_2` column in
+`description`.
