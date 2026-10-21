@@ -1,6 +1,6 @@
 """Align NIST database sheets with OCR sheets of the same volume and score the OCR layer.
 
-Usage: python -I align_nist.py 60 [--min-score 0.6]
+Usage: python -I align_nist.py 60 [--min-score 0.6] [--boxes other.jsonl --out other.csv]
 
 Reads nist/SDS-<vol>.json (scraped, hand-keyed sheets) and boxes/SDS-<vol>.jsonl
 (segmented OCR sheets). Each NIST compilation sheet is matched to the OCR sheet
@@ -24,6 +24,8 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument('volume', type=int)
     ap.add_argument('--min-score', type=float, default=0.6)
+    ap.add_argument('--boxes', type=pathlib.Path, help='boxes jsonl of another witness (default: the OCR layer)')
+    ap.add_argument('--out', type=pathlib.Path, help='CSV to write (default: ground_truth/nist/align-SDS-<vol>.csv)')
     a = ap.parse_args()
     nist = json.load((NIST / f'SDS-{a.volume}.json').open())
     for n in nist:                                   # NIST keys evaluator tables as sheets without a citation
@@ -32,7 +34,8 @@ def main() -> None:
         if not n['tables'] and n['kind'] == 'evaluation':
             n['kind'] = 'evaluation-text'
     nist = [n for n in nist if n['kind'] != 'evaluation-text']
-    ocr = [json.loads(l) for l in (volume_root(a.volume) / 'boxes' / f'SDS-{a.volume}.jsonl').open()]
+    boxes = a.boxes or volume_root(a.volume) / 'boxes' / f'SDS-{a.volume}.jsonl'
+    ocr = [json.loads(l) for l in boxes.open()]
     # continuation sheets (flagged, or same components + citation as the sheet before) are merged
     anchors = []
     def key(r): return loose(r['boxes'].get('components', ''))[:60] + loose(r['boxes'].get('original_measurements', ''))[:60]
@@ -91,7 +94,7 @@ def main() -> None:
                        recall=round(len(found) / len(vals), 2) if vals else '',
                        missing=' '.join(v for v in vals if v not in found)[:120])
         rows.append(rec)
-    out = NIST / f'align-SDS-{a.volume}.csv'
+    out = a.out or NIST / f'align-SDS-{a.volume}.csv'
     with out.open('w', newline='') as f:
         w = csv.DictWriter(f, fieldnames=['sheet_id', 'system', 'score', 'page', 'index_on_page', 'dup',
                                           'n_values', 'n_found', 'recall', 'missing'])
@@ -109,7 +112,7 @@ def main() -> None:
     print(f'{len(low)} aligned sheets with recall < 0.8; worst:')
     for r in low[:8]:
         print(f"  {r['sheet_id']:8s} p{r['page']:<4} recall {r['recall']}  missing: {r['missing'][:80]}")
-    print(f'-> {out.relative_to(ROOT)}')
+    print(f'-> {out}')
 
 
 main()
