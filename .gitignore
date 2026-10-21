@@ -1,0 +1,21 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
+
+# Local Claude Code settings
+.claude/settings.local.json
+
+# Logs
+*.log
+
+# Crawl cache (re-fetch with scrape_nist.py)
+data/raw_html/
+data/index.json
+
+# Generated from nist_gt.jsonl by normalize_nist.py (90 MB)
+data/nist_measurements.jsonl
