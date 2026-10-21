@@ -1,0 +1,387 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OSI Hackathon Schema",
+  "description": "Equilibrium solution data with phases, chemical components, and publication references.",
+  "$comment": "Validates an EquilibriumSolution data object, without an EntryArchive data wrapper. Fields remain optional as in schema.archive.yaml. Numeric values use the declared storage units. The unit and m_annotations keywords preserve NOMAD metadata; JSON Schema validators do not convert units or run NOMAD normalizers. Component preserves the PureSubstanceComponent wrapper and specializes pure_substance to PubChemPureSubstanceSection.",
+  "x-nomad-source-schema": "schema.archive.yaml",
+  "x-nomad-sources": [
+    "https://docs.nomad-lab.eu/reference/basesections.html",
+    "https://raw.githubusercontent.com/FAIRmat-NFDI/nomad/develop/nomad/datamodel/data.py",
+    "https://raw.githubusercontent.com/FAIRmat-NFDI/nomad/develop/nomad/datamodel/metainfo/basesections/v1.py"
+  ],
+  "$ref": "#/$defs/EquilibriumSolution",
+  "$defs": {
+    "ArchiveSection": {
+      "title": "ArchiveSection",
+      "description": "Base for archive sections with NOMAD normalization support.",
+      "x-nomad-definition": "nomad.datamodel.data.ArchiveSection",
+      "type": "object",
+      "properties": {
+        "m_def": {
+          "type": "string",
+          "description": "Optional NOMAD section definition reference for selecting a concrete section type."
+        }
+      }
+    },
+    "EntryData": {
+      "title": "EntryData",
+      "description": "Base for the data section of a NOMAD entry; adds no quantities.",
+      "x-nomad-definition": "nomad.datamodel.data.EntryData",
+      "allOf": [
+        { "$ref": "#/$defs/ArchiveSection" }
+      ]
+    },
+    "BaseSection": {
+      "title": "BaseSection",
+      "description": "Shared descriptive metadata for NOMAD sections.",
+      "x-nomad-definition": "nomad.datamodel.metainfo.basesections.BaseSection",
+      "allOf": [
+        { "$ref": "#/$defs/ArchiveSection" }
+      ],
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Human-readable name of the section.",
+          "m_annotations": {
+            "eln": { "component": "StringEditQuantity" }
+          }
+        },
+        "datetime": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Date and time associated with the section.",
+          "m_annotations": {
+            "eln": { "component": "DateTimeEditQuantity" }
+          }
+        },
+        "lab_id": {
+          "type": "string",
+          "description": "Identifier unique within the laboratory producing the data.",
+          "m_annotations": {
+            "eln": { "component": "StringEditQuantity" }
+          }
+        },
+        "description": {
+          "type": "string",
+          "description": "Additional information not captured by the other fields.",
+          "m_annotations": {
+            "eln": {
+              "component": "RichTextEditQuantity",
+              "props": { "height": 200 }
+            }
+          }
+        }
+      }
+    },
+    "ComponentBase": {
+      "title": "NOMAD Component",
+      "description": "Amounts and identifying information for a component in a mixture.",
+      "x-nomad-definition": "nomad.datamodel.metainfo.basesections.Component",
+      "allOf": [
+        { "$ref": "#/$defs/ArchiveSection" }
+      ],
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Component label.",
+          "m_annotations": {
+            "eln": { "component": "StringEditQuantity" }
+          }
+        },
+        "mass": {
+          "type": "number",
+          "unit": "kilogram",
+          "description": "Mass of this component.",
+          "m_annotations": {
+            "eln": { "component": "NumberEditQuantity" },
+            "display": { "unit": "milligram" }
+          }
+        },
+        "mass_fraction": {
+          "type": "number",
+          "description": "Component mass divided by the mixture mass.",
+          "m_annotations": {
+            "eln": { "component": "NumberEditQuantity" }
+          }
+        }
+      }
+    },
+    "PureSubstanceSection": {
+      "title": "PureSubstanceSection",
+      "description": "Chemical identity and molecular properties of a pure substance.",
+      "x-nomad-definition": "nomad.datamodel.metainfo.basesections.PureSubstanceSection",
+      "allOf": [
+        { "$ref": "#/$defs/ArchiveSection" }
+      ],
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Name of the substance.",
+          "m_annotations": {
+            "eln": { "component": "StringEditQuantity" }
+          }
+        },
+        "iupac_name": {
+          "type": "string",
+          "description": "Systematic IUPAC name of the substance.",
+          "m_annotations": {
+            "eln": { "component": "StringEditQuantity" }
+          }
+        },
+        "molecular_formula": {
+          "type": "string",
+          "description": "Chemical formula.",
+          "m_annotations": {
+            "eln": { "component": "StringEditQuantity" }
+          }
+        },
+        "molecular_mass": {
+          "type": "number",
+          "unit": "dalton",
+          "description": "Mass of a molecule with the most likely isotopic composition.",
+          "m_annotations": {
+            "eln": { "component": "NumberEditQuantity" }
+          }
+        },
+        "molar_mass": {
+          "type": "number",
+          "unit": "gram / mole",
+          "description": "Mass per mole using the substance's isotopic composition.",
+          "m_annotations": {
+            "eln": { "component": "NumberEditQuantity" }
+          }
+        },
+        "monoisotopic_mass": {
+          "type": "number",
+          "unit": "dalton",
+          "description": "Molecular mass calculated from the most abundant isotope of each element.",
+          "m_annotations": {
+            "eln": { "component": "NumberEditQuantity" }
+          }
+        },
+        "inchi": {
+          "type": "string",
+          "description": "InChI structure identifier.",
+          "m_annotations": {
+            "eln": { "component": "StringEditQuantity" }
+          }
+        },
+        "inchi_key": {
+          "type": "string",
+          "description": "Hashed InChI identifier.",
+          "m_annotations": {
+            "eln": { "component": "StringEditQuantity" }
+          }
+        },
+        "smile": {
+          "type": "string",
+          "description": "SMILES representation of the structure.",
+          "m_annotations": {
+            "eln": { "component": "StringEditQuantity" }
+          }
+        },
+        "canonical_smile": {
+          "type": "string",
+          "description": "Canonical SMILES representation of the structure.",
+          "m_annotations": {
+            "eln": { "component": "StringEditQuantity" }
+          }
+        },
+        "cas_number": {
+          "type": "string",
+          "description": "CAS Registry Number.",
+          "m_annotations": {
+            "eln": { "component": "StringEditQuantity" }
+          }
+        }
+      }
+    },
+    "PubChemPureSubstanceSection": {
+      "title": "PubChemPureSubstanceSection",
+      "description": "Pure substance with PubChem compound identifiers and inherited chemical properties.",
+      "$comment": "When loading this subsection through the original NOMAD YAML schema, set m_def to nomad.datamodel.metainfo.basesections.PubChemPureSubstanceSection to select this specialized section. JSON Schema validation does not populate defaults or fetch PubChem data.",
+      "x-nomad-definition": "nomad.datamodel.metainfo.basesections.PubChemPureSubstanceSection",
+      "allOf": [
+        { "$ref": "#/$defs/PureSubstanceSection" }
+      ],
+      "type": "object",
+      "properties": {
+        "pub_chem_cid": {
+          "type": "integer",
+          "description": "PubChem compound identifier (CID).",
+          "m_annotations": {
+            "eln": { "component": "NumberEditQuantity" }
+          }
+        },
+        "pub_chem_link": {
+          "type": "string",
+          "description": "Link to the PubChem compound record.",
+          "m_annotations": {
+            "eln": { "component": "StringEditQuantity" }
+          }
+        }
+      }
+    },
+    "PureSubstanceComponent": {
+      "title": "PureSubstanceComponent",
+      "description": "Mixture component linked to its pure-substance details.",
+      "x-nomad-definition": "nomad.datamodel.metainfo.basesections.PureSubstanceComponent",
+      "allOf": [
+        { "$ref": "#/$defs/ComponentBase" }
+      ],
+      "type": "object",
+      "properties": {
+        "substance_name": {
+          "type": "string",
+          "description": "Substance name used within the containing mixture.",
+          "m_annotations": {
+            "eln": { "component": "StringEditQuantity" }
+          }
+        },
+        "pure_substance": {
+          "$ref": "#/$defs/PureSubstanceSection",
+          "description": "Chemical properties of the substance forming this component."
+        }
+      }
+    },
+    "Component": {
+      "title": "Component",
+      "description": "Pure-substance component with amounts and PubChem substance details.",
+      "allOf": [
+        { "$ref": "#/$defs/PureSubstanceComponent" }
+      ],
+      "type": "object",
+      "properties": {
+        "pure_substance": {
+          "$ref": "#/$defs/PubChemPureSubstanceSection"
+        }
+      }
+    },
+    "PublicationReference": {
+      "title": "PublicationReference",
+      "description": "Bibliographic details for a related publication or dataset.",
+      "x-nomad-definition": "nomad.datamodel.metainfo.basesections.PublicationReference",
+      "allOf": [
+        { "$ref": "#/$defs/ArchiveSection" }
+      ],
+      "type": "object",
+      "properties": {
+        "DOI_number": {
+          "type": "string",
+          "description": "DOI identifying the publication or dataset.",
+          "m_annotations": {
+            "eln": {
+              "component": "EnumEditQuantity",
+              "props": { "suggestions": [] }
+            }
+          }
+        },
+        "publication_authors": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Authors of the publication."
+        },
+        "publication_date": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Publication date and time."
+        },
+        "journal": {
+          "type": "string",
+          "description": "Journal containing the publication."
+        },
+        "publication_title": {
+          "type": "string",
+          "description": "Title of the publication."
+        }
+      }
+    },
+    "Phase": {
+      "title": "Phase",
+      "allOf": [
+        { "$ref": "#/$defs/ArchiveSection" }
+      ],
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Short descriptive name identifying this phase within the equilibrium solution.",
+          "m_annotations": {
+            "eln": { "component": "StringEditQuantity" }
+          }
+        },
+        "state_of_matter": {
+          "type": "string",
+          "enum": ["solid", "liquid", "gas"],
+          "description": "Physical state of the phase, such as solid, liquid, or gas.",
+          "m_annotations": {
+            "eln": { "component": "EnumEditQuantity" }
+          }
+        },
+        "components": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/Component" }
+        }
+      }
+    },
+    "EquilibriumSolution": {
+      "title": "EquilibriumSolution",
+      "allOf": [
+        { "$ref": "#/$defs/EntryData" },
+        { "$ref": "#/$defs/BaseSection" }
+      ],
+      "type": "object",
+      "properties": {
+        "temperature": {
+          "type": "number",
+          "unit": "kelvin",
+          "description": "Isothermal temperature of the solution.",
+          "m_annotations": {
+            "eln": { "component": "NumberEditQuantity" },
+            "display": { "unit": "celsius" }
+          }
+        },
+        "pressure": {
+          "type": "number",
+          "unit": "pascal",
+          "description": "Gas pressure over the solution (assumed to be isobar).",
+          "m_annotations": {
+            "eln": { "component": "NumberEditQuantity" },
+            "display": { "unit": "pascal" }
+          }
+        },
+        "measurement_methods": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Methods used to measure the equilibrium properties of the solution.",
+          "m_annotations": {
+            "eln": { "component": "StringEditQuantity" }
+          }
+        },
+        "mixing_methods": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Methods used to mix the components when preparing the solution.",
+          "m_annotations": {
+            "eln": { "component": "StringEditQuantity" }
+          }
+        },
+        "components": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/Component" }
+        },
+        "phases": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/Phase" }
+        },
+        "publication_references": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/PublicationReference" }
+        }
+      }
+    }
+  }
+}
