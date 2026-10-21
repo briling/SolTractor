@@ -20,6 +20,7 @@ tables, 67,169 table rows. Crawled 2026-10-21.
 | `scrape_nist.py` | Crawler (resumable: re-running only fetches what is missing) |
 | `parse_nist.py` | HTML → `nist_gt.jsonl` |
 | `normalize_nist.py` | `nist_gt.jsonl` → `nist_measurements.jsonl` |
+| `export_nist_archives.py` | `nist_measurements.jsonl` → one NOMAD `EquilibriumSolution` archive JSON file per record |
 
 Reproduce:
 
@@ -29,6 +30,17 @@ python scrape_nist.py     # ~30 min, polite: 4 parallel requests, 0.2 s delay ea
 python parse_nist.py      # seconds, offline
 python normalize_nist.py  # ~1 min, offline; prints coverage and flag counts
 ```
+
+Create the initial ten NOMAD archives:
+
+```bash
+python export_nist_archives.py
+```
+
+Files are written to `data/nist_archives/`, named after the measurement id (for example,
+`62_197_t0_r1.json`). The exporter maps temperature, pressure, components, and the system
+phase to `schema.archive.yaml`; the schema does not yet define fields for measurement values
+such as solubility or composition.
 
 ## How the website maps to the data
 
