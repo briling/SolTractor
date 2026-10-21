@@ -8,5 +8,6 @@ dependencies = [
     "numpy==2.5.3",
     "ollama==0.6.3",
     "pandas==3.0.6",
+    "pydantic==2.14.1",
     "streamlit==1.64.0",
 ]
