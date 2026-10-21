@@ -156,8 +156,3 @@ if st.button("Try to disprove"):
             message = response.get("message", {})
             content = message.get("content", "No output generated.")
             st.success(content)
-
-
-
-
-
