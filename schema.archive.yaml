@@ -1,34 +1,25 @@
 definitions:
   name: 'OSI Hackathon Schema'
   sections:
-    MeasurementValue:
+    ComponentMeasurement:
       base_sections:
         - nomad.datamodel.data.ArchiveSection
       quantities:
+        component_name:
+          type: str
+          description: "Name of the component to which this measurement applies."
         quantity:
           type: str
-          description: "Kind of measured value, such as amount_concentration or mole_fraction."
+          description: "Kind of measurement, such as amount_concentration or mole_fraction."
         value:
           type: np.float64
-          description: "Normalized numeric value."
+          description: "Normalized numeric measurement value."
         unit:
           type: str
-          description: "Unit of the normalized value."
-        species:
-          type: str
-          description: "Species to which this value applies, where applicable."
-        value_qualifier:
-          type: str
-          description: "Qualifier such as <, >, or ca. from the source value."
+          description: "Unit of the normalized measurement value."
         source_header:
           type: str
           description: "Original NIST table-column header."
-        note:
-          type: str
-          description: "NIST table note associated with this value."
-        compiler_calculated:
-          type: bool
-          description: "Whether the IUPAC compiler calculated this value."
 
     Phase:
       base_sections:
@@ -55,6 +46,9 @@ definitions:
         components:
           repeats: true
           section: nomad.datamodel.metainfo.basesections.PureSubstanceComponent
+        component_measurements:
+          repeats: true
+          section: "#/ComponentMeasurement"
 
     EquilibriumSolution:
       base_sections:
@@ -103,6 +97,3 @@ definitions:
         publication_references:
           repeats: true
           section: nomad.datamodel.metainfo.basesections.PublicationReference
-        measurement_values:
-          repeats: true
-          section: "#/MeasurementValue"
