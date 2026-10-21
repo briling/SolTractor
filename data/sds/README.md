@@ -47,3 +47,21 @@ and sheets per system at `sol_sys_lst.aspx?sysID=<id>&SerialID=DS<k>` (paged, 30
 
 The NIST transcription is not error-free either (e.g. a purity keyed as "00.78 %"), so
 disagreements between the extraction and the database need the page image as arbiter.
+
+## Pipeline scripts
+
+- `scripts/textnorm.py`: normalization shared by the QC scripts (strict: OCR-spaced
+  digits and punctuation; loose: alphanumerics only; numeric tokens of a cell; CAS numbers).
+- `scripts/segment_boxes.py SDS-N`: cuts the OCR text into sheets and their printed boxes
+  (`boxes/SDS-N.jsonl`, one record per sheet). Box headers are matched fuzzily and the
+  two-column regions are split at the column of the right-hand header. Committed for the
+  mined volumes only; the others regenerate in seconds.
+- `scripts/nist_scrape.py 60 [...]`: scrapes the NIST database sheets of a volume into
+  `nist/SDS-N.json` (same box names, plus the experimental table as headers and rows).
+  Raw HTML is cached in the ignored `nist/raw/`.
+- `scripts/align_nist.py 60`: matches NIST sheets to OCR sheets (solute CAS numbers,
+  citation tokens, and recall of the keyed table values in the OCR box; one-to-one) and
+  writes `nist/align-SDS-N.csv`. For volume 60: 263 of 288 sheets aligned, 97% of the
+  keyed table values occur verbatim in the matching OCR box.
+- `scripts/backsearch.py SDS-N value ... --page P`: confirms extracted values against the
+  OCR layer.

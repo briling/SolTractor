@@ -13,24 +13,8 @@ Exit status 1 if any value is not OK/FOUND.
 import argparse, pathlib, re, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-FOLDS = {'Chern': 'Chem', 'Hol ': 'Mol ', 'Atrn': 'Atm'}
-
-
-def strict(s: str) -> str:
-    for k, v in FOLDS.items():
-        s = s.replace(k, v)
-    s = re.sub(r'(?<=[\d.\-]) (?=[\d.\-])', '', s)     # single space inside numbers
-    s = re.sub(r'(?<=\d)[lI](?=\d)', '1', s)
-    s = re.sub(r'(?<=\d)[Oo](?=\d)', '0', s)
-    s = re.sub(r'\s+(?=[,.;:)\]])', '', s)             # "Morrison , T . J ." -> "Morrison, T.J."
-    s = re.sub(r'\s+', ' ', s)
-    return s
-
-
-def loose(s: str) -> str:
-    for k, v in FOLDS.items():
-        s = s.replace(k, v)
-    return re.sub(r'[^a-z0-9]', '', s.lower())
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from textnorm import loose, strict  # noqa: E402
 
 
 def main() -> None:

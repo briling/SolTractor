@@ -1,0 +1,5069 @@
+[
+ {
+  "sheet_id": "57_105",
+  "system_id": "57001",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_105",
+  "system": "Ethene with (R) -1-Methyl-4-(1-methylethenyl) cyclohexene or Limonene",
+  "components": "(1) Ethene, (Ethylene); C2H4; [74-85-1]\n(2) (R) -1-Methyl-4-(1-methylethenyl) cyclohexene or Limonene; C10H16; [5989-27-5 see also 499-97-8]",
+  "original_measurements": "McDaniel, A. S., J. Phys. Chem. 1911, 15, 587-610.",
+  "variables": "Temperature = 295.15 K\nPressure = 101.3 (1 atm) kPa",
+  "prepared_by": "H.L. Clever",
+  "critical_evaluation": "EVALUATOR'S COMMENT: McDaniels data should be used with caution.  His values are often 20 percent or more too small when compared with more reliable data.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The apparatus is all glass.   It consists of a gas buret connected to a contacting vessel.   The solvent is degassed by boiling under reduced pressure.   Gas pressure or volume is adjusted using mercury displacement.   Equilibration is achieved at atm pressure by hand shaking, and incrementally adding gas to the contacting chamber.   Solubility measured by obtaining total uptake of gas by known volume of the solvent.",
+  "source_purity": "(1)  Ethene.   Prepared by reaction of 1, 2-dibromoethane with zinc-copper.\n(2)  Limonene.",
+  "estimated_error": "Solubility: δ L/L ≥ -0.20",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Ethene, (Ethylene)",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "Ostwald coefficient L [cm^3 gas (cm^3 solvent)^&#]",
+     "Ostwald Note",
+     "Remark(s)"
+    ],
+    "rows": [
+     [
+      "22.0",
+      "295.15",
+      "2.753 → 3.05",
+      "in 12 h.",
+      "Equilibrium not established"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Ethene with (R) -1-Methyl-4-(1-methylethenyl) cyclohexene or Limonene"
+ },
+ {
+  "sheet_id": "57_108",
+  "system_id": "57002",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_108",
+  "system": "Ethene with 1, 1' -Methylenebis (methylbenzene), (ditolyl methane)",
+  "components": "(1) Ethene; C2H4; [74-85-1]\n(2) 1, 1' -Methylenebis (methylbenzene), (ditolyl methane); C15H16; [1335-47-3]",
+  "original_measurements": "Glazunova, T.V.; Ryabov, M.I.; Lipshtein, R.A., Sov. At. Energ., 1987, 62, 449-451.",
+  "variables": "Temperature = 291 K to 413 K\nPressure = 101.3 kPa",
+  "prepared_by": "C.L. Young",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^*  Calculated by compiler assuming the ideal gas law and the molar volume of component 2 is 200.7  cm^3 mol^–1.",
+  "method": "Single pass flow system in which sample of solvent was saturated with gas at or near atmospheric pressure.   Sample of solvent withdrawn and analysed using gas chromatography fitted with thermal conductivity detector.",
+  "source_purity": "1.  Purity at least 99.8 per cent by volume.\n2.  Technical grade to TU 3810298-76 standard.",
+  "estimated_error": "Solubility: δx/x   =  ±  0.10\nTemperature: δT/K  =  ±  0.5",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   },
+   {
+    "index": 2,
+    "name": "1, 1' -Methylenebis (methylbenzene), (ditolyl methane)",
+    "formula": "C15H16",
+    "cas": "1335-47-3"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "Pressure [1 atm]",
+     "Pressure Note",
+     "α"
+    ],
+    "rows": [
+     [
+      "18",
+      "291",
+      "0.01512",
+      "a",
+      "1.7149"
+     ],
+     [
+      "50",
+      "323",
+      "0.01116",
+      "a",
+      "1.2607"
+     ],
+     [
+      "140",
+      "413",
+      "0.00662",
+      "a",
+      "0.7444"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Ethene with 1, 1' -Methylenebis (methylbenzene), (ditolyl methane)"
+ },
+ {
+  "sheet_id": "57_180",
+  "system_id": "57003",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_180",
+  "system": "Ethene with 1, 1, 2, 2-Tetrachloroethane",
+  "components": "(1) 1, 1, 2, 2-Tetrachloroethane; C2H2Cl4; [79-34-5]\n(2) Ethene; C2H4; [74-85-1]",
+  "original_measurements": "Velichko, S.M.; Treger, Yu.A.; Flid, R.M., Russian J. Phys. Chem. 1973, 47, 1620-1621.",
+  "variables": "Temperature = 273.15 K to 298.15 K\nPressure = 101.325 kPa",
+  "prepared_by": "W. Hayduk",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^1  Only graphical results were available in this paper; the solubility c, was shown as a function of partial pressure, p_1, up to a partial pressure of 101.3 kPa showing that Henry's law was obeyed.  Values of c for a partial pressure of 101.3 kPa were read from an enlarged graph by the compiler.\n^2  Calculated by the compiler.",
+  "method": "A known quantity of solvent was charged into a thermostated saturation vessel attached to a mechanical mixer.   Ethene gas admixed with argon was allowed to flow into the saturation vessel at a controlled rate.   The composition of the gas was monitored by chromatography.   Saturation of the solvent continued until the content of ethane entering and leaving the saturation vessel was the same.   The gas analysis was by means of chromatography using a thermal conductivity detector.   Samples of saturated solution were withdrawn by means of a syringe and analyzed also by chromatography but using a flame ionization detector.",
+  "source_purity": "Sources and purities not given.",
+  "estimated_error": "Solubility: δ x_1/x_1  =  ±  4% (Compiler)",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1, 1, 2, 2-Tetrachloroethane",
+    "formula": "C2H2Cl4",
+    "cas": "79-34-5"
+   },
+   {
+    "index": 2,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "Ostwald coefficient L [cm^3 gas (cm^3 solvent)^&#]",
+     "Ostwald Note",
+     "Mole Fraction (x_1)",
+     "x_1 Note",
+     "Solubility",
+     "Solubility Note"
+    ],
+    "rows": [
+     [
+      "0",
+      "273.15",
+      "5.56",
+      "2",
+      "0.0137",
+      "2",
+      "0.250",
+      "1 Solubility, c, Moles per litre"
+     ],
+     [
+      "10",
+      "283.15",
+      "4.04",
+      "2",
+      "0.0097",
+      "2",
+      "0.175",
+      "1 Solubility, c, Moles per litre"
+     ],
+     [
+      "25",
+      "298.15",
+      "3.21",
+      "2",
+      "0.0074",
+      "2",
+      "0.132",
+      "1 Solubility, c, Moles per litre"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Ethene with 1, 1, 2, 2-Tetrachloroethane"
+ },
+ {
+  "sheet_id": "57_219",
+  "system_id": "57004",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_219",
+  "system": "Ethene with 1, 1'-[Methylenebis(oxy)]bis-ethane (formaldehyde diethyl acetal)",
+  "components": "(1) 1, 1'-[Methylenebis(oxy)]bis-ethane (formaldehyde diethyl acetal); C5H12O2; [462-95-3]\n(2) Ethene; C2H4; [74-85-1]",
+  "original_measurements": "Lizano, L. P.; Lopez, M. C.; Royo, F. M.; Urieta, J. S., J. Soln. Chem. 1990, 19, 721-728.",
+  "variables": "Temperature = 273.15 K to  303.15 K\nPressure = 101.32 kPa",
+  "prepared_by": "C.L. Young",
+  "critical_evaluation": "The compiler calculated the Bunsen and Ostwald coefficients.  Density data were calculated from the equation given in the source and ideal gas behavior was assumed.  The authors fitted the solubility data to the equation:\n– ln x_1 =  –9.2184 + 1585.23/(T/K)The enthalpy and entropy of solution at 298.15 K and a partial pressure of 101.32 kPa were:\nΔH = –13.18 kJ mol^–1 and ΔS = –0.077 J K^–1 mol^–1.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility apparatus, based on the design of Ben-Naim and Baer, was described earlier (Ref. 1). The essential parts were a gas buret, mercury manometer, and solution vessel.   The solvent was degassed in the solution vessel.   The saturation and volumetric measurements were carried out using solvent saturated gas.",
+  "source_purity": "(1)  Sociedad Español del Oxigeno sample;   purity 99.90 mole per cent.\n(2)  Aldrich sample;  purity better than 99 mole per cent.",
+  "estimated_error": "Solubility: δ x/x  =  ± 0.002\nTemperature: δT/K  =  ±  0.05",
+  "references": "1.  Carnicer, J.;  Gibanel, F.;, Urieta, J.S.;  Gutierrez Losa, C., Rev. Acad. Ciencias Zaragoza 1979, 1340, 115.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1, 1'-[Methylenebis(oxy)]bis-ethane (formaldehyde diethyl acetal)",
+    "formula": "C5H12O2",
+    "cas": "462-95-3"
+   },
+   {
+    "index": 2,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Ostwald coefficient L [cm^3 cm^–3]",
+     "α [cm^3 (STP) cm^–3 atm^–1]",
+     "Mole Fraction (x_1)"
+    ],
+    "rows": [
+     [
+      "263.15",
+      "76.68",
+      "79.59",
+      "411"
+     ],
+     [
+      "273.15",
+      "62.41",
+      "62.41",
+      "329"
+     ],
+     [
+      "283.15",
+      "51.54",
+      "49.71",
+      "267"
+     ],
+     [
+      "293.15",
+      "43.42",
+      "40.45",
+      "221"
+     ],
+     [
+      "303.15",
+      "36.98",
+      "33.32",
+      "185"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Ethene with 1, 1'-[Methylenebis(oxy)]bis-ethane (formaldehyde diethyl acetal)"
+ },
+ {
+  "sheet_id": "57_178",
+  "system_id": "57005",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_178",
+  "system": "Ethene with 1, 2-Dichloroethane",
+  "components": "(1) 1, 2-Dichloroethane; C2H4Cl2; [107-06-2]\n(2) Ethene; C2H4; [74-85-1]",
+  "original_measurements": "Hannaert, H.; Haccuria, M.; Mathieu, M.P., Ind. Chim. Belge 1967, 32, 156-164.",
+  "variables": "Temperature = 273.15 K to 313.15 K\nPressure = 101.3 kPa",
+  "prepared_by": "W. Hayduk, H.L.Clever",
+  "critical_evaluation": "The authors definitions are: ΔH = 1,520 cal mol^–1, Enthalpy of dissolution\nK = y_1/x_1 =  mole fraction gas in gas phase ÷\nmole fraction gas in liquid phase      π  / atm = total pressure    ν  = coefficient of fugacity\nThe function Kπν /atm, is equivalent to a Henry's constant in the form H_1,2/atm = (ƒ_1/atm)/x_1 where ƒ_1 is the fugacity.",
+  "experimental_values": "",
+  "notes": "^1  Mole fraction solubility calculated by compiler for a gas partial pressure of 101.3 kPa using the equation developed by the authors with v = 1, for the applicable temperature range:      log ( Kπν) = 3.166  – ( ΔH/cal mol^–1 )/(2.3R(T/K))",
+  "method": "The authors described several methods used;  the one used in this case was considered the most accurate.\nThe apparatus was of glass and consisted of a burette in which the gas was confined over mercury,  an absorption vessel agitated electromagnetically, a turbine for circulating the gas, a mercury manometer and a constant temperature bath.   The exposed tubing was minimized.   The quantity of gas introduced into the absorption vessel was measured volumetrically.",
+  "source_purity": "1.  Ethene.   Air Liquide.   Specified purity 99.9%.\n2.  1,2-Dichloroethane.   Produced by synthesis.   Distilled and fractionally crystallized.   Density at 20 °C is 1.2627 g cm^–3.   Purity  >  99.9% by spectroscopy and gas chromatography.",
+  "estimated_error": "Solubility: δ x_1/x_1  =  ±  2 to 5%\nTemperature: δT/K  =  ±  0.2\nPressure: p/mm Hg  =  ± 0.1 (author)",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1, 2-Dichloroethane",
+    "formula": "C2H4Cl2",
+    "cas": "107-06-2"
+   },
+   {
+    "index": 2,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "Mole Fraction (x_1)",
+     "x_1 Note"
+    ],
+    "rows": [
+     [
+      "0",
+      "273.15",
+      "0.0113",
+      "1"
+     ],
+     [
+      "10",
+      "283.15",
+      "0.0102",
+      "1"
+     ],
+     [
+      "20",
+      "293.15",
+      "0.0093",
+      "1"
+     ],
+     [
+      "25",
+      "298.15",
+      "0.0089",
+      "1"
+     ],
+     [
+      "40",
+      "313.15",
+      "0.0079",
+      "1"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Ethene with 1, 2-Dichloroethane"
+ },
+ {
+  "sheet_id": "57_195",
+  "system_id": "57005",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_195",
+  "system": "Ethene with 1, 2-Dichloroethane",
+  "components": "(1) 1, 2-Dichloroethane; C2H4Cl2; [107-06-2]\n(2) Ethene; C2H4; [74-85-1]",
+  "original_measurements": "Konobeev, B.I.; Lyapin, V.V., Khim. Prom. 1967, 43, 114-6.",
+  "variables": "Temperature = 293.15 K to 333.15 K\nPressure = 0.29 to 3.11 MPa",
+  "prepared_by": "C.L. Young",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Static equilibrium cell fitted with magnetic stirrer.   Samples analysed by gas chromatography.   Details in source.",
+  "source_purity": "1.  Purity better than 99.6 mole per cent.\n2.  No details given.\n3.  No details given.",
+  "estimated_error": "Solubility: δx_C2H_4  =  ± 0.002  (estimated by compiler)\nTemperature: δT/K  =  ±  0.1 (estimated by compiler)\nPressure: δP  =  ± 0.5%  (estimated by compiler)",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1, 2-Dichloroethane",
+    "formula": "C2H4Cl2",
+    "cas": "107-06-2"
+   },
+   {
+    "index": 2,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Pressure [Pa]",
+     "Mole Fraction (x_1)",
+     "x_1 Note"
+    ],
+    "rows": [
+     [
+      "293.15",
+      "0.028",
+      "in liquid"
+     ],
+     [
+      "293.15",
+      "0.078",
+      "in liquid"
+     ],
+     [
+      "293.15",
+      "0.154",
+      "in liquid"
+     ],
+     [
+      "293.15",
+      "0.179",
+      "in liquid"
+     ],
+     [
+      "293.15",
+      "0.337",
+      "in liquid"
+     ],
+     [
+      "313.15",
+      "0.020",
+      "in liquid"
+     ],
+     [
+      "313.15",
+      "0.060",
+      "in liquid"
+     ],
+     [
+      "313.15",
+      "0.140",
+      "in liquid"
+     ],
+     [
+      "313.15",
+      "0.267",
+      "in liquid"
+     ],
+     [
+      "333.15",
+      "0.015",
+      "in liquid"
+     ],
+     [
+      "333.15",
+      "0.048",
+      "in liquid"
+     ],
+     [
+      "333.15",
+      "0.116",
+      "in liquid"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Ethene with 1, 2-Dichloroethane"
+ },
+ {
+  "sheet_id": "57_48",
+  "system_id": "57006",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_48",
+  "system": "Ethene with 1, 2-Ethanediamine, (Ethyldiamine) and Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) Ethene, (Ethylene); C2H4; [74-85-1]\n(3) 1, 2-Ethanediamine, (Ethyldiamine); C2H8N2; [107-15-3]",
+  "original_measurements": "Sada, E.; Kumazawa, H.; Butt, M.A., J. Chem. Eng. Data 1977, 22, 277-278.",
+  "variables": "Temperature = 293.15 K\nPressure = 101.3 kPa",
+  "prepared_by": "C.L. Young",
+  "critical_evaluation": "Pressure = 1 atmosphere = 1.01325 × 10^5 Pa.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Equilibrium established between measured volume of gas and a measured amount of gas-free liquid in a cell fitted with a magnetic stirrer.   Amount of gas absorbed estimated from change in volume of gas.   Concentration of amine determined by titration.   Details in source and Ref. 1.",
+  "source_purity": "1.  Commercial sample, purity 99.8 mole per cent.\n2.  Reagent grade of guaranteed quality.\n3.  Distilled and degassed.",
+  "estimated_error": "Solubility: δα  =  ±  2%.  (estimated by compiler)\nTemperature: δT/K  =  ±  0.2 (estimated by compiler)",
+  "references": "1.  Onda, K.;  Sada, E.;  Kobayashi, T.;  Kito, S.;  Ito, K.,  J. Chem. Eng. Jpn. 1970, 3, 18.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "Ethene, (Ethylene)",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   },
+   {
+    "index": 3,
+    "name": "1, 2-Ethanediamine, (Ethyldiamine)",
+    "formula": "C2H8N2",
+    "cas": "107-15-3"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Concentration C_2 [mol L^–1]",
+     "Concentration Note",
+     "α"
+    ],
+    "rows": [
+     [
+      "293.15",
+      "0.0",
+      "Conc. of amine",
+      "0.1111"
+     ],
+     [
+      "293.15",
+      "0.561",
+      "Conc. of amine",
+      "0.1153"
+     ],
+     [
+      "293.15",
+      "1.049",
+      "Conc. of amine",
+      "0.1184"
+     ],
+     [
+      "293.15",
+      "1.596",
+      "Conc. of amine",
+      "0.1196"
+     ],
+     [
+      "293.15",
+      "2.023",
+      "Conc. of amine",
+      "0.1187"
+     ],
+     [
+      "293.15",
+      "2.091",
+      "Conc. of amine",
+      "0.1199"
+     ],
+     [
+      "293.15",
+      "2.890",
+      "Conc. of amine",
+      "0.1186"
+     ],
+     [
+      "293.15",
+      "2.929",
+      "Conc. of amine",
+      "0.1185"
+     ],
+     [
+      "293.15",
+      "3.464",
+      "Conc. of amine",
+      "0.1145"
+     ],
+     [
+      "293.15",
+      "3.683",
+      "Conc. of amine",
+      "0.1124"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Ethene with 1, 2-Ethanediamine, (Ethyldiamine) and Water"
+ },
+ {
+  "sheet_id": "57_153",
+  "system_id": "57007",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_153",
+  "system": "Ethene with 1, 2-Ethanediol (ethylene glycol)",
+  "components": "(1) 1, 2-Ethanediol (ethylene glycol); C2H5O2; [107-21-1]\n(2) Ethene; C2H4; [74-85-1]",
+  "original_measurements": "Sahgal, A.; La, H.M.; Hayduk, W., Can. J. Chem. Eng. 1978, 56, 354-357.",
+  "variables": "Temperature = 298.15 K\nPressure = 101.325 kPa",
+  "prepared_by": "W. Hayduk",
+  "critical_evaluation": "Mole fraction ethene, x_1, is for a gas partial pressure of 101.325 kPa.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A glass apparatus equipped with a gas storage burette, a spiral tube for gas absorption, a miniature internal manometer and a solution storage burette was used.   Degassed solvent was injected at a constant rate into the absorption spiral by means of a syringe-pump while the gas was displaced by mercury using a mechanical elevating device for a mercury bottle, at a rate required to keep the gas pressure constant.   Readings of the volume of solvent required to achieve saturation were obtained from which the solubility was calculated.   Constant temperature fluid was circulated through a jacket enclosing the burettes and absorption spiral.",
+  "source_purity": "1.  Ethene was CP grade from Matheson, 99.5 mole % minimum purity\n2.  1,2-Ethanediol was from Fisher Chemicals of 99.8 mole % purity.",
+  "estimated_error": "Solubility: δx_1/x_1  =  ±  2%\nTemperature: δT/K  =  ±  0.05",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1, 2-Ethanediol (ethylene glycol)",
+    "formula": "C2H5O2",
+    "cas": "107-21-1"
+   },
+   {
+    "index": 2,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "Ostwald coefficient L [cm^3 gas (cm^3 solvent)^&#]",
+     "Mole Fraction (x_1)"
+    ],
+    "rows": [
+     [
+      "25",
+      "298.15",
+      "0.312",
+      "7.15"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Ethene with 1, 2-Ethanediol (ethylene glycol)"
+ },
+ {
+  "sheet_id": "57_154",
+  "system_id": "57007",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_154",
+  "system": "Ethene with 1, 2-Ethanediol (ethylene glycol)",
+  "components": "(1) 1, 2-Ethanediol (ethylene glycol); C2H5O2; [107-21-1]\n(2) Ethene; C2H4; [74-85-1]",
+  "original_measurements": "Hannaert, H.; Haccuria, M.; Mathieu, M.P., Ind. Chim. Belge 1967, 32, 156-164.",
+  "variables": "Temperature = 303.15 K\nPressure = 101.3 kPa",
+  "prepared_by": "W. Hayduk",
+  "critical_evaluation": "The authors definitions are for Kπν are :      K = y_1/x_1 =  mole fraction gas in gas phase ÷\nmole fraction gas in liquid phase      π  / atm = total pressure    ν  = coefficient of fugacity\nThe function Kπν /atm, is equivalent to a Henry's constant in the form H_1,2/atm = (ƒ_1/atm)/x_1 where ƒ_1 is the fugacity.",
+  "experimental_values": "",
+  "notes": "^1  Mole fraction solubility calculated by compiler for a gas partial pressure of 101.3 kPa with v = 1.",
+  "method": "The authors describe several methods used;  the one used in this case is the gas chromatographic method.\nThe stationary phase of the column was impregnated with a known mass of solvent.   Nitrogen was used for determining the free volume of gas in the column.   Various corrections were employed for dead volumes in the tubing and detector as well as for inlet and outlet pressures.   Unfortunately the method could only be used with solvents of very low volatility.",
+  "source_purity": "1.  Ethene.   Air Liquide.   Specified purity 99.9%.\n2.  1,2-Ethanediol.   No information.",
+  "estimated_error": "Solubility: δx_1/x_1  =  ±  2 to 5%  (authors)",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1, 2-Ethanediol (ethylene glycol)",
+    "formula": "C2H5O2",
+    "cas": "107-21-1"
+   },
+   {
+    "index": 2,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "Henry's law constant, K [πν]",
+     "Mole Fraction (x_1)",
+     "x_1 Note"
+    ],
+    "rows": [
+     [
+      "30",
+      "303.15",
+      "3,200",
+      "0.000313",
+      "1"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Ethene with 1, 2-Ethanediol (ethylene glycol)"
+ },
+ {
+  "sheet_id": "57_210",
+  "system_id": "57008",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_210",
+  "system": "Ethene with 1, 3-Dioxolan-2-one, 4-methyl- (Propylene carbonate)",
+  "components": "(1) 1, 3-Dioxolan-2-one, 4-methyl- (Propylene carbonate); C4H6O3; [108-32-7]\n(2) Ethene; C2H4; [74-85-1]",
+  "original_measurements": "Brückl, N.; Kim, J. I., Z. Phys. Chem. (Wiesbaden) 1981, 126, 133-150.",
+  "variables": "Temperature = 298.2 K\nPressure = 101.3 kPa",
+  "prepared_by": "C.L. Young",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^†  at a partial pressure of 1 atmosphere, calculated by compiler, assuming x_C2H_4 = 1/H.",
+  "method": "Solubilities were determined by a volumetric method described as \"the Ostwald method\".   No other details given.",
+  "source_purity": "1.  Linde Co.  sample, purity 99.8 volume per cent.\n2. Uvasol and analytical grade.",
+  "estimated_error": "Solubility: δH  =  ± 1.25%\nTemperature: δT/K  =  ±  0.1",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1, 3-Dioxolan-2-one, 4-methyl- (Propylene carbonate)",
+    "formula": "C4H6O3",
+    "cas": "108-32-7"
+   },
+   {
+    "index": 2,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Mole Fraction (x_1)",
+     "Remark(s)"
+    ],
+    "rows": [
+     [
+      "298.2",
+      "4.211",
+      "ln H = 5.47"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Ethene with 1, 3-Dioxolan-2-one, 4-methyl- (Propylene carbonate)"
+ },
+ {
+  "sheet_id": "57_211",
+  "system_id": "57008",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_211",
+  "system": "Ethene with 1, 3-Dioxolan-2-one, 4-methyl- (Propylene carbonate)",
+  "components": "(1) 1, 3-Dioxolan-2-one, 4-methyl- (Propylene carbonate); C4H6O3; [108-32-7]\n(2) Ethene; C2H4; [74-85-1]",
+  "original_measurements": "Lenoir, J-Y.; Renault, P.; Renon, H., J. Chem. Eng. Data 1971, 16, 340-2.",
+  "variables": "Temperature = 298.2 K to 343.2 K\nPressure = <101.3 kPa (low pressures)",
+  "prepared_by": "C.L. Young",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^*  Calculated by compiler assuming a linear function of H_C2H_4 vs. x_C2H_4 i.e., x_C2H_4 ( 1 atm) = 1/H_C2H_4",
+  "method": "A conventional gas-liquid chromatographic unit fitted with a thermal conductivity detector was used.   The carrier gas was helium.   The value of Henry's law constant was calculated from the retention time.   The value applies to very low partial pressures of gas and there may be a substantial difference from that measured at 1 atm. pressure.   There is also considerable uncertainty in the value of Henry's constant since surface adsorption was not allowed for although its possible existence was noted.",
+  "source_purity": "(1)  L'Air Liquide sample, minimum purity 99.9 mole per cent.\n(2)  Touzart and Matignon or Serlabo sample, purity 99 mole per cent.",
+  "estimated_error": "Solubility: δH/atm  =  ± 6%  (estimated by compiler)\nTemperature: δT/K  =  ±  0.1  (estimated by compiler.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1, 3-Dioxolan-2-one, 4-methyl- (Propylene carbonate)",
+    "formula": "C4H6O3",
+    "cas": "108-32-7"
+   },
+   {
+    "index": 2,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Henry's law constant, K [atm]",
+     "Henry Constant Note",
+     "Mole Fraction (x_1)",
+     "x_1 Note"
+    ],
+    "rows": [
+     [
+      "298.2",
+      "192",
+      "H",
+      "0.00521",
+      "* at 1 atm"
+     ],
+     [
+      "323.2",
+      "235",
+      "H",
+      "0.00426",
+      "* at 1 atm"
+     ],
+     [
+      "343.2",
+      "271",
+      "H",
+      "0.00369",
+      "* at 1 atm"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Ethene with 1, 3-Dioxolan-2-one, 4-methyl- (Propylene carbonate)"
+ },
+ {
+  "sheet_id": "57_227",
+  "system_id": "57008",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_227",
+  "system": "Ethene with 1, 3-Dioxolan-2-one, 4-methyl- (Propylene carbonate)",
+  "components": "(1) Ethane, 1, 2-Dichloro- (Ethylenedichloride); C2H4Cl2; [107-06-2]\n(2) 1, 3-Dioxolan-2-one, 4-methyl- (Propylene carbonate); C4H6O3; [108-32-7]",
+  "original_measurements": "Shakhova, S.F.; Zubchenko, Yu P.; Rezina, O.A., Khim. Prom., 1973, 49, 271-2.",
+  "variables": "Temperature = 298.15 K to 343.15 K\nPressure = 0.52 to 4.22 MPa",
+  "prepared_by": "C.L. Young",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^+  quoted in original paper,k appears to be volume of gas at T/K = 273.15 and P = 1 atmosphere adsorbed by unit volume or liquid at room temperature.",
+  "method": "Mixture stirred by ball in rocking sutoclave.   Samples of liquid analysed by volumetric method.   Details in Ref. 1.Henry's constants were listed as follows:   t/C   H/atm mole fraction^–1\n25            235\n50            298\n70            333",
+  "source_purity": "1.  Purity 99.97 mole per cent.\n2.  Distilled, no other details given.",
+  "estimated_error": "Solubility: δx_C2H_4  =  ± 5%  (estimated by compiler)\nTemperature: δT/K  =  ±  0.1 (estimated by compiler)\nPressure: δp/MPa  =  ± 0.01 (estimated by compiler)",
+  "references": "1.   Shakhova, S. F.;   Zubchenko, Yu. P.;   Kaplan, L. K.,  Khim.  Prom.  1973, 5, 108.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Ethane, 1, 2-Dichloro- (Ethylenedichloride)",
+    "formula": "C2H4Cl2",
+    "cas": "107-06-2"
+   },
+   {
+    "index": 2,
+    "name": "1, 3-Dioxolan-2-one, 4-methyl- (Propylene carbonate)",
+    "formula": "C4H6O3",
+    "cas": "108-32-7"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Pressure [MPa]",
+     "Mole Fraction (x_1)",
+     "x_1 Note",
+     "Volume",
+     "Volume Note"
+    ],
+    "rows": [
+     [
+      "298.15",
+      "0.517",
+      "0.0216",
+      "Liquid",
+      "5.8",
+      "+"
+     ],
+     [
+      "298.15",
+      "0.719",
+      "0.0310",
+      "Liquid",
+      "8.4",
+      "+"
+     ],
+     [
+      "298.15",
+      "0.861",
+      "0.0356",
+      "Liquid",
+      "9.7",
+      "+"
+     ],
+     [
+      "298.15",
+      "0.983",
+      "0.0409",
+      "Liquid",
+      "11.2",
+      "+"
+     ],
+     [
+      "298.15",
+      "2.077",
+      "0.0843",
+      "Liquid",
+      "24.2",
+      "+"
+     ],
+     [
+      "298.15",
+      "2.695",
+      "0.1034",
+      "Liquid",
+      "30.3",
+      "+"
+     ],
+     [
+      "298.15",
+      "3.830",
+      "0.1423",
+      "Liquid",
+      "43.6",
+      "+"
+     ],
+     [
+      "323.15",
+      "0.557",
+      "0.0196",
+      "Liquid",
+      "5.25",
+      "+"
+     ],
+     [
+      "323.15",
+      "0.811",
+      "0.0250",
+      "Liquid",
+      "6.75",
+      "+"
+     ],
+     [
+      "323.15",
+      "1.246",
+      "0.0384",
+      "Liquid",
+      "10.5",
+      "+"
+     ],
+     [
+      "323.15",
+      "1.600",
+      "0.0492",
+      "Liquid",
+      "13.6",
+      "+"
+     ],
+     [
+      "323.15",
+      "2.209",
+      "0.0667",
+      "Liquid",
+      "18.8",
+      "+"
+     ],
+     [
+      "323.15",
+      "3.040",
+      "0.0900",
+      "Liquid",
+      "26.0",
+      "+"
+     ],
+     [
+      "323.15",
+      "4.021",
+      "0.1124",
+      "Liquid",
+      "33.3",
+      "+"
+     ],
+     [
+      "323.15",
+      "4.361",
+      "0.1246",
+      "Liquid",
+      "37.4",
+      "+"
+     ],
+     [
+      "343.15",
+      "0.661",
+      "0.0175",
+      "Liquid",
+      "4.68",
+      "+"
+     ],
+     [
+      "343.15",
+      "1.021",
+      "0.0258",
+      "Liquid",
+      "6.97",
+      "+"
+     ],
+     [
+      "343.15",
+      "1.031",
+      "0.0270",
+      "Liquid",
+      "7.30",
+      "+"
+     ],
+     [
+      "343.15",
+      "1.401",
+      "0.0345",
+      "Liquid",
+      "9.40",
+      "+"
+     ],
+     [
+      "343.15",
+      "2.471",
+      "0.0641",
+      "Liquid",
+      "18.0",
+      "+"
+     ],
+     [
+      "343.15",
+      "3.441",
+      "0.0843",
+      "Liquid",
+      "24.2",
+      "+"
+     ],
+     [
+      "343.15",
+      "4.171",
+      "0.1031",
+      "Liquid",
+      "30.2",
+      "+"
+     ],
+     [
+      "343.15",
+      "4.221",
+      "0.1034",
+      "Liquid",
+      "30.3",
+      "+"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Ethene with 1, 3-Dioxolan-2-one, 4-methyl- (Propylene carbonate)"
+ },
+ {
+  "sheet_id": "57_212",
+  "system_id": "57009",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_212",
+  "system": "Ethene with 1, 4-Dioxane",
+  "components": "(1) 1, 4-Dioxane; C4H8O2; [123-91-1]\n(2) Ethene; C2H4; [74-85-1]",
+  "original_measurements": "Gallardo, M. A.; Urieta, J. S.; Gutierrez Losa, C., J. Chim Phys. Phys.-Chim. Biol. 1983, 80, 621-25.",
+  "variables": "Temperature = 285.15 K to 303.15 K\nPressure = 101 kPa",
+  "prepared_by": "H.L. Clever",
+  "critical_evaluation": "The compiler calculated Bunsen and Ostwald coefficients from the author's mole fraction values assuming ideal gas behavior.  The values are rounded to the nearest 0.005.\nThe authors fitted their data to the equation:\n– ln x_1 = 3.648 ln (T/K) – 16.123 from which they obtained\nΔH°_1/kJ mol^–1 = –9.04, and ΔS°_1/J K^–1 mol^–1 = –69 for the transfer of one mole of ethene form the gas phase at 101 kPa to the hypothetical unit mole fraction solution.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The apparatus is similar to that of by Ben-Naim and Baer (Ref. 1).   It was described in detail in an earlier paper (Ref.  2).The apparatus consists of a gas buret, mercury manometer, and solution vessel.   The solvent is degassed in the solution vessel.   Measurements were carried out on the solvent vapor saturated gas.Literature 1,4-dioxane vapor pressure data were fitted to the equationln (p_2/kPa)  =  –4591.3/ (TK)  +  16.98.",
+  "source_purity": "(1)  Ethene.   Sociedad Espanol del Oxigeno.   Stated to be 99.90%.\n(2)  1, 4-Dioxane.   Merck and Co.   Purity checked by GLC to be ≥ 99 %.",
+  "estimated_error": "Solubility: δ x_1/x_1  =  ± 0.01\nTemperature: δT/K  =  ±  0.1\nPressure: δp_1/kPa  =  ± 1",
+  "references": "1.  Carnicer, J.;  Gibanel, F.;,Urieta, J.S.;  Gutierrez Losa, C., Rev. Acad. Ciencieas. (Zaragoza)  1979, 34, 115-22.\n2.  Ben Naim, A.;  Baer, S., Trans.  Faraday.  Soc.   1963, 59, 2735-38.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1, 4-Dioxane",
+    "formula": "C4H8O2",
+    "cas": "123-91-1"
+   },
+   {
+    "index": 2,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Ostwald coefficient L [cm^3 cm^–3]",
+     "α [cm^3 (STP) cm^–3 atm^–1]",
+     "Mole Fraction (x_1)"
+    ],
+    "rows": [
+     [
+      "285.15",
+      "3.125",
+      "2.995",
+      "111.6"
+     ],
+     [
+      "289.15",
+      "2.285",
+      "2.820",
+      "105.6"
+     ],
+     [
+      "293.15",
+      "2.870",
+      "2.675",
+      "100.7"
+     ],
+     [
+      "298.15",
+      "2.730",
+      "2.505",
+      "94.81"
+     ],
+     [
+      "303.15",
+      "2.595",
+      "2.335",
+      "89.08"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Ethene with 1, 4-Dioxane"
+ },
+ {
+  "sheet_id": "57_143",
+  "system_id": "57010",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_143",
+  "system": "Ethene with 1-Butanol",
+  "components": "(1) Ethene; C2H4; [74-85-1]\n(2) 1-Butanol; C4H10O; [71-36-3]",
+  "original_measurements": "Boyer, F. L.; Bircher, L. J., J. Phys. Chem. 1960, 64, 1330 - 1331.",
+  "variables": "Temperature = 298.15 K, 308.15 K\nPressure = 101.325 kPa (1 atm)",
+  "prepared_by": "M.E.Derrick, H.L.Clever",
+  "critical_evaluation": "The Bunsen coefficients were calculated by the compiler.\nThe mole fraction solubilities were taken from Boyer's thesis^1.\nSee the methanol data sheet for the equations relating the mole fraction solubility and the number of normal alcohol carbon numbers.",
+  "experimental_values": "",
+  "notes": "Table 0  ^1  α/cm^3 (STP) cm^–3 atm^–1",
+  "method": "A commercial Van Slyke blood gas apparatus (E. H. Sargent Co.) was modified by the authors.The total pressure of the gas and the solvent vapor in the solution chamber was adjusted to a pressure of one atm.   The pressure was maintained at one atm during the solution process.   The saturated solution was transferred to a bulb below the lower stopcock of the extraction vessel and sealed off.   The gas and solvent vapor were then brought to volume over mercury.   See (2) for details of the extraction procedure.",
+  "source_purity": "(1)  Ethene.  Matheson Co.  Stated to be 99.5 mol per cent.\n(2)  1-Butanol.   Source not given.   Treated by standard methods to remove aldehydes and ketones, then dried and distilled.",
+  "estimated_error": "Solubility: δL/cm^3  =  ± 0.01  (at 298.15 K);   ±  0.02  (at 308.15 K)\nTemperature: δT/K  =  ±  0.01",
+  "references": "1.  Boyer, F. L., Ph.D.  thesis, 1959, Vanderbilt Univ., Nashville, TN.\n2.  Peters, J. P.;  Van Slyke, D. D.; Quantitative Clinical Chemistry, Baltimore, MD, 1932, Volume II.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   },
+   {
+    "index": 2,
+    "name": "1-Butanol",
+    "formula": "C4H10O",
+    "cas": "71-36-3"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Ostwald coefficient L [cm^3 cm^–3]",
+     "α",
+     "α Note",
+     "Mole Fraction (x_1)"
+    ],
+    "rows": [
+     [
+      "298.15",
+      "2.26 ± 0.01",
+      "2.07",
+      "1",
+      "82.4"
+     ],
+     [
+      "308.15",
+      "2.11 ± 0.02",
+      "1.87",
+      "1",
+      "77.3"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Ethene with 1-Butanol"
+ },
+ {
+  "sheet_id": "57_144",
+  "system_id": "57010",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_144",
+  "system": "Ethene with 1-Butanol",
+  "components": "(1) Ethene; C2H4; [74-85-1]\n(2) 1-Butanol; C4H10O; [71-36-3]",
+  "original_measurements": "Sahgal, A.; La, H.M.; Hayduk, W., Can. J. Chem. Eng. 1978, 56, 354-357.",
+  "variables": "Temperature = 264 K to 343 K\nPressure = 101.325 kPa (1 atm)",
+  "prepared_by": "W. Hayduk",
+  "critical_evaluation": "Mole fraction ethene, x_1, is for a gas partial pressure of 101.325 kPa.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A glass apparatus equipped with a gas storage burette, a spiral tube for gas absorption, a miniature internal manometer and a solution storage burette was used.   Degassed solvent was injected at a constant rate into the absorption spiral by means of a syringe-pump while the gas was displaced by mercury using a mechanical elevating device for a mercury bottle, at a rate required to keep the gas pressure constant.   Readings of the volume of solvent required to achieve saturation were obtained from which the solubility was calculated.   Constant temperature fluid was circulated through a jacket enclosing the burettes and absorption spiral.",
+  "source_purity": "1.  Ethene was CP grade from Matheson, 99.5 mole % minimum purity\n2.  1-Butanol was from Fisher of 99.0 mole % minimum purity.",
+  "estimated_error": "Solubility: δx_1/x_1  =  ±  2%\nTemperature: δT/K  =  ±  0.05",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   },
+   {
+    "index": 2,
+    "name": "1-Butanol",
+    "formula": "C4H10O",
+    "cas": "71-36-3"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "Ostwald coefficient L [cm^3 (cm^3 solvent)>^–]",
+     "Mole Fraction (x_1)"
+    ],
+    "rows": [
+     [
+      "−9.2",
+      "263.95",
+      "3.62",
+      "0.0149"
+     ],
+     [
+      "25",
+      "298.15",
+      "2.23",
+      "0.00834"
+     ],
+     [
+      "49",
+      "322.15",
+      "1.67",
+      "0.00596"
+     ],
+     [
+      "70",
+      "343.15",
+      "1.50",
+      "0.00511"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Ethene with 1-Butanol"
+ },
+ {
+  "sheet_id": "57_145",
+  "system_id": "57010",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_145",
+  "system": "Ethene with 1-Butanol",
+  "components": "(1) Ethene; C2H4; [74-85-1]\n(2) 1-Butanol; C4H10O; [71-36-3]",
+  "original_measurements": "Narasimhan, S.; Natarajan, G.S.; Nageshwar, G.D., Indian J. Technol. 1981, 19, 298-299.",
+  "variables": "Temperature = 293.15 K, 298.15 K\nPressure = 101.325 kPa (1 atm)",
+  "prepared_by": "W. Hayduk",
+  "critical_evaluation": "Gas molar volumes of 23910, and 24330 cm^3/mole were used for the temperatures 293.15 K, and 298.15 K, respectively, and for a pressure of 101.325 kPa when calculating  L.\nIt was confirmed by private communication with Dr. Nageshwar that x was for a total pressure of one atmosphere.",
+  "experimental_values": "",
+  "notes": "^1  Calculated by compiler. It is assumed that the mole fraction solubility, x, as originally given, is for a total pressure of 101.325 kPa although not specifically so stated in the paper. The mole fraction solubility is calculated for a partial pressure of 101.325 kPa.",
+  "method": "The solvent was held in a jacketed burette.   Constant temperature water was circulated through the jacket.   Gas was bubbled through the solvent until saturated.   The dissolved gas content was determined by an electrometric dead-stop titration technique which yielded the bromine number.   The electrometric titrator was based on a design given in Ref. 1.",
+  "source_purity": "1.  Ethene prepared by catalytic dehydration of ethanol over activated alumina at 350-400°C and analyzed by chromatography.   Purity not given.\n2.  1-Butanol was treated for the removal of aldehydes and ketones and then distilled twice in a packed column.",
+  "estimated_error": "Solubility: δ x_1/x_1  =  ±  3%  (Estimated by compiler)",
+  "references": "1.  Dubois, H.D.;  Skoog, D.A., Anal. Chem. 1948, 20, 624.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   },
+   {
+    "index": 2,
+    "name": "1-Butanol",
+    "formula": "C4H10O",
+    "cas": "71-36-3"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "Pressure",
+     "Ostwald coefficient L [cm^3 gas (cm^3 solvent)^&#]",
+     "Ostwald Note",
+     "Mole Fraction (x_1)",
+     "Remark(s)"
+    ],
+    "rows": [
+     [
+      "20",
+      "293.15",
+      "101.325",
+      "2.52",
+      "1",
+      "0.00950",
+      "(1) x1 = 0.00956 (calc.)"
+     ],
+     [
+      "25",
+      "298.15",
+      "101.325",
+      "2.32",
+      "1",
+      "0.00864",
+      "(1) x1 = 0.00871 (calc.)"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Ethene with 1-Butanol"
+ },
+ {
+  "sheet_id": "57_159",
+  "system_id": "57011",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_159",
+  "system": "Ethene with 1-Butanol and 1, 2-Ethanediol (ethylene glycol)",
+  "components": "(1) 1, 2-Ethanediol (ethylene glycol); C2H5O2; [107-21-1]\n(2) Ethene; C2H4; [74-85-1]\n(3) 1-Butanol; C4H10O; [71-36-3]",
+  "original_measurements": "Sahgal, A.; Hayduk, W., J. Chem. Eng. Data 1979, 24, 222-227.",
+  "variables": "Temperature = 298.15 K\nPressure = 101.325 kPa\nConcentration = 0 - 1.0 (x_3/Mole Fraction)",
+  "prepared_by": "W. Hayduk",
+  "critical_evaluation": "Values for pure solvents were previously given (in Ref. 1).",
+  "experimental_values": "",
+  "notes": "^1  Volume fraction is based on volumes of two liquid components before mixing.\n^2  Mole fraction is shown on a gas-free basis.",
+  "method": "The apparatus utilized a continuous flow of deaerated solvent injected into a glass absorption spiral tube by means of a calibrated syringe pump.   The mixed solvent was prepared volumetrically then deaerated and a sample analyzed by a density measurement.   A mercury lift device was used for continuously adjusting the residual volume at constant pressure in a gas storage burette.   Solvent injection and gas consumption rates were used to calculate solubilities.   This paper also includes solution densities and refractive indices as well as ethene molecular diffusivities in the solutions.",
+  "source_purity": "1.  Ethene was CP grade from Matheson with minimum purity of  99.5 mole %.   Molar volume used at 298.15 K and 101.325 kPa was 24, 326 cm^3/mole.\n2.  1-Butanol was from Fisher; purity 99.0 mole %.\n3.  1,2-Ethanediol was from Fisher; purity 99.8 mole %",
+  "estimated_error": "Solubility: δz_3  =  ± 0.001\nδx_1/x_1  =  ±  0.02\nTemperature: δT/K  =  ±  0.05\nPressure: δP/P  =  ± 0.01",
+  "references": "1.  Sahgal, A.;  La, H.M.;  Hayduk, W., Can. J. Chem. Eng.  1978, 56, 354.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1, 2-Ethanediol (ethylene glycol)",
+    "formula": "C2H5O2",
+    "cas": "107-21-1"
+   },
+   {
+    "index": 2,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   },
+   {
+    "index": 3,
+    "name": "1-Butanol",
+    "formula": "C4H10O",
+    "cas": "71-36-3"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "Ostwald coefficient L [cm^3 gas (cm^3 solvent)^&#]",
+     "Ostwald Note",
+     "Mole Fraction (x_1)",
+     "x_1 Note",
+     "Mole Fraction (x_3)",
+     "x_3 Note",
+     "Volume"
+    ],
+    "rows": [
+     [
+      "25",
+      "298.15",
+      "2.23",
+      "Ethene Solubility",
+      "0.00834",
+      "Ethene Solubility",
+      "0",
+      "2 Conc. of Solvent",
+      "0 (Butanol)"
+     ],
+     [
+      "25",
+      "298.15",
+      "1.82",
+      "Ethene Solubility",
+      "0.00611",
+      "Ethene Solubility",
+      "0.260",
+      "2 Conc. of Solvent",
+      "0.174"
+     ],
+     [
+      "25",
+      "298.15",
+      "1.72",
+      "Ethene Solubility",
+      "0.00570",
+      "Ethene Solubility",
+      "0.295",
+      "2 Conc. of Solvent",
+      "0.201"
+     ],
+     [
+      "25",
+      "298.15",
+      "1.48",
+      "Ethene Solubility",
+      "0.00456",
+      "Ethene Solubility",
+      "0.461",
+      "2 Conc. of Solvent",
+      "0.342"
+     ],
+     [
+      "25",
+      "298.15",
+      "1.31",
+      "Ethene Solubility",
+      "0.00384",
+      "Ethene Solubility",
+      "0.531",
+      "2 Conc. of Solvent",
+      "0.407"
+     ],
+     [
+      "25",
+      "298.15",
+      "1.17",
+      "Ethene Solubility",
+      "0.00334",
+      "Ethene Solubility",
+      "0.615",
+      "2 Conc. of Solvent",
+      "0.490"
+     ],
+     [
+      "25",
+      "298.15",
+      "0.604",
+      "Ethene Solubility",
+      "0.00151",
+      "Ethene Solubility",
+      "0.860",
+      "2 Conc. of Solvent",
+      "0.790"
+     ],
+     [
+      "25",
+      "298.15",
+      "0.450",
+      "Ethene Solubility",
+      "0.00106",
+      "Ethene Solubility",
+      "0.956",
+      "2 Conc. of Solvent",
+      "0.927"
+     ],
+     [
+      "25",
+      "298.15",
+      "0.312",
+      "Ethene Solubility",
+      "0.000715",
+      "Ethene Solubility",
+      "1.000",
+      "2 Conc. of Solvent",
+      "1.0 (Glycol)"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Ethene with 1-Butanol and 1, 2-Ethanediol (ethylene glycol)"
+ },
+ {
+  "sheet_id": "57_149",
+  "system_id": "57012",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_149",
+  "system": "Ethene with 1-Heptanol",
+  "components": "(1) 1-Heptanol; C7H15OH; [111-70-6]\n(2) Ethene; C2H4; [74-85-1]",
+  "original_measurements": "Boyer, F. L.; Bircher, L. J., J. Phys. Chem. 1960, 64, 1330 - 1331.",
+  "variables": "Temperature = 298.15 K\nPressure = 101.325 kPa (1 atm)",
+  "prepared_by": "M.E.Derrick, H.L. Clever",
+  "critical_evaluation": "The Bunsen coefficient was calculated by the compiler.\nThe mole fraction solubility was taken from Boyer's thesis^1.\nSee the methanol data sheet for the equations relating the mole fraction solubility and the number of normal alcohol carbon numbers.",
+  "experimental_values": "",
+  "notes": "^1  α/cm^3 (STP) cm^–3 atm^–1",
+  "method": "A commercial Van Slyke blood gas apparatus (E. H. Sargent Co.) was modified by the authors.The total pressure of the gas and the solvent vapor in the solution chamber was adjusted to a pressure of one atm.   The pressure was maintained at one atm during the solution process.   The saturated solution was transferred to a bulb below the lower stopcock of the extraction vessel and sealed off.   The gas and solvent vapor were then brought to volume over mercury.   See^2 for details of the extraction procedure.",
+  "source_purity": "(1)  Ethene.  Matheson Co.  Stated to be 99.5 mol per cent.\n(2)  1-Heptanol.   Source not given.   Treated by standard methods to remove aldehydes and ketones, then dried and distilled.",
+  "estimated_error": "Solubility: δL/cm^3  =  ± 0.02\nTemperature: δT/K  =  ±  0.01",
+  "references": "1.  Boyer, F. L., Ph.D.  thesis, 1959, Vanderbilt Univ., Nashville, TN.\n2.  Peters, J. P.;  Van Slyke, D. D.; Quantitative Clinical Chemistry, Baltimore, MD, 1932, Volume II.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1-Heptanol",
+    "formula": "C7H15OH",
+    "cas": "111-70-6"
+   },
+   {
+    "index": 2,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Ostwald coefficient L [cm^3 cm^–3]",
+     "α",
+     "α Note",
+     "Mole Fraction (x_1)"
+    ],
+    "rows": [
+     [
+      "298.15",
+      "2.05 ± 0.02",
+      "1.88",
+      "1 α",
+      "117.0"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Ethene with 1-Heptanol"
+ },
+ {
+  "sheet_id": "57_148",
+  "system_id": "57013",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_148",
+  "system": "Ethene with 1-Hexanol",
+  "components": "(1) 1-Hexanol; C6H13OH; [111-27-3]\n(2) Ethene; C2H4; [74-85-1]",
+  "original_measurements": "Boyer, F. L.; Bircher, L. J., J. Phys. Chem. 1960, 64, 1330 - 1331.",
+  "variables": "Temperature = 298.15 K\nPressure = 101.325 kPa (1 atm)",
+  "prepared_by": "M.E.Derrick, H.L. Clever",
+  "critical_evaluation": "The Bunsen coefficient was calculated by the compiler.\nThe mole fraction solubility was taken from Boyer's thesis^1.\nSee the methanol data sheet for the equations relating the mole fraction solubility and the number of normal alcohol carbon numbers.",
+  "experimental_values": "",
+  "notes": "^1  α/cm^3 (STP) cm^–3 atm^–1",
+  "method": "A commercial Van Slyke blood gas apparatus (E. H. Sargent Co.) was modified by the authors.The total pressure of the gas and the solvent vapor in the solution chamber was adjusted to a pressure of one atm.   The pressure was maintained at one atm during the solution process. The saturated solution was transferred to a bulb below the lower stopcock of the extraction vessel and sealed off. The gas and solvent vapor were then brought to volume over mercury. See^2 for details of the extraction procedure.",
+  "source_purity": "(1)  Ethene.  Matheson Co.  Stated to be 99.5 mol per cent.\n(2)  1-Hexanol.   Source not given.   Treated by standard methods to remove aldehydes and ketones, then dried and distilled.",
+  "estimated_error": "Solubility: δL/cm^3  =  ± 0.03\nTemperature: δT/K  =  ±  0.01",
+  "references": "1.  Boyer, F. L., Ph.D.  thesis, 1959, Vanderbilt Univ., Nashville, TN.\n2.  Peters, J. P.;  Van Slyke, D. D.; Quantitative Clinical Chemistry, Baltimore, MD, 1932, Volume II.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1-Hexanol",
+    "formula": "C6H13OH",
+    "cas": "111-27-3"
+   },
+   {
+    "index": 2,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Ostwald coefficient L [cm^3 cm^–3]",
+     "α",
+     "α Note",
+     "Mole Fraction (x_1)"
+    ],
+    "rows": [
+     [
+      "298.15",
+      "2.08 ± 0.03",
+      "1.91",
+      "1 α",
+      "106.9"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Ethene with 1-Hexanol"
+ },
+ {
+  "sheet_id": "57_241",
+  "system_id": "57014",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_241",
+  "system": "Ethene with 1-Methyl-2-pyrrolidinone, (N-methylpyrrolidinone)",
+  "components": "(1) 1-Methyl-2-pyrrolidinone, (N-methylpyrrolidinone); C5H9NO; [872-50-4]\n(2) Ethene; C2H4; [74-85-1]",
+  "original_measurements": "Shakhova, S.F.; Zubchenko, Yu P.; Rezina, O.A., Khim. Prom., 1973, 49, 271-2.",
+  "variables": "Temperature = 298.15 K to 343.15 K\nPressure = 0.37 to 9.46 MPa",
+  "prepared_by": "C.L. Young",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^†  quoted in original paper, appears to be volume of gas at T/K = 273.15 and P = 1 atmosphere adsorbed by unit volume of liquid at room temperature.",
+  "method": "Mixture stirred by ball in rocking autoclave.   Samples of liquid analysed by a volumetric method.   Details in Ref. 1.Henry's constants were listed as follows:\nt/c   H/atm mole fraction^–1\n25         135\n50         174\n70         208",
+  "source_purity": "1.  Purity 99.97 mole per cent.\n2.  Distilled, no other details give.",
+  "estimated_error": "Solubility: δx_C2H_4  =  ± 5%  (estimated by compiler)\nTemperature: δT/K  =  ±  0.1  (estimated by compiler)\nPressure: δP/bar =  ±  0.1  (estimated by compiler)",
+  "references": "1.   Shakhova, S. F.;   Zubchenko, Yu. P.;   Kaplan, L. K.,  Khim.  Prom.  1973, 5, 108",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1-Methyl-2-pyrrolidinone, (N-methylpyrrolidinone)",
+    "formula": "C5H9NO",
+    "cas": "872-50-4"
+   },
+   {
+    "index": 2,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Pressure [bar]",
+     "α [vol/vol]",
+     "α Note",
+     "Mole Fraction (x_1)",
+     "x_1 Note"
+    ],
+    "rows": [
+     [
+      "298.15",
+      "3.75",
+      "6.52",
+      "†",
+      "0.0274",
+      "In liquid"
+     ],
+     [
+      "298.15",
+      "5.78",
+      "9.83",
+      "†",
+      "0.0407",
+      "In liquid"
+     ],
+     [
+      "298.15",
+      "6.38",
+      "11.5",
+      "†",
+      "0.0473",
+      "In liquid"
+     ],
+     [
+      "298.15",
+      "8.00",
+      "14.7",
+      "†",
+      "0.0596",
+      "In liquid"
+     ],
+     [
+      "298.15",
+      "10.54",
+      "19.2",
+      "†",
+      "0.0765",
+      "In liquid"
+     ],
+     [
+      "298.15",
+      "14.89",
+      "27.9",
+      "†",
+      "0.1074",
+      "In liquid"
+     ],
+     [
+      "298.15",
+      "18.64",
+      "37.2",
+      "†",
+      "0.1383",
+      "In liquid"
+     ],
+     [
+      "298.15",
+      "25.53",
+      "49.1",
+      "†",
+      "0.1748",
+      "In liquid"
+     ],
+     [
+      "298.15",
+      "47.32",
+      "96.2",
+      "†",
+      "0.2933",
+      "In liquid"
+     ],
+     [
+      "298.15",
+      "56.44",
+      "127.4",
+      "†",
+      "0.3546",
+      "In liquid"
+     ],
+     [
+      "298.15",
+      "63.94",
+      "149.4",
+      "†",
+      "0.3919",
+      "In liquid"
+     ],
+     [
+      "298.15",
+      "64.75",
+      "162.1",
+      "†",
+      "0.4115",
+      "In liquid"
+     ],
+     [
+      "323.15",
+      "3.85",
+      "5.08",
+      "†",
+      "0.0214",
+      "In liquid"
+     ],
+     [
+      "323.15",
+      "6.08",
+      "8.21",
+      "†",
+      "0.0342",
+      "In liquid"
+     ],
+     [
+      "323.15",
+      "6.79",
+      "9.18",
+      "†",
+      "0.0381",
+      "In liquid"
+     ],
+     [
+      "323.15",
+      "10.94",
+      "14.7",
+      "†",
+      "0.0596",
+      "In liquid"
+     ],
+     [
+      "323.15",
+      "18.14",
+      "24.9",
+      "†",
+      "0.0970",
+      "In liquid"
+     ],
+     [
+      "323.15",
+      "24.01",
+      "33.1",
+      "†",
+      "0.1249",
+      "In liquid"
+     ],
+     [
+      "323.15",
+      "25.53",
+      "35.6",
+      "†",
+      "0.1331",
+      "In liquid"
+     ],
+     [
+      "323.15",
+      "27.46",
+      "41.1",
+      "†",
+      "0.1506",
+      "In liquid"
+     ],
+     [
+      "323.15",
+      "38.81",
+      "56.6",
+      "†",
+      "0.1962",
+      "In liquid"
+     ],
+     [
+      "323.15",
+      "50.36",
+      "74.3",
+      "†",
+      "0.2427",
+      "In liquid"
+     ],
+     [
+      "323.15",
+      "51.98",
+      "75.7",
+      "†",
+      "0.2462",
+      "In liquid"
+     ],
+     [
+      "323.15",
+      "73.06",
+      "104.3",
+      "†",
+      "0.3103",
+      "In liquid"
+     ],
+     [
+      "323.15",
+      "83.39",
+      "133.2",
+      "†",
+      "0.3649",
+      "In liquid"
+     ],
+     [
+      "343.15",
+      "5.78",
+      "6.24",
+      "†",
+      "0.0262",
+      "In liquid"
+     ],
+     [
+      "343.15",
+      "8.71",
+      "9.57",
+      "†",
+      "0.0396",
+      "In liquid"
+     ],
+     [
+      "343.15",
+      "13.37",
+      "14.3",
+      "†",
+      "0.0581",
+      "In liquid"
+     ],
+     [
+      "343.15",
+      "30.40",
+      "34.7",
+      "†",
+      "0.1302",
+      "In liquid"
+     ],
+     [
+      "343.15",
+      "53.80",
+      "60.4",
+      "†",
+      "0.2067",
+      "In liquid"
+     ],
+     [
+      "343.15",
+      "86.84",
+      "108.6",
+      "†",
+      "0.3190",
+      "In liquid"
+     ],
+     [
+      "343.15",
+      "94.64",
+      "118.9",
+      "†",
+      "0.3390",
+      "In liquid"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Ethene with 1-Methyl-2-pyrrolidinone, (N-methylpyrrolidinone)"
+ },
+ {
+  "sheet_id": "57_236",
+  "system_id": "57015",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_236",
+  "system": "Ethene with 1-Methyl-2-pyrrolidinone, Nitrobenzene, Benzenamine (Aniline), Dimethylsulfoxide, or Hexamethylphosphoric triamide",
+  "components": "(1) 1-Methyl-2-pyrrolidinone, Nitrobenzene, Benzenamine (Aniline), Dimethylsulfoxide, or Hexamethylphosphoric triamide; ; []\n(2) Ethene; C2H4; [74-85-1]",
+  "original_measurements": "Lenoir, J-Y.; Renault, P.; Renon, H., J. Chem. Eng. Data 1971, 16, 340-2.",
+  "variables": "Temperature = 298.15 K\nPressure = 101.32 kPa",
+  "prepared_by": "C.L. Young",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^1  Calculated by compiler for a partial pressure of 101.3 kPa assuming that the mole fraction ethene is equal to 1/H.",
+  "method": "A conventional gas-liquid chromatographic unit fitted with a thermal conductivity detector was used.   The carrier gas was helium.   The value of Henry's law constant was calculated from the retention time.   The value applies to very low partial pressures of gas and there may be a substantial difference from that measured at 1 atm. pressure.   There is also considerable uncertainty in the value of Henry's constant since surface adsorption was not allowed for although its possible existence was noted.",
+  "source_purity": "(1)  L'Air Liquide sample, minimum purity 99.9 mole per cent.\n(2)  Touzart and Matignon or Serlabo sample, purity 99 mole per cent.",
+  "estimated_error": "Solubility: δH/atm  =  ± 6%  (estimated by compiler)\nTemperature: δT/K  =  ±  0.1  (estimated by compiler",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 2,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Henry's law constant, K [atm]",
+     "Mole Fraction (x_1)",
+     "x_1 Note",
+     "Remark(s)"
+    ],
+    "rows": [
+     [
+      "298.15",
+      "126",
+      "0.00794",
+      "1",
+      "1-Methyl-2-pyrrolidinone; C5H9NO; [872-50-4]"
+     ],
+     [
+      "298.15",
+      "126",
+      "0.007947",
+      "1",
+      "Nitrobenzene; C6H5NO2; [98-95-3]"
+     ],
+     [
+      "298.15",
+      "208",
+      "0.00481",
+      "1",
+      "Benzenamine (Aniline); C6H7N; [62-53-3]"
+     ],
+     [
+      "298.15",
+      "312",
+      "0.00321",
+      "1",
+      "Sulfinylbismethane (Dimethylsulfoxide); C2H6SO; [67-68-5]"
+     ],
+     [
+      "298.15",
+      "52.9",
+      "0.0189",
+      "1",
+      "Hexamethylphosphoric triamide; C6H18NO3P; [680-31-9]"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Ethene with 1-Methyl-2-pyrrolidinone, Nitrobenzene, Benzenamine (Aniline), Dimethylsulfoxide, or Hexamethylphosphoric triamide"
+ },
+ {
+  "sheet_id": "57_150",
+  "system_id": "57016",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_150",
+  "system": "Ethene with 1-Octanol",
+  "components": "(1) 1-Octanol; C8H17OH; [111-87-5]\n(2) Ethene; C2H4; [74-85-1]",
+  "original_measurements": "Boyer, F. L.; Bircher, L. J., J. Phys. Chem. 1960, 64, 1330 - 1331.",
+  "variables": "Temperature = 298.15 K, 308.15 K\nPressure = 101.325 kPa (1 atm)",
+  "prepared_by": "M.E.Derrick, H.L. Clever",
+  "critical_evaluation": "The Bunsen coefficient was calculated by the compiler.\nThe mole fraction solubility was taken from Boyer's thesis^1.\nSee the methanol data sheet for the equations relating the mole fraction solubility and the number of normal alcohol carbon numbers.",
+  "experimental_values": "",
+  "notes": "^1  α/cm^3 (STP) cm^–3 atm^–1",
+  "method": "A commercial Van Slyke blood gas apparatus (E. H. Sargent Co.) was modified by the authors.The total pressure of the gas and the solvent vapor in the solution chamber was adjusted to a pressure of one atm.   The pressure was maintained at one atm during the solution process.   The saturated solution was transferred to a bulb below the lower stopcock of the extraction vessel and sealed off.   The gas and solvent vapor were then brought to volume over mercury.   See^2 for details of the extraction procedure.",
+  "source_purity": "(1)  Ethene.  Matheson Co.  Stated to be 99.5 mol per cent.\n(2)  1-Octanol.   Source not given.   Treated by standard methods to remove aldehydes and ketones, then dried and distilled.",
+  "estimated_error": "Solubility: δL/cm^3  =  ± 0.03  (at 298.15 K);   ±  0.02  (at 308.15 K)\nTemperature: δT/K  =  ±  0.01",
+  "references": "1.  Boyer, F. L., Ph.D.  thesis, 1959, Vanderbilt Univ., Nashville, TN.\n2.  Peters, J. P.;  Van Slyke, D. D.; Quantitative Clinical Chemistry, Baltimore, MD, 1932, Volume II.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1-Octanol",
+    "formula": "C8H17OH",
+    "cas": "111-87-5"
+   },
+   {
+    "index": 2,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Ostwald coefficient L [cm^3 cm^–3]",
+     "α",
+     "α Note",
+     "Mole Fraction (x_1)"
+    ],
+    "rows": [
+     [
+      "298.15",
+      "1.91 ± 0.03",
+      "1.75",
+      "1 α",
+      "129.0"
+     ],
+     [
+      "308.15",
+      "1.76 ± 0.02",
+      "1.56",
+      "1 α",
+      "110.0"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Ethene with 1-Octanol"
+ },
+ {
+  "sheet_id": "57_166",
+  "system_id": "57016",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_166",
+  "system": "Ethene with 1-Octanol",
+  "components": "(1) 1-Octanol; C8H17OH; [111-87-5]\n(2) Ethene; C2H4; [74-85-1]",
+  "original_measurements": "Konobeev, B.I.; Lyapin, V.V., Khim. Prom. 1967, 43, 114-6.",
+  "variables": "Temperature = 293.15 K to 333.15 K\nPressure = 0.28 to 3.24 MPa",
+  "prepared_by": "C.L. Young",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Static equilibrium cell fitted with magnetic stirrer.   Samples analysed by gas chromatography.   Details in source.",
+  "source_purity": "1.  Purity better than 99.6 mole per cent.\n2.  No details given.",
+  "estimated_error": "Solubility: δx_C2H_4  =  ± 0.002  (estimated by compiler)\nTemperature: δT/K  =  ±  0.1 (estimated by compiler)\nPressure: δP  =  ± 0.5%  (estimated by compiler)",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1-Octanol",
+    "formula": "C8H17OH",
+    "cas": "111-87-5"
+   },
+   {
+    "index": 2,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Pressure [Pa]",
+     "Mole Fraction (x_1)",
+     "x_1 Note"
+    ],
+    "rows": [
+     [
+      "293.15",
+      "0.034",
+      "in liquid"
+     ],
+     [
+      "293.15",
+      "0.083",
+      "in liquid"
+     ],
+     [
+      "293.15",
+      "0.141",
+      "in liquid"
+     ],
+     [
+      "293.15",
+      "0.344",
+      "in liquid"
+     ],
+     [
+      "313.15",
+      "0.022",
+      "in liquid"
+     ],
+     [
+      "313.15",
+      "0.066",
+      "in liquid"
+     ],
+     [
+      "313.15",
+      "0.138",
+      "in liquid"
+     ],
+     [
+      "313.15",
+      "0.253",
+      "in liquid"
+     ],
+     [
+      "333.15",
+      "0.018",
+      "in liquid"
+     ],
+     [
+      "333.15",
+      "0.052",
+      "in liquid"
+     ],
+     [
+      "333.15",
+      "0.121",
+      "in liquid"
+     ],
+     [
+      "333.15",
+      "0.214",
+      "in liquid"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Ethene with 1-Octanol"
+ },
+ {
+  "sheet_id": "57_146",
+  "system_id": "57017",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_146",
+  "system": "Ethene with 1-Pentanol",
+  "components": "(1) Ethene; C2H4; [74-85-1]\n(2) 1-Pentanol; C5H12O; [71-41-0]",
+  "original_measurements": "Narasimhan, S.; Natarajan, G.S.; Nageshwar, G.D., Indian J. Technol. 1981, 19, 298-299.",
+  "variables": "Temperature = 293.15 K, 298.15 K\nPressure = 101.325 kPa (1 atm)",
+  "prepared_by": "W. Hayduk",
+  "critical_evaluation": "Gas molar volumes of 23910, and 24330 cm^3/mole were used for the temperatures 293.15 K, and 298.15 K, respectively, and for a pressure of 101.325 kPa when calculating  L.\nIt was confirmed by private communication with Dr. Nageshwar that x was for a total pressure of one atmosphere.",
+  "experimental_values": "",
+  "notes": "^1  Calculated by compiler. It is assumed that the mole fraction solubility, x, as originally given, is for a total pressure of 101.325 kPa although not specifically so stated in the paper. The mole fraction solubility is calculated for a partial pressure of 101.325 kPa.",
+  "method": "The solvent was held in a jacketed burette.   Constant temperature water was circulated through the jacket.   Gas was bubbled through the solvent until saturated.   The dissolved gas content was determined by an electrometric dead-stop titration technique which yielded the bromine number.   The electrometric titrator was based on a design given in Ref. 1.",
+  "source_purity": "1.  Ethene prepared by catalytic dehydration of ethanol over activated alumina at 350-400 °C and analyzed by chromatography.   Purity not given.\n2.  1-Pentanol was treated for the removal of aldehydes and ketones and then distilled twice in a packed column.",
+  "estimated_error": "Solubility: δ x_1/x_1  =  ±  3%  (Estimated by compiler)",
+  "references": "1.  Dubois, H.D.;  Skoog, D.A., Anal. Chem. 1948, 20, 624.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   },
+   {
+    "index": 2,
+    "name": "1-Pentanol",
+    "formula": "C5H12O",
+    "cas": "71-41-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "Pressure",
+     "Ostwald coefficient L [cm^3 gas (cm^3 solvent)^&#]",
+     "Ostwald Note",
+     "Mole Fraction (x_1)",
+     "Remark(s)"
+    ],
+    "rows": [
+     [
+      "20",
+      "293.15",
+      "101.325",
+      "2.42",
+      "1",
+      "0.01082",
+      "(1) x1 = 0.01083 (calc.)"
+     ],
+     [
+      "25",
+      "298.15",
+      "101.325",
+      "2.25",
+      "1",
+      "0.00995",
+      "(1) x1 = 0.00996 (calc.)"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Ethene with 1-Pentanol"
+ },
+ {
+  "sheet_id": "57_147",
+  "system_id": "57017",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_147",
+  "system": "Ethene with 1-Pentanol",
+  "components": "(1) Ethene; C2H4; [74-85-1]\n(2) 1-Pentanol; C5H12O; [71-41-0]",
+  "original_measurements": "Boyer, F. L.; Bircher, L. J., J. Phys. Chem. 1960, 64, 1330 - 1331.",
+  "variables": "Temperature = 298.15 K, 308.15 K\nPressure = 101.325 kPa (1 atm)",
+  "prepared_by": "M.E.Derrick, H.L. Clever",
+  "critical_evaluation": "The Bunsen coefficient was calculated by the compiler.\nThe mole fraction solubility was taken from Boyer's thesis^1.\nSee the methanol data sheet for the equations relating the mole fraction solubility and the number of normal alcohol carbon numbers.",
+  "experimental_values": "",
+  "notes": "^1  α/cm^3 (STP) cm^–3 atm^–1",
+  "method": "A commercial Van Slyke blood gas apparatus (E. H. Sargent Co.) was modified by the authors.The total pressure of the gas and the solvent vapor in the solution chamber was adjusted to a pressure of one atm.   The pressure was maintained at one atm during the solution process.   The saturated solution was transferred to a bulb below the lower stopcock of the extraction vessel and sealed off.   The gas and solvent vapor were then brought to volume over mercury.   See (2) for details of the extraction procedure.",
+  "source_purity": "(1)  Ethene.  Matheson Co.  Stated to be 99.5 mol per cent.\n(2)  1-Pentanol.   Source not given.   Treated by standard methods to remove aldehydes and ketones, then dried and distilled.",
+  "estimated_error": "Solubility: δL/cm^3  =  ± 0.03  (at 298.15 K);   ±  0.01  (at 308.15 K)\nTemperature: δT/K  =  ±  0.01",
+  "references": "1.  Boyer, F. L., Ph.D.  thesis, 1959, Vanderbilt Univ., Nashville, TN.\n2.  Peters, J. P.;  Van Slyke, D. D.; Quantitative Clinical Chemistry, Baltimore, MD, 1932, Volume II.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   },
+   {
+    "index": 2,
+    "name": "1-Pentanol",
+    "formula": "C5H12O",
+    "cas": "71-41-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Ostwald coefficient L [cm^3 cm^–3]",
+     "α",
+     "α Note",
+     "Mole Fraction (x_1)"
+    ],
+    "rows": [
+     [
+      "298.15",
+      "2.23 ± 0.03",
+      "2.04",
+      "1 α",
+      "100.4"
+     ],
+     [
+      "308.15",
+      "2.05 ± 0.01",
+      "1.82",
+      "1 α",
+      "88.7"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Ethene with 1-Pentanol"
+ },
+ {
+  "sheet_id": "57_140",
+  "system_id": "57018",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_140",
+  "system": "Ethene with 1-Propanol",
+  "components": "(1) Ethene; C2H4; [74-85-1]\n(2) 1-Propanol; C3H8O; [71-23-8]",
+  "original_measurements": "Boyer, F. L.; Bircher, L. J., J. Phys. Chem. 1960, 64, 1330 - 1331.",
+  "variables": "Temperature = 298.15 K, 308.15 K\nPressure = 101.325 kPa (1 atm)",
+  "prepared_by": "M.E. Derrick, H.L. Clever",
+  "critical_evaluation": "The Bunsens coefficient were calculated by the compiler.\nThe mole fraction solubilities were taken from Boyer's thesis^1.\nSee the methanol data sheet for the equations relating the mole fraction solubility and the number of normal alcohol carbon numbers.",
+  "experimental_values": "",
+  "notes": "Table 0  ^1  α/cm^3 (STP) cm^–3 atm^–1",
+  "method": "A commercial Van Slyke blood gas apparatus (E. H. Sargent Co.) was modified by the authors.The total pressure of the gas and the solvent vapor in the solution chamber was adjusted to a pressure of one atm.   The pressure was maintained at one atm during the solution process.   The saturated solution was transferred to a bulb below the lower stopcock of the extraction vessel and sealed off.   The gas and solvent vapor were then brought to volume over mercury.   See (2) for details of the extraction procedure.",
+  "source_purity": "(1)  Ethene.  Matheson Co.  Stated to be 99.5 mol per cent.\n(2)  1-Propanol.   Source not given.   Treated by standard methods to remove aldehydes and ketones, then dried and distilled.",
+  "estimated_error": "Solubility: δL/cm^3  =  ± 0.01  (at 298.15 K);   ±  0.08  (at 308.15 K)\nTemperature: δT/K  =  ±  0.01",
+  "references": "1.  Boyer, F. L., Ph.D.  thesis, 1959, Vanderbilt Univ., Nashville, TN.\n2.  Peters, J. P.;  Van Slyke, D. D.; Quantitative Clinical Chemistry, Baltimore, MD, 1932, Volume II.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   },
+   {
+    "index": 2,
+    "name": "1-Propanol",
+    "formula": "C3H8O",
+    "cas": "71-23-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Ostwald coefficient L [cm^3 cm^–3]",
+     "α",
+     "α Note",
+     "Mole Fraction (x_1)"
+    ],
+    "rows": [
+     [
+      "298.15",
+      "2.41 ± 0.01",
+      "2.21",
+      "1",
+      "73.6"
+     ],
+     [
+      "308.15",
+      "2.20 ± 0.08",
+      "1.95",
+      "1",
+      "62.7"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Ethene with 1-Propanol"
+ },
+ {
+  "sheet_id": "57_141",
+  "system_id": "57018",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_141",
+  "system": "Ethene with 1-Propanol",
+  "components": "(1) Ethene; C2H4; [74-85-1]\n(2) 1-Propanol; C3H8O; [71-23-8]",
+  "original_measurements": "Narasimhan, S.; Natarajan, G.S.; Nageshwar, G.D., Indian J. Technol. 1981, 19, 298-299.",
+  "variables": "Temperature = 293.15 K, 298.15 K\nPressure = 101.325 kPa (1 atm)",
+  "prepared_by": "W. Hayduk",
+  "critical_evaluation": "Gas molar volumes of 23910, and 24330 cm^3/mole were used for the temperatures 293.15 K, and 298.15 K, respectively, and for a pressure of 101.325 kPa when calculating  L.\nIt was confirmed by private communication with Dr. Nageshwar that x was for a total pressure of one atmosphere.",
+  "experimental_values": "",
+  "notes": "^1  Calculated by compiler. It is assumed that the mole fraction solubility, x, as originally given, is for a total pressure of 101.325 kPa although not specifically so stated in the paper. The mole fraction solubility is calculated for a partial pressure of 101.325 kPa.",
+  "method": "The solvent was held in a jacketed burette.   Constant temperature water was circulated through the jacket.   Gas was bubbled through the solvent until saturated.   The dissolved gas content was determined by an electrometric dead-stop titration technique which yielded the bromine number.   The electrometric titrator was based on a design given in Ref. 1.",
+  "source_purity": "1.  Ethene prepared by catalytic dehydration of ethanol over activated alumina at 350-400 °C and analyzed by chromatography.   Purity not given.\n2.  1-Propanol was treated for the removal of aldehydes and ketones and then distilled twice in a packed column.",
+  "estimated_error": "Solubility: δ x_1/x_1  =  ±  3%  (Estimated by compiler)",
+  "references": "1.  Dubois, H.D.;  Skoog, D.A., Anal. Chem. 1948, 20, 624.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   },
+   {
+    "index": 2,
+    "name": "1-Propanol",
+    "formula": "C3H8O",
+    "cas": "71-23-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "Ostwald coefficient L [cm^3 gas (cm^3 solvent)^&#]",
+     "Ostwald Note",
+     "Mole Fraction (x_1)",
+     "x_1 Note"
+    ],
+    "rows": [
+     [
+      "20",
+      "293.15",
+      "2.64",
+      "1",
+      "0.00804",
+      "101.325"
+     ],
+     [
+      "20",
+      "293.15",
+      "2.64",
+      "1",
+      "0.00820",
+      "1 101.325"
+     ],
+     [
+      "25",
+      "298.15",
+      "2.47",
+      "1",
+      "0.00737",
+      "101.325"
+     ],
+     [
+      "25",
+      "298.15",
+      "2.47",
+      "1",
+      "0.00758",
+      "1 101.325"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Ethene with 1-Propanol"
+ },
+ {
+  "sheet_id": "57_142",
+  "system_id": "57018",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_142",
+  "system": "Ethene with 1-Propanol",
+  "components": "(1) Ethene; C2H4; [74-85-1]\n(2) 1-Propanol; C3H8O; [71-23-8]",
+  "original_measurements": "Yano, T.; Kidaka, T.; Miyamoto, H.; Murakami, T., Proc. Soc. Chem. Engrs, Japan (Osaka), Oct. 14, 1968, 89-90.",
+  "variables": "Temperature = 298.15 K\nPressure = 101.325 kPa (1 atm)",
+  "prepared_by": "W. Hayduk",
+  "critical_evaluation": "Although not specifically stated in paper it was assumed by the compiler that the reported solubility was for a total pressure of 101.325 kPa; therefore, the solubility for a partial pressure of 101.325 kPa was calculated assuming Henry's law and an ethene molar volume of 24320 cm^3 / mole at 298.15 K and 101.325 kPa.",
+  "experimental_values": "",
+  "notes": "^1  Calculated by compiler.",
+  "method": "A glass apparatus was employed in which the uptake of gas by a known volume of solvent in a dissolution cell was volumetrically determined.  The gas was displaced by mercury as the gas dissolved at constant pressure.   A magnetically operated gas circulating pump and bubbling tip were provided for bubbling the gas through the solvent in the dissolution cell.",
+  "source_purity": "1.  Source and purity not given.\n2.  Source and purity not given.",
+  "estimated_error": "Solubility: δ x_1/x_1  =  ±  0.03  (Compiler)",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   },
+   {
+    "index": 2,
+    "name": "1-Propanol",
+    "formula": "C3H8O",
+    "cas": "71-23-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "Ostwald coefficient L [cm^3 gas (cm^3 solvent)^&#]",
+     "Ostwald Note",
+     "Henry's law constant, K [atm]",
+     "Henry Constant Note",
+     "Mole Fraction (x_1)",
+     "x_1 Note"
+    ],
+    "rows": [
+     [
+      "25.0",
+      "298.15",
+      "2.34",
+      "1",
+      "139.6",
+      "1 (mole fraction)−1",
+      "0.00697",
+      "101.325 kPa"
+     ],
+     [
+      "25.0",
+      "298.15",
+      "101.325",
+      "1",
+      "2.34",
+      "1",
+      "139.6",
+      "1",
+      "0.00717",
+      "1.P1=101.325 kPa"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Ethene with 1-Propanol"
+ },
+ {
+  "sheet_id": "57_164",
+  "system_id": "57018",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_164",
+  "system": "Ethene with 1-Propanol",
+  "components": "(1) Ethene; C2H4; [74-85-1]\n(2) 1-Propanol; C3H8O; [71-23-8]",
+  "original_measurements": "Pryanikova, R.O.; Efremova, G.D.; Malikov, D.A.; Zagorets, P.A.; Shostenko, A.G.; Dodonov, A.M., Tr. Mosk, Khim. Theknol. Inst. 1973, 75, 78-80.",
+  "variables": "Temperature = 448.15 K to 498.15 K\nPressure = 1.19 to 4.98",
+  "prepared_by": "W. Hayduk",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^1  Only graphical results were presented in this paper in the form of total pressure (P) as a function of mole fraction propanol (x_3).  Values were read from an enlarged graph by the compiler.\nTable 0  ^2  The ethene partial pressure ( p_1) was estimated using Raoult's law, and the Henry's law constant (H) as well as the mole fraction solubility for an ethene partial pressure of 0.101325 MPa ( x_1) were calculated by the compiler.",
+  "method": "The apparatus and procedure are described in Ref. 1.   The equilibration device is a capillary tube containing an internal mixer which is moved up and down by means of an external, motor driven magnet.   The capillary tube is sealed in a vertical position and connected to a gas and liquid charging system, pressure gauges, as well as a volume regulator to maintain a constant pressure and to determine the volume of gas charged.Molar volumes of liquid solutions are also given as a function of solution compositions, temperatures and pressures.",
+  "source_purity": "Sources and purities not specified.",
+  "estimated_error": "Solubility: δ x_1/x_1  =  ±  3.0%  (compiler)\nTemperature: δT/K  =  ±  1.0",
+  "references": "1.  Kritchevskii, I.R.;  Efremova, G.D., Zhur. Fiz. Chim.  1956, 30, 1877.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   },
+   {
+    "index": 2,
+    "name": "1-Propanol",
+    "formula": "C3H8O",
+    "cas": "71-23-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "Pressure [atm]",
+     "Pressure Note",
+     "Pressure [MPa]",
+     "Pressure Note",
+     "Henry's law constant, K [MPa (mol fraction)^–1]",
+     "Henry Constant Note",
+     "Mole Fraction (x_1)",
+     "x_1 Note",
+     "Mole Fraction (x_3)",
+     "x_3 Note"
+    ],
+    "rows": [
+     [
+      "(225)",
+      "498.15",
+      "65.2",
+      "1",
+      "4.32",
+      "2",
+      "28.8 (0.00352)",
+      "2",
+      "0.15",
+      "Composition Mole Fraction, Ethene",
+      "0.85",
+      "Composition Mole Fraction, Propanol"
+     ],
+     [
+      "(225)",
+      "498.15",
+      "52.5",
+      "1",
+      "2.90",
+      "2",
+      "28.8 (0.00352)",
+      "2",
+      "0.10",
+      "Composition Mole Fraction, Ethene",
+      "0.90",
+      "Composition Mole Fraction, Propanol"
+     ],
+     [
+      "(225)",
+      "498.15",
+      "39.5",
+      "1",
+      "1.44",
+      "2",
+      "28.8 (0.00352)",
+      "2",
+      "0.05",
+      "Composition Mole Fraction, Ethene",
+      "0.95",
+      "Composition Mole Fraction, Propanol"
+     ],
+     [
+      "(200)",
+      "473.15",
+      "62.5",
+      "1",
+      "4.98",
+      "2",
+      "24.8 (0.00408)",
+      "2",
+      "0.20",
+      "Composition Mole Fraction, Ethene",
+      "0.80",
+      "Composition Mole Fraction, Propanol"
+     ],
+     [
+      "(200)",
+      "473.15",
+      "51.0",
+      "1",
+      "3.73",
+      "2",
+      "24.8 (0.00408)",
+      "2",
+      "0.15",
+      "Composition Mole Fraction, Ethene",
+      "0.85",
+      "Composition Mole Fraction, Propanol"
+     ],
+     [
+      "(200)",
+      "473.15",
+      "39.3",
+      "1",
+      "2.46",
+      "2",
+      "24.8 (0.00408)",
+      "2",
+      "0.10",
+      "Composition Mole Fraction, Ethene",
+      "0.90",
+      "Composition Mole Fraction, Propanol"
+     ],
+     [
+      "(200)",
+      "473.15",
+      "28.0",
+      "1",
+      "1.23",
+      "2",
+      "24.8 (0.00408)",
+      "2",
+      "0.05",
+      "Composition Mole Fraction, Ethene",
+      "0.95",
+      "Composition Mole Fraction, Propanol"
+     ],
+     [
+      "(175)",
+      "448.15",
+      "55.5",
+      "1",
+      "4.83",
+      "2",
+      "23.9 (0.00424)",
+      "2",
+      "0.20",
+      "Composition Mole Fraction, Ethene",
+      "0.80",
+      "Composition Mole Fraction, Propanol"
+     ],
+     [
+      "(175)",
+      "448.15",
+      "43.7",
+      "1",
+      "3.59",
+      "2",
+      "23.9 (0.00424)",
+      "2",
+      "0.15",
+      "Composition Mole Fraction, Ethene",
+      "0.85",
+      "Composition Mole Fraction, Propanol"
+     ],
+     [
+      "(175)",
+      "448.15",
+      "32.4",
+      "1",
+      "2.39",
+      "2",
+      "23.9 (0.00424)",
+      "2",
+      "0.10",
+      "Composition Mole Fraction, Ethene",
+      "0.90",
+      "Composition Mole Fraction, Propanol"
+     ],
+     [
+      "(175)",
+      "448.15",
+      "21.0",
+      "1",
+      "1.19",
+      "2",
+      "23.9 (0.00424)",
+      "2",
+      "0.05",
+      "Composition Mole Fraction, Ethene",
+      "0.95",
+      "Composition Mole Fraction, Propanol"
+     ],
+     [
+      "(150)",
+      "423.15",
+      "50.5",
+      "1",
+      "4.68",
+      "2",
+      "23.4 (0.00434)",
+      "2",
+      "0.20",
+      "Composition Mole Fraction, Ethene",
+      "0.80",
+      "Composition Mole Fraction, Propanol"
+     ],
+     [
+      "(150)",
+      "423.15",
+      "39.1",
+      "1",
+      "3.51",
+      "2",
+      "23.4 (0.00434)",
+      "2",
+      "0.15",
+      "Composition Mole Fraction, Ethene",
+      "0.85",
+      "Composition Mole Fraction, Propanol"
+     ],
+     [
+      "(150)",
+      "423.15",
+      "27.7",
+      "1",
+      "2.32",
+      "2",
+      "23.4 (0.00434)",
+      "2",
+      "0.10",
+      "Composition Mole Fraction, Ethene",
+      "0.90",
+      "Composition Mole Fraction, Propanol"
+     ],
+     [
+      "(150)",
+      "423.15",
+      "16.5",
+      "1",
+      "1.15",
+      "2",
+      "23.4 (0.00434)",
+      "2",
+      "0.05",
+      "Composition Mole Fraction, Ethene",
+      "0.95",
+      "Composition Mole Fraction, Propanol"
+     ],
+     [
+      "(100)",
+      "373.15",
+      "43.0",
+      "1",
+      "4.37",
+      "2",
+      "21.4 (0.00473)",
+      "2",
+      "0.20",
+      "Composition Mole Fraction, Ethene",
+      "0.80",
+      "Composition Mole Fraction, Propanol"
+     ],
+     [
+      "(100)",
+      "373.15",
+      "32.6",
+      "1",
+      "3.21",
+      "2",
+      "21.4 (0.00473)",
+      "2",
+      "0.15",
+      "Composition Mole Fraction, Ethene",
+      "0.85",
+      "Composition Mole Fraction, Propanol"
+     ],
+     [
+      "(100)",
+      "373.15",
+      "22.1",
+      "1",
+      "2.14",
+      "2",
+      "21.4 (0.00473)",
+      "2",
+      "0.10",
+      "Composition Mole Fraction, Ethene",
+      "0.90",
+      "Composition Mole Fraction, Propanol"
+     ],
+     [
+      "(100)",
+      "373.15",
+      "11.7",
+      "1",
+      "1.08",
+      "2",
+      "21.4 (0.00473)",
+      "2",
+      "0.05",
+      "Composition Mole Fraction, Ethene",
+      "0.95",
+      "Composition Mole Fraction, Propanol"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Ethene with 1-Propanol"
+ },
+ {
+  "sheet_id": "57_165",
+  "system_id": "57018",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_165",
+  "system": "Ethene with 1-Propanol",
+  "components": "(1) Ethene; C2H4; [74-85-1]\n(2) 1-Propanol; C3H8O; [71-23-8]",
+  "original_measurements": "Konobeev, B.I.; Lyapin, V.V., Khim. Prom. 1967, 43, 114-6.",
+  "variables": "Temperature = 293.15 K to 333.15 K\nPressure = 0.29 to 3.26 MPa",
+  "prepared_by": "C.L. Young",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Static equilibrium cell fitted with magnetic stirrer.   Samples analysed by gas chromatography.   Details in source.",
+  "source_purity": "1.  Purity better than 99.6 mole per cent.\n2.  No details given.",
+  "estimated_error": "Solubility: δx_C2H_4  =  ± 0.002  (estimated by compiler)\nTemperature: δT/K  =  ±  0.1 (estimated by compiler)\nPressure: δP  =  ± 0.5%  (estimated by compiler)",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   },
+   {
+    "index": 2,
+    "name": "1-Propanol",
+    "formula": "C3H8O",
+    "cas": "71-23-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Pressure [Pa]",
+     "Mole Fraction (x_1)",
+     "x_1 Note"
+    ],
+    "rows": [
+     [
+      "293.15",
+      "0.019",
+      "in liquid"
+     ],
+     [
+      "293.15",
+      "0.055",
+      "in liquid"
+     ],
+     [
+      "293.15",
+      "0.109",
+      "in liquid"
+     ],
+     [
+      "293.15",
+      "0.237",
+      "in liquid"
+     ],
+     [
+      "313.15",
+      "0.012",
+      "in liquid"
+     ],
+     [
+      "313.15",
+      "0.042",
+      "in liquid"
+     ],
+     [
+      "313.15",
+      "0.094",
+      "in liquid"
+     ],
+     [
+      "313.15",
+      "0.180",
+      "in liquid"
+     ],
+     [
+      "333.15",
+      "0.011",
+      "in liquid"
+     ],
+     [
+      "333.15",
+      "0.034",
+      "in liquid"
+     ],
+     [
+      "333.15",
+      "0.082",
+      "in liquid"
+     ],
+     [
+      "333.15",
+      "0.147",
+      "in liquid"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Ethene with 1-Propanol"
+ },
+ {
+  "sheet_id": "57_45",
+  "system_id": "57019",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_45",
+  "system": "Ethene with 1-Propanol and Water",
+  "components": "(1) Ethene; C2H4; [74-85-1]\n(2) Water; H2O; [7732-18-5]\n(3) 1-Propanol; C3H8O; [71-23-8]",
+  "original_measurements": "Yano, T.; Kidaka, T.; Miyamoto, H.; Murakami, T., Proc. Soc. Chem. Engrs, Japan (Osaka), Oct. 14, 1968, 89-90.",
+  "variables": "Temperature = 298.15 K\nPressure = 101.325 kPa\nConcentration = 0 - 1 (mole fraction Alcohol, x'_2",
+  "prepared_by": "W. Hayduk",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^1  Although not specifically stated in the paper, it is assumed that the mole fraction solubility, x, is for a total pressure of 101.325 kPa.\n^2  The solubility corresponding to a gas partial pressure of 101.325 kPa was calculated by the compiler; Raoult's law was assumed to apply to the mixed solvent solution.",
+  "method": "A glass apparatus was employed in which the uptake of gas by a known volume of solvent in a dissolution cell was volumetrically determined.  The gas was displaced by mercury as the gas dissolved at constant pressure.   A magnetically operated gas circulating pump and bubbling tip were provided for bubbling the gas through the solvent in the dissolution cell.",
+  "source_purity": "Sources and purities not given.",
+  "estimated_error": "Solubility: δ x_1/x_1  =  ±  0.03  (Compiler)",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   },
+   {
+    "index": 2,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 3,
+    "name": "1-Propanol",
+    "formula": "C3H8O",
+    "cas": "71-23-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "Ostwald coefficient L [cm^3 gas (cm^3 solvent)^&#]",
+     "Ostwald Note",
+     "Mole Fraction (x_1)",
+     "x_1 Note",
+     "Mole Fraction (x_2)",
+     "x_2 Note",
+     "Solubility [P = 101.325, x_1]",
+     "Solubility Note"
+    ],
+    "rows": [
+     [
+      "25.0",
+      "298.15",
+      "0.122",
+      "2",
+      "0.0000876",
+      "1",
+      "0.0 (water)",
+      "1 Alcohol in Mixed Solvent",
+      "0.0000904",
+      "2"
+     ],
+     [
+      "25.0",
+      "298.15",
+      "0.513",
+      "2",
+      "0.000603",
+      "1",
+      "0.2",
+      "1 Alcohol in Mixed Solvent",
+      "0.000622",
+      "2"
+     ],
+     [
+      "25.0",
+      "298.15",
+      "1.068",
+      "2",
+      "0.00174",
+      "1",
+      "0.4",
+      "1 Alcohol in Mixed Solvent",
+      "0.00179",
+      "2"
+     ],
+     [
+      "25.0",
+      "298.15",
+      "1.55",
+      "2",
+      "0.00323",
+      "1",
+      "0.6",
+      "1 Alcohol in Mixed Solvent",
+      "0.00333",
+      "2"
+     ],
+     [
+      "25.0",
+      "298.15",
+      "1.95",
+      "2",
+      "0.00495",
+      "1",
+      "0.8",
+      "1 Alcohol in Mixed Solvent",
+      "0.00509",
+      "2"
+     ],
+     [
+      "25.0",
+      "298.15",
+      "2.36",
+      "2",
+      "0.00697",
+      "1",
+      "1.0 (alcohol)",
+      "Alcohol in Mixed Solvent",
+      "0.00717",
+      "2"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Ethene with 1-Propanol and Water"
+ },
+ {
+  "sheet_id": "57_198",
+  "system_id": "57020",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_198",
+  "system": "Ethene with 1-Propene,1,1,2,3,3-pentafluoro-3-trifluoroethenyloxy- or per-fluoro (propylene vinyl) ether",
+  "components": "(1) 1-Propene,1,1,2,3,3-pentafluoro-3-trifluoroethenyloxy- or per-fluoro (propylene vinyl) ether; C5F8O; [64080-43-9]\n(2) Ethene; C2H4; [74-85-1]",
+  "original_measurements": "Sokolov, Yu. P.; Konshin, A.I., Zh. Prikl. Khim. 1989, 62, 1395-1398.",
+  "variables": "Temperature = 298.15 K to 353.15 K\nPressure = 0.20 to 1.32 MPa",
+  "prepared_by": "W. Hayduk",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^1  Calculated by Compiler.\n^2  Distribution constant K_d = C_1/C_g where C_1 = mol/litre in liquid, C_g = mol /litre in gas.\n^3  Stated by authors to be lim (p_1/x_1 ) for p_1 = partial pressure of gas.",
+  "method": "The solubilities were measured using a stirred reactor with a magnetic drive having a volume of 250 cm^3 and equipped with a pressure gauge and a surrounding jacket for temperature control.   Gas and sample handling systems were attached.   A volume of 100-200 cm^3 of deaerated solvent was charged to the reactor and equilibrated.   A small liquid sample chamber was used to confine a known volume of saturated solution.  The sample was then completely evaporated into a much larger vessel.  Helium carrier gas was used to increase the pressure of the vapor gas mixture to about 0.12 MPs.   The sample was then analyzed by gas chromatography.   Details are in Ref. 1.",
+  "source_purity": "No information about gas or solvent source or purity was supplied.",
+  "estimated_error": "Solubility: δ x_1/x_1  =  ±  0.02  (compiler)",
+  "references": "1.  Sokolov, Yu. A.;  Konshin, A.I., Zh. Prikl. Khim. 1987, 60, 2720.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1-Propene,1,1,2,3,3-pentafluoro-3-trifluoroethenyloxy- or per-fluoro (propylene vinyl) ether",
+    "formula": "C5F8O",
+    "cas": "64080-43-9"
+   },
+   {
+    "index": 2,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "Pressure [MPa]",
+     "Henry's law constant, K [MPa/mol fraction]",
+     "Henry Constant Note",
+     "Solubility [mol/L]",
+     "Solubility Note",
+     "Method/Comments",
+     "Method Note"
+    ],
+    "rows": [
+     [
+      "25",
+      "298.15",
+      "0.20",
+      "5.79",
+      "3",
+      "0.08",
+      "c1",
+      "3.40",
+      "2 Distribution Constant, K(d)"
+     ],
+     [
+      "25",
+      "298.15",
+      "0.31",
+      "−",
+      "3",
+      "0.23",
+      "c1",
+      "−",
+      "2 Distribution Constant, K(d)"
+     ],
+     [
+      "25",
+      "298.15",
+      "0.51",
+      "−",
+      "3",
+      "0.52",
+      "c1",
+      "−",
+      "2 Distribution Constant, K(d)"
+     ],
+     [
+      "25",
+      "298.15",
+      "0.71",
+      "−",
+      "3",
+      "0.80",
+      "c1",
+      "−",
+      "2 Distribution Constant, K(d)"
+     ],
+     [
+      "25",
+      "298.15",
+      "0.91",
+      "−",
+      "3",
+      "0.97",
+      "c1",
+      "−",
+      "2 Distribution Constant, K(d)"
+     ],
+     [
+      "25",
+      "298.15",
+      "1.11",
+      "−",
+      "3",
+      "1.34",
+      "c1",
+      "−",
+      "2 Distribution Constant, K(d)"
+     ],
+     [
+      "25",
+      "298.15",
+      "1.32",
+      "−",
+      "3",
+      "1.62",
+      "c1",
+      "−",
+      "2 Distribution Constant, K(d)"
+     ],
+     [
+      "50",
+      "323.15",
+      "0.51",
+      "7.11",
+      "3",
+      "0.31",
+      "c1",
+      "2.76",
+      "2 Distribution Constant, K(d)"
+     ],
+     [
+      "50",
+      "323.15",
+      "0.71",
+      "−",
+      "3",
+      "0.47",
+      "c1",
+      "−",
+      "2 Distribution Constant, K(d)"
+     ],
+     [
+      "50",
+      "323.15",
+      "0.91",
+      "−",
+      "3",
+      "0.71",
+      "c1",
+      "−",
+      "2 Distribution Constant, K(d)"
+     ],
+     [
+      "50",
+      "323.15",
+      "1.11",
+      "−",
+      "3",
+      "0.87",
+      "c1",
+      "−",
+      "2 Distribution Constant, K(d)"
+     ],
+     [
+      "50",
+      "323.15",
+      "1.32",
+      "−",
+      "3",
+      "1.12",
+      "c1",
+      "−",
+      "2 Distribution Constant, K(d)"
+     ],
+     [
+      "70",
+      "343.15",
+      "0.71",
+      "8.58",
+      "3",
+      "0.37",
+      "c1",
+      "2.64",
+      "2 Distribution Constant, K(d)"
+     ],
+     [
+      "70",
+      "343.15",
+      "0.91",
+      "−",
+      "3",
+      "0.51",
+      "c1",
+      "−",
+      "2 Distribution Constant, K(d)"
+     ],
+     [
+      "70",
+      "343.15",
+      "1.11",
+      "−",
+      "3",
+      "0.76",
+      "c1",
+      "−",
+      "2 Distribution Constant, K(d)"
+     ],
+     [
+      "70",
+      "343.15",
+      "1.32",
+      "−",
+      "3",
+      "0.95",
+      "c1",
+      "−",
+      "2 Distribution Constant, K(d)"
+     ],
+     [
+      "80",
+      "353.15",
+      "0.71",
+      "11.30",
+      "3",
+      "0.23",
+      "c1",
+      "1.66",
+      "2 Distribution Constant, K(d)"
+     ],
+     [
+      "80",
+      "353.15",
+      "0.91",
+      "−",
+      "3",
+      "0.32",
+      "c1",
+      "−",
+      "2 Distribution Constant, K(d)"
+     ],
+     [
+      "80",
+      "353.15",
+      "1.11",
+      "−",
+      "3",
+      "0.46",
+      "c1",
+      "−",
+      "2 Distribution Constant, K(d)"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Ethene with 1-Propene,1,1,2,3,3-pentafluoro-3-trifluoroethenyloxy- or per-fluoro (propylene vinyl) ether"
+ },
+ {
+  "sheet_id": "57_155",
+  "system_id": "57021",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_155",
+  "system": "Ethene with 2, 2 -[1, 2-Ethanediylbis (oxy) ] bis-ethanol, (triethylene glycol)",
+  "components": "(1) 2, 2 -[1, 2-Ethanediylbis (oxy) ] bis-ethanol, (triethylene glycol); C6H14O4; [112-27-6]\n(2) Ethene; C2H4; [74-85-1]",
+  "original_measurements": "Hannaert, H.; Haccuria, M.; Mathieu, M.P., Ind. Chim. Belge 1967, 32, 156-164.",
+  "variables": "Temperature = 303.15 K\nPressure = 101.3 kPa",
+  "prepared_by": "W. Hayduk",
+  "critical_evaluation": "The authors definitions are for Kπν are :      K = y_1/x_1 =  mole fraction gas in gas phase ÷\nmole fraction gas in liquid phase      π  / atm = total pressure    ν  = coefficient of fugacity\nThe function Kπν /atm, is equivalent to a Henry's constant in the form H_1,2/atm = (ƒ_1/atm)/x_1 where ƒ_1 is the fugacity.",
+  "experimental_values": "",
+  "notes": "^1  Mole fraction solubility calculated by compiler for a gas partial pressure of 101.3 kPa with v = 1.",
+  "method": "The authors describe several methods used;  the one used in this case is the gas chromatographic method.\nThe stationary phase of the column was impregnated with a known mass of solvent.   Nitrogen was used for determining the free volume of gas in the column.   Various corrections were employed for dead volumes in the tubing and detector as well as for inlet and outlet pressures.   Unfortunately the method could only be used with solvents of very low volatility.",
+  "source_purity": "1.  Ethene.   Air Liquide.   Specified purity 99.9%.\n2. Triethylene glycol.  No information.",
+  "estimated_error": "Solubility: δx_1/x_1  =  ±  2 to 5%  (authors)",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "2, 2 -[1, 2-Ethanediylbis (oxy) ] bis-ethanol, (triethylene glycol)",
+    "formula": "C6H14O4",
+    "cas": "112-27-6"
+   },
+   {
+    "index": 2,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "Henry's law constant, K [πν]",
+     "Mole Fraction (x_1)",
+     "x_1 Note"
+    ],
+    "rows": [
+     [
+      "30",
+      "303.15",
+      "550",
+      "0.00182",
+      "1"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Ethene with 2, 2 -[1, 2-Ethanediylbis (oxy) ] bis-ethanol, (triethylene glycol)"
+ },
+ {
+  "sheet_id": "57_61",
+  "system_id": "57022",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_61",
+  "system": "Ethene with 2, 2' -Dimethylbutane (Neo-hexane)",
+  "components": "(1) Ethene; C2H4; [74-85-1]\n(2) 2, 2' -Dimethylbutane (Neo-hexane); C6H14; [75-83-2]",
+  "original_measurements": "Tilquin, B.; Decanniere, L.; Fontaine, R.; Claes, P., Ann. Soc. Sc. Bruxelles (Belgium) 1967, 81, 191-199.",
+  "variables": "Temperature = 288.15 K\nPressure = 2.05 to 2.11",
+  "prepared_by": "C.L. Young",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  Original data at low pressure reported as distribution coefficient; but if Henry's law and ideal gas law apply, distribution coefficient is equivalent to Ostwald coefficient as shown here.\n^b  Calculated by compiler for a gas partial pressure of 101.325 kPa assuming that Henry's law and ideal gas law apply.",
+  "method": "All glass apparatus used at very low gas partial pressures, containing a replaceable degassed solvent ampule equipped with a breakable point which could be broken by means of a magnetically activated plunger.   Quantity of gas fed into system determined by measuring the pressure change in a known volume.   Quantity of liquid measured by weight.   Pressure change observed after solvent released.   Experimental details described by Rzad and Claes, Ref. 1.",
+  "source_purity": "1.  Source not given;  minimum purity specified as 99.0 mole per cent.\n2.  Fluka pure grade;  minimum purity specified as 99.0 mole per cent.",
+  "estimated_error": "Solubility: δx_1/x_1  =  ±  0.01  (estimated by compiler)\nTemperature: δT/K  =  ± 0.05  (estimated by compiler)",
+  "references": "1.  Rzad,  S.;   Claes,  P., Bull. Soc. Chim. Belges 1964, 73, 689.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   },
+   {
+    "index": 2,
+    "name": "2, 2' -Dimethylbutane (Neo-hexane)",
+    "formula": "C6H14",
+    "cas": "75-83-2"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "Ostwald coefficient L",
+     "Ostwald Note",
+     "Henry's law constant, K [atm]",
+     "Henry Constant Note",
+     "Mole Fraction (x_1)",
+     "x_1 Note"
+    ],
+    "rows": [
+     [
+      "15.0",
+      "288.15",
+      "14.56",
+      "a",
+      "13.32",
+      "b",
+      "0.07506",
+      "b"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Ethene with 2, 2' -Dimethylbutane (Neo-hexane)"
+ },
+ {
+  "sheet_id": "57_217",
+  "system_id": "57023",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_217",
+  "system": "Ethene with 2, 6-Dimethylcyclohexanone",
+  "components": "(1) 2, 6-Dimethylcyclohexanone; C8H14O; [2816-57-1]\n(2) Ethene; C2H4; [74-85-1]",
+  "original_measurements": "Gallardo, M. A.; Lopez, M. C.; Urieta, J. S.; Gutierrez-Losa, C., Can. J. Chem. 1990, 68, 435-439.",
+  "variables": "Temperature = 273.15 K to 303.15 K\nPressure = 101.32 kPa",
+  "prepared_by": "C.L. Young",
+  "critical_evaluation": "The compiler calculated the Bunsen and Ostwald coefficients.  Density data were calculated from the equation given in the source and ideal gas behavior was assumed.\nThe authors fitted the solubility data to the equation:\n– ln x_1 =  8.5532 – 1293.69/(T/K)\nThe enthalpy and entropy of solution at 298.15 K and a partial pressure of 101.32 kPa were:\nΔH = –10.76 kJ mol^–1 and ΔS = –0.071 J K^–1 mol^–1.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility apparatus, based on the design of Ben-Naim and Baer, was described earlier (Ref. 1).   The essential parts were a gas buret, mercury manometer, and solution vessel.   The solvent was degassed in the solution vessel.   The saturation and volumetric measurements were carried out using solvent saturated gas.\nIt appears that the mole fraction solubility at one atm was estimated from the raw data by assuming Henry's law is obeyed and that the partial pressure of the solvent is given by Raoult's law.",
+  "source_purity": "(1)  Sociedad Español del Oxigeno.   purity 99.90 mole per cent.\n(2)   Fluka sample;   purity 98.2 mole per cent.\nMajor impurities had similar gas solubilities.",
+  "estimated_error": "Solubility: δ x/x =  ± 0.02\nTemperature: δT/K  =  ±  0.05",
+  "references": "1.  Carnicer, J.;  Gibanel, F.;, Urieta, J.S.;  Gutierrez Losa, C., Rev. Acad. Ciencias Zaragoza 1979, 34, 115-22.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "2, 6-Dimethylcyclohexanone",
+    "formula": "C8H14O",
+    "cas": "2816-57-1"
+   },
+   {
+    "index": 2,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Ostwald coefficient L [cm^3 cm^–3]",
+     "α [cm^3 (STP) cm^–3 atm^–1]",
+     "Mole Fraction (x_1)"
+    ],
+    "rows": [
+     [
+      "273.15",
+      "3.72",
+      "3.72",
+      "220"
+     ],
+     [
+      "283.15",
+      "3.22",
+      "3.10",
+      "186"
+     ],
+     [
+      "293.15",
+      "2.81",
+      "2.62",
+      "159"
+     ],
+     [
+      "298.15",
+      "2.66",
+      "2.43",
+      "148.4"
+     ],
+     [
+      "303.15",
+      "2.48",
+      "2.24",
+      "137.3"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Ethene with 2, 6-Dimethylcyclohexanone"
+ },
+ {
+  "sheet_id": "57_47",
+  "system_id": "57025",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_47",
+  "system": "Ethene with 2-Aminoethanol, (monoethanolamine) and Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) Ethene, (Ethylene); C2H4; [74-85-1]\n(3) 2-Aminoethanol, (monoethanolamine); C2H7NO; [141-43-5]",
+  "original_measurements": "Sada, E.; Kito, S., Kagaku Kogaku 1972, 36, 218-20.",
+  "variables": "Temperature = 288.15 K, 298.15 K\nPressure = 101.3 kPa",
+  "prepared_by": "C.L. Young",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Equilibrium established between measured volume of gas and a measured amount of gas-free liquid in a cell fitted with a magnetic stirrer.   Amount of gas absorbed estimated from change in volume of gas.   Concentration of amine determined by titration.   Details in source and Ref. 1.",
+  "source_purity": "1.  Purity 99.6 mole per cent.\n2/3.  Of satisfactory purity.",
+  "estimated_error": "Solubility: δα  =  ±  2%.  (estimated by compiler)\nTemperature: δT/K  =  ±  0.2 (estimated by compiler)",
+  "references": "1.  Onda, K.;  Sada, E.;  Kobayashi, T., J. Chem. Eng. Japan. 1970, 3, 18 and 137.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "Ethene, (Ethylene)",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   },
+   {
+    "index": 3,
+    "name": "2-Aminoethanol, (monoethanolamine)",
+    "formula": "C2H7NO",
+    "cas": "141-43-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Concentration C_1 [mol L^–1]",
+     "Concentration Note",
+     "α"
+    ],
+    "rows": [
+     [
+      "288.15",
+      "0.0",
+      "Conc. of monoethanolamine",
+      "0.1432"
+     ],
+     [
+      "288.15",
+      "0.9679",
+      "Conc. of monoethanolamine",
+      "0.1450"
+     ],
+     [
+      "288.15",
+      "2.2273",
+      "Conc. of monoethanolamine",
+      "0.1432"
+     ],
+     [
+      "288.15",
+      "2.8605",
+      "Conc. of monoethanolamine",
+      "0.1437"
+     ],
+     [
+      "288.15",
+      "3.8283",
+      "Conc. of monoethanolamine",
+      "0.1408"
+     ],
+     [
+      "298.15",
+      "0.0",
+      "Conc. of monoethanolamine",
+      "0.1111"
+     ],
+     [
+      "298.15",
+      "1.0049",
+      "Conc. of monoethanolamine",
+      "0.1149"
+     ],
+     [
+      "298.15",
+      "1.9091",
+      "Conc. of monoethanolamine",
+      "0.1161"
+     ],
+     [
+      "298.15",
+      "2.8337",
+      "Conc. of monoethanolamine",
+      "0.1187"
+     ],
+     [
+      "298.15",
+      "4.2082",
+      "Conc. of monoethanolamine",
+      "0.1218"
+     ],
+     [
+      "298.15",
+      "5.7019",
+      "Conc. of monoethanolamine",
+      "0.1244"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Ethene with 2-Aminoethanol, (monoethanolamine) and Water"
+ },
+ {
+  "sheet_id": "57_228",
+  "system_id": "57173",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_228",
+  "system": "Ethene with 2-Butanone (methyl ethylketone)",
+  "components": "(1) Ethene; C2H4; [74-85-1]\n(2) 2-Butanone (methyl ethylketone); C4H8O; [78-93-3]",
+  "original_measurements": "Shenderei, E.R.; Zel ' venskii, Ya.D.; Ivanovskii, F.P., Zhur. Fiz. Khim. 1962, 36, 801-808.",
+  "variables": "Temperature = 223.05 K to 248.15 K\nPressure = 0.30 to 1.82 MPa",
+  "prepared_by": "C.L. Young",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^+  cm^3g^–1 at P = 101.325 kPa",
+  "method": "Glass equilibrium cell fitted with magnetic stirrer.   Pressure measured with Bourdon gauge.   Samples of liquid analysed by stripping out ethene.   Details in Ref. 1.",
+  "source_purity": "1.  Prepared from ethanol by dehydration and purified by absorption in cuprous chloride under pressure.\n2.  Distilled.",
+  "estimated_error": "Solubility: δx_C2H_4  =  ± 2%  (estimated by compiler)\nTemperature: δT/K  =  ±  0.1 (estimated by compiler)\nPressure: δp/bar  =  ± 0.3 (estimated by compiler)",
+  "references": "1.  Shenderei, E.R.;  Zelvenskii, Ya.D.;  Ivanovskii, F.P., Khim.  Prom.  1960, 370.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   },
+   {
+    "index": 2,
+    "name": "2-Butanone (methyl ethylketone)",
+    "formula": "C4H8O",
+    "cas": "78-93-3"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Pressure [bar]",
+     "Mole Fraction (x_1)",
+     "Solubility",
+     "Solubility Note"
+    ],
+    "rows": [
+     [
+      "248.15",
+      "3.0",
+      "0.0950",
+      "32.32",
+      "+"
+     ],
+     [
+      "248.15",
+      "5.1",
+      "0.1622",
+      "59.52",
+      "+"
+     ],
+     [
+      "248.15",
+      "10.1",
+      "0.3349",
+      "155.11",
+      "+"
+     ],
+     [
+      "248.15",
+      "12.2",
+      "0.4169",
+      "220.24",
+      "+"
+     ],
+     [
+      "248.15",
+      "15.2",
+      "0.5381",
+      "352.56",
+      "+"
+     ],
+     [
+      "248.15",
+      "18.2",
+      "0.6070",
+      "708.29",
+      "+"
+     ],
+     [
+      "238.15",
+      "3.0",
+      "0.1180",
+      "41.02",
+      "+"
+     ],
+     [
+      "238.15",
+      "5.1",
+      "0.2000",
+      "76.08",
+      "+"
+     ],
+     [
+      "238.15",
+      "10.1",
+      "0.4477",
+      "249.62",
+      "+"
+     ],
+     [
+      "238.15",
+      "12.2",
+      "0.5685",
+      "404.49",
+      "+"
+     ],
+     [
+      "238.15",
+      "15.2",
+      "0.8300",
+      "1503.32",
+      "+"
+     ],
+     [
+      "223.05",
+      "3.0",
+      "0.1620",
+      "59.52",
+      "+"
+     ],
+     [
+      "223.05",
+      "5.1",
+      "0.2787",
+      "118.56",
+      "+"
+     ],
+     [
+      "223.05",
+      "10.1",
+      "0.6830",
+      "663.42",
+      "+"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Ethene with 2-Butanone (methyl ethylketone)"
+ },
+ {
+  "sheet_id": "57_46",
+  "system_id": "57026",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_46",
+  "system": "Ethene with 2-Butanone (methyl ethylketone) and Water",
+  "components": "(1) Ethene; C2H4; [74-85-1]\n(2) Water; H2O; [7732-18-5]\n(3) 2-Butanone (methyl ethylketone); C4H8O; [78-93-3]",
+  "original_measurements": "Yorizane, M.; Masuoka, H.; Ida, S.; Ideda, T., J. Chem. Eng. (Japan) 1947, 7, 379-380.",
+  "variables": "Temperature = 281.15 K to 298.15 K\nPressure = 1.013 to 5.238 MPa",
+  "prepared_by": "W. Hayduk",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^1  This solubility is between a gas (ethene) phase, stated to be greater than 99% ethene and two separate, immiscible liquid phases with the compositions expressed as mole percent.\n^2  Calculated by compiler",
+  "method": "The apparatus was described earlier^1.    The equilibrium cell was a Jerguson gauge of stainless steel with glass windows having an internal volume of 90 ml.    Equilibrium was achieved by means of a gas recirculation pump.    Samples of each phase were analyzed by means of a Shimadzu GC equipped with a peak integrator and a Porapack Q column.  The concentrations of water vapor in the ethene were so low that they could not be detected.At low temperatures (less than 11 °C) and high pressures (greater than 11.6 atm) ethylene hydrates were observed to form.",
+  "source_purity": "1.  Ethene.   Specified purity 99.95%.\n2.  2-Butanone.  Specified purity 99.6%.\n3.  Water.  Distilled.",
+  "estimated_error": "Solubility: Accuracy:  Not specified.\nTemperature: Accuracy:  Not specified.\nPressure: Accuracy:  Not specified.",
+  "references": "1.  Yorizane, M.;  Yoshimura, S.;  Masuoka, H., Bull. Japan Petrol, Inst.  1972, 14, 105.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   },
+   {
+    "index": 2,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 3,
+    "name": "2-Butanone (methyl ethylketone)",
+    "formula": "C4H8O",
+    "cas": "78-93-3"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "Temp Note",
+     "Pressure [MPa]",
+     "Pressure [Atm]",
+     "Mole Fraction (x_1)",
+     "x_1 Note",
+     "Mole Fraction (x_2)",
+     "x_2 Note",
+     "Mole Fraction (x_3)",
+     "x_3 Note",
+     "Remark(s)"
+    ],
+    "rows": [
+     [
+      "8.0",
+      "281.15",
+      "2",
+      "1.520",
+      "15.0",
+      "18.36",
+      "1",
+      "71.50",
+      "1",
+      "10.14",
+      "1",
+      "Top Liquid Phase"
+     ],
+     [
+      "10.8",
+      "283.95",
+      "2",
+      "1.013",
+      "10.0",
+      "13.22",
+      "1",
+      "70.68",
+      "1",
+      "16.10",
+      "1",
+      "Top Liquid Phase"
+     ],
+     [
+      "10.8",
+      "283.95",
+      "2",
+      "2.026",
+      "20.0",
+      "26.47",
+      "1",
+      "65.26",
+      "1",
+      "8.27",
+      "1",
+      "Top Liquid Phase"
+     ],
+     [
+      "10.8",
+      "283.95",
+      "2",
+      "4.914",
+      "48.5",
+      "98.10",
+      "1",
+      "1.90",
+      "1",
+      "0",
+      "1",
+      "Top Liquid Phase"
+     ],
+     [
+      "14.8",
+      "287.95",
+      "2",
+      "1.013",
+      "10.0",
+      "10.46",
+      "1",
+      "71.94",
+      "1",
+      "17.60",
+      "1",
+      "Top Liquid Phase"
+     ],
+     [
+      "14.8",
+      "287.95",
+      "2",
+      "2.026",
+      "20.0",
+      "23.99",
+      "1",
+      "66.71",
+      "1",
+      "9.30",
+      "1",
+      "Top Liquid Phase"
+     ],
+     [
+      "14.8",
+      "287.95",
+      "2",
+      "3.040",
+      "30.0",
+      "40.02",
+      "1",
+      "53.23",
+      "1",
+      "6.75",
+      "1",
+      "Top Liquid Phase"
+     ],
+     [
+      "14.8",
+      "287.95",
+      "2",
+      "3.546",
+      "35.0",
+      "52.52",
+      "1",
+      "45.14",
+      "1",
+      "2.34",
+      "1",
+      "Top Liquid Phase"
+     ],
+     [
+      "14.8",
+      "287.95",
+      "2",
+      "4.053",
+      "40.0",
+      "62.61",
+      "1",
+      "35.40",
+      "1",
+      "1.99",
+      "1",
+      "Top Liquid Phase"
+     ],
+     [
+      "14.8",
+      "287.95",
+      "2",
+      "4.560",
+      "45.0",
+      "74.03",
+      "1",
+      "25.97",
+      "1",
+      "0",
+      "1",
+      "Top Liquid Phase"
+     ],
+     [
+      "15.0",
+      "288.15",
+      "2",
+      "5.168",
+      "51.0",
+      "91.15",
+      "1",
+      "5.99",
+      "1",
+      "2.86",
+      "1",
+      "Top Liquid Phase"
+     ],
+     [
+      "20",
+      "293.15",
+      "2",
+      "1.013",
+      "10",
+      "8.80",
+      "1",
+      "70.39",
+      "1",
+      "20.81",
+      "1",
+      "Top Liquid Phase"
+     ],
+     [
+      "20",
+      "293.15",
+      "2",
+      "2.026",
+      "20",
+      "18.72",
+      "1",
+      "68.38",
+      "1",
+      "12.90",
+      "1",
+      "Top Liquid Phase"
+     ],
+     [
+      "20",
+      "293.15",
+      "2",
+      "3.040",
+      "30",
+      "36.66",
+      "1",
+      "56.73",
+      "1",
+      "6.61",
+      "1",
+      "Top Liquid Phase"
+     ],
+     [
+      "20",
+      "293.15",
+      "2",
+      "3.546",
+      "35",
+      "44.08",
+      "1",
+      "50.69",
+      "1",
+      "5.23",
+      "1",
+      "Top Liquid Phase"
+     ],
+     [
+      "20",
+      "293.15",
+      "2",
+      "4.053",
+      "40",
+      "55.78",
+      "1",
+      "39.69",
+      "1",
+      "4.53",
+      "1",
+      "Top Liquid Phase"
+     ],
+     [
+      "20",
+      "293.15",
+      "2",
+      "4.560",
+      "45",
+      "52.25",
+      "1",
+      "44.80",
+      "1",
+      "2.95",
+      "1",
+      "Top Liquid Phase"
+     ],
+     [
+      "20",
+      "293.15",
+      "2",
+      "5.066",
+      "40",
+      "75.76",
+      "1",
+      "22.65",
+      "1",
+      "1.59",
+      "1",
+      "Top Liquid Phase"
+     ],
+     [
+      "25",
+      "298.15",
+      "2",
+      "2.026",
+      "20",
+      "20.16",
+      "1",
+      "64.63",
+      "1",
+      "15.21",
+      "1",
+      "Top Liquid Phase"
+     ],
+     [
+      "25",
+      "298.15",
+      "2",
+      "3.546",
+      "35",
+      "36.76",
+      "1",
+      "54.42",
+      "1",
+      "8.82",
+      "1",
+      "Top Liquid Phase"
+     ],
+     [
+      "25",
+      "298.15",
+      "2",
+      "4.053",
+      "40",
+      "47.93",
+      "1",
+      "47.42",
+      "1",
+      "4.65",
+      "1",
+      "Top Liquid Phase"
+     ],
+     [
+      "25",
+      "298.15",
+      "2",
+      "4.560",
+      "45",
+      "51.97",
+      "1",
+      "43.86",
+      "1",
+      "4.17",
+      "1",
+      "Top Liquid Phase"
+     ],
+     [
+      "25",
+      "298.15",
+      "2",
+      "5.238",
+      "51.7",
+      "71.52",
+      "1",
+      "26.90",
+      "1",
+      "1.58",
+      "1",
+      "Top Liquid Phase"
+     ],
+     [
+      "8.0",
+      "281.15",
+      "2",
+      "1.520",
+      "15.0",
+      "0.22",
+      "1",
+      "7.05",
+      "1",
+      "92.73",
+      "1",
+      "Bottom Liquid Phase"
+     ],
+     [
+      "10.8",
+      "283.95",
+      "2",
+      "1.013",
+      "10.0",
+      "0.21",
+      "1",
+      "7.22",
+      "1",
+      "92.57",
+      "1",
+      "Bottom Liquid Phase"
+     ],
+     [
+      "10.8",
+      "283.95",
+      "2",
+      "2.026",
+      "20.0",
+      "0.30",
+      "1",
+      "5.82",
+      "1",
+      "93.88",
+      "1",
+      "Bottom Liquid Phase"
+     ],
+     [
+      "10.8",
+      "283.95",
+      "2",
+      "4.914",
+      "48.5",
+      "0.26",
+      "1",
+      "2.62",
+      "1",
+      "97.12",
+      "1",
+      "Bottom Liquid Phase"
+     ],
+     [
+      "14.8",
+      "287.95",
+      "2",
+      "1.013",
+      "10.0",
+      "0.20",
+      "1",
+      "7.87",
+      "1",
+      "91.93",
+      "1",
+      "Bottom Liquid Phase"
+     ],
+     [
+      "14.8",
+      "287.95",
+      "2",
+      "2.026",
+      "20.0",
+      "0.26",
+      "1",
+      "6.00",
+      "1",
+      "93.47",
+      "1",
+      "Bottom Liquid Phase"
+     ],
+     [
+      "14.8",
+      "287.95",
+      "2",
+      "3.040",
+      "30.0",
+      "0.30",
+      "1",
+      "4.26",
+      "1",
+      "95.44",
+      "1",
+      "Bottom Liquid Phase"
+     ],
+     [
+      "14.8",
+      "287.95",
+      "2",
+      "3.546",
+      "35.0",
+      "0.21",
+      "1",
+      "3.72",
+      "1",
+      "96.07",
+      "1",
+      "Bottom Liquid Phase"
+     ],
+     [
+      "14.8",
+      "287.95",
+      "2",
+      "4.053",
+      "40.0",
+      "0.41",
+      "1",
+      "3.81",
+      "1",
+      "95.78",
+      "1",
+      "Bottom Liquid Phase"
+     ],
+     [
+      "14.8",
+      "287.95",
+      "2",
+      "4.560",
+      "45.0",
+      "0.47",
+      "1",
+      "3.59",
+      "1",
+      "95.94",
+      "1",
+      "Bottom Liquid Phase"
+     ],
+     [
+      "15.0",
+      "288.15",
+      "2",
+      "5.168",
+      "51.0",
+      "0.03",
+      "1",
+      "3.23",
+      "1",
+      "96.47",
+      "1",
+      "Bottom Liquid Phase"
+     ],
+     [
+      "20",
+      "293.15",
+      "2",
+      "1.013",
+      "10",
+      "0.15",
+      "1",
+      "7.07",
+      "1",
+      "92.78",
+      "1",
+      "Bottom Liquid Phase"
+     ],
+     [
+      "20",
+      "293.15",
+      "2",
+      "2.026",
+      "20",
+      "0.21",
+      "1",
+      "5.92",
+      "1",
+      "93.87",
+      "1",
+      "Bottom Liquid Phase"
+     ],
+     [
+      "20",
+      "293.15",
+      "2",
+      "3.040",
+      "30",
+      "0.35",
+      "1",
+      "4.90",
+      "1",
+      "94.75",
+      "1",
+      "Bottom Liquid Phase"
+     ],
+     [
+      "20",
+      "293.15",
+      "2",
+      "3.546",
+      "35",
+      "0.39",
+      "1",
+      "4.41",
+      "1",
+      "95.20",
+      "1",
+      "Bottom Liquid Phase"
+     ],
+     [
+      "20",
+      "293.15",
+      "2",
+      "4.053",
+      "40",
+      "0.38",
+      "1",
+      "3.98",
+      "1",
+      "95.64",
+      "1",
+      "Bottom Liquid Phase"
+     ],
+     [
+      "20",
+      "293.15",
+      "2",
+      "4.560",
+      "45",
+      "0.41",
+      "1",
+      "3.49",
+      "1",
+      "96.10",
+      "1",
+      "Bottom Liquid Phase"
+     ],
+     [
+      "20",
+      "293.15",
+      "2",
+      "5.066",
+      "50",
+      "0.39",
+      "1",
+      "3.04",
+      "1",
+      "96.57",
+      "1",
+      "Bottom Liquid Phase"
+     ],
+     [
+      "25",
+      "298.15",
+      "2",
+      "2.026",
+      "20",
+      "0.27",
+      "1",
+      "6.13",
+      "1",
+      "93.60",
+      "1",
+      "Bottom Liquid Phase"
+     ],
+     [
+      "25",
+      "298.15",
+      "2",
+      "3.546",
+      "35",
+      "0.30",
+      "1",
+      "4.06",
+      "1",
+      "95.64",
+      "1",
+      "Bottom Liquid Phase"
+     ],
+     [
+      "25",
+      "298.15",
+      "2",
+      "4.053",
+      "40",
+      "0.33",
+      "1",
+      "3.65",
+      "1",
+      "96.02",
+      "1",
+      "Bottom Liquid Phase"
+     ],
+     [
+      "25",
+      "298.15",
+      "2",
+      "4.560",
+      "45",
+      "0.33",
+      "1",
+      "3.62",
+      "1",
+      "96.05",
+      "1",
+      "Bottom Liquid Phase"
+     ],
+     [
+      "25",
+      "298.15",
+      "2",
+      "5.238",
+      "51.7",
+      "0.36",
+      "1",
+      "3.35",
+      "1",
+      "96.29",
+      "1",
+      "Bottom Liquid Phase"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Ethene with 2-Butanone (methyl ethylketone) and Water"
+ },
+ {
+  "sheet_id": "57_216",
+  "system_id": "57027",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_216",
+  "system": "Ethene with 2-Methylcyclohexanone",
+  "components": "(1) 2-Methylcyclohexanone; C7H12O; [583-60-8]\n(2) Ethene; C2H4; [74-85-1]",
+  "original_measurements": "Gallardo, M. A.; Carmen Lopez, M.; Urieta, J. S.; Gutierrez Losa, C., Can. J. Chem. 1989, 67, 809-811.",
+  "variables": "Temperature = 273.15 K to 303.15 K\nPressure = 101.32 kPa",
+  "prepared_by": "W. Hayduk",
+  "critical_evaluation": "The authors fitted their data to the equation :\n–ln x_1 = 8.3232 – 1190.24 (T/K)^–1\nThey also obtained ΔH/kJ mol^–1 = –9.9 and ΔS/JK^–1 mol^–1 = –69 for the transfer of one mole of ethene from the gas phase at 101.32 kPa to the hypothetical unit mole fraction solution.",
+  "experimental_values": "",
+  "notes": "^1  The Bunsen and Ostwald coefficients were calculated by the compiler.",
+  "method": "The experimental apparatus and method is described elsewhere (Ref. 1).  It consists of a system of burette, a mercury manometer and a solution vessel.   The mole fraction of the dissolved gas is estimated from the volume change at constant pressure of saturated gas in the burettes, and the mass of the solvent in the solution vessel determined by weighing.The vapor pressure of the solvent was measured and fitted to the following equation:\n– ln (P_2/kPa)  =  – 5552.37 (T/K)^–1  +  18.046",
+  "source_purity": "1.  Ethene.   Sociedad Español del Oxigeno.   Specified purity 99.9%.\n2  2-Methylcyclohexanone.   Merck.   Purity checked by GLC to be ≥ 98.1%.",
+  "estimated_error": "Solubility: δ x_1/x_1  =  ± 0.007  (authors)\nTemperature: δT/K  =  ±  0.2",
+  "references": "1.  Carnicer, J.;  Gibanel, F.;, Urieta, J.S.;  Gutierrez Losa, C., Rev. Acad. Cienc. (Zaragoza)  1979, 34, 115.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "2-Methylcyclohexanone",
+    "formula": "C7H12O",
+    "cas": "583-60-8"
+   },
+   {
+    "index": 2,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Ostwald coefficient L [cm^3 cm^–3]",
+     "Ostwald Note",
+     "α [cm^3 (STP) cm^–3 atm^–1]",
+     "α Note",
+     "Mole Fraction (x_1)"
+    ],
+    "rows": [
+     [
+      "273.15",
+      "3.580",
+      "1",
+      "3.580",
+      "1",
+      "188"
+     ],
+     [
+      "283.15",
+      "3.205",
+      "1",
+      "3.090",
+      "1",
+      "164"
+     ],
+     [
+      "293.15",
+      "2.815",
+      "1",
+      "2.620",
+      "1",
+      "140.7"
+     ],
+     [
+      "298.15",
+      "2.660",
+      "1",
+      "2.435",
+      "1",
+      "131.5"
+     ],
+     [
+      "303.15",
+      "2.515",
+      "1",
+      "2.265",
+      "1",
+      "122.8"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Ethene with 2-Methylcyclohexanone"
+ },
+ {
+  "sheet_id": "57_75",
+  "system_id": "57028",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_75",
+  "system": "Ethene with 2-Methylpropane (isobutane)",
+  "components": "(1) Ethene; C2H4; [74-85-1]\n(2) 2-Methylpropane (isobutane); C4H10; [75-28-5]",
+  "original_measurements": "Naumova, A.A.; Tyvina, T.N., Zh. Prikl. Khim. 1981, 54, 2757-8. or J. Appl. Chem. USSR 1981, 54, 2440-1.",
+  "variables": "Temperature = 293.15 K to 393.15 K\nPressure = 0.14 to 3.92 MPa (1.4 - 39 atm)",
+  "prepared_by": "W. Hayduk",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^1  Calculated by compiler.",
+  "method": "A static type of solubility equipment was used.",
+  "source_purity": "1.  Ethene source and purity not given.\n2.  2-Methylpropane source and purity not given.",
+  "estimated_error": "Solubility: δx_1/x_1  =  ± 0.02  (compiler)\nTemperature: δT/K  =  ±  0.5  (compiler)",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   },
+   {
+    "index": 2,
+    "name": "2-Methylpropane (isobutane)",
+    "formula": "C4H10",
+    "cas": "75-28-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "Pressure [MPa]",
+     "Pressure Note",
+     "Pressure [MPa]",
+     "Pressure Note",
+     "Mole Fraction (x_1)",
+     "x_1 Note",
+     "Mole Fraction of Gas (y_1)",
+     "y_1 Note"
+    ],
+    "rows": [
+     [
+      "20",
+      "293.15",
+      "0.298",
+      "1",
+      "0",
+      "1 Partial Pressure",
+      "0",
+      "liquid",
+      "0",
+      "Mole Fraction Gas"
+     ],
+     [
+      "20",
+      "293.15",
+      "1.01",
+      "1",
+      "0.713",
+      "1 Partial Pressure",
+      "0.198",
+      "liquid",
+      "0.706",
+      "Mole Fraction Gas"
+     ],
+     [
+      "20",
+      "293.15",
+      "2.03",
+      "1",
+      "1.746",
+      "1 Partial Pressure",
+      "0.427",
+      "liquid",
+      "0.860",
+      "Mole Fraction Gas"
+     ],
+     [
+      "20",
+      "293.15",
+      "3.04",
+      "1",
+      "2.815",
+      "1 Partial Pressure",
+      "0.605",
+      "liquid",
+      "0.926",
+      "Mole Fraction Gas"
+     ],
+     [
+      "20",
+      "293.15",
+      "4.05",
+      "1",
+      "3.831",
+      "1 Partial Pressure",
+      "0.765",
+      "liquid",
+      "0.946",
+      "Mole Fraction Gas"
+     ],
+     [
+      "20",
+      "293.15",
+      "5.06",
+      "1",
+      "4.807",
+      "1 Partial Pressure",
+      "0.895",
+      "liquid",
+      "0.950",
+      "Mole Fraction Gas"
+     ],
+     [
+      "40",
+      "313.15",
+      "0.522",
+      "1",
+      "0",
+      "1 Partial Pressure",
+      "0",
+      "liquid",
+      "0",
+      "Mole Fraction Gas"
+     ],
+     [
+      "40",
+      "313.15",
+      "1.01",
+      "1",
+      "0.505",
+      "1 Partial Pressure",
+      "0.100",
+      "liquid",
+      "0.500",
+      "Mole Fraction Gas"
+     ],
+     [
+      "40",
+      "313.15",
+      "2.03",
+      "1",
+      "1.462",
+      "1 Partial Pressure",
+      "0.285",
+      "liquid",
+      "0.720",
+      "Mole Fraction Gas"
+     ],
+     [
+      "40",
+      "313.15",
+      "3.04",
+      "1",
+      "2.420",
+      "1 Partial Pressure",
+      "0.445",
+      "liquid",
+      "0.796",
+      "Mole Fraction Gas"
+     ],
+     [
+      "40",
+      "313.15",
+      "4.05",
+      "1",
+      "3.382",
+      "1 Partial Pressure",
+      "0.587",
+      "liquid",
+      "0.835",
+      "Mole Fraction Gas"
+     ],
+     [
+      "40",
+      "313.15",
+      "5.06",
+      "1",
+      "4.296",
+      "1 Partial Pressure",
+      "0.718",
+      "liquid",
+      "0.849",
+      "Mole Fraction Gas"
+     ],
+     [
+      "40",
+      "313.15",
+      "6.08",
+      "1",
+      "5.168",
+      "1 Partial Pressure",
+      "0.845",
+      "liquid",
+      "0.850",
+      "Mole Fraction Gas"
+     ],
+     [
+      "60",
+      "333.15",
+      "0.863",
+      "1",
+      "0",
+      "1 Partial Pressure",
+      "0",
+      "liquid",
+      "0",
+      "Mole Fraction Gas"
+     ],
+     [
+      "60",
+      "333.15",
+      "1.01",
+      "1",
+      "0.131",
+      "1 Partial Pressure",
+      "0.025",
+      "liquid",
+      "0.130",
+      "Mole Fraction Gas"
+     ],
+     [
+      "60",
+      "333.15",
+      "2.03",
+      "1",
+      "1.096",
+      "1 Partial Pressure",
+      "0.187",
+      "liquid",
+      "0.540",
+      "Mole Fraction Gas"
+     ],
+     [
+      "60",
+      "333.15",
+      "3.04",
+      "1",
+      "1.961",
+      "1 Partial Pressure",
+      "0.334",
+      "liquid",
+      "0.645",
+      "Mole Fraction Gas"
+     ],
+     [
+      "60",
+      "333.15",
+      "4.05",
+      "1",
+      "2.835",
+      "1 Partial Pressure",
+      "0.460",
+      "liquid",
+      "0.700",
+      "Mole Fraction Gas"
+     ],
+     [
+      "60",
+      "333.15",
+      "5.06",
+      "1",
+      "3.653",
+      "1 Partial Pressure",
+      "0.576",
+      "liquid",
+      "0.722",
+      "Mole Fraction Gas"
+     ],
+     [
+      "60",
+      "333.15",
+      "6.08",
+      "1",
+      "4.408",
+      "1 Partial Pressure",
+      "0.685",
+      "liquid",
+      "0.725",
+      "Mole Fraction Gas"
+     ],
+     [
+      "80",
+      "353.15",
+      "1.343",
+      "1",
+      "0",
+      "1 Partial Pressure",
+      "0",
+      "liquid",
+      "0",
+      "Mole Fraction Gas"
+     ],
+     [
+      "80",
+      "353.15",
+      "2.03",
+      "1",
+      "0.641",
+      "1 Partial Pressure",
+      "0.096",
+      "liquid",
+      "0.316",
+      "Mole Fraction Gas"
+     ],
+     [
+      "80",
+      "353.15",
+      "3.04",
+      "1",
+      "1.450",
+      "1 Partial Pressure",
+      "0.225",
+      "liquid",
+      "0.477",
+      "Mole Fraction Gas"
+     ],
+     [
+      "80",
+      "353.15",
+      "4.05",
+      "1",
+      "2.195",
+      "1 Partial Pressure",
+      "0.349",
+      "liquid",
+      "0.542",
+      "Mole Fraction Gas"
+     ],
+     [
+      "80",
+      "353.15",
+      "5.06",
+      "1",
+      "2.914",
+      "1 Partial Pressure",
+      "0.458",
+      "liquid",
+      "0.576",
+      "Mole Fraction Gas"
+     ],
+     [
+      "80",
+      "353.15",
+      "6.08",
+      "1",
+      "3.567",
+      "1 Partial Pressure",
+      "0.565",
+      "liquid",
+      "0.585",
+      "Mole Fraction Gas"
+     ],
+     [
+      "100",
+      "373.15",
+      "1.993",
+      "1",
+      "0",
+      "1 Partial Pressure",
+      "0",
+      "liquid",
+      "0",
+      "Mole Fraction Gas"
+     ],
+     [
+      "100",
+      "373.15",
+      "2.03",
+      "1",
+      "0.016",
+      "1 Partial Pressure",
+      "0.005",
+      "liquid",
+      "0.008",
+      "Mole Fraction Gas"
+     ],
+     [
+      "100",
+      "373.15",
+      "3.04",
+      "1",
+      "0.775",
+      "1 Partial Pressure",
+      "0.130",
+      "liquid",
+      "0.255",
+      "Mole Fraction Gas"
+     ],
+     [
+      "100",
+      "373.15",
+      "4.05",
+      "1",
+      "1.462",
+      "1 Partial Pressure",
+      "0.241",
+      "liquid",
+      "0.361",
+      "Mole Fraction Gas"
+     ],
+     [
+      "100",
+      "373.15",
+      "5.06",
+      "1",
+      "2.964",
+      "1 Partial Pressure",
+      "0.350",
+      "liquid",
+      "0.408",
+      "Mole Fraction Gas"
+     ],
+     [
+      "120",
+      "393.15",
+      "2.838",
+      "1",
+      "0",
+      "1 Partial Pressure",
+      "0",
+      "liquid",
+      "0",
+      "Mole Fraction Gas"
+     ],
+     [
+      "120",
+      "393.15",
+      "3.04",
+      "1",
+      "0.109",
+      "1 Partial Pressure",
+      "0.024",
+      "liquid",
+      "0.036",
+      "Mole Fraction Gas"
+     ],
+     [
+      "120",
+      "393.15",
+      "4.05",
+      "1",
+      "0.648",
+      "1 Partial Pressure",
+      "0.140",
+      "liquid",
+      "0.160",
+      "Mole Fraction Gas"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Ethene with 2-Methylpropane (isobutane)"
+ },
+ {
+  "sheet_id": "57_76",
+  "system_id": "57028",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_76",
+  "system": "Ethene with 2-Methylpropane (isobutane)",
+  "components": "(1) Ethene; C2H4; [74-85-1]\n(2) 2-Methylpropane (isobutane); C4H10; [75-28-5]",
+  "original_measurements": "Benedict, M.; Solomon, E.; Rubin, L.C., Ind. Eng. Chem. 1945, 37, 55-59.",
+  "variables": "Temperature = 310.93 K, 344.26 K\nPressure = 3.447 (34.02 atm) MPa",
+  "prepared_by": "W. Hayduk",
+  "critical_evaluation": "This paper contains a listing of three-component phase equilibria for methane, ethene and 2-methylpropane at several temperatures and pressures.  These have been compiled and may be found in the Methane volume.  The data here are all that are available for the two-component system.",
+  "experimental_values": "",
+  "notes": "^1  Calculated by compiler; the partial pressure is based on the gas phase composition.",
+  "method": "A steel cell is used for the solubility measurements.   The solvent floats on mercury.   The mercury is in contact with a free piston and weights for pressure measurement.   Equilibration is aided by rocking the cell and contents.   As the gas is slowly sampled, mercury flows into the cell to keep the pressure constant.   When only liquid remains, the pressure is increased and a liquid sample is obtained.   The gas phase densities and olefin content are determined for the samples at low pressure.",
+  "source_purity": "1.  Ethene, anesthesia grade, was obtained from Ohio Chemical.   It was purified by flash distillation and estimated to have 0.5 mole & ethane.\n2.  2-Methylpropane of the CP grade was from Phillips Petroleum with a purity of 99.2%.",
+  "estimated_error": "Solubility: δx_1/x_1  =  ± 0.02  (compiler)\nTemperature: δT/K  =  ±  0.02  (compiler)\nPressure: δP/P  =  ± 0.001",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   },
+   {
+    "index": 2,
+    "name": "2-Methylpropane (isobutane)",
+    "formula": "C4H10",
+    "cas": "75-28-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "Pressure [MPa]",
+     "Pressure Note",
+     "Pressure [MPa]",
+     "Pressure Note",
+     "Mole Fraction (x_1)",
+     "x_1 Note",
+     "Mole Fraction of Gas (y_1)",
+     "y_1 Note"
+    ],
+    "rows": [
+     [
+      "37.78",
+      "310.93",
+      "3.447",
+      "1",
+      "2.897",
+      "1 Partial Pressure",
+      "0.497",
+      "liquid",
+      "0.8405",
+      "Mole Fraction Gas"
+     ],
+     [
+      "71.11",
+      "344.26",
+      "3.447",
+      "1",
+      "2.151",
+      "1 Partial Pressure",
+      "0.296",
+      "liquid",
+      "0.624",
+      "Mole Fraction Gas"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Ethene with 2-Methylpropane (isobutane)"
+ },
+ {
+  "sheet_id": "57_151",
+  "system_id": "57029",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=57_151",
+  "system": "Ethene with 2-Propanol",
+  "components": "(1) 2-Propanol; C3H8O; [67-63-0]\n(2) Ethene; C2H4; [74-85-1]",
+  "original_measurements": "Sahgal, A.; La, H.M.; Hayduk, W., Can. J. Chem. Eng. 1978, 56, 354-357.",
+  "variables": "Temperature = 273 K  to 323 K\nPressure = 101.325 kPa",
+  "prepared_by": "W. Hayduk",
+  "critical_evaluation": "Mole fraction ethene, x_1, is for a gas partial pressure of 101.325 kPa.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A glass apparatus equipped with a gas storage burette, a spiral tube for gas absorption, a miniature internal manometer and a solution storage burette was used.   Degassed solvent was injected at a constant rate into the absorption spiral by means of a syringe-pump while the gas was displaced by mercury using a mechanical elevating device for a mercury bottle, at a rate required to keep the gas pressure constant.   Readings of the volume of solvent required to achieve saturation were obtained from which the solubility was calculated.   Constant temperature fluid was circulated through a jacket enclosing the burettes and absorption spiral.",
+  "source_purity": "1.  Ethene was CP grade from Matheson, 99.5 mole % minimum purity\n2.  2-Propanol was from J.T. Baker of 99.9 mole % purity.",
+  "estimated_error": "Solubility: δx_1/x_1  =  ±  2%\nTemperature: δT/K  =  ±  0.05",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "2-Propanol",
+    "formula": "C3H8O",
+    "cas": "67-63-0"
+   },
+   {
+    "index": 2,
+    "name": "Ethene",
+    "formula": "C2H4",
+    "cas": "74-85-1"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "Ostwald coefficient L [cm^3 gas (cm^3 solvent)^&#]",
+     "Mole Fraction (x_1)"
+    ],
+    "rows": [
+     [
+      "0",
+      "273.15",
+      "3.02",
+      "0.0101"
+     ],
+     [
+      "25",
+      "298.15",
+      "2.14",
+      "0.00673"
+     ],
+     [
+      "50",
+      "323.15",
+      "1.58",
+      "0.00473"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "Ethene with 2-Propanol"
+ }
+]

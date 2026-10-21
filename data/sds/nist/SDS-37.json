@@ -1,0 +1,3483 @@
+[
+ {
+  "sheet_id": "37_1",
+  "system_id": "37001",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_1",
+  "system": "1,3 Cyclopentadiene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,3 Cyclopentadiene; C5H6; [542-92-7]",
+  "original_measurements": "Streitweiser, A.; Nebenzahl, L.L., J. Am. Chem. Soc. 1976, 98, 2188-90.",
+  "variables": "Temperature = Room Temperature",
+  "prepared_by": "M.C. Haulait-Pirson and G.T. Hefter",
+  "critical_evaluation": "The solubility of cyclopentadiene in water at room temperature was reported to be 0.103 mol L^-1.^a  Assuming a solution density of 1.00 g mL^-1 the corresponding mass percent and mole fraction (x_1) solubilities, calculated by the compilers, are 0.068 g(1)/100 g sln and 1.8 x 10^-4 respectively.",
+  "experimental_values": "",
+  "notes": "Table 1  ^a  According to a footnote in the paper the experimental data were apparently obtained by J. Cambray (presumably unpublished observations) but experimental details are given in the paper.",
+  "method": "Water was saturated by shaking with excess (1) and then centrifuged.  The saturated solution so obtained was then diluted and analysed by UV spectrophotometry assuming the absorptivity to be the same as in ethanol.",
+  "source_purity": "(1) Aldrich; distilled onto molecular sieves and used within 1h; analysed by GC.\n(2) Distilled; purity not specified.",
+  "estimated_error": "Temperature: Not given.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,3 Cyclopentadiene",
+    "formula": "C5H6",
+    "cas": "542-92-7"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1,3 Cyclopentadiene with Water"
+ },
+ {
+  "sheet_id": "37_348",
+  "system_id": "37002",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_348",
+  "system": "1,3,5-Cycloheptatriene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,3,5-Cycloheptatriene; C7H8; [544-25-2]",
+  "original_measurements": "Englin, B.A.; Plate, A.F.; Tugolukov, V.M. Pryanishnikova, M.A., Khim. Tekhnol. Topl. Masel 1965, 10, 42-6.",
+  "variables": "Temperature = 30-50 °C",
+  "prepared_by": "A. Maczynski and Z. Maczynska",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Component (1) was introduced into a thermostatted flask and saturated for 5 hr with (2).  Next, calcium hydride was added and the evoling hydrogen volume measured and hence the concentration of (2) in (1) was evaluated.",
+  "source_purity": "(1) not specified.\n(2) not specified.",
+  "estimated_error": "Temperature: not specified.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,3,5-Cycloheptatriene",
+    "formula": "C7H8",
+    "cas": "544-25-2"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "g_2/100 g solution",
+     "10^3 * Mole Fraction x_2 (compiler)"
+    ],
+    "rows": [
+     [
+      "30",
+      "0.0630",
+      "3.21"
+     ],
+     [
+      "40",
+      "0.0773",
+      "3.94"
+     ],
+     [
+      "50",
+      "0.0993",
+      "5.06"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,3,5-Cycloheptatriene with Water"
+ },
+ {
+  "sheet_id": "37_350",
+  "system_id": "37002",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_350",
+  "system": "1,3,5-Cycloheptatriene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,3,5-Cycloheptatriene; C7H8; [544-25-2]",
+  "original_measurements": "Pierotti, R.A.; Liabastre, A.A., \"Structure and properties of water solutions.\" U.S. Nat. Tech. Inform. Serv., PB Rep., 1972, No. 21163, 113 p.",
+  "variables": "Temperature = 278.26-318.36 K",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "10 mL of (2) were placed along with 4-10 drops of (1) in 10 mL serum bottles, which were then tightly capped, and placed in the rotating  basket and rotated for 24 hours.  The bottled were then hand shaken to remove (1) droplets from the stoppers and then replaced in the bath with the tops down for an additional 24 hours.  The solute concentrations were determined by use of a flame-ionization gas chromatograph.  Many details about equipment, operating conditions and calculation are given in the paper.",
+  "source_purity": "(1) Columbia Organic Chemicals Co., Inc.; Tech 83%; used as received.\n(2) laboratory distilled water.",
+  "estimated_error": "Solubility: standard deviation from at least 15 meausrements are given above.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,3,5-Cycloheptatriene",
+    "formula": "C7H8",
+    "cas": "544-25-2"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "g_1/100 g solution",
+     "10^3 * Mole Fraction x_1"
+    ],
+    "rows": [
+     [
+      "278.26",
+      "0.05809 ± 0.0014",
+      "0.1136"
+     ],
+     [
+      "288.36",
+      "0.06645 ± 0.0017",
+      "0.1299"
+     ],
+     [
+      "298.26",
+      "0.06694 ± 0.0019",
+      "0.1309"
+     ],
+     [
+      "308.36",
+      "0.07418 ± 0.0019",
+      "0.1450"
+     ],
+     [
+      "318.36",
+      "0.07648 ± 0.0022",
+      "0.1495"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,3,5-Cycloheptatriene with Water"
+ },
+ {
+  "sheet_id": "37_347",
+  "system_id": "37002",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_347",
+  "system": "1,3,5-Cycloheptatriene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,3,5-Cycloheptatriene; C7H8; [544-25-2]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "G.T. Hefter, School of Mathematical and Physical Sciences, Murdoch University, Perth, W.A., Australia. November 1984.",
+  "critical_evaluation": "",
+  "experimental_values": "Quantitative solubility data for the system 1,3,5-cycloheptatriene (1) and water (2) have been reported in the publications listed in Table 1.\n\n\n\nThe original data in these publications are compiled in Data Sheets immediately following this Critical Evaluation.  For convenience, further discussion of this system will be in two parts.\n\n\n\n\n1.    THE SOLUBILITY OF 1,3,5-CYCLOHEPTATRIENE (1) IN WATER (2)\n\n\nSolubility values of (1) in (2) are listed in Table 2 and plotted in  Figure 1. The data at 298 K are in reasonable agreement.  However, it should be noted that the results of Pierotti and Liabastre (ref 2) are generally higher than “Recommended” values in well characterized systems (e.g. benzene in water).  Their results at temperatures other than 298 K should be regarded with some caution.\n\n\n\n\n2.   THE SOLUBILITY 0F WATER (2) IN 1,3,5-CYCLOHEPTATRIENE (1)\n\n\nThe solubility of water in 1,3,5-cycloheptatriene has been reported only by Englin et al. (ref 1) and so no Critical Evaluation can be made.  The interested user is referred to the appropriate Data Sheet for solubility values.  However it should be noted that the data of Englin et al. are generally reliable at lower temperatures but are high when T > 300 K.",
+  "notes": "Notes:\nTable 2^a  Values marked with an asterisk ( * ) obtained by the Evaluator by graphical intrapolation of original data.\nTable 2^b  \"Best\" values obtained by averaging where appropriate; σ_n has no statistical significance.",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  Englin, B.A.; Plate, A.F.; Tugolukov, V.M. Pryanishnikova, M.A., Khim. Tekhnol. Topl. Masel 1965, 10, 42-6.\n2  McAuliffe, C., J. Phys. Chem. 1966, 70, 1267-75.\n3  Pierotti, R.A.; Liabastre, A.A., \"Structure and properties of water solutions.\" U.S. Nat. Tech. Inform. Serv., PB Rep., 1972, No. 21163, 113 p.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,3,5-Cycloheptatriene",
+    "formula": "C7H8",
+    "cas": "544-25-2"
+   }
+  ],
+  "tables": [],
+  "kind": "compilation",
+  "system_name": "1,3,5-Cycloheptatriene with Water"
+ },
+ {
+  "sheet_id": "37_349",
+  "system_id": "37002",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_349",
+  "system": "1,3,5-Cycloheptatriene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,3,5-Cycloheptatriene; C7H8; [544-25-2]",
+  "original_measurements": "McAuliffe, C., J. Phys. Chem. 1966, 70, 1267-75.",
+  "variables": "Temperature = One temperature: 25 °C",
+  "prepared_by": "A. Maczynski, Z. Maczynska, and A. Szafranski",
+  "critical_evaluation": "The solubility of 1,3,5-cycloheptatriene in water at 25°C was reported to be 620 g(1)/10^6 g(2).\nThe corresponding mass percent and mole fraction, x_1, calculated by the compilers are 0.0620 g(1)/100 g sln and 1.21 x 10^-4.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "In a 250 mL glass bottle, 10-20 mL of (1) was vigorously shaken for 1 hr or magnetically stirred for 1 day, with 200 mL of (2) at 25 °C. The bottle was set aside for 2 days to allow droplets of undissolved (1) to separate.  Absence of emulsion was checked microscopically.  A sample of the hydrocarbon-saturated water was withdrawn with a Hamilton Syringe and gas liquid chromatograph in conjunction with a flame ionization detector.",
+  "source_purity": "(1) Phillips Petroleum or Columbia Chemical; used as received.\n(2) distilled.",
+  "estimated_error": "Solubility: 20 g (1)/10^6 g(2) (standard deviation of mean)\nTemperature: ± 1.5 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,3,5-Cycloheptatriene",
+    "formula": "C7H8",
+    "cas": "544-25-2"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1,3,5-Cycloheptatriene with Water"
+ },
+ {
+  "sheet_id": "37_154",
+  "system_id": "37003",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_154",
+  "system": "1,4-Cyclohexadiene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,4-Cyclohexadiene; C6H8; [628-41-1]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "G.T. Hefter, School of Mathematical and Physical Sciences, Murdoch University, Perth, Western Australia. November 1984.",
+  "critical_evaluation": "",
+  "experimental_values": "Quantitative data for the solubility  of 1,4-cyclohexadiene (1) in water (2) have been reported in the publications listed in Table 1.\n\n\n\nThe original data in these publications are compiled in the Data Sheets immediately following this Critical Evaluation.  No data appear to have been reported for the solubility of water in 1,4 cyclohexadiene.\n\n\n\nThe solubility values of (1) in (2) are listed in Table 2.  The data are in poor agreement, with those of Pierotti and Liabastre (ref 2) being approximately 20% (relative) higher than those of McAuliffe (ref 1).  This situation is typical for a large number of hydrocarbon-water systems investigated by these authors and is discussed in greater detail in the Critical Evaluation of the cylclopentane-water system.  In general the values of McAuliffe are much closer to accepted values (in well-characterized systems) than those of Pierotti and Liabastre.  However, in the absence of confirmatory studies, the data of Pierotti and Liabastre are not rejected although they should probably be regarded only as order-of-magnitude values.  The datum of McAulliffe may be considered as “Tentative”.",
+  "notes": "Notes:\nTable 2^a  Values marked with asterisk ( * ) obtained by Evaluator by graphical interpolation of original measurements.\nTable 2^b  See comments in text regarding reliability of \"Best\" values; σ_n has no statistical significance.",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  McAuliffe, C., J. Phys. Chem. 1966, 70, 1267-75.\n2  Pierotti, R.A.; Liabastre, A.A., \"Structure and properties of water solutions.\" U.S. Nat. Tech. Inform. Serv., PB Rep., 1972, No. 21163, 113 p.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,4-Cyclohexadiene",
+    "formula": "C6H8",
+    "cas": "628-41-1"
+   }
+  ],
+  "tables": [],
+  "kind": "compilation",
+  "system_name": "1,4-Cyclohexadiene with Water"
+ },
+ {
+  "sheet_id": "37_156",
+  "system_id": "37003",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_156",
+  "system": "1,4-Cyclohexadiene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,4-Cyclohexadiene; C6H8; [628-41-1]",
+  "original_measurements": "Pierotti, R.A.; Liabastre, A.A., \"Structure and properties of water solutions.\" U.S. Nat. Tech. Inform. Serv., PB Rep., 1972, No. 21163, 113 p.",
+  "variables": "Temperature = 278.26-318.36 K",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "10 mL of (2) were placed along with 4-10 drops (1) in 10 mL serum bottles, which were then tightly capped, and placed in the rotating basket and rotated for 24 hours.  The bottles were then hand shaken to remove (1) droplets from the stoppers and then replaced in the bath with tops down for an additional 24 hours.  The solute concentrations were determined by use of a flame-ionization gas chromatograph.  Many details about equipment, operating conditions and calculation are given in the paper.",
+  "source_purity": "(1) Columbia Organic Chemicals Co., Inc.; 99%; used as received.\n(2) laboratory distilled water",
+  "estimated_error": "Solubility: standard deviation from at least 15 measurements are given above.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,4-Cyclohexadiene",
+    "formula": "C6H8",
+    "cas": "628-41-1"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "g_1/100 g solution",
+     "10^3 * Mole Fraction x_1"
+    ],
+    "rows": [
+     [
+      "278.26",
+      "0.08519 ± 0.0019",
+      "0.1915"
+     ],
+     [
+      "288.36",
+      "0.09585 ± 0.0028",
+      "0.2155"
+     ],
+     [
+      "298.26",
+      "0.09362 ± 0.0023",
+      "0.2105"
+     ],
+     [
+      "308.36",
+      "0.09634 ± 0.0023",
+      "0.2166"
+     ],
+     [
+      "318.36",
+      "0.10100 ± 0.0023",
+      "0.2271"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,4-Cyclohexadiene with Water"
+ },
+ {
+  "sheet_id": "37_155",
+  "system_id": "37003",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_155",
+  "system": "1,4-Cyclohexadiene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,4-Cyclohexadiene; C6H8; [628-41-1]",
+  "original_measurements": "McAuliffe, C., J. Phys. Chem. 1966, 70, 1267-75.",
+  "variables": "Temperature = One temperature: 25 °C",
+  "prepared_by": "A. Maczynski, Z. Maczynska, and A. Szafranski",
+  "critical_evaluation": "The solubility of 1,4-cyclohexadiene in water at 25 °C was reported to be 700 g(1)/10^6 g(2).\nThe corresponding mass percent and mole fraction,x_1, calculated by the compilers are 0.0700 g(1)/100 g sln and 1.57 x 10^-4.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "In a 250-mL bottle, 10-20 mL of (1) was vigorously shaken for 1 hr, or magnetically stirred for 1 day, with 200 mL of (2) at 25 °C.  The bottle was set aside for 2 days to allow droplets of undissolved (1) to separate.  Absence of emulsion was checked microscopically.  A sample of the hydrocarbon-saturated water was withdrawn with a Hamilton syringe and gas liquid chromatographed in conjunction with a flame-ionization detector.",
+  "source_purity": "(1) Phillips Petroleum or Columbia Chemical; used as received.\n(2) distilled.",
+  "estimated_error": "Solubility: 16 g(1)/10^6 g(2) (standard deviation of mean)\nTemperature: ± 1.5 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,4-Cyclohexadiene",
+    "formula": "C6H8",
+    "cas": "628-41-1"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1,4-Cyclohexadiene with Water"
+ },
+ {
+  "sheet_id": "37_9",
+  "system_id": "37004",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_9",
+  "system": "1,4-Pentadiene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,4-Pentadiene; C5H8; [591-93-5]",
+  "original_measurements": "McAuliffe, C., J. Phys. Chem. 1966, 70, 1267-75.",
+  "variables": "Temperature = One temperature: 25 °C",
+  "prepared_by": "A. Maczynski, Z. Maczynska, and A. Szafranski",
+  "critical_evaluation": "The solubility of 1,4-pentadiene in water at 25 °C was reported to be 558 g(1)/10^6 g(2).\nThe corresponding mass percent and mole fraction, x_1, calculated by the compilers are 0.0558 g(1)/100 g sln and 1.48 x 10^-4.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "In a 250-mL bottle, 10-20 mL of (1) was vigorously shaken for 1 hr, or magnetically stirred for 1 day, with 200 mL of (2) at 25 °C.  The bottle was set aside for 2 days to allow droplets of undissolved (1) to separate.  Absence of emulsion was checked microscopically.  A sample of the hydrocarbon-saturated water was withdrawn with a Hamilton syringe and gas liquid chromato-graphed in conjunction with a flame-ionization detector.",
+  "source_purity": "(1) Phillips Petroleum or Columbia Chemical; used as received.\n(2) distilled.",
+  "estimated_error": "Solubility: 27 g(1)/10^6 g(2) (standard deviation of mean)\nTemperature: ± 1.5 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,4-Pentadiene",
+    "formula": "C5H8",
+    "cas": "591-93-5"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1,4-Pentadiene with Water"
+ },
+ {
+  "sheet_id": "37_168",
+  "system_id": "37005",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_168",
+  "system": "1,5-Hexadiene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,5-Hexadiene; C6H10; [592-42-7]",
+  "original_measurements": "McAuliffe, C., J. Phys. Chem. 1966, 70, 1267-75.",
+  "variables": "Temperature = One temperature: 25 °C",
+  "prepared_by": "A. Maczynski, Z. Maczynska, and A. Szafranski",
+  "critical_evaluation": "The solubility of 1,5-hexadiene in water at 25°C was reported to be 169 g(1)/10^-6 g(2).\nThe corresponding mass percent and mole fraction,x_1, calculated by the compilers are 0.0169 g(1)/100 g sln and 3.70 x 10^-5.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "In a 250-mL bottle, 10-20 mL of (1) was vigorously shaken for 1 hr, or magnetically stirred for 1 day, with 200 mL of (2) at 25 °C.  The bottle was set aside for 2 days to allow droplets of undissolved (1) to separate.  Absence of emulsion was checked microscopically.  A sample of the hydrocarbon-saturated water wa withdrawn with a Hamilton syringe and gas liquid chromatographed in conjunction with a flame ionization detector.",
+  "source_purity": "(1) Phillips Petroleum or Columbia Chemical; used as received.\n(2) distilled.",
+  "estimated_error": "Solubility: 6 g(1)/10^6 g(2) (standard deviation of mean)\nTemperature: ± 1.5 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,5-Hexadiene",
+    "formula": "C6H10",
+    "cas": "592-42-7"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1,5-Hexadiene with Water"
+ },
+ {
+  "sheet_id": "37_167",
+  "system_id": "37005",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_167",
+  "system": "1,5-Hexadiene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,5-Hexadiene; C6H10; [592-42-7]",
+  "original_measurements": "Black, C.; Joris, G.G.; Taylor, H.S., J. Chem. Phys. 1948, 16, 537-43.",
+  "variables": "Temperature = 13.5 and 20.0 °C",
+  "prepared_by": "A. Maczynski and Z. Maczynska",
+  "critical_evaluation": "(at total saturation pressure of 1 atm).",
+  "experimental_values": "",
+  "notes": "Table 1  ^  (at total saturation pressure of 1 atm)",
+  "method": "Air saturated with radioactive water vapor was bubbled through (1) until saturation was attained.  Dissolved water was separated from (1) by absorption on calcium oxide.  The tritum was transferred into the counter by equilibration with ethanol vapor.  The method is described in ref (1).",
+  "source_purity": "(1) Harvard university; purity not specified; used as received.\n(2) not specified.",
+  "estimated_error": "Solubility: ± 1% (type of error not specified)",
+  "references": "^1Joris, G.G.; Taylor, H.S. J. Chem. Phys. 1948, 16, 45.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,5-Hexadiene",
+    "formula": "C6H10",
+    "cas": "592-42-7"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "g_2/100 g solution",
+     "g_2/100 g solution (compiler)",
+     "10^3 * Mole Fraction x_2 (compiler)"
+    ],
+    "rows": [
+     [
+      "13.5",
+      "0.0618",
+      "0.0618",
+      "2.81"
+     ],
+     [
+      "20.2",
+      "0.0969",
+      "0.0962",
+      "4.37"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "1,5-Hexadiene with Water"
+ },
+ {
+  "sheet_id": "37_354",
+  "system_id": "37006",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_354",
+  "system": "1,6-Heptadiene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,6-Heptadiene; C7H12; [3070-53-9]",
+  "original_measurements": "McAuliffe, C., J. Phys. Chem. 1966, 70, 1267-75.",
+  "variables": "Temperature = One temperature: 25 °C",
+  "prepared_by": "A. Maczynski, Z. Maczynska, and A. Szafranski",
+  "critical_evaluation": "The solubility of 1,6-heptadiene in water at 25°C was reported to be 44 g(1)/10^6 g(2).\nThe corresponding mass percent and mole fraction, x_1, calculated by the compilers are 0.0044 g(1)/100g sln and 8.2 x 10^-6.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "In a 250 mL glass bottle, 10-20 mL of (1) was vigorously shaken for 1 hr or magnetically stirred for 1 day, with 200 mL of (2) at 25 °C. The bottle was set aside for 2 days to allow droplets of undissolved (1) to separate. Absence of emulsion was checked microscopically.  A sample of the hydrocarbon-saturated water was withdrawn with a Hamilton Syringe and gas liquid chromatograph in conjunction with a flame ionization detector.",
+  "source_purity": "(1) Phillips Petroleum or Columbia Chemical; used as received.\n(2) distilled.",
+  "estimated_error": "Solubility: 3 g (1)/10^6 g(2) (standard deviation of mean)\nTemperature: ± 1.5 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,6-Heptadiene",
+    "formula": "C7H12",
+    "cas": "3070-53-9"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1,6-Heptadiene with Water"
+ },
+ {
+  "sheet_id": "37_351",
+  "system_id": "37007",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_351",
+  "system": "1,6-Heptadiyne with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,6-Heptadiyne; C7H8; [2396-63-6]",
+  "original_measurements": "McAuliffe, C., J. Phys. Chem. 1966, 70, 1267-75.",
+  "variables": "Temperature = One temperature: 25 °C",
+  "prepared_by": "A. Maczynski, Z. Maczynska, and A. Szafranski",
+  "critical_evaluation": "The solubility of 1,6-heptadiyne in water at 25°C was reported to be 1650 g(1)/10^6 g(2).\nThe corresponding mass percent and mole fraction, x_1, calculated by the compilers are 0.1650 g(1)/100 g sln and 3.23 x 10^-4.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "In a 250 mL glass bottle, 10-20 mL of (1) was vigorously shaken for 1 hr or magnetically stirred for 1 day, with 200 mL of (2) at 25 °C.The bottle was set aside for 2 days to allow droplets of undissolved (1) to separate.  Absence of emulsion was checked microscopically.  A sample of the hydrocarbon-saturated water was withdrawn with a Hamilton Syringe and gas liquid chromatograph in conjunction with a flame ionization detector.",
+  "source_purity": "(1) Phillips Petroleum or Columbia Chemical; used as received.\n(2) distilled.",
+  "estimated_error": "Solubility: 25 g (1)/10^6 g(2) (standard deviation of mean)\nTemperature: ± 1.5 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,6-Heptadiyne",
+    "formula": "C7H8",
+    "cas": "2396-63-6"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1,6-Heptadiyne with Water"
+ },
+ {
+  "sheet_id": "37_366",
+  "system_id": "37008",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_366",
+  "system": "1-Heptene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Heptene; C7H14; [592-76-7]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "G.T. Hefter, School of Mathematical and Physical Sciences, Murdoch University, Perth, W.A., Australia. July 1985.",
+  "critical_evaluation": "",
+  "experimental_values": "Quantitative data for the solubility of water (2) in 1-heptene (1) have been reported in the publications listed in Table 1.\n\n\n\n\nThe solubility of 1-heptene in dilute aqueous HNO_3 solutions have also been reported (ref 3).  However, as no other data are available for comparison these values will not be considered in this Evaluation.  The interested user is referred to the relevant Data Sheet immediately following this Critical Evaluation.\n\n\n\nThe reported values (ref 1 and 2) for the solubility of water in 1-heptene are listed in Table 2.\n\n\n\nThe data are in very poor agreement.  In the absence of confirmatory studies selection of best values is difficult.  However, it may be noted that in well characterized systems (e.g., water in benzene) the results of Englin et al. at T et al generally differ markedly from Recommended values.  Thus values of Englin et al. (ref 2) have been selected as the “Best” values available although, in the absence of confirmatory studies, it is not possible at this stage to reject outright the data of Black et al. (ref 1).",
+  "notes": "Notes:\nTable 2^a  Rounded values of Englin et al. (ref 2); see text.\nTable 2^b  Obtained by the Evalutaor br graphical interpolation.",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  Black, C.; Joris, G.G.; Taylor, H.S., J. Chem. Phys. 1948, 16, 537-43.\n2  Englin, B.A.; Plate, A.F.; Tugolukov, V.M. Pryanishnikova, M.A., Khim. Tekhnol. Topl. Masel 1965, 10, 42-6.\n3  Natarajan, G.S.; Venkatachalam, K.A., J. Chem. Eng. Data 1972, 17, 328-9.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Heptene",
+    "formula": "C7H14",
+    "cas": "592-76-7"
+   }
+  ],
+  "tables": [],
+  "kind": "compilation",
+  "system_name": "1-Heptene with Water"
+ },
+ {
+  "sheet_id": "37_368",
+  "system_id": "37008",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_368",
+  "system": "1-Heptene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Heptene; C7H14; [592-76-7]",
+  "original_measurements": "Englin, B.A.; Plate, A.F.; Tugolukov, V.M. Pryanishnikova, M.A., Khim. Tekhnol. Topl. Masel 1965, 10, 42-6.",
+  "variables": "Temperature = 10-30 °C",
+  "prepared_by": "A. Maczynski and Z. Maczynska",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Component (1) was introduced into a thermostatted flask and saturated for 5 hr. with (2).  Next, calcium hydride was added and the evolving hydrogen volume measured and hence the concentration of (2) in (1) was evaluated.",
+  "source_purity": "(1) not specified.\n(2) not specified.",
+  "estimated_error": "Temperature: not specified.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Heptene",
+    "formula": "C7H14",
+    "cas": "592-76-7"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "g_2/100 g solution",
+     "10^3 * Mole Fraction x_2 (compiler)"
+    ],
+    "rows": [
+     [
+      "10",
+      "0.0186",
+      "1.01"
+     ],
+     [
+      "20",
+      "0.0249",
+      "1.36"
+     ],
+     [
+      "30",
+      "0.0375",
+      "2.04"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1-Heptene with Water"
+ },
+ {
+  "sheet_id": "37_367",
+  "system_id": "37008",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_367",
+  "system": "1-Heptene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Heptene; C7H14; [592-76-7]",
+  "original_measurements": "Black, C.; Joris, G.G.; Taylor, H.S., J. Chem. Phys. 1948, 16, 537-43.",
+  "variables": "Temperature = 10-21.2 °C",
+  "prepared_by": "A. Maczynski and Z. Maczynska",
+  "critical_evaluation": "(at total saturation pressure of 1 atm)",
+  "experimental_values": "",
+  "notes": "Table 1  ^  (at total saturation pressure of 1 atm)",
+  "method": "Air-saturated with radioactive water vapor was bubbled through (1) until saturation was attined.  Dissolved water was separated from (1) by absorption on calcium oxide.  The tritum was transferred into the counter by quilibration with ethanol vapor.  The method is described in ref (1).",
+  "source_purity": "(1) Harvard University; purity not specified; used as received.\n(2) not specified.",
+  "estimated_error": "Solubility: ± 1% (type of error not specified)",
+  "references": "^1Joris, G.G.; Tayolr, H.S. J. Chem. Phys. 1948, 16, 45.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Heptene",
+    "formula": "C7H14",
+    "cas": "592-76-7"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "g_2/100 g solution",
+     "g_2/100 g solution (compiler)",
+     "10^3 * Mole Fraction x_2 (compiler)"
+    ],
+    "rows": [
+     [
+      "10.0",
+      "0.0692",
+      "0.0692",
+      "3.76"
+     ],
+     [
+      "20.1",
+      "0.1126",
+      "0.1126",
+      "6.11"
+     ],
+     [
+      "20.5",
+      "0.1047",
+      "0.1047",
+      "5.68"
+     ],
+     [
+      "21.2",
+      "0.1158",
+      "0.1158",
+      "6.28"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "1-Heptene with Water"
+ },
+ {
+  "sheet_id": "37_369",
+  "system_id": "37008",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_369",
+  "system": "1-Heptene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Heptene; C7H14; [592-76-7]",
+  "original_measurements": "Natarajan, G.S.; Venkatachalam, K.A., J. Chem. Eng. Data 1972, 17, 328-9.",
+  "variables": "Temperature = 20-30 °C",
+  "prepared_by": "M.C. Haulait-Pirson, G.T. Hefter",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "Table 1  ^  Compiler's note:  Although the data have not been measured in pure water the low concentration of the added acid is unlikely to cause the olefin solubility to differ markedly from that in pure water.  Further solubility data are given in the paper for 0.05 and 0.1 mol L^-1 HCl.\nTable 1  ^a  Uncertainties stated to be \"standard deviations from means\".\nTable 1  ^b  Assuming a solution of 1.00 g mL^-1 at all temperatures.",
+  "method": "15 mL of the aqueous medium was equilibrated with 1 mL of (1) by mechanical shaking in a thermostatted glass burette.  After settling (judged visually), 5 mL of the aqueous layer was withdrawn and the olefin content determined by titration with bromine using standard procedures.",
+  "source_purity": "(1) Matheson, Coleman and Bell; 99%.\n(2) Not specified.",
+  "estimated_error": "Solubility: see table above.\nTemperature: ± 0.05 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Heptene",
+    "formula": "C7H14",
+    "cas": "592-76-7"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^3 * g_1/100 g solution (compiler)",
+     "g_1/100 g soln. Note (compiler)",
+     "10^6 * Mole Fraction x_1 (compiler)",
+     "10^4 * n_1/V_2 [mol/L]"
+    ],
+    "rows": [
+     [
+      "20",
+      "3.1",
+      "b",
+      "5.7",
+      "3.16 ± 0.13 (a)"
+     ],
+     [
+      "25",
+      "2.8",
+      "b",
+      "5.1",
+      "2.81 ± 0.12 (a)"
+     ],
+     [
+      "30",
+      "2.4",
+      "b",
+      "4.4",
+      "2.45 ± 0.15 (a)"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1-Heptene with Water"
+ },
+ {
+  "sheet_id": "37_355",
+  "system_id": "37009",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_355",
+  "system": "1-Heptyne with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Heptyne; C7H12; [628-71-7]",
+  "original_measurements": "McAuliffe, C., J. Phys. Chem. 1966, 70, 1267-75.",
+  "variables": "Temperature = One temperature: 25 °C",
+  "prepared_by": "A. Maczynski, Z. Maczynska, and A. Szafranski",
+  "critical_evaluation": "The solubility of 1-heptyne in water at 25°C was reported to be 94 g(1)/10^6 g(2).\nThe corresponding mass percent and mole fraction, x_1, calculated by the compilers are 0.0094 g(1)/100g sln and 1.76 x 10^-5.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "In a 250 mL glass bottle, 10-20 mL of (1) was vigorously shaken for 1 hr or magnetically stirred for 1 day, with 200 mL of (2) at 25 °C. The bottle was set aside for 2 days to allow droplets of undissolved (1) to separate. Absence of emulsion was checked microscopically.  A sample of the hydrocarbon-saturated water was withdrawn with a Hamilton Syringe and gas liquid chromatograph in conjunction with a flame ionization detector.",
+  "source_purity": "(1) Phillips Petroleum or Columbia Chemical; used as received.\n(2) distilled.",
+  "estimated_error": "Solubility: 3 g (1)/10^6 g(2) (standard deviation of mean)\nTemperature: ± 1.5 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Heptyne",
+    "formula": "C7H12",
+    "cas": "628-71-7"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1-Heptyne with Water"
+ },
+ {
+  "sheet_id": "37_221",
+  "system_id": "37010",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_221",
+  "system": "1-Hexene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Hexene; C6H12; [592-41-6]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "A. Maczynski, Institute of Physical Chemistry, Polish Academy of Sciences, Warszawa, Poland.\nG.T. Hefter, School of Mathematical and Physical Sciences, Murdoch University, Perth, W.A., Australia. November 1984.",
+  "critical_evaluation": "",
+  "experimental_values": "Quantitative solubility data for the system 1-hexene (1) and Water (2) have been reported in the publications listed in Table 1.\n\n\n\n\nSolubility of 1-hexene in dilute aqueous HNO_3 solutions have also been reported (ref 5) but will not be considered in this Evaluation.\n\n\n\n\nThe original data in all of these publications (ref 1-5) are compiled in the Data Sheets immediately following this Critical Evaluation.  For convenience, further discussion of this system will be divided into two parts.\n\n\n\n\n\n1.    THE SOLUBILITY OF 1-HEXENE(1) IN WATER (2)\n\n\n\nThe solubility data for 1-hexene in water are given in Table 2.\n\n\n\n\n\n2.    THE SOLUBILITY OF WATER (2) IN 1-HEXENE (1)\n\n\n\nThe solubility data for water in 1-hexene are listed in Table 3.  As data have not been obtained under comparable conditions they must be classified as “Tentative”.  However, it can be noted that in (other) well characterized systems the data of Englin et al. (ref 1) at Tet al  (ref 4) on the other hand are often high.",
+  "notes": "Notes:\nTable 2^a  \"Best\" values obtained by averaging where possible; σ_n has no statistical significance.",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  Englin, B.A.; Plate, A.F.; Tugolukov, V.M. Pryanishnikova, M.A., Khim. Tekhnol. Topl. Masel 1965, 10, 42-6.\n2  McAuliffe, C., J. Phys. Chem. 1966, 70, 1267-75.\n3  Leinonen, P.J.; Mackay, D., Can. J. Chem. Eng. 1973, 51, 230-3.\n4  Budantseva, L.S.; Lesteva, T.M.; Nemstov, M.S., Zh. Fiz. Khim. 1976, 50, 1344. Deposited doc. 1976, VINITI 437-76.\n5  Natarajan, G.S.; Venkatachalam, K.A., J. Chem. Eng. Data 1972, 17, 328-9.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Hexene",
+    "formula": "C6H12",
+    "cas": "592-41-6"
+   }
+  ],
+  "tables": [],
+  "kind": "compilation",
+  "system_name": "1-Hexene with Water"
+ },
+ {
+  "sheet_id": "37_222",
+  "system_id": "37010",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_222",
+  "system": "1-Hexene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Hexene; C6H12; [592-41-6]",
+  "original_measurements": "Englin, B.A.; Plate, A.F.; Tugolukov, V.M. Pryanishnikova, M.A., Khim. Tekhnol. Topl. Masel 1965, 10, 42-6.",
+  "variables": "Temperature = One temperature: 30 °C",
+  "prepared_by": "A. Maczynski and Z. Maczynska",
+  "critical_evaluation": "The solubility of water in 1-hexene at 30 °C was reported to be 0.0477 g(2)/100 g sln.\n\nThe corresponding mole fraction, x_2, calculated by the compilers is 2.23 x 10^-3.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Component (1) was introduced into thermostatted flask and saturated for 5 hr. with (2).  Next, calcium hydride was added and the evolving hydrogen volume measured and hence the concentration of (2) in (1) was evaluated.",
+  "source_purity": "(1) not specified.\n(2) not specified.",
+  "estimated_error": "Temperature: not specified.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Hexene",
+    "formula": "C6H12",
+    "cas": "592-41-6"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1-Hexene with Water"
+ },
+ {
+  "sheet_id": "37_223",
+  "system_id": "37010",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_223",
+  "system": "1-Hexene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Hexene; C6H12; [592-41-6]",
+  "original_measurements": "McAuliffe, C., J. Phys. Chem. 1966, 70, 1267-75.",
+  "variables": "Temperature = One temperature: 25 °C",
+  "prepared_by": "A. Maczynski, Z. Maczynska, and A. Szafranski",
+  "critical_evaluation": "The solubility of 1-hexene in water at 25 °C was reported to be 50 g(1)/10^6 g(2).\nThe corresponding mass percent and mole fraction, x_1, calculated by the compilers are 0.0050 g(1)/100 g sln and 9.2 x 10^-6.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "In a 250-mL bottle, 10-20 mL of (1) was vigorously shaken for 1 hr, or magnetically stirred for 1 day, with 200 mL of (2) at 25 °C.  The bottle was set aside for 2 days to allow droplets of undissolved (1) to separate.  Absence of emulsion was checked microscopically.  A sample of the hydrocarbon-saturated water was withdrawn with a Hamilton syringe and gas liquid chromatographed in conjunction with a flame ionization detector.",
+  "source_purity": "(1) Phillips Petroleum or Columbia Chemical; used as received.\n(2) distilled.",
+  "estimated_error": "Solubility: 1.2 g(1)/10^6 g(2) (standard deviation of mean)\nTemperature: ± 1.5 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Hexene",
+    "formula": "C6H12",
+    "cas": "592-41-6"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1-Hexene with Water"
+ },
+ {
+  "sheet_id": "37_224",
+  "system_id": "37010",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_224",
+  "system": "1-Hexene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Hexene; C6H12; [592-41-6]",
+  "original_measurements": "Natarajan, G.S.; Venkatachalam, K.A., J. Chem. Eng. Data 1972, 17, 328-9.",
+  "variables": "Temperature = One temperature: 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson, G.T. Hefter",
+  "critical_evaluation": "The solubility of 1-hexene in water was reported to be 7.781 x 10^-4 mol L^-1 at 25 °C.^a  Assuming a solution density of 1.00 g mL^-1 the corresponding mass percent and mole fraction (x_1) solubilities calculated by the compilers are respectively, 0.00654 g(1)/100 g sln and 1.40 x 10^-5.\n\nSolubility data are also presented as a function of temperature in various salt solutions.",
+  "experimental_values": "",
+  "notes": "Table 1  ^a  It should be noted that although the authors state that the solubility refers to \"water\" the context in the paper is ambiguous and the data were probably obtained in 0.001 mol L^-1 HNO_3 solution.",
+  "method": "15 mL of the aqeous medium was equilibrated with 1 mL of (1) by mechanical shaking in a thermostatted glass burette.  After settling (judged visually), 5 mL of the aqueous layer was withdrawn and the olefin content determined by titration with bromine using standard procedures.",
+  "source_purity": "(1) Matheson, Coleman and Bell; 99%\n(2) Not specified.",
+  "estimated_error": "Solubility: not specified.\nTemperature: ± 0.05 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Hexene",
+    "formula": "C6H12",
+    "cas": "592-41-6"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1-Hexene with Water"
+ },
+ {
+  "sheet_id": "37_225",
+  "system_id": "37010",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_225",
+  "system": "1-Hexene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Hexene; C6H12; [592-41-6]",
+  "original_measurements": "Leinonen, P.J.; Mackay, D., Can. J. Chem. Eng. 1973, 51, 230-3.",
+  "variables": "Temperature = One temperature: 25 °C",
+  "prepared_by": "A. Maczynski, Z. Maczynska, and A. Szafranski",
+  "critical_evaluation": "The solubility of 1-hexene in water at 25 °C was reported to be 55.4 mg(1) dm^-3 sln.\nThe corresponding mass percent and mole fraction, x_1, calculated by the compilers are 0.00554 g(1)/100 g sln and 1.18 x 10 ^-5. The compiler's calculation assumes a solution density of 1.00 g mL^-1.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A mixture of (1) and (2) was equilibrated at 25 ± 0.1 °C for a minimum of 12 hrs in a 200-mL Teflon-stoppered vessel (25 cm long and 3.5 cm across) with gentle shaking, allowed to settle for 6 hrs and tested for the absence of emulsion (Tyndall effect).  The aqueous and organic phases were analyzed by glc (with internal standardization) on a Hewlett-Packard Model 700 instruments equipped with a 15% SE-30 on 60/80 mesh acid-washed (CH3)_2Cl_2Si-treated Chromosorb P column (steel capillary 10 ft x 0.125 inch).  The (1) in the aqueous phase was extracted into 5 mL of the heptane and the extract analyzed by glc.",
+  "source_purity": "(1) Phillips Petroleum Co. research grade, 99+ mole%; used as received.\n(2) doubly distilled.",
+  "estimated_error": "Solubility: 30 mg(1) dm^-3 (two standard deviations)\nTemperature: ± 0.1 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Hexene",
+    "formula": "C6H12",
+    "cas": "592-41-6"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1-Hexene with Water"
+ },
+ {
+  "sheet_id": "37_226",
+  "system_id": "37010",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_226",
+  "system": "1-Hexene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Hexene; C6H12; [592-41-6]",
+  "original_measurements": "Budantseva, L.S.; Lesteva, T.M.; Nemstov, M.S., Zh. Fiz. Khim. 1976, 50, 1344. Deposited doc. 1976, VINITI 437-76.",
+  "variables": "Temperature = One temperature: 20 °C",
+  "prepared_by": "A. Maczynski",
+  "critical_evaluation": "The solubility of 1-hexene in water at 20 °C was reported to be x_1 = 1x 10^-5.\n\nThe corresponding mass percent calculated by the compiler is 0.005 g (1)/100 g sln.\n\nThe solubility of water in 1-hexene at 20 °C was reported to be x_2 = 0.0016\n\nThe corresponding mass percent calculated by the compiler is 0.29 g(2)/ 100 g sln.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility of (1) in (2) was determined by glc.  The solubility of (2) in (1) was determined by Karl Fischer reagent method.",
+  "source_purity": "(1) source not specified; pure or analytical reagent grade; purity <99.9%.\n(2) not specified.",
+  "estimated_error": "Temperature: not specified.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Hexene",
+    "formula": "C6H12",
+    "cas": "592-41-6"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1-Hexene with Water"
+ },
+ {
+  "sheet_id": "37_169",
+  "system_id": "37011",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_169",
+  "system": "1-Hexyne with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Hexyne; C6H10; [693-02-7]",
+  "original_measurements": "McAuliffe, C., J. Phys. Chem. 1966, 70, 1267-75.",
+  "variables": "Temperature = One temperature: 25 °C",
+  "prepared_by": "A. Maczynski, Z. Maczynska, and A. Szafranski",
+  "critical_evaluation": "The solubility of 1-hexyne in water at 25 °C was reported to be 360 g(1)/10^6 g(2).\nThe corresponding mass percent and mole fraction, x_1, calculated by the compilers are 0.0360 g(1)/100 g sln and 7.89 x 10^-5.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "In a 250-mL bottle, 10-20 mL of (1) was vigorously shaken for 1 hr, or magnetically stirred for 1 day, with 200 mL of (2) at 25 °C.  The bottle was set aside for 2 days to allow droplets of undissolved (1) to separate.  Absence of emulsion was checked microscopically.  A sample of the hydrocarbon-saturated water was withdrawn with a Hamilton syringe and gas liquid chromatographed in conjunction with a flame-ionization detector.",
+  "source_purity": "(1) Phillips Petroleum or Columbia Chemical; used as received.\n(2) distilled.",
+  "estimated_error": "Solubility: 17 g(1)/10^6 g(2) (standard deviation of mean)\nTemperature: ± 1.5 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Hexyne",
+    "formula": "C6H10",
+    "cas": "693-02-7"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1-Hexyne with Water"
+ },
+ {
+  "sheet_id": "37_352",
+  "system_id": "37012",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_352",
+  "system": "1-Methylcyclohexene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Methylcyclohexene; C7H12; [591-49-1]",
+  "original_measurements": "McAuliffe, C., J. Phys. Chem. 1966, 70, 1267-75.",
+  "variables": "Temperature = One temperature: 25 °C",
+  "prepared_by": "A. Maczynski, Z. Maczynska, and A. Szafranski",
+  "critical_evaluation": "The solubility of 1-methylcyclohexene in water at 25°C was reported to be 52 g(1)/10^6 g(2).\nThe corresponding mass percent and mole fraction, x_1, calculated by the compilers are 0.0052 g(1)/100g sln and 9.7 x 10^-6.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "In a 250 mL glass bottle, 10-20 mL of (1) was vigorously shaken for 1 hr or magnetically stirred for 1 day, with 200 mL of (2) at 25 °C. The bottle was set aside for 2 days to allow droplets of undissolved (1) to separate. Absence of emulsion was checked microscopically.  A sample of the hydrocarbon-saturated water was withdrawn with a Hamilton Syringe and gas liquid chromatograph in conjunction with a flame ionization detector.",
+  "source_purity": "(1) Phillips Petroleum or Columbia Chemical; used as received.\n(2) distilled.",
+  "estimated_error": "Solubility: 52 g (1)/10^6 g(2) (standard deviation of mean)\nTemperature: ± 1.5 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Methylcyclohexene",
+    "formula": "C7H12",
+    "cas": "591-49-1"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1-Methylcyclohexene with Water"
+ },
+ {
+  "sheet_id": "37_23",
+  "system_id": "37013",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_23",
+  "system": "1-Pentene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Pentene; C5H10; [109-67-1]",
+  "original_measurements": "McAuliffe, C., J. Phys. Chem. 1966, 70, 1267-75.",
+  "variables": "Temperature = One temperature: 25 °C",
+  "prepared_by": "A. Maczynski, Z. Maczynska, and A. Szafranski",
+  "critical_evaluation": "The solubility of 1-pentene in water at 25 °C was reported to be 148 g(1)/10^6 g(2).\nThe corresponding mass percent and mole fraction, x_1, calculated by the compilers are 0.0148 g(1)/100 g sln and 3.80 x 10^-5.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "In a 250 mL glass bottle, 10-20 mL of (1) was vigorously shaken for 1 hr or magnetically stirred for 1 day, with 200 mL of (2) at 25 °C.  In the case of shaking, the solution was allowed to stand for 2 days to permit separation of small (1) droplets.  Absence of emulsion was checked microscopically.  A sample of the hydrocarbon-saturated water was withdrawn with a Hamilton syringe and gas liquid chromatographed in conjunction with a flame-ionization detector.",
+  "source_purity": "(1) Phillips Petroleum or Columbia Chemical; used as received.\n(2) distilled.",
+  "estimated_error": "Solubility: 7 g (1)/10^6 g(2) (standard deviation of mean)\nTemperature: ± 1.5 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Pentene",
+    "formula": "C5H10",
+    "cas": "109-67-1"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1-Pentene with Water"
+ },
+ {
+  "sheet_id": "37_10",
+  "system_id": "37014",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_10",
+  "system": "1-Pentyne with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Pentyne; C5H8; [627-19-0]",
+  "original_measurements": "McAuliffe, C., J. Phys. Chem. 1966, 70, 1267-75.",
+  "variables": "Temperature = One temperature: 25 °C",
+  "prepared_by": "A. Maczynski, Z. Maczynska, and A. Szafranski",
+  "critical_evaluation": "The solubility of 1-pentyne in water at 25 °C was reported to be 1570 g(1)/10^6 g(2).\nThe corresponding mass percent and mole fraction, x_1, calculated by the compilers are 0.1570 g(1)/100 g sln and 4.15 x 10^-4.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "In a 250-mL bottle, 10-20 mL of (1) was vigorously shaken for 1 hr, or magnetically stirred for 1 day, with 200 mL of (2) at 25 °C.  The bottle was set aside for 2 days to allow droplets of undissolved (1) to separate.  Absence of emulsion was checked microscopically.  A sample of the hydrocarbon-saturated water was withdrawn with a Hamilton syringe and gas liquid chromato-graphed in conjunction with a flame-ionization detector.",
+  "source_purity": "(1) Phillips Petroleum or Columbia Chemical; used as received.\n(2) distilled.",
+  "estimated_error": "Solubility: 33 g(1)/10^6 g(2) (standard deviation of mean)\nTemperature: ± 1.5 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Pentyne",
+    "formula": "C5H8",
+    "cas": "627-19-0"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "1-Pentyne with Water"
+ },
+ {
+  "sheet_id": "37_374",
+  "system_id": "37015",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_374",
+  "system": "2,2,3-Trimethylbutane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2,2,3-Trimethylbutane; C7H16; [464-06-2]",
+  "original_measurements": "Englin, B.A.; Plate, A.F.; Tugolukov, V.M. Pryanishnikova, M.A., Khim. Tekhnol. Topl. Masel 1965, 10, 42-6.",
+  "variables": "Temperature = 0-50 °C",
+  "prepared_by": "A. Maczynski and M.C. Haulait-Pirson",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Component (1) was introduced into a thermostatted flask and saturated for 5 hr. with (2).  Next, calcium hydride was added and the evolving hydrogen volume measured and hence the concentration of (2) in (1) was evaluated.",
+  "source_purity": "(1) not specified.\n(2) not specified.",
+  "estimated_error": "Temperature: not specified.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2,2,3-Trimethylbutane",
+    "formula": "C7H16",
+    "cas": "464-06-2"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "g_2/100 g solution",
+     "10^4 * Mole Fraction x_2 (compiler)"
+    ],
+    "rows": [
+     [
+      "0",
+      "0.0027",
+      "1.50"
+     ],
+     [
+      "10",
+      "0.0057",
+      "3.17"
+     ],
+     [
+      "20",
+      "0.0106",
+      "8.90"
+     ],
+     [
+      "30",
+      "0.0184",
+      "10.23"
+     ],
+     [
+      "40",
+      "0.0315",
+      "17.51"
+     ],
+     [
+      "50",
+      "0.0507",
+      "28.15"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "2,2,3-Trimethylbutane with Water"
+ },
+ {
+  "sheet_id": "37_228",
+  "system_id": "37017",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_228",
+  "system": "2,2-Dimethylbutane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2,2-Dimethylbutane; C6H14; [75-83-2]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "M.C. Haulait-Pirson, Department of Chemistry, University of Leuven, Belgium.\nG.T. Hefter, School of Mathematical and Physical Sciences, Murdoch University, Perth, W.A., Australia. November 1984.",
+  "critical_evaluation": "",
+  "experimental_values": "Quantitative solubility data for the system 2,2-dimthylbutane (1) and water (2) have been reported in the publications listed in Table 1.\n\n\n\nThe original data in all of these publications are compiled in the Data Sheets immediately following this Critical Evaluation.  For convenience, further discussion of this system will be divided into two parts.\n\n\n\n\n\n\n1.    THE SOLUBILITY OF 2,2-DIMTHYLBUTANE (1) IN WATER (2)\n\n\n\nThe solubility data for 2,2-dimethylbutane in water are listed in Table 2.  The datum of Krzyzanowska and Szeliga (ref 4) has been excluded from this evaluation as it does not appear to be independent of that of Price (ref 3).  The agreement between the other reported values at 298K (ref 1,2,3) is only fair (± 10% relative) and the average “best” value can only be regarded as tentative at this stage.  It should also be noted that the increase in solubility as the temperature goes from 298 K to 273 K reported by Polak and Lu (ref 2) is larger than typically observed in hydrocarbon-water systems (e.g. benzene in water).\n\n\n\n\n\n\n2.    THE SOLUBILITY OF WATER (2) IN 2,2-DIMTHYLBUTANE (1)\n\n\n\nThe solubility of water in 2,2-dimthylbutane has been reported in only one publication (ref 2), and thus no Critical Evaluation can be made.  However, the data of Polak and Lu are generally in good agreement with “Recommended” values in well-characterized systems.  The interested user is referred to the appropriate data sheet for solubility values.",
+  "notes": "Notes:\nTable 2^a  Obtained by averaging where appropriate; σ_n has no statistical significance",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  McAuliffe, C., J. Phys. Chem. 1966, 70, 1267-75.\n2  Polak, J.; Lu, B.C.Y., Can. J. Chem. 1973, 51, 4018-23.\n3  Price, L.C., Am. Assoc. Petrol. Geol. Bull. 1976, 60, 213-44.\n4  Krzyzanowska, T.; Szeliga, J.,  Nafta (Katowice) 1978, 12, 413-7.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2,2-Dimethylbutane",
+    "formula": "C6H14",
+    "cas": "75-83-2"
+   }
+  ],
+  "tables": [],
+  "kind": "compilation",
+  "system_name": "2,2-Dimethylbutane with Water"
+ },
+ {
+  "sheet_id": "37_229",
+  "system_id": "37017",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_229",
+  "system": "2,2-Dimethylbutane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2,2-Dimethylbutane; C6H14; [75-83-2]",
+  "original_measurements": "McAuliffe, C., J. Phys. Chem. 1966, 70, 1267-75.",
+  "variables": "Temperature = One temperature: 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The solubility of 2,2-dimethylbutane in water at 25 °C was reported to be 18.4 mg (1)/kg sln (0.00184 g(1)/100 g sln).\nThe corresponding mole fraction, x_1, calculated by the compiler, is 3.85 x 10^-6.\nThe same value is also reported in refs 1 and 2.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "In a 250 mL glass bottle, 10-20 mL of (1) was vigorously shaken for 1 hr or magnetically stirred for 1 day, with 200 mL of (2) at 25 °C.  In the case of shaking, the solution was allowed to stand for 2 days to permit separation of small (1) droplets.  Absence of emulsion was checked microscopically.  A 50 microliter sample of the (1) saturated water was withdrawn with a Hamilton Syringe and injected into the fractionator of the gas chromatograph.  A hydrogen-flame ionization detector was used.  Many details are given in the paper.",
+  "source_purity": "(1) Phillips Petroleum Co.; 99+% purity; used as received.\n(2) distilled.",
+  "estimated_error": "Solubility: 1.3 mg (1)/kg sln (standard deviation of mean)\nTemperature: ± 1.5 K",
+  "references": "^1McAuliffe, C. Nature (London) 1963, 200, 1092.\n^2McAuliffe, C. Am. Chem. Soc. Div. Petrol. Chem. 1964, 9, 275.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2,2-Dimethylbutane",
+    "formula": "C6H14",
+    "cas": "75-83-2"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "2,2-Dimethylbutane with Water"
+ },
+ {
+  "sheet_id": "37_230",
+  "system_id": "37017",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_230",
+  "system": "2,2-Dimethylbutane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2,2-Dimethylbutane; C6H14; [75-83-2]",
+  "original_measurements": "Polak, J.; Lu, B.C.Y., Can. J. Chem. 1973, 51, 4018-23.",
+  "variables": "Temperature = 0-25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a-e  See \"ESTIMATED ERROR\"",
+  "method": "The solubility of (1) in (2) was determined by gas chromatography.  The solubility of (2) in (1) was determined by Karl Fischer titration.  50 mL of (1) together with 50 mL of (2) were placed in a 125 mL Hypovial closed with a Teflon coated rubber septum and placed in a constant-temperature water bath.  The system was stirred magnetically for 24 hr or was kept in the bath without stirring for at least 7 days before samples were taken for analysis.  Details of the analysis are given in the paper.",
+  "source_purity": "(1) Phillips Petroleum Co.; pure grade reagent (99%+); shaken three times with distilled water.\n(2) distilled.",
+  "estimated_error": "Solubility: c)  ± 1.7%;  d)  ± 4.7%;  e)  ± 3.1%  (mean)\nTemperature: a)  ± 0.02 K;  b)  ± 0.01 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2,2-Dimethylbutane",
+    "formula": "C6H14",
+    "cas": "75-83-2"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^3 * g_1/kg",
+     "Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "0(a)",
+      "39.4^c",
+      "8.23 x 10^-6"
+     ],
+     [
+      "25(b)",
+      "23.8^c",
+      "4.97 x 10^-6"
+     ]
+    ]
+   },
+   {
+    "headers": [
+     "t/°C",
+     "10^3 * g_2/kg",
+     "g_2/kg Note",
+     "Mole Fraction x_2 (compiler)"
+    ],
+    "rows": [
+     [
+      "0(a)",
+      "32",
+      "d",
+      "1.53 x 10^-4"
+     ],
+     [
+      "25(b)",
+      "84",
+      "e",
+      "4.02 x 10^-4"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "2,2-Dimethylbutane with Water"
+ },
+ {
+  "sheet_id": "37_231",
+  "system_id": "37017",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_231",
+  "system": "2,2-Dimethylbutane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2,2-Dimethylbutane; C6H14; [75-83-2]",
+  "original_measurements": "Price, L.C., Am. Assoc. Petrol. Geol. Bull. 1976, 60, 213-44.",
+  "variables": "Temperature = One temperature: 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The solubility of 2,2-dimethylbutane in water at 25 °C and at system pressure was reported to be 21.1 mg(1)/kg(2). The corresponding mass percent and mole fraction, x_1, calculated by the compiler are 0.00212 g(1)/100 g sln and 4.43 x 10^-6.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility was determined at laboratory temperatures by use of screw-cap test tubes.  The (1) phase floated on top of the water and insured saturation of the (2) phase in 2 to 4 days.  Analyses were carried out by GLC using a Hewlett-Packard model 5751 gas chromatograph with dual-flame ionization detectors.  Many details are given in the paper.",
+  "source_purity": "(1) Phillips petroleum Company; Chemical Samples Company or Aldrich Chemical Company; 99+%.\n(2) distilled.",
+  "estimated_error": "Solubility: ± 0.3 mg(1)/kg(2)\nTemperature: ± 1 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2,2-Dimethylbutane",
+    "formula": "C6H14",
+    "cas": "75-83-2"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "2,2-Dimethylbutane with Water"
+ },
+ {
+  "sheet_id": "37_232",
+  "system_id": "37017",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_232",
+  "system": "2,2-Dimethylbutane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2,2-Dimethylbutane; C6H14; [75-83-2]",
+  "original_measurements": "Krzyzanowska, T.; Szeliga, J.,  Nafta (Katowice) 1978, 12, 413-7.",
+  "variables": "Temperature = One temperature: 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The solubility of 2,2-dimethylbutane in water at 25 °C was reported to be 21.20 mg (1)/kg (2).\nThe corresponding mass percent and mole fraction, x_1, calculated by compiler are 0.00212 g(1)/100 g sln and 4.43 x 10^-6.\nEditor's Note: Based on the results for this and other hydrocarbon-water systems, uncertainty exists about whether the datum compiled here is independent of that of Price for the same system (see previous page).",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Saturated solutions of (1) in (2) were prepared in two ways.  First, 200 microliters of (1) was injected into 20 mL of (2) and thermostatted at 25 °C.  Second, the mixture of (1) and (2) as above was thermostatted at 70 °C and then cooled to 25 °C.  The time required to obtain equilibrium was three weeks.  The solubility of (1) in (2) was measured by glc.  A Perkin-Elmer model F-11 gas chromatograph equipped with a 100-150 mesh Porasil column (70 °C) and a flame ionization detector was used.  Saturated solutions of heptane in (2) were used as standard solutions.",
+  "source_purity": "(1) not specified.\n(2) not specified.",
+  "estimated_error": "Temperature: 1.2 mg(1)/kg(2) (standard deviation fro 7-9 determinations)",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2,2-Dimethylbutane",
+    "formula": "C6H14",
+    "cas": "75-83-2"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "2,2-Dimethylbutane with Water"
+ },
+ {
+  "sheet_id": "37_376",
+  "system_id": "37018",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_376",
+  "system": "2,2-Dimethylpentane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2,2-Dimethylpentane; C7H16; [590-35-2]",
+  "original_measurements": "Krzyzanowska, T.; Szeliga, J.,  Nafta (Katowice) 1978, 12, 413-7.",
+  "variables": "Temperature = One temperature: 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The solubility of 2,2-dimethylpentane in water at 25°C was reported to be 4.40 mg(1)/kg(2).\nThe corresponding mass percent and mole fraction, x_1, calculated by compiler are 4.4 x 10^-4 g(1)/100 g sln and 7.9 x 10^-7.\nEditor's Note: Based on the results for this and other hydrocarbon-water systems, uncertainty exists about whether the datum compiled here is independent of that of Price for the same system (see previous page). Consequently, this system has not been evaluated.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Saturated solutions of (1) in (2) were prepared in two ways.  First, 200 microliters of (1) was injected into 20 mL of (2) and thermostatted at 25 °C.  Second, the mixture of (1) and 920 as above was thermostatted at 70 °C and then cooled to 25 °C.  The time required to obtain equilibrium was three weeks.  The solubility of (1) in (2) was measured by glc.  A Perkin-Elmer model F-11 gas chromatograph equipped with a 100-150 mesh Porasil column (70 °C) and a flame ionization detector was used.  Saturated solutions of heptane in (2) were used as standard solutions.",
+  "source_purity": "(1) not specified.\n(2) not specified.",
+  "estimated_error": "Solubility: 0.13 mg(1)/kg(2) (standard deviation from 7-9 determinations)",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2,2-Dimethylpentane",
+    "formula": "C7H16",
+    "cas": "590-35-2"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "2,2-Dimethylpentane with Water"
+ },
+ {
+  "sheet_id": "37_375",
+  "system_id": "37018",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_375",
+  "system": "2,2-Dimethylpentane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2,2-Dimethylpentane; C7H16; [590-35-2]",
+  "original_measurements": "Price, L.C., Am. Assoc. Petrol. Geol. Bull. 1976, 60, 213-44.",
+  "variables": "Temperature = One temperature: 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The solubility of 2,2-dimethylpentane in water at 25°C and at system pressure was reported to be 4.40 mg(1)/kg(2).  The corresponding mass percent and mole fraction, x_1, calculated by the compiler are 4.4 x 10^-4 g(1)/100 g sln and 7.9 x 10^-7.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility was etermined at laboratory temperatures by use of screw-cap test tubes.  The (1) phase floated on top of the water and insured saturation of the (2) phase in 2 to 4 days.  Analyses were carried out by GLC using a cHewlett-Packard model 5751 gas chromatograph with dual-flame ionization detectors.  Many details are given in the paper.",
+  "source_purity": "(1) Phillips Petroleum Company; Chemical Samples Company or Aldrich Chemical Company; 99+%.\n(2) distilled.",
+  "estimated_error": "Solubility: ± 0.11 mg(1)/kg(2)\nTemperature: ± 1 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2,2-Dimethylpentane",
+    "formula": "C7H16",
+    "cas": "590-35-2"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "2,2-Dimethylpentane with Water"
+ },
+ {
+  "sheet_id": "37_25",
+  "system_id": "37019",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_25",
+  "system": "2,2-Dimethylpropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2,2-Dimethylpropane; C5H12; [463-82-1]",
+  "original_measurements": "McAuliffe, C., J. Phys. Chem. 1966, 70, 1267-75.",
+  "variables": "Temperature = One temperature: 25 °C",
+  "prepared_by": "A. Maczynski, Z. Maczynska, and A. Szafranski",
+  "critical_evaluation": "The solubility of 2,2-dimethylpropane in water at 25 °C was reported to be 33.2 g(1)/10^6 g(2).\nThe corresponding mass percent and mole fraction,x_1, calculated by the compilers are 0.00332 g(1)/100 g sln and 8.30 x 10^-6.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "In a 250 mL glass bottle, 10-20 mL of (1) was vigorously shaken for 1 hr or magnetically stirred for 1 day, with 200 mL of (2) at 25 °C.  In the case of shaking, the solution was allowed to stand for 2 days to permit separation of small (1) droplets.  Absence of emulsion was checked microscopically.  A sample of the hydrocarbon-saturated water was withdrawn with a Hamilton syringe and gas liquid chromatographed in  conjunction with a flame-ionization detector.",
+  "source_purity": "(1) Phillips Petroleum or Columbia Chemical; used as received.\n(2) distilled.",
+  "estimated_error": "Solubility: 10 g (1)/10^6 g(2) (standard deviation of mean)\nTemperature: ± 1.5 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2,2-Dimethylpropane",
+    "formula": "C5H12",
+    "cas": "463-82-1"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "2,2-Dimethylpropane with Water"
+ },
+ {
+  "sheet_id": "37_218",
+  "system_id": "37020",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_218",
+  "system": "2,3-Dimethyl-1-butene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2,3-Dimethyl-1-butene; C6H12; [563-78-0]",
+  "original_measurements": "Englin, B.A.; Plate, A.F.; Tugolukov, V.M. Pryanishnikova, M.A., Khim. Tekhnol. Topl. Masel 1965, 10, 42-6.",
+  "variables": "Temperature = One temperature: 30 °C",
+  "prepared_by": "A. Maczynski and Z. Maczynska",
+  "critical_evaluation": "The solubility of water in 2,3-dimethyl-1-butene at 30 °C was reported to be 0.0459 g(2)/100 g sln.\n\nThe corresponding whole fraction, x_2 calculated by the compilers is 2.14 x 10^-3.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Component (1) was introduced into a thermostatted flask and saturated for 5 hr. with (2).  Next, calcium hydride was added and the evolving hydrogen volume measured and hence the concentration of (2) in (1) was evaluated.",
+  "source_purity": "(1) not specified.\n(2) not specified.",
+  "estimated_error": "Temperature: not specified.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2,3-Dimethyl-1-butene",
+    "formula": "C6H12",
+    "cas": "563-78-0"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "2,3-Dimethyl-1-butene with Water"
+ },
+ {
+  "sheet_id": "37_233",
+  "system_id": "37021",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_233",
+  "system": "2,3-Dimethylbutane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2,3-Dimethylbutane; C6H14; [79-29-8]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "M.C. Haulait-Pirson, Department of Chemistry, University of Leuven, Belgium.\nG.T. Hefter, School of Mathematical and Physical Sciences, Murdoch University, Perth, W.A., Australia. November 1984.",
+  "critical_evaluation": "",
+  "experimental_values": "Quantitative solubility data for the system 2,3-dimethylbutane (1) and water (2) have been reported in the publications listed in Table 1.\n\n\n\nThe original data in all of these publications are compiled in the Data Sheets immediately following this critical Evaluation.  For convenience, further discussion of this system will be divided into two parts.\n\n\n\n\n\n1.    THE SOLUBILITY OF 2,3-DIMETHYLBUTANE (1) IN WATER (2)\n\n\n\n\nThe solubility data for 2,3-dimethylbutane in water (ref 2,3) are listed in Table 2 and plotted in  Figure 1 The datum of Krzyzanowska and Szeliga (ref 4) has been excluded from this Evaluation as it does not appear to be independent of that of Price (ref 3).\n\n\n\nAt 298 K where comparison is possible, agreement between the reported values is only fair.  At other temperatures only the values of Price (ref 3) are available.  Thus all values are classified  as Tentative.  It should be noted firstly that the increase in solubility at lower temperatures reported by Polak and Lu (ref 2) is larger than is usually observed in hydrocarbon –water systems (e.g. benzene in water), and secondly the values of Price (ref 3) are usually reliable over the entire temperature range studied.\n\n\n\n\n\n2.    THE SOLUBILITY OF WATER (2) IN 2,3-DIMETHYLBUTANE (1)\n\n\n\nThe reported solubility data for water in 2,3-dimethylbutane (ref 1,2) are listed in Table 3.  There are insufficient data to warrant plotting.\n\n\n\nAgreement between the values at 273 K is excellent but at 298 K the datum of Englin et al. (ref 1) is about 50% (relative) higher than that of Polak and Lu (ref 2).  In well characterized systems (e.g. water in benzene) the data of Englin et al. are generally satisfactory  at T et al. should be regarded only as order of magnitude values.",
+  "notes": "Notes:\nTable 2^a  Values marked with an asterisk ( * ) have been obtained by the Evaluator by graphical interpolation of the original measurements.\nTable 2^b  Obtained by averaging where appropriate, σ_n has no statistical significance.\nTable 3^a  Graphically interpolated by the Evaluator; datum of Polak and Lu (ref 2) preferred, see text.\nTable 3^b  Order-of-magnitude values only, see text.",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  Englin, B.A.; Plate, A.F.; Tugolukov, V.M. Pryanishnikova, M.A., Khim. Tekhnol. Topl. Masel 1965, 10, 42-6.\n2  Polak, J.; Lu, B.C.Y., Can. J. Chem. 1973, 51, 4018-23.\n3  Price, L.C., Am. Assoc. Petrol. Geol. Bull. 1976, 60, 213-44.\n4  Krzyzanowska, T.; Szeliga, J.,  Nafta (Katowice) 1978, 12, 413-7.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2,3-Dimethylbutane",
+    "formula": "C6H14",
+    "cas": "79-29-8"
+   }
+  ],
+  "tables": [],
+  "kind": "compilation",
+  "system_name": "2,3-Dimethylbutane with Water"
+ },
+ {
+  "sheet_id": "37_234",
+  "system_id": "37021",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_234",
+  "system": "2,3-Dimethylbutane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2,3-Dimethylbutane; C6H14; [79-29-8]",
+  "original_measurements": "Englin, B.A.; Plate, A.F.; Tugolukov, V.M. Pryanishnikova, M.A., Khim. Tekhnol. Topl. Masel 1965, 10, 42-6.",
+  "variables": "Temperature = 0-50 °C",
+  "prepared_by": "A. Maczynski and M.C. Haulait-Pirson",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Component (1) was introduced into a thermostatted flask and saturated for 5 hours with (2).  Next, calcium hydride was added and the evolving hydrogen volume measured and hence the concentration of (2) in (1) was evaluated.",
+  "source_purity": "(1) not specified.\n(2) not specified.",
+  "estimated_error": "Temperature: not specified.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2,3-Dimethylbutane",
+    "formula": "C6H14",
+    "cas": "79-29-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "g_2/100 g solution",
+     "10^4 * Mole Fraction x_2 (compiler)"
+    ],
+    "rows": [
+     [
+      "0",
+      "0.0029",
+      "1.4"
+     ],
+     [
+      "10",
+      "0.0058",
+      "2.8"
+     ],
+     [
+      "20",
+      "0.0110",
+      "5.26"
+     ],
+     [
+      "30",
+      "0.0192",
+      "9.18"
+     ],
+     [
+      "40",
+      "0.0323",
+      "15.4"
+     ],
+     [
+      "50",
+      "0.0516",
+      "24.6"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "2,3-Dimethylbutane with Water"
+ },
+ {
+  "sheet_id": "37_235",
+  "system_id": "37021",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_235",
+  "system": "2,3-Dimethylbutane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2,3-Dimethylbutane; C6H14; [79-29-8]",
+  "original_measurements": "Polak, J.; Lu, B.C.Y., Can. J. Chem. 1973, 51, 4018-23.",
+  "variables": "Temperature = 0-25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "Table 1  ^a-e  see \"ESTIMATED ERROR\"",
+  "method": "The solubility of (1) in (2) was determined by gas chromatography.  The solubility of (2) in (1) was determined by Karl Fischer titration.  50 mL of (1) together with 50 mL of (2) were placed in a 125 mL Hypovial closed with a Teflon coated rubber septum and placed in a constant-temperature water bath.  The system was stirred magnetically for 24 hr or was kept in the bath without stirring for at least 7 days before samples were taken for analysis.  Details of the analysis are given in the paper.",
+  "source_purity": "(1) Phillips Petroleum Co.; pure grade reagent (99%+); shaken three times with distilled water.\n(2) distilled.",
+  "estimated_error": "Solubility: c)  ± 1.7%;  d)  ± 4.7%;  e)  ± 3.1%  (mean)\nTemperature: a)  ± 0.02 K;  b)  ± 0.01 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2,3-Dimethylbutane",
+    "formula": "C6H14",
+    "cas": "79-29-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^3 * g_1/kg",
+     "Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "0(a)",
+      "32.9^c",
+      "6.87 x 10^-6"
+     ],
+     [
+      "25(b)",
+      "22.5^c",
+      "4.70 x 10^-6"
+     ]
+    ]
+   },
+   {
+    "headers": [
+     "t/°C",
+     "10^3 * g_2/kg",
+     "g_2/kg Note",
+     "Mole Fraction x_2 (compiler)"
+    ],
+    "rows": [
+     [
+      "0(a)",
+      "30",
+      "d",
+      "1.43 x 10^-4"
+     ],
+     [
+      "25(b)",
+      "90",
+      "e",
+      "4.30 x 10^-4"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "2,3-Dimethylbutane with Water"
+ },
+ {
+  "sheet_id": "37_236",
+  "system_id": "37021",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_236",
+  "system": "2,3-Dimethylbutane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2,3-Dimethylbutane; C6H14; [79-29-8]",
+  "original_measurements": "Price, L.C., Am. Assoc. Petrol. Geol. Bull. 1976, 60, 213-44.",
+  "variables": "Temperature = 25-149.5 °C",
+  "prepared_by": "F. Kapuku",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Room-temperature solubilities were determined by use of screw-cap test tubes.  The (1) phase floated on top of (2) and ensured saturation (in 2 to 4 days) of the aqueous phase.  High-temperature solubility work was carried out in the ovens of the gas chromatograph.  The solutions were contained in 75 mL double ended stainless steel sample cylinders.  Modified Micro Linear Valves sealed the bottom of the cylinder and allowed syringe access to the solution during sampling.  The sample is then transferred to the gas chromatograph equipped with dual flame ionization detectors.  Many details are given in the paper.",
+  "source_purity": "(1) Phillips Petroleum Company; 99+%.\n(2) distilled.",
+  "estimated_error": "Solubility: range of values given above\nTemperature: ± 1 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2,3-Dimethylbutane",
+    "formula": "C6H14",
+    "cas": "79-29-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^3 * g_1/kg (compiler)",
+     "g_1/100 g solution (compiler)",
+     "10^6 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "25.0",
+      "19.1 ± 0.2",
+      "0.00191",
+      "3.99"
+     ],
+     [
+      "40.1",
+      "19.2 ± 0.5",
+      "0.00192",
+      "4.01"
+     ],
+     [
+      "55.1",
+      "23.7 ± 1.1",
+      "0.00237",
+      "4.95"
+     ],
+     [
+      "99.1",
+      "40.1 ± 1.2",
+      "0.00401",
+      "8.38"
+     ],
+     [
+      "121.3",
+      "56.8 ± 3.5",
+      "0.00568",
+      "11.87"
+     ],
+     [
+      "137.3",
+      "97.9 ± 2.3",
+      "0.00979",
+      "20.46"
+     ],
+     [
+      "149.5",
+      "171.0 ± 5.0",
+      "0.01710",
+      "35.75"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "2,3-Dimethylbutane with Water"
+ },
+ {
+  "sheet_id": "37_237",
+  "system_id": "37021",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_237",
+  "system": "2,3-Dimethylbutane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) Water; H2O; [7732-18-5]\n(3) 2,3-Dimethylbutane; C6H14; [79-29-8]\n(4) 2,3-Dimethylbutane; C6H14; [79-29-8]",
+  "original_measurements": "Krzyzanowska, T.; Szeliga, J.,  Nafta (Katowice) 1978, 12, 413-7.",
+  "variables": "Temperature = One temperature: 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The solubilty of 2,3-dimethylbutane in water at 25 °C was reported to be 19.10 mg (1)/kg(2).\nThe corresponding mass percent and mole fraction, x_1, calculated by compiler are 0.00191 g(1)/100 g sln and 3.99 x 10^-6.\nEditor's Note: Based on the results for this and other hydrocarbon-water systems, uncertaunity exists about whether the datum compiled here is independent of that of Price for the same system (see previous page).",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Saturated solutions of (1) in (2) were prepared in two ways.  First, 200 microliters of (1) was injected into 20 mL of (2) and thermostatted at 25 °C.  Second, the mixture of (1) and (2) as above was thermostatted at 70 °C and then cooled to 25 °C.  The time required to obtain equilibrium was three weeks.  The solubility of (1) in (2) was measured by glc.  A Perkin-Elmer model F-11 gas chromatograph equipped with a 100-150 mesh Porasil column (70 °C) and a flame ionization detector was used.  Saturated solutions of heptane in (2) were used as standard solutions.",
+  "source_purity": "(1) not specified.\n(2) not specified.",
+  "estimated_error": "Solubility: 0.48 mg(1)/kg(2) (standard deviation from 7-9 determinations)",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 3,
+    "name": "2,3-Dimethylbutane",
+    "formula": "C6H14",
+    "cas": "79-29-8"
+   },
+   {
+    "index": 4,
+    "name": "2,3-Dimethylbutane",
+    "formula": "C6H14",
+    "cas": "79-29-8"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "2,3-Dimethylbutane with Water"
+ },
+ {
+  "sheet_id": "37_378",
+  "system_id": "37022",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_378",
+  "system": "2,3-Dimethylpentane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2,3-Dimethylpentane; C7H16; [565-59-3]",
+  "original_measurements": "Krzyzanowska, T.; Szeliga, J.,  Nafta (Katowice) 1978, 12, 413-7.",
+  "variables": "Temperature = One temperature: 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The solubility of 2,3-dimethylpentane in water at 25°C was reported to be 5.25 mg(1)/kg(2).\nThe corresponding mass percent and mole fraction, x_1, calculated by compiler are 5.25 x 10^-4 g(1)/100 g sln and 9.43 x 10^-7.\nEditor's Note: Based on the results for this and other hydrocarbon-water systems, uncertainty exists about wether the datum compiled here is independent of that of Price for the same system (see previous page). Consequently, this system has not been evaluated.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Saturated solutions of (1) in (2) were prepared in two ways.  First, 200 microliters of (1) was injected into 20 mL of (2) and thermostatted at 25 °C.  Second the mixture, of (1) and (2) as above was thermostatted at 70 °C and then cooled to 25 °C.  The time required to obtain equilibrium was three weeks.  The solubility of (1) in (2) was measured by glc.  A Perkin-Elmer model F-11 gas chromatograph equipped with a 100-150 mesh Porasil column (70 °C) and a flame ionization detector was used.  Saturated solutions of heptane in (2) were used as standard solutions.",
+  "source_purity": "(1) not specified.\n(2) not specified.",
+  "estimated_error": "Solubility: 0.16 mg(1)/kg(2) (standard deviation from 7-9 determinations)",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2,3-Dimethylpentane",
+    "formula": "C7H16",
+    "cas": "565-59-3"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "2,3-Dimethylpentane with Water"
+ },
+ {
+  "sheet_id": "37_377",
+  "system_id": "37022",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_377",
+  "system": "2,3-Dimethylpentane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2,3-Dimethylpentane; C7H16; [565-59-3]",
+  "original_measurements": "Price, L.C., Am. Assoc. Petrol. Geol. Bull. 1976, 60, 213-44.",
+  "variables": "Temperature = One temperature: 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The solubility of 2,3-dimethylpentane in water at 25°C and at system pressure was reported to be 5.25 mg(1)/kg(2).  The corresponding mass percent and mole fraction, x_1, calculated by the compiler are 5.25 x 10^-4 g(1)/100 g sln and 9.43 x 10^-7.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility was determined at laboratory temperatures by use of screw-cap test tubes.  The (1) phase floated on top of the water and insured saturation of the (2) phase in 2 to 4 days.  Analyses were carried out by GLC using a Hewlett-Packard model 5751 gas chromatograph with dual-flame ionization detectors.  Many details are given in the paper.",
+  "source_purity": "(1) Phillips petroleum Company; Chemical Samples Company or Aldrich Chemical Company; 99+%.\n(2) distilled.",
+  "estimated_error": "Solubility: ± 0.02 mg(1)/kg(2)\nTemperature: ± 1 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2,3-Dimethylpentane",
+    "formula": "C7H16",
+    "cas": "565-59-3"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "2,3-Dimethylpentane with Water"
+ },
+ {
+  "sheet_id": "37_380",
+  "system_id": "37023",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_380",
+  "system": "2,4-Dimethylpentane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2,4-Dimethylpentane; C7H16; [108-08-7]",
+  "original_measurements": "McAuliffe, C., Nature (London) 1963, 200, 1092-3.",
+  "variables": "Temperature = One temperature: 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The solubility of 2,4-dimethylpentane in water at 25°C was reported to be 3.62 mg (1)/ kg sln (0.00362 g(1)/100 g sln).\nThe corresponding mole fraction, x_1, calculated by the compiler, is 6.5 x 10^-7.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "20-50 mL of 91) was added to 920 and vigorously shaken or stirred several days with a magnetic stirrer.  A 0.05 mL or 0.10 mL water was directly injected into the gas chromatograph fitted with a suitable fractionator to absorb water.  A hydrogen-flame ionization detector was used.",
+  "source_purity": "(1) Phillips Petroleum Co.; 99+% purity; used as received.\n(2) distilled.",
+  "estimated_error": "Solubility: 0.10 mg (10/kg sln (standard deviation from mean)\nTemperature: ± 1.5 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2,4-Dimethylpentane",
+    "formula": "C7H16",
+    "cas": "108-08-7"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "2,4-Dimethylpentane with Water"
+ },
+ {
+  "sheet_id": "37_382",
+  "system_id": "37023",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_382",
+  "system": "2,4-Dimethylpentane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2,4-Dimethylpentane; C7H16; [108-08-7]",
+  "original_measurements": "Polak, J.; Lu, B.C.Y., Can. J. Chem. 1973, 51, 4018-23.",
+  "variables": "Temperature = 0-25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "Table 1  ^a-e  see \"ESTIMATED ERROR\"",
+  "method": "The solubility of (1) in (2) was determined by gas chromatography.  The solubility of (2) in (1) was determined by Karl Fischer titration.  50 mL of (1) together with 50 mL of (2) were placed in a 125 mL Hypovial closed with a Teflon coated rubber septum and placed in a constant-temperature water bath.  The system was stirred magnetically for 24 hr or was kept in the bath without stirring for at least 7 days before samples were taken for analysis.  Details of the analysis are given in the paper.",
+  "source_purity": "(1) Phillips Petroleum Co.; pure grade reagent (99%+); shaken three times with distilled water.\n(2) distilled.",
+  "estimated_error": "Solubility: c)  ± 1.7%;  d)  ± 4.7%;  e)  ± 3.1%  (mean)\nTemperature: a)  ± 0.02 K;  b)  ± 0.01 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2,4-Dimethylpentane",
+    "formula": "C7H16",
+    "cas": "108-08-7"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^3 * g_1/kg",
+     "Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "0(a)",
+      "6.50^c",
+      "1.17 x 10^-6"
+     ],
+     [
+      "25(b)",
+      "5.50^c",
+      "9.88 x 10^-7"
+     ]
+    ]
+   },
+   {
+    "headers": [
+     "t/°C",
+     "10^3 * g_2/kg",
+     "g_2/kg Note",
+     "Mole Fraction x_2 (compiler)"
+    ],
+    "rows": [
+     [
+      "0(a)",
+      "31",
+      "d",
+      "1.73 x 10^-4"
+     ],
+     [
+      "25(b)",
+      "81",
+      "e",
+      "4.51 x 10^-4"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "2,4-Dimethylpentane with Water"
+ },
+ {
+  "sheet_id": "37_384",
+  "system_id": "37023",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_384",
+  "system": "2,4-Dimethylpentane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2,4-Dimethylpentane; C7H16; [108-08-7]",
+  "original_measurements": "Krzyzanowska, T.; Szeliga, J.,  Nafta (Katowice) 1978, 12, 413-7.",
+  "variables": "Temperature = One temperature: 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The solubility of 2,4-dimethylpentane in water at 25°C was reported to be 4.41 mg(1)/kg(2).\nThe corresponding mass percent and mole fraction, x_1, calculated by compiler are 4.41 x 10^-4 g(1)/100 g sln and 7.92 x 10^-7.\nEditor's Note: Based on the results for this and other hydrocarbon-water systems, uncertainty exists about wether the datum compiled here is independent of that of Price for the same system (see previous page).",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Saturated solutions of (1) in (2) were prepared in two ways.  First, 200 microliters of (1) was injected into 20 mL of (2) and thermostatted at 25 °C.  Second the mixture, of (1) and (2) as above was thermostatted at 70 °C and then cooled to 25 °C.  The time required to obtain equilibrium was three weeks.  The solubility of () in (2) was measured by glc.  A Perkin-Elmer model F-11 gas chromatograph equipped with a 100-150 mesh Porasil column (70 °C) and a flame ionization detector was used.  Saturated solutions of heptane in (2) were used as standard solutions.",
+  "source_purity": "(1) not specified.\n(2) not specified.",
+  "estimated_error": "Solubility: 0.14 mg(1)/kg(2) (standard deviation from 7-9 determinations)",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2,4-Dimethylpentane",
+    "formula": "C7H16",
+    "cas": "108-08-7"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "2,4-Dimethylpentane with Water"
+ },
+ {
+  "sheet_id": "37_379",
+  "system_id": "37023",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_379",
+  "system": "2,4-Dimethylpentane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2,4-Dimethylpentane; C7H16; [108-08-7]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "M.C. Haulait-Pirson, Department of Chemistry, University of Leuven, Belgium.\nG.T. Hefter, School of Mathematical and Physical Sciences, Murdoch University, Perth, W.A., Australia. November 1984.",
+  "critical_evaluation": "",
+  "experimental_values": "Quantitative solubility data for the system 2,4-dimethylpentane (1) and water (2) are reported in the publications listed in Table 1.\n\n\nThe original data in all of these publications are compiled in the Data Sheets immediately following this Critical Evaluation.  For convenience, further discussion of this system will be in two parts.\n\n\n\n\n\n1.    THE SOLUBILITY OF 2,4-DIMTHYLPENTANE (1) IN WATER (2)\n\n\nSolubility data for 2,4-dimethylpentane in water (ref 2, 4) are listed in Table 2 with the following exceptions.  The datum of Krzyzanowska and Szeliga (ref 5) has been excluded because it does not appear to be independent of that of Price (ref 4).  The earlier datum of McAuliffe (ref 1) is presumably superceded by his later determination (ref 2) and has also been excluded.\n\n\n\n\nThe 298K datum of Polak and Lu (ref 3) is considerably higher (ca. 25% relative)  than other reported values (ref 2, 4).  Furthermore, the increase in solubility between 298 and 273 K, as for other hydrocarbons investigated by these authors, is unusually large.  The data of Polak and Lu (ref 3) are therefore rejected.\n\n\n\n\n2.    THE SOLUBILITY OF WATER (2) IN 2,4-DIMETHYLPENTANE (1)\n\n\nThe solubility of water in 2,4-dimthylpentane has been reported only by Polak and Lu (ref 3) and thus no critical evaluation can be made.  The interested user is referred to the relevant Data Sheet for solubility values.  However, it can be noted that the data of Polak and Lu are generally close to “Recommended” values in well characterized systems.",
+  "notes": "Notes:\nTable 2^a  \"Best\" values obtained by averagaing; σ_n has no statistical significance.",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  McAuliffe, C., Nature (London) 1963, 200, 1092-3.\n2  McAuliffe, C., J. Phys. Chem. 1966, 70, 1267-75.\n3  Polak, J.; Lu, B.C.Y., Can. J. Chem. 1973, 51, 4018-23.\n4  Price, L.C., Am. Assoc. Petrol. Geol. Bull. 1976, 60, 213-44.\n5  Krzyzanowska, T.; Szeliga, J.,  Nafta (Katowice) 1978, 12, 413-7.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2,4-Dimethylpentane",
+    "formula": "C7H16",
+    "cas": "108-08-7"
+   }
+  ],
+  "tables": [],
+  "kind": "compilation",
+  "system_name": "2,4-Dimethylpentane with Water"
+ },
+ {
+  "sheet_id": "37_381",
+  "system_id": "37023",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_381",
+  "system": "2,4-Dimethylpentane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2,4-Dimethylpentane; C7H16; [108-08-7]",
+  "original_measurements": "McAuliffe, C., J. Phys. Chem. 1966, 70, 1267-75.",
+  "variables": "Temperature = One temperature: 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The solubility of 2,4-dimethylpentane in water at 25°C was reported to be 4.06 mg (1)/kg sln (0.00406 g(1)/100 g sln).\nThe corresponding mole fraction, x_1, calculated by the compiler, is 7.3 x 10^-7.\nThe same value is also reported in ref 1.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "In a 250 mL glass bottle, 10-20 mL of (1) was vigorously shaken for 1 hr or magnetically stirred for 1 day, with 200 mL of (2) at 25 °C.  In the case of shaking, the solution was allowed to stand for 2 days to permit separation of small (1) droplets.  Absence of emulsion was checked microscopically.  A 50 microliter sample of the (1) saturated water was withdrawn with a Hamilton Syringe and injected into the fractionator of the gas chromatograph.  A hydrogen-flame ionization detector was used.  Many details are given in the paper.",
+  "source_purity": "(1) Phillips Petroleum Co.; 99+% purity; used as received.\n(2) distilled.",
+  "estimated_error": "Solubility: 0.29 mg (1)/kg sln (standard deviation of mean)\nTemperature: ± 1.5 K",
+  "references": "^1McAuliffe, C. Am. Chem. Soc. Div. Petrol. Chem. 1964, 9, 275.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2,4-Dimethylpentane",
+    "formula": "C7H16",
+    "cas": "108-08-7"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "2,4-Dimethylpentane with Water"
+ },
+ {
+  "sheet_id": "37_383",
+  "system_id": "37023",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_383",
+  "system": "2,4-Dimethylpentane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2,4-Dimethylpentane; C7H16; [108-08-7]",
+  "original_measurements": "Price, L.C., Am. Assoc. Petrol. Geol. Bull. 1976, 60, 213-44.",
+  "variables": "Temperature = One temperature: 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The solubility of 2,4-dimethylpentane in water at 25°C and at system pressure was reported to be 4.41 mg(1)/kg(2).  The corresponding mass percent and mole fraction, x_1, calculated by the compiler are 4.41 x 10^-4 g(1)/100 g sln and 7.92 x 10^-7.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility was determined at laboratory temperatures by use of screw-cap test tubes.  The (1) phase floated on top of the water and insured saturation of the (2) phase in 2 to 4 days.  Analyses were carried out by GLC using a Hewlett-Packard model 5751 gas chromatograph with dual-flame ionization detectors.  Many details are givern in the paper.",
+  "source_purity": "(1) Phillips Petroleum Company; Chemical Samples Company or Aldrich Chemical Company; 99+%.\n(2) distilled.",
+  "estimated_error": "Solubility: ± 0.05 mg(1)/kg(2)\nTemperature: ± 1 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2,4-Dimethylpentane",
+    "formula": "C7H16",
+    "cas": "108-08-7"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "2,4-Dimethylpentane with Water"
+ },
+ {
+  "sheet_id": "37_346",
+  "system_id": "37024",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_346",
+  "system": "2,5-Norbornadiene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2,5-Norbornadiene; C7H8; [121-46-0]",
+  "original_measurements": "Englin, B.A.; Plate, A.F.; Tugolukov, V.M. Pryanishnikova, M.A., Khim. Tekhnol. Topl. Masel 1965, 10, 42-6.",
+  "variables": "Temperature = 20-50 °C",
+  "prepared_by": "A. Maczynski and Z. Maczynska",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Component (1) was introduced into a thermostatted flask and saturated for 5 hr. with (2).  Next, calcium hydride was added and the evolving hydrogen volume measured and hence the concentration of (2) in (1) was evaluated.",
+  "source_purity": "(1) not specified.\n(2) not specified.",
+  "estimated_error": "Temperature: Not specified.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2,5-Norbornadiene",
+    "formula": "C7H8",
+    "cas": "121-46-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "g_2/100 g solution",
+     "10^3 * Mole Fraction x_2 (compiler)"
+    ],
+    "rows": [
+     [
+      "20",
+      "0.0295",
+      "1.51"
+     ],
+     [
+      "30",
+      "0.0383",
+      "1.96"
+     ],
+     [
+      "50",
+      "0.0675",
+      "3.44"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "2,5-Norbornadiene with Water"
+ },
+ {
+  "sheet_id": "37_370",
+  "system_id": "37025",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_370",
+  "system": "2-Heptene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2-Heptene; C7H14; [592-77-8]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "G.T. Hefter, School of Mathematical and Physical Sciences, Murdoch University, Perth, Australia. July 1985.",
+  "critical_evaluation": "",
+  "experimental_values": "Quantitative data for the solubility of 2-heptene (1) in water (2) have been reported in the publications listed in Table 1.\n\n\n\nThe agreement between the two studies is excellent and although the measurement temperatures differ slightly this effect should be minor.  The values in Table 1 are therefore Recommended.\n\n\n\nSolubility values of 2-heptene in various salt solutions have also been reported (ref 3) but, although in broad agreement with the values given in Table 1 will not be considered in this Evaluation.  No data are available for the solubility of water in 2-heptene.",
+  "notes": "Notes:\nTable 1^a  (R)-Recommended value",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  McAuliffe, C., J. Phys. Chem. 1966, 70, 1267-75.\n2  Schwarz, F.P., Anal. Chem. 1980, 52, 10-15.\n3  Natarajan, G.S.; Venkatachalam, K.A., J. Chem. Eng. Data 1972, 17, 328-9.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2-Heptene",
+    "formula": "C7H14",
+    "cas": "592-77-8"
+   }
+  ],
+  "tables": [],
+  "kind": "compilation",
+  "system_name": "2-Heptene with Water"
+ },
+ {
+  "sheet_id": "37_372",
+  "system_id": "37025",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_372",
+  "system": "2-Heptene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2-Heptene; C7H14; [592-77-8]",
+  "original_measurements": "Schwarz, F.P., Anal. Chem. 1980, 52, 10-15.",
+  "variables": "Temperature = One temperature: 23.5 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "Solubility of 2-heptane in water at 23.5°C was reported to be 0.00150 ± 0.00003 g(1)/100 g sln.\nThe corresponding mole fraction, x_1, calculated by the compiler is 2.75 x 10^-6.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "An elusion chromatography method was used where (1) was the stationary phase and (2) the mobile phase.  A transparent column was packed with an inert support (chromosorb P) coated with a known amount of the liquid solute (1).  This solute column was connected to a water reservoir (connected to a compressed gas regulator).  Water was forced through the column by the pressure of the compressed gas (ca. 14 kPa).  As the total volume of water flowing through the column increased, a solute depleted zone, different in color from the stationary phase, developed and increased in length.  The solubility is calculated from the amount of solute removed from the column, I.e. length of the solute depleted zone, and the volume of water passed through the column.  Many details about preparation of the solute column and calculation are given in the paper.",
+  "source_purity": "(1) 99% purity used without further purification\n(2) distilled",
+  "estimated_error": "Solubility: 2% (average std. Dev.)\nTemperature: ± 1.5°C",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2-Heptene",
+    "formula": "C7H14",
+    "cas": "592-77-8"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "2-Heptene with Water"
+ },
+ {
+  "sheet_id": "37_371",
+  "system_id": "37025",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_371",
+  "system": "2-Heptene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2-Heptene; C7H14; [592-77-8]",
+  "original_measurements": "McAuliffe, C., J. Phys. Chem. 1966, 70, 1267-75.",
+  "variables": "Temperature = 25 °C",
+  "prepared_by": "A. Maczynski, Z. Maczynska, and A. Szafranski",
+  "critical_evaluation": "The solubility of 2-heptane in water at 25°C was reported to be 15 g(1)/10^6 g(2).\nThe corresponding mass percent and mole fraction, x_1, calculated by the compilers are 0.0015 g(1)/100 g sln and 2.7 x 10^-6.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "In a 250 mL glass bottle, 10-20 mL of (1) was vigorously shaken for 1 hr or magnetically stirred for 1 day, with 200 mL of (2) at 25 °C.  Absence of emulsion was checked microscopically.  A sample of the hydrocarbon-saturated water was withdrawn with a Hamilton Syringe and gas liquid chromatograph in conjunction with a flame ionization detector.",
+  "source_purity": "(1) Phillips Petroleum or Columbia Chemical; used as received.\n(2) distilled.",
+  "estimated_error": "Solubility: 1.4 g (1)/10^6 g(2) (standard deviation of mean)\nTemperature: ± 1.5 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2-Heptene",
+    "formula": "C7H14",
+    "cas": "592-77-8"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "2-Heptene with Water"
+ },
+ {
+  "sheet_id": "37_373",
+  "system_id": "37025",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_373",
+  "system": "2-Heptene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2-Heptene; C7H14; [592-77-8]",
+  "original_measurements": "Natarajan, G.S.; Venkatachalam, K.A., J. Chem. Eng. Data 1972, 17, 328-9.",
+  "variables": "Temperature = One temperature: 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson, G.T. Hefter",
+  "critical_evaluation": "The solubility of 2-heptane in water was reported to be 2.716 x 10^-4 mol L^-1 at 25°C.  ^a Assuming a solution density of 1.00 g mL^-1 the corresponding mass percent and mole fraction (x_1) solubilities, calculated by the compilers are respectively, 0.00266 g(1)/100 g sln and 4.89 x 10^-6.\nSolubility data are also presented as a function of temperature in various salt solutions.",
+  "experimental_values": "",
+  "notes": "Table 1  ^a  It should be noted that although the authors state that the solubility refers to \"water\" the context in the paper is ambiguous and the data were probably obtained in 0.001 mol L^-1 HNO_3 solution.",
+  "method": "15 mL of the aqueous medium was equilibrated with 1 mL of (1) by mechanical shaking in a thermostated glass burette.  After settling (judged visually), 5 mL of the aqueous layer was withdrawn and the olefin content determined by titration with bromine using standard procedures.",
+  "source_purity": "(1) Prepared by dehydration of 2-heptanol and then washed, dried, and fractionated.  Purity (no specification) was determined by chromatography.\n(2) Not specified.",
+  "estimated_error": "Solubility: not specified.\nTemperature: ± 0.05 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2-Heptene",
+    "formula": "C7H14",
+    "cas": "592-77-8"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "2-Heptene with Water"
+ },
+ {
+  "sheet_id": "37_227",
+  "system_id": "37026",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_227",
+  "system": "2-Hexene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2-Hexene; C6H12; [592-43-8]",
+  "original_measurements": "Natarajan, G.S.; Venkatachalam, K.A., J. Chem. Eng. Data 1972, 17, 328-9.",
+  "variables": "Temperature = 20-30 °C",
+  "prepared_by": "M.C. Haulait-Pirson, and G.T. Hefter",
+  "critical_evaluation": "Compiler's note: Although the data have not been measured in pure water the low concentration of the added acid is unlikely to cause the olefin solubilty to differ markedly from that in pure water. Further solubility data are given in the paper for 0.05 and 0.1 mol L^-1 HCl.",
+  "experimental_values": "",
+  "notes": "Table 1  ^  Compiler's note:  Although the data have not been measured in pure water the low concentration of the added acid is unlikely to cause the olefin solubility to differ markedly from that in pure water.  Further solubility data are given in the paper for 0.05 and 0.1 mol L^-1 HCl.\nTable 1  ^a  Uncertainties stated to be \"standard deviations from means\".\nTable 1  ^b  Assuming a solution density of 1.00 g mL^-1 at all temperatures.",
+  "method": "15mL of the aqueous medium was equilibrated with 1 mL of (1) by mechanical shaking in a thermostatted glass burette.  After settling (judged visually), 5 mL of the aqueous layer was withdrawn and the olefin content determined by titration with bromine using standard procedures.",
+  "source_purity": "(1) Prepared by dehydration of 2-hexanol and then washed, dried and fractionated.  Purity (no specification) was determined by chromatography.\n(2) not specified.",
+  "estimated_error": "Solubility: see table above.\nTemperature: ± 0.05 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2-Hexene",
+    "formula": "C6H12",
+    "cas": "592-43-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^3 * g_1/100 g solution (compiler)",
+     "10^5 * Mole Fraction x_1 (compiler)",
+     "10^4 * n_1/V_2 [mol/L]"
+    ],
+    "rows": [
+     [
+      "20",
+      "7.4",
+      "1.6",
+      "8.75 ± 0.21"
+     ],
+     [
+      "25",
+      "6.7",
+      "1.4",
+      "7.99 ± 0.23"
+     ],
+     [
+      "30",
+      "5.5",
+      "1.2",
+      "6.60 ± 0.26"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "2-Hexene with Water"
+ },
+ {
+  "sheet_id": "37_6",
+  "system_id": "37027",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_6",
+  "system": "2-Methyl-1,3-butadiene with Water",
+  "components": "(1) 2-Methyl-1,3-butadiene; C5H8; [78-79-5]\n(2) Water; H2O; [7732-18-5]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "G.T. Hefter, School of Mathematical and Physical Sciences, Murdoch University, Perth, Australia. November 1984.",
+  "critical_evaluation": "",
+  "experimental_values": "Quantitative solubility data for the system 2-methyl-1,3-bitadiene (1) and water (2) have been reported in the publications listed in Table 1.\n\n\n\nAs only one study of the solubility of (2) in (1)  has been reported (ref 2), no Critical Evaluation of those data can be made.  The interested user is referred to the relevant data sheet for experimental values.\n\n\n\nThe reported values of the solubility of (1) in (2) are listed in Table 2 and plotted in  Figure 1 .  The agreement at 298 K between the value of McAuliffe (ref 1) and the interpolated value of Pavlova et al. (ref 2) is reasonable so the “Best” values in Table 2 may be considered “Tentative”, subject to further studies.",
+  "notes": "Notes:\nTable 2^a  Graphically interpolated by the Evaluator\nTable 2^b  \"Best\" values obtained by averaging; σ_n has no statistical significance",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  McAuliffe, C., J. Phys. Chem. 1966, 70, 1267-75.\n2  Pavlova, S.P.; Pavlov, S.Yu.; Serafimov, L.A.; Kofman, L.S., Promyshlennost. Sinteticheskogo Kauchuka 1966, 3, 18-20.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "2-Methyl-1,3-butadiene",
+    "formula": "C5H8",
+    "cas": "78-79-5"
+   },
+   {
+    "index": 2,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [],
+  "kind": "compilation",
+  "system_name": "2-Methyl-1,3-butadiene with Water"
+ },
+ {
+  "sheet_id": "37_7",
+  "system_id": "37027",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_7",
+  "system": "2-Methyl-1,3-butadiene with Water",
+  "components": "(1) 2-Methyl-1,3-butadiene; C5H8; [78-79-5]\n(2) Water; H2O; [7732-18-5]",
+  "original_measurements": "McAuliffe, C., J. Phys. Chem. 1966, 70, 1267-75.",
+  "variables": "Temperature = One temperature: 25 °C",
+  "prepared_by": "A. Maczynski, Z. Maczynska, and A. Szafranski",
+  "critical_evaluation": "The solubility of 2-methyl-1, 3-butadiene in water at 25 °C was reported to be 642 g(1)/10^6 g(2).\nThe corresponding mass percent and mole fraction, x_1, calculated by the compilers are 0.0642 g(1)/100 g sln and 1.70 x 10^-4.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "In a 250-mL bottle, 10-20 mL of (1) was vigorously shaken for 1 hr, or magnetically stirred for 1 day, with 200 mL of (2) at 25 °C.  The bottle was set aside for 2 days to allow droplets of undissolved (1) to separate.  Absence of emulsion was checked microscopically.  A sample of the hydrocarbon-saturated water was withdrawn with a Hamilton syringe and gas liquid chromato-graphed in conjunction with a flame-ionization detector.",
+  "source_purity": "(1) Phillips Petroleum or Columbia Chemical; used as received.\n(2) distilled.",
+  "estimated_error": "Solubility: 10 g(1)/10^6 g(2) (standard deviation of mean)\nTemperature: ± 1.5 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "2-Methyl-1,3-butadiene",
+    "formula": "C5H8",
+    "cas": "78-79-5"
+   },
+   {
+    "index": 2,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "2-Methyl-1,3-butadiene with Water"
+ },
+ {
+  "sheet_id": "37_8",
+  "system_id": "37027",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_8",
+  "system": "2-Methyl-1,3-butadiene with Water",
+  "components": "(1) 2-Methyl-1,3-butadiene; C5H8; [78-79-5]\n(2) Water; H2O; [7732-18-5]",
+  "original_measurements": "Pavlova, S.P.; Pavlov, S.Yu.; Serafimov, L.A.; Kofman, L.S., Promyshlennost. Sinteticheskogo Kauchuka 1966, 3, 18-20.",
+  "variables": "Temperature = 20-60 °C",
+  "prepared_by": "A. Maczynski",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility of (1) in (2) was determined by glc.  The solubility of (2) in (1) was determined by the Karl Fischer reagent method.",
+  "source_purity": "(1) source not specified; better than 99.7 wt%.\n(2) doubly distilled.",
+  "estimated_error": "Temperature: ± 0.1 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "2-Methyl-1,3-butadiene",
+    "formula": "C5H8",
+    "cas": "78-79-5"
+   },
+   {
+    "index": 2,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "g_1/100 g solution (compiler)",
+     "10^4 * Mole Fraction x_1"
+    ],
+    "rows": [
+     [
+      "20",
+      "0.05448",
+      "1.441"
+     ],
+     [
+      "40",
+      "0.06646",
+      "1.758"
+     ],
+     [
+      "50",
+      "0.07609",
+      "2.013"
+     ],
+     [
+      "60",
+      "0.08671",
+      "2.294"
+     ]
+    ]
+   },
+   {
+    "headers": [
+     "t/°C",
+     "g_2/100 g solution (compiler)",
+     "10^3 * Mole Fraction x_2"
+    ],
+    "rows": [
+     [
+      "20",
+      "0.0598",
+      "2.26"
+     ],
+     [
+      "40",
+      "0.0949",
+      "3.58"
+     ],
+     [
+      "60",
+      "0.1468",
+      "5.53"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "2-Methyl-1,3-butadiene with Water"
+ },
+ {
+  "sheet_id": "37_219",
+  "system_id": "37028",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_219",
+  "system": "2-Methyl-1-pentene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2-Methyl-1-pentene; C6H12; [763-29-1]",
+  "original_measurements": "McAuliffe, C., J. Phys. Chem. 1966, 70, 1267-75.",
+  "variables": "Temperature = One temperature: 25 °C",
+  "prepared_by": "A. Maczynski, Z. Maczynska, and A. Szafranski",
+  "critical_evaluation": "The solubility of 2-methyl-1-pentene in water at 25 °C was reported to be 78 g(1)/10^6 g(2).\nThe corresponding mass percent and mole fraction, x_1, calculated  by the compilers are 0.0078 g(1)/100 g sln and 1.7 x 10^-5.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "In a 250-mL bottle, 10-20 mL of (1) was vigorously shaken for 1 hr, or magnetically stirred for 1 day, with 200 mL of (2) at 25 °C.  The bottle was set aside for 2 days to allow droplets of undissolved (1) to separate.  Absence of emulsion was checked microscopically.  A sample of the hydrocarbon-saturated water was withrawn with a Hamilton syringe and gas liquid chromatographed in conjunction with a flame-ionization detector.",
+  "source_purity": "(1) Phillips Petroleum or Columbia Chemical; used as received.\n(2) distilled.",
+  "estimated_error": "Solubility: 3.2 g(1)/10^6 g(2) (standard deviation of mean)\nTemperature: ± 1.5 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2-Methyl-1-pentene",
+    "formula": "C6H12",
+    "cas": "763-29-1"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "2-Methyl-1-pentene with Water"
+ },
+ {
+  "sheet_id": "37_18",
+  "system_id": "37029",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_18",
+  "system": "2-Methyl-2-butene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2-Methyl-2-butene; C5H10; [513-35-9]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "G.T. Hefter, School of Mathematical and Physical Sciences, Murdoch University, Perth, Australia. November 1984.",
+  "critical_evaluation": "",
+  "experimental_values": "Quantitative solubility data for the 2-methyl-2-butene (1) and water (2) system have been reported in the publications listed in Table 1.\n\n\n\nAs only one study of the solubility of (1) in (2) has been reported (ref 2), no Critical Evaluation of those data can be made.  The interested user is referred to the relevant data sheet for the experimental values.  Solubilities of 2-methyl-2-butene in various aqueous salt solutions have also been reported (ref 3) but will not be considered in this Evaluation.\n\n\n\nThe reported values for the solubility for (2) in (1) are listed in Table 2 and plotted in  Figure 1 .  The agreement between the values at 293 K of Englin et al. (ref 1) and Pavlova et al. (ref 2) is reasonable and so the values in Table 2 may be considered “Tentative”, subject to further studies.",
+  "notes": "Notes:\nTable 2^a  This \"Best\" value obtained by averaging; σ_n has no statistical significance.",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  Englin, B.A.; Plate, A.F.; Tugolukov, V.M. Pryanishnikova, M.A., Khim. Tekhnol. Topl. Masel 1965, 10, 42-6.\n2  Pavlova, S.P.; Pavlov, S.Yu.; Serafimov, L.A.; Kofman, L.S., Promyshlennost. Sinteticheskogo Kauchuka 1966, 3, 18-20.\n3  Natarajan, G.S.; Venkatachalam, K.A., J. Chem. Eng. Data 1972, 17, 328-9.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2-Methyl-2-butene",
+    "formula": "C5H10",
+    "cas": "513-35-9"
+   }
+  ],
+  "tables": [],
+  "kind": "compilation",
+  "system_name": "2-Methyl-2-butene with Water"
+ },
+ {
+  "sheet_id": "37_19",
+  "system_id": "37029",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_19",
+  "system": "2-Methyl-2-butene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2-Methyl-2-butene; C5H10; [513-35-9]",
+  "original_measurements": "Englin, B.A.; Plate, A.F.; Tugolukov, V.M. Pryanishnikova, M.A., Khim. Tekhnol. Topl. Masel 1965, 10, 42-6.",
+  "variables": "Temperature = One temperature: 20 °C",
+  "prepared_by": "A. Maczynski and Z. Maczynska",
+  "critical_evaluation": "The solubility of water in 2-methyl-2-butene at 20 °C was reported to be 0.0435 g(2)/100 g sln.\n\nThe corresponding mole fraction,x_2, calculated by the compilers is 1.69 x 10^-3.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Component (1) was introduced into a thermostatted flask and saturated for 5 hr. with (2).  Next, calcium hydride was added and the evolving hydrogen volume measured and hence the concentration of (2) in (1) was evaluated.",
+  "source_purity": "(1) not specified.\n(2) not specified.",
+  "estimated_error": "Temperature: not specified.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2-Methyl-2-butene",
+    "formula": "C5H10",
+    "cas": "513-35-9"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "2-Methyl-2-butene with Water"
+ },
+ {
+  "sheet_id": "37_20",
+  "system_id": "37029",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_20",
+  "system": "2-Methyl-2-butene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2-Methyl-2-butene; C5H10; [513-35-9]",
+  "original_measurements": "Pavlova, S.P.; Pavlov, S.Yu.; Serafimov, L.A.; Kofman, L.S., Promyshlennost. Sinteticheskogo Kauchuka 1966, 3, 18-20.",
+  "variables": "Temperature = 20-60 °C",
+  "prepared_by": "A. Maczynski",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility of (1) in (2) was determined by glc.  The solubility of (2) in (1) was determined by the Karl Fischer reagent method.",
+  "source_purity": "(1) source not specified; better than 99.7 wt%.\n(2) doubly distilled.",
+  "estimated_error": "Temperature: ± 0.1 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2-Methyl-2-butene",
+    "formula": "C5H10",
+    "cas": "513-35-9"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "g_1/100 g solution (compiler)",
+     "10^5 * Mole Fraction x_1"
+    ],
+    "rows": [
+     [
+      "20",
+      "0.0215",
+      "5.63"
+     ],
+     [
+      "40",
+      "0.0236",
+      "6.06"
+     ],
+     [
+      "50",
+      "0.0250",
+      "6.42"
+     ],
+     [
+      "60",
+      "0.0267",
+      "6.87"
+     ]
+    ]
+   },
+   {
+    "headers": [
+     "t/°C",
+     "g_2/100 g solution (compiler)",
+     "10^3 * Mole Fraction x_2"
+    ],
+    "rows": [
+     [
+      "20",
+      "0.0388",
+      "1.51"
+     ],
+     [
+      "40",
+      "0.0589",
+      "2.29"
+     ],
+     [
+      "60",
+      "0.0906",
+      "3.52"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "2-Methyl-2-butene with Water"
+ },
+ {
+  "sheet_id": "37_21",
+  "system_id": "37029",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_21",
+  "system": "2-Methyl-2-butene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2-Methyl-2-butene; C5H10; [513-35-9]",
+  "original_measurements": "Natarajan, G.S.; Venkatachalam, K.A., J. Chem. Eng. Data 1972, 17, 328-9.",
+  "variables": "Temperature = 15-25 °C",
+  "prepared_by": "M.C. Haulait-Pirson, G.T. Hefter",
+  "critical_evaluation": "Compiler's note: Although the data have not been measured in pure water the low concentration of the added acid is unlikely to cause the olefin solubility to differ markedly from that in pure water. Further, solubility data are given in the paper for 0.05 and 0.1 mol L^-1 HCl.",
+  "experimental_values": "",
+  "notes": "Table 1  ^  Compiler's note:  Although the data have not been measured in pure water the low concentration of the added acid is unlikely to cause the olefin solubility to differ markedly from that in pure water.  Further solubility data are given in the paper for 0.05 and 0.1 mol L^-1 HCl.\nTable 1  ^a  Uncertainties stated to be \"standard deviation from means\".\nTable 1  ^b  Assuming a solution density of 1.00 g mL^-1 at all temperatures.",
+  "method": "15 mL of the aqueous medium was equilibrated with 1 mL of (1) by mechanical shaking in a thermostatted glass burette.  After settling (judged visually), 5 mL of the aqueous layer was withdrawn and the olefin content determined by titration with bromine using standard procedures.",
+  "source_purity": "(1) Prepared by dehydration of t-amyl alcohol and then washed, dried and fractionated.  Purity (no specification)  was determined by chromatography.\n(2) Not specified.",
+  "estimated_error": "Solubility: see table above.\nTemperature: ± 0.05 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2-Methyl-2-butene",
+    "formula": "C5H10",
+    "cas": "513-35-9"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "g_1/100 g solution (compiler)",
+     "g_1/100 g soln. Note (compiler)",
+     "10^5 * Mole Fraction x_1 (compiler)",
+     "10^3 * n_1/V_2 [mol/L]"
+    ],
+    "rows": [
+     [
+      "15",
+      "0.037",
+      "b",
+      "9.3",
+      "5.15 ± 0.21 (a)"
+     ],
+     [
+      "20",
+      "0.035",
+      "b",
+      "8.8",
+      "4.88 ± 0.16 (a)"
+     ],
+     [
+      "25",
+      "0.033",
+      "b",
+      "8.3",
+      "4.71 ± 0.20 (a)"
+     ]
+    ]
+   }
+  ],
+  "kind": "evaluation",
+  "system_name": "2-Methyl-2-butene with Water"
+ },
+ {
+  "sheet_id": "37_32",
+  "system_id": "37030",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_32",
+  "system": "2-Methylbutane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2-Methylbutane; C5H12; [78-78-4]",
+  "original_measurements": "Price, L.C., Am. Assoc. Petrol. Geol. Bull. 1976, 60, 213-44.",
+  "variables": "Temperature = One temperature: 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The solubility of 2-methylbutane in water at 25 °C and at system pressure was reported to be 48 mg(1)/kg (2).  The corresponding mass percent and mole fraction,x_1, calculated by the compiler are 0.0048 g(1)/100 g sln and 1.20 x 10^-5.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility was determined at laboratory temperatures by use of screw-cap test tubes.  The (1) phase floated on top of the water and insured saturation of the (2) phase in 2 to 4 days.  Analyses were carried out by GLC using a Hewlett-Packard model 5751 gas chromatograph with dual flame ionization detectors.  Many details are given in the paper.",
+  "source_purity": "(1)Phillips Petroleum Company; Chemical Samples Company or Aldrich Chemical Company; 99+%.\n(2) distilled.",
+  "estimated_error": "Solubility: 1 mg (1)/kg (2)\nTemperature: ± 1 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2-Methylbutane",
+    "formula": "C5H12",
+    "cas": "78-78-4"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "2-Methylbutane with Water"
+ },
+ {
+  "sheet_id": "37_26",
+  "system_id": "37030",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_26",
+  "system": "2-Methylbutane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2-Methylbutane; C5H12; [78-78-4]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "G.T. Hefter, School of Mathematical and Physical Sciences, Murdoch University, Perth, W.A., Australia. July 1985.",
+  "critical_evaluation": "",
+  "experimental_values": "Quantitative solubility data for the 2-methylbutane (1) and water (2) system have been reported in the publications listed in Table 1.\n\n\n\nThe original data in all of these publications are compiled in the Data Sheets immediately following this Critical Evaluation.\n\n\n\nIn the Tables, which follow, solubility obtained by the Evaluator by graphical interpolation of original measurements in the Data Sheets are indicated by an asterisk (*).  “Best” values have been obtained, where appropriate, by simple averaging.  Uncertainty limits (σ_n) attached to these values do not have statistical significance and should be regarded only as a convenient representation of the spread of values rather than error limits.\n\n\n\nFor convenience, further discussion of this system will be divided into two parts.\n\n\n\n\n1. THE SOLUBILITY OF 2 METHYLBUTANE (1) IN WATER (2)\n\n\nThe solubility data for 2-methylbutane in water are listed in Table 2 and are also plotted in  Figure 1 .  The data of Krzyzanowska and Szeliga (ref 7) have been excluded from this Evaluation as they do not appear to be independent of those reported by Price (ref 6).\n\n\n\nAt 298K, where comparison amongst independent values is possible, agreement is excellent.  This gives added confidence to the values at other temperatures.  A possible exception may be the value of Polak and Lu (ref 5) at 273 K which appears a little high (even though some increase in solubility of hydrocarbons in water is usually observed as the temperature approaches 273 K, e.g. the benzene-water system).\n\n\n\n\n\n2.    THE SOLUBILITY OF WATER (2) IN 2-METHYLBUTANE (1)\n\n\n\nThe solubility data for water in 2-methylbutane are listed in Table 3 and plotted in  Figure 2 . In general the reported values are in reasonable  agreement.  The only exception appears to be the data of Pavlova et al. (ref 4) which are higher than other values.  Although there are insufficient independent data to justify outright rejection of the values of Pavlova et al. at this stage, nevertheless, their data have not been used in determining “best” values (Table 3) and should be regarded with caution.",
+  "notes": "Notes:\nTable 2^a  Value may be doubtful, see text.\nTable 3^a  Data from ref 4 not included in calculation of \"best\" values, see text.",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  Black, C.; Joris, G.G.; Taylor, H.S., J. Chem. Phys. 1948, 16, 537-43.\n2  Englin, B.A.; Plate, A.F.; Tugolukov, V.M. Pryanishnikova, M.A., Khim. Tekhnol. Topl. Masel 1965, 10, 42-6.\n3  McAuliffe, C., J. Phys. Chem. 1966, 70, 1267-75.\n4  Pavlova, S.P.; Pavlov, S.Yu.; Serafimov, L.A.; Kofman, L.S., Promyshlennost. Sinteticheskogo Kauchuka 1966, 3, 18-20.\n5  Polak, J.; Lu, B.C.Y., Can. J. Chem. 1973, 51, 4018-23.\n6  Price, L.C., Am. Assoc. Petrol. Geol. Bull. 1976, 60, 213-44.\n7  Krzyzanowska, T.; Szeliga, J.,  Nafta (Katowice) 1978, 12, 413-7.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2-Methylbutane",
+    "formula": "C5H12",
+    "cas": "78-78-4"
+   }
+  ],
+  "tables": [],
+  "kind": "compilation",
+  "system_name": "2-Methylbutane with Water"
+ },
+ {
+  "sheet_id": "37_27",
+  "system_id": "37030",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_27",
+  "system": "2-Methylbutane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2-Methylbutane; C5H12; [78-78-4]",
+  "original_measurements": "Black, C.; Joris, G.G.; Taylor, H.S., J. Chem. Phys. 1948, 16, 537-43.",
+  "variables": "Temperature = 6-21.8 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "Table 1  ^*  Determinations made in glass apparatus",
+  "method": "The method described in ref 1 in which tritium oxide acts as a tracer, was used.  Air saturated with radioactive water vapor was bubbled through the (1) sample until saturation was attained.  Dissolved water was separated from (1) by absorption on calcim oxide.  The tritum was transferred in the counter through equilibration with ethanol vapor.",
+  "source_purity": "(1) Ohio State University under an American Petroleum Institute Project; purity not specified; used as received.\n(2) not specified.",
+  "estimated_error": "Solubility: a few percent (type of error not specified).",
+  "references": "^1Joris, G.G.; Taylor, H.S. J. Chem Phys. 1948, 16, 45.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2-Methylbutane",
+    "formula": "C5H12",
+    "cas": "78-78-4"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "g_2/100 g solution",
+     "g_2/100 g solution (compiler)",
+     "10^4 * Mole Fraction x_2 (compiler)"
+    ],
+    "rows": [
+     [
+      "15.3",
+      "0.0066*",
+      "0.0066",
+      "2.6"
+     ],
+     [
+      "21.3",
+      "0.0096*",
+      "0.0096",
+      "3.8"
+     ],
+     [
+      "21.8",
+      "0.0097*",
+      "0.0097",
+      "3.9"
+     ],
+     [
+      "6.0",
+      "0.00443",
+      "0.00443",
+      "1.78"
+     ],
+     [
+      "6.0",
+      "0.00433",
+      "0.00433",
+      "1.74"
+     ],
+     [
+      "6.0",
+      "0.00440",
+      "0.00440",
+      "1.76"
+     ],
+     [
+      "20.0",
+      "0.00940",
+      "0.00940",
+      "3.76"
+     ],
+     [
+      "20.0",
+      "0.00902",
+      "0.00902",
+      "3.61"
+     ],
+     [
+      "20.0",
+      "0.00942",
+      "0.00942",
+      "7.77"
+     ],
+     [
+      "20.5",
+      "0.01001",
+      "0.01001",
+      "4.02"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "2-Methylbutane with Water"
+ },
+ {
+  "sheet_id": "37_28",
+  "system_id": "37030",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_28",
+  "system": "2-Methylbutane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2-Methylbutane; C5H12; [78-78-4]",
+  "original_measurements": "Englin, B.A.; Plate, A.F.; Tugolukov, V.M. Pryanishnikova, M.A., Khim. Tekhnol. Topl. Masel 1965, 10, 42-6.",
+  "variables": "Temperature = 0-20°C",
+  "prepared_by": "A. Maczynski and M.C. Haulait-Pirson",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Component (1) was introduced into a thermostatted flask and saturated for 5 hr. with (2).  Next, calcium hydride was added and the evolving hydrogen volume measured and hence the concentration of (2) in (1) was evaluated.",
+  "source_purity": "(1) not specified.\n(2) not specified.",
+  "estimated_error": "Temperature: not specified.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2-Methylbutane",
+    "formula": "C5H12",
+    "cas": "78-78-4"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "g_2/100 g solution",
+     "10^4 * Mole Fraction x_2 (compiler)"
+    ],
+    "rows": [
+     [
+      "0",
+      "0.0032",
+      "1.28"
+     ],
+     [
+      "10",
+      "0.0059",
+      "2.37"
+     ],
+     [
+      "20",
+      "0.0112",
+      "4.49"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "2-Methylbutane with Water"
+ },
+ {
+  "sheet_id": "37_29",
+  "system_id": "37030",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_29",
+  "system": "2-Methylbutane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2-Methylbutane; C5H12; [78-78-4]",
+  "original_measurements": "McAuliffe, C., J. Phys. Chem. 1966, 70, 1267-75.",
+  "variables": "Temperature = One temperature: 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The solubility of 2-methylbutane in water at 25 °C was reported to be 47.8 mg (1)/kg sln, (0.0478 g(1)/100 g sln).\nThe corresponding mole fraction,x_1, calculated by the compiler, is 1.19 x 10^-5.\nThe same value is also reported in refs 1 and 2.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "In a 250 mL glass bottle, 10-20 mL of (1) was vigorously shaken for 1 hr or magnetically stirred for 1 day, with 200 mL of (2) at 25 °C.  In the case of shaking, the solution was allowed to stand for 2 days to permit separation of small (1) droplets.  Absence of emulsion was checked microscopically.  A 50 microliter sample of the (1) saturated water was withdrawn with a Hamilton Syringe and injected into the fractionator of the gas chromatograph.  A hydrogen-flame ionization detector was used.  Many details are given in the paper.",
+  "source_purity": "(1) Phillips Petroleum Co.; 99+%; used as received.\n(2) distilled.",
+  "estimated_error": "Solubility: 1.6 mg (1)/kg sln (standard deviation of mean)\nTemperature: ± 1.5 K",
+  "references": "^1McAuliffe, C. Nature (London) 1963, 200, 1092.\n^2McAuliffe, C. Am. Chem. Soc. Div. Petrol. Chem. 1964, 9, 275.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2-Methylbutane",
+    "formula": "C5H12",
+    "cas": "78-78-4"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "2-Methylbutane with Water"
+ },
+ {
+  "sheet_id": "37_30",
+  "system_id": "37030",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_30",
+  "system": "2-Methylbutane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2-Methylbutane; C5H12; [78-78-4]",
+  "original_measurements": "Pavlova, S.P.; Pavlov, S.Yu.; Serafimov, L.A.; Kofman, L.S., Promyshlennost. Sinteticheskogo Kauchuka 1966, 3, 18-20.",
+  "variables": "Temperature = 20-60 °C",
+  "prepared_by": "A. Maczynski",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility of (1) in (2) was determined by glc.  The solubility of (2) in (1) was determined by the Karl Fischer reagent method.",
+  "source_purity": "(1) source not specified; better than 99.7 wt%.\n(2) doubly distilled.",
+  "estimated_error": "Temperature: ± 0.1 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2-Methylbutane",
+    "formula": "C5H12",
+    "cas": "78-78-4"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "g_1/100 g solution (compiler)",
+     "10^5 * Mole Fraction x_1"
+    ],
+    "rows": [
+     [
+      "20",
+      "0.00469",
+      "1.17"
+     ],
+     [
+      "40",
+      "0.00577",
+      "1.44"
+     ],
+     [
+      "50",
+      "0.00701",
+      "1.75"
+     ],
+     [
+      "60",
+      "0.00793",
+      "1.98"
+     ]
+    ]
+   },
+   {
+    "headers": [
+     "t/°C",
+     "g_2/100 g solution (compiler)",
+     "10^3 * Mole Fraction x_2"
+    ],
+    "rows": [
+     [
+      "20",
+      "0.0160",
+      "0.64"
+     ],
+     [
+      "40",
+      "0.0257",
+      "1.03"
+     ],
+     [
+      "60",
+      "0.0585",
+      "2.34"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "2-Methylbutane with Water"
+ },
+ {
+  "sheet_id": "37_31",
+  "system_id": "37030",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_31",
+  "system": "2-Methylbutane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2-Methylbutane; C5H12; [78-78-4]",
+  "original_measurements": "Polak, J.; Lu, B.C.Y., Can. J. Chem. 1973, 51, 4018-23.",
+  "variables": "Temperature = 0-25°C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "Table 1  ^a-e  see \"ESTIMATED ERROR\"",
+  "method": "The solubility of (1) in (2) was determined by gas chromatography.  The solubility of (2) in (1) was determined by Karl Fischer titration.  50 mL of (1) together with 50 mL of (2) were placed in a 125 mL Hypovial closed with a Teflon coated rubber septum and placed in a constant-temperature water bath.  The system was stirred magnetically for 24 hr or was kept in the bath without stirring for at least 7 days before samples were taken for analysis.  Details of the analysis are given in the paper.",
+  "source_purity": "(1) Phillips Petroleum Co.; pure grade reagent (99+%); shaken three times with distilled water.\n(2) distilled.",
+  "estimated_error": "Solubility: c)  ± 1.7%;  d)  ± 4.7%;  e)  ± 3.1%  (mean)\nTemperature: a)  ± 0.02 K;  b)  ± 0.01 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2-Methylbutane",
+    "formula": "C5H12",
+    "cas": "78-78-4"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^3 * g_1/kg",
+     "g_1/kg Note",
+     "Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "0 (a)",
+      "72.4",
+      "c",
+      "1.81 x 10^-5"
+     ],
+     [
+      "25 (b)",
+      "49.6",
+      "c",
+      "1.24 x 10^-5"
+     ]
+    ]
+   },
+   {
+    "headers": [
+     "t/°C",
+     "10^3 * g_2/kg",
+     "g_2/kg Note",
+     "Mole Fraction x_2 (compiler)"
+    ],
+    "rows": [
+     [
+      "0 (a)",
+      "28",
+      "d",
+      "1.12 x 10^-4"
+     ],
+     [
+      "25 (b)",
+      "96",
+      "e",
+      "3.85 x 10^-4"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "2-Methylbutane with Water"
+ },
+ {
+  "sheet_id": "37_33",
+  "system_id": "37030",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_33",
+  "system": "2-Methylbutane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2-Methylbutane; C5H12; [78-78-4]",
+  "original_measurements": "Krzyzanowska, T.; Szeliga, J.,  Nafta (Katowice) 1978, 12, 413-7.",
+  "variables": "Temperature = One temperature: 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The solubility of 2-methylbutane in water at 25 °C was reported to be 48 mg(1)/kg(2).\nThe corresponding mass percent and mole fraction,x_1, calculated by compiler are 0.0048 g(1)/100 g sln and 1.2 x 10^-5.\nEditor's Note: Based on the results for this and other hydrocabon-water systems, uncertainty exists about whether the datum compiled here is independent of that of Price for the same system (see previous page).",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Saturated solutions of (1) in (2) were prepared in two ways.  First, 200 microliters of (1) was injected into 20 mL of (2) and thermostatted at 25 °C.  Second, the mixture of (1) and (2) as above was thermostatted at 70 °C and then cooled to 25 °C.  The time required to obtain equilibrium was three weeks.  The solubility of (1) in (2) was measured by glc.  A Perkin-Elmer model F-11 gas chromatograph equipped with a 100-150-mesh Porasil column (70 °C) and a flame ionization detector was used.  Saturated solutions of heptane in (2) were used as standard solutions.",
+  "source_purity": "(1) not specified.\n(2) not specified.",
+  "estimated_error": "Solubility: 1.44 mg(1)/kg(2) (standard deviation from 7-9 determinations)",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2-Methylbutane",
+    "formula": "C5H12",
+    "cas": "78-78-4"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "2-Methylbutane with Water"
+ },
+ {
+  "sheet_id": "37_388",
+  "system_id": "37031",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_388",
+  "system": "2-Methylhexane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2-Methylhexane; C7H16; [591-76-4]",
+  "original_measurements": "Price, L.C., Am. Assoc. Petrol. Geol. Bull. 1976, 60, 213-44.",
+  "variables": "Temperature = One temperature: 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The solubility of 2-methylhexane in water at 25°C and at system pressure was reported to be 2.54 mg(1)/kg(2).  The corresponding mass percent and mole fraction, x_1, calculated by the compiler are 2.54 x 10^-4 g(1)/100 g sln and 4.57 x 10^-7.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility was determined at laboratory temperatures by use od screw-cap test tubes.  The (1) phase floated on top of the water phase in 2 to 4 days.  Analyses were carried out by GLC using a Hewlett-Packard model 5751 gas chromatograph with dual-flame ionization detectors.  Many details are given in the paper.",
+  "source_purity": "(1) Phillips Petroleum Company; Chemical Samples Company or Aldrich Chemical Company; 99+%.\n(2) distilled.",
+  "estimated_error": "Solubility: ± 0.02 mg(1)/kg(2)\nTemperature: ± 1 K",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2-Methylhexane",
+    "formula": "C7H16",
+    "cas": "591-76-4"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "2-Methylhexane with Water"
+ },
+ {
+  "sheet_id": "37_387",
+  "system_id": "37031",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_387",
+  "system": "2-Methylhexane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2-Methylhexane; C7H16; [591-76-4]",
+  "original_measurements": "Englin, B.A.; Plate, A.F.; Tugolukov, V.M. Pryanishnikova, M.A., Khim. Tekhnol. Topl. Masel 1965, 10, 42-6.",
+  "variables": "Temperature = 10-30 °C",
+  "prepared_by": "A. Maczynski and M.C. Haulait-Pirson",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Component (1) was introduced into a thermostatted flask and saturated for 5 hours with (2).  Next, calcium hydride was added and the evolving hydrogen volume measured and hence the concentration of (2) in (1) was evaluated.",
+  "source_purity": "(1) not specified.\n(2) not specified.",
+  "estimated_error": "Temperature: not specified.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2-Methylhexane",
+    "formula": "C7H16",
+    "cas": "591-76-4"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "g_2/100 g solution",
+     "10^4 * Mole Fraction x_2 (compiler)"
+    ],
+    "rows": [
+     [
+      "10",
+      "0.0056",
+      "3.12"
+     ],
+     [
+      "20",
+      "0.0103",
+      "5.73"
+     ],
+     [
+      "30",
+      "0.0182",
+      "10.12"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "2-Methylhexane with Water"
+ },
+ {
+  "sheet_id": "37_389",
+  "system_id": "37031",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=37_389",
+  "system": "2-Methylhexane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 2-Methylhexane; C7H16; [591-76-4]",
+  "original_measurements": "Krzyzanowska, T.; Szeliga, J.,  Nafta (Katowice) 1978, 12, 413-7.",
+  "variables": "Temperature = One temperature: 25 °C",
+  "prepared_by": "M.C. Haulait-Pirson",
+  "critical_evaluation": "The solubility of 2-methylhexane in water at 25°C was reported to be 2.54 mg(1)/kg(2).\nThe corresponding mass percent and mole fraction, x_1, calculated by compiler are 2.54 x 10^-4 g(1)/100 g sln and 4.57 x 10^-7.\nEditor's Note: Based on the results for this and other hydrocarbon-water systems, uncertainty exists about wether the datum compiled here is independent of that of Price for the same system (see previous page). Consequently, this system has not been evaluated.",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Saturated solutions of (1) in (2) were prepared in two ways.  First, 200 microliters of (1) was injected into 20 mL of (2) and thermostatted at 25 °C.  Second the mixture, of (1) and (2) as above was thermostatted at 70 °C and then cooled to 25 °C.  The time required to obtain equilibrium was three weeks.  The solubility of () in (2) was measured by glc.  A Perkin-Elmer model F-11 gas chromatograph equipped with a 100-150 mesh Porasil column (70 °C) and a flame ionization detector was used.  Saturated solutions of heptane in (2) were used as standard solutions.",
+  "source_purity": "(1) not specified.\n(2) not specified.",
+  "estimated_error": "Solubility: 0.09 mg(1)/kg(2) (standard deviation from 7-9 determinations)",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "2-Methylhexane",
+    "formula": "C7H16",
+    "cas": "591-76-4"
+   }
+  ],
+  "tables": [],
+  "kind": "evaluation",
+  "system_name": "2-Methylhexane with Water"
+ }
+]
