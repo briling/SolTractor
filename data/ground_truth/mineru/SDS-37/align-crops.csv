@@ -1,0 +1,24 @@
+sheet_id,system,score,page,index_on_page,dup,n_values,n_found,recall,missing
+37_348,"1,3,5-Cycloheptatriene with Water",1.0,455,0,,9,9,1.0,
+37_350,"1,3,5-Cycloheptatriene with Water",1.0,457,0,,20,20,1.0,
+37_156,"1,4-Cyclohexadiene with Water",1.0,216,0,,20,20,1.0,
+37_167,"1,5-Hexadiene with Water",,,,,8,0,,
+37_368,1-Heptene with Water,1.0,478,0,,9,9,1.0,
+37_367,1-Heptene with Water,,,,,16,0,,
+37_369,1-Heptene with Water,1.0,479,0,,15,15,1.0,
+37_374,"2,2,3-Trimethylbutane with Water",1.0,484,0,,17,17,1.0,
+37_230,"2,2-Dimethylbutane with Water",1.0,306,0,,10,10,1.0,
+37_234,"2,3-Dimethylbutane with Water",1.0,312,0,,17,17,1.0,
+37_235,"2,3-Dimethylbutane with Water",0.8,313,0,,10,6,0.6,30 1.43 90 4.30
+37_236,"2,3-Dimethylbutane with Water",1.0,314,0,,35,35,1.0,
+37_382,"2,4-Dimethylpentane with Water",0.8,493,0,,10,6,0.6,31 1.73 81 4.51
+37_346,"2,5-Norbornadiene with Water",1.0,452,0,,9,9,1.0,
+37_227,2-Hexene with Water,,,,,15,0,,
+37_8,"2-Methyl-1,3-butadiene with Water",0.93,30,0,,21,21,1.0,
+37_20,2-Methyl-2-butene with Water,0.93,45,0,,21,21,1.0,
+37_21,2-Methyl-2-butene with Water,,,,,15,0,,
+37_27,2-Methylbutane with Water,1.0,55,0,,40,40,1.0,
+37_28,2-Methylbutane with Water,1.0,56,0,,8,8,1.0,
+37_30,2-Methylbutane with Water,0.78,58,0,,21,15,0.71,0.0160 0.64 0.0257 1.03 0.0585 2.34
+37_31,2-Methylbutane with Water,0.8,59,0,,10,6,0.6,28 1.12 96 3.85
+37_387,2-Methylhexane with Water,1.0,498,0,,9,9,1.0,
