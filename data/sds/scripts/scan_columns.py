@@ -2,7 +2,9 @@
 
 Usage: python -I scan_columns.py SDS-N [--top 25] [--lines 3]
 """
-import argparse, collections, pathlib, re
+import argparse, collections, pathlib, re, sys
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from paths import volume_root  # noqa: E402
 
 START = re.compile(r'EXPERIMENTAL\s+VALUES', re.I)
 END = re.compile(r'AUXILIARY\s+INFORMATION|METHOD\s*[/:]|COMPONENTS\s*:|SOURCE\s+AND\s+PURITY', re.I)
@@ -18,7 +20,7 @@ def normalize(line: str) -> str:
 
 def sheets(volume: str):
     """Yield EXPERIMENTAL VALUES blocks from the cached text layer text/<volume>.txt."""
-    cache = pathlib.Path(__file__).resolve().parent.parent / 'text' / f'{volume}.txt'
+    cache = volume_root(volume) / 'text' / f'{volume}.txt'
     text = cache.read_text(errors='replace')
     for page in text.split('\f'):
         m = START.search(page)

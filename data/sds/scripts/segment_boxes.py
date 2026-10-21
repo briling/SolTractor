@@ -17,9 +17,10 @@ Output is one JSON record per sheet with the raw text of each box, so later
 stages (alignment with the NIST database, LLM extraction, back-search QC)
 work box by box instead of on flat page text.
 """
-import argparse, collections, json, pathlib, re
+import argparse, collections, json, pathlib, re, sys
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from paths import volume_root  # noqa: E402
 
-ROOT = pathlib.Path(__file__).resolve().parent.parent
 CONFUSE = {'M': '[MH]', 'O': '[O0]', 'I': '[I1l|]', 'L': '[L1]', 'S': '[S5]', 'B': '[B8]', 'E': '[E3]', 'U': '[UV]'}
 
 
@@ -160,7 +161,7 @@ def parse_sheet(lines: list[str]) -> dict:
 
 
 def segment(volume: str) -> list[dict]:
-    pages = (ROOT / 'text' / f'{volume}.txt').read_text(errors='replace').split('\f')
+    pages = (volume_root(volume) / 'text' / f'{volume}.txt').read_text(errors='replace').split('\f')
     out = []
     for pno, page in enumerate(pages, 1):
         lines = page.split('\n')
@@ -185,7 +186,7 @@ def main() -> None:
     ap.add_argument('--stats', action='store_true')
     a = ap.parse_args()
     recs = segment(a.volume)
-    out = pathlib.Path(a.out) if a.out else ROOT / 'boxes' / f'{a.volume}.jsonl'
+    out = pathlib.Path(a.out) if a.out else volume_root(a.volume) / 'boxes' / f'{a.volume}.jsonl'
     out.parent.mkdir(parents=True, exist_ok=True)
     with out.open('w') as f:
         for r in recs:

@@ -10,9 +10,9 @@ NIST side it points at a keying error in the database.
 """
 import argparse, collections, json, pathlib, re, sys
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from paths import NIST, all_boxes, volume_number  # noqa: E402
 from textnorm import cas_valid, strict  # noqa: E402
 
-ROOT = pathlib.Path(__file__).resolve().parent.parent
 LOOSE_CAS = re.compile(r'(?<!\d)\d{2,7}\s?[-·‑]\s?\d{2}\s?[-·‑]\s?\d(?!\d)')
 
 
@@ -26,7 +26,7 @@ def main() -> None:
     a = ap.parse_args()
     print(f'{"volume":8s} {"sheets":>6s} {"noCAS":>6s} {"CAS":>6s} {"ok":>6s} {"bad":>5s} {"bad%":>5s}')
     tot, bad_ex = [0] * 5, collections.Counter()
-    for f in sorted((ROOT / 'boxes').glob('SDS-*.jsonl'), key=lambda p: int(p.stem.split('-')[1])):
+    for f in all_boxes():
         n = [0] * 5                                   # sheets, no cas, cas, ok, bad
         for line in f.open():
             r = json.loads(line); n[0] += 1
@@ -41,7 +41,7 @@ def main() -> None:
     print(f'{"TOTAL":8s} {tot[0]:6d} {tot[1]:6d} {tot[2]:6d} {tot[3]:6d} {tot[4]:5d} {100 * tot[4] / tot[2]:5.1f}')
     print('most frequent failing OCR CAS:', bad_ex.most_common(a.examples))
     print('\nNIST ground truth')
-    for f in sorted((ROOT / 'nist').glob('SDS-*.json'), key=lambda p: int(p.stem.split('-')[1])):
+    for f in sorted(NIST.glob('SDS-*.json'), key=lambda p: volume_number(p.stem)):
         recs = json.load(f.open())
         cas = [c['cas'] for r in recs for c in r['components_parsed']]
         bad = sorted({c for c in cas if not cas_valid(c)})

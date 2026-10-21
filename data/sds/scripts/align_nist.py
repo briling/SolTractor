@@ -12,9 +12,8 @@ layer reproduces verbatim. Writes nist/align-SDS-<vol>.csv.
 """
 import argparse, csv, json, pathlib, re, sys
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from paths import NIST, ROOT, volume_root  # noqa: E402
 from textnorm import cas_numbers, loose, numbers, strict  # noqa: E402
-
-ROOT = pathlib.Path(__file__).resolve().parent.parent
 
 
 def tokens(s: str) -> set[str]:
@@ -26,14 +25,14 @@ def main() -> None:
     ap.add_argument('volume', type=int)
     ap.add_argument('--min-score', type=float, default=0.6)
     a = ap.parse_args()
-    nist = json.load((ROOT / 'nist' / f'SDS-{a.volume}.json').open())
+    nist = json.load((NIST / f'SDS-{a.volume}.json').open())
     for n in nist:                                   # NIST keys evaluator tables as sheets without a citation
         n['kind'] = ('evaluation' if n['critical_evaluation'] or not n['original_measurements'].strip()
                      else 'compilation')
         if not n['tables'] and n['kind'] == 'evaluation':
             n['kind'] = 'evaluation-text'
     nist = [n for n in nist if n['kind'] != 'evaluation-text']
-    ocr = [json.loads(l) for l in (ROOT / 'boxes' / f'SDS-{a.volume}.jsonl').open()]
+    ocr = [json.loads(l) for l in (volume_root(a.volume) / 'boxes' / f'SDS-{a.volume}.jsonl').open()]
     # continuation sheets (flagged, or same components + citation as the sheet before) are merged
     anchors = []
     def key(r): return loose(r['boxes'].get('components', ''))[:60] + loose(r['boxes'].get('original_measurements', ''))[:60]
@@ -92,7 +91,7 @@ def main() -> None:
                        recall=round(len(found) / len(vals), 2) if vals else '',
                        missing=' '.join(v for v in vals if v not in found)[:120])
         rows.append(rec)
-    out = ROOT / 'nist' / f'align-SDS-{a.volume}.csv'
+    out = NIST / f'align-SDS-{a.volume}.csv'
     with out.open('w', newline='') as f:
         w = csv.DictWriter(f, fieldnames=['sheet_id', 'system', 'score', 'page', 'index_on_page', 'dup',
                                           'n_values', 'n_found', 'recall', 'missing'])

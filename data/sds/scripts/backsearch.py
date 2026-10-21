@@ -15,8 +15,8 @@ Exit status 1 if any value is not OK/FOUND or fails the CAS check digit.
 """
 import argparse, pathlib, re, sys
 
-ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from paths import volume_root  # noqa: E402
 from textnorm import cas_valid, loose, strict  # noqa: E402
 
 
@@ -27,7 +27,7 @@ def main() -> None:
     ap.add_argument('--page', type=int, help='expected PDF page (1-based)')
     ap.add_argument('--context', type=int, default=0, help='chars of context to print')
     a = ap.parse_args()
-    pages = (ROOT / 'text' / f'{a.volume}.txt').read_text(errors='replace').split('\f')
+    pages = (volume_root(a.volume) / 'text' / f'{a.volume}.txt').read_text(errors='replace').split('\f')
     tiers = [('strict', [strict(p) for p in pages]), ('loose', [loose(p) for p in pages])]
     ok = True
     for v in a.values:
