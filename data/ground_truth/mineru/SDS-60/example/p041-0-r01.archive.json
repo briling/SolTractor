@@ -1,0 +1,42 @@
+{
+ "data": {
+  "m_def": "../upload/raw/schema.archive.yaml#/definitions/section_definitions/EquilibriumSolution",
+  "name": "SDS-60 p41 sheet 0 row 1: Tetrachloromethane (carbon tetrachloride) / Water",
+  "lab_id": "SDS-60/p041/0/r01",
+  "description": "source: IUPAC Solubility Data Series volume 60, page 41, sheet 0, table row 1\nwitness: MinerU 2.5-Pro crop pass; columns: t/°C | 100  g_1/g_2 | 100  w_1 (compiler) | 10^4 x_1 (compiler)\nrow: 10 | 8.3 × 10^{-2} | 8.3 × 10^{-2} | 0.973\ncitation: Rex, A.Z. Phys. Chem. 1906, 55, 355-70.\nunmapped: 100  g_1/g_2 = 8.3 × 10^{-2}",
+  "temperature": 283.15,
+  "measurement_methods": [
+   "The solubility of tetrachloromethane in water was determined using specially designed flasks with calibrated capillary cylinders. After samples were equilibrated in a thermostatic bath, their volumes and weights were determined and the solubility was calculated."
+  ],
+  "mixing_methods": [],
+  "phases": [
+   {
+    "name": "Tetrachloromethane (carbon tetrachloride)",
+    "mass_fraction": 0.00083,
+    "molar_fraction": 9.73e-05,
+    "substance": {
+     "name": "Tetrachloromethane (carbon tetrachloride)",
+     "molecular_formula": "CCl4",
+     "cas_number": "56-23-5"
+    }
+   },
+   {
+    "name": "Water",
+    "substance": {
+     "name": "Water",
+     "molecular_formula": "H2O",
+     "cas_number": "7732-18-5"
+    }
+   }
+  ],
+  "publication_references": [
+   {
+    "publication_authors": [
+     "Rex, A."
+    ],
+    "publication_date": "1906-01-01T00:00:00Z",
+    "journal": "Z. Phys. Chem."
+   }
+  ]
+ }
+}
