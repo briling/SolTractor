@@ -82,7 +82,9 @@ run logs, the converted boxes, the NIST alignments, `CHECKS.md` with the numbers
 `example/` with one crop and its returned table). The bulky raw output (the model output
 with region images, the crop PNGs, the per-crop results) and the PDFs live in the HU Box
 library `sds-extraction`, which keeps the layout of the staging folder; sync it next to
-the clone and link it as `ground_truth/mineru/SDS-N/raw` (ignored) and `pdfs`. Two passes per
+the clone and link it as `ground_truth/mineru/SDS-N/raw` (ignored) and `pdfs`;
+`scripts/unpack_node.py SDS-N` unpacks a hand-back into the committed layout. All eight
+ground-truth volumes have been through both passes. Two passes per
 volume:
 
 - whole pages: every sheet comes back as one table whose cells are the printed boxes,
@@ -98,3 +100,35 @@ text layer. On volume 60 the text layer, the page pass and the crop pass reprodu
 95 % and 96 % of the keyed values verbatim; only the crop pass reproduces the rows (207 of
 264 sheets with every NIST row intact). `scripts/mineru_viewer.py` renders a page output
 next to its region images for inspection.
+
+## The eight ground-truth volumes through both passes
+
+The node ran the page pass and the crop pass over all eight NIST-keyed volumes
+(hand-backs in the library, unpacked with `scripts/unpack_node.py`, converted and
+aligned as above; files under `ground_truth/mineru/SDS-N/`). Value recall is the
+aligner's substring measure on the aligned sheets; "rows" counts NIST table rows whose
+numeric tokens all occur in one line of the matched EXPERIMENTAL VALUES box, which only
+the crop pass delivers. Note that the scraped NIST sheets cover volume 60 and 20 well
+but only 18 to 55 sheets of the other volumes.
+
+| volume | NIST sheets | text layer: aligned, recall | page pass: aligned, recall | crop pass: aligned, recall | rows in one line (crops) | entries |
+|-------:|------------:|----------------------------:|---------------------------:|---------------------------:|-------------------------:|--------:|
+| 20 | 94 | 90, 96.7 % | 83, 99.7 % | 83, 99.7 % | 71 / 185 | 237 |
+| 37 | 23 | 18, 94.1 % | 19, 100 % | 19, 94.2 % | 78 / 94 | 1144 |
+| 38 | 18 | 10, 98.3 % | 9, 100 % | 9, 100 % | 36 / 36 | 887 |
+| 57 | 42 | 19, 81.2 % | 18, 83.4 % | 17, 83.0 % | 54 / 253 | 1914 |
+| 58 | 32 | 10, 98.0 % | 30, 98.7 % | 29, 99.9 % | 172 / 235 | 1023 |
+| 59 | 33 | 19, 87.2 % | 32, 99.5 % | 31, 99.6 % | 228 / 283 | 2424 |
+| 60 | 288 | 263, 97.2 % | 263, 95.1 % | 264, 95.7 % | 292 / 733 | 722 |
+| 62 | 55 | 21, 89.3 % | 21, 87.6 % | 21, 88.6 % | 56 / 688 | 4647 |
+
+The text layer aligns a third of the NIST sheets of volumes 58 and 59 where the page
+pass aligns nearly all of them: the segmenter loses the sheets, not the values. Volume 57
+(gas solubilities, two-block tables with pressure columns) and 62 (long multi-column
+tables, Bunsen and Ostwald coefficients) are the hard cases for the row structure.
+`scripts/to_nomad.py` turns the crop-pass boxes of each volume into one NOMAD upload
+(`nomad-SDS-N.zip` in the library's `nomad/` folder, 12 998 entries in all, every one
+validated against the schema with NOMAD's metainfo). Crops in which the model returned
+the whole sheet as a table (header cells carrying box names) are skipped; when the
+table has no temperature column, a single-valued VARIABLES box supplies it.
+

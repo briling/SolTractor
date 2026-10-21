@@ -63,6 +63,7 @@ without knowing which witness produced it.
 | `mineru_to_boxes.py page.json boxes.jsonl` | MinerU page output | boxes jsonl | turn MinerU's one-table-per-sheet HTML into boxes records: a sheet starts at a COMPONENTS cell, a table without one continues the sheet before |
 | `crops_to_boxes.py boxes.jsonl tables.jsonl out.jsonl` | boxes jsonl, crop results | boxes jsonl | replace each sheet's flattened EXPERIMENTAL VALUES text by the row-structured table read from its crop, matched by shared numbers on the same page |
 | `mineru_viewer.py extracted/ out.html` | MinerU page output | HTML | show each sheet's region image next to the table MinerU returned, for eyeballing |
+| `unpack_node.py SDS-N [--raw DIR]` | the node hand-back linked as `mineru/SDS-N/raw` (page zip, per-crop zips, logs, manifest) | `mineru/SDS-N/{structured_content.json, middle_json.json, run.log, handback.md, crops/manifest.csv, crops/run.log, crops/tables.jsonl}` | unpack one volume's node results into the layout the converters read; `tables.jsonl` holds the blocks of every crop, read from the per-crop zips without extracting their images |
 | `to_nomad.py SDS-N boxes.jsonl out/ --zip` | a boxes jsonl (crop pass), the text layer's citation lines, `schema/` | `out/schema.archive.yaml`, `out/SDS-N/p<page>-<sheet>/r<row>.archive.json`, zip | one `EquilibriumSolution` entry per table row: temperature and pressure (from the table, else from a single-valued VARIABLES box), one phase whose components are the printed components with CAS, name, formula and an `Amount` (mole fraction, else mass fraction); unmapped columns and provenance in `description`; crops that caught the whole sheet are skipped; validated with `schema/pydantic_schema.py`; run with `uv run python` |
 
 ## Typical sequences
@@ -70,7 +71,7 @@ without knowing which witness produced it.
 Text-layer witness for a volume: `fetch_volumes.sh`, `segment_boxes.py SDS-N`, then for a
 ground-truth volume `nist_scrape.py N` and `align_nist.py N`.
 
-Vision witness: `crop_tables.py` here, the page pass and the crop pass on the GPU node
+Vision witness: `crop_tables.py` here, the page pass and the crop pass on the GPU node, `unpack_node.py` on the hand-back
 (`docs/DEPLOY-mineru.md`), then `mineru_to_boxes.py`, `crops_to_boxes.py`, and
 `align_nist.py N --boxes ... --out ...` to score the result with the same yardstick.
 
