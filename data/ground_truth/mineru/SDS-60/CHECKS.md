@@ -137,6 +137,9 @@ to its canonical order, keys `0.2972` as `2972`, `9.0 × 10^-2` as `9.0`, keeps
 comment numbers such as "10 % HCl" as a column) and continuation pages whose
 table spans two crops.
 
-The node parsed the crops one process per image, reloading the model each time
-(343 engine starts in `crops/run.log`, 9 min 46 s wall for 338 crops); one
-engine over the whole folder is the form for the other volumes.
+The crop pass took 9 min 46 s wall for 338 crops, about one second per crop. The
+engine was started once for the folder; the "Using vllm-async-engine" line that
+`crops/run.log` repeats 343 times is written per file, not per engine start (an
+earlier version of this note read it as 343 reloads). MinerU treats every image as
+its own document, so there is no batching across crops; one PDF per volume of
+crops, parsed once and split by page in manifest order, is the untested speed-up.

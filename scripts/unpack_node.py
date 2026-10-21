@@ -10,7 +10,8 @@ and handback.md. That folder is linked as data/.../mineru/SDS-N/raw (ignored by 
 structured_content.json and middle_json.json of the page pass, run.log, handback.md,
 crops/manifest.csv, crops/run.log and crops/tables.jsonl, one line per crop with the
 blocks MinerU returned, read straight from the per-crop zips without extracting their
-images. Then run mineru_to_boxes.py, crops_to_boxes.py and align_nist.py as in README.md.
+images. A hand-back without crops-out.zip (page pass only) yields just the page-pass files.
+Then run mineru_to_boxes.py, crops_to_boxes.py and align_nist.py as in README.md.
 
 With --crops NAME the hand-back is a crop pass alone (a second run on new bands): its
 crops-out.zip, manifest, log and handback.md are unpacked into mineru/SDS-N/NAME/ next to
@@ -58,6 +59,9 @@ def main() -> None:
             if (raw / src).exists():
                 shutil.copy(raw / src, out / dst)
 
+    if not (raw / 'crops-out.zip').exists():                      # page pass only (the 48 unmined volumes)
+        print(f'{vol}: page pass unpacked, no crop pass -> {out}')
+        return
     n_crops, n_tables = 0, 0
     with zipfile.ZipFile(raw / 'crops-out.zip') as outer, (crops_dir / 'tables.jsonl').open('w') as f:
         for name in sorted(outer.namelist()):
