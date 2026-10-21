@@ -1,0 +1,5311 @@
+[
+ {
+  "sheet_id": "68_169",
+  "system_id": "68001",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_169",
+  "system": "1,1,1,2,2,3,3,4,5,5,5-Undecafluoro-4-(tri-fluoromethyl)-pentane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,1,1,2,2,3,3,4,5,5,5-Undecafluoro-4-(tri-fluoromethyl)-pentane; C6F14; [355-04-4]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "A. L. Horvath, Imperial Chemical Industries Limited, Runcorn, U.K., July 1993.",
+  "critical_evaluation": "",
+  "experimental_values": "The solubility of 1,1,1,2,2,3,3,4,5,5,5-undecafluoro-4-(trifluoromethyl)-pentane (1) in water (2) has been studied by two work groups in the same laboratory; whereas, the solubility of water (2) in 1,1,1,2,2,3,3,4,5,5,5-undecafluoro-4-(trifluoromethyl)-pentane (1) has not been investigated yet.\nThe two experimental determinations by Kabal'nov et al.^1 and by Kabalnov et al.^2 are in reasonable agreement, although further studies are required before any values can be recommended. Because it is not possible to say which of the two values is more accurate, it is suggested that the average of the two is probably the most reliable. The average value presented in Table 31 in weight percent and mole fraction is classified as tentative.",
+  "notes": "",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  Kabal'nov, A.S.; Gervits, L.D.; Makarov, K.N., Kolloidnyi Zh. 52, 1060-6 (1990).\n2  Kabal'nov, A.S.; Makarov, K.N.; Shcherbakova, O.V., J. Fluorine Chem. 50, 271-84 (1990).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,1,1,2,2,3,3,4,5,5,5-Undecafluoro-4-(tri-fluoromethyl)-pentane",
+    "formula": "C6F14",
+    "cas": "355-04-4"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "10^2 * Mass Fraction w_1",
+     "10^9 * Mole Fraction x_1"
+    ],
+    "rows": [
+     [
+      "25",
+      "298.15",
+      "1.71 x 10^-5",
+      "9.09"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,1,1,2,2,3,3,4,5,5,5-Undecafluoro-4-(tri-fluoromethyl)-pentane with Water"
+ },
+ {
+  "sheet_id": "68_170",
+  "system_id": "68001",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_170",
+  "system": "1,1,1,2,2,3,3,4,5,5,5-Undecafluoro-4-(tri-fluoromethyl)-pentane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,1,1,2,2,3,3,4,5,5,5-Undecafluoro-4-(tri-fluoromethyl)-pentane; C6F14; [355-04-4]",
+  "original_measurements": "Kabal'nov, A.S.; Gervits, L.D.; Makarov, K.N., Kolloidnyi Zh. 52, 1060-6 (1990).",
+  "variables": "Temperature = 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility of 1,1,1,2,2,3,3,4,5,5,5-un-deca-fluoro-4-(trifluoromethyl)-pentane in water was calculated from the kinetic data derived from observations of particle growth  in aqueous emulsions in which Ostwald ripening takes place. The kinetics of the coarsening of particles was observed by photon correlation spectroscopy on a Coulter  N4 instrument. The calculation was based upon the Lifshits-Slezov equation.",
+  "source_purity": "(1) Commercial reagent, 97 % pure, passed through a column with Al_2O_3 before use.\n(2) Double distilled and de-ionized.",
+  "estimated_error": "Solubility: Twice that of other results.\nTemperature: ± 1 K.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,1,1,2,2,3,3,4,5,5,5-Undecafluoro-4-(tri-fluoromethyl)-pentane",
+    "formula": "C6F14",
+    "cas": "355-04-4"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * V_1/V_2",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^9 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "25",
+      "1.02 x 10^-5",
+      "1.72 x 10^-5",
+      "9.17"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,1,1,2,2,3,3,4,5,5,5-Undecafluoro-4-(tri-fluoromethyl)-pentane with Water"
+ },
+ {
+  "sheet_id": "68_171",
+  "system_id": "68001",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_171",
+  "system": "1,1,1,2,2,3,3,4,5,5,5-Undecafluoro-4-(tri-fluoromethyl)-pentane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,1,1,2,2,3,3,4,5,5,5-Undecafluoro-4-(tri-fluoromethyl)-pentane; C6F14; [355-04-4]",
+  "original_measurements": "Kabal'nov, A.S.; Makarov, K.N.; Shcherbakova, O.V., J. Fluorine Chem. 50, 271-84 (1990).",
+  "variables": "Temperature = 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility values were calculated from the particle size growth in emulsions due to Ostwald ripening. The particle size analysis of emulsions was accomplished through the use of a photon correlation spectrometer. The  kinetics of particle size growth were observed until a 200 nm diameter was attained. The solubility measurement method showed a very low detection limit. Further details on Ostwald ripening kinetics are described elsewhere.^1",
+  "source_purity": "(1) Source not given. Commercial grade, 97 % pure.\n(2) Doubly distilled and deionized.",
+  "estimated_error": "Solubility: About ± 30 %.\nTemperature: ± 1.0 K.",
+  "references": "^1 P. W. Voorhees, J. Stat. Phys. 38, 231 (1985).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,1,1,2,2,3,3,4,5,5,5-Undecafluoro-4-(tri-fluoromethyl)-pentane",
+    "formula": "C6F14",
+    "cas": "355-04-4"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Concentration c_1 [mol dm**-3]",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^9 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "25",
+      "5.0 x 10^-7",
+      "1.69 x 10^-5",
+      "9.01"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,1,1,2,2,3,3,4,5,5,5-Undecafluoro-4-(tri-fluoromethyl)-pentane with Water"
+ },
+ {
+  "sheet_id": "68_208",
+  "system_id": "68002",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_208",
+  "system": "1,1,1,2,2,3,4,5,5,5-Decafluoro-3-[1,2,2,2-tetra-fluoro-1-(trifluoromethyl)ethyl]-4-(trifluoro-methyl)pentane with water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,1,1,2,2,3,4,5,5,5-Decafluoro-3-[1,2,2,2-tetra-fluoro-1-(trifluoromethyl)ethyl]-4-(trifluoro-methyl)pentane; C9F20; [50285-18-2]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "A. L. Horvath, Imperial Chemical Industries Limited, Runcorn, U.K., July 1993.",
+  "critical_evaluation": "",
+  "experimental_values": "The solubility of 1,1,1,2,2,3,4,5,5,5-decafluoro-3-[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-4-(trifluoro-methyl)pentane (1) in water (2) has been studied by two work groups in the same laboratory, whereas the solubility of water (2) in 1,1,1,2,2,3,4,5,5,5-decafluoro-3-[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-4-(trifluoromethyl)pentane (1) has not been investigated yet.\nIn both the experiments of Kabal'nov et al.^1 and of Kabalnov et al.^2 the solubility was calculated from the particle size growth in emulsions due to Ostwald ripening at 298.15 K. The reported data are in reasonable agreement with respect to the errors estimated by the authors.\nIt is not possible to establish any shortcomings of the experimental procedures from the description. The measurements seem to be produced relatively accurate results. When one considers the saturation equilibrium, the method of analysis, and the reported standard deviation, one can conclude the values are reasonably accurate. Because it is not possible to say which of the two data points of Kabal'nov et al.^1 and of Kabalnov et al.^2 is more accurate, it is suggested that the average of the two as presented in Table 41 in weight percent, mole fraction, and mole per 100 gram is possibly the most reliable.",
+  "notes": "",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  Kabal'nov, A.S.; Gervits, L.D.; Makarov, K.N., Kolloidnyi Zh. 52, 1060-6 (1990).\n2  Kabal'nov, A.S.; Makarov, K.N.; Shcherbakova, O.V., J. Fluorine Chem. 50, 271-84 (1990).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,1,1,2,2,3,4,5,5,5-Decafluoro-3-[1,2,2,2-tetra-fluoro-1-(trifluoromethyl)ethyl]-4-(trifluoro-methyl)pentane",
+    "formula": "C9F20",
+    "cas": "50285-18-2"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "10^2 * Mass Fraction w_1",
+     "10^11 * Mole Fraction x_1",
+     "10^2 * w_1/M_1 [mol g**-1]"
+    ],
+    "rows": [
+     [
+      "25",
+      "298.15",
+      "1.27 x 10^-7",
+      "4.68",
+      "2.60 x 10^-10"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,1,1,2,2,3,4,5,5,5-Decafluoro-3-[1,2,2,2-tetra-fluoro-1-(trifluoromethyl)ethyl]-4-(trifluoro-methyl)pentane with water"
+ },
+ {
+  "sheet_id": "68_209",
+  "system_id": "68002",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_209",
+  "system": "1,1,1,2,2,3,4,5,5,5-Decafluoro-3-[1,2,2,2-tetra-fluoro-1-(trifluoromethyl)ethyl]-4-(trifluoro-methyl)pentane with water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,1,1,2,2,3,4,5,5,5-Decafluoro-3-[1,2,2,2-tetra-fluoro-1-(trifluoromethyl)ethyl]-4-(trifluoro-methyl)pentane; C9F20; [50285-18-2]",
+  "original_measurements": "Kabal'nov, A.S.; Gervits, L.D.; Makarov, K.N., Kolloidnyi Zh. 52, 1060-6 (1990).",
+  "variables": "Temperature = 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility of the fluorocarbon in water was calculated from the kinetic data derived from observations of particle growth in aqueous emulsions in which Ostwald ripening takes place. The kinetics of coarsening of  particles was observed by photon correlation spectroscopy on a Coulter N4 instrument. The calculation was based upon the Lifshits-Slezov equation.",
+  "source_purity": "(1) Commercial reagent. 97 % pure, passed through a column with Al_2O_3 before use.\n(2) Double distilled and deionized.",
+  "estimated_error": "Solubility: Twice that of other results.\nTemperature: ± 1 K.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,1,1,2,2,3,4,5,5,5-Decafluoro-3-[1,2,2,2-tetra-fluoro-1-(trifluoromethyl)ethyl]-4-(trifluoro-methyl)pentane",
+    "formula": "C9F20",
+    "cas": "50285-18-2"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * V_1/V_2",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^11 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "25",
+      "6.86 x 10^-8",
+      "1.317 x 10^-7",
+      "4.86"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,1,1,2,2,3,4,5,5,5-Decafluoro-3-[1,2,2,2-tetra-fluoro-1-(trifluoromethyl)ethyl]-4-(trifluoro-methyl)pentane with water"
+ },
+ {
+  "sheet_id": "68_210",
+  "system_id": "68002",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_210",
+  "system": "1,1,1,2,2,3,4,5,5,5-Decafluoro-3-[1,2,2,2-tetra-fluoro-1-(trifluoromethyl)ethyl]-4-(trifluoro-methyl)pentane with water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,1,1,2,2,3,4,5,5,5-Decafluoro-3-[1,2,2,2-tetra-fluoro-1-(trifluoromethyl)ethyl]-4-(trifluoro-methyl)pentane; C9F20; [50285-18-2]",
+  "original_measurements": "Kabal'nov, A.S.; Makarov, K.N.; Shcherbakova, O.V., J. Fluorine Chem. 50, 271-84 (1990).",
+  "variables": "Temperature = 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility values were calculated from the particle size growth in emulsions due to Ostwald ripening. The particle size analysis of emulsions was accomplished through the use of a photon correlation spectrometer. The  kinetics of particle size growth were observed until a 200 nm diameter was attained. The solubility measurement method showed a very low detection limit. Further details on Ostwald ripening kinetics are described elsewhere.^1",
+  "source_purity": "(1) Source not given. Commercial grade, 97 % pure.\n(2) Doubly distilled and deionized.",
+  "estimated_error": "Solubility: About ± 30 %.\nTemperature: ± 1.0 K.",
+  "references": "^1 P. W. Voorhees, J. Stat. Phys. 38, 231 (1985).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,1,1,2,2,3,4,5,5,5-Decafluoro-3-[1,2,2,2-tetra-fluoro-1-(trifluoromethyl)ethyl]-4-(trifluoro-methyl)pentane",
+    "formula": "C9F20",
+    "cas": "50285-18-2"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Concentration c_1 [mol dm**-3]",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^11 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "25",
+      "2.5 x 10^-9",
+      "1.22 x 10^-7",
+      "4.50"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,1,1,2,2,3,4,5,5,5-Decafluoro-3-[1,2,2,2-tetra-fluoro-1-(trifluoromethyl)ethyl]-4-(trifluoro-methyl)pentane with water"
+ },
+ {
+  "sheet_id": "68_4",
+  "system_id": "68003",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_4",
+  "system": "1,1,1,3-Tetrachloro-2,2,3,3-tetrafluoropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,1,1,3-Tetrachloro-2,2,3,3-tetrafluoropropane; C3Cl4F4; [2268-46-4]",
+  "original_measurements": "du Pont de Nemours & Company, Solubility Relationships between Fluorocarbons and Water, Tech. Bull. B-43, Wilmington, Del., 17 pp. (1966).",
+  "variables": "Temperature = 294 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Details are not available.",
+  "source_purity": "(1) Distilled (compiler).\n(2) Source and purity not given.",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 1 K (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,1,1,3-Tetrachloro-2,2,3,3-tetrafluoropropane",
+    "formula": "C3Cl4F4",
+    "cas": "2268-46-4"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * Mass Fraction w_1",
+     "10^4 * Mole Fraction x_1 (compiler)",
+     "10^2 * w_1/M_1 (compiler) [mol g**-1]"
+    ],
+    "rows": [
+     [
+      "21",
+      "5.2 x 10^-3",
+      "7.32",
+      "2.89 x 10^-4"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,1,1,3-Tetrachloro-2,2,3,3-tetrafluoropropane with Water"
+ },
+ {
+  "sheet_id": "68_3",
+  "system_id": "68004",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_3",
+  "system": "1,1,1-Trichloro-2,2,3,3,3-pentafluoropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,1,1-Trichloro-2,2,3,3,3-pentafluoropropane; C3Cl3F5; [4259-43-2]",
+  "original_measurements": "du Pont de Nemours & Company, Solubility Relationships between Fluorocarbons and Water, Tech. Bull. B-43, Wilmington, Del., 17 pp. (1966).",
+  "variables": "Temperature = 294 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Details are not available.",
+  "source_purity": "(1) Distilled (compiler).\n(2) Source and purity not given.",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 1 K (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,1,1-Trichloro-2,2,3,3,3-pentafluoropropane",
+    "formula": "C3Cl3F5",
+    "cas": "4259-43-2"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * Mass Fraction w_1",
+     "10^4 * Mole Fraction x_1 (compiler)",
+     "10^2 * w_1/M_1 (compiler) [mol g**-1]"
+    ],
+    "rows": [
+     [
+      "21",
+      "5.8 x 10^-3",
+      "7.64",
+      "3.22 x 10^-4"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,1,1-Trichloro-2,2,3,3,3-pentafluoropropane with Water"
+ },
+ {
+  "sheet_id": "68_10",
+  "system_id": "68005",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_10",
+  "system": "1,1,2,3,3,3-Hexachloro-1-propene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,1,2,3,3,3-Hexachloro-1-propene; C3Cl6; [1888-71-7]",
+  "original_measurements": "Simonov, V.D.; Shamsutdinov, T.M.; Pogulyai, V.E.; Popova, L.N., Russ. J. Phys. Chem. 1974, 48, 1573-5.",
+  "variables": "Temperature = 313 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The synthetic method of Alexejew was used. Further details are found elsewhere.^1",
+  "source_purity": "(1) Source and purity not given.\n(2) Distilled (compiler).",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 0.5 K (compiler).",
+  "references": "^1 V. D. Simonov, L. N. Popova, T. M. Shamsutdinov, V. E. Pogulyai, and F. A. Mamina, Symp. Doklady Neftekhimicheskoi Sektsii, Ufa. No. 6 (1971).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,1,2,3,3,3-Hexachloro-1-propene",
+    "formula": "C3Cl6",
+    "cas": "1888-71-7"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * Mass Fraction w_1",
+     "10^1 * Mass Fraction w_2",
+     "10^6 * Mole Fraction x_1 (compiler)",
+     "10^3 * Mole Fraction x_2 (compiler)"
+    ],
+    "rows": [
+     [
+      "40",
+      "5.0 x 10^-3",
+      "9.1 x 10^-3",
+      "3.62",
+      "1.25"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,1,2,3,3,3-Hexachloro-1-propene with Water"
+ },
+ {
+  "sheet_id": "68_5",
+  "system_id": "68005",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_5",
+  "system": "1,1,2,3,3,3-Hexachloro-1-propene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,1,2,3,3,3-Hexachloro-1-propene; C3Cl6; [1888-71-7]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "A. L. Horvath, Imperial Chemical Industries Limited, Runcorn, U.K., July 1993.",
+  "critical_evaluation": "",
+  "experimental_values": "The 1,1,2,3,3,3-hexachloropropene (1) and water (2) binary system is treated in two parts; part 1 is 1,1,2,3,3,3-hexachloropropylene (1) in water (2) and part 2 is water (2) in 1,1,2,3,3,3-hexachloropropene (1).\nPart 1. The solubility of 1,1,2,3,3,3-hexachloropropene (1) in water (2) has been studied by three work groups in the temperature range from 288 to 313 K. The data of Dreisbach ^1 and of Simonov et al. ^2 were reported at only a single temperature, that is, at 298.15 and 313.15 K, respectively. The temperature dependence of solubility was measured by Antropov et al.^3 in the narrow temperature interval between 288.15 and 299.15 K.\nThe data are in very poor agreement and in the absence of other independent studies, it is not possible to determine which values are more reliable. Further studies will be necessary before even tentative values can be prescribed. All reported experimental solubility values in weight percent and mole fraction are summarized in Table 4.\nPart 2. The solubility of water (2) in 1,1,2,3,3,3-hexachloropropene (1) between 288 and 323 K has been measured by five groups of researchers. The measured solubility of Dreisbach^1 is markedly higher than all other studies and is therefore rejected. The remaining solubility data originated from workers of the same organization over a number of years.^2-5 The solubility data were reported at different temperatures, except for the value at 299.15 K. The data are in good agreement and they were used for the smoothing equation of mole fraction solubility of water in 1,1,2,3,3,3-hexachloropropene between 288 and 323 K:\nlog_10x_2  =  2.2310 - 1604.19/(T/K).\nThis equation, representing the combined data, yielded a standard deviation of 2.38x10^-2. The linear relation between the solubility expressed as log_10x_2 versus the reciprocal of absolute temperature is illustrated in  Fig. 2.. The straight line behavior of such plots is characteristic of the solubility of water in halogenated hydrocarbons, as discussed in the Preface.\nThe tentative solubility values at 5 K intervals for water (2) in 1,1,2,3,3,3-hexachloropropene (1) in weight percent and mole fraction are presented in Table 5.",
+  "notes": "",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  Dreisbach, R.R., \"Physical Properties of Chemical Compounds,\" Advances in Chemistry Series No. 22; American Chemical Society: Washington, D.C., 1959; pp. 208-214.\n2  Simonov, V.D.; Pogulyai, V.E.; Shamsutdinov, T.M., Russ. J. Phys. Chem. 1970, 44, 1755-7.\n3  Antropov, L.I.; Populyai, V.E.; Simonov, V.D.; Shamsutdinov, T.M., Russ. J. Phys. Chem. 1972, 46, 311-2 (VINITI No. 3739-71).\n4  Simonov, V.D., et al., Dokl. Neftekim. Sekt. Bashkir. Respub. Pravl. Vses. Khim. Obshchest. 1971, 346-51.\n5  Simonov, V.D.; Shamsutdinov, T.M.; Pogulyai, V.E.; Popova, L.N., Russ. J. Phys. Chem. 1974, 48, 1573-5.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,1,2,3,3,3-Hexachloro-1-propene",
+    "formula": "C3Cl6",
+    "cas": "1888-71-7"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "10^2 * Mass Fraction w_2",
+     "10^4 * Mole Fraction x_2"
+    ],
+    "rows": [
+     [
+      "15",
+      "288.15",
+      "3.51",
+      "4.61"
+     ],
+     [
+      "20",
+      "293.15",
+      "4.37",
+      "5.74"
+     ],
+     [
+      "25",
+      "298.15",
+      "5.40",
+      "7.09"
+     ],
+     [
+      "30",
+      "303.15",
+      "6.62",
+      "8.69"
+     ],
+     [
+      "35",
+      "308.15",
+      "8.07",
+      "10.60"
+     ],
+     [
+      "40",
+      "313.15",
+      "9.77",
+      "12.83"
+     ],
+     [
+      "45",
+      "318.15",
+      "1.18",
+      "15.44"
+     ],
+     [
+      "50",
+      "323.15",
+      "1.41",
+      "18.48"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,1,2,3,3,3-Hexachloro-1-propene with Water"
+ },
+ {
+  "sheet_id": "68_6",
+  "system_id": "68005",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_6",
+  "system": "1,1,2,3,3,3-Hexachloro-1-propene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,1,2,3,3,3-Hexachloro-1-propene; C3Cl6; [1888-71-7]",
+  "original_measurements": "Dreisbach, R.R., \"Physical Properties of Chemical Compounds,\" Advances in Chemistry Series No. 22; American Chemical Society: Washington, D.C., 1959; pp. 208-214.",
+  "variables": "Temperature = 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Details are not available.",
+  "source_purity": "(1) Dow Chemical Co., purified by distillation before use. The f. p. was -57.12°C.\n(2) Distilled.",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 1 K (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,1,2,3,3,3-Hexachloro-1-propene",
+    "formula": "C3Cl6",
+    "cas": "1888-71-7"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * g_1/g_2",
+     "10^2 * g_2/g_1",
+     "10^5 * Mole Fraction x_1 (compiler)",
+     "10^3 * Mole Fraction x_2 (compiler)"
+    ],
+    "rows": [
+     [
+      "25",
+      "1.5 x 10^-2",
+      "1.4 x 10^-2",
+      "1.09",
+      "1.93"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,1,2,3,3,3-Hexachloro-1-propene with Water"
+ },
+ {
+  "sheet_id": "68_7",
+  "system_id": "68005",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_7",
+  "system": "1,1,2,3,3,3-Hexachloro-1-propene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,1,2,3,3,3-Hexachloro-1-propene; C3Cl6; [1888-71-7]",
+  "original_measurements": "Simonov, V.D.; Pogulyai, V.E.; Shamsutdinov, T.M., Russ. J. Phys. Chem. 1970, 44, 1755-7.",
+  "variables": "Temperature = 303 K - 323 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The Alexejew's synthetic method of solubility determination was used.^1 A fixed weight of water and 1,1,2,3,3,-hexachloro-1-propene was sealed in a tube and subjected to gradually increasing temperature with constant agitation.  The appearance of an opalescence or clouding was an indication of saturation temperature. The temperature was then allowed to fall and an observation made, while the tube was constantly agitated, to establish the temperature of the first  appearance of opalescence. The observation was repeated several times.",
+  "source_purity": "(1) Distilled (compiler).\n(2) Synthesized by the authors and further purified by distillation.",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 0.5 K (compiler).",
+  "references": "^1 W. Alexejew, Ann. Phys. Chem. 28, 305 (1886).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,1,2,3,3,3-Hexachloro-1-propene",
+    "formula": "C3Cl6",
+    "cas": "1888-71-7"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * Mass Fraction w_1",
+     "10^4 * Mole Fraction x_1 (compiler)",
+     "10^1 * w_1/M_1 (compiler) [mol g**-1]"
+    ],
+    "rows": [
+     [
+      "30",
+      "5.90 x 10^-3",
+      "8.14",
+      "3.27 x 10^-4"
+     ],
+     [
+      "50",
+      "1.44 x 10^-2",
+      "19.85",
+      "7.99 x 10^-4"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,1,2,3,3,3-Hexachloro-1-propene with Water"
+ },
+ {
+  "sheet_id": "68_8",
+  "system_id": "68005",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_8",
+  "system": "1,1,2,3,3,3-Hexachloro-1-propene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,1,2,3,3,3-Hexachloro-1-propene; C3Cl6; [1888-71-7]",
+  "original_measurements": "Simonov, V.D., et al., Dokl. Neftekim. Sekt. Bashkir. Respub. Pravl. Vses. Khim. Obshchest. 1971, 346-51.",
+  "variables": "Temperature = 288 K - 299 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The determination of the solubility of water in 1,1,2,3,3,3-hexachloro-1-propene was based on the infrared spectroscopic method. A UR-20 spectrophotometer was used with 2-cm cuvettes and the windows made of KBr.  The spectra were recorded at 3600-810 cm^-1, and the absorbance at 3702 cm-1 was found by the baseline method. Standard mixtures of 1,1,2,3,3,3-hexachloro-1-propene and water were used for the calibration graphs.  The results obtained were compared with the measurements made by the methods of cloud point^1 and a Karl Fischer titration.",
+  "source_purity": "(1) Distilled.\n(2) Synthesized by the authors, distilled, washed with HClSO_3 and water and again distilled. Finally dried with CaCl_2 and P_2O_5.",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 0.5 K.",
+  "references": "^1 V. F. Alekseev, Wied. Ann. 28, 305 (1886).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,1,2,3,3,3-Hexachloro-1-propene",
+    "formula": "C3Cl6",
+    "cas": "1888-71-7"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^5 * Mass Fraction w_1",
+     "10^4 * Mole Fraction x_1 (compiler)",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "14.5",
+      "3.35",
+      "4.624",
+      "Alekseev"
+     ],
+     [
+      "16",
+      "3.93",
+      "5.424",
+      "Alekseev"
+     ],
+     [
+      "20",
+      "4.07",
+      "5.619",
+      "Alekseev"
+     ],
+     [
+      "26",
+      "5.25",
+      "7.244",
+      "Alekseev"
+     ],
+     [
+      "14.5",
+      "3.32",
+      "4.582",
+      "Fischer"
+     ],
+     [
+      "16",
+      "3.89",
+      "5.369",
+      "Fischer"
+     ],
+     [
+      "20",
+      "-",
+      "-",
+      "Fischer"
+     ],
+     [
+      "26",
+      "5.20",
+      "7.175",
+      "Fischer"
+     ],
+     [
+      "14.5",
+      "3.30",
+      "4.555",
+      "Spectroscopy"
+     ],
+     [
+      "16",
+      "3.85",
+      "5.313",
+      "Spectroscopy"
+     ],
+     [
+      "20",
+      "4.24",
+      "5.865",
+      "Spectroscopy"
+     ],
+     [
+      "26",
+      "5.30",
+      "7.313",
+      "Spectroscopy"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,1,2,3,3,3-Hexachloro-1-propene with Water"
+ },
+ {
+  "sheet_id": "68_9",
+  "system_id": "68005",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_9",
+  "system": "1,1,2,3,3,3-Hexachloro-1-propene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,1,2,3,3,3-Hexachloro-1-propene; C3Cl6; [1888-71-7]",
+  "original_measurements": "Antropov, L.I.; Populyai, V.E.; Simonov, V.D.; Shamsutdinov, T.M., Russ. J. Phys. Chem. 1972, 46, 311-2 (VINITI No. 3739-71).",
+  "variables": "Temperature = 288 K - 299 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The Alexejew's synthetic method of solubility determination was used.^1 A fixed weight of water and 1,1,2,3,3,3-hexachloro-1-propene was sealed in a tube and subjected to gradually increasing temperature with constant agitation.  The appearance of an opalescence or clouding was an indication of saturation temperature. The temperature was then allowed to fall and an observation made, while the tube was constantly agitated,  to establish the temperature of the first appearance of opalescence. The observation was repeated several times.",
+  "source_purity": "(1) Synthesized by the investigators, purified by fractional distillation and dried with CaCl_2 and P_2O_5.\n(2)  Distilled.",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 1 K (compiler).",
+  "references": "^1 W. Alexejew, Ann. Phys. Chem. 28, 305 (1886).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,1,2,3,3,3-Hexachloro-1-propene",
+    "formula": "C3Cl6",
+    "cas": "1888-71-7"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * Mass Fraction w_1",
+     "10^2 * Mass Fraction w_2",
+     "10^7 * Mole Fraction x_1 (compiler)",
+     "10^4 * Mole Fraction x_2 (compiler)"
+    ],
+    "rows": [
+     [
+      "15",
+      "9.47 x 10^-4",
+      "- x 10^0",
+      "6.86",
+      "-"
+     ],
+     [
+      "18",
+      "- x 10^0",
+      "3.71 x 10^-3",
+      "-",
+      "5.12"
+     ],
+     [
+      "20",
+      "11.8 x 10^-4",
+      "- x 10^0",
+      "8.55",
+      "-"
+     ],
+     [
+      "22",
+      "- x 10^0",
+      "4.38 x 10^-3",
+      "-",
+      "6.04"
+     ],
+     [
+      "26",
+      "17.0 x 10^-4",
+      "5.25 x 10^-3",
+      "12.31",
+      "7.24"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,1,2,3,3,3-Hexachloro-1-propene with Water"
+ },
+ {
+  "sheet_id": "68_102",
+  "system_id": "68006",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_102",
+  "system": "1,1,2,3,4,4-Hexachloro-1,3-butadiene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,1,2,3,4,4-Hexachloro-1,3-butadiene; C4Cl6; [87-68-3]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "A. L. Horvath, Imperial Chemical Industries Limited, Runcorn, U.K., July 1993.",
+  "critical_evaluation": "",
+  "experimental_values": "The 1,1,2,3,4,4-hexachloro-1,3-butadiene (1) and water (2) binary system is treated in two parts; part 1 is 1,1,2,3,4,4-hexachloro-1,3-butadiene (1) in water (2) and part 2 is water (2) in 1,1,2,3,4,4-hexachloro-1,3-butadiene (1).\nPart 1. The solubility of 1,1,2,3,4,4-hexachloro-1,3-butadiene (1) in water (2) has been studied by eight work groups in the temperature range from 288 to 313 K. The data are in very poor agreement and the absence of other independent studies it is not possible to determine which values are more reliable. Further studies will be necessary before even tentative values can be proposed. All the available data for the solubility of 1,1,2,3,4,4-hexachloro-1,3-butadiene (1) in water (2) in weight percent and mole fraction are summarized in Table 20.\nPart 2. The solubility of water (2) in 1,1,2,3,4,4-hexachloro-1,3-butadiene (1) has been reported in only four works from the same laboratory between 1970 and 1974. The agreement is sufficiently reliable to use in the smoothing equation.  All the available data of Simonov et al.,^8 of Simonov et al.,^9 of Antropov et al.,^1 and of Simonov et al.^10 were used for fitting the smoothing equation of mole fraction solubility of water in 1,1,2,3,4,4-hexachloro-1,3-butadiene versus the reciprocal of absolute temperature.\nlog_10x_2  = 11.2192 - 4379.80/(T/K)\nThis equation, representing the combined data, yielded a standard deviation of 1.83x10^-1 in the temperature range from 288 to 323 K. The tentative solubility values at 5 K intervals for water (2) in 1,1,2,3,4,4-hexachloro-1,3-butadiene (1) in weight percent and mole fraction are presented in Table 21.\nThe linear relation between the solubility expressed as log_10x_2 versus the reciprocal of absolute temperature is illustrated in  Fig. 7. The straight line behavior of such plots is characteristic of the solubility of water in halogenated hydrocarbons; this behavior is discussed in the Preface in greater detail.",
+  "notes": "",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  Antropov, L.I.; Populyai, V.E.; Simonov, V.D.; Shamsutdinov, T.M., Russ. J. Phys. Chem. 1972, 46, 311-2 (VINITI No. 3739-71).\n2  McBee, E.T.; Hatton, R.E., Ind. Eng. Chem. 41, 809-12 (1949).\n3  McConnell, G.; Ferguson, D.M.; Pearson, C.R., Endeavour 1975, 34, 13-8.\n4  Pearson, C.R.; McConnell, G., Proc. Roy. Soc. B. 1975, 189, 305-32.\n5  Oliver, B.G., Chemosphere 14, 1087-106 (1985).\n6  Banerjee, S.; Yalkowsky, S.H.; Valvani, S.C., Environ. Sci. Technol. 1980, 14, 1227-9.\n7  Warner, H.P.; Cohen, J.M.; Ireland, J.C., Determination of Henry's Law Constants of Selected Priority Pollutants, U. S. EPA Technical Report, PB87-212684, Cincinnati, OH., July 1987.\n8  Simonov, V.D.; Shamsutdinov, T.M.; Pogulyai, V.E.; Popova, L.N., Russ. J. Phys. Chem. 1974, 48, 1573-5.\n9  Simonov, V.D.; Pogulyai, V.E.; Shamsutdinov, T.M., Russ. J. Phys. Chem. 1970, 44, 1755-7.\n10  Simonov, V.D., et al., Dokl. Neftekim. Sekt. Bashkir. Respub. Pravl. Vses. Khim. Obshchest. 1971, 346-51.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,1,2,3,4,4-Hexachloro-1,3-butadiene",
+    "formula": "C4Cl6",
+    "cas": "87-68-3"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "10^2 * Mass Fraction w_2",
+     "10^4 * Mole Fraction x_2"
+    ],
+    "rows": [
+     [
+      "15",
+      "288.15",
+      "7.26 x 10^-4",
+      "1.05"
+     ],
+     [
+      "20",
+      "293.15",
+      "1.31 x 10^-3",
+      "1.90"
+     ],
+     [
+      "25",
+      "298.15",
+      "2.34 x 10^-3",
+      "3.38"
+     ],
+     [
+      "30",
+      "303.15",
+      "4.07 x 10^-3",
+      "5.89"
+     ],
+     [
+      "35",
+      "308.15",
+      "7.01 x 10^-3",
+      "10.1"
+     ],
+     [
+      "40",
+      "313.15",
+      "1.19 x 10^-2",
+      "17.2"
+     ],
+     [
+      "45",
+      "318.15",
+      "1.97 x 10^-2",
+      "28.4"
+     ],
+     [
+      "50",
+      "323.15",
+      "3.23 x 10^-2",
+      "46.6"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,1,2,3,4,4-Hexachloro-1,3-butadiene with Water"
+ },
+ {
+  "sheet_id": "68_104",
+  "system_id": "68006",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_104",
+  "system": "1,1,2,3,4,4-Hexachloro-1,3-butadiene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,1,2,3,4,4-Hexachloro-1,3-butadiene; C4Cl6; [87-68-3]",
+  "original_measurements": "Simonov, V.D.; Pogulyai, V.E.; Shamsutdinov, T.M., Russ. J. Phys. Chem. 1970, 44, 1755-7.",
+  "variables": "Temperature = 303 K - 323 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The Alexejew's synthetic method of solubility determination was used.^1 A fixed weight of water and 1,1,2,3,4,4-hexachloro-1,3-butadiene was sealed in a tube and subjected to gradually increasing temperature   with constant agitation. The appearance of an opalescence or clouding was an indication of saturation temperature. The temperature was then allowed to fall and an observation made, while the tube was constantly agitated, to  establish the temperature of the first appearance of opalescence. The observation was repeated several times.",
+  "source_purity": "(1) Distilled (compiler).\n(2) Synthesized by the authors, further purified by distillation.",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 0.5 K (compiler).",
+  "references": "^1 W. Alexejew, Ann. Phys. Chem. 28, 305 (1886).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,1,2,3,4,4-Hexachloro-1,3-butadiene",
+    "formula": "C4Cl6",
+    "cas": "87-68-3"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * Mass Fraction w_1",
+     "10^4 * Mole Fraction x_1 (compiler)",
+     "10^2 * w_1/M_1 (compiler) [mol g**-1]"
+    ],
+    "rows": [
+     [
+      "30",
+      "6.76 x 10^-3",
+      "9.78",
+      "3.75 x 10^-4"
+     ],
+     [
+      "50",
+      "2.12 x 10^-2",
+      "30.60",
+      "1.18 x 10^-3"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,1,2,3,4,4-Hexachloro-1,3-butadiene with Water"
+ },
+ {
+  "sheet_id": "68_106",
+  "system_id": "68006",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_106",
+  "system": "1,1,2,3,4,4-Hexachloro-1,3-butadiene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,1,2,3,4,4-Hexachloro-1,3-butadiene; C4Cl6; [87-68-3]",
+  "original_measurements": "Antropov, L.I.; Populyai, V.E.; Simonov, V.D.; Shamsutdinov, T.M., Russ. J. Phys. Chem. 1972, 46, 311-2 (VINITI No. 3739-71).",
+  "variables": "Temperature = 288 K - 299 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The Alexejew's synthetic method of solubility determination was used.^1 A fixed weight of 1,1,2,3,4,4-hexachloro-1,3-butadiene and water was sealed in a tube and subjected to gradually increasing temperature  with constant agitation. The appearance of an opalescence or clouding was an indication of saturation temperature. The temperature was then allowed to fall and an observation made, while the tube was constantly agitated, to  establish the temperature of the first appearance of opalescence. The observation was repeated several times.",
+  "source_purity": "(1) Synthesized by the authors, purified by fractional distillation and dried with CaCl_2 and P_2O_5.\n(2) Distilled.",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 1 K (compiler).",
+  "references": "^1 W. Alexejew, Ann. Phys. Chem. 28, 305 (1886).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,1,2,3,4,4-Hexachloro-1,3-butadiene",
+    "formula": "C4Cl6",
+    "cas": "87-68-3"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * Mass Fraction w_1",
+     "10^2 * Mass Fraction w_2",
+     "10^7 * Mole Fraction x_1 (compiler)",
+     "10^4 * Mole Fraction x_2 (compiler)"
+    ],
+    "rows": [
+     [
+      "15",
+      "3.2 x 10^-4",
+      "- x 10^0",
+      "2.21",
+      "-"
+     ],
+     [
+      "18",
+      "- x 10^0",
+      "0.834 x 10^-3",
+      "-",
+      "1.21"
+     ],
+     [
+      "20",
+      "3.8 x 10^-4",
+      "- x 10^0",
+      "2.62",
+      "-"
+     ],
+     [
+      "22",
+      "- x 10^0",
+      "1.25 x 10^-3",
+      "-",
+      "1.66"
+     ],
+     [
+      "26",
+      "4.12 x 10^-4",
+      "5.65 x 10^-3",
+      "2.85",
+      "8.17"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,1,2,3,4,4-Hexachloro-1,3-butadiene with Water"
+ },
+ {
+  "sheet_id": "68_108",
+  "system_id": "68006",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_108",
+  "system": "1,1,2,3,4,4-Hexachloro-1,3-butadiene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,1,2,3,4,4-Hexachloro-1,3-butadiene; C4Cl6; [87-68-3]",
+  "original_measurements": "McConnell, G.; Ferguson, D.M.; Pearson, C.R., Endeavour 1975, 34, 13-8.",
+  "variables": "Temperature = 293 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility of the 1,1,2,3,4,4-hexachloro-1,3-butadiene in water was determined by gas-liquid chromatography (GLC) using an  electron capture detector for analysis. Where possible, identification was confirmed by a linked mass spectrometer (MS) method.",
+  "source_purity": "(1) Source and purity not given.\n(2) Distilled (compiler).",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 0.1 K (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,1,2,3,4,4-Hexachloro-1,3-butadiene",
+    "formula": "C4Cl6",
+    "cas": "87-68-3"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^6 * g_1/g_2",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^7 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "20",
+      "2.0",
+      "2.0 x 10^-4",
+      "1.38"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,1,2,3,4,4-Hexachloro-1,3-butadiene with Water"
+ },
+ {
+  "sheet_id": "68_111",
+  "system_id": "68006",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_111",
+  "system": "1,1,2,3,4,4-Hexachloro-1,3-butadiene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,1,2,3,4,4-Hexachloro-1,3-butadiene; C4Cl6; [87-68-3]",
+  "original_measurements": "Oliver, B.G., Chemosphere 14, 1087-106 (1985).",
+  "variables": "Temperature = 293 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A gaseous purge system was used for the measurements. The apparatus consisted of a jacketed container which was thermostated in a water bath. The experiment was performed in the stripping apparatus by introducing 0.5  cm^3 of an acetone solution of 1,1,2,3,4,4-hexachloro-1,3-butadiene into one dm^3 water. The Henry’s law constant was determined from the ratio of the concentration in the gas stream to concentration in the water.",
+  "source_purity": "(1) Source and purity not given.\n(2) Distilled.",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 0.1 K.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,1,2,3,4,4-Hexachloro-1,3-butadiene",
+    "formula": "C4Cl6",
+    "cas": "87-68-3"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Henry's law constant [m**3atm/mol]",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^7 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "20",
+      "43",
+      "6.08 x 10^-4",
+      "4.20"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,1,2,3,4,4-Hexachloro-1,3-butadiene with Water"
+ },
+ {
+  "sheet_id": "68_103",
+  "system_id": "68006",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_103",
+  "system": "1,1,2,3,4,4-Hexachloro-1,3-butadiene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,1,2,3,4,4-Hexachloro-1,3-butadiene; C4Cl6; [87-68-3]",
+  "original_measurements": "McBee, E.T.; Hatton, R.E., Ind. Eng. Chem. 41, 809-12 (1949).",
+  "variables": "Temperature = 293 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Details have been reported in a Ph.D. thesis (1).",
+  "source_purity": "(1) Prepared by chlorination of polychlorobutane. The b. p. was 215°C. At 20°C, n_D = 1.5542 and d_20 = 1.6820 g/cm^3.\n(2) Distilled (compiler).",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 0.2 K (compiler).",
+  "references": "^1 R. E. Hatton, Ph.D. thesis, Purdue University, Lafayett, Ind., 1947.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,1,2,3,4,4-Hexachloro-1,3-butadiene",
+    "formula": "C4Cl6",
+    "cas": "87-68-3"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * Mass Fraction w_1",
+     "10^7 * Mole Fraction x_1 (compiler)",
+     "10^2 * w_1/M_1 (compiler) [mol g**-1]"
+    ],
+    "rows": [
+     [
+      "20",
+      "5.0 x 10^-4",
+      "3.45",
+      "1.9 x 10^-6"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,1,2,3,4,4-Hexachloro-1,3-butadiene with Water"
+ },
+ {
+  "sheet_id": "68_105",
+  "system_id": "68006",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_105",
+  "system": "1,1,2,3,4,4-Hexachloro-1,3-butadiene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,1,2,3,4,4-Hexachloro-1,3-butadiene; C4Cl6; [87-68-3]",
+  "original_measurements": "Simonov, V.D., et al., Dokl. Neftekim. Sekt. Bashkir. Respub. Pravl. Vses. Khim. Obshchest. 1971, 346-51.",
+  "variables": "Temperature = 288 K - 303 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The determination of the solubility of water in 1,1,2,3,4,4-hexachloro-1,3-butadiene was based on the infrared spectroscopic method. A UR-20 spectrophotometer was used with 2-cm cuvettes and the windows made of KBr.  The spectra were recorded at 3600-810 cm^-1, and the absorbance at 3702 cm^-1 was found by the baseline method. Standard mixtures of 1,1,2,3,4,4-hexachloro-1,3-butadiene and water were used for the calibration graphs.  The results obtained were compared with the measurements made by the methods of cloud point^1 and a Karl Fischer titration.",
+  "source_purity": "(1) Distilled.\n(2) Synthesized by the authors, distilled, washed with HClSO_3 and water, and distilled again.  Dried with CaCl_2 and P_2O_5 before use.",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 0.5 K.",
+  "references": "^1 V. F. Alekseev, Wied. Ann. 28, 305 (1886).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,1,2,3,4,4-Hexachloro-1,3-butadiene",
+    "formula": "C4Cl6",
+    "cas": "87-68-3"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^6 * Mass Fraction w_1",
+     "10^4 * Mole Fraction x_1",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "15",
+      "7.12",
+      "1.030",
+      "Alekseev"
+     ],
+     [
+      "16",
+      "7.80",
+      "1.129",
+      "Alekseev"
+     ],
+     [
+      "19.5",
+      "9.74",
+      "1.410",
+      "Alekseev"
+     ],
+     [
+      "21",
+      "10.2",
+      "1.476",
+      "Alekseev"
+     ],
+     [
+      "29.5",
+      "59.9",
+      "8.663",
+      "Alekseev"
+     ],
+     [
+      "15",
+      "7.42",
+      "1.074",
+      "Fischer"
+     ],
+     [
+      "16",
+      "7.83",
+      "1.133",
+      "Fischer"
+     ],
+     [
+      "19.5",
+      "9.82",
+      "1.424",
+      "Fischer"
+     ],
+     [
+      "21",
+      "-",
+      "-",
+      "Fischer"
+     ],
+     [
+      "29.5",
+      "59.6",
+      "8.620",
+      "Fischer"
+     ],
+     [
+      "15",
+      "7.42",
+      "1.074",
+      "Spectroscopy"
+     ],
+     [
+      "16",
+      "8.20",
+      "1.187",
+      "Spectroscopy"
+     ],
+     [
+      "19.5",
+      "9.89",
+      "1.431",
+      "Spectroscopy"
+     ],
+     [
+      "21",
+      "10.1",
+      "1.462",
+      "Spectroscopy"
+     ],
+     [
+      "29.5",
+      "-",
+      "-",
+      "Spectroscopy"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,1,2,3,4,4-Hexachloro-1,3-butadiene with Water"
+ },
+ {
+  "sheet_id": "68_107",
+  "system_id": "68006",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_107",
+  "system": "1,1,2,3,4,4-Hexachloro-1,3-butadiene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,1,2,3,4,4-Hexachloro-1,3-butadiene; C4Cl6; [87-68-3]",
+  "original_measurements": "Simonov, V.D.; Shamsutdinov, T.M.; Pogulyai, V.E.; Popova, L.N., Russ. J. Phys. Chem. 1974, 48, 1573-5.",
+  "variables": "Temperature = 313 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The Alexejew's synthetic method of solubility determination as described elsewhere^1 was used.",
+  "source_purity": "(1) Source and purity not given.\n(2) Distilled (compiler).",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 0.5 K (compiler).",
+  "references": "^1 V. D. Simonov, L. N. Popova, T. M. Shamsutdinov, V. E. Pogulyai, and F. A. Mamina, Symp. Doklady Neftekhimicheskoi Settsii, Ufa. No. 6 (1971).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,1,2,3,4,4-Hexachloro-1,3-butadiene",
+    "formula": "C4Cl6",
+    "cas": "87-68-3"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * Mass Fraction w_1",
+     "10^2 * Mass Fraction w_2",
+     "10^6 * Mole Fraction x_1 (compiler)",
+     "10^3 * Mole Fraction x_2 (compiler)"
+    ],
+    "rows": [
+     [
+      "40",
+      "5.9 x 10^-3",
+      "1.1 x 10^-2",
+      "4.08",
+      "1.59"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,1,2,3,4,4-Hexachloro-1,3-butadiene with Water"
+ },
+ {
+  "sheet_id": "68_109",
+  "system_id": "68006",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_109",
+  "system": "1,1,2,3,4,4-Hexachloro-1,3-butadiene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,1,2,3,4,4-Hexachloro-1,3-butadiene; C4Cl6; [87-68-3]",
+  "original_measurements": "Pearson, C.R.; McConnell, G., Proc. Roy. Soc. B. 1975, 189, 305-32.",
+  "variables": "Temperature = 293 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Saturated solutions were prepared in a constant temperature thermostat bath. Water samples were extracted with npentane and an aliquot of the extract taken for gas-liquid  chromatographic analysis. The gas chromatograph was fitted with a ^63Ni electron capture detector.",
+  "source_purity": "(1) Source and purity not given.\n(2) Distilled.",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 0.1 K (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,1,2,3,4,4-Hexachloro-1,3-butadiene",
+    "formula": "C4Cl6",
+    "cas": "87-68-3"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^6 * g_1/g_2",
+     "10^1 * Mass Fraction w_1 (compiler)",
+     "10^7 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "2",
+      "2.0",
+      "2.0 x 10^-4",
+      "1.38"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,1,2,3,4,4-Hexachloro-1,3-butadiene with Water"
+ },
+ {
+  "sheet_id": "68_110",
+  "system_id": "68006",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_110",
+  "system": "1,1,2,3,4,4-Hexachloro-1,3-butadiene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,1,2,3,4,4-Hexachloro-1,3-butadiene; C4Cl6; [87-68-3]",
+  "original_measurements": "Banerjee, S.; Yalkowsky, S.H.; Valvani, S.C., Environ. Sci. Technol. 1980, 14, 1227-9.",
+  "variables": "Temperature = 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "An excess of 1,1,2,3,4,4-hexachloro-1,3-butadiene was added to a stainless steel tube containing water and the tube was sealed. It was allowed to equilibrate during shaking for a week at 25°C. After centrifugation, the  sample was analyzed for radioactivity using a liquid scintillation counting. The solubility determination was repeated at least twice for each sample and the analysis was done in duplicate.",
+  "source_purity": "(1) New England Nuclear, used as received.\n(2) Distilled.",
+  "estimated_error": "Solubility: ± 2.5 %.\nTemperature: ± 0.3 K.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,1,2,3,4,4-Hexachloro-1,3-butadiene",
+    "formula": "C4Cl6",
+    "cas": "87-68-3"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^6 * Concentration c_1 [mol dm**3]",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^7 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "25",
+      "12.4",
+      "3.24 x 10^-4",
+      "2.20"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,1,2,3,4,4-Hexachloro-1,3-butadiene with Water"
+ },
+ {
+  "sheet_id": "68_112",
+  "system_id": "68006",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_112",
+  "system": "1,1,2,3,4,4-Hexachloro-1,3-butadiene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,1,2,3,4,4-Hexachloro-1,3-butadiene; C4Cl6; [87-68-3]",
+  "original_measurements": "Warner, H.P.; Cohen, J.M.; Ireland, J.C., Determination of Henry's Law Constants of Selected Priority Pollutants, U. S. EPA Technical Report, PB87-212684, Cincinnati, OH., July 1987.",
+  "variables": "Temperature = 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The original method and apparatus for the determination of Henry's law constants, as described elsewhere^1, was used. The general procedure was to add an excess quantity of 1,1,2,3,4,4-hexachloro-1,3-butadiene to  distilled deionized water, place the sample in a thermostat bath, and mix overnight. A portion of this solution was returned to the stripping vessel. The 1,1,2,3,4,4-hexachloro-1,3-butadiene was stripped isothermally from  the solution mixture at a known gas flow rate. The Henry’s law constant was calculated from the log of the concentration versus time plot. The experimental data values are averages of two or more replicates.",
+  "source_purity": "(1) Purest quality available, used without further purification. Stated purity > 99 %.\n(2) Distilled and deionized.",
+  "estimated_error": "Solubility: ±6 % std. dev.\nTemperature: ± 0.05 K.",
+  "references": "^1 D. Mackay, W. -Y. Shiu, and R. D. Sutherland, Environ. Sci. Technol. 13, 333 (1979).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,1,2,3,4,4-Hexachloro-1,3-butadiene",
+    "formula": "C4Cl6",
+    "cas": "87-68-3"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Henry's law constant [m**3atm/mol]",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^7 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "24.85",
+      "1.03 x 10^-2",
+      "5.0 x 10^-4",
+      "3.456"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,1,2,3,4,4-Hexachloro-1,3-butadiene with Water"
+ },
+ {
+  "sheet_id": "68_145",
+  "system_id": "68007",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_145",
+  "system": "1,1,2,3,4,5,5,5-Octachloro-1,3-pentadiene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,1,2,3,4,5,5,5-Octachloro-1,3-pentadiene; C5Cl8; [1888-73-9]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "A. L. Horvath, Imperial Chemical Industries Limited, Runcorn, U.K., July 1993.",
+  "critical_evaluation": "",
+  "experimental_values": "The 1,1,2,3,4,5,5,5-octachloro-1,3-pentadiene (1) and water (2) binary system is treated in two parts; part 1 is 1,1,2,3,4,5,5,5-octachloro-1,3-pentadiene (1) in water (2) and part 2 is water (2) in 1,1,2,3,4,5,5,5-octa-chloro-1,3-pentadiene (1).\nPart 1. The solubility of 1,1,2,3,4,5,5,5-octachloro-1,3-pentadiene (1) in water (2) has been studied by two work groups from the same laboratory. The data at the lower temperatures appear to be inconsistent with the single high temperature value. Whether or not the two sets of data at different temperatures are consistent still must be established. The temperature dependence of the solubility observed by Simonov et al.^1 in the 313 K range is considerably higher than that of Antropov et al.^2 Nevertheless, there are insufficient independent data at present to justify exclusion of any values and thus all solubility results in weight percent and mole fraction are included in Table 26. In view of the lack of better consistency between the two sets of measurements, the listed values should be regarded as very tentative. The temperature dependence of the solubility of 1,1,2,3,4,5,5,5-octachloro-1,3-pentadiene (1) in water (2) requires a thorough investigation over the whole temperature range in order to establish more reliable values.\nPart 2. The solubility of water (2) in 1,1,2,3,4,5,5,5-octachloro-1,3-pentadiene (1) has been reported by the same investigators who studied the solubility of 1,1,2,3,4,5,5,5-octachloro-1,3-pentadiene (1) in water (2).\nThe data consistency was studied by plotting log_10x_2 versus the reciprocal of absolute temperature; see  Figure 9. The plot shows that the temperature dependence of the solubility observed by Antropov et al.^2 and by Simonov et al.^1 is sufficiently consistent over the temperature range from 291 to 313 K. Nevertheless, there are insufficient independent data at present to justify the recommendation of any values. All the reported values were correlated with the smoothing equation between 291 and 313 K:\nlog_10x_2  = 5.2285 - 3113.03/(T/K)\nThis equation yielded a standard deviation of 2.18x10^-2 in the temperature range from 291 to 313 K.\nA linear relation between the solubility expressed as log_10x_2 versus the reciprocal of absolute temperature is apparent in  Fig. 9. The straight line behavior of such plots is characteristic of the solubility of water in halogenated hydrocarbons; this behavior is discussed in the Preface in greater detail.",
+  "notes": "",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  Simonov, V.D.; Shamsutdinov, T.M.; Pogulyai, V.E.; Popova, L.N., Russ. J. Phys. Chem. 1974, 48, 1573-5.\n2  Antropov, L.I.; Populyai, V.E.; Simonov, V.D.; Shamsutdinov, T.M., Russ. J. Phys. Chem. 1972, 46, 311-2 (VINITI No. 3739-71).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,1,2,3,4,5,5,5-Octachloro-1,3-pentadiene",
+    "formula": "C5Cl8",
+    "cas": "1888-73-9"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "10^2 * Mass Fraction w_2",
+     "10^5 * Mole Fraction x_2"
+    ],
+    "rows": [
+     [
+      "20",
+      "293.15",
+      "2.132 x 10^-5",
+      "0.4067"
+     ],
+     [
+      "25",
+      "298.15",
+      "3.212 x 10^-5",
+      "0.6128"
+     ],
+     [
+      "30",
+      "303.15",
+      "4.776 x 10^-5",
+      "0.9111"
+     ],
+     [
+      "35",
+      "308.15",
+      "7.009 x 10^-5",
+      "1.337"
+     ],
+     [
+      "40",
+      "313.15",
+      "10.185 x 10^-5",
+      "1.943"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,1,2,3,4,5,5,5-Octachloro-1,3-pentadiene with Water"
+ },
+ {
+  "sheet_id": "68_146",
+  "system_id": "68007",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_146",
+  "system": "1,1,2,3,4,5,5,5-Octachloro-1,3-pentadiene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,1,2,3,4,5,5,5-Octachloro-1,3-pentadiene; C5Cl8; [1888-73-9]",
+  "original_measurements": "Antropov, L.I.; Populyai, V.E.; Simonov, V.D.; Shamsutdinov, T.M., Russ. J. Phys. Chem. 1972, 46, 311-2 (VINITI No. 3739-71).",
+  "variables": "Temperature = 288 K - 299 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The Alexejew's synthetic method of solubility determination was used.^1 A fixed weight of water and 1,1,2,3,4,5,5,5-octachloro-1,3-pentadiene was sealed in a tube and subjected to gradually increasing  temperature with constant agitation. The appearance of an opalescence or clouding was an indication of saturation temperature. The temperature was then allowed to fall and an observation made, while the tube was  constantly agitated, to establish the temperature of the first appearance of opalescence. The observation was repeated several times.",
+  "source_purity": "(1) Synthesised by the investigators, purified by fractional distillation and dried with CaCl_2 and P_2O_5.\n(2) Distilled.",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 1 K (compiler).",
+  "references": "^1 W. Alexejew, Ann. Phys. Chem. 28, 305 (1886).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,1,2,3,4,5,5,5-Octachloro-1,3-pentadiene",
+    "formula": "C5Cl8",
+    "cas": "1888-73-9"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * Mass Fraction w_1",
+     "10^2 * Mass Fraction w_2",
+     "10^9 * Mole Fraction x_1 (compiler)",
+     "10^6 * Mole Fraction x_2 (compiler)"
+    ],
+    "rows": [
+     [
+      "15",
+      "1.44 x 10^-5",
+      "- x 10^0",
+      "7.55",
+      "-"
+     ],
+     [
+      "18",
+      "- x 10^0",
+      "1.77 x 10^-5",
+      "-",
+      "3.38"
+     ],
+     [
+      "20",
+      "2.02 x 10^-5",
+      "- x 10^0",
+      "10.59",
+      "-"
+     ],
+     [
+      "22",
+      "- x 10^0",
+      "2.45 x 10^-5",
+      "-",
+      "4.67"
+     ],
+     [
+      "26",
+      "3.40 x 10^-5",
+      "3.69 x 10^-5",
+      "17.82",
+      "7.07"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,1,2,3,4,5,5,5-Octachloro-1,3-pentadiene with Water"
+ },
+ {
+  "sheet_id": "68_147",
+  "system_id": "68007",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_147",
+  "system": "1,1,2,3,4,5,5,5-Octachloro-1,3-pentadiene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,1,2,3,4,5,5,5-Octachloro-1,3-pentadiene; C5Cl8; [1888-73-9]",
+  "original_measurements": "Simonov, V.D.; Shamsutdinov, T.M.; Pogulyai, V.E.; Popova, L.N., Russ. J. Phys. Chem. 1974, 48, 1573-5.",
+  "variables": "Temperature = 313 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The synthetic method of Alexejew was used. Further details are found elsewhere.^1",
+  "source_purity": "(1) Source and purity not given.\n(2) Distilled (compiler).",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 1 K (compiler).",
+  "references": "^1 V. D. Simonov, L. N. Popova, T. M. Shamsutdinov, V. E. Pogulyai, and F. A. Mamina, Symp. Doklady Neftekhimicheskoi Settsii, Ufa. No. 6 (1971).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,1,2,3,4,5,5,5-Octachloro-1,3-pentadiene",
+    "formula": "C5Cl8",
+    "cas": "1888-73-9"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * Mass Fraction w_1",
+     "10^2 * Mass Fraction w_2",
+     "10^7 * Mole Fraction x_1 (compiler)",
+     "10^5 * Mole Fraction x_2 (compiler)"
+    ],
+    "rows": [
+     [
+      "40",
+      "6.0 x 10^-4",
+      "1.0 x 10^-4",
+      "3.14",
+      "1.91"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,1,2,3,4,5,5,5-Octachloro-1,3-pentadiene with Water"
+ },
+ {
+  "sheet_id": "68_118",
+  "system_id": "68008",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_118",
+  "system": "1,1-Dichlorobutane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,1-Dichlorobutane; C4H8Cl2; [541-33-3]",
+  "original_measurements": "Wright, W.H.; Schaffer, J.M., Am. J. Hygiene 16, 325 (1932).",
+  "variables": "Temperature = 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility was determined by mixing definite quantities of 1,1-dichlorobutane with a large volume of water and then measuring the volume of the undissolved portion of 1,1-dichlorobutane.",
+  "source_purity": "(1) Commercial grade, further purified by washing with NaHCO_3 solution and redistilled.\n(2) Distilled.",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 0.5 K (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,1-Dichlorobutane",
+    "formula": "C4H8Cl2",
+    "cas": "541-33-3"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^5 * Mole Fraction x_1 (compiler)",
+     "V_2/g_1 [cm**3 g**-1]"
+    ],
+    "rows": [
+     [
+      "25",
+      "5.01 x 10^-2",
+      "7.11",
+      "2.0 x 10^3"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,1-Dichlorobutane with Water"
+ },
+ {
+  "sheet_id": "68_34",
+  "system_id": "68009",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_34",
+  "system": "1,2,3-Trichloropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2,3-Trichloropropane; C3H5Cl3; [96-18-4]",
+  "original_measurements": "Leighton, D.T.; Calo, J.M., J. Chem. Eng. Data 1981, 26, 382-5.",
+  "variables": "Temperature = 275 K - 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  Gas-liquid system analysis parameter, from calibration measurements.",
+  "method": "5 μL 1,2,3-trichloropropane sample was injected into a 2.3 dm^3 equilibration cell containing distilled water. After the cell was shaken vigorously for about 5 minutes, the homogeneity of the liquid sample was  maintained with a magnetic stirrer. Compressed air was passed through the cell and the gas flow was measured with a soap film flowmeter. The 1,2,3-trichloropropane content was extracted and analyzed using a  dual flame ionization detector gas chromatograph.",
+  "source_purity": "(1) Source and purity not given.\n(2) Distilled.",
+  "estimated_error": "Solubility: ± 6.1 %.\nTemperature: ± 0.5 K.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2,3-Trichloropropane",
+    "formula": "C3H5Cl3",
+    "cas": "96-18-4"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Distribution coefficient, D_L",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^4 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "1.9",
+      "11.66",
+      "7.230 x 10^-2",
+      "0.8841"
+     ],
+     [
+      "13.5",
+      "11.46",
+      "1.651 x 10^-1",
+      "2.021"
+     ],
+     [
+      "15.7",
+      "13.55",
+      "1.596 x 10^-1",
+      "1.953"
+     ],
+     [
+      "17.1",
+      "14.18",
+      "1.683 x 10^-1",
+      "2.060"
+     ],
+     [
+      "22",
+      "15.12",
+      "2.173 x 10^-1",
+      "2.661"
+     ],
+     [
+      "24.9",
+      "19.81",
+      "2.000 x 10^-1",
+      "2.448"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,2,3-Trichloropropane with Water"
+ },
+ {
+  "sheet_id": "68_31",
+  "system_id": "68009",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_31",
+  "system": "1,2,3-Trichloropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2,3-Trichloropropane; C3H5Cl3; [96-18-4]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "A. L. Horvath, Imperial Chemical Industries Limited, Runcorn, U.K., July 1993.",
+  "critical_evaluation": "",
+  "experimental_values": "The solubility of 1,2,3-trichloropropane (1) in water (2) has been studied by four work groups; whereas, the solubility of water (2) in 1,2,3-trichloropropane (1) has not been investigated yet.\nThe solubility value of Wright and Schaffer^1 is markedly higher than the other measurements and is therefore rejected. The remaining data of Hutchinson et al.,^2 of Leighton and Calo,^3 and of Bauduin et al.^4 are in reasonable agreement, although further studies are required before any values can be recommend.\nThe combined mass percent data^2-4 covering the temperature interval from 275 to 298 K were correlated to obtain the following mass percent (1) equation:\nSolubility [100 w_1 = -14.676 + 0.097906 (T/K) - 1.61015x10^-4 (T/K)^2\nwhich yielded a standard deviation of 1.47x10^-2 in the prescribed temperature range. The concave shape of the solubility versus temperature curve suggests that the data may be inconsistent. The tentative solubility at 5 K intervals from the smoothing equation for this system in weight percent and mole fraction are presented in Table 9.",
+  "notes": "",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  Wright, W.H.; Schaffer, J.M., Am. J. Hygiene 16, 325 (1932).\n2  Hutchinson, T.C.; Hellebust, J.A.; Tam, D., et al. Hydrocarbons and Halogenated Hydrocarbons in the Aquatic Environment, Plenum Press, New York, 1980, p. 577-86.\n3  Leighton, D.T.; Calo, J.M., J. Chem. Eng. Data 1981, 26, 382-5.\n4  Bauduin, G.; Bondon, D.; Gonzales-Moran, J.; Pietrasanta, Y., Analusis 13, 124-7 (1985).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2,3-Trichloropropane",
+    "formula": "C3H5Cl3",
+    "cas": "96-18-4"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "10^2 * Mass Fraction w_1",
+     "10^4 * Mole Fraction x_1"
+    ],
+    "rows": [
+     [
+      "5",
+      "278.15",
+      "9.92 x 10^-2",
+      "1.21"
+     ],
+     [
+      "10",
+      "283.15",
+      "1.37 x 10^-1",
+      "1.68"
+     ],
+     [
+      "15",
+      "288.15",
+      "1.67 x 10^-1",
+      "2.04"
+     ],
+     [
+      "20",
+      "293.15",
+      "1.88 x 10^-1",
+      "2.30"
+     ],
+     [
+      "25",
+      "298.15",
+      "2.01 x 10^-1",
+      "2.47"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,2,3-Trichloropropane with Water"
+ },
+ {
+  "sheet_id": "68_32",
+  "system_id": "68009",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_32",
+  "system": "1,2,3-Trichloropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2,3-Trichloropropane; C3H5Cl3; [96-18-4]",
+  "original_measurements": "Wright, W.H.; Schaffer, J.M., Am. J. Hygiene 16, 325 (1932).",
+  "variables": "Temperature = 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility was determined by mixing definite quantities of 1,2,3-trichloropropane with a large volume of water and then measuring the volume of the undissolved portion of 1,2,3-trichloropropane.",
+  "source_purity": "(1) Commercial grade, further purified by washing with NaHCO_3 solution and redistilled.\n(2) Distilled.",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 0.5 K (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2,3-Trichloropropane",
+    "formula": "C3H5Cl3",
+    "cas": "96-18-4"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^4 * Mole Fraction x_1 (compiler)",
+     "V_2/g_1 [m**3 g**-1]"
+    ],
+    "rows": [
+     [
+      "25",
+      "0.238",
+      "2.91",
+      "4.20 x 10^-4"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,2,3-Trichloropropane with Water"
+ },
+ {
+  "sheet_id": "68_33",
+  "system_id": "68009",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_33",
+  "system": "1,2,3-Trichloropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2,3-Trichloropropane; C3H5Cl3; [96-18-4]",
+  "original_measurements": "Hutchinson, T.C.; Hellebust, J.A.; Tam, D., et al. Hydrocarbons and Halogenated Hydrocarbons in the Aquatic Environment, Plenum Press, New York, 1980, p. 577-86.",
+  "variables": "Temperature = 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "An excess quantity of 1,2,3-trichloropropane was added to water and stirred vigorously for 24 hrs. After settling at 25°C for 48 hours, the solution was extracted with cyclohexane. The samples were analyzed using an Aminco-  Bowman spectrophotofluorometer. A detailed description of the method has been reported elsewhere.^1",
+  "source_purity": "(1) Aldrich Chemicals, highest grade available. Used as received.\n(2) Double distilled.",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 0.2 K (compiler).",
+  "references": "^1 D. Mackay and W. -Y. Shiu, J. Chem. Eng. Data 22, 399 (1977).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2,3-Trichloropropane",
+    "formula": "C3H5Cl3",
+    "cas": "96-18-4"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Density ρ [kg m**-3]",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^4 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "25",
+      "1.900",
+      "0.1906",
+      "2.33"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,2,3-Trichloropropane with Water"
+ },
+ {
+  "sheet_id": "68_35",
+  "system_id": "68009",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_35",
+  "system": "1,2,3-Trichloropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2,3-Trichloropropane; C3H5Cl3; [96-18-4]",
+  "original_measurements": "Bauduin, G.; Bondon, D.; Gonzales-Moran, J.; Pietrasanta, Y., Analusis 13, 124-7 (1985).",
+  "variables": "Temperature = 291 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility of 1,2,3-trichloropropane was determined in three different aqueous solution types: deionized water and artificial and Mediterranean seawaters. The saturated solutions were prepared under vigorous  agitation from four to five hours. After filtration, samples of the homogeneous aqueous phase were analyzed using gas chromatography. Further details on the analytical method are given elsewhere.^1",
+  "source_purity": "(1) Source and purity not given.\n(2) Source and purity of the deionized water and artificial and Mediterranean seawaters not  given.",
+  "estimated_error": "Solubility: See above.\nTemperature: ± 1 K (compiler).",
+  "references": "^1 G. Bauduin, J. M. Bessiere, G. Bondon, J. Gonzales-Moran, and Y. Pietrasanta, Analusis 11, 178 (1983).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2,3-Trichloropropane",
+    "formula": "C3H5Cl3",
+    "cas": "96-18-4"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "g_1/V_2 [kg m**-3]",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^4 * Mole Fraction x_1 (compiler)",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "1.75+/-0.01",
+      "0.175",
+      "2.142",
+      "De-ionized water"
+     ],
+     [
+      "1.70+/-0.02",
+      "0.170",
+      "-",
+      "Artificial seawater"
+     ],
+     [
+      "1.39+/-0.09",
+      "0.139",
+      "-",
+      "Mediterranean seawater"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,2,3-Trichloropropane with Water"
+ },
+ {
+  "sheet_id": "68_1",
+  "system_id": "68010",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_1",
+  "system": "1,2-Dibromo-1,1,2,3,3,3-hexafluoropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2-Dibromo-1,1,2,3,3,3-hexafluoropropane; C3Br2F6; [661-95-0]",
+  "original_measurements": "du Pont de Nemours & Company, Solubility Relationships between Fluorocarbons and Water, Tech. Bull. B-43, Wilmington, Del., 17 pp. (1966).",
+  "variables": "Temperature = 294 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Details are not available.",
+  "source_purity": "(1) Distilled (compiler).\n(2) Source and purity not given.",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 1 K (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2-Dibromo-1,1,2,3,3,3-hexafluoropropane",
+    "formula": "C3Br2F6",
+    "cas": "661-95-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * Mass Fraction w_1",
+     "10^3 * Mole Fraction x_1 (compiler)",
+     "10^2 * w_1/M_1 (compiler) [mol g**-1]"
+    ],
+    "rows": [
+     [
+      "21",
+      "6.8 x 10^-3",
+      "1.17",
+      "3.77 x 10^-4"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,2-Dibromo-1,1,2,3,3,3-hexafluoropropane with Water"
+ },
+ {
+  "sheet_id": "68_28",
+  "system_id": "68011",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_28",
+  "system": "1,2-Dibromo-3-chloropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2-Dibromo-3-chloropropane; C3H5Br2Cl; [96-12-8]",
+  "original_measurements": "Goring, C.A.I., in  Advances in Pest Control Research, R. L. Metcalf, Ed.,Interscience Publ., New York, p. 47-84 (1962).",
+  "variables": "Temperature = 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Details are not available.  The experimental work was done in the Main Analytical Laboratory, The Dow Chemical Company, Midland, Michigan. Further details have been reported elsewhere.^1",
+  "source_purity": "(1) Dow Chemical Company, Midland, Michigan. Used as received.\n(2) Distilled (compiler).",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 1 K (compiler).",
+  "references": "^1 C. R. Youngson and C. A. I. Goring, Soil Sci. 93, 306 (1962).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2-Dibromo-3-chloropropane",
+    "formula": "C3H5Br2Cl",
+    "cas": "96-12-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^6 * Mass Fraction w_1",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^5 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "20",
+      "1.23 x 10^3",
+      "0.123",
+      "3.387"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,2-Dibromo-3-chloropropane with Water"
+ },
+ {
+  "sheet_id": "68_40",
+  "system_id": "68012",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_40",
+  "system": "1,2-Dibromopropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2-Dibromopropane; C3H6Br2; [78-75-1]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "A. L. Horvath, Imperial Chemical Industries Limited, Runcorn, U.K., July 1993.",
+  "critical_evaluation": "",
+  "experimental_values": "The 1,2-dibromopropane (1) and water (2) binary system is treated in two parts; part 1 is 1,2-dibromopro-pane (1) in water (2) and part 2 is water (2) in 1,2-dibromopropane (1).\nPart 1. The solubility of 1,2-dibromopropane (1) in water (2) has been studied by two work groups at two different temperatures. Therefore, a comparison of the measured values is not possible. The readers are referred to the relevant compilation sheets of Dreisbach^1 and of Bauduin et al.,^2 respectively.\nPart 2. The solubility of water (2) in 1,2-dibromopropane (1) has been studied by Dreisbach^1 only and there are no other measurements for comparison. Therefore, it is not possible to perform a critical evaluation. The readers are referred to the relevant compilation sheet for further details.",
+  "notes": "",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  Dreisbach, R.R., \"Physical Properties of Chemical Compounds,\" Advances in Chemistry Series No. 22; American Chemical Society: Washington, D.C., 1959; pp. 208-214.\n2  Bauduin, G.; Bondon, D.; Gonzales-Moran, J.; Pietrasanta, Y., Analusis 13, 124-7 (1985).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2-Dibromopropane",
+    "formula": "C3H6Br2",
+    "cas": "78-75-1"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [],
+    "rows": []
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,2-Dibromopropane with Water"
+ },
+ {
+  "sheet_id": "68_41",
+  "system_id": "68012",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_41",
+  "system": "1,2-Dibromopropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2-Dibromopropane; C3H6Br2; [78-75-1]",
+  "original_measurements": "Dreisbach, R.R., \"Physical Properties of Chemical Compounds,\" Advances in Chemistry Series No. 22; American Chemical Society: Washington, D.C., 1959; pp. 208-214.",
+  "variables": "Temperature = 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Details are not available.",
+  "source_purity": "(1) Dow Chemical Company, 99.86 % pure, purified by distillation before use.\n(2) Distilled.",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 1 K (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2-Dibromopropane",
+    "formula": "C3H6Br2",
+    "cas": "78-75-1"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * g_1/g_2",
+     "10^2 * g_2/g_1",
+     "10^4 * Mole Fraction x_1 (compiler)",
+     "10^3 * Mole Fraction x_2 (compiler)"
+    ],
+    "rows": [
+     [
+      "25",
+      "0.143",
+      "5.2 x 10^-2",
+      "1.28",
+      "5.80"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,2-Dibromopropane with Water"
+ },
+ {
+  "sheet_id": "68_42",
+  "system_id": "68012",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_42",
+  "system": "1,2-Dibromopropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2-Dibromopropane; C3H6Br2; [78-75-1]",
+  "original_measurements": "Bauduin, G.; Bondon, D.; Gonzales-Moran, J.; Pietrasanta, Y., Analusis 13, 124-7 (1985).",
+  "variables": "Temperature = 291 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility of 1,2-dibromopropane was determined in three different aqueous solution types: deionized water and artificial and Mediterranean seawaters. The saturated solutions were prepared under vigorous  agitation from four to five hours. After filtration, samples of the homogeneous aqueous phase were analyzed using gas chromatography. Further details on the analytical method are given elsewhere.^1",
+  "source_purity": "(1) Source and purity not given.\n(2) Source and purity not given.",
+  "estimated_error": "Solubility: See above.\nTemperature: ± 1 K (compiler).",
+  "references": "^1G. Bauduin, J. M. Bessiere, G. Boudon, J. Gonzales-Moran, and Y. Pietrasanta, Analusis 11, 178 (1983).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2-Dibromopropane",
+    "formula": "C3H6Br2",
+    "cas": "78-75-1"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Density ρ [kg m**-3]",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^5 * Mole Fraction x_1 (compiler)",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "0.82+/-0.03",
+      "8.20 x 10^-2",
+      "7.23",
+      "De-ionized water"
+     ],
+     [
+      "0.801+/-0.003",
+      "8.01 x 10^-2",
+      "-",
+      "Artificial seawater"
+     ],
+     [
+      "0.82+/-0.05",
+      "8.20 x 10^-2",
+      "-",
+      "Mediterranean seawater"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,2-Dibromopropane with Water"
+ },
+ {
+  "sheet_id": "68_2",
+  "system_id": "68013",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_2",
+  "system": "1,2-Dichloro-1,1,2,3,3,3-hexafluoropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2-Dichloro-1,1,2,3,3,3-hexafluoropropane; C3Cl2F6; [661-97-2]",
+  "original_measurements": "du Pont de Nemours & Company, Solubility Relationships between Fluorocarbons and Water, Tech. Bull. B-43, Wilmington, Del., 17 pp. (1966).",
+  "variables": "Temperature = 294 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Details are not available.",
+  "source_purity": "(1) Distilled (compiler).\n(2) Source and purity not given.",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 1 K (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2-Dichloro-1,1,2,3,3,3-hexafluoropropane",
+    "formula": "C3Cl2F6",
+    "cas": "661-97-2"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * Mass Fraction w_1",
+     "10^3 * Mole Fraction x_1 (compiler)",
+     "10^2 * w_1/M_1 (compiler) [mol g**-1]"
+    ],
+    "rows": [
+     [
+      "21",
+      "9.6 x 10^-3",
+      "1.18",
+      "5.33 x 10^-4"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,2-Dichloro-1,1,2,3,3,3-hexafluoropropane with Water"
+ },
+ {
+  "sheet_id": "68_12",
+  "system_id": "68014",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_12",
+  "system": "1,2-Dichloro-1-propene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2-Dichloro-1-propene; C3H4Cl2; [563-54-2]",
+  "original_measurements": "Chitwood, B.G., Adv. in Chem. Ser., Am. Chem. Soc., 1952, 7, 91-9.",
+  "variables": "Temperature = 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Details are not available.",
+  "source_purity": "(1) Source and purity not given.\n(2) Distilled (compiler).",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 0.5 K (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2-Dichloro-1-propene",
+    "formula": "C3H4Cl2",
+    "cas": "563-54-2"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * Mass Fraction w_1",
+     "10^4 * Mole Fraction x_1 (compiler)",
+     "10^2 * w_1/M_1 (compiler) [mol g**-1]"
+    ],
+    "rows": [
+     [
+      "25",
+      "0.27",
+      "4.39",
+      "2.43 x 10^-3"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,2-Dichloro-1-propene with Water"
+ },
+ {
+  "sheet_id": "68_152",
+  "system_id": "68015",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_152",
+  "system": "1,2-Dichloropentane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2-Dichloropentane; C5H10Cl2; [1674-33-5]",
+  "original_measurements": "Wright, W.H.; Schaffer, J.M., Am. J. Hygiene 16, 325 (1932).",
+  "variables": "Temperature = 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility was determined by mixing definite quantities of 1,2-dichloropentane with a large volume of water and then measuring the volume of the undissolved portion of 1,2-dichloropentane.",
+  "source_purity": "(1) Commercial grade, further purified by washing with NaHCO_3 solution and redistilled.\n(2) Distilled.",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 0.5 K (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2-Dichloropentane",
+    "formula": "C5H10Cl2",
+    "cas": "1674-33-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^5 * Mole Fraction x_1 (compiler)",
+     "V_2/g_1 [cm**3 g**-1]"
+    ],
+    "rows": [
+     [
+      "25",
+      "2.86 x 10^-2",
+      "3.65",
+      "3.50 x 10^3"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,2-Dichloropentane with Water"
+ },
+ {
+  "sheet_id": "68_64",
+  "system_id": "68016",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_64",
+  "system": "1,2-Dichloropropane with Magnesium Sulfate and Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) Magnesium sulfate; MgSO4; [7487-88-9]\n(3) 1,2-Dichloropropane; C3H6Cl2; [78-87-5]",
+  "original_measurements": "Gross, P.M., Z. Phys. Chem. 1929, 6B, 215-20.",
+  "variables": "Temperature = 298 K\nConcentration = Concentration(2)/mol dm^-3 = 0.5",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A mixture of 10 to 20 cm^3 1,2-dichloropropane in 500 cm^3 of an aqueous MgSO_4 solution in a bottle was placed in a water thermostat bath. The sample container was placed on a shaker and agitated until no more liquid droplets remained undissolved. One or more samples were syphoned out and the concentration of the 1,2-dichloropropane was determined using a Zeiss water interferometer.",
+  "source_purity": "(1) Commercial reagent, fractinally distilled before use.\n(2) Kahlbaum chemical, certified grade.\n(3) Distilled.",
+  "estimated_error": "Solubility: ± 2.5 %.\nTemperature: ± 0.01 K.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "Magnesium sulfate",
+    "formula": "MgSO4",
+    "cas": "7487-88-9"
+   },
+   {
+    "index": 3,
+    "name": "1,2-Dichloropropane",
+    "formula": "C3H6Cl2",
+    "cas": "78-87-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * g_1/g_2",
+     "Concentration c_2 [mol dm**-3]",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^4 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "25",
+      "0.160",
+      "0.5",
+      "0.160",
+      "2.693"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,2-Dichloropropane with Magnesium Sulfate and Water"
+ },
+ {
+  "sheet_id": "68_65",
+  "system_id": "68017",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_65",
+  "system": "1,2-Dichloropropane with Potassium Chloride and Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) Potassium chloride; KCl; [7447-40-7]\n(3) 1,2-Dichloropropane; C3H6Cl2; [78-87-5]",
+  "original_measurements": "Gross, P.M., Z. Phys. Chem. 1929, 6B, 215-20.",
+  "variables": "Temperature = 298 K\nConcentration = Concentration(2)/mol dm^-3 = 0.5",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A mixture of 10 to 20 cm^3 1,2-dichloropropane in 500 cm^3 of an aqueous KCl solution in a bottle was placed in a water thermostat bath. The sample container was placed on a shaker and agitated until no more  liquid droplets remained undissolved. One or more samples were syphoned out and the concentration of the 1,2-dichloropropane was determined using a Zeiss water interferometer.",
+  "source_purity": "(1) Commercial reagent, fractionally distilled before use.\n(2) Kahlbaum chemical, certified grade.\n(3) Distilled.",
+  "estimated_error": "Solubility: ± 2.5 %.\nTemperature: ± 0.01 K.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "Potassium chloride",
+    "formula": "KCl",
+    "cas": "7447-40-7"
+   },
+   {
+    "index": 3,
+    "name": "1,2-Dichloropropane",
+    "formula": "C3H6Cl2",
+    "cas": "78-87-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * g_1/g_2",
+     "Concentration c_2 [mol dm**-3]",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^4 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "25",
+      "0.241",
+      "0.5",
+      "0.240",
+      "3.046"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,2-Dichloropropane with Potassium Chloride and Water"
+ },
+ {
+  "sheet_id": "68_47",
+  "system_id": "68018",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_47",
+  "system": "1,2-Dichloropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2-Dichloropropane; C3H6Cl2; [78-87-5]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "A. L. Horvath, Imperial Chemical Industries Limited, Runcorn, U.K., July 1993.",
+  "critical_evaluation": "",
+  "experimental_values": "The 1,2-dichloropropane (1) and water (2) binary system is treated in two parts; part 1 is 1,2-dichloropro-pane (1) in water (2) and part 2 is water (2) in 1,2-dichloropropane (1).\nPart 1. The solubility of 1,2-dichloropropane (1) in water (2) has been studied by 15 work groups in the temperature range from 275 to 313 K. The data of Chiou et al.^1 are markedly higher than the solubility values calculated from the smoothing equation and are therefore rejected. The measurements of McNally and Grob^2,3 and of Howe et al.^4 are significantly lower than other solubility data and are also rejected.\nThe remaining data from eleven laboratories were compiled or used for the smoothing equation. The combined measurements of Gross,^5 of Wright and Schaffer,^6 of McClure,^7 of McGovers,^8 of Chitwood,^9 of Dreisbach,^10 of Sato and Nakijima,^11 of Leighton and Calo,^12 of Mackay et al.,^13 of Warner et al.,^14 and of Wright et al.^15 were correlated to obtain the following mass percent (1) equation:\nSolubility [100 w_1] = 3.3285 - 0.021464 (T/K) + 3.7632x10^-5 (T/K)^2\nwhich yielded a standard deviation of 8.56x10^-3 in the temperature range from 275 to 313 K. The curve obtained from the smoothing equation shows a distinct minimum of 285.18 K as shown in  Fig. 3..\nThe recommended solubility values at 5 K intervals for 1,2-dichloropropane in water in weight percent and mole fraction are presented in Table 12.\nPart 2. The solubility of water (2) in 1,2-dichloropropane (1) has been reported in five sources covering the narrow temperature range from 293 to 298 K. The data are in very poor agreement and in the absence of other independent studies, it is not possible to determine which values are more reliable. Further studies will be necessary before even tentative values can be prescribed. All the available data for the solubility of water (2) in 1,2-dischloropropane (1) in weight percent and mole fraction are summarized in Table 13.",
+  "notes": "",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  Chiou, C.T.; Freed, V.H., \"Chemodynamic Studies on Bench Mark Industrial Chemicals\"; National Technical Information Service: Springfield, Virginia, 1977; PB-274263.\n2  McNally, M.E.; Grob, R.L., J. Chromatogr. 1983, 260, 23-32.\n3  McNally, M.E.; Grob, R.L., J. Chromatogr. 1984, 284, 105-16.\n4  Howe, G.B.; Mullins, M.E.; Rogers, T.N., AFESC Tyndall Air Force Base, Report ESL-TR-86-66, Vol. 1, Florida, Sept. 1987, 86 pp. (AD-A188 571).\n5  Gross, P.M., J. Am. Chem. Soc. 1929, 51, 2362-6.\n6  Wright, W.H.; Schaffer, J.M., Am. J. Hygiene 16, 325 (1932).\n7  McClure, H.B., Ind. Eng. Chem. News Ed. 17, 149 (1939).\n8  McGovern, E.W., Ind. Eng. Chem. 1943, 35, 1230-9.\n9  Chitwood, B.G., Adv. in Chem. Ser., Am. Chem. Soc., 1952, 7, 91-9.\n10  Dreisbach, R.R., \"Physical Properties of Chemical Compounds,\" Advances in Chemistry Series No. 22; American Chemical Society: Washington, D.C., 1959; pp. 208-214.\n11  Sato, A.; Nakijima, T., Arch. Envir. Health 1979, 34, 69-75.\n12  Leighton, D.T.; Calo, J.M., J. Chem. Eng. Data 1981, 26, 382-5.\n13  Mackay, D. et al. Volatilization of Organic Pollutants from Water, U. S. EPA Report 600/2-82-019, Athens, Georgia, 1982, (PB 82-230939).\n14  Warner, H.P.; Cohen, J.M.; Ireland, J.C., Determination of Henry's Law Constants of Selected Priority Pollutants, U. S. EPA Technical Report, PB87-212684, Cincinnati, OH., July 1987.\n15  Wright, D.A.; Sandler, S.I.; DeVoll, D., Environ. Sci. Technol. 1992, 26, 1828-31.\n16  Hutchinson, C.A.; Lyon, A.M., Columbia University Report A-745, July 1, 1943.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2-Dichloropropane",
+    "formula": "C3H6Cl2",
+    "cas": "78-87-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "10^2 * Mass Fraction w_1",
+     "10^4 * Mole Fraction x_1"
+    ],
+    "rows": [
+     [
+      "5",
+      "278.15",
+      "2.70 x 10^-1",
+      "4.31"
+     ],
+     [
+      "10",
+      "283.15",
+      "2.68 x 10^-1",
+      "4.28"
+     ],
+     [
+      "15",
+      "288.15",
+      "2.68 x 10^-1",
+      "4.28"
+     ],
+     [
+      "20",
+      "293.15",
+      "2.70 x 10^-1",
+      "4.31"
+     ],
+     [
+      "25",
+      "298.15",
+      "2.74 x 10^-1",
+      "4.38"
+     ],
+     [
+      "30",
+      "303.15",
+      "2.80 x 10^-1",
+      "4.48"
+     ],
+     [
+      "35",
+      "308.15",
+      "2.88 x 10^-1",
+      "4.60"
+     ],
+     [
+      "40",
+      "313.15",
+      "2.97 x 10^-1",
+      "4.75"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,2-Dichloropropane with Water"
+ },
+ {
+  "sheet_id": "68_48",
+  "system_id": "68018",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_48",
+  "system": "1,2-Dichloropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2-Dichloropropane; C3H6Cl2; [78-87-5]",
+  "original_measurements": "Gross, P.M., J. Am. Chem. Soc. 1929, 51, 2362-6.",
+  "variables": "Temperature = 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A weighted amount of 1,2-dichloropropane was mixed with 1000 g water in a bottle and immersed in a water thermostat bath. The bottle was placed on a shaker and shaken until no more liquid droplets remained  undissolved. The concentration of the 1,2-dichloropropane in water was determined by a Zeiss water interferometer. One or more samples were syphoned out for the solubility  determination. The German translation also has been published.^1",
+  "source_purity": "(1) Commercial reagent, fractionally distilled before use.\n(2) Distilled.",
+  "estimated_error": "Solubility: ± 2.5 %.\nTemperature: ± 0.01 K.",
+  "references": "^1 P. Gross, Z. Phys. Chem. 6B, 215 (1929).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2-Dichloropropane",
+    "formula": "C3H6Cl2",
+    "cas": "78-87-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * g_1/g_2",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^4 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "25",
+      "0.280",
+      "0.279",
+      "4.45"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,2-Dichloropropane with Water"
+ },
+ {
+  "sheet_id": "68_49",
+  "system_id": "68018",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_49",
+  "system": "1,2-Dichloropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2-Dichloropropane; C3H6Cl2; [78-87-5]",
+  "original_measurements": "Wright, W.H.; Schaffer, J.M., Am. J. Hygiene 16, 325 (1932).",
+  "variables": "Temperature = 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility was determined by mixing definite quantities of 1,2-dichloropropane with a large volume of water and measuring the volume of the undissolved portion.",
+  "source_purity": "(1) Commercial reagent, further purified by washing with NaHCO_3 solution and redistilled.\n(2) Distilled.",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 0.5 K (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2-Dichloropropane",
+    "formula": "C3H6Cl2",
+    "cas": "78-87-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^4 * Mole Fraction x_1 (compiler)",
+     "V_2/g_1 [cm**3 g**-1]"
+    ],
+    "rows": [
+     [
+      "25",
+      "0.294",
+      "4.70",
+      "3.40 x 10^2"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,2-Dichloropropane with Water"
+ },
+ {
+  "sheet_id": "68_50",
+  "system_id": "68018",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_50",
+  "system": "1,2-Dichloropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2-Dichloropropane; C3H6Cl2; [78-87-5]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Details are not available.",
+  "source_purity": "(1) Source and purity not given.\n(2) Distilled.",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 0.5 K (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2-Dichloropropane",
+    "formula": "C3H6Cl2",
+    "cas": "78-87-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * g_1/g_2",
+     "10^2 * g_2/g_1",
+     "10^4 * Mole Fraction x_1 (compiler)",
+     "10^3 * Mole Fraction x_2 (compiler)"
+    ],
+    "rows": [
+     [
+      "20",
+      "0.26",
+      "7.0 x 10^-2",
+      "4.15",
+      "4.37"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,2-Dichloropropane with Water"
+ },
+ {
+  "sheet_id": "68_51",
+  "system_id": "68018",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_51",
+  "system": "1,2-Dichloropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2-Dichloropropane; C3H6Cl2; [78-87-5]",
+  "original_measurements": "Hutchinson, C.A.; Lyon, A.M., Columbia University Report A-745, July 1, 1943.",
+  "variables": "Temperature = 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A 1 to 15 volume ratio mixture of water and 1,2-dichloropropane was introduced into an equilibration flask and then lowered into the waterbath thermostat. The assembly was shaken mechanically for about 90 minutes at  constant temperature. The amount of water in the organic phase was determined by a modified Karl Fischer titration. The determination was done in triplicate. The description of procedure was taken from a  secondary source.^1 The original university report is no longer available.",
+  "source_purity": "(1) Distilled.\n(2) Source not given. Purified and dried before use.",
+  "estimated_error": "Solubility: ± 7 x 10^-6 avg. dev.\nTemperature: ± 0.05 K.",
+  "references": "^1 M. L. Eidinoff, G. G. Joris, H. S. Taylor, and H. C. Urey, eds., Production of Heavy Water (McGraw_Hill, New York, 1955), P. 129.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2-Dichloropropane",
+    "formula": "C3H6Cl2",
+    "cas": "78-87-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^3 * Mole Fraction x_1 (compiler)",
+     "10^2 * w_1/M_1 [mol g**-1]"
+    ],
+    "rows": [
+     [
+      "25",
+      "0.1168",
+      "7.280",
+      "6.481 x 10^-3"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,2-Dichloropropane with Water"
+ },
+ {
+  "sheet_id": "68_52",
+  "system_id": "68018",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_52",
+  "system": "1,2-Dichloropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2-Dichloropropane; C3H6Cl2; [78-87-5]",
+  "original_measurements": "McGovern, E.W., Ind. Eng. Chem. 1943, 35, 1230-9.",
+  "variables": "Temperature = 293 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Details are not available.",
+  "source_purity": "(1) Commercial grade. Source not given.\n(2) Distilled (compiler).",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 0.5 K (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2-Dichloropropane",
+    "formula": "C3H6Cl2",
+    "cas": "78-87-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * Mass Fraction w_1",
+     "10^2 * Mass Fraction w_2",
+     "10^4 * Mole Fraction x_1 (compiler)",
+     "10^3 * Mole Fraction x_2 (compiler)"
+    ],
+    "rows": [
+     [
+      "20",
+      "0.27",
+      "4.0 x 10^-2",
+      "4.31",
+      "2.50"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,2-Dichloropropane with Water"
+ },
+ {
+  "sheet_id": "68_53",
+  "system_id": "68018",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_53",
+  "system": "1,2-Dichloropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2-Dichloropropane; C3H6Cl2; [78-87-5]",
+  "original_measurements": "Chitwood, B.G., Adv. in Chem. Ser., Am. Chem. Soc., 1952, 7, 91-9.",
+  "variables": "Temperature = 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Details are not available.",
+  "source_purity": "(1) Source and purity not given.\n(2) Distilled (compiler).",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 0.5 K (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2-Dichloropropane",
+    "formula": "C3H6Cl2",
+    "cas": "78-87-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * Mass Fraction w_1",
+     "10^4 * Mole Fraction x_1 (compiler)",
+     "10^2 * w_1/M_1 (compiler) [mol g**-1]"
+    ],
+    "rows": [
+     [
+      "25",
+      "0.27",
+      "4.31",
+      "2.39 x 10^-3"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,2-Dichloropropane with Water"
+ },
+ {
+  "sheet_id": "68_54",
+  "system_id": "68018",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_54",
+  "system": "1,2-Dichloropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2-Dichloropropane; C3H6Cl2; [78-87-5]",
+  "original_measurements": "Dreisbach, R.R., \"Physical Properties of Chemical Compounds,\" Advances in Chemistry Series No. 22; American Chemical Society: Washington, D.C., 1959; pp. 208-214.",
+  "variables": "Temperature = 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Details are not available.",
+  "source_purity": "(1) Dow Chemical Company, 99.76 % pure, purified by distillation before use.\n(2) Distilled.",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 1 K (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2-Dichloropropane",
+    "formula": "C3H6Cl2",
+    "cas": "78-87-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Density ρ [kg m**-3]",
+     "10^2 * g_1/g_2",
+     "10^2 * g_2/g_1",
+     "10^4 * Mole Fraction x_1 (compiler)",
+     "10^3 * Mole Fraction x_2 (compiler)"
+    ],
+    "rows": [
+     [
+      "25",
+      "2069",
+      "0.275",
+      "0.132",
+      "4.39",
+      "8.22"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,2-Dichloropropane with Water"
+ },
+ {
+  "sheet_id": "68_55",
+  "system_id": "68018",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_55",
+  "system": "1,2-Dichloropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2-Dichloropropane; C3H6Cl2; [78-87-5]",
+  "original_measurements": "Chiou, C.T.; Freed, V.H., \"Chemodynamic Studies on Bench Mark Industrial Chemicals\"; National Technical Information Service: Springfield, Virginia, 1977; PB-274263.",
+  "variables": "Temperature = 276 K - 307 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "An excess of 5-10 g 1,2-dichloropropane was equilibrated with 100 cm^3 of distilled water for 24 hours in a bottle. The aqueous solution taken from the bottle was analyzed using a gas chromatograph equipped with a^63Ni  electron capture detector. The GLC column was packed with porous polymer Chromosorb 101. Further details on the determination and evaluation procedures are found elsewhere.^1",
+  "source_purity": "(1) Commercial reagent, used as received.\n(2) Distilled.",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 0.5 K.",
+  "references": "^1 C. T. Chiou, and D. W. Schmedding, Test, Protec. Environ. Fate Mov. Toxicants, Proc. Symp. 1980, pp. 28-42 (publ. 1981).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2-Dichloropropane",
+    "formula": "C3H6Cl2",
+    "cas": "78-87-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "g_1/V_2 [kg m**-3]",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^4 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "3",
+      "3.71",
+      "0.370",
+      "5.92"
+     ],
+     [
+      "20",
+      "3.57",
+      "0.356",
+      "5.69"
+     ],
+     [
+      "34",
+      "3.75",
+      "0.376",
+      "6.01"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,2-Dichloropropane with Water"
+ },
+ {
+  "sheet_id": "68_56",
+  "system_id": "68018",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_56",
+  "system": "1,2-Dichloropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2-Dichloropropane; C3H6Cl2; [78-87-5]",
+  "original_measurements": "Sato, A.; Nakijima, T., Arch. Envir. Health 1979, 34, 69-75.",
+  "variables": "Temperature = 310 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  Gas-liquid partition parameter, from instrument calibration.",
+  "method": "1,2-Dichloropropane vapor was equilibrated in an airtight vial between water and the overlying air. When equilibrium was established, a portion of the equilibrated air in the vessel was withdrawn using an airtight  syringe and was injected into a gas chromatograph and analyzed. The peak height of the chromatogram was used to calculate the partition coefficient.",
+  "source_purity": "(1) Source and purity not given.\n(2) Distilled.",
+  "estimated_error": "Solubility: ± 0.1 std. dev.\nTemperature: ± 0.5 K (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2-Dichloropropane",
+    "formula": "C3H6Cl2",
+    "cas": "78-87-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^4 * Mole Fraction x_1 (compiler)",
+     "Partition coefficient, K_L [(dimensionless)]"
+    ],
+    "rows": [
+     [
+      "37",
+      "0.288",
+      "4.60",
+      "5.4"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,2-Dichloropropane with Water"
+ },
+ {
+  "sheet_id": "68_57",
+  "system_id": "68018",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_57",
+  "system": "1,2-Dichloropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2-Dichloropropane; C3H6Cl2; [78-87-5]",
+  "original_measurements": "Leighton, D.T.; Calo, J.M., J. Chem. Eng. Data 1981, 26, 382-5.",
+  "variables": "Temperature = 275 K - 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  Gas-liquid system analysis parameter, from calibration measurements.",
+  "method": "A 5 μL 1,2-dichloropropane sample was injected into a 2.3 dm^3 equilibration cell containing distilled water. After the cell was shaken vigorously for about 5 minutes, the homogeneity of the liquid sample was  maintained with a magnetic stirrer. Compressed air was passed through the cell and the gas flow was measured with a soap film flowmeter. The 1,2-dichloropropane  content was extracted and analyzed using a dual flame ionization detector gas chromatograph.",
+  "source_purity": "(1) Source and purity not given.\n(2) Distilled.",
+  "estimated_error": "Solubility: ± 5.0 %.\nTemperature: ± 0.5 K.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2-Dichloropropane",
+    "formula": "C3H6Cl2",
+    "cas": "78-87-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Distribution coefficient, D_L",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^4 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "1.9",
+      "45.8",
+      "0.275",
+      "4.39"
+     ],
+     [
+      "13.5",
+      "90.2",
+      "0.265",
+      "4.23"
+     ],
+     [
+      "15.7",
+      "101.6",
+      "0.261",
+      "4.17"
+     ],
+     [
+      "17.1",
+      "108.6",
+      "0.264",
+      "4.22"
+     ],
+     [
+      "22",
+      "131.4",
+      "0.281",
+      "4.49"
+     ],
+     [
+      "24.9",
+      "153.5",
+      "0.279",
+      "4.46"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,2-Dichloropropane with Water"
+ },
+ {
+  "sheet_id": "68_58",
+  "system_id": "68018",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_58",
+  "system": "1,2-Dichloropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2-Dichloropropane; C3H6Cl2; [78-87-5]",
+  "original_measurements": "Mackay, D. et al. Volatilization of Organic Pollutants from Water, U. S. EPA Report 600/2-82-019, Athens, Georgia, 1982, (PB 82-230939).",
+  "variables": "Temperature = 293 K - 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "An aqueous solution with an excess amount of 1,2-dichloropropane was stirred for one day before being introduced into a one liter glass vessel. Nitrogen entered at the bottom of the vessel through a sintered glass disk.  The exit gas flow rate was measured by a soap bubble flow meter. The concentration of 1,2-dichloropropane in water was determined by gas chromatography. The GC was equipped with both a dual flame ionization detector and an electron capture detector.",
+  "source_purity": "(1) Source and purity not given.\n(2) Doubly distilled.",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 1.0 K.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2-Dichloropropane",
+    "formula": "C3H6Cl2",
+    "cas": "78-87-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Concentration c_1 [mol m**-3]",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^2 * Mass Fraction w_2 (compiler)",
+     "10^4 * Mole Fraction x_1 (compiler)",
+     "10^3 * Mole Fraction x_2"
+    ],
+    "rows": [
+     [
+      "20",
+      "25",
+      "0.283",
+      "- x 10^0",
+      "4.51",
+      "-"
+     ],
+     [
+      "25",
+      "-",
+      "-",
+      "3.19 x 10^-2",
+      "-",
+      "2.0"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,2-Dichloropropane with Water"
+ },
+ {
+  "sheet_id": "68_59",
+  "system_id": "68018",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_59",
+  "system": "1,2-Dichloropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2-Dichloropropane; C3H6Cl2; [78-87-5]",
+  "original_measurements": "McNally, M.E.; Grob, R.L., J. Chromatogr. 1983, 260, 23-32.",
+  "variables": "Temperature = 303 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Standard solutions were prepared in 100 cm^3 flask. They were shaken for 5 minutes and then allowed to equilibrate in a constant temperature bath held at 30°C for 24 hours. Samples were pipetted in headspace vials,  sealed, thermostated and then examined by the gas chromatographic head space analysis technique. An F & M model 402 gas chromatograph, equipped with dual columns and dual flame ionization detectors, was used.",
+  "source_purity": "(1) Chemical Service, West Chester, PA., USA, purest grade available.\n(2) Distilled and run through two Barnstead purification cartridges.",
+  "estimated_error": "Solubility: ± 10.36 % rel. err.\nTemperature: ± 0.5 K (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2-Dichloropropane",
+    "formula": "C3H6Cl2",
+    "cas": "78-87-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^6 * Mass Fraction w_1",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^4 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "30",
+      "2.4204 x 10^3",
+      "0.2415",
+      "3.858"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,2-Dichloropropane with Water"
+ },
+ {
+  "sheet_id": "68_60",
+  "system_id": "68018",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_60",
+  "system": "1,2-Dichloropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2-Dichloropropane; C3H6Cl2; [78-87-5]",
+  "original_measurements": "McNally, M.E.; Grob, R.L., J. Chromatogr. 1984, 284, 105-16.",
+  "variables": "Temperature = 303 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Standard 1,2-dichloropropane solutions of increasing concentration were prepared in volumetric flasks as described elsewhere.^1 The aqueous organic liquid phase was 25 cm^3 and the vapor phase above the mixture was 35  cm^3. The system was allowed to reach equilibrium in a constant temperature bath and then a sample was injected into the gas chromatograph. Values reported are an average of at least 5 measurements.",
+  "source_purity": "(1) Chemical Service, West Chester, PA., USA, purest grade available.\n(2) Distilled and run through two Barnstead purification cartridges.",
+  "estimated_error": "Solubility: ± 5.89 % std. dev.\nTemperature: ± 0.5 K (compiler).",
+  "references": "^1 M. E. McNally and R. L. Grob, J. Chromatogr. 260, (1983).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2-Dichloropropane",
+    "formula": "C3H6Cl2",
+    "cas": "78-87-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Density ρ [g m**-3]",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^4 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "30",
+      "2.069 x 10^3",
+      "0.2074",
+      "3.373"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,2-Dichloropropane with Water"
+ },
+ {
+  "sheet_id": "68_61",
+  "system_id": "68018",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_61",
+  "system": "1,2-Dichloropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2-Dichloropropane; C3H6Cl2; [78-87-5]",
+  "original_measurements": "Warner, H.P.; Cohen, J.M.; Ireland, J.C., Determination of Henry's Law Constants of Selected Priority Pollutants, U. S. EPA Technical Report, PB87-212684, Cincinnati, OH., July 1987.",
+  "variables": "Temperature = 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The original method and apparatus for the determination of Henry's law constants are described elsewhere.^1 The general procedure was to add an excess quantity of 1,2-dichloropropane to distilled deionized water,  place the sample in a thermostat bath, and provide overnight mixing. A portion of this solution was returned to the stripping vessel. 1,2-Dichloropropane was stripped isothermally from the solution at a know gas  flow rate. The Henry’s law constant was calculated from the log of the concentration versus time plot. The experimental data values are averages of two or more replicates.",
+  "source_purity": "(1) Purest quality available, stated purity >99 %, used as received.\n(2) Distilled deionized.",
+  "estimated_error": "Solubility: ± 6 % std. dev.\nTemperature: ± 0.05 K.",
+  "references": "^1 D. Mackay, W. -Y. Shiu, and R. D. Sutherland, Environ. Sci. Technol. 13, 333 (1979).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2-Dichloropropane",
+    "formula": "C3H6Cl2",
+    "cas": "78-87-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Henry's law constant [H/m**-3 atm mol-1]",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^4 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "24.85",
+      "2.82 x 10^-3",
+      "0.2644",
+      "4.225"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,2-Dichloropropane with Water"
+ },
+ {
+  "sheet_id": "68_62",
+  "system_id": "68018",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_62",
+  "system": "1,2-Dichloropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2-Dichloropropane; C3H6Cl2; [78-87-5]",
+  "original_measurements": "Howe, G.B.; Mullins, M.E.; Rogers, T.N., AFESC Tyndall Air Force Base, Report ESL-TR-86-66, Vol. 1, Florida, Sept. 1987, 86 pp. (AD-A188 571).",
+  "variables": "Temperature = 283 K - 303 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "250 cm^3 bottles were filled with distilled deionized water and sealed. Measured volumes of the 1,2-dichloropropane were injected into the bottles through each bottle septum using a microliter syringe. The solute  was in excess of the anticipated solubility limit. The bottles were shaken for 1 hour with a wristaction shaker and allowed to equilibrate for about three weeks. Samples were then injected into a gas chromatograph  equipped with a Carbopack column and a FID detector. The GC responses were compared with calibration plots to establish concentrations.",
+  "source_purity": "(1) Probably a commercial reagent, at least 99 % pure. Used as received.\n(2) Distilled deionized.",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 0.5 K (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2-Dichloropropane",
+    "formula": "C3H6Cl2",
+    "cas": "78-87-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^6 * Mass Fraction w_1",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^4 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "10",
+      "2.062 x 10^3",
+      "0.2062",
+      "3.294"
+     ],
+     [
+      "20",
+      "2.030 x 10^3",
+      "0.2030",
+      "3.242"
+     ],
+     [
+      "30",
+      "1.867 x 10^3",
+      "0.1867",
+      "2.982"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,2-Dichloropropane with Water"
+ },
+ {
+  "sheet_id": "68_63",
+  "system_id": "68018",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_63",
+  "system": "1,2-Dichloropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,2-Dichloropropane; C3H6Cl2; [78-87-5]",
+  "original_measurements": "Wright, D.A.; Sandler, S.I.; DeVoll, D., Environ. Sci. Technol. 1992, 26, 1828-31.",
+  "variables": "Temperature = 293 K - 313 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A differential static cell equilibrium apparatus was used to measure the infinite dilution activity coefficient of 1,2-dichloropropane (γ^∞_1) in water. Cells containing degassed water were submerged in a thermostat water  bath. 1,2-Dichloropropane was injected into the mixture cells and a magnetic stirrer was turned on. Then, the cells were allowed to equilibrate. The stirrer was then turned off and the differential pressure was recorded.  The experiment was repeated at least three times at each temperature.",
+  "source_purity": "(1) Source and purity not given.\n(2) Distilled, filtered, and deionized.",
+  "estimated_error": "Solubility: See above.\nTemperature: ± 0.05 K.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,2-Dichloropropane",
+    "formula": "C3H6Cl2",
+    "cas": "78-87-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "γ^∞_1",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^4 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "20",
+      "2340+/-30",
+      "0.267",
+      "4.27"
+     ],
+     [
+      "30",
+      "2310+/-30",
+      "0.271",
+      "4.33"
+     ],
+     [
+      "40",
+      "2090+/-30",
+      "0.299",
+      "4.78"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,2-Dichloropropane with Water"
+ },
+ {
+  "sheet_id": "68_66",
+  "system_id": "68019",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_66",
+  "system": "1,2-Dichloropropane with Water-d2",
+  "components": "(1) Water-d2; D2O; [7789-20-0]\n(2) 1,2-Dichloropropane; C3H6Cl2; [78-87-5]",
+  "original_measurements": "Hutchinson, C.A.; Lyon, A.M., Columbia University Report A-745, July 1, 1943.",
+  "variables": "Temperature = 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A mixture of 1 to 15 volume ratio of heavy water and 1,2-dichloropropane was introduced into an equilibration flask and then lowered into a waterbath thermostat. The assembly was shaken mechanically for about 90 minutes at constant temperature. The  amount of heavy water in the organic phase was determined by a modified Karl Fischer titration method. The determination was done in triplicate. This procedure description was  taken from a secondary source.^1 The original university report is no longer available.",
+  "source_purity": "(1) Source and purity not given.\n(2) Source not given. Purified and dried before use.",
+  "estimated_error": "Solubility: ± 6x10^-6 avg. dev.\nTemperature: ± 0.05 K.",
+  "references": "^1 M. L. Eidinoff, G. G. Joris, H. S. Taylor, and H. C. Urey, eds., Production of Heavy Water (McGraw_Hill, New York, 1955), P. 129.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water-d2",
+    "formula": "D2O",
+    "cas": "7789-20-0"
+   },
+   {
+    "index": 2,
+    "name": "1,2-Dichloropropane",
+    "formula": "C3H6Cl2",
+    "cas": "78-87-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^3 * Mole Fraction x_1 (compiler)",
+     "10^2 * w_1/M_1 [mol g**-1]"
+    ],
+    "rows": [
+     [
+      "25",
+      "0.1045",
+      "5.866",
+      "5.218 x 10^-3"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,2-Dichloropropane with Water-d2"
+ },
+ {
+  "sheet_id": "68_43",
+  "system_id": "68020",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_43",
+  "system": "1,3-Dibromopropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,3-Dibromopropane; C3H6Br2; [109-64-8]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "A. L. Horvath, Imperial Chemical Industries Limited, Runcorn, U.K., July 1993.",
+  "critical_evaluation": "",
+  "experimental_values": "The 1,3-dibromopropane (1) and water (2) binary system is treated in two parts; part 1 is 1,3-dibromopropane (1) in water (2) and part 2 is water (2) in 1,3-dibromopropane (1).\nPart 1. The solubility of 1,3-dibromopropane (1) in water (2) has been studied by three work groups in the narrow temperature range from 298.15 to 303.15 K. Within the narrow temperature range for the solubility data of Gross and Saylor,^1 of Chitwood,^2 and of Mackay et al.,^3 the agreement is very good. In the absence of other independent studies, it is not possible to say whether or not the solubility behavior between 298.15 and 303.15 K should increase or decrease with increasing temperature. Further studies will be necessary before the slope of the solubility curve can be established. All the available data for the solubility of 1,3-dibromopropane (1) in water (2) in weight percent and mole fraction are summarized in Table 11.\nPart 2. The solubility of water (2) in 1,3-dibromopropane (1) has been studied only by Mackay et al.^3 and there are no other measurements for comparison. Therefore, it is not possible to perform a critical evaluation. The readers are referred to the relevant compilation sheet for further details.",
+  "notes": "",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  Gross, P.M.; Saylor, J.H.; Gorman, M.A., J. Am. Chem. Soc. 1933, 55(2), 650-2.\n2  Chitwood, B.G., Adv. in Chem. Ser., Am. Chem. Soc., 1952, 7, 91-9.\n3  Mackay, D. et al. Volatilization of Organic Pollutants from Water, U. S. EPA Report 600/2-82-019, Athens, Georgia, 1982, (PB 82-230939).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,3-Dibromopropane",
+    "formula": "C3H6Br2",
+    "cas": "109-64-8"
+   }
+  ],
+  "tables": [],
+  "kind": "compilation",
+  "system_name": "1,3-Dibromopropane with Water"
+ },
+ {
+  "sheet_id": "68_44",
+  "system_id": "68020",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_44",
+  "system": "1,3-Dibromopropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,3-Dibromopropane; C3H6Br2; [109-64-8]",
+  "original_measurements": "Gross, P.M.; Saylor, J.H.; Gorman, M.A., J. Am. Chem. Soc. 1933, 55(2), 650-2.",
+  "variables": "Temperature = 303 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The saturated solution was prepared in a flask and placed in a waterbath thermostat. The samples were analyzed using a Zeiss combination liquid and gas interferometer  described elsewhere.^1 A detailed description of the complete procedure is given in a M. A. thesis.^2",
+  "source_purity": "(1) Eastman Kodak Company, fractionally distilled before use. The b. p. range was 166.64 - 166.86°C.\n(2) Distilled.",
+  "estimated_error": "Solubility: ± 0.5 %.\nTemperature: ± 0.02 K.",
+  "references": "^1 P. M. Gross and J. H. Saylor, J. Am. Chem. Soc. 53, 1744 (1931).\n^2 M. A. Gorman, MA thesis, Duke University, Durham, 1932.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,3-Dibromopropane",
+    "formula": "C3H6Br2",
+    "cas": "109-64-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^3 * g_1/g_2",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^4 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "30",
+      "1.68",
+      "0.168",
+      "1.50"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,3-Dibromopropane with Water"
+ },
+ {
+  "sheet_id": "68_45",
+  "system_id": "68020",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_45",
+  "system": "1,3-Dibromopropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,3-Dibromopropane; C3H6Br2; [109-64-8]",
+  "original_measurements": "Chitwood, B.G., Adv. in Chem. Ser., Am. Chem. Soc., 1952, 7, 91-9.",
+  "variables": "Temperature = 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Details are not available.",
+  "source_purity": "(1) Source and purity not given.\n(2) Distilled (compiler).",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 0.5 K (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,3-Dibromopropane",
+    "formula": "C3H6Br2",
+    "cas": "109-64-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * Mass Fraction w_1",
+     "10^4 * Mole Fraction x_1 (compiler)",
+     "10^1 * w_1/M_1 (compiler) [mol g**-1]"
+    ],
+    "rows": [
+     [
+      "25",
+      "0.17",
+      "1.52",
+      "8.42 x 10^-4"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,3-Dibromopropane with Water"
+ },
+ {
+  "sheet_id": "68_46",
+  "system_id": "68020",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_46",
+  "system": "1,3-Dibromopropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,3-Dibromopropane; C3H6Br2; [109-64-8]",
+  "original_measurements": "Mackay, D. et al. Volatilization of Organic Pollutants from Water, U. S. EPA Report 600/2-82-019, Athens, Georgia, 1982, (PB 82-230939).",
+  "variables": "Temperature = 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "An aqueous solution with an excess amount of 1,3-dibromopropane was stirred for one day before being introduced into a one liter glass vessel. Nitrogen entered at the bottom of the vessel through a sintered glass disk.  The exit gas flow rate was measured by a soap bubble flow meter. The concentration of 1,3-dibromopropane in water was determined by gas chromatography. The GC was  equipped with both a dual flame ionization detector and an electron capture detector.",
+  "source_purity": "(1) Source and purity not given.\n(2) Doubly distilled.",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 1.0 K.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,3-Dibromopropane",
+    "formula": "C3H6Br2",
+    "cas": "109-64-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Concentration c_1 [mol m**-3]",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^2 * Mass Fraction w_2 (compiler)",
+     "10^4 * Mole Fraction x_1 (compiler)",
+     "10^3 * Mole Fraction x_2"
+    ],
+    "rows": [
+     [
+      "25",
+      "8.4",
+      "0.17",
+      "1.8 x 10^-2",
+      "1.52",
+      "2.0"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,3-Dibromopropane with Water"
+ },
+ {
+  "sheet_id": "68_13",
+  "system_id": "68021",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_13",
+  "system": "1,3-Dichloro-1-propene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,3-Dichloro-1-propene; C3H4Cl2; [542-75-6]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "A. L. Horvath, Imperial Chemical Industries Limited, Runcorn, U.K., July 1993.",
+  "critical_evaluation": "",
+  "experimental_values": "The solubility of 1,3-dichloro-1-propene (1) in water (2) has been studied by three work groups; whereas, the solubility of water (2) in 1,3-dichloro-1-propene (1) has not been investigated yet.\nThe solubility data of 1,3-dichloro-1-propene (1) in water (2)  are in very poor agreement and in the absence of other independent studies, it is not possible to determine which values are more reliable. Further studies will be necessary before even tentative values can be assigned. All the available data for the solubility of 1,3-dichloro-1-propene (1) in water (2) in weight percent and mole fraction are summarized in Table 6.",
+  "notes": "",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  Chitwood, B.G., Adv. in Chem. Ser., Am. Chem. Soc., 1952, 7, 91-9.\n2  Chitwood, B.G., Adv. in Chem. Ser., Am. Chem. Soc., 1952, 7, 91-9.\n3  Chitwood, B.G., Adv. in Chem. Ser., Am. Chem. Soc., 1952, 7, 91-9.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,3-Dichloro-1-propene",
+    "formula": "C3H4Cl2",
+    "cas": "542-75-6"
+   }
+  ],
+  "tables": [],
+  "kind": "compilation",
+  "system_name": "1,3-Dichloro-1-propene with Water"
+ },
+ {
+  "sheet_id": "68_14",
+  "system_id": "68021",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_14",
+  "system": "1,3-Dichloro-1-propene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,3-Dichloro-1-propene; C3H4Cl2; [542-75-6]",
+  "original_measurements": "Chitwood, B.G., Adv. in Chem. Ser., Am. Chem. Soc., 1952, 7, 91-9.",
+  "variables": "Temperature = 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Details are not available.",
+  "source_purity": "(1) Source and purity not given.\n(2) Distilled (compiler).",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 0.5 K (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,3-Dichloro-1-propene",
+    "formula": "C3H4Cl2",
+    "cas": "542-75-6"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * Mass Fraction w_1",
+     "10^5 * Mole Fraction x_1 (compiler)",
+     "10^2 * w_1/M_1 (compiler) [mol g**-1]"
+    ],
+    "rows": [
+     [
+      "25",
+      "3.0 x 10^-2",
+      "4.87",
+      "2.7 x 10^-4"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,3-Dichloro-1-propene with Water"
+ },
+ {
+  "sheet_id": "68_15",
+  "system_id": "68021",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_15",
+  "system": "1,3-Dichloro-1-propene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,3-Dichloro-1-propene; C3H4Cl2; [542-75-6]",
+  "original_measurements": "Warner, H.P.; Cohen, J.M.; Ireland, J.C., Determination of Henry's Law Constants of Selected Priority Pollutants, U. S. EPA Technical Report, PB87-212684, Cincinnati, OH., July 1987.",
+  "variables": "Temperature = 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The original method and apparatus for the determination of Henry's law constants are described elsewhere.^1 The general procedure was to add an excess quantity of 1,3-dichloro-1-propene to distilled deionized water,  place the sample in a thermostat bath, and provide place the sample in a thermostat bath, and provide overnight mixing. A portion of this solution was returned to the stripping vessel. 1,3-Dichloro-1-propene was stripped  isothermally from the solution at a know gas flow rate. The Henry’s law constant was calculated from a log of the concentration versus time plot. The experimental data values are averages of two or more replicates.",
+  "source_purity": "(1) Purest quality available, used without further purification. Stated purity was >99%.\n(2) Distilled deionized.",
+  "estimated_error": "Solubility: ± 6 % std. dev.\nTemperature: ± 0.05 K.",
+  "references": "^1 D. Mackay, W. -Y. Shiu, and R. D. Sutherland, Environ. Sci. Technol. 13, 333 (1979).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,3-Dichloro-1-propene",
+    "formula": "C3H4Cl2",
+    "cas": "542-75-6"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Henry's law constant [m**3 atm mol**-1]",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^4 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "24.85",
+      "3.55 x 10^-3",
+      "0.1032",
+      "1.676"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,3-Dichloro-1-propene with Water"
+ },
+ {
+  "sheet_id": "68_16",
+  "system_id": "68021",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_16",
+  "system": "1,3-Dichloro-1-propene with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,3-Dichloro-1-propene; C3H4Cl2; [542-75-6]",
+  "original_measurements": "Wright, D.A.; Sandler, S.I.; DeVoll, D., Environ. Sci. Technol. 1992, 26, 1828-31.",
+  "variables": "Temperature = 293 K - 313 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A differential static cell equilibrium apparatus was used to measure the infinite dilution activity coefficient of 1,3-dichloro-1-propene (γ1¥) in water. Cells containing degassed water were submerged in a thermostat water  bath. 1,3-Dichloro-1-propene was injected into the mixture cells and a magnetic stirrer was turned on. Then, the cells were allowed to equilibrate. The stirrer was then turned off and the differential pressure was recorded.  The experiment was repeated at least three times at each temperature.",
+  "source_purity": "(1) Source and purity not given.\n(2) Distilled, filtered and deionized.",
+  "estimated_error": "Solubility: See above.\nTemperature: ± 0.05 K.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,3-Dichloro-1-propene",
+    "formula": "C3H4Cl2",
+    "cas": "542-75-6"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "γ^∞_1",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^4 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "20",
+      "1360+/-30",
+      "0.451",
+      "7.35"
+     ],
+     [
+      "30",
+      "1430+/-25",
+      "0.429",
+      "6.99"
+     ],
+     [
+      "40",
+      "1460+/-85",
+      "0.420",
+      "6.85"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,3-Dichloro-1-propene with Water"
+ },
+ {
+  "sheet_id": "68_75",
+  "system_id": "68022",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_75",
+  "system": "1,3-Dichloropropane with Magnesium Sulfate and Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) Magnesium sulfate; MgSO4; [7487-88-9]\n(3) 1,3-Dichloropropane; C3H6Cl2; [142-28-9]",
+  "original_measurements": "Gross, P.M., Z. Phys. Chem. 1929, 6B, 215-20.",
+  "variables": "Temperature = 298 K\nConcentration = Concentration(2)/mol dm-3 = 0.5",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A mixture of 10 to 20 cm^3 1,3-dichloropropane in 500 cm3 of an aqueous MgSO_4 solution in a bottle was placed in a water thermostat bath. The sample container was placed on a shaker and agitated until no  more liquid droplets remained undissolved. One or more samples were syphoned out and the concentration of the 1,3-dichloropropane was determined using a Zeiss water interferometer.",
+  "source_purity": "(1) Commercial reagent, fractionally distilled before use.\n(2) Kahlbaum chemical, certified grade.\n(3) Distilled.",
+  "estimated_error": "Solubility: ± 2.5 %.\nTemperature: ± 0.01 K.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "Magnesium sulfate",
+    "formula": "MgSO4",
+    "cas": "7487-88-9"
+   },
+   {
+    "index": 3,
+    "name": "1,3-Dichloropropane",
+    "formula": "C3H6Cl2",
+    "cas": "142-28-9"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * g_1/g_2",
+     "Concentration c_2 [mol dm**-3]",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^4 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "25",
+      "0.158",
+      "0.5",
+      "0.158",
+      "2.659"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,3-Dichloropropane with Magnesium Sulfate and Water"
+ },
+ {
+  "sheet_id": "68_76",
+  "system_id": "68023",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_76",
+  "system": "1,3-Dichloropropane with Potassium Chloride and Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) Potassium chloride; KCl; [7447-40-7]\n(3) 1,3-Dichloropropane; C3H6Cl2; [142-28-9]",
+  "original_measurements": "Gross, P.M., Z. Phys. Chem. 1929, 6B, 215-20.",
+  "variables": "Temperature = 298 K\nConcentration = Concentration(2)/mol dm-3 = 0.5",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A mixture of 10 to 20 cm^3 1,3-dichloropropane in 500 cm^3 of an aqueous KCl solution in a bottle was placed in a water thermostat bath. The sample container was  placed on a shaker and agitated until no more liquid droplets remained undissolved. One or more samples were syphoned out and the concentration of the 1,3-dichloropropane was determined using a Zeiss water interferometer.",
+  "source_purity": "(1) Commercial reagent, fractionally distilled before use.\n(2) Kahlbaum chemical, certified grade.\n(3) Distilled.",
+  "estimated_error": "Solubility: ± 2.5 %.\nTemperature: ± 0.01 K.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "Potassium chloride",
+    "formula": "KCl",
+    "cas": "7447-40-7"
+   },
+   {
+    "index": 3,
+    "name": "1,3-Dichloropropane",
+    "formula": "C3H6Cl2",
+    "cas": "142-28-9"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * g_1/g_2",
+     "Concentration c_2 [mol dm**-3]",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^4 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "25",
+      "0.230",
+      "0.5",
+      "0.230",
+      "3.781"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,3-Dichloropropane with Potassium Chloride and Water"
+ },
+ {
+  "sheet_id": "68_67",
+  "system_id": "68024",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_67",
+  "system": "1,3-Dichloropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,3-Dichloropropane; C3H6Cl2; [142-28-9]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "The solubility of 1,3-dichloropropane (1) in water (2) has been studied by six work groups; whereas, the solubility of water (2) in 1,3-dichloropropane (1) has not been investigated yet.\nAll the data of six laboratories were compiled or used for the smoothing equation. The combined data points of Gross,^1 of Wright and Schaffer,^2 of Gross et al., ^3 of Chitwood,^4 of Leighton and Calo,^5 and of Bauduin et al.^6 were correlated to obtain the following mass percent (1) equation:\nSolubility [100 w_1] = - 0.64093 + 3.08718x10^-3 (T/K)\nwhich yielded a standard deviation of 7.67x10^-3 in the temperature range from 275 to 303 K.\nThe curve obtained from the smoothing equation does not show a minimum over the temperature interval under examination as shown in  Fig. 4. The conditions for the appearance of the solubility minimum are discussed in the Preface.\nThe tentative solubility values for this system in weight percent and mole fraction are given in Table 14, as smoothed values at 5 K intervals.",
+  "notes": "",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  Gross, P.M., J. Am. Chem. Soc. 1929, 51, 2362-6.\n2  Wright, W.H.; Schaffer, J.M., Am. J. Hygiene 16, 325 (1932).\n4  Chitwood, B.G., Adv. in Chem. Ser., Am. Chem. Soc., 1952, 7, 91-9.\n4  Chitwood, B.G., Adv. in Chem. Ser., Am. Chem. Soc., 1952, 7, 91-9.\n5  Leighton, D.T.; Calo, J.M., J. Chem. Eng. Data 1981, 26, 382-5.\n6  Bauduin, G.; Bondon, D.; Gonzales-Moran, J.; Pietrasanta, Y., Analusis 13, 124-7 (1985).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,3-Dichloropropane",
+    "formula": "C3H6Cl2",
+    "cas": "142-28-9"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "T/K",
+     "10^2 * Mass Fraction w_1",
+     "10^4 * Mole Fraction x_1"
+    ],
+    "rows": [
+     [
+      "5",
+      "278.15",
+      "218 x 10^-1",
+      "3.48"
+     ],
+     [
+      "10",
+      "283.15",
+      "2.33 x 10^-1",
+      "3.72"
+     ],
+     [
+      "15",
+      "288.15",
+      "2.49 x 10^-1",
+      "3.98"
+     ],
+     [
+      "20",
+      "293.15",
+      "2.64 x 10^-1",
+      "4.22"
+     ],
+     [
+      "25",
+      "298.15",
+      "2.80 x 10^-1",
+      "4.48"
+     ],
+     [
+      "30",
+      "303.15",
+      "2.95 x 10^-1",
+      "4.72"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,3-Dichloropropane with Water"
+ },
+ {
+  "sheet_id": "68_68",
+  "system_id": "68024",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_68",
+  "system": "1,3-Dichloropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,3-Dichloropropane; C3H6Cl2; [142-28-9]",
+  "original_measurements": "Gross, P.M., J. Am. Chem. Soc. 1929, 51, 2362-6.",
+  "variables": "Temperature = 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A weighted amount of 1,3-dichloropropane was mixed with 1000 g water in a bottle and immersed in a water thermostat bath. The bottle was placed on a shaker and shaken until no more liquid droplets remained undissolved. The concentration of the 1,3-  dichloropropane in water was determined by a Zeiss water interferometer. One or more samples were syphoned out for the solubility determination. The German translation also has been published.^1",
+  "source_purity": "(1) Commercial reagent, fractionally distilled before use.\n(2) Distilled.",
+  "estimated_error": "Solubility: ± 2.5 %.\nTemperature: ± 0.01 K.",
+  "references": "^1 P. Gross, Z. Phys. Chem. 6B, 215 (1929).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,3-Dichloropropane",
+    "formula": "C3H6Cl2",
+    "cas": "142-28-9"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * g_1/g_2",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^4 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "25",
+      "0.273",
+      "0.272",
+      "4.35"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,3-Dichloropropane with Water"
+ },
+ {
+  "sheet_id": "68_69",
+  "system_id": "68024",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_69",
+  "system": "1,3-Dichloropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,3-Dichloropropane; C3H6Cl2; [142-28-9]",
+  "original_measurements": "Wright, W.H.; Schaffer, J.M., Am. J. Hygiene 16, 325 (1932).",
+  "variables": "Temperature = 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility was determined by mixing definite quantities of 1,3-dichloropropane with a large volume of water and then measuring the volume of the undissolved portion of 1,3-dichloropropane.",
+  "source_purity": "(1) Commercial grade, further purified by washing with NaHCO_3 solution and then redistilled.\n(2) Distilled.",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 0.5 K (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,3-Dichloropropane",
+    "formula": "C3H6Cl2",
+    "cas": "142-28-9"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^4 * Mole Fraction x_1 (compiler)",
+     "V_2/g_1 [cm**3 g**-1]"
+    ],
+    "rows": [
+     [
+      "25",
+      "0.286",
+      "4.57",
+      "3.50 x 10^2"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,3-Dichloropropane with Water"
+ },
+ {
+  "sheet_id": "68_70",
+  "system_id": "68024",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_70",
+  "system": "1,3-Dichloropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,3-Dichloropropane; C3H6Cl2; [142-28-9]",
+  "original_measurements": "Gross, P.M.; Saylor, J.H.; Gorman, M.A., J. Am. Chem. Soc. 1933, 55(2), 650-2.",
+  "variables": "Temperature = 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The saturated solution was prepared in a flask and placed in a waterbath thermostat. The samples were analyzed using a Zeiss combination liquid and gas interferometer  described elsewhere.^1 A detailed description of the complete procedure is given in a M. A. thesis.^2",
+  "source_purity": "(1) Eastman Kodak Company, distilled fractionally before use. The b. p. range was 120.5 - 120.6°C.\n(2) Distilled.",
+  "estimated_error": "Solubility: ± 1.0 %.\nTemperature: ± 0.02 K.",
+  "references": "^1 P. M. Gross and J. H. Saylor, J. Am. Chem. Soc. 53, 1744 (1931).\n^2 M. A. Gorman, MA thesis, Duke University, Durham, 1932.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,3-Dichloropropane",
+    "formula": "C3H6Cl2",
+    "cas": "142-28-9"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^3 * g_1/g_2",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^4 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "30",
+      "2.87",
+      "0.286",
+      "4.57"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,3-Dichloropropane with Water"
+ },
+ {
+  "sheet_id": "68_71",
+  "system_id": "68024",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_71",
+  "system": "1,3-Dichloropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,3-Dichloropropane; C3H6Cl2; [142-28-9]",
+  "original_measurements": "Chitwood, B.G., Adv. in Chem. Ser., Am. Chem. Soc., 1952, 7, 91-9.",
+  "variables": "Temperature = 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Details are not available.",
+  "source_purity": "(1) Source and purity not given.\n(2) Distilled (compiler).",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 0.5 K (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,3-Dichloropropane",
+    "formula": "C3H6Cl2",
+    "cas": "142-28-9"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * Mass Fraction w_1",
+     "10^4 * Mole Fraction x_1 (compiler)",
+     "10^2 * w_1/M_1 (compiler) [mol g**-1]"
+    ],
+    "rows": [
+     [
+      "25",
+      "0.29",
+      "4.64",
+      "2.57 x 10^-3"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,3-Dichloropropane with Water"
+ },
+ {
+  "sheet_id": "68_72",
+  "system_id": "68024",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_72",
+  "system": "1,3-Dichloropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,3-Dichloropropane; C3H6Cl2; [142-28-9]",
+  "original_measurements": "Chitwood, B.G., Adv. in Chem. Ser., Am. Chem. Soc., 1952, 7, 91-9.",
+  "variables": "Temperature = 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Details are not available.",
+  "source_purity": "(1) Source and purity not given.\n(2) Distilled (compiler).",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 0.5 K (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,3-Dichloropropane",
+    "formula": "C3H6Cl2",
+    "cas": "142-28-9"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * Mass Fraction w_1",
+     "10^4 * Mole Fraction x_1 (compiler)",
+     "10^2 * w_1/M_1 (compiler) [mol g**-1]"
+    ],
+    "rows": [
+     [
+      "25",
+      "0.29",
+      "4.64",
+      "2.75 x 10^-3"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,3-Dichloropropane with Water"
+ },
+ {
+  "sheet_id": "68_73",
+  "system_id": "68024",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_73",
+  "system": "1,3-Dichloropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,3-Dichloropropane; C3H6Cl2; [142-28-9]",
+  "original_measurements": "Leighton, D.T.; Calo, J.M., J. Chem. Eng. Data 1981, 26, 382-5.",
+  "variables": "Temperature = 275 K - 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  Gas-liquid system analysis parameter, from calibration measurements.",
+  "method": "A 5 μL 1,3-dichloropropane sample was in-jected into a 2.3 dm^3 equilibration cell containing distilled water. After the cell was shaken vigorously for about 5 minutes, the homogeneity of the liquid sample was maintained with a magnetic stirrer.  Compressed air was passed through the cell and the gas flow was measured with a soap film flowmeter. The 1,3-dichloropropane content was extracted and analyzed using a dual flame ionization detector gas chromatograph.",
+  "source_purity": "(1) Source and purity not given.\n(2) Distilled.",
+  "estimated_error": "Solubility: ± 5.0 %.\nTemperature: ± 0.5 K.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,3-Dichloropropane",
+    "formula": "C3H6Cl2",
+    "cas": "142-28-9"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Distribution coefficient, D_L",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^4 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "1.9",
+      "17.7",
+      "0.2101",
+      "3.356"
+     ],
+     [
+      "13.5",
+      "31.7",
+      "0.2434",
+      "3.889"
+     ],
+     [
+      "15.7",
+      "36.21",
+      "0.2395",
+      "3.837"
+     ],
+     [
+      "17.1",
+      "37.14",
+      "0.2558",
+      "4.087"
+     ],
+     [
+      "22",
+      "44.97",
+      "0.2814",
+      "4.497"
+     ],
+     [
+      "24.9",
+      "53.57",
+      "0.2789",
+      "4.458"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,3-Dichloropropane with Water"
+ },
+ {
+  "sheet_id": "68_74",
+  "system_id": "68024",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_74",
+  "system": "1,3-Dichloropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,3-Dichloropropane; C3H6Cl2; [142-28-9]",
+  "original_measurements": "Bauduin, G.; Bondon, D.; Gonzales-Moran, J.; Pietrasanta, Y., Analusis 13, 124-7 (1985).",
+  "variables": "Temperature = 291 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility of 1,3-dichloropropane was determined in three different aqueous solution types: deionized water and artificial and Mediterranean seawaters. The saturated solutions were prepared under vigorous  agitation from four to five hours. After filtration, samples of the homogeneous aqueous phase were analyzed using gas chromatography. Further details on the analytical method are given elsewhere.^1",
+  "source_purity": "(1) Source and purity not given.\n(2) Source and purity not given.",
+  "estimated_error": "Solubility: See above.\nTemperature: ± 1.0 K (compiler).",
+  "references": "^1 G. Bauduin, J. M. Bessiere, G. Bondon, J. Gonzales-Moran, and Y. Pietrasanta, Analusis 11, 178 (1983).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,3-Dichloropropane",
+    "formula": "C3H6Cl2",
+    "cas": "142-28-9"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Chemical Name",
+     "g_1/V_2 [g m**-3]",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^4 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "De-ionized water",
+      "2.56+/-0.05",
+      "0.256",
+      "4.091"
+     ],
+     [
+      "Artificial seawater",
+      "2.46+/-0.04",
+      "0.246",
+      "-"
+     ],
+     [
+      "Mediterranean seawater",
+      "2.20+/-0.02",
+      "0.220",
+      "-"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,3-Dichloropropane with Water"
+ },
+ {
+  "sheet_id": "68_117",
+  "system_id": "68025",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_117",
+  "system": "1,4-Dibromobutane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,4-Dibromobutane; C4H8Br2; [110-52-1]",
+  "original_measurements": "Bauduin, G.; Bondon, D.; Gonzales-Moran, J.; Pietrasanta, Y., Analusis 13, 124-7 (1985).",
+  "variables": "Temperature = 291 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility of 1,4-dibromobutane was determined in three different aqueous solution types: deionized water and artificial and Mediterranean seawaters. The saturated solutions were prepared under vigorous  agitation from four to five hours. After filtration, samples of the homogeneous aqueous phase were analyzed using gas chromatography. Further details on the analytical method are given elsewhere.^1",
+  "source_purity": "(1) Source and purity not given.\n(2) Source and purity not given.",
+  "estimated_error": "Solubility: See above.\nTemperature: ± 1 K (compiler).",
+  "references": "^1 G. Bauduin, J. M. Bessiere, G. Bondon, J. Gonzales-Moran, and Y. Pietrasanta, Analusis 11, 178 (1983).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,4-Dibromobutane",
+    "formula": "C4H8Br2",
+    "cas": "110-52-1"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Density ρ [kg m**-3]",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^5 * Mole Fraction x_1 (compiler)",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "0.162+/-0.006",
+      "1.62 x 10^-2",
+      "-",
+      "De-ionized water"
+     ],
+     [
+      "0.18+/-0.01",
+      "1.8 x 10^-2",
+      "-",
+      "Artificial seawater"
+     ],
+     [
+      "0.35+/-0.03",
+      "3.5 x 10^-2",
+      "2.921",
+      "Mediterranean seawater"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,4-Dibromobutane with Water"
+ },
+ {
+  "sheet_id": "68_119",
+  "system_id": "68026",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_119",
+  "system": "1,4-Dichlorobutane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,4-Dichlorobutane; C4H8Cl2; [110-56-5]",
+  "original_measurements": "Leighton, D.T.; Calo, J.M., J. Chem. Eng. Data 1981, 26, 382-5.",
+  "variables": "Temperature = 287 K - 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  Gas-liquid system analysis parameter, from calibration measurements.",
+  "method": "A 5 μL 1,4-Dichlorobutane sample was injected into a 2.3 dm^3 equilibration cell containing distilled water. After the cell was shaken vigorously for about 5 minutes, the homogeneity of the liquid sample was  maintained with a magnetic stirrer. Compressed air was passed through the cell and the gas flow was measured with a soap film flowmeter. The 1,4-Dichlorobutane content was extracted and analyzed using a  dual flame ionization detector gas chromatograph.",
+  "source_purity": "(1) Source and purity not given.\n(2) Distilled.",
+  "estimated_error": "Solubility: ± 6.1 %.\nTemperature: ± 0.5 K.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,4-Dichlorobutane",
+    "formula": "C4H8Cl2",
+    "cas": "110-56-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Distribution coefficient, D_L",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^4 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "13.5",
+      "15.27",
+      "0.1201",
+      "1.705"
+     ],
+     [
+      "15.7",
+      "20.05",
+      "0.1044",
+      "1.482"
+     ],
+     [
+      "17.1",
+      "21.35",
+      "0.1082",
+      "1.536"
+     ],
+     [
+      "22.0",
+      "24.76",
+      "0.1283",
+      "1.822"
+     ],
+     [
+      "24.9",
+      "26.61",
+      "0.1574",
+      "2.236"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,4-Dichlorobutane with Water"
+ },
+ {
+  "sheet_id": "68_120",
+  "system_id": "68026",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_120",
+  "system": "1,4-Dichlorobutane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1,4-Dichlorobutane; C4H8Cl2; [110-56-5]",
+  "original_measurements": "Bauduin, G.; Bondon, D.; Gonzales-Moran, J.; Pietrasanta, Y., Analusis 13, 124-7 (1985).",
+  "variables": "Temperature = 291 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The solubility of 1,4-dichlorobutane was determined in three different aqueous solution types: deionized water and artificial and Mediterranean seawaters. The saturated solutions were prepared under vigorous  agitation from four to five hours. After filtration, samples of the homogeneous aqueous phase were analyzed using gas chromatography. Further details on the analytical method are given elsewhere.^1",
+  "source_purity": "(1) Source and purity not given.\n(2) Source and purity not given.",
+  "estimated_error": "Solubility: See above.\nTemperature: ± 1 K (compiler).",
+  "references": "^1 G. Bauduin, J. M. Bessiere, G. Bondon, J. Gonzales-Moran, and Y. Pietrasanta, Analusis 11, 178 (1983).",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1,4-Dichlorobutane",
+    "formula": "C4H8Cl2",
+    "cas": "110-56-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "Density ρ [kg m**-3]",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^5 * Mole Fraction x_1 (compiler)",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "0.648+/-0.009",
+      "6.48 x 10^-2",
+      "9.196",
+      "De-ionized water"
+     ],
+     [
+      "0.67+/-0.08",
+      "6.7 x 10^-2",
+      "-",
+      "Artificial seawater"
+     ],
+     [
+      "0.66+/-0.03",
+      "6.6 x 10^-2",
+      "-",
+      "Mediterranean seawater"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,4-Dichlorobutane with Water"
+ },
+ {
+  "sheet_id": "68_153",
+  "system_id": "68027",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_153",
+  "system": "1,5-Dichloropentane with Water",
+  "components": "(1) 1,5-Dichloropentane; C5H10Cl2; [628-76-2]\n(2) Water; H2O; [7732-18-5]",
+  "original_measurements": "Leighton, D.T.; Calo, J.M., J. Chem. Eng. Data 1981, 26, 382-5.",
+  "variables": "Temperature = 274 K - 296 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  Gas-liquid system analysis parameter, from calibration measurements.",
+  "method": "A 5 μL 1,5-dichloropentane sample was in-jected into a 2.3 dm^3 equilibration cell containing distilled water. After the cell was shaken vigorously for about 5 minutes, the homogeneity of the liquid sample was  maintained with a magnetic stirrer. Compressed air was passed through the cell and the gas flow was measured with a soap film flowmeter. The 1,5-dichloropentane  content was extracted and analyzed using a dual flame ionization detector gas chromatograph.",
+  "source_purity": "(1) Source and purity not given.\n(2) Distilled.",
+  "estimated_error": "Solubility: ± 12.9 %.\nTemperature: ± 0.5 K.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1,5-Dichloropentane",
+    "formula": "C5H10Cl2",
+    "cas": "628-76-2"
+   },
+   {
+    "index": 2,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Distribution coefficient, D_L",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^5 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "1.0",
+      "16.36",
+      "1.170 x 10^-2",
+      "1.4949"
+     ],
+     [
+      "3.0",
+      "23.1",
+      "9.763 x 10^-2",
+      "1.2472"
+     ],
+     [
+      "12.04",
+      "21.41",
+      "2.214 x 10^-2",
+      "2.8282"
+     ],
+     [
+      "12.5",
+      "28.87",
+      "1.642 x 10^-2",
+      "2.0974"
+     ],
+     [
+      "17.9",
+      "26.96",
+      "2.635 x 10^-2",
+      "3.3668"
+     ],
+     [
+      "19.1",
+      "36.69",
+      "2.080 x 10^-2",
+      "2.6579"
+     ],
+     [
+      "22.7",
+      "79.33",
+      "1.232 x 10^-2",
+      "1.5732"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,5-Dichloropentane with Water"
+ },
+ {
+  "sheet_id": "68_122",
+  "system_id": "68028",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_122",
+  "system": "1-Bromo-2-methylpropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Bromo-2-methylpropane; C4H9Br; [78-77-3]",
+  "original_measurements": "Fühner, H., Ber. Dtsch. Chem. Ges. 1924, 57, 510-15.",
+  "variables": "Temperature = 291 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "1-Bromo-2-methylpropane was added gradually from a pipette to 100 cm^3 water in a sample container with continuous stirring and shaking in an oil bath. The appearance of the first cloud (turbidity) indicated the saturation  of the solution. The solubility was calculated from the volume of the 1-Bromo-2-methylpropane added to a known quantity of water present.",
+  "source_purity": "(1) E. Merck, Darmstadt. Further purified before use.\n(2) Distilled (compiler).",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 0.5 K (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Bromo-2-methylpropane",
+    "formula": "C4H9Br",
+    "cas": "78-77-3"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * Mass Fraction w_1",
+     "10^5 * Mole Fraction x_1 (compiler)",
+     "10^2 * w_1/M_1 (compiler) [mol g**-1]"
+    ],
+    "rows": [
+     [
+      "18",
+      "5.1 x 10^-2",
+      "6.71",
+      "3.72 x 10^-4"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1-Bromo-2-methylpropane with Water"
+ },
+ {
+  "sheet_id": "68_36",
+  "system_id": "68029",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_36",
+  "system": "1-Bromo-3-chloropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Bromo-3-chloropropane; C3H6BrCl; [109-70-6]",
+  "original_measurements": "",
+  "variables": "",
+  "prepared_by": "A. L. Horvath, Imperial Chemical Industries Limited, Runcorn, U.K., July 1993.",
+  "critical_evaluation": "",
+  "experimental_values": "The solubility of 1-bromo-3-chloropropane (1) in water (2) has been studied by three work groups; whereas, the solubility of water (2) in 1-bromo-3-chloropropane (1) has not been investigated yet.\nThe solubility value of Dreisbach^1 at 25 °C is greater by a factor of 8.1 than those of Tewari et al.^2 and of Miller et al.^3 The data reported in the latter two papers originate from the same laboratory and the agreement is therefore sound. Not enough workers have measured the solubility of 1-bromo-3-chloropropane in water over common ranges of temperature to provide recommended solubility values. Further studies will be necessary before even tentative values can be prescribed. All the available data for the solubility of 1-bromo-3-chloropropane (1) in water (2) in weight percent and mole fraction are summarized in Table 10.",
+  "notes": "",
+  "method": "",
+  "source_purity": "",
+  "estimated_error": "",
+  "references": "1  Dreisbach, R.R., \"Physical Properties of Chemical Compounds,\" Advances in Chemistry Series No. 22; American Chemical Society: Washington, D.C., 1959; pp. 208-214.\n2  Tewari, Y.B.; Miller, M.M.; Wasik, S.P.; Martire, D.E., J. Chem. Eng. Data 1982, 27, 451-4.\n3  Miller, M.M.; Wasik, S.P.; Huang, G.L.; Shiu, W.Y.; Mackay, D., Environ. Sci. Technol. 1985, 19, 522-529.",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Bromo-3-chloropropane",
+    "formula": "C3H6BrCl",
+    "cas": "109-70-6"
+   }
+  ],
+  "tables": [],
+  "kind": "compilation",
+  "system_name": "1-Bromo-3-chloropropane with Water"
+ },
+ {
+  "sheet_id": "68_37",
+  "system_id": "68029",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_37",
+  "system": "1-Bromo-3-chloropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Bromo-3-chloropropane; C3H6BrCl; [109-70-6]",
+  "original_measurements": "Dreisbach, R.R., \"Physical Properties of Chemical Compounds,\" Advances in Chemistry Series No. 22; American Chemical Society: Washington, D.C., 1959; pp. 208-214.",
+  "variables": "Temperature = 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Details are not available.",
+  "source_purity": "(1) Dow Chemical Company, 99.79 % pure, purified by distillation before use.\n(2) Distilled.",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 1 K (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Bromo-3-chloropropane",
+    "formula": "C3H6BrCl",
+    "cas": "109-70-6"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * g_1/g_2",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^3 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "25",
+      "1.84",
+      "1.807",
+      "2.14"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1-Bromo-3-chloropropane with Water"
+ },
+ {
+  "sheet_id": "68_38",
+  "system_id": "68029",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_38",
+  "system": "1-Bromo-3-chloropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Bromo-3-chloropropane; C3H6BrCl; [109-70-6]",
+  "original_measurements": "Tewari, Y.B.; Miller, M.M.; Wasik, S.P.; Martire, D.E., J. Chem. Eng. Data 1982, 27, 451-4.",
+  "variables": "Temperature = 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "The modified generator column method was used. A chromatographic column was coated with liquid 1-bromo-3-chloropropane. An aqueous phase was generated by pumping water through the coated generator column.  The aqueous solution was analyzed by a gas chromatographic method using a gas chromatograph equipped with a flame ionization detector.",
+  "source_purity": "(1) Source not given. At least 99 % pure by GC analysis.\n(2) Baker-analyzed HPLC grade.",
+  "estimated_error": "Solubility: ± 1.0 %.\nTemperature: ± 0.1  K.",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Bromo-3-chloropropane",
+    "formula": "C3H6BrCl",
+    "cas": "109-70-6"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Concentration c_1 [mol dm**-3]",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^4 * Mole Fraction x_1 (compiler)"
+    ],
+    "rows": [
+     [
+      "25",
+      "1.42 x 10^-2",
+      "0.223",
+      "2.56"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1-Bromo-3-chloropropane with Water"
+ },
+ {
+  "sheet_id": "68_39",
+  "system_id": "68029",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_39",
+  "system": "1-Bromo-3-chloropropane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Bromo-3-chloropropane; C3H6BrCl; [109-70-6]",
+  "original_measurements": "Miller, M.M.; Wasik, S.P.; Huang, G.L.; Shiu, W.Y.; Mackay, D., Environ. Sci. Technol. 1985, 19, 522-529.",
+  "variables": "Temperature = 298 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "A saturated aqueous solution was prepared by passing of water through a column which was packed with glass beads coated with 1-bromo-3-chloropropane. The saturated solution was then pumped through an  extractor column and 1-bromo-3-chloropropane was extracted directly into an analytical column. The samples were analyzed with a liquid chromatograph equipped with both an UV absorbance and a  fluorescence detector with excitation filters. The peak area was established using a Hewlett-Packard recorder.",
+  "source_purity": "(1) Eastman Kodak Company, commercial quality, used as received.\n(2) Double distilled.",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 0.5 K (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Bromo-3-chloropropane",
+    "formula": "C3H6BrCl",
+    "cas": "109-70-6"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * Mass Fraction w_1 (compiler)",
+     "10^4 * Mole Fraction x_1 (compiler)",
+     "n_1/V_2 [mol m**-3]"
+    ],
+    "rows": [
+     [
+      "25",
+      "0.224",
+      "2.56",
+      "1.42 x 10^1"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1-Bromo-3-chloropropane with Water"
+ },
+ {
+  "sheet_id": "68_155",
+  "system_id": "68030",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=68_155",
+  "system": "1-Bromo-3-methylbutane with Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) 1-Bromo-3-methylbutane; C5H11Br; [107-82-4]",
+  "original_measurements": "Fühner, H., Ber. Dtsch. Chem. Ges. 1924, 57, 510-15.",
+  "variables": "Temperature = 290 K",
+  "prepared_by": "A. L. Horvath",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "1-Bromo-3-methylbutane was added gradually from a pipette to 100 cm^3 water in a sample container with continuous stirring and shaking in an oil bath. The appearance of the first cloud (turbidity) indicated the saturation  of the solution. The solubility was calculated from the volume of the 1-bromo-3-methyl-butane added to a known quantity of water present.",
+  "source_purity": "(1) E. Merck, Darmstadt, further purified before use.\n(2) Distilled (compiler).",
+  "estimated_error": "Solubility: Not specified.\nTemperature: ± 0.5 K (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "1-Bromo-3-methylbutane",
+    "formula": "C5H11Br",
+    "cas": "107-82-4"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "10^2 * Mass Fraction w_1",
+     "10^5 * Mole Fraction x_1 (compiler)",
+     "10^2 * w_1/M_1 (compiler) [mol g**-1]"
+    ],
+    "rows": [
+     [
+      "16.5",
+      "2.0 x 10^-2",
+      "2.39",
+      "1.32 x 10^-4"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1-Bromo-3-methylbutane with Water"
+ }
+]

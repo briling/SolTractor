@@ -1,0 +1,3241 @@
+[
+ {
+  "sheet_id": "59_321",
+  "system_id": "59001",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=59_321",
+  "system": "1,10-Phenanthroline with Ethanol and Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) Ethanol; C2H6O; [64-17-5]\n(3) 1,10-Phenanthroline; C12H8N2; [5144-89-8]",
+  "original_measurements": "Bhattacharyya, A.K.; Sengupta, D.; Lahiri, S.C., Z. Phys. Chem. Leipzig 1984, 265, 372-378.",
+  "variables": "Temperature = 295 K\nConcentration = Solvent composition",
+  "prepared_by": "W.E. Acree, Jr.",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  x_2^(s):  initial mole fraction of binary solvent mixture; c_1:  solubility of the solute expressed in terms of molarity.  Equilibrium solid phase is probably a hydrated form of 1, 10-phenanthroline, particularly in the water-rich binary solvent mixtures.",
+  "method": "Constant temperature bath, and an ultraviolet/visable spectrophotometer.\nBinary solvent mixtures prepared volumetrically and solvent weight percentages calculated from known densities of the pure solvents at 295 K. Excess solute and solvent allowed to equilibrate for 24 hours in a campbell solubility apparatus.  Saturated solutions were filtered and withdrawn by inversion of the apparatus.  Concentrations determined  spectrophotometrically at 280 nm.",
+  "source_purity": "(1) Reagent grade, E. Merck, was used as received from chemical supplier.\n(2) Absolute, chemical supplier not specified in paper, was dried over calcium oxide and distilled before use.\n(3) Purity and chemical source not specified in paper.",
+  "estimated_error": "Temperature: T/K: ± precision 0.1  (compiler).  x_2: ± 0.001 (compiler).  c_1: ± 3 % (relative error; compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "Ethanol",
+    "formula": "C2H6O",
+    "cas": "64-17-5"
+   },
+   {
+    "index": 3,
+    "name": "1,10-Phenanthroline",
+    "formula": "C12H8N2",
+    "cas": "5144-89-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Concentration c_1 [mol dm**-3]",
+     "Mole Fraction x_2"
+    ],
+    "rows": [
+     [
+      "22.0",
+      "0.0170",
+      "0.000"
+     ],
+     [
+      "22.0",
+      "0.0439",
+      "0.033"
+     ],
+     [
+      "22.0",
+      "0.1040",
+      "0.071"
+     ],
+     [
+      "22.0",
+      "0.3497",
+      "0.117"
+     ],
+     [
+      "22.0",
+      "1.0117",
+      "0.170"
+     ],
+     [
+      "22.0",
+      "2.2700",
+      "0.235"
+     ],
+     [
+      "22.0",
+      "3.9585",
+      "0.325"
+     ],
+     [
+      "22.0",
+      "6.8192",
+      "0.418"
+     ],
+     [
+      "22.0",
+      "12.6205",
+      "0.553"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,10-Phenanthroline with Ethanol and Water"
+ },
+ {
+  "sheet_id": "59_319",
+  "system_id": "59002",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=59_319",
+  "system": "1,10-Phenanthroline with Methanol and Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) Methanol; CH4O; [67-56-1]\n(3) 1,10-Phenanthroline; C12H8N2; [5144-89-8]",
+  "original_measurements": "Burgess, J.; Haines, R.I., J. Chem. Eng. Data 1978, 23, 196-197.",
+  "variables": "Temperature = 298 K\nConcentration = Solvent composition",
+  "prepared_by": "W.E. Acree, Jr.",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  ø_2^(s):  initial volume fraction of binary solvent mixture; c_1:  solubility of the solute expressed in terms of molarity.  Equilibrium solid phase is probably a hydrated form of 1, 10-phenanthroline, particularly in the water-rich binary solvent mixtures.",
+  "method": "Constant temperature bath, and an ultraviolet/visable spectrophotometer.\nExcess solute and binary solvent equilibrated in a constant temperature vessel.  Aliquots of saturated solution withdrawn and concentrations determined spectrometrically at 298.2 nm.  Attainment of equilibrium verified by several repetitive measurements.",
+  "source_purity": "(1) Purity and chemical source not specified, was recrystallized from aqueous ethanol.\n(2) Purity and chemical source not specified in paper.\n(3) Purity and chemical source not specified in paper.",
+  "estimated_error": "Temperature: T/K: ± 0.1  (compiler).  ø_2^(s): ± 0.01 (compiler).  c_1: ± 3 % (relative error; compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "Methanol",
+    "formula": "CH4O",
+    "cas": "67-56-1"
+   },
+   {
+    "index": 3,
+    "name": "1,10-Phenanthroline",
+    "formula": "C12H8N2",
+    "cas": "5144-89-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Concentration c_1 [mol dm**-3]",
+     "Ø_2"
+    ],
+    "rows": [
+     [
+      "25.0",
+      "0.0149",
+      "0.00"
+     ],
+     [
+      "25.0",
+      "0.0173",
+      "0.05"
+     ],
+     [
+      "25.0",
+      "0.0207",
+      "0.10"
+     ],
+     [
+      "25.0",
+      "0.0247",
+      "0.15"
+     ],
+     [
+      "25.0",
+      "0.0280",
+      "0.20"
+     ],
+     [
+      "25.0",
+      "0.0339",
+      "0.25"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,10-Phenanthroline with Methanol and Water"
+ },
+ {
+  "sheet_id": "59_320",
+  "system_id": "59002",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=59_320",
+  "system": "1,10-Phenanthroline with Methanol and Water",
+  "components": "(1) Water; H2O; [7732-18-5]\n(2) Methanol; CH4O; [67-56-1]\n(3) 1,10-Phenanthroline; C12H8N2; [5144-89-8]",
+  "original_measurements": "Sengupta, D.; Amalendu, P.; Lahiri, S.C., J. Chem. Soc., Dalton Trans. 1983, 2685-2688.",
+  "variables": "Temperature = 295",
+  "prepared_by": "W.E. Acree, Jr.",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^a  x_2^(s):  initial mole fraction of binary solvent mixture; c_1:  solubility of the solute expressed in terms of molarity.  Equilibrium solid phase is probably a hydrated form of 1, 10-phenanthroline, particularly in the water-rich binary solvent mixtures.",
+  "method": "Constant temperature bath, and an ultraviolet/visable spectrophotometer.\nBinary solvent mixtures prepared volumetrically and solvent weight percentages calculated from known densities of the pure solvents at 295 K. Excess solute and solvent allowed to equilibrate for 24 hours in a Campbell solubility apparatus.  Saturated solutions were filtered and withdrawn by inversion of the apparatus.  Concentrations determined  spectrophotometrically at 264 nm.",
+  "source_purity": "(1) Reagent grade, E. Merck, was used as received from chemical supplier.\n(2) Purity and chemical source not specified in paper.\n(3) Purity and chemical source not specified in paper.",
+  "estimated_error": "Temperature: T/K: ± precision 0.1  (compiler).  x_2: ± 0.001 (compiler).  c_1: ± 3 % (relative error; compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Water",
+    "formula": "H2O",
+    "cas": "7732-18-5"
+   },
+   {
+    "index": 2,
+    "name": "Methanol",
+    "formula": "CH4O",
+    "cas": "67-56-1"
+   },
+   {
+    "index": 3,
+    "name": "1,10-Phenanthroline",
+    "formula": "C12H8N2",
+    "cas": "5144-89-8"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Concentration c_1 [mol dm**-3]",
+     "Mole Fraction x_2"
+    ],
+    "rows": [
+     [
+      "22.0",
+      "0.0169",
+      "0.000"
+     ],
+     [
+      "22.0",
+      "0.0269",
+      "0.047"
+     ],
+     [
+      "22.0",
+      "0.0591",
+      "0.099"
+     ],
+     [
+      "22.0",
+      "0.1496",
+      "0.159"
+     ],
+     [
+      "22.0",
+      "0.4491",
+      "0.228"
+     ],
+     [
+      "22.0",
+      "1.1412",
+      "0.307"
+     ],
+     [
+      "22.0",
+      "2.5072",
+      "0.400"
+     ],
+     [
+      "22.0",
+      "5.1028",
+      "0.508"
+     ],
+     [
+      "22.0",
+      "1.0528",
+      "0.639"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "1,10-Phenanthroline with Methanol and Water"
+ },
+ {
+  "sheet_id": "59_29",
+  "system_id": "59003",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=59_29",
+  "system": "Fluoranthene with 1,2,3,5-Tetranitrobenzene",
+  "components": "(1) 1,2,3,5-Tetranitrobenzene; C6H2N4O8; [3698-53-1]\n(2) Fluoranthene; C16H10; [206-44-0]",
+  "original_measurements": "Shinomiya, C., J. Chem. Soc. Japan 1940, 15, 259-270.",
+  "variables": "Temperature = Temperature",
+  "prepared_by": "W.E. Acree, Jr.",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^  Authors reports formations of a 1:1 fluoranthene - 1,2,3,5-tetranitrobenzene brown molecular compound having a melting point temperature of 407.2 K.  Two eutectic points occur at x_1 = 0.253 and T/K = 383.2, and at x_1 = 0.801 and T/K = 357.2.",
+  "method": "No experimental details given in paper.",
+  "source_purity": "(1) Purity and chemical source were not specified in paper.\n(2) Purity and chemical source were not specified in paper.",
+  "estimated_error": "Temperature: T/K: ± precision 0.2.  (compiler).  x_1: ± 0.002 (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1,2,3,5-Tetranitrobenzene",
+    "formula": "C6H2N4O8",
+    "cas": "3698-53-1"
+   },
+   {
+    "index": 2,
+    "name": "Fluoranthene",
+    "formula": "C16H10",
+    "cas": "206-44-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Mole Fraction x_1",
+     "Mole Fraction x_2",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "399.2",
+      "0.000",
+      "1.000",
+      "Solid Phase (2)"
+     ],
+     [
+      "385.2",
+      "0.061",
+      "0.939",
+      "Solid Phase (2)"
+     ],
+     [
+      "389.2",
+      "0.164",
+      "0.836",
+      "Solid Phase (2)"
+     ],
+     [
+      "393.2",
+      "0.320",
+      "0.680",
+      "1:1 Compound"
+     ],
+     [
+      "393.2",
+      "0.328",
+      "0.672",
+      "1:1 Compound"
+     ],
+     [
+      "405.2",
+      "0.439",
+      "0.561",
+      "1:1 Compound"
+     ],
+     [
+      "405.2",
+      "0.478",
+      "0.522",
+      "1:1 Compound"
+     ],
+     [
+      "407.2",
+      "0.499",
+      "0.501",
+      "1:1 Compound"
+     ],
+     [
+      "403.2",
+      "0.598",
+      "0.402",
+      "1:1 Compound"
+     ],
+     [
+      "397.2",
+      "0.640",
+      "0.360",
+      "1:1 Compound"
+     ],
+     [
+      "383.2",
+      "0.716",
+      "0.284",
+      "1:1 Compound"
+     ],
+     [
+      "370.2",
+      "0.783",
+      "0.217",
+      "1:1 Compound"
+     ],
+     [
+      "361.2",
+      "0.798",
+      "0.202",
+      "1:1 Compound"
+     ],
+     [
+      "367.2",
+      "0.858",
+      "0.142",
+      "Solid Phase (1)"
+     ],
+     [
+      "371.2",
+      "0.873",
+      "0.127",
+      "Solid Phase (1)"
+     ],
+     [
+      "382.7",
+      "1.000",
+      "0.000",
+      "Solid Phase (1)"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Fluoranthene with 1,2,3,5-Tetranitrobenzene"
+ },
+ {
+  "sheet_id": "59_5",
+  "system_id": "59004",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=59_5",
+  "system": "Fluoranthene with 1,2,4,5-Tetramethylbenzene",
+  "components": "(1) 1,2,4,5-Tetramethylbenzene; C10H14; [95-93-2]\n(2) Fluoranthene; C16H10; [206-44-0]",
+  "original_measurements": "Kravchenko, V.M.; Pastukhova, I.S., J. Gen. Chem. U.S.S.R. 1959, 29, 29-34. (English Translation)",
+  "variables": "Temperature = Temperature",
+  "prepared_by": "W.E. Acree, Jr.",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^  Authors report eutectic point occurs at x_1 = 0.382 and T/K = 332.2.",
+  "method": "Phase diagram was determined using a thermal analysis method (described in detail in V.M. Kravchenko, J. Phys. Chem. U.S.S.R. 1939, 13, 133), supplemented by visual observations.",
+  "source_purity": "(1) Purity and chemical source were not specified in paper, was recrystallized before use.\n(2) Purity and chemical source were not specified in paper, was recrystallized before use.",
+  "estimated_error": "Temperature: T/K: precision ± 0.2. x_1: ± 0.002 (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1,2,4,5-Tetramethylbenzene",
+    "formula": "C10H14",
+    "cas": "95-93-2"
+   },
+   {
+    "index": 2,
+    "name": "Fluoranthene",
+    "formula": "C16H10",
+    "cas": "206-44-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Mole Fraction x_1",
+     "Mole Fraction x_2",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "352.4",
+      "0.000",
+      "1.000",
+      "Solid Phase (2)"
+     ],
+     [
+      "347.4",
+      "0.085",
+      "0.915",
+      "Solid Phase (2)"
+     ],
+     [
+      "343.3",
+      "0.160",
+      "0.840",
+      "Solid Phase (2)"
+     ],
+     [
+      "339.4",
+      "0.238",
+      "0.762",
+      "Solid Phase (2)"
+     ],
+     [
+      "336.5",
+      "0.285",
+      "0.715",
+      "Solid Phase (2)"
+     ],
+     [
+      "332.7",
+      "0.350",
+      "0.650",
+      "Solid Phase (2)"
+     ],
+     [
+      "332.2",
+      "0.382",
+      "0.618",
+      "Eutectic"
+     ],
+     [
+      "334.5",
+      "0.399",
+      "0.601",
+      "Solid Phase (1)"
+     ],
+     [
+      "340.4",
+      "0.448",
+      "0.552",
+      "Solid Phase (1)"
+     ],
+     [
+      "349.2",
+      "0.538",
+      "0.462",
+      "Solid Phase (1)"
+     ],
+     [
+      "358.2",
+      "0.649",
+      "0.351",
+      "Solid Phase (1)"
+     ],
+     [
+      "368.2",
+      "0.782",
+      "0.218",
+      "Solid Phase (1)"
+     ],
+     [
+      "374.8",
+      "0.882",
+      "0.118",
+      "Solid Phase (1)"
+     ],
+     [
+      "383.2",
+      "1.000",
+      "0.000",
+      "Solid Phase (1)"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Fluoranthene with 1,2,4,5-Tetramethylbenzene"
+ },
+ {
+  "sheet_id": "59_28",
+  "system_id": "59005",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=59_28",
+  "system": "Fluoranthene with 1,3,5-Trinitrobenzene",
+  "components": "(1) 1,3,5-Trinitrobenzene; C6H6N3O6; [99-35-4]\n(2) Fluoranthene; C16H10; [206-44-0]",
+  "original_measurements": "Shinomiya, C., J. Chem. Soc. Japan 1940, 15, 259-270.",
+  "variables": "Temperature = Temperature",
+  "prepared_by": "W.E. Acree, Jr.",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^  Authors reports formations of a 1:1 fluoranthene - 1,3,5-trinitrobenzene yellow molecular compound having a melting point temperature of 478.2 K.  Two eutectic points occur at x_1 = 0.040 and T/K = 376.2, and at x_1 = 0.868 and T/K = 371.7.",
+  "method": "No experimental details given in paper.",
+  "source_purity": "(1) Purity and chemical source were not specified in paper.\n(2) Purity and chemical source were not specified in paper.",
+  "estimated_error": "Temperature: T/K: ± precision 0.2.  (compiler).  x_1: ± 0.002 (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1,3,5-Trinitrobenzene",
+    "formula": "C6H6N3O6",
+    "cas": "99-35-4"
+   },
+   {
+    "index": 2,
+    "name": "Fluoranthene",
+    "formula": "C16H10",
+    "cas": "206-44-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Mole Fraction x_1",
+     "Mole Fraction x_2",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "396.2",
+      "0.000",
+      "1.000",
+      "Solid Phase (2)"
+     ],
+     [
+      "413.0",
+      "0.107",
+      "0.893",
+      "1:1 Compound"
+     ],
+     [
+      "437.7",
+      "0.172",
+      "0.828",
+      "1:1 Compound"
+     ],
+     [
+      "461.7",
+      "0.262",
+      "0.738",
+      "1:1 Compound"
+     ],
+     [
+      "461.5",
+      "0.286",
+      "0.714",
+      "1:1 Compound"
+     ],
+     [
+      "476.2",
+      "0.419",
+      "0.581",
+      "1:1 Compound"
+     ],
+     [
+      "477.7",
+      "0.511",
+      "0.489",
+      "1:1 Compound"
+     ],
+     [
+      "477.2",
+      "0.531",
+      "0.469",
+      "1:1 Compound"
+     ],
+     [
+      "473.2",
+      "0.624",
+      "0.376",
+      "1:1 Compound"
+     ],
+     [
+      "456.2",
+      "0.717",
+      "0.283",
+      "1:1 Compound"
+     ],
+     [
+      "397.7",
+      "0.839",
+      "0.161",
+      "1:1 Compound"
+     ],
+     [
+      "379.2",
+      "0.951",
+      "0.049",
+      "Solid Phase (1)"
+     ],
+     [
+      "382.7",
+      "1.000",
+      "0.000",
+      "Solid Phase (1)"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Fluoranthene with 1,3,5-Trinitrobenzene"
+ },
+ {
+  "sheet_id": "59_26",
+  "system_id": "59006",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=59_26",
+  "system": "Fluoranthene with 1,3-Dinitrobenzene",
+  "components": "(1) 1,3-Dinitrobenzene; C6H4N2O4; [99-65-0]\n(2) Fluoranthene; C16H10; [206-44-0]",
+  "original_measurements": "Shinomiya, C., J. Chem. Soc. Japan 1940, 15, 259-270.",
+  "variables": "Temperature = Temperature",
+  "prepared_by": "W.E. Acree, Jr.",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^  Authors reports formations of a 1:1 fluoranthene - 1,3-dinitrobenzene light yellow molecular compound having a melting point temperature of 350.2 K.  Two eutectic points occur at x_1 = 0.290 and T/K = 341.2, and at x_1 = 0.560 and T/K = 344.2.",
+  "method": "No experimental details given in paper.",
+  "source_purity": "(1) Purity and chemical source were not specified in paper.\n(2) Purity and chemical source were not specified in paper.",
+  "estimated_error": "Temperature: T/K: ± precision 0.2.  (compiler).  x_1: ± 0.002 (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1,3-Dinitrobenzene",
+    "formula": "C6H4N2O4",
+    "cas": "99-65-0"
+   },
+   {
+    "index": 2,
+    "name": "Fluoranthene",
+    "formula": "C16H10",
+    "cas": "206-44-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Mole Fraction x_1",
+     "Mole Fraction x_2",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "363.2",
+      "0.000",
+      "1.000",
+      "Solid Phase (2)"
+     ],
+     [
+      "356.2",
+      "0.121",
+      "0.879",
+      "Solid Phase (2)"
+     ],
+     [
+      "350.2",
+      "0.216",
+      "0.784",
+      "Solid Phase (2)"
+     ],
+     [
+      "346.2",
+      "0.248",
+      "0.752",
+      "Solid Phase (2)"
+     ],
+     [
+      "342.2",
+      "0.260",
+      "0.740",
+      "Solid Phase (2)"
+     ],
+     [
+      "344.7",
+      "0.270",
+      "0.730",
+      "Solid Phase (2)"
+     ],
+     [
+      "342.2",
+      "0.310",
+      "0.690",
+      "1:1 Compound"
+     ],
+     [
+      "347.2",
+      "0.345",
+      "0.655",
+      "1:1 Compound"
+     ],
+     [
+      "348.0",
+      "0.367",
+      "0.633",
+      "1:1 Compound"
+     ],
+     [
+      "349.2",
+      "0.399",
+      "0.601",
+      "1:1 Compound"
+     ],
+     [
+      "349.7",
+      "0.432",
+      "0.568",
+      "1:1 Compound"
+     ],
+     [
+      "349.7",
+      "0.478",
+      "0.522",
+      "1:1 Compound"
+     ],
+     [
+      "350.2",
+      "0.498",
+      "0.502",
+      "1:1 Compound"
+     ],
+     [
+      "349.2",
+      "0.570",
+      "0.430",
+      "Solid Phase (2)"
+     ],
+     [
+      "349.2",
+      "0.615",
+      "0.385",
+      "Solid Phase (2)"
+     ],
+     [
+      "352.7",
+      "0.693",
+      "0.307",
+      "Solid Phase (2)"
+     ],
+     [
+      "382.7",
+      "1.000",
+      "0.000",
+      "Solid Phase (2)"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Fluoranthene with 1,3-Dinitrobenzene"
+ },
+ {
+  "sheet_id": "59_27",
+  "system_id": "59007",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=59_27",
+  "system": "Fluoranthene with 1,4-Dinitrobenzene",
+  "components": "(1) 1,4-Dinitrobenzene; C6H4N2O4; [100-25-4]\n(2) Fluoranthene; C16H10; [206-44-0]",
+  "original_measurements": "Shinomiya, C., J. Chem. Soc. Japan 1940, 15, 259-270.",
+  "variables": "Temperature = Temperature",
+  "prepared_by": "W.E. Acree, Jr.",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^  Author reports that a single eutectic point occurs at x_1 = 0.701 and T/K = 353.2.",
+  "method": "No experimental details given in paper.",
+  "source_purity": "(1) Purity and chemical source were not specified in paper.\n(2) Purity and chemical source were not specified in paper.",
+  "estimated_error": "Temperature: T/K: ± precision 0.2.  (compiler).  x_1: ± 0.002 (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1,4-Dinitrobenzene",
+    "formula": "C6H4N2O4",
+    "cas": "100-25-4"
+   },
+   {
+    "index": 2,
+    "name": "Fluoranthene",
+    "formula": "C16H10",
+    "cas": "206-44-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Mole Fraction x_1",
+     "Mole Fraction x_2",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "446.7",
+      "0.000",
+      "1.000",
+      "Solid Phase (2)"
+     ],
+     [
+      "426.2",
+      "0.294",
+      "0.706",
+      "Solid Phase (2)"
+     ],
+     [
+      "411.2",
+      "0.432",
+      "0.568",
+      "Solid Phase (2)"
+     ],
+     [
+      "388.2",
+      "0.594",
+      "0.406",
+      "Solid Phase (2)"
+     ],
+     [
+      "370.2",
+      "0.667",
+      "0.323",
+      "Solid Phase (2)"
+     ],
+     [
+      "363.2",
+      "0.769",
+      "0.231",
+      "Solid Phase (1)"
+     ],
+     [
+      "370.2",
+      "0.834",
+      "0.166",
+      "Solid Phase (1)"
+     ],
+     [
+      "379.2",
+      "0.944",
+      "0.056",
+      "Solid Phase (1)"
+     ],
+     [
+      "382.7",
+      "1.000",
+      "0.000",
+      "Solid Phase (1)"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Fluoranthene with 1,4-Dinitrobenzene"
+ },
+ {
+  "sheet_id": "59_14",
+  "system_id": "59008",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=59_14",
+  "system": "Fluoranthene with 1,4-Dioxane",
+  "components": "(1) 1,4-Dioxane; C4H8O2; [123-91-1]\n(2) Fluoranthene; C16H10; [206-44-0]",
+  "original_measurements": "Pinal, R.; Rao, P.S.C.; Lee, L.S.; Cline, P.V.; Yalkowsky, S.H., Environ. Sci. Technol. 1990, 24, 639-646.",
+  "variables": "Temperature = 296 K",
+  "prepared_by": "W.E. Acree, Jr.",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Constant temperature bath, centrifuge, thermometer, and an HPLC equipped with uv absorption and fluorescence detection.\nExcess solute and solvent were placed in glass vials and allowed to equilibrate with rotation for 12-24 hours in a constant temperature bath.  Prior to analysis samples were centrifuged at a minimum of 300 RCF for 15 minutes.  The clear supernatant solution was analyzed by  reversed phase liquid chromatography with either fluorescence or uv detection.",
+  "source_purity": "(1) Purity not given, commercial sample of unspecified source, was used as received.\n(2) Purity and chemical source not given, purification procedure not specified.",
+  "estimated_error": "Temperature: T/K: ± 0.1. c_1: 5% (relative error; compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1,4-Dioxane",
+    "formula": "C4H8O2",
+    "cas": "123-91-1"
+   },
+   {
+    "index": 2,
+    "name": "Fluoranthene",
+    "formula": "C16H10",
+    "cas": "206-44-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Concentration c_1 [mol dm**-3]"
+    ],
+    "rows": [
+     [
+      "23.0",
+      "1.54"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Fluoranthene with 1,4-Dioxane"
+ },
+ {
+  "sheet_id": "59_21",
+  "system_id": "59009",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=59_21",
+  "system": "Fluoranthene with 1-Hydroxy-2-methylbenzene",
+  "components": "(1) 1-Hydroxy-2-methylbenzene; C7H8O; [95-48-7]\n(2) Fluoranthene; C16H10; [206-44-0]",
+  "original_measurements": "Pinal, R.; Rao, P.S.C.; Lee, L.S.; Cline, P.V.; Yalkowsky, S.H., Environ. Sci. Technol. 1990, 24, 639-646.",
+  "variables": "Temperature = 296 K",
+  "prepared_by": "W.E. Acree, Jr.",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Constant temperature bath, centrifuge, thermometer, and an HPLC equipped with uv absorption and fluorescence detection.\nExcess solute and solvent were placed in glass vials and allowed to equilibrate with rotation for 12-24 hours in a constant temperature bath.  Prior to analysis samples were centrifuged at a minimum of 300 RCF for 15 minutes.  The clear supernatant solution was analyzed by  reversed phase liquid chromatography with either fluorescence or uv detection.",
+  "source_purity": "(1) Purity not given, commercial samples of unspecified source, was used as received.\n(2) Purity and chemical source not given, purification procedure not specified.",
+  "estimated_error": "Temperature: T/K: ± 1.  c_1: ± 5% (relative error; compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1-Hydroxy-2-methylbenzene",
+    "formula": "C7H8O",
+    "cas": "95-48-7"
+   },
+   {
+    "index": 2,
+    "name": "Fluoranthene",
+    "formula": "C16H10",
+    "cas": "206-44-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Concentration c_1 [mol dm**-3]"
+    ],
+    "rows": [
+     [
+      "23.0",
+      "0.0534"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Fluoranthene with 1-Hydroxy-2-methylbenzene"
+ },
+ {
+  "sheet_id": "59_19",
+  "system_id": "59010",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=59_19",
+  "system": "Fluoranthene with 1-Octanol",
+  "components": "(1) 1-Octanol; C8H18O; [111-87-5]\n(2) Fluoranthene; C16H10; [206-44-0]",
+  "original_measurements": "Miller, M.M.; Wasik, S.P.; Huang, G.L.; Shiu, W.Y.; Mackay, D., Environ. Sci. Technol. 1985, 19, 522-529.",
+  "variables": "Temperature = 298 K",
+  "prepared_by": "W.E. Acree, Jr.",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Constant temperature bath, rotator, thermometer, and a gas-liquid chromatograph with flame ionization detection.\nExcess solute and solvent placed in glass vials and allowed to equilibrate for 24 hours with gentle agitation, and left to settle for 48 hours before analysis.  Aliquots of saturated solutions were removed and concentrations were determined using a gas-liquid chromatograph equipped  with flame ionization detector and on 10% SE30 ultraphase column.",
+  "source_purity": "(1) Highest available commercial purity, specific chemical supplier not given, was used as received.\n(2) 99+ %, Aldrich Chemical Company, Milwaukee, Wisconsin, USA, was used as received.",
+  "estimated_error": "Temperature: T/K: ± 0.01 (compiler).    c_1: ± 3% (relative error; compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1-Octanol",
+    "formula": "C8H18O",
+    "cas": "111-87-5"
+   },
+   {
+    "index": 2,
+    "name": "Fluoranthene",
+    "formula": "C16H10",
+    "cas": "206-44-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Concentration c_1 [mol dm**-3]"
+    ],
+    "rows": [
+     [
+      "25.0",
+      "0.1726"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Fluoranthene with 1-Octanol"
+ },
+ {
+  "sheet_id": "59_20",
+  "system_id": "59010",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=59_20",
+  "system": "Fluoranthene with 1-Octanol",
+  "components": "(1) 1-Octanol; C8H18O; [111-87-5]\n(2) Fluoranthene; C16H10; [206-44-0]",
+  "original_measurements": "Pinal, R.; Rao, P.S.C.; Lee, L.S.; Cline, P.V.; Yalkowsky, S.H., Environ. Sci. Technol. 1990, 24, 639-646.",
+  "variables": "Temperature = 296 K",
+  "prepared_by": "W.E. Acree, Jr.",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Constant temperature bath, centrifuge, thermometer, and an HPLC equipped with uv absorption and fluorescence detection.\nExcess solute and solvent were placed in glass vials and allowed to equilibrate with rotation for 12-24 hours in a constant temperature bath.  Prior to analysis samples were centrifuged at a minimum of 300 RCF for 15 minutes.  The clear supernatant solution was analyzed by  reversed phase liquid chromatography with either fluorescence or uv detection.",
+  "source_purity": "(1) Purity not given, commercial samples of unspecified source, was used as received.\n(2) Purity and chemical source not given, purification procedure not specified.",
+  "estimated_error": "Temperature: T/K: ± 1.  c_1: ± 5% (relative error; compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "1-Octanol",
+    "formula": "C8H18O",
+    "cas": "111-87-5"
+   },
+   {
+    "index": 2,
+    "name": "Fluoranthene",
+    "formula": "C16H10",
+    "cas": "206-44-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Concentration c_1 [mol dm**-3]"
+    ],
+    "rows": [
+     [
+      "23.0",
+      "0.198"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Fluoranthene with 1-Octanol"
+ },
+ {
+  "sheet_id": "59_34",
+  "system_id": "59012",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=59_34",
+  "system": "Fluoranthene with 2,4,6-Trinitroaniline",
+  "components": "(1) 2,4,6-Trinitroaniline; C6H4N4O6; [489-98-5]\n(2) Fluoranthene; C16H10; [206-44-0]",
+  "original_measurements": "Shinomiya, C., J. Chem. Soc. Japan 1940, 15, 259-270.",
+  "variables": "Temperature = Temperature",
+  "prepared_by": "W.E. Acree, Jr.",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^  Authors reports formations of a 1:1 fluoranthene - 2,4,6-trinitroaniline brownish-yellow compound having a melting point temperature of 464.7 K.  Two eutectic points occur at x_1 = 0.267 and T/K = 439.2, and at x_1 = 0.928 and T/K = 375.2.",
+  "method": "No experimental details given in paper.",
+  "source_purity": "(1) Purity and chemical source were not specified in paper.\n(2) Purity and chemical source were not specified in paper.",
+  "estimated_error": "Temperature: T/K: ± precision 0.2.  (compiler).  x_1: ± 0.002 (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "2,4,6-Trinitroaniline",
+    "formula": "C6H4N4O6",
+    "cas": "489-98-5"
+   },
+   {
+    "index": 2,
+    "name": "Fluoranthene",
+    "formula": "C16H10",
+    "cas": "206-44-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Mole Fraction x_1",
+     "Mole Fraction x_2",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "461.7",
+      "0.000",
+      "1.000",
+      "Solid Phase (2)"
+     ],
+     [
+      "444.7",
+      "0.223",
+      "0.777",
+      "Solid Phase (2)"
+     ],
+     [
+      "453.7",
+      "0.352",
+      "0.648",
+      "1:1 Compound"
+     ],
+     [
+      "464.2",
+      "0.485",
+      "0.515",
+      "1:1 Compound"
+     ],
+     [
+      "464.2",
+      "0.518",
+      "0.482",
+      "1:1 Compound"
+     ],
+     [
+      "460.7",
+      "0.616",
+      "0.384",
+      "1:1 Compound"
+     ],
+     [
+      "459.2",
+      "0.648",
+      "0.352",
+      "1:1 Compound"
+     ],
+     [
+      "441.2",
+      "0.738",
+      "0.262",
+      "1:1 Compound"
+     ],
+     [
+      "414.2",
+      "0.842",
+      "0.158",
+      "1:1 Compound"
+     ],
+     [
+      "390.7",
+      "0.901",
+      "0.099",
+      "1:1 Compound"
+     ],
+     [
+      "378.2",
+      "0.947",
+      "0.053",
+      "Solid Phase (1)"
+     ],
+     [
+      "382.7",
+      "1.000",
+      "0.000",
+      "Solid Phase (1)"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Fluoranthene with 2,4,6-Trinitroaniline"
+ },
+ {
+  "sheet_id": "59_33",
+  "system_id": "59340",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=59_33",
+  "system": "Fluoranthene with 2,4,6-Trinitromethoxybenzene",
+  "components": "(1) 2,4,6-Trinitromethoxybenzene; C7H5N3O7; [606-35-9]\n(2) Fluoranthene; C16H10; [206-44-0]",
+  "original_measurements": "Shinomiya, C., J. Chem. Soc. Japan 1940, 15, 259-270.",
+  "variables": "Temperature = Temperature",
+  "prepared_by": "W.E. Acree, Jr.",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^  Authors reports formations of a 1:1 fluoranthene - 2,4,6-trinitromethoxybenzene yellow molecular compound having a melting point temperature of 348.2 K.  Two eutectic points occur at x_1 = 0.185 and T/K = 328.2, and at x_1 = 0.630 and T/K = 341.7.",
+  "method": "No experimental details given in paper.",
+  "source_purity": "(1) Purity and chemical source were not specified in paper.\n(2) Purity and chemical source were not specified in paper.",
+  "estimated_error": "Temperature: T/K: ± precision 0.2.  (compiler).  x_1: ± 0.002 (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "2,4,6-Trinitromethoxybenzene",
+    "formula": "C7H5N3O7",
+    "cas": "606-35-9"
+   },
+   {
+    "index": 2,
+    "name": "Fluoranthene",
+    "formula": "C16H10",
+    "cas": "206-44-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Mole Fraction x_1",
+     "Mole Fraction x_2",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "341.2",
+      "0.000",
+      "1.000",
+      "Solid Phase (2)"
+     ],
+     [
+      "338.2",
+      "0.072",
+      "0.928",
+      "Solid Phase (2)"
+     ],
+     [
+      "334.7",
+      "0.135",
+      "0.865",
+      "Solid Phase (2)"
+     ],
+     [
+      "332.2",
+      "0.208",
+      "0.792",
+      "1:1 Compound"
+     ],
+     [
+      "337.7",
+      "0.245",
+      "0.755",
+      "1:1 Compound"
+     ],
+     [
+      "344.7",
+      "0.353",
+      "0.647",
+      "1:1 Compound"
+     ],
+     [
+      "346.0",
+      "0.372",
+      "0.627",
+      "1:1 Compound"
+     ],
+     [
+      "347.2",
+      "0.463",
+      "0.537",
+      "1:1 Compound"
+     ],
+     [
+      "348.2",
+      "0.488",
+      "0.512",
+      "1:1 Compound"
+     ],
+     [
+      "347.2",
+      "0.546",
+      "0.454",
+      "1:1 Compound"
+     ],
+     [
+      "348.2",
+      "0.662",
+      "0.338",
+      "Solid Phase (1)"
+     ],
+     [
+      "359.7",
+      "0.720",
+      "0.280",
+      "Solid Phase (1)"
+     ],
+     [
+      "374.7",
+      "0.873",
+      "0.127",
+      "Solid Phase (1)"
+     ],
+     [
+      "382.7",
+      "1.000",
+      "0.000",
+      "Solid Phase (1)"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Fluoranthene with 2,4,6-Trinitromethoxybenzene"
+ },
+ {
+  "sheet_id": "59_32",
+  "system_id": "59011",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=59_32",
+  "system": "Fluoranthene with 2,4,6-Trinitromethylbenzene",
+  "components": "(1) 2,4,6-Trinitro-1-methylbenzene; C7H5N3O6; [118-96-7]\n(2) Fluoranthene; C16H10; [206-44-0]",
+  "original_measurements": "Shinomiya, C., J. Chem. Soc. Japan 1940, 15, 259-270.",
+  "variables": "Temperature = Temperature",
+  "prepared_by": "W.E. Acree, Jr.",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^  Authors reports formations of a 1:1 fluoranthene - 2,4,6-trinitromethylbenzene yellow compound having a melting point temperature of 406.2 K.  Two eutectic points occur at x_1 = 0.150 and T/K = 345.7, and at x_1 = 0.788 and T/K = 362.2.",
+  "method": "No experimental details given in paper.",
+  "source_purity": "(1) Purity and chemical source were not specified in paper.\n(2) Purity and chemical source were not specified in paper.",
+  "estimated_error": "Temperature: T/K: ± precision 0.2  (compiler).  x_1: ± 0.002 (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "2,4,6-Trinitro-1-methylbenzene",
+    "formula": "C7H5N3O6",
+    "cas": "118-96-7"
+   },
+   {
+    "index": 2,
+    "name": "Fluoranthene",
+    "formula": "C16H10",
+    "cas": "206-44-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Mole Fraction x_1",
+     "Mole Fraction x_2",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "354.7",
+      "0.000",
+      "1.0000",
+      "Solid Phase (2)"
+     ],
+     [
+      "368.2",
+      "0.208",
+      "0.792",
+      "1:1 Compound"
+     ],
+     [
+      "387.2",
+      "0.292",
+      "0.708",
+      "1:1 Compound"
+     ],
+     [
+      "399.2",
+      "0.361",
+      "0.639",
+      "1:1 Compound"
+     ],
+     [
+      "405.2",
+      "0.433",
+      "0.567",
+      "1:1 Compound"
+     ],
+     [
+      "404.7",
+      "0.557",
+      "0.443",
+      "1:1 Compound"
+     ],
+     [
+      "405.2",
+      "0.564",
+      "0.436",
+      "1:1 Compound"
+     ],
+     [
+      "386.2",
+      "0.715",
+      "0.285",
+      "1:1 Compound"
+     ],
+     [
+      "380.2",
+      "0.737",
+      "0.263",
+      "1:1 Compound"
+     ],
+     [
+      "363.2",
+      "0.788",
+      "0.212",
+      "Eutectic"
+     ],
+     [
+      "373.4",
+      "0.862",
+      "0.138",
+      "Solid Phase (1)"
+     ],
+     [
+      "382.7",
+      "1.000",
+      "0.000",
+      "Solid Phase (1)"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Fluoranthene with 2,4,6-Trinitromethylbenzene"
+ },
+ {
+  "sheet_id": "59_30",
+  "system_id": "59013",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=59_30",
+  "system": "Fluoranthene with 2,4-Dinitromethylbenzene",
+  "components": "(1) 2,4-Dinitro-1-methylbenzene; C7H6N2O4; [121-14-2]\n(2) Fluoranthene; C16H10; [206-44-0]",
+  "original_measurements": "Shinomiya, C., J. Chem. Soc. Japan 1940, 15, 259-270.",
+  "variables": "Temperature = Temperature",
+  "prepared_by": "W.E. Acree, Jr.",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^  Authors reports formations of a 1:1 fluoranthene - 2,4-dinitromethylbenzene yellow molecular compound having a melting point temperature of 348.7 K.  Two eutectic points occur at x_1 = 0.224 and T/K = 330.2, and at x_1 = 0.640 and T/K = 341.2.",
+  "method": "No experimental details given in paper.",
+  "source_purity": "(1) Purity and chemical source were not specified in paper.\n(2) Purity and chemical source were not specified in paper.",
+  "estimated_error": "Temperature: T/K: ± precision 0.2.  (compiler).  x_1: ± 0.002 (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "2,4-Dinitro-1-methylbenzene",
+    "formula": "C7H6N2O4",
+    "cas": "121-14-2"
+   },
+   {
+    "index": 2,
+    "name": "Fluoranthene",
+    "formula": "C16H10",
+    "cas": "206-44-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Mole Fraction x_1",
+     "Mole Fraction x_2",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "344.2",
+      "0.000",
+      "1.000",
+      "Solid Phase (2)"
+     ],
+     [
+      "341.2",
+      "0.059",
+      "0.941",
+      "Solid Phase (2)"
+     ],
+     [
+      "336.2",
+      "0.147",
+      "0.853",
+      "Solid Phase (2)"
+     ],
+     [
+      "332.2",
+      "0.230",
+      "0.770",
+      "1:1 Compound"
+     ],
+     [
+      "334.2",
+      "0.253",
+      "0.747",
+      "1:1 Compound"
+     ],
+     [
+      "338.7",
+      "0.305",
+      "0.695",
+      "1:1 Compound"
+     ],
+     [
+      "342.7",
+      "0.364",
+      "0.636",
+      "1:1 Compound"
+     ],
+     [
+      "346.7",
+      "0.448",
+      "0.552",
+      "1:1 Compound"
+     ],
+     [
+      "347.7",
+      "0.457",
+      "0.543",
+      "1:1 Compound"
+     ],
+     [
+      "348.7",
+      "0.548",
+      "0.452",
+      "1:1 Compound"
+     ],
+     [
+      "347.2",
+      "0.598",
+      "0.402",
+      "1:1 Compound"
+     ],
+     [
+      "347.7",
+      "0.779",
+      "0.221",
+      "Solid Phase (1)"
+     ],
+     [
+      "363.2",
+      "0.802",
+      "0.198",
+      "Solid Phase (1)"
+     ],
+     [
+      "375.7",
+      "0.910",
+      "0.090",
+      "Solid Phase (1)"
+     ],
+     [
+      "382.7",
+      "1.000",
+      "0.000",
+      "Solid Phase (1)"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Fluoranthene with 2,4-Dinitromethylbenzene"
+ },
+ {
+  "sheet_id": "59_31",
+  "system_id": "59014",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=59_31",
+  "system": "Fluoranthene with 2,4-Dinitrophenol",
+  "components": "(1) 2,4-Dinitrophenol; C6H4N2O5; [51-28-5]\n(2) Fluoranthene; C16H10; [206-44-0]",
+  "original_measurements": "Shinomiya, C., J. Chem. Soc. Japan 1940, 15, 259-270.",
+  "variables": "Temperature = Temperature",
+  "prepared_by": "W.E. Acree, Jr.",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^  Authors reports formations of a 1:1 fluoranthene - 2,4-dinitrophenol yellow molecular compound having a melting point temperature of 365.2 K.  Two eutectic points occur at x_1 = 0.388 and T/K = 358.2, and at x_1 = 0.688 and T/K = 348.2.",
+  "method": "No experimental details given in paper.",
+  "source_purity": "(1) Purity and chemical source were not specified in paper.\n(2) Purity and chemical source were not specified in paper.",
+  "estimated_error": "Temperature: T/K: ± precision 0.2.  (compiler).  x_1: ± 0.002 (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "2,4-Dinitrophenol",
+    "formula": "C6H4N2O5",
+    "cas": "51-28-5"
+   },
+   {
+    "index": 2,
+    "name": "Fluoranthene",
+    "formula": "C16H10",
+    "cas": "206-44-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Mole Fraction x_1",
+     "Mole Fraction x_2",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "386.7",
+      "0.000",
+      "1.000",
+      "Solid Phase (2)"
+     ],
+     [
+      "379.2",
+      "0.126",
+      "0.874",
+      "Solid Phase (2)"
+     ],
+     [
+      "375.0",
+      "0.210",
+      "0.790",
+      "Solid Phase (2)"
+     ],
+     [
+      "367.2",
+      "0.305",
+      "0.695",
+      "Solid Phase (2)"
+     ],
+     [
+      "360.2",
+      "0.378",
+      "0.622",
+      "1:1 Compound"
+     ],
+     [
+      "360.7",
+      "0.400",
+      "0.600",
+      "1:1 Compound"
+     ],
+     [
+      "364.2",
+      "0.495",
+      "0.505",
+      "1:1 Compound"
+     ],
+     [
+      "365.2",
+      "0.509",
+      "0.491",
+      "1:1 Compound"
+     ],
+     [
+      "361.2",
+      "0.605",
+      "0.395",
+      "1:1 Compound"
+     ],
+     [
+      "351.4",
+      "0.697",
+      "0.303",
+      "Solid Phase (1)"
+     ],
+     [
+      "356.2",
+      "0.724",
+      "0.276",
+      "Solid Phase (1)"
+     ],
+     [
+      "356.2",
+      "0.725",
+      "0.275",
+      "Solid Phase (1)"
+     ],
+     [
+      "372.2",
+      "0.845",
+      "0.155",
+      "Solid Phase (1)"
+     ],
+     [
+      "378.2",
+      "0.947",
+      "0.053",
+      "Solid Phase (1)"
+     ],
+     [
+      "382.7",
+      "1.000",
+      "0.000",
+      "Solid Phase (1)"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Fluoranthene with 2,4-Dinitrophenol"
+ },
+ {
+  "sheet_id": "59_8",
+  "system_id": "59015",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=59_8",
+  "system": "Fluoranthene with 2,7-Dimethylnaphthalene",
+  "components": "(1) 2,7-Dimethylnaphthalene; C12H12; [582-16-1]\n(2) Fluoranthene; C16H10; [206-44-0]",
+  "original_measurements": "Kravchenko, V.M.; Pastukhova, I.S., J. Gen. Chem. U.S.S.R. 1959, 29, 29-34. (English Translation)",
+  "variables": "Temperature = Temperature",
+  "prepared_by": "W.E. Acree, Jr.",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^  Authors report eutectic point occurs at x_1 = 0.482 and T/K = 339.2.",
+  "method": "Phase diagram was determined using a thermal analysis method (described in detail in V.M. Kravchenko, J. Phys. Chem. U.S.S.R. 1939, 13, 133), supplemented by visual observations.",
+  "source_purity": "(1) Purity and chemical source were not specified in paper, was recrystallized before use.\n(2) Purity and chemical source were not specified in paper, was recrystallized before use.",
+  "estimated_error": "Temperature: T/K: precision ± 0.2. x_1: ± 0.002 (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "2,7-Dimethylnaphthalene",
+    "formula": "C12H12",
+    "cas": "582-16-1"
+   },
+   {
+    "index": 2,
+    "name": "Fluoranthene",
+    "formula": "C16H10",
+    "cas": "206-44-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Mole Fraction x_1",
+     "Mole Fraction x_2",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "370.2",
+      "0.000",
+      "1.000",
+      "Solid Phase (2)"
+     ],
+     [
+      "365.3",
+      "0.084",
+      "0.916",
+      "Solid Phase (2)"
+     ],
+     [
+      "358.1",
+      "0.208",
+      "0.792",
+      "Solid Phase (2)"
+     ],
+     [
+      "352.6",
+      "0.296",
+      "0.704",
+      "Solid Phase (2)"
+     ],
+     [
+      "344.2",
+      "0.428",
+      "0.572",
+      "Solid Phase (2)"
+     ],
+     [
+      "339.2",
+      "0.482",
+      "0.518",
+      "Eutectic"
+     ],
+     [
+      "340.7",
+      "0.509",
+      "0.491",
+      "Solid Phase (1)"
+     ],
+     [
+      "349.3",
+      "0.593",
+      "0.407",
+      "Solid Phase (1)"
+     ],
+     [
+      "356.4",
+      "0.672",
+      "0.328",
+      "Solid Phase (1)"
+     ],
+     [
+      "363.8",
+      "0.758",
+      "0.242",
+      "Solid Phase (1)"
+     ],
+     [
+      "372.6",
+      "0.864",
+      "0.136",
+      "Solid Phase (1)"
+     ],
+     [
+      "383.2",
+      "1.000",
+      "0.000",
+      "Solid Phase (1)"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Fluoranthene with 2,7-Dimethylnaphthalene"
+ },
+ {
+  "sheet_id": "59_35",
+  "system_id": "59016",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=59_35",
+  "system": "Fluoranthene with 2-Chloro-1,3,5-trinitrobenzene",
+  "components": "(1) 2-Chloro-1,3,5-trinitrobenzene; C6H2ClN3O6; [88-88-0]\n(2) Fluoranthene; C16H10; [206-44-0]",
+  "original_measurements": "Shinomiya, C., J. Chem. Soc. Japan 1940, 15, 259-270.",
+  "variables": "Temperature = Temperature",
+  "prepared_by": "W.E. Acree, Jr.",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^  Authors reports formations of a 1:1 fluoranthene - 2-chloro-1,3,5-trinitrobenzene orangish-yellow compound with melting point of 393.2 K.  Two eutectic points occur at x_1 = 0.156 and T/K = 340.2, and at x_1 = 0.738 and T/K = 353.2.",
+  "method": "No experimental details given in paper.",
+  "source_purity": "(1) Purity and chemical source were not specified in paper.\n(2) Purity and chemical source were not specified in paper.",
+  "estimated_error": "Temperature: T/K: ± precision 0.2.  (compiler).  x_1: ± 0.002 (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "2-Chloro-1,3,5-trinitrobenzene",
+    "formula": "C6H2ClN3O6",
+    "cas": "88-88-0"
+   },
+   {
+    "index": 2,
+    "name": "Fluoranthene",
+    "formula": "C16H10",
+    "cas": "206-44-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Mole Fraction x_1",
+     "Mole Fraction x_2",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "356.2",
+      "0.000",
+      "1.000",
+      "Solid Phase (2)"
+     ],
+     [
+      "346.7",
+      "0.173",
+      "0.827",
+      "1:1 Compound"
+     ],
+     [
+      "370.2",
+      "0.261",
+      "0.739",
+      "1:1 Compound"
+     ],
+     [
+      "384.2",
+      "0.364",
+      "0.636",
+      "1:1 Compound"
+     ],
+     [
+      "390.2",
+      "0.426",
+      "0.574",
+      "1:1 Compound"
+     ],
+     [
+      "392.2",
+      "0.536",
+      "0.464",
+      "1:1 Compound"
+     ],
+     [
+      "392.2",
+      "0.540",
+      "0.460",
+      "1:1 Compound"
+     ],
+     [
+      "385.2",
+      "0.625",
+      "0.375",
+      "1:1 Compound"
+     ],
+     [
+      "379.2",
+      "0.670",
+      "0.330",
+      "1:1 Compound"
+     ],
+     [
+      "371.2",
+      "0.846",
+      "0.154",
+      "Solid Phase (1)"
+     ],
+     [
+      "382.7",
+      "1.000",
+      "0.000",
+      "Solid Phase (1)"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Fluoranthene with 2-Chloro-1,3,5-trinitrobenzene"
+ },
+ {
+  "sheet_id": "59_7",
+  "system_id": "59017",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=59_7",
+  "system": "Fluoranthene with 2-Methylnaphthalene",
+  "components": "(1) 2-Methylnaphthalene; C11H10; [91-57-6]\n(2) Fluoranthene; C16H10; [206-44-0]",
+  "original_measurements": "Kravchenko, V.M.; Pastukhova, I.S., J. Gen. Chem. U.S.S.R. 1959, 29, 29-34. (English Translation)",
+  "variables": "Temperature = Temperature",
+  "prepared_by": "W.E. Acree, Jr.",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^  Authors report eutectic point occurs at x_1 = 0.201 and T/K = 292.5.",
+  "method": "Phase diagram was determined using a thermal analysis method (described in detail in V.M. Kravchenko, J. Phys. Chem. U.S.S.R. 1939, 13, 133), supplemented by visual observations.",
+  "source_purity": "(1) Purity and chemical source were not specified in paper, was recrystallized before use.\n(2) Purity and chemical source were not specified in paper, was recrystallized before use.",
+  "estimated_error": "Temperature: T/K: precision ± 0.2. x_1: ± 0.002 (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "2-Methylnaphthalene",
+    "formula": "C11H10",
+    "cas": "91-57-6"
+   },
+   {
+    "index": 2,
+    "name": "Fluoranthene",
+    "formula": "C16H10",
+    "cas": "206-44-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Mole Fraction x_1",
+     "Mole Fraction x_2",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "307.3",
+      "0.000",
+      "1.000",
+      "Solid Phase (2)"
+     ],
+     [
+      "298.4",
+      "0.101",
+      "0.899",
+      "Solid Phase (2)"
+     ],
+     [
+      "296.5",
+      "0.129",
+      "0.871",
+      "Solid Phase (2)"
+     ],
+     [
+      "293.8",
+      "0.165",
+      "0.835",
+      "Solid Phase (2)"
+     ],
+     [
+      "292.5",
+      "0.201",
+      "0.799",
+      "Eutectic"
+     ],
+     [
+      "297.9",
+      "0.236",
+      "0.764",
+      "Solid Phase (1)"
+     ],
+     [
+      "310.2",
+      "0.289",
+      "0.711",
+      "Solid Phase (1)"
+     ],
+     [
+      "317.4",
+      "0.338",
+      "0.662",
+      "Solid Phase (1)"
+     ],
+     [
+      "330.3",
+      "0.414",
+      "0.586",
+      "Solid Phase (1)"
+     ],
+     [
+      "341.3",
+      "0.492",
+      "0.508",
+      "Solid Phase (1)"
+     ],
+     [
+      "349.7",
+      "0.580",
+      "0.420",
+      "Solid Phase (1)"
+     ],
+     [
+      "356.6",
+      "0.656",
+      "0.344",
+      "Solid Phase (1)"
+     ],
+     [
+      "365.1",
+      "0.758",
+      "0.242",
+      "Solid Phase (1)"
+     ],
+     [
+      "375.6",
+      "0.898",
+      "0.102",
+      "Solid Phase (1)"
+     ],
+     [
+      "383.2",
+      "1.000",
+      "0.000",
+      "Solid Phase (1)"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Fluoranthene with 2-Methylnaphthalene"
+ },
+ {
+  "sheet_id": "59_22",
+  "system_id": "59018",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=59_22",
+  "system": "Fluoranthene with 2-Propanone",
+  "components": "(1) 2-Propanone; C3H6O; [67-64-1]\n(2) Fluoranthene; C16H10; [206-44-0]",
+  "original_measurements": "Krezewki, R.; Smutek, M., Collection Czech. Chem. Commun. 1967, 32, 1258-1259.",
+  "variables": "Temperature = 293 K",
+  "prepared_by": "W.E. Acree, Jr.",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Constant temperature bath, thermometer, and a precision balance.\nExcess solute and solvent placed in closed glass container and allowed to equilibrate for several hours at constant temperature.  Aliquots of saturated solutions were transferred into tared containers and weighed.  Solubilities calculated from weight of solid residue that remained after solvent had evaporated.",
+  "source_purity": "(1) Purity not specified, coal tar extract, was recrystallized several times from ethanol to give a melting point temperature of 110.0-110.3 ºC.\n(2) Commercial sample, purity and source not given, was dehydrated and distilled shortly before use.",
+  "estimated_error": "Temperature: T/K: precision ± 0.05. x_1: ± 3 % (relative error; compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "2-Propanone",
+    "formula": "C3H6O",
+    "cas": "67-64-1"
+   },
+   {
+    "index": 2,
+    "name": "Fluoranthene",
+    "formula": "C16H10",
+    "cas": "206-44-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Mole Fraction x_1",
+     "Mole Fraction x_2"
+    ],
+    "rows": [
+     [
+      "20.0",
+      "0.0711",
+      "0.9289"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Fluoranthene with 2-Propanone"
+ },
+ {
+  "sheet_id": "59_36",
+  "system_id": "59019",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=59_36",
+  "system": "Fluoranthene with 3-Methyl-2,4,6-trinitrophenol",
+  "components": "(1) 3-Methyl-2,4,6-trinitophenol; C7H5N3O7; [602-99-3]\n(2) Fluoranthene; C16H10; [206-44-0]",
+  "original_measurements": "Shinomiya, C., J. Chem. Soc. Japan 1940, 15, 259-270.",
+  "variables": "Temperature = Temperature",
+  "prepared_by": "W.E. Acree, Jr.",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^  Authors reports formations of a 1:1 fluoranthene - 3-methyl-2,4,6-trinitrophenol yellow compound having a melting point of 417.2 K.  Two eutectic points occur at x_1 = 0.082 and T/K = 374.2, and at x_1 = 0.890 and T/K = 374.2.",
+  "method": "No experimental details given in paper.",
+  "source_purity": "(1) Purity and chemical source were not specified in paper.\n(2) Purity and chemical source were not specified in paper.",
+  "estimated_error": "Temperature: T/K: ± precision 0.2.  (compiler).  x_1: ± 0.002 (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "3-Methyl-2,4,6-trinitophenol",
+    "formula": "C7H5N3O7",
+    "cas": "602-99-3"
+   },
+   {
+    "index": 2,
+    "name": "Fluoranthene",
+    "formula": "C16H10",
+    "cas": "206-44-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Mole Fraction x_1",
+     "Mole Fraction x_2",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "381.7",
+      "0.000",
+      "1.000",
+      "Solid Phase (2)"
+     ],
+     [
+      "383.2",
+      "0.110",
+      "0.890",
+      "1:1 Compound"
+     ],
+     [
+      "412.2",
+      "0.323",
+      "0.677",
+      "1:1 Compound"
+     ],
+     [
+      "416.2",
+      "0.431",
+      "0.569",
+      "1:1 Compound"
+     ],
+     [
+      "417.2",
+      "0.517",
+      "0.483",
+      "1:1 Compound"
+     ],
+     [
+      "416.2",
+      "0.568",
+      "0.432",
+      "1:1 Compound"
+     ],
+     [
+      "412.2",
+      "0.636",
+      "0.364",
+      "1:1 Compound"
+     ],
+     [
+      "399.7",
+      "0.786",
+      "0.214",
+      "1:1 Compound"
+     ],
+     [
+      "385.2",
+      "0.862",
+      "0.138",
+      "1:1 Compound"
+     ],
+     [
+      "378.2",
+      "0.883",
+      "0.117",
+      "1:1 Compound"
+     ],
+     [
+      "381.0",
+      "0.962",
+      "0.038",
+      "Solid Phase (1)"
+     ],
+     [
+      "382.7",
+      "1.000",
+      "0.000",
+      "Solid Phase (1)"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Fluoranthene with 3-Methyl-2,4,6-trinitrophenol"
+ },
+ {
+  "sheet_id": "59_11",
+  "system_id": "59020",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=59_11",
+  "system": "Fluoranthene with Acenaphthene",
+  "components": "(1) Acenaphthene; C12H10; [83-32-9]\n(2) Fluoranthene; C16H10; [206-44-0]",
+  "original_measurements": "Kravchenko, V.M.; Pastukhova, I.S., J. Gen. Chem. U.S.S.R. 1959, 29, 29-34. (English Translation)",
+  "variables": "Temperature = Temperature",
+  "prepared_by": "W.E. Acree, Jr.",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^  Authors report eutectic point occurs at x_1 = 0.438 and T/K = 335.0.",
+  "method": "Phase diagram was determined using a thermal analysis method (described in detail in V.M. Kravchenko, J. Phys. Chem. U.S.S.R. 1939, 13, 133), supplemented by visual observations.",
+  "source_purity": "(1) Purity and chemical source were not specified in paper, was recrystallized before use.\n(2) Purity and chemical source were not specified in paper, was recrystallized before use.",
+  "estimated_error": "Temperature: T/K: precision ± 0.2. x_1: ± 0.002 (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Acenaphthene",
+    "formula": "C12H10",
+    "cas": "83-32-9"
+   },
+   {
+    "index": 2,
+    "name": "Fluoranthene",
+    "formula": "C16H10",
+    "cas": "206-44-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Mole Fraction x_1",
+     "Mole Fraction x_2",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "368.3",
+      "0.000",
+      "1.000",
+      "Solid Phase (2)"
+     ],
+     [
+      "362.3",
+      "0.092",
+      "0.908",
+      "Solid Phase (2)"
+     ],
+     [
+      "358.1",
+      "0.163",
+      "0.837",
+      "Solid Phase (2)"
+     ],
+     [
+      "348.2",
+      "0.293",
+      "0.707",
+      "Solid Phase (2)"
+     ],
+     [
+      "339.4",
+      "0.388",
+      "0.612",
+      "Solid Phase (2)"
+     ],
+     [
+      "335.3",
+      "0.429",
+      "0.571",
+      "Solid Phase (2)"
+     ],
+     [
+      "335.0",
+      "0.438",
+      "0.562",
+      "Eutectic"
+     ],
+     [
+      "340.8",
+      "0.492",
+      "0.508",
+      "Solid Phase (1)"
+     ],
+     [
+      "350.7",
+      "0.606",
+      "0.394",
+      "Solid Phase (1)"
+     ],
+     [
+      "363.4",
+      "0.752",
+      "0.248",
+      "Solid Phase (1)"
+     ],
+     [
+      "368.8",
+      "0.815",
+      "0.185",
+      "Solid Phase (1)"
+     ],
+     [
+      "383.2",
+      "1.000",
+      "0.000",
+      "Solid Phase (1)"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Fluoranthene with Acenaphthene"
+ },
+ {
+  "sheet_id": "59_10",
+  "system_id": "59021",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=59_10",
+  "system": "Fluoranthene with Anthracene",
+  "components": "(1) Anthracene; C14H10; [120-12-7]\n(2) Fluoranthene; C16H10; [206-44-0]",
+  "original_measurements": "Kravchenko, V.M.; Pastukhova, I.S., J. Gen. Chem. U.S.S.R. 1959, 29, 29-34. (English Translation)",
+  "variables": "Temperature = Temperature",
+  "prepared_by": "W.E. Acree, Jr.",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^  Authors report eutectic point occurs at x_1 = 0.870 and T/K = 374.2.",
+  "method": "Phase diagram was determined using a thermal analysis method (described in detail in V.M. Kravchenko, J. Phys. Chem. U.S.S.R. 1939, 13, 133), supplemented by visual observations.",
+  "source_purity": "(1) Purity and chemical source were not specified in paper, was recrystallized before use.\n(2) Purity and chemical source were not specified in paper, was recrystallized before use.",
+  "estimated_error": "Temperature: T/K: precision ± 0.2. x_1: ± 0.002 (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Anthracene",
+    "formula": "C14H10",
+    "cas": "120-12-7"
+   },
+   {
+    "index": 2,
+    "name": "Fluoranthene",
+    "formula": "C16H10",
+    "cas": "206-44-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Mole Fraction x_1",
+     "Mole Fraction x_2",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "489.7",
+      "0.000",
+      "1.000",
+      "Solid Phase (2)"
+     ],
+     [
+      "475.1",
+      "0.178",
+      "0.822",
+      "Solid Phase (2)"
+     ],
+     [
+      "467.4",
+      "0.269",
+      "0.731",
+      "Solid Phase (2)"
+     ],
+     [
+      "459.7",
+      "0.355",
+      "0.645",
+      "Solid Phase (2)"
+     ],
+     [
+      "449.4",
+      "0.456",
+      "0.544",
+      "Solid Phase (2)"
+     ],
+     [
+      "435.2",
+      "0.566",
+      "0.434",
+      "Solid Phase (2)"
+     ],
+     [
+      "419.9",
+      "0.671",
+      "0.329",
+      "Solid Phase (2)"
+     ],
+     [
+      "395.7",
+      "0.804",
+      "0.196",
+      "Solid Phase (2)"
+     ],
+     [
+      "387.3",
+      "0.830",
+      "0.170",
+      "Solid Phase (2)"
+     ],
+     [
+      "380.2",
+      "0.859",
+      "0.141",
+      "Solid Phase (2)"
+     ],
+     [
+      "374.2",
+      "0.860",
+      "0.140",
+      "Solid Phase (2)"
+     ],
+     [
+      "375.0",
+      "0.884",
+      "0.116",
+      "Solid Phase (1)"
+     ],
+     [
+      "376.5",
+      "0.906",
+      "0.094",
+      "Solid Phase (1)"
+     ],
+     [
+      "377.8",
+      "0.930",
+      "0.070",
+      "Solid Phase (1)"
+     ],
+     [
+      "383.2",
+      "1.000",
+      "0.000",
+      "Solid Phase (1)"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Fluoranthene with Anthracene"
+ },
+ {
+  "sheet_id": "59_2",
+  "system_id": "59022",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=59_2",
+  "system": "Fluoranthene with Benzene",
+  "components": "(1) Benzene; C6H6; [71-43-2]\n(2) Fluoranthene; C16H10; [206-44-0]",
+  "original_measurements": "McLaughlin, E.; Zainal, H.A., J. Chem. Soc. 1959, 863-867.",
+  "variables": "Temperature = Temperature",
+  "prepared_by": "W.E. Acree, Jr.",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Constant temperature bath and a precision thermometer.\nMixtures of known concentrations sealed in glass ampoules and placed in constant temperature to equilibrate.  Samples were rotated while bath temperature slowly increased.  Solubility determined by visual noting the same temperature at which the last trace of solid solute disappeared.",
+  "source_purity": "(1) Purity not given, Gesellschaft over an alumina column with benzene as eluant.\n(2) \"AnalaR\", was dried over sodium wire and freshly distilled before use.",
+  "estimated_error": "Temperature: T/K: precision ± 0.1. x_1: ± 0.0003 (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Benzene",
+    "formula": "C6H6",
+    "cas": "71-43-2"
+   },
+   {
+    "index": 2,
+    "name": "Fluoranthene",
+    "formula": "C16H10",
+    "cas": "206-44-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Mole Fraction x_1",
+     "Mole Fraction x_2"
+    ],
+    "rows": [
+     [
+      "318.0",
+      "0.2174",
+      "0.7826"
+     ],
+     [
+      "329.2",
+      "0.3011",
+      "0.6989"
+     ],
+     [
+      "337.6",
+      "0.3826",
+      "0.6174"
+     ],
+     [
+      "350.4",
+      "0.5331",
+      "0.4669"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Fluoranthene with Benzene"
+ },
+ {
+  "sheet_id": "59_3",
+  "system_id": "59022",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=59_3",
+  "system": "Fluoranthene with Benzene",
+  "components": "(1) Benzene; C6H6; [71-43-2]\n(2) Fluoranthene; C16H10; [206-44-0]",
+  "original_measurements": "Kravchenko, V.M.; Pastukhova, I.S., J. Gen. Chem. U.S.S.R. 1959, 29, 29-34. (English Translation)",
+  "variables": "Temperature = Temperature",
+  "prepared_by": "W.E. Acree, Jr.",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^  Authors report the eutectic point occurs at x_1 = 0.057 and T/K = 274.4.",
+  "method": "Phase diagram was determined using a thermal analysis method (described in detail in V.M. Kravchenko, J. Phys. Chem. U.S.S.R. 1939, 13, 133), supplemented by visual observation.",
+  "source_purity": "(1) Purity and chemical source were not specified in paper, was recrystallized before use.\n(2) Purity and chemical source were not specified in paper, was distilled before use.",
+  "estimated_error": "Temperature: T/K: precision ± 0.2. x_1: ± 0.002 (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Benzene",
+    "formula": "C6H6",
+    "cas": "71-43-2"
+   },
+   {
+    "index": 2,
+    "name": "Fluoranthene",
+    "formula": "C16H10",
+    "cas": "206-44-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Mole Fraction x_1",
+     "Mole Fraction x_2",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "278.7",
+      "0.000",
+      "1.000",
+      "Solid Phase (2)"
+     ],
+     [
+      "276.5",
+      "0.021",
+      "0.979",
+      "Solid Phase (2)"
+     ],
+     [
+      "274.9",
+      "0.044",
+      "0.956",
+      "Solid Phase (2)"
+     ],
+     [
+      "274.4",
+      "0.057",
+      "0.943",
+      "Eutectic"
+     ],
+     [
+      "277.2",
+      "0.065",
+      "0.935",
+      "Solid Phase (1)"
+     ],
+     [
+      "280.9",
+      "0.076",
+      "0.924",
+      "Solid Phase (1)"
+     ],
+     [
+      "290.2",
+      "0.102",
+      "0.898",
+      "Solid Phase (1)"
+     ],
+     [
+      "295.5",
+      "0.123",
+      "0.877",
+      "Solid Phase (1)"
+     ],
+     [
+      "300.8",
+      "0.144",
+      "0.856",
+      "Solid Phase (1)"
+     ],
+     [
+      "307.7",
+      "0.171",
+      "0.829",
+      "Solid Phase (1)"
+     ],
+     [
+      "309.5",
+      "0.187",
+      "0.813",
+      "Solid Phase (1)"
+     ],
+     [
+      "315.8",
+      "0.220",
+      "0.780",
+      "Solid Phase (1)"
+     ],
+     [
+      "324.4",
+      "0.286",
+      "0.714",
+      "Solid Phase (1)"
+     ],
+     [
+      "333.2",
+      "0.349",
+      "0.651",
+      "Solid Phase (1)"
+     ],
+     [
+      "343.3",
+      "0.431",
+      "0.569",
+      "Solid Phase (1)"
+     ],
+     [
+      "348.3",
+      "0.489",
+      "0.511",
+      "Solid Phase (1)"
+     ],
+     [
+      "383.2",
+      "1.000",
+      "0.000",
+      "Solid Phase (1)"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Fluoranthene with Benzene"
+ },
+ {
+  "sheet_id": "59_16",
+  "system_id": "59023",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=59_16",
+  "system": "Fluoranthene with Chlorobenzene",
+  "components": "(1) Chlorobenzene; C6H5Cl; [108-90-7]\n(2) Fluoranthene; C16H10; [206-44-0]",
+  "original_measurements": "Pinal, R.; Rao, P.S.C.; Lee, L.S.; Cline, P.V.; Yalkowsky, S.H., Environ. Sci. Technol. 1990, 24, 639-646.",
+  "variables": "Temperature = 296 K",
+  "prepared_by": "W.E. Acree, Jr.",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Constant temperature bath, centrifuge, thermometer, and an HPLC equipped with uv absorption and fluorescence detection.\nExcess solute and solvent were placed in glass vials and allowed to equilibrate with rotation for 12-24 hours in a constant temperature bath.  Prior to analysis samples were centrifuged at a minimum of 300 RCF for 15 minutes.  The clear supernatant solution was analyzed by  reversed phase liquid chromatography with either fluorescence or uv detection.",
+  "source_purity": "(1) Purity not given, commercial sample of unspecified source, was used as received.\n(2) Purity and chemical source not given, purification procedure not specified.",
+  "estimated_error": "Temperature: T/K: ± 0.1. c_1: 5% (relative error; compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Chlorobenzene",
+    "formula": "C6H5Cl",
+    "cas": "108-90-7"
+   },
+   {
+    "index": 2,
+    "name": "Fluoranthene",
+    "formula": "C16H10",
+    "cas": "206-44-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Concentration c_1 [mol dm**-3]"
+    ],
+    "rows": [
+     [
+      "23.0",
+      "1.61"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Fluoranthene with Chlorobenzene"
+ },
+ {
+  "sheet_id": "59_13",
+  "system_id": "59024",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=59_13",
+  "system": "Fluoranthene with Chrysene",
+  "components": "(1) Fluoranthene; C16H10; [206-44-0]\n(2) Chrysene; C18H12; [218-01-9]",
+  "original_measurements": "Kravchenko, V.M.; Pastukhova, I.S., Proc. Acad. Sci. U.S.S.R., Sect. Chem. 1956, 111, 667-669 (English Translation)",
+  "variables": "Temperature = Temperature",
+  "prepared_by": "W.E. Acree, Jr.",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Phase diagram was determined using a thermal analysis method (described in detail in V.M. Kravchenko, J. Phys. Chem. U.S.S.R. 1939, 13, 133), supplemented by visual observations.",
+  "source_purity": "(1) Purity and chemical source were not specified in paper, was recrystallized before use.\n(2) Purity and chemical source were not specified in paper, was recrystallized before use.",
+  "estimated_error": "Temperature: T/K: precision ± 0.2. x_1: ± 0.002 (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Fluoranthene",
+    "formula": "C16H10",
+    "cas": "206-44-0"
+   },
+   {
+    "index": 2,
+    "name": "Chrysene",
+    "formula": "C18H12",
+    "cas": "218-01-9"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Mole Fraction x_1",
+     "Mole Fraction x_2",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "528.2",
+      "0.000",
+      "1.000",
+      "Solid Phase (2)"
+     ],
+     [
+      "519.2",
+      "0.090",
+      "0.910",
+      "Solid Phase (2)"
+     ],
+     [
+      "510.5",
+      "0.195",
+      "0.805",
+      "Solid Phase (2)"
+     ],
+     [
+      "498.4",
+      "0.293",
+      "0.707",
+      "Solid Phase (2)"
+     ],
+     [
+      "486.2",
+      "0.404",
+      "0.596",
+      "Solid Phase (2)"
+     ],
+     [
+      "474.5",
+      "0.498",
+      "0.502",
+      "Solid Phase (2)"
+     ],
+     [
+      "457.2",
+      "0.602",
+      "0.398",
+      "Solid Phase (2)"
+     ],
+     [
+      "442.4",
+      "0.691",
+      "0.309",
+      "Solid Phase (2)"
+     ],
+     [
+      "418.8",
+      "0.799",
+      "0.201",
+      "Solid Phase (2)"
+     ],
+     [
+      "403.2",
+      "0.846",
+      "0.154",
+      "Solid Phase (2)"
+     ],
+     [
+      "387.3",
+      "0.897",
+      "0.103",
+      "Solid Phase (2)"
+     ],
+     [
+      "378.2",
+      "0.918",
+      "0.082",
+      "Solid Phase (2)"
+     ],
+     [
+      "378.7",
+      "0.939",
+      "0.061",
+      "Solid Phase (1)"
+     ],
+     [
+      "383.2",
+      "1.000",
+      "0.000",
+      "Solid Phase (1)"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Fluoranthene with Chrysene"
+ },
+ {
+  "sheet_id": "59_1",
+  "system_id": "59025",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=59_1",
+  "system": "Fluoranthene with Cyclohexane",
+  "components": "(1) Cyclohexane; C6H12; [110-82-7]\n(2) Fluoranthene; C16H10; [206-44-0]",
+  "original_measurements": "McLaughlin, E.; Zainal, H.A., J. Chem. Soc. 1960, 3854-3857.",
+  "variables": "Temperature = Temperature",
+  "prepared_by": "W.E. Acree, Jr.",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Constant temperature bath and a precision thermometer.\nMixtures of known concentrations sealed in glass ampoules and placed in constant temperature to equilibrate.  Samples were rotated while bath temperature slowly increased.  Solubility determined by visual noting the same temperature at which the last trace of solid solute disappeared.",
+  "source_purity": "(1) Purity not given, Gesellschaft over an alumina column with benzene as eluant.\n(2) Purity, source and purification method was not specified.",
+  "estimated_error": "Temperature: T/K: precision ± 0.1. x_1: ± 0.0003 (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Cyclohexane",
+    "formula": "C6H12",
+    "cas": "110-82-7"
+   },
+   {
+    "index": 2,
+    "name": "Fluoranthene",
+    "formula": "C16H10",
+    "cas": "206-44-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Mole Fraction x_1",
+     "Mole Fraction x_2"
+    ],
+    "rows": [
+     [
+      "301.8",
+      "0.0204",
+      "0.9796"
+     ],
+     [
+      "317.6",
+      "0.0400",
+      "0.9600"
+     ],
+     [
+      "325.5",
+      "0.0599",
+      "0.9401"
+     ],
+     [
+      "338.2",
+      "0.1191",
+      "0.8809"
+     ],
+     [
+      "344.2",
+      "0.1763",
+      "0.8237"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Fluoranthene with Cyclohexane"
+ },
+ {
+  "sheet_id": "59_25",
+  "system_id": "59026",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=59_25",
+  "system": "Fluoranthene with Dimethyl sulfoxide",
+  "components": "(1) Dimethyl sulfoxide; C2H6OS; [67-68-5]\n(2) Fluoranthene; C16H10; [206-44-0]",
+  "original_measurements": "Pinal, R.; Rao, P.S.C.; Lee, L.S.; Cline, P.V.; Yalkowsky, S.H., Environ. Sci. Technol. 1990, 24, 639-646.",
+  "variables": "Temperature = 296 K",
+  "prepared_by": "W.E. Acree, Jr.",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Constant temperature bath, centrifuge, thermometer, and an HPLC equipped with uv absorption and fluorescence detection.\nExcess solute and solvent were placed in glass vials and allowed to equilibrate with rotation for 12-24 hours in a constant temperature bath.  Prior to analysis samples were centrifuged at a minimum of 300 RCF for 15 minutes.  The clear supernatant solution was analyzed by  reversed phase liquid chromatography with either fluorescence or uv detection.",
+  "source_purity": "(1) Purity not given, commercial samples of unspecified source, was used as received.\n(2) Purity and chemical source not given, purification procedure not specified.",
+  "estimated_error": "Temperature: T/K: ± 1.  c_1: ± 5% (relative error; compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Dimethyl sulfoxide",
+    "formula": "C2H6OS",
+    "cas": "67-68-5"
+   },
+   {
+    "index": 2,
+    "name": "Fluoranthene",
+    "formula": "C16H10",
+    "cas": "206-44-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Concentration c_1 [mol dm**-3]"
+    ],
+    "rows": [
+     [
+      "23.0",
+      "1.09"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Fluoranthene with Dimethyl sulfoxide"
+ },
+ {
+  "sheet_id": "59_18",
+  "system_id": "59027",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=59_18",
+  "system": "Fluoranthene with Ethanol",
+  "components": "(1) Ethanol; C2H6O; [64-17-5]\n(2) Fluoranthene; C16H10; [206-44-0]",
+  "original_measurements": "Krezewki, R.; Smutek, M., Collection Czech. Chem. Commun. 1967, 32, 1258-1259.",
+  "variables": "Temperature = 293 K",
+  "prepared_by": "W.E. Acree, Jr.",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Constant temperature bath, thermometer, and a precision balance.\nExcess solute placed in closed glass container and allowed to equilibrate for several hours at constant temperature.  Aliquots of saturated solutions were transferred into tared containers and weighed.  Solubilities calculated from weight of solid residue that remained after solvent had evaporated.",
+  "source_purity": "(1) Purity not specified, coal tar extract, was recrystallized several times from ethanol to give a melting point temperature of 110.0-110.3 ºC.\n(2) Commercial sample, purity and source not given, was dehydrated and distilled shortly before use.",
+  "estimated_error": "Temperature: T/K: ± 0.05.  x_1: ± 3 % (relative error; compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Ethanol",
+    "formula": "C2H6O",
+    "cas": "64-17-5"
+   },
+   {
+    "index": 2,
+    "name": "Fluoranthene",
+    "formula": "C16H10",
+    "cas": "206-44-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Mole Fraction x_1",
+     "Mole Fraction x_2"
+    ],
+    "rows": [
+     [
+      "20.0",
+      "0.00514",
+      "0.9949"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Fluoranthene with Ethanol"
+ },
+ {
+  "sheet_id": "59_9",
+  "system_id": "59028",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=59_9",
+  "system": "Fluoranthene with Fluorene",
+  "components": "(1) Fluorene; C13H10; [86-73-7]\n(2) Fluoranthene; C16H10; [206-44-0]",
+  "original_measurements": "Kravchenko, V.M.; Pastukhova, I.S., J. Gen. Chem. U.S.S.R. 1959, 29, 29-34. (English Translation)",
+  "variables": "Temperature = Temperature",
+  "prepared_by": "W.E. Acree, Jr.",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "^  Authors report eutectic point occurs at x_1 = 0.519 and T/K = 342.2.",
+  "method": "Phase diagram was determined using a thermal analysis method (described in detail in V.M. Kravchenko, J. Phys. Chem. U.S.S.R. 1939, 13, 133), supplemented by visual observations.",
+  "source_purity": "(1) Purity and chemical source were not specified in paper, was recrystallized before use.\n(2) Purity and chemical source were not specified in paper, was recrystallized before use.",
+  "estimated_error": "Temperature: T/K: precision ± 0.2. x_1: ± 0.002 (compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Fluorene",
+    "formula": "C13H10",
+    "cas": "86-73-7"
+   },
+   {
+    "index": 2,
+    "name": "Fluoranthene",
+    "formula": "C16H10",
+    "cas": "206-44-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "T/K",
+     "Mole Fraction x_1",
+     "Mole Fraction x_2",
+     "Comment(s)"
+    ],
+    "rows": [
+     [
+      "387.2",
+      "0.000",
+      "1.000",
+      "Solid Phase (2)"
+     ],
+     [
+      "380.7",
+      "0.099",
+      "0.901",
+      "Solid Phase (2)"
+     ],
+     [
+      "373.2",
+      "0.195",
+      "0.805",
+      "Solid Phase (2)"
+     ],
+     [
+      "363.7",
+      "0.298",
+      "0.702",
+      "Solid Phase (2)"
+     ],
+     [
+      "353.8",
+      "0.389",
+      "0.611",
+      "Solid Phase (2)"
+     ],
+     [
+      "345.3",
+      "0.477",
+      "0.523",
+      "Solid Phase (2)"
+     ],
+     [
+      "342.2",
+      "0.519",
+      "0.481",
+      "Eutectic"
+     ],
+     [
+      "343.1",
+      "0.530",
+      "0.470",
+      "Solid Phase (1)"
+     ],
+     [
+      "347.9",
+      "0.571",
+      "0.429",
+      "Solid Phase (1)"
+     ],
+     [
+      "352.6",
+      "0.625",
+      "0.375",
+      "Solid Phase (1)"
+     ],
+     [
+      "360.0",
+      "0.704",
+      "0.296",
+      "Solid Phase (1)"
+     ],
+     [
+      "368.1",
+      "0.797",
+      "0.203",
+      "Solid Phase (1)"
+     ],
+     [
+      "376.3",
+      "0.905",
+      "0.095",
+      "Solid Phase (1)"
+     ],
+     [
+      "383.2",
+      "1.000",
+      "0.000",
+      "Solid Phase (1)"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Fluoranthene with Fluorene"
+ },
+ {
+  "sheet_id": "59_17",
+  "system_id": "59029",
+  "url": "https://srdata.nist.gov/solubility/sol_detail.aspx?goBack=Y&sysID=59_17",
+  "system": "Fluoranthene with Methanol",
+  "components": "(1) Methanol; CH4O; [67-56-1]\n(2) Fluoranthene; C16H10; [206-44-0]",
+  "original_measurements": "Pinal, R.; Rao, P.S.C.; Lee, L.S.; Cline, P.V.; Yalkowsky, S.H., Environ. Sci. Technol. 1990, 24, 639-646.",
+  "variables": "Temperature = 296 K",
+  "prepared_by": "W.E. Acree, Jr.",
+  "critical_evaluation": "",
+  "experimental_values": "",
+  "notes": "",
+  "method": "Constant temperature bath, centrifuge, thermometer, and an HPLC equipped with uv absorption and fluorescence detection.\nExcess solute and solvent were placed in glass vials and allowed to equilibrate with rotation for 12-24 hours in a constant temperature bath.  Prior to analysis samples were centrifuged at a minimum of 300 RCF for 15 minutes.  The clear supernatant solution was analyzed by  reversed phase liquid chromatography with either fluorescence or uv detection.",
+  "source_purity": "(1) Purity not given, commercial sample of unspecified source, was used as received.\n(2) Purity and chemical source not given, purification procedure not specified.",
+  "estimated_error": "Temperature: T/K: ± 1.  c_1: ± 5% (relative error; compiler).",
+  "references": "",
+  "components_parsed": [
+   {
+    "index": 1,
+    "name": "Methanol",
+    "formula": "CH4O",
+    "cas": "67-56-1"
+   },
+   {
+    "index": 2,
+    "name": "Fluoranthene",
+    "formula": "C16H10",
+    "cas": "206-44-0"
+   }
+  ],
+  "tables": [
+   {
+    "headers": [
+     "t/°C",
+     "Concentration c_1 [mol dm**-3]"
+    ],
+    "rows": [
+     [
+      "23.0",
+      "0.0704"
+     ]
+    ]
+   }
+  ],
+  "kind": "compilation",
+  "system_name": "Fluoranthene with Methanol"
+ }
+]
