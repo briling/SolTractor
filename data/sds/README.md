@@ -72,3 +72,29 @@ disagreements between the extraction and the database need the page image as arb
   keyed table values occur verbatim in the matching OCR box.
 - `scripts/backsearch.py SDS-N value ... --page P`: confirms extracted values against the
   OCR layer.
+
+## Second witness: MinerU on the page images
+
+The text layer is one reading of every page; `mineru/DEPLOY.md` describes the second,
+the document vision model MinerU 2.5-Pro run on a GPU node over the page images. Its
+results for the ground-truth volumes live in `ground_truth/mineru/SDS-N/` (page JSON,
+run logs, the converted boxes, the NIST alignments, `CHECKS.md` with the numbers and
+`example/` with one crop and its returned table). The bulky raw output (the model output
+with region images, the crop PNGs, the per-crop results) and the PDFs live in the HU Box
+library `sds-extraction`, which keeps the layout of the staging folder; sync it next to
+the clone and link it as `ground_truth/mineru/SDS-N/raw` (ignored) and `pdfs`. Two passes per
+volume:
+
+- whole pages: every sheet comes back as one table whose cells are the printed boxes,
+  nearly free of the text layer's defects (`scripts/mineru_to_boxes.py` converts it to the
+  boxes format), but with the EXPERIMENTAL VALUES table flattened to one cell;
+- crops: `scripts/crop_tables.py` cuts the EXPERIMENTAL VALUES band of every sheet from
+  the PDF (located through the text layer's word coordinates; `--rows` cuts one strip per
+  printed line instead), the node parses the crops, and `scripts/crops_to_boxes.py` puts
+  the resulting row-structured tables back into the sheets.
+
+`scripts/align_nist.py 60 --boxes ... --out ...` scores any boxes file the same way as the
+text layer. On volume 60 the text layer, the page pass and the crop pass reproduce 97 %,
+95 % and 96 % of the keyed values verbatim; only the crop pass reproduces the rows (207 of
+264 sheets with every NIST row intact). `scripts/mineru_viewer.py` renders a page output
+next to its region images for inspection.

@@ -7,3 +7,4 @@ data/sds/ground_truth/nist/raw/
 data/sds/ground_truth/nist/*.log
 data/sds/boxes/
 data/sds/cas/pubchem-cache.json
+data/sds/ground_truth/mineru/*/raw
