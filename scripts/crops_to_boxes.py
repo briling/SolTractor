@@ -5,8 +5,8 @@ Usage: python -I crops_to_boxes.py boxes-page.jsonl crops/tables.jsonl boxes-cro
 The second argument is either a folder with one MinerU output folder per crop
 (p<page>_<band>/structured_content.json, as the node returns them) or the
 tables.jsonl condensed from it (one line per crop: {"crop": ..., "blocks": [...]}).
-Bands on a page map in order onto the compilation sheets of that page (a leading
-continuation record takes band 0). The table becomes one line per row, cells
+Each crop goes to the compilation sheet on its page whose whole-page table text
+shares most numeric tokens with it. The table becomes one line per row, cells
 separated by " | "; a crop with no table keeps the whole-page text.
 """
 import html, json, pathlib, re, sys

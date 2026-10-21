@@ -1,7 +1,7 @@
-# IUPAC Solubility Data Series (SDS)
+# Data layout and pipeline
 
-Text extraction with quality control from the IUPAC Solubility Data Series
-(https://iupac.org/what-we-do/databases/solubility-data-series/).
+Everything below lives under `data/`; the scripts are in `scripts/` and resolve the
+folders themselves.
 
 - `pdfs/`  volumes 1-65 from https://iupac.github.io/SolubilityDataSeries/volumes/SDS-N.pdf
            (5/6, 16/17, 27/28, 45/46, 53 are not on the mirror); scanned, OCR text layer.
@@ -19,14 +19,14 @@ MEASUREMENTS / VARIABLES / PREPARED BY / EXPERIMENTAL VALUES / AUXILIARY
 INFORMATION (METHOD, SOURCE AND PURITY, ESTIMATED ERROR, REFERENCES), plus
 CRITICAL EVALUATION sheets per system.
 
-The PDFs are not committed (687 MB); run `scripts/fetch_volumes.sh` from this folder
+The PDFs are not committed (687 MB); run `scripts/fetch_volumes.sh`
 to download them into `pdfs/` (`ground_truth/pdfs/` for the mined volumes) and regenerate
 `text/`. Scripts take a volume name and resolve its folder themselves (`scripts/paths.py`,
 from the status in `volumes.csv`), e.g.
 
 ```bash
-python3 -I data/sds/scripts/scan_columns.py SDS-30 --tokens --lines 4
-python3 -I data/sds/scripts/backsearch.py SDS-1 "298.15" "10361-37-2" --page 45
+python3 -I scripts/scan_columns.py SDS-30 --tokens --lines 4
+python3 -I scripts/backsearch.py SDS-1 "298.15" "10361-37-2" --page 45
 ```
 
 ## Mined vs unmined volumes
@@ -54,8 +54,8 @@ disagreements between the extraction and the database need the page image as arb
 
 ## Pipeline scripts
 
-- `scripts/paths.py`: where a volume's files live (`ground_truth/` for mined volumes,
-  this folder otherwise).
+- `scripts/paths.py`: where a volume's files live (`data/ground_truth/` for mined volumes,
+  `data/` otherwise).
 - `scripts/textnorm.py`: normalization shared by the QC scripts (strict: OCR-spaced
   digits and punctuation; loose: alphanumerics only; numeric tokens of a cell; CAS numbers).
 - `scripts/segment_boxes.py SDS-N`: cuts the OCR text into sheets and their printed boxes
@@ -75,7 +75,7 @@ disagreements between the extraction and the database need the page image as arb
 
 ## Second witness: MinerU on the page images
 
-The text layer is one reading of every page; `mineru/DEPLOY.md` describes the second,
+The text layer is one reading of every page; `docs/DEPLOY-mineru.md` describes the second,
 the document vision model MinerU 2.5-Pro run on a GPU node over the page images. Its
 results for the ground-truth volumes live in `ground_truth/mineru/SDS-N/` (page JSON,
 run logs, the converted boxes, the NIST alignments, `CHECKS.md` with the numbers and

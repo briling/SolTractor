@@ -1,6 +1,6 @@
 """Convert MinerU structured_content.json of an SDS volume into the boxes jsonl format of segment_boxes.py.
 
-Usage: python -I mineru_to_boxes.py SDS-60/extracted/structured_content.json SDS-60/boxes/SDS-60.jsonl
+Usage: python -I mineru_to_boxes.py data/ground_truth/mineru/SDS-60/structured_content.json out/SDS-60.jsonl
 
 MinerU renders every data sheet as one HTML table whose cells are the printed boxes.
 A sheet starts at a cell beginning with COMPONENTS; its other cells are assigned to

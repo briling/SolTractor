@@ -4,7 +4,7 @@
 # Ground-truth volumes (status "mined" in volumes.csv) go to ground_truth/pdfs and
 # ground_truth/text instead.
 set -u
-cd "$(dirname "$0")/.."
+cd "$(dirname "$0")/../data"
 mined=" $(awk -F, 'NR>1 && $NF ~ /^mined/{printf "%s ", $1}' volumes.csv)"
 for n in $(seq 1 65); do
   dir=.
