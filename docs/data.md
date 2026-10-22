@@ -31,11 +31,13 @@ python parse_nist.py      # seconds, offline
 python normalize_nist.py  # ~1 min, offline; prints coverage and flag counts
 ```
 
-Create the initial ten NOMAD archives:
+Create NOMAD archives for every normalized measurement:
 
 ```bash
 python export_nist_archives.py
 ```
+
+For a bounded test run, use `python export_nist_archives.py --max-records 10`.
 
 Files are written to `data/nist_archives/`, named after the measurement id (for example,
 `62_197_t0_r1.json`). The exporter maps temperature, pressure, components, phase, normalized

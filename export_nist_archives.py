@@ -1,7 +1,5 @@
 """Export NIST measurements as NOMAD EquilibriumSolution archives.
 
-The initial export is intentionally limited to the first 10 measurement records:
-
     python export_nist_archives.py
 """
 import argparse
@@ -12,6 +10,8 @@ from pathlib import Path
 import sys
 from urllib import error, request
 
+from tqdm import tqdm
+
 
 ROOT = Path(__file__).parent
 DEFAULT_INPUT = ROOT / "data" / "nist_measurements.jsonl"
@@ -20,7 +20,6 @@ DEFAULT_OUTPUT = ROOT / "data" / "nist_archives"
 DEFAULT_KEY_FILE = ROOT / ".key"
 DEFAULT_BASE_URL = "https://containers.datacrunch.io/sds-qwen38/v1"
 DEFAULT_MODEL = "qwen3.8-27b"
-INITIAL_RECORD_LIMIT = 10
 
 
 def load_schema_models():
@@ -105,14 +104,22 @@ def normalized_amount_candidate(component_name, value):
     }
 
 
-def load_measurement_methods(sheets_path):
-    methods = {}
+def load_sheet_context(sheets_path):
+    context = {}
     with sheets_path.open(encoding="utf-8") as source:
         for line in source:
             sheet = json.loads(line)
-            if sheet["method"]:
-                methods[sheet["id"]] = sheet["method"]
-    return methods
+            context[sheet["id"]] = {
+                field: sheet[field]
+                for field in (
+                    "method",
+                    "source_and_purity",
+                    "experimental_remarks",
+                    "experimental_data_text",
+                )
+                if sheet[field]
+            }
+    return context
 
 
 def read_api_key(key_file):
@@ -122,7 +129,7 @@ def read_api_key(key_file):
     return token
 
 
-def prompt_for(record, method):
+def prompt_for(record, sheet_context):
     components = record_components(record)
     return {
         "task": (
@@ -139,12 +146,17 @@ def prompt_for(record, method):
             "Omit an amount when the record does not directly report one for that component.",
             "Add solid or gas phases only when the source phase fields explicitly identify them.",
             "Use temperature_K as temperature and pressure_kPa multiplied by 1000 as pressure.",
+            "Fill measurement_methods only from explicit measurement or analysis procedures in "
+            "sheet_context. Fill mixing_methods only from explicit preparation, mixing, agitation, "
+            "or equilibration steps in sheet_context. Preserve source wording; omit either list "
+            "when no relevant source text exists.",
         ],
         "output_shape": {
             "name": "string",
             "temperature": "number or omitted",
             "pressure": "number or omitted",
             "measurement_methods": ["string"],
+            "mixing_methods": ["string"],
             "phases": [{
                 "name": "string",
                 "state_of_matter": "solid | liquid | gas",
@@ -164,7 +176,7 @@ def prompt_for(record, method):
         },
         "source": {
             "measurement": record,
-            "measurement_method": method,
+            "sheet_context": sheet_context,
             "components": [
                 {"name": component["name"], **substance(component)}
                 for component in components
@@ -276,11 +288,15 @@ def validate_grounding(solution, record):
                 raise RuntimeError(f"LLM output selected a non-source amount for {component.name!r}.")
 
 
-def archive_for(record, methods, schema, base_url, model, api_key, timeout, max_tokens):
+def archive_for(record, sheet_context, schema, base_url, model, api_key, timeout, max_tokens):
     """Use the LLM to create a grounded and Pydantic-validated archive."""
-    method = methods.get(record["sheet_id"])
     response = call_llm(
-        prompt_for(record, method), base_url, model, api_key, timeout, max_tokens
+        prompt_for(record, sheet_context.get(record["sheet_id"], {})),
+        base_url,
+        model,
+        api_key,
+        timeout,
+        max_tokens,
     )
     solution = schema.EquilibriumSolution.model_validate(response)
     validate_grounding(solution, record)
@@ -302,26 +318,31 @@ def main():
     parser.add_argument("--timeout", type=float, default=300, help="LLM request timeout in seconds.")
     parser.add_argument("--max-tokens", type=int, default=2048, help="Maximum LLM completion tokens.")
     parser.add_argument(
-        "--limit",
+        "--max-records",
         type=int,
-        default=INITIAL_RECORD_LIMIT,
-        help=f"Number of input records to export (default: {INITIAL_RECORD_LIMIT}).",
+        help="Maximum number of input records to export (default: all records).",
     )
     args = parser.parse_args()
 
-    if args.limit < 0:
-        parser.error("--limit must be non-negative")
+    if args.max_records is not None and args.max_records < 1:
+        parser.error("--max-records must be positive")
     if args.max_tokens < 1:
         parser.error("--max-tokens must be positive")
 
     args.output_dir.mkdir(parents=True, exist_ok=True)
-    methods = load_measurement_methods(args.sheets)
+    sheet_context = load_sheet_context(args.sheets)
     schema = load_schema_models()
     api_key = read_api_key(args.key_file)
     count = 0
-    with args.input.open(encoding="utf-8") as source:
+    total_records = args.max_records
+    if total_records is None:
+        with args.input.open(encoding="utf-8") as source:
+            total_records = sum(1 for _ in source)
+    with args.input.open(encoding="utf-8") as source, tqdm(
+        total=total_records, desc="Exporting archives", unit="record"
+    ) as progress:
         for line in source:
-            if count == args.limit:
+            if args.max_records is not None and count == args.max_records:
                 break
             record = json.loads(line)
             destination = output_path(args.output_dir, record["measurement_id"])
@@ -329,7 +350,7 @@ def main():
                 json.dumps(
                     archive_for(
                         record,
-                        methods,
+                        sheet_context,
                         schema,
                         args.base_url,
                         args.model,
@@ -344,6 +365,7 @@ def main():
                 encoding="utf-8",
             )
             count += 1
+            progress.update()
     print(f"Wrote {count} archive files to {args.output_dir}")
 
 
