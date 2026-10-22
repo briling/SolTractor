@@ -35,7 +35,7 @@ from schema.pydantic_schema import Amount, EquilibriumSolution, Phase, PhaseComp
 sys.path.insert(0, str(ROOT / 'scripts'))
 from paths import NIST, volume_root  # noqa: E402
 from textnorm import loose, numbers, strict  # noqa: E402
-from sdstable import BOX_NAME, PRESSURE_UNITS, VAL, column, conditions_from_variables, normalise_rows, parse_components, split_blocks, tex, to_canonical, value  # noqa: E402
+from sdstable import load_header_map, BOX_NAME, PRESSURE_UNITS, VAL, column, conditions_from_variables, normalise_rows, parse_components, split_blocks, tex, to_canonical, value  # noqa: E402
 
 M_DEF = 'nomad_solubility_plugin.schema_packages.schema_package.EquilibriumSolution'   # the plugin installed on the Oasis
 M_DEF_YAML = '../upload/raw/schema.archive.yaml#/definitions/section_definitions/EquilibriumSolution'   # --yaml-schema: the schema shipped in the upload
@@ -159,9 +159,11 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument('volume'); ap.add_argument('boxes', type=pathlib.Path); ap.add_argument('out', type=pathlib.Path)
     ap.add_argument('--zip', action='store_true')
+    ap.add_argument('--header-map', type=pathlib.Path, help='jsonl of mappings for headers the rules leave unmapped (checked by hard constraints)')
     ap.add_argument('--yaml-schema', action='store_true', help='reference schema.archive.yaml shipped in the upload instead of the installed plugin')
     ap.add_argument('--align', type=pathlib.Path, help='aligner CSV for these boxes (default: align-crops.csv next to them, or crops-v2/align.csv for boxes-crops-v2.jsonl)')
     a = ap.parse_args()
+    header_map = load_header_map(a.header_map) if a.header_map else None
     vol = a.volume if a.volume.startswith('SDS-') else f'SDS-{a.volume}'
     records = [json.loads(l) for l in a.boxes.open()]
     out = a.out; (out).mkdir(parents=True, exist_ok=True)
@@ -283,6 +285,8 @@ def main() -> None:
             (d / f'r{ri:02d}.archive.json').write_text(json.dumps({'data': e.model_dump(mode='json', exclude_none=True)}, ensure_ascii=False, indent=1))
             stats['entries'] += 1
     stats['unmapped_columns'] = dict(sorted(stats['unmapped_columns'].items(), key=lambda kv: -kv[1])[:12])
+    if header_map:
+        stats['header_map'] = header_map
     print(json.dumps(stats, ensure_ascii=False, indent=1))
     if a.zip:
         z = out.with_suffix('.zip')
