@@ -16,7 +16,9 @@ numbered in the order of the system name, as the SDS does, for the SOURCE AND PU
 Identifiers: lab_id "NIST/<measurement_id>" (e.g. NIST/38_230/t0/r1) and a name starting with
 "NIST", so ground truth and extraction are told apart in NOMAD; our extraction writes the same
 measurement id into its entries' description where the aligner and the row match find it.
-Output layout: out_dir/schema.archive.yaml, out_dir/NIST-SDS-60/60_232/t0_r01.archive.json.
+Each entry's `m_def` names the section of the nomad_solubility_plugin installed on the Oasis
+(--yaml-schema ships and references schema.archive.yaml instead). Output layout:
+out_dir/NIST-SDS-60/60_232/t0_r01.archive.json.
 """
 import argparse, gzip, json, pathlib, re, shutil, sys, zipfile
 
@@ -24,7 +26,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from schema.pydantic_schema import Amount, EquilibriumSolution, Phase, PhaseComponent, PubChemPureSubstanceSection, StateOfMatter  # noqa: E402
 sys.path.insert(0, str(ROOT / 'scripts'))
-from to_nomad import M_DEF, parse_citation, split_by_component, split_errors  # noqa: E402
+from to_nomad import M_DEF, M_DEF_YAML, parse_citation, split_by_component, split_errors  # noqa: E402
 
 LIB = pathlib.Path.home() / 'Documents' / 'hu-box' / 'sds-extraction' / 'nist'
 P_UNIT = {'atm': 101325.0, 'kpa': 1000.0, 'mpa': 1e6, 'pa': 1.0, 'bar': 1e5, 'mmhg': 133.322, 'torr': 133.322, 'psia': 6894.757, 'kbar': 1e8}
@@ -89,13 +91,16 @@ def main() -> None:
     ap.add_argument('--sheets', type=pathlib.Path, default=LIB / 'nist_gt.jsonl')
     ap.add_argument('--compilation-only', action='store_true', help='skip the critical-evaluation sheets')
     ap.add_argument('--zip', action='store_true')
+    ap.add_argument('--yaml-schema', action='store_true', help='reference schema.archive.yaml shipped in the upload instead of the installed plugin')
     a = ap.parse_args()
+    m_def = M_DEF_YAML if a.yaml_schema else M_DEF
     n = int(str(a.volume).removeprefix('SDS-'))
     sheets = {s['id']: s for s in map(json.loads, a.sheets.open()) if s.get('iupac_volume') == n}
     opener = gzip.open if a.measurements.suffix == '.gz' else open
     records = [json.loads(l) for l in opener(a.measurements, 'rt') if f'"iupac_volume": {n},' in l]
     a.out.mkdir(parents=True, exist_ok=True)
-    shutil.copy(ROOT / 'schema' / 'schema.archive.yaml', a.out / 'schema.archive.yaml')
+    if a.yaml_schema:
+        shutil.copy(ROOT / 'schema' / 'schema.archive.yaml', a.out / 'schema.archive.yaml')
     stats = {'measurements': len(records), 'entries': 0, 'evaluations': 0, 'with_amount': 0, 'gas_phases': 0, 'no_components': 0, 'unmapped_values': {}}
     for r in records:
         if r.get('evaluated') and a.compilation_only:
@@ -156,7 +161,7 @@ def main() -> None:
             phases.append(Phase(name=f"solid phase: {r['solid_phase']}", state_of_matter=StateOfMatter.solid))
         method = re.sub(r'\s+', ' ', sheet.get('method') or '').strip()
         cite = r.get('citation') or sheet.get('original_measurements') or ''
-        e = EquilibriumSolution(m_def=M_DEF, lab_id=f"NIST/{r['measurement_id']}",
+        e = EquilibriumSolution(m_def=m_def, lab_id=f"NIST/{r['measurement_id']}",
                                 name=f"NIST {r['sheet_id']} t{r['table_index']} r{r['row_index']}: {system}",
                                 temperature=r.get('temperature_K'), pressure=(r['pressure_kPa'] * 1000 if isinstance(r.get('pressure_kPa'), (int, float)) else None),
                                 estimated_error_temperature=err_t, measurement_methods=[method] if method else [],

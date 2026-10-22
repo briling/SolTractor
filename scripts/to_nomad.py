@@ -1,6 +1,6 @@
 """Turn the data sheets of a volume into NOMAD entries of the hackathon schema (schema/schema.archive.yaml).
 
-Usage: uv run python scripts/to_nomad.py SDS-60 boxes.jsonl out_dir [--zip]
+Usage: uv run python scripts/to_nomad.py SDS-60 boxes.jsonl out_dir [--zip] [--yaml-schema]
 
 One EquilibriumSolution entry per table row of a compilation sheet. Temperature
 and pressure come from the t/°C, T/K, P columns (T_in/T_fin into temperature_initial
@@ -21,8 +21,10 @@ matched the sheet and every number of a NIST row occurs in ours, the line "nist:
 the measurement id of the DISSOLVE ground truth (the same id nist_to_nomad.py uses). Rows whose
 blank leading conditions mean "as above" are filled from the row above; rows
 still shorter than the header are skipped (`shifted_rows`).
-Entries are validated with schema/pydantic_schema.py (the model of schema.archive.yaml) before writing. Output layout:
-out_dir/schema.archive.yaml, out_dir/SDS-60/p041-0/r03.archive.json.
+Entries are validated with schema/pydantic_schema.py (the model of schema.archive.yaml) before writing.
+Each entry's `m_def` names the section of the nomad_solubility_plugin installed on the Oasis;
+--yaml-schema instead ships schema.archive.yaml in the upload and references it. Output layout:
+out_dir/SDS-60/p041-0/r03.archive.json.
 """
 import argparse, csv, json, pathlib, re, shutil, sys, zipfile
 from datetime import datetime, timezone
@@ -35,7 +37,8 @@ from paths import NIST, volume_root  # noqa: E402
 from textnorm import loose, numbers, strict  # noqa: E402
 from sdstable import BOX_NAME, PRESSURE_UNITS, VAL, column, conditions_from_variables, normalise_rows, parse_components, split_blocks, tex, to_canonical, value  # noqa: E402
 
-M_DEF = '../upload/raw/schema.archive.yaml#/definitions/section_definitions/EquilibriumSolution'
+M_DEF = 'nomad_solubility_plugin.schema_packages.schema_package.EquilibriumSolution'   # the plugin installed on the Oasis
+M_DEF_YAML = '../upload/raw/schema.archive.yaml#/definitions/section_definitions/EquilibriumSolution'   # --yaml-schema: the schema shipped in the upload
 # column kind of sdstable -> (Amount field, factor from the parser's canonical unit to the schema's storage unit)
 AMOUNT_FIELDS = {'molar_fraction': ('mole_fraction', 1.0), 'mass_fraction': ('mass_fraction', 1.0), 'molality': ('molality', 1.0),
                  'concentration': ('molar_concentration', 1000.0),           # mol/dm^3 -> mol/m^3
@@ -156,12 +159,15 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument('volume'); ap.add_argument('boxes', type=pathlib.Path); ap.add_argument('out', type=pathlib.Path)
     ap.add_argument('--zip', action='store_true')
+    ap.add_argument('--yaml-schema', action='store_true', help='reference schema.archive.yaml shipped in the upload instead of the installed plugin')
     ap.add_argument('--align', type=pathlib.Path, help='aligner CSV for these boxes (default: align-crops.csv next to them, or crops-v2/align.csv for boxes-crops-v2.jsonl)')
     a = ap.parse_args()
     vol = a.volume if a.volume.startswith('SDS-') else f'SDS-{a.volume}'
     records = [json.loads(l) for l in a.boxes.open()]
     out = a.out; (out).mkdir(parents=True, exist_ok=True)
-    shutil.copy(ROOT / 'schema' / 'schema.archive.yaml', out / 'schema.archive.yaml')
+    m_def = M_DEF_YAML if a.yaml_schema else M_DEF
+    if a.yaml_schema:
+        shutil.copy(ROOT / 'schema' / 'schema.archive.yaml', out / 'schema.archive.yaml')
     stats = {'sheets': 0, 'rows': 0, 'entries': 0, 'no_components': 0, 'no_header': 0, 'sheet_as_table': 0,
              'no_temperature': 0, 'conditions_from_variables': 0, 'shifted_rows': 0, 'ditto_rows': 0, 'entries_with_amount': 0, 'unmapped_columns': {}}
     layer = layer_citations(vol)
@@ -203,7 +209,7 @@ def main() -> None:
             stats['ditto_rows'] += layout == 'ditto'
             stats['rows'] += 1
             vals = [value(c) for c in row]
-            e = EquilibriumSolution(m_def=M_DEF, lab_id=f"{vol}/p{r['page']:03d}/{r['index_on_page']}/r{ri:02d}",
+            e = EquilibriumSolution(m_def=m_def, lab_id=f"{vol}/p{r['page']:03d}/{r['index_on_page']}/r{ri:02d}",
                                     measurement_methods=[method] if method else [], publication_references=[ref], estimated_error_temperature=err_t)
             extra = []
             parts = {c['i']: PhaseComponent(name=c['name'], source_purity=purity.get(c['i']),
