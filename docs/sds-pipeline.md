@@ -253,9 +253,11 @@ place to resolve it from the text layer's lines.
 
 The node also ran the page pass over the 46 unmined volumes (hand-backs in the library,
 `mineru/SDS-N/SDS-N.zip`, page pass only). They are unpacked and converted under
-`data/mineru/SDS-N/` (`boxes-page.jsonl`, `run.log`, `handback.md`; the page JSON stays in
-the library, linked as `raw/`). The text-layer count is `segment_boxes.py`; the page-pass
-count is `mineru_to_boxes.py` on the same volume. Totals over the 46 volumes: 17921 pages,
+`data/mineru/SDS-N/`, of which only `handback.md` is in the repository: the converted
+`boxes-page.jsonl` and `run.log` sit in the library next to the raw page zips
+(`mineru/SDS-N/`), as the page JSON does, and are read from the ignored `data/mineru/SDS-N/`
+folder, which the clone links or copies from there. The text-layer count is
+`segment_boxes.py`; the page-pass count is `mineru_to_boxes.py` on the same volume. Totals over the 46 volumes: 17921 pages,
 15471 text-layer sheets, 15183 page-pass sheets of which 13416 compilation sheets.
 The crop pass has not run on these volumes; it waits for the band-finder fixes.
 

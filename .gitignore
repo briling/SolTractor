@@ -12,3 +12,5 @@ data/mineru/*/raw
 data/mineru/*/structured_content.json
 data/mineru/*/middle_json.json
 docs/DEPLOY-mineru.md
+data/mineru/*/boxes-page.jsonl
+data/mineru/*/run.log
