@@ -1,0 +1,269 @@
+sheet_id,system,score,page,index_on_page,dup,n_values,n_found,recall,missing
+62_219,"Carbon dioxide with 1-Heptanesulfonic acid, sodium salt; (sodium 1-heptylsulfonate) and Water",1.0,333,0,,35,35,1.0,
+62_266,Carbon dioxide with Aerosol OT and Water,1.0,384,0,,14,14,1.0,
+62_111,Carbon dioxide with Aluminium chloride and Water,1.0,198,0,,17,17,1.0,
+62_269,Carbon dioxide with Aluminium sulfate and Water,1.0,198,1,,14,14,1.0,
+62_93,Carbon dioxide with Ammonium bromide and Water,0.81,174,0,,159,97,0.61,288.15 0.99 288.15 1.26 1.23 288.15 1.05 1.003 288.15 1.062 0.964 20 293.15 0.86 20 293.15 1.135 1.11 20 293.15 0.924 0.
+62_87,Carbon dioxide with Ammonium chloride and Water,1.0,165,0,,39,39,1.0,
+62_88,Carbon dioxide with Ammonium chloride and Water,1.0,166,0,,25,25,1.0,
+62_89,Carbon dioxide with Ammonium chloride and Water,0.85,168,0,,193,134,0.69,288.15 0.99 288.15 1.052 1.03 288.15 0.942 0.907 288.15 0.843 0.78 288.15 0.686 20 293.15 0.86 20 293.15 0.906 0.887 20 
+62_90,Carbon dioxide with Ammonium chloride and Water,1.0,169,0,,123,122,0.99,0.7358
+62_91,Carbon dioxide with Ammonium chloride and Water,1.0,170,0,,29,29,1.0,
+62_92,Carbon dioxide with Ammonium chloride and Water,1.0,172,0,,193,193,1.0,
+62_98,"Carbon dioxide with Ammonium chloride, Ammonium sulfate and Water",1.0,182,0,,158,157,0.99,0.7658
+62_261,"Carbon dioxide with Ammonium chloride, Sodium chloride, Potassium chloride and Water",0.9,377,0,,289,288,1.0,24.333
+62_99,Carbon dioxide with Ammonium nitrate and Water,0.99,183,0,,41,40,0.98,0.791
+62_100,Carbon dioxide with Ammonium nitrate and Water,0.84,185,0,,216,148,0.69,288.15 0.99 288.15 0.969 288.15 0.977 0.953 288.15 0.944 0.907 288.15 0.872 0.787 288.15 0.809 0.648 20 293.15 0.86 20 2
+62_101,Carbon dioxide with Ammonium nitrate and Water,1.0,186,0,,20,20,1.0,
+62_94,Carbon dioxide with Ammonium sulfate and Water,0.93,175,0,,23,21,0.91,0.713 0.182
+62_95,Carbon dioxide with Ammonium sulfate and Water,0.88,177,0,,211,159,0.75,288.15 0.99 288.15 0.928 0.915 288.15 0.85 0.825 288.15 0.688 0.648 288.15 0.548 293.15 0.86 293.15 0.823 0.811 293.15 0
+62_96,Carbon dioxide with Ammonium sulfate and Water,0.98,178,0,,99,96,0.97,0.3852 0.5194 22.703
+62_97,Carbon dioxide with Ammonium sulfate and Water,1.0,180,0,,389,386,0.99,39315 0.496 0.4889
+62_204,"Carbon dioxide with Ammonium sulfate, Sodium sulfate and Water",0.99,315,0,,199,197,0.99,2.555 0.153
+62_102,"Carbon dioxide with Arsenic trioxide, Arsenic pentoxide, Hydrochloric acid and Water",0.9,187,0,,181,143,0.79,0.649 0.752 0.1866 0.743 0.728 1.261 2.562 0.812 7.459 0.818 0.816 0.789 0.732 27.3 300.45 0.743 303.15 0.662 303.15 0.6
+62_103,Carbon dioxide with Arsenic trisufide (colloidal) and Water,1.0,189,0,,90,90,1.0,
+62_143,Carbon dioxide with Barium chloride and Water,0.97,234,0,,8,8,1.0,
+62_144,Carbon dioxide with Barium chloride and Water,1.0,235,0,,20,20,1.0,
+62_145,Carbon dioxide with Barium chloride and Water,1.0,236,0,,14,14,1.0,
+62_146,Carbon dioxide with Barium chloride and Water,1.0,236,1,,35,35,1.0,
+62_147,Carbon dioxide with Barium chloride and Water,1.0,237,0,,56,56,1.0,
+62_148,"Carbon dioxide with Barium chloride, Ammonium nitrate and Water",1.0,238,0,,32,32,1.0,
+62_130,Carbon dioxide with Calcium chloride and Water,1.0,218,0,,63,63,1.0,
+62_131,Carbon dioxide with Calcium chloride and Water,0.97,220,0,,741,703,0.95,75.5 348.65 2.6 75.5 348.65 75.5 348.65 75.5 348.65 75.5 348.65 162 13.3 75.5 348.65 13.3 75.5 348.65 310 15.4 75.5 348.
+62_132,Carbon dioxide with Calcium chloride and Water,1.0,223,0,,26,26,1.0,
+62_133,Carbon dioxide with Calcium chloride and Water,1.0,224,0,,142,142,1.0,
+62_134,Carbon dioxide with Calcium chloride and Water,1.0,225,0,,71,71,1.0,
+62_135,Carbon dioxide with Calcium chloride and Water,1.0,226,0,,52,52,1.0,
+62_136,Carbon dioxide with Calcium chloride and Water,0.88,227,0,,65,63,0.97,2.3 27.16
+62_137,Carbon dioxide with Calcium chloride and Water,1.0,228,0,,11,11,1.0,
+62_138,Carbon dioxide with Calcium chloride and Water,1.0,229,0,,152,152,1.0,
+62_139,"Carbon dioxide with Calcium chloride, Ammonium nitrate and Water",1.0,230,0,,27,27,1.0,
+62_140,"Carbon dioxide with Calcium chloride, Methanol and Water",0.98,231,0,,118,114,0.97,0.9151 0.7867 1.775 0.9554
+62_262,"Carbon dioxide with Calcium chloride, Strontium chloride, Barium chloride and Water",0.9,379,0,,373,373,1.0,
+62_141,Carbon dioxide with Calcium nitrate and Water,1.0,232,0,,17,17,1.0,
+62_142,Carbon dioxide with Calcium nitrate and Water,1.0,233,0,,29,29,1.0,
+62_259,Carbon dioxide with Cesium chloride and Water,1.0,375,1,,16,16,1.0,
+62_260,Carbon dioxide with Cesium chloride and Water,1.0,376,0,,52,52,1.0,
+62_113,Carbon dioxide with Copper sulfate and Water,1.0,200,0,,28,28,1.0,
+62_114,Carbon dioxide with Copper sulfate and Water,1.0,201,0,,88,88,1.0,
+62_106,"Carbon dioxide with Diammonium salt of 2-hydroxy-1,2,3-propanetricarboxylic acid and Water",0.99,192,0,,112,109,0.97,301.93 301.93 301.93
+62_263,Carbon dioxide with Electrolyte (saturated) and Water,0.88,381,0,,61,59,0.97,1120 1120
+62_116,Carbon dioxide with Ferric hydroxide (colloidal) and Water,1.0,203,0,,112,112,1.0,
+62_118,Carbon dioxide with Ferric hydroxide (colloidal) and Water,1.0,205,0,,115,115,1.0,
+62_117,Carbon dioxide with Ferric hydroxide (colloidal); (Iron hydroxide) and Water,1.0,204,0,,50,50,1.0,
+62_120,Carbon dioxide with Ferriferrocyanide (colloidal); (Prussian blue) and Water,0.88,207,0,,115,110,0.96,287.12 287.12 287.12 287.12 287.12
+62_119,Carbon dioxide with Ferrous ammonium sulfate and Water,1.0,206,0,,15,15,1.0,
+62_110,Carbon dioxide with Hydrated aluminium oxide and Water,1.0,197,0,,27,27,1.0,
+62_115,Carbon dioxide with Hydrated ferric oxide and Water,1.0,202,0,,27,27,1.0,
+62_75,Carbon dioxide with Hydrochloric acid and Water,1.0,153,0,,40,40,1.0,
+62_76,Carbon dioxide with Hydrochloric acid and Water,1.0,154,0,,48,48,1.0,
+62_77,Carbon dioxide with Hydrochloric acid and Water,1.0,155,0,,130,130,1.0,
+62_74,Carbon dioxide with Hydrofluoric acid and Water,1.0,152,0,,113,113,1.0,
+62_153,Carbon dioxide with Lithium bromide and Water,0.85,245,0,,201,141,0.7,288.15 0.99 288.15 1.07 1.066 288.15 1.02 1.01 288.15 0.9575 0.941 288.15 0.803 0.772 20 293.15 0.86 20 293.15 0.951 0.9
+62_149,Carbon dioxide with Lithium chloride and Water,1.0,239,0,,36,36,1.0,
+62_150,Carbon dioxide with Lithium chloride and Water,0.85,241,0,,231,164,0.71,288.15 0.99 288.15 1.183 1.175 288.15 1.112 1.093 288.15 1.036 1.005 288.15 0.748 0.697 20 293.15 0.86 20 293.15 1.036 1
+62_151,Carbon dioxide with Lithium chloride and Water,1.0,242,0,,17,17,1.0,
+62_152,"Carbon dioxide with Lithium chloride, Methanol and Water",0.98,243,0,,88,84,0.95,1.775 1.8186 0.3525 0.8253
+62_154,Carbon dioxide with Lithium sulfate and Water,1.0,246,0,,33,33,1.0,
+62_155,Carbon dioxide with Lithium sulfate and Water,0.86,248,0,,190,136,0.72,288.15 0.99 288.15 0.8155 0.811 288.15 0.7115 0.704 288.15 0.5325 0.52 288.15 0.299 0.284 293.15 0.86 293.15 0.6955 0.69
+62_121,Carbon dioxide with Magnesium chloride and Water,0.99,208,0,,93,92,0.99,0.326
+62_122,Carbon dioxide with Magnesium chloride and Water,0.98,209,0,,145,140,0.97,0.0732 0.143 0.198 0.253 0.3014
+62_128,Carbon dioxide with Magnesium nitrate and Water,1.0,216,0,,63,63,1.0,
+62_129,Carbon dioxide with Magnesium nitrate and Water,0.99,217,0,,50,49,0.98,0.5765
+62_123,Carbon dioxide with Magnesium sulfate and Water,1.0,210,0,,29,29,1.0,
+62_124,Carbon dioxide with Magnesium sulfate and Water,1.0,211,0,,51,51,1.0,
+62_125,Carbon dioxide with Magnesium sulfate and Water,0.86,213,0,,202,146,0.72,288.15 0.99 288.15 0.85 0.845 288.15 0.722 0.717 288.15 0.569 0.565 288.15 0.266 0.26 293.15 0.86 293.15 0.7575 0.752 29
+62_126,Carbon dioxide with Magnesium sulfate and Water,1.0,214,0,,26,26,1.0,
+62_127,Carbon dioxide with Magnesium sulfate and Water,1.0,215,0,,145,145,1.0,
+62_105,"Carbon dioxide with Methanaminium, N,N,N-trimethyl iodide; (tetramethyl ammonium iodide) and Water",1.0,191,0,,106,106,1.0,
+62_107,"Carbon dioxide with N,N,N,-Trimethyl-1-hexadecanaminium bromide; (Cetyltrimethylammonium bromide) and Water",1.0,194,0,,19,19,1.0,
+62_104,"Carbon dioxide with N,N-Dimethylmethanamine hydrochloride; (trimethylamine hydrochloride) and Water",1.0,190,0,,200,200,1.0,
+62_84,Carbon dioxide with Nitric acid and Water,1.0,163,0,,29,29,1.0,
+62_85,Carbon dioxide with Nitric acid and Water,1.0,163,1,,7,7,1.0,
+62_220,"Carbon dioxide with Octanoic acid, pentadecafluoro-, sodium salt; (sodium perfluoro-octanoate) and Water",,,,,16,0,,
+62_216,"Carbon dioxide with P-[ [p-(dimethylamino)phenyl]azo] benzenesulfonic acid, sodium salt, (methyl orange) and Water",1.0,330,0,,114,114,1.0,
+62_78,Carbon dioxide with Perchloric acid and Water,0.99,156,0,,55,54,0.98,2.6316
+62_86,Carbon dioxide with Phosphoric acid and Water,1.0,164,0,,17,17,1.0,
+62_257,Carbon dioxide with Potassium aluminium sulfate and Water,0.86,374,1,,6,6,1.0,
+62_234,Carbon dioxide with Potassium bromide and Water,1.0,349,0,,23,23,1.0,
+62_235,Carbon dioxide with Potassium bromide and Water,1.0,349,1,,28,28,1.0,
+62_236,Carbon dioxide with Potassium bromide and Water,0.86,351,0,,201,144,0.72,288.15 0.99 288.15 0.955 0.938 288.15 0.8965 0.864 288.15 1.855 0.793 288.15 1.054 0.901 293.15 0.86 293.15 0.822 0.806 
+62_222,Carbon dioxide with Potassium chloride and Water,1.0,336,0,,18,18,1.0,
+62_223,Carbon dioxide with Potassium chloride and Water,1.0,337,0,,28,28,1.0,
+62_224,Carbon dioxide with Potassium chloride and Water,1.0,338,0,,20,20,1.0,
+62_225,Carbon dioxide with Potassium chloride and Water,1.0,339,0,,82,82,1.0,
+62_226,Carbon dioxide with Potassium chloride and Water,0.86,341,0,,200,143,0.71,288.15 0.99 288.15 0.922 0.899 288.15 0.847 0.82 288.15 0.785 0.736 288.15 0.752 0.68 293.15 0.86 293.15 0.794 0.781 293
+62_227,Carbon dioxide with Potassium chloride and Water,1.0,342,0,,52,52,1.0,
+62_228,Carbon dioxide with Potassium chloride and Water,1.0,343,0,,23,23,1.0,
+62_229,Carbon dioxide with Potassium chloride and Water,0.99,344,0,,145,143,0.99,57.5 10179
+62_231,"Carbon dioxide with Potassium chloride, Calcium chloride and Water",1.0,346,0,,92,92,1.0,
+62_230,"Carbon dioxide with Potassium chloride, Hydrochloric acid and Water",1.0,345,0,,33,33,1.0,
+62_233,"Carbon dioxide with Potassium chloride, Sodium chloride, Calcium chloride and Water",0.99,348,0,,82,81,0.99,2.343
+62_251,Carbon dioxide with Potassium dihydrogen phosphate and Water,0.84,368,0,,166,112,0.67,288.15 0.99 288.15 0.884 0.875 288.15 0.81 0.793 288.15 0.513 293.15 0.86 293.15 0.7905 0.782 293.15 0.72 0.704 293.15 0
+62_252,"Carbon dioxide with Potassium dihydrogen phosphate, Phosphoric acid and Water",,,,,33,0,,
+62_254,Carbon dioxide with Potassium hydrogen oxalate and Water,0.83,372,0,,12,8,0.67,0.5328 0.5211 0.134 0.4969
+62_237,Carbon dioxide with Potassium iodide and Water,0.94,352,0,,18,16,0.89,0.602 0.577
+62_238,Carbon dioxide with Potassium iodide and Water,0.9,353,0,,28,28,1.0,
+62_239,Carbon dioxide with Potassium iodide and Water,0.84,355,0,,187,127,0.68,288.15 0.99 288.15 0.978 0.952 288.15 0.938 0.894 288.15 0.892 0.808 288.15 0.92 0.699 20 293.15 0.86 20 293.15 0.845 0.
+62_240,Carbon dioxide with Potassium iodide and Water,0.9,356,0,,11,11,1.0,
+62_241,Carbon dioxide with Potassium iodide and Water,1.0,357,0,,42,42,1.0,
+62_255,"Carbon dioxide with Potassium lactate, 2-Hydroxypropanoic acid; (lactic acid) and Water",,,,,46,0,,
+62_244,Carbon dioxide with Potassium nitrate and Water,0.97,360,0,,18,18,1.0,
+62_245,Carbon dioxide with Potassium nitrate and Water,1.0,360,1,,28,28,1.0,
+62_246,Carbon dioxide with Potassium nitrate and Water,1.0,361,0,,70,70,1.0,
+62_247,Carbon dioxide with Potassium nitrate and Water,0.84,363,0,,190,129,0.68,288.15 0.99 288.15 0.961 0.951 288.15 0.941 0.92 288.15 0.925 0.888 288.15 0.878 0.807 20 293.15 0.86 20 293.15 0.852 0.
+62_248,Carbon dioxide with Potassium nitrate and Water,0.99,364,0,,37,36,0.97,0.2775
+62_242,Carbon dioxide with Potassium sulfate and Water,1.0,358,0,,14,14,1.0,
+62_243,Carbon dioxide with Potassium sulfate and Water,1.0,359,0,,142,142,1.0,
+62_256,Carbon dioxide with Potassium thiocyanate and Water,1.0,374,0,,18,18,1.0,
+62_258,Carbon dioxide with Rubidium chloride and Water,1.0,375,0,,28,28,1.0,
+62_68,Carbon dioxide with Sea Water,,,,,285,0,,
+62_71,Carbon dioxide with Sea Water,0.89,100,0,,59,58,0.98,283.15
+62_72,Carbon dioxide with Sea Water,0.63,77,0,,55,25,0.45,6.59 279.74 35.33 5.071 6.6 279.75 35.33 5.063 6.6 279.75 35.33 5.068 6.59 279.74 35.33 5.041 20.62 293.77 35.33 3.245 3
+62_70,Carbon dioxide with Sea Water and water,0.7,99,0,,179,108,0.6,1.04 274.19 1.6471 1.04 274.19 1.5883 6.58 3.64 1.04 274.19 1.4973 10.85 1.04 274.19 1.4463 24.5 13.56 1.04 274.19 1.364
+62_108,Carbon dioxide with Silicic acid (colloidal) and Water,1.0,195,0,,84,84,1.0,
+62_109,Carbon dioxide with Silicic acid (colloidal) and Water,1.0,196,0,,65,65,1.0,
+62_214,Carbon dioxide with Sodium acetate and Water,0.85,328,0,,196,137,0.7,288.15 288.15 1.254 1.241 288.15 1.322 1.292 288.15 1.6 1.532 288.15 2.02 1.841 20 293.15 0.86 20 293.15 1.126 1.113 20 
+62_186,Carbon dioxide with Sodium bromide and Water,1.0,292,0,,19,19,1.0,
+62_187,Carbon dioxide with Sodium bromide and Water,0.86,292,1,,18,18,1.0,
+62_188,Carbon dioxide with Sodium bromide and Water,0.87,294,0,,210,154,0.73,288.15 0.99 288.15 0.855 0.844 288.15 0.828 0.806 288.15 0.736 0.698 288.15 0.388 293.15 0.86 293.15 0.767 0.755 293.15 
+62_189,Carbon dioxide with Sodium bromide and Water,1.0,295,0,,42,42,1.0,
+62_184,Carbon dioxide with Sodium chlorate and Water,0.97,290,0,,18,17,0.94,0.878
+62_157,Carbon dioxide with Sodium chloride and Water,1.0,250,0,,51,51,1.0,
+62_158,Carbon dioxide with Sodium chloride and Water,0.83,252,0,,536,352,0.66,273.15 7.726 273.15 7.256 273.15 6.708 273.15 6.642 273.15 5.869 273.15 5.895 273.15 4.608 273.15 4.597 273.15 3.695 273
+62_159,Carbon dioxide with Sodium chloride and Water,0.86,255,0,,14,14,1.0,
+62_160,Carbon dioxide with Sodium chloride and Water,0.87,256,0,,279,209,0.75,3.07 537 7.2 71.1 1.04 537 6.99 565 0.806 565 4.73 46.7 0.789 579 6.79 1.05 598 9.31 91.9 0.35 1.73 598 8.9 87.8 1.81 6.
+62_161,Carbon dioxide with Sodium chloride and Water,1.0,258,0,,40,40,1.0,
+62_162,Carbon dioxide with Sodium chloride and Water,0.89,259,0,,683,532,0.78,573.15 573.15 573.15 12.2 573.15 18.2 573.15 26.4 573.15 573.15 573.15 573.15 573.15 350 623.15 3.6 350 623.15 350 623.1
+62_163,Carbon dioxide with Sodium chloride and Water,0.85,262,0,,182,128,0.7,288.15 0.99 288.15 0.815 0.807 288.15 0.774 0.759 288.15 0.633 0.607 288.15 0.447 0.407 293.15 0.86 293.15 0.735 0.728 2
+62_164,Carbon dioxide with Sodium chloride and Water,1.0,263,0,,24,24,1.0,
+62_165,Carbon dioxide with Sodium chloride and Water,0.84,264,0,,174,118,0.68,358.15 23.93 23.92 358.15 24.01 23.92 358.15 23.79 23.92 358.15 23.99 23.92 358.15 21.38 0.4162 21.92 358.15 21.42 0.416
+62_166,Carbon dioxide with Sodium chloride and Water,1.0,266,0,,135,135,1.0,
+62_167,Carbon dioxide with Sodium chloride and Water,0.99,267,0,,86,85,0.99,0.665
+62_168,Carbon dioxide with Sodium chloride and Water,1.0,268,0,,104,103,0.99,15.5
+62_169,Carbon dioxide with Sodium chloride and Water,1.0,269,0,,23,23,1.0,
+62_170,Carbon dioxide with Sodium chloride and Water,0.68,270,0,,418,152,0.36,432.85 2040 896 9.05 0.29 0.161 433.05 2060 893 9.061 0.29 0.161 433.05 3910 894 9.214 0.54 0.301 433.15 3940 890 9.185 
+62_171,Carbon dioxide with Sodium chloride and Water,0.88,273,0,,161,123,0.76,348.15 60.3 0.9795 0.1 348.15 60.3 1.012 348.15 60.3 1.0463 348.15 60.3 1.109 6.4 1.26 348.15 60.3 1.1638 5.9 1.37 363.1
+62_172,Carbon dioxide with Sodium chloride and Water,0.86,276,0,,291,211,0.73,323.17 1.059 0.196 323.16 1.247 0.23 323.17 1.432 0.259 323.17 0.299 323.17 1.809 0.323 323.17 3.48 0.581 323.18 5.798 0
+62_173,Carbon dioxide with Sodium chloride and Water,1.0,277,0,,28,28,1.0,
+62_174,Carbon dioxide with Sodium chloride and Water,0.95,278,0,,72,72,1.0,
+62_183,"Carbon dioxide with Sodium chloride, D-Glucose; (dextrose) and Water",0.91,288,0,,107,87,0.81,8.48 7.57 6.67 4.76 0.02 4608.8 -28.953 0.04018 0.03 2754.4 -16.607 0.01940 0.04 4181.1 -26.490 0.03625 0.02 1482.2 -9.3
+62_177,"Carbon dioxide with Sodium chloride, Ammonium chloride and Water",1.0,281,0,,181,180,0.99,0.3162
+62_178,"Carbon dioxide with Sodium chloride, Ammonium nitrate and Water",1.0,282,0,,87,87,1.0,
+62_182,"Carbon dioxide with Sodium chloride, Barium chloride, Ammonium nitrate and Water",1.0,287,0,,27,27,1.0,
+62_180,"Carbon dioxide with Sodium chloride, Calcium chloride and Water",1.0,284,0,,6,6,1.0,
+62_181,"Carbon dioxide with Sodium chloride, Calcium sulfate and Water",0.84,285,0,,158,108,0.68,348.15 60.3 0.9795 348.15 60.3 0.9795 7.9 1.05 348.15 60.3 1.012 7.6 348.15 60.3 1.0463 7.2 348.15 60.3 1.109 1.37 348.1
+62_175,"Carbon dioxide with Sodium chloride, Hydrochloric acid and Water",1.0,279,0,,33,33,1.0,
+62_179,"Carbon dioxide with Sodium chloride, Magnesium sulfate and Water",1.0,283,0,,91,91,1.0,
+62_250,"Carbon dioxide with Sodium chloride, Magnesium sulfate, Potassium nitrate and Water",1.0,366,0,,82,82,1.0,
+62_176,"Carbon dioxide with Sodium chloride, Nitric acid and Water",1.0,280,0,,27,27,1.0,
+62_232,"Carbon dioxide with Sodium chloride, Potassium chloride and Water",1.0,347,0,,109,108,0.99,0.675
+62_249,"Carbon dioxide with Sodium chloride, Potassium nitrate and Water",0.99,365,0,,94,93,0.99,0.7959
+62_206,"Carbon dioxide with Sodium chloride, Sodium sulfate and Water",1.0,317,0,,91,91,1.0,
+62_207,"Carbon dioxide with Sodium chloride, Sodium sulfate, Ammonium chloride and Water",1.0,318,0,,132,132,1.0,
+62_212,"Carbon dioxide with Sodium dihydrogen phosphate, Phosphoric acid and Water",1.0,324,0,,54,54,1.0,
+62_156,Carbon dioxide with Sodium fluoride and Water,1.0,249,0,,80,80,1.0,
+62_213,Carbon dioxide with Sodium formate and Water,0.89,326,0,,290,224,0.77,288.15 0.99 288.15 1.0145 1.01 288.15 1.034 1.028 288.15 0.978 0.965 288.15 0.97 0.945 288.15 0.9875 0.933 288.15 1.184 
+62_192,Carbon dioxide with Sodium hydrogen sulfite and Water,1.0,299,0,,11,11,1.0,
+62_190,Carbon dioxide with Sodium iodide and Water,0.86,296,0,,14,14,1.0,
+62_191,Carbon dioxide with Sodium iodide and Water,0.84,298,0,,201,135,0.67,288.15 0.99 288.15 0.875 0.858 288.15 0.844 0.814 288.15 0.713 0.661 288.15 0.553 20 293.15 0.86 20 293.15 0.781 0.766 2
+62_217,Carbon dioxide with Sodium lactate and 2-Hydroxypropanoic acid; (lactic acid) and Water,,,,,53,0,,
+62_208,Carbon dioxide with Sodium nitrate and Water,1.0,319,0,,33,33,1.0,
+62_209,Carbon dioxide with Sodium nitrate and Water,1.0,320,0,,57,57,1.0,
+62_210,Carbon dioxide with Sodium nitrate and Water,0.87,322,0,,240,177,0.74,288.15 0.99 288.15 0.956 288.15 0.948 0.931 288.15 0.889 0.863 288.15 0.792 288.15 0.612 0.532 293.15 0.86 293.15 0.816 
+62_211,Carbon dioxide with Sodium nitrate and Water,0.95,323,0,,93,84,0.9,288.5 288.5 288.5 288.5 288.5 288.5 288.5 288.5 0.03686
+62_185,Carbon dioxide with Sodium perchlorate and Water,1.0,291,0,,182,182,1.0,
+62_215,Carbon dioxide with Sodium phenoxide and Water,1.0,329,0,,214,214,1.0,
+62_193,Carbon dioxide with Sodium sulfate and Water,1.0,300,0,,40,40,1.0,
+62_194,Carbon dioxide with Sodium sulfate and Water,1.0,301,0,,46,46,1.0,
+62_195,Carbon dioxide with Sodium sulfate and Water,1.0,302,0,,150,149,0.99,0.123
+62_196,Carbon dioxide with Sodium sulfate and Water,0.85,303,0,,161,114,0.71,313.15 0.546 313.15 0.395 0.391 313.15 0.362 0.356 313.15 0.296 0.286 318.15 0.482 318.15 0.349 0.345 318.15 0.3215 0.31
+62_197,Carbon dioxide with Sodium sulfate and Water,1.0,305,0,,11,11,1.0,
+62_198,Carbon dioxide with Sodium sulfate and Water,1.0,306,0,,84,84,1.0,
+62_199,Carbon dioxide with Sodium sulfate and Water,1.0,307,0,,60,60,1.0,
+62_200,Carbon dioxide with Sodium sulfate and Water,1.0,308,0,,133,133,1.0,
+62_201,Carbon dioxide with Sodium sulfate and Water,1.0,310,0,,435,431,0.99,0.522 0.995 0.2795 2.398
+62_205,"Carbon dioxide with Sodium sulfate, Ammonium nitrate and Water",1.0,316,0,,32,32,1.0,
+62_203,"Carbon dioxide with Sodium sulfate, Sulfuric acid and Water",1.0,313,0,,223,223,1.0,
+62_221,Carbon dioxide with Sodium trifluoroacetate and Water,1.0,335,0,,8,8,1.0,
+62_79,Carbon dioxide with Sulfuric acid and Water,0.97,157,0,,125,125,1.0,
+62_80,Carbon dioxide with Sulfuric acid and Water,0.99,158,0,,58,57,0.98,0.7985
+62_81,Carbon dioxide with Sulfuric acid and Water,1.0,159,0,,18,18,1.0,
+62_82,Carbon dioxide with Sulfuric acid and Water,1.0,160,0,,85,85,1.0,
+62_83,Carbon dioxide with Sulfuric acid and Water,0.87,162,0,,473,352,0.74,292.15 0.88 9.25 6.78 292.15 0.91 9.25 9.25 5.94 300.15 9.25 5.57 311.15 0.598 9.25 4.36 311.15 0.605 9.25 0.531 4.41 45
+62_218,Carbon dioxide with Sulfuric acid monododecyl ester sodium salt; (sodium dodecyl sulfate) and Water,1.0,332,0,,16,16,1.0,
+62_202,"Carbon dioxide with Sulfuric acid, Sodium sulfate and Water",,,,,6,0,,
+62_268,Carbon dioxide with Synthetic Salton Sea geothermal brine (SSGB) and Water,,,,,136,0,,
+62_69,Carbon dioxide with Synthetic sea water,0.88,97,0,,171,165,0.96,285.15 285.15 285.15 285.15 285.15 285.15
+62_267,Carbon dioxide with Teepol and Water,0.8,385,0,,8,7,0.88,0.073
+62_265,"Carbon dioxide with various salts and acids, see data table below and Water",,,,,78,0,,
+62_264,Carbon dioxide with various salts; (see data table below) and Water,,,,,59,0,,
+62_5,Carbon dioxide with Water,1.0,33,0,,59,59,1.0,
+62_6,Carbon dioxide with Water,1.0,34,0,,40,40,1.0,
+62_7,Carbon dioxide with Water,0.97,35,0,,28,28,1.0,
+62_8,Carbon dioxide with Water,0.94,36,0,,130,129,0.99,849.43
+62_9,Carbon dioxide with Water,1.0,37,0,,10,10,1.0,
+62_10,Carbon dioxide with Water,0.76,37,1,,59,31,0.53,563.67 75.15 718.28 95.86 1.012 654.33 87.24 1.008 866.1 115.47 1.013 721.1 96.14 1.011 804.9 107.31 1.007 874.5 116.59 
+62_11,Carbon dioxide with Water,1.0,38,0,,12,12,1.0,
+62_12,Carbon dioxide with Water,1.0,38,1,,8,8,1.0,
+62_13,Carbon dioxide with Water,1.0,39,0,,75,75,1.0,
+62_14,Carbon dioxide with Water,1.0,40,0,,31,31,1.0,
+62_15,Carbon dioxide with Water,0.99,41,0,,40,39,0.97,0.187
+62_16,Carbon dioxide with Water,1.0,41,1,,48,48,1.0,
+62_17,Carbon dioxide with Water,1.0,42,0,,183,183,1.0,
+62_18,Carbon dioxide with Water,0.88,43,1,,40,40,1.0,
+62_19,Carbon dioxide with Water,0.87,43,0,,72,71,0.99,0.84
+62_20,Carbon dioxide with Water,,,,,48,0,,
+62_21,Carbon dioxide with Water,1.0,45,0,,70,70,1.0,
+62_22,Carbon dioxide with Water,1.0,46,0,,8,8,1.0,
+62_23,Carbon dioxide with Water,0.99,47,0,,108,105,0.97,32.27 0.588 0.502
+62_24,Carbon dioxide with Water,1.0,48,0,,6,6,1.0,
+62_25,Carbon dioxide with Water,1.0,48,1,,52,52,1.0,
+62_26,Carbon dioxide with Water,0.92,49,0,,6,5,0.83,3372
+62_27,Carbon dioxide with Water,1.0,49,1,,5,5,1.0,
+62_28,Carbon dioxide with Water,1.0,50,0,,240,239,1.0,0.5895
+62_29,Carbon dioxide with Water,1.0,51,0,,25,25,1.0,
+62_30,Carbon dioxide with Water,0.99,52,0,,174,172,0.99,2061 0.41
+62_31,Carbon dioxide with Water,1.0,53,0,,30,30,1.0,
+62_32,Carbon dioxide with Water,1.0,54,0,,132,132,1.0,
+62_1,Carbon dioxide with Water,,,,,230,0,,
+62_2,Carbon dioxide with Water,0.61,94,0,,181,41,0.23,6.588 6.594 6.600 283.15 6.955 6.958 6.962 293.15 7.268 7.270 7.274 303.15 7.536 7.537 7.542 7.765 7.766 7.771 323.15 7.
+62_3,Carbon dioxide with Water,1.0,31,0,,116,116,1.0,
+62_4,Carbon dioxide with Water,1.0,32,0,,30,30,1.0,
+62_33,Carbon dioxide with Water,0.67,62,0,,18,6,0.33,273.15 1.019 1.7023 13.76 298.15 1.045 0.7565 6.118 313.15 1.087 0.5133 4.152
+62_34,Carbon dioxide with Water,1.0,56,0,,179,178,0.99,0.00385
+62_35,Carbon dioxide with Water,0.99,57,0,,87,85,0.98,4554 3.056
+62_36,Carbon dioxide with Water,1.0,58,0,,35,35,1.0,
+62_37,Carbon dioxide with Water,0.98,59,0,,95,92,0.97,7.469 5.326 1.259
+62_38,Carbon dioxide with Water,1.0,60,0,,90,90,1.0,
+62_39,Carbon dioxide with Water,0.83,61,0,,248,163,0.66,163 7.85 1.31 6.54 4730 0.28 179 452 11.25 1.64 9.61 4530 0.36 197.5 470.7 14.7 1.55 13.15 4220 0.37 199 472 16.3 1.37 1
+62_40,Carbon dioxide with Water,0.92,64,0,,346,293,0.85,98 1.22 98 1.21 98 1.22 2.47 2.44 2.35 2.38 2.4 2.41 3.28 3.24 3.17 3.29 3.26 3.26 3.84 3.93 4.05 3.76 3.76 4.44 4.39 4.
+62_41,Carbon dioxide with Water,1.0,65,0,,25,25,1.0,
+62_42,Carbon dioxide with Water,0.86,67,0,,270,197,0.73,11.5 284.65 0.128 1.059 11.5 284.65 125 0.167 1.411 11.5 284.65 211 0.281 2.409 11.5 284.65 237 0.316 2.716 11.5 284.65 
+62_43,Carbon dioxide with Water,1.0,68,0,,20,20,1.0,
+62_44,Carbon dioxide with Water,0.99,69,0,,90,88,0.98,208.15 62.9
+62_45,Carbon dioxide with Water,1.0,70,0,,28,28,1.0,
+62_46,Carbon dioxide with Water,1.0,71,0,,24,24,1.0,
+62_47,Carbon dioxide with Water,1.0,72,0,,162,161,0.99,26.2
+62_48,Carbon dioxide with Water,0.99,73,0,,100,99,0.99,70.53
+62_49,Carbon dioxide with Water,1.0,74,0,,39,39,1.0,
+62_50,Carbon dioxide with Water,1.0,74,1,,3,3,1.0,
+62_51,Carbon dioxide with Water,,,,,48,0,,
+62_52,Carbon dioxide with Water,,,,,15,0,,
+62_53,Carbon dioxide with Water,1.0,76,0,,24,24,1.0,
+62_54,Carbon dioxide with Water,0.99,76,1,,39,38,0.97,288315
+62_55,Carbon dioxide with Water,1.0,101,0,,15,15,1.0,
+62_56,Carbon dioxide with Water,1.0,78,0,,84,84,1.0,
+62_57,Carbon dioxide with Water,1.0,79,0,,99,99,1.0,
+62_58,Carbon dioxide with Water,0.91,387,0,,39,32,0.82,3.76 2.865 2.716 4.158 4.356 4.758 7.172
+62_59,Carbon dioxide with Water,1.0,81,0,,25,25,1.0,
+62_60,Carbon dioxide with Water,1.0,82,0,,244,242,0.99,2.011 0.0448
+62_61,Carbon dioxide with Water,0.97,83,0,,36,34,0.94,297 297
+62_62,Carbon dioxide with Water,0.89,84,0,,14,11,0.79,4608.8 -28.953 0.04018
+62_64,Carbon dioxide with Water-d2,1.0,89,0,,35,35,1.0,
+62_66,Carbon dioxide with Water-d2,1.0,91,0,,45,45,1.0,
+62_63,Carbon dioxide with Water-d2 and Water,,,,,62,0,,
+62_65,Carbon dioxide with Water-d2 and Water,1.0,90,0,,23,23,1.0,
+62_67,Carbon dioxide with Water-d2; (deuterium oxide),0.9,93,0,,877,704,0.8,303 303 22.8 303 31.7 303 38.9 303 303 50 303 54.6 313 313 313 313 313 313 41.6 313 45.7 313 313 313 313 313 63.5 313 66
+62_112,Carbon dioxide with Zinc sulfate and Water,1.0,199,0,,24,24,1.0,
+62_253,"Carbon dioxide with β-D-Fructofuranosyl-α-D-gluco-pyranoside; (sucrose), Potassium dihydrogen phosphate and Water",0.89,370,0,,369,288,0.78,0.916 0.854 0.797 0.741 0.692 0.642 0.901 0.836 0.78 0.723 0.674 0.626 0.582 35 35 0.815 35 0.759 35 0.702 35 0.653 35 0

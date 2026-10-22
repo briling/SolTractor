@@ -105,30 +105,38 @@ next to its region images for inspection.
 
 The node ran the page pass and the crop pass over all eight NIST-keyed volumes
 (hand-backs in the library, unpacked with `scripts/unpack_node.py`, converted and
-aligned as above; files under `ground_truth/mineru/SDS-N/`). Value recall is the
-aligner's substring measure on the aligned sheets; "rows" counts NIST table rows whose
-numeric tokens all occur in one line of the matched EXPERIMENTAL VALUES box, which only
-the crop pass delivers. Note that the scraped NIST sheets cover volume 60 and 20 well
-but only 18 to 55 sheets of the other volumes.
+aligned as above; files under `ground_truth/mineru/SDS-N/`).
 
-| volume | NIST sheets | text layer: aligned, recall | page pass: aligned, recall | crop pass: aligned, recall | rows in one line (crops) | entries |
-|-------:|------------:|----------------------------:|---------------------------:|---------------------------:|-------------------------:|--------:|
-| 20 | 94 | 90, 96.7 % | 83, 99.7 % | 83, 99.7 % | 183 / 185 | 237 |
-| 37 | 23 | 18, 94.1 % | 19, 100 % | 19, 94.2 % | 81 / 94 | 1148 |
-| 38 | 18 | 10, 98.3 % | 9, 100 % | 9, 100 % | 36 / 36 | 889 |
-| 57 | 42 | 19, 81.2 % | 18, 83.4 % | 17, 83.0 % | 160 / 253 | 1595 |
-| 58 | 32 | 10, 98.0 % | 30, 98.7 % | 29, 99.9 % | 198 / 235 | 1023 |
-| 59 | 33 | 19, 87.2 % | 32, 99.5 % | 31, 99.6 % | 258 / 283 | 2423 |
-| 60 | 288 | 263, 97.2 % | 263, 95.1 % | 264, 95.7 % | 614 / 733 | 722 |
-| 62 | 55 | 21, 89.3 % | 21, 87.6 % | 21, 88.6 % | 422 / 688 | 4749 |
+The ground truth is the complete NIST crawl of the DISSOLVE repository (2 784 sheets over the
+eight volumes, imported with `scripts/nist_import.py`); the aligner keys on compilation sheets
+with a table. Value recall is the substring measure over the keyed numeric tokens; rows are NIST
+table rows whose numeric tokens all occur in one line of our EXPERIMENTAL VALUES box. Crop pass v1 is the first run
+with rowspan honoured in the converter, v2 the second run with the fixed band finder and its fallback
+bands (volumes 38, 59, 62).
+
+| volume | NIST sheets with tables | crop pass | aligned | value recall | rows in one line |
+|-------:|------------------------:|:---:|--------:|-------------:|-----------------:|
+| 20 | 220 | v1 | 204 | 91.4 % | 465 / 541 |
+| 37 | 374 | v1 | 363 | 71.9 % | 969 / 1 756 |
+| 38 | 413 | v2 | 392 | 96.7 % | 815 / 901 |
+| 57 | 244 | v1 | 233 | 77.3 % | 1 226 / 2 583 |
+| 58 | 428 | v1 | 375 | 95.9 % | 1 093 / 1 356 |
+| 59 | 415 | v2 | 403 | 98.4 % | 2 771 / 3 108 |
+| 60 | 296 | v1 | 286 | 95.4 % | 686 / 818 |
+| 62 | 268 | v2 | 254 | 87.5 % | 3 560 / 6 127 |
+| all | 2 658 | | 2 510 | 87.0 % | 11 585 / 17 190 (67.4 %) |
+
+The numbers quoted in the prose of the earlier sections (36 / 36, 422 / 688, 90 to 422) were
+measured against the first, truncated scrape of 30 systems per volume; the table above is the
+one to compare with the colleague's ground-truth comparison, which uses the same crawl and the
+same unit, one NIST table row. Volumes 37, 57 and 62 are where the row structure is weakest:
+two-block tables with pressure columns, long multi-column gas tables, and seawater sheets
+whose salinity columns the mapper does not know.
 
 The text layer aligns a third of the NIST sheets of volumes 58 and 59 where the page
 pass aligns nearly all of them: the segmenter loses the sheets, not the values. Volume 57
 (gas solubilities, two-block tables with pressure columns) and 62 (long multi-column
 tables, Bunsen and Ostwald coefficients) are the hard cases for the row structure.
-The rows column is `align_nist.py`'s second number, NIST table rows whose numeric tokens all occur in one
-line of the matched box; it moved from 54 to 160 (volume 57), 569 to 614 (60) and 90 to 422 (62) when
-`crops_to_boxes.py` started to honour rowspan cells (see the quality checks below).
 `scripts/to_nomad.py` turns the crop-pass boxes of each volume into one NOMAD upload
 (`nomad-SDS-N.zip` in the library's `nomad/` folder, 12 786 entries in all, every one
 validated against the schema with NOMAD's metainfo). Since the schema of 2026-10-22 names
@@ -185,6 +193,11 @@ one crop (solubility of (1) in (2) above (2) in (1)), and a header whose first l
 | 59 | 2 444 | 0 | 21 | 695/711 | 4 404 | 4 384 | 20 | 242 | 83 / 7 / 84 |
 | 60 | 722 | 0 | 0 | 1 099/1 241 | 1 582 | 1 540 | 42 | 36 | 35 / 6 / 10 |
 | 62 | 4 760 | 11 | 11 | 1 033/1 234 | 6 875 | 6 870 | 5 | 134 | 2 / 1 / 45 |
+| 38, second pass | 897 | 0 | 0 | 411/510 | 1 421 | 1 376 | 45 | 44 | 41 / 6 / 5 |
+| 59, second pass | 2 876 | 0 | 39 | 818/822 | 5 209 | 5 191 | 18 | 287 | 94 / 9 / 100 |
+| 62, second pass | 4 858 | 11 | 11 | 1 051/1 246 | 7 015 | 7 010 | 5 | 137 | 1 / 1 / 50 |
+
+The second-pass rows are the same checks on `boxes-crops-v2.jsonl` (section below): more rows, the same failure counts.
 
 The failures are what the check is for. Volume 60, page 43: the header `10^5 x_1` against
 a mass fraction that predicts `10^3 x_1`, all three rows off by exactly 10^2. Volume 37,
@@ -201,3 +214,37 @@ several series.
 The same header mapper feeds the exporter: 11 311 of the 12 786 entries (88 %, from 35 %
 with the first mapper) carry at least one solubility quantity; volumes 20 and 62 go from none
 to 98 % and 91 %.
+
+## Second crop pass on volumes 38, 62 and 59
+
+The node re-ran the crop pass with the band finder of `nd/crop-bands` on the best, the worst
+and the second-best volume of the row measure: the bands of 6a30282 (caps-only header on a page
+carrying the sheet frame, bands emitted once, closed at INFORMATION / METHOD / COMMENTS, index
+pages excluded), then the fallback bands of 13a1e0c and the two bands 096475c adds, so every band
+of 096475c has a reading. Hand-backs under `mineru/crops-v2/` in the library (`SDS-N/`,
+`SDS-N-fallback/`, `SDS-096475c/`), merged per volume into `mineru/SDS-N/crops-v2/` with
+`unpack_node.py SDS-N --crops ...`, converted against the same page-pass boxes into
+`boxes-crops-v2.jsonl`, and run through `check_rows.py`, `align_nist.py` and `to_nomad.py`.
+First run against second run:
+
+| volume | crops | crops matching no sheet | sheets with a crop table | rows exported | checker failures | NIST aligned, rows in one line |
+|---:|---|---|---|---|---|---|
+| 38 | 575 → 414 | 47 → 2 | 183 → 167 | 889 → 897 | 45 → 45 | 392, 811 / 901 → 392, 815 / 901 |
+| 62 | 474 → 317 | 42 → 8 | 251 → 248 | 4 760 → 4 858 | 5 → 5 | 254, 3 571 / 6 127 → 254, 3 560 / 6 127 |
+| 59 | 611 → 373 | 113 → 5 | 251 → 241 | 2 444 → 2 876 | 20 → 18 | 392, 2 721 / 2 978 → 403, 2 771 / 3 108 |
+
+The band fix did what it was built for: the crops that matched no sheet (front matter,
+evaluation prose, duplicate bands) are gone, the whole-sheet crops fell from 16 to 5 on volume
+38, and the yardstick held (volume 62 gives back 11 of 6 127 rows). The sheets that still lack a crop table are, almost
+all, crops that held no numeric rows in the first run. The fallback band, cut where the printed
+field names or the EXPERIMENTAL word never reached the text layer, is what moved volume 59: 432
+more rows, eleven more NIST sheets aligned and 50 more NIST rows in one line; it also recovered the two large tables of
+volume 62 (pages 326 and 328) and the three Skripka sheets of volume 38 (pages 174, 327, 494).
+Over the eight volumes the final finder (48830b8) cuts 192 fallback bands, 64 of them in volume
+58, which has not been re-run. The bands 48830b8 adds over 096475c (volume 59: 9, volume 62: 2)
+have no reading yet; the node is gone.
+
+The 400 dpi test on the pages with glued cells (two printed values in one cell, "432.55570.68")
+returned byte-identical tables to 300 dpi for volume 38 and the same glued cells for volume 62:
+the gluing is MinerU's reading of those tables, not a resolution effect, and the arbiter is the
+place to resolve it from the text layer's lines.
