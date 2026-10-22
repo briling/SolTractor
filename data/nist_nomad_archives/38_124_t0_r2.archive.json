@@ -1,0 +1,50 @@
+{
+  "data": {
+    "m_def": "nomad_solubility_plugin.schema_packages.schema_package.EquilibriumSolution",
+    "name": "1,2,3-Trimethylbenzene with Water",
+    "lab_id": "SDS-38/p124/0/r02",
+    "temperature": 308.15,
+    "measurement_methods": [
+      "The concentration of (1) in (2) was then determined by extraction into chloroform followed by UV-spectrophotometry."
+    ],
+    "mixing_methods": [
+      "100-200 cm of (2) and 10-20 cm^3 of liquid (1) were placed in separate but connected thermostatted flasks.",
+      "After thermal equilibrium was established a recirculating stream of air was used to vaporize liquid (1) and to transport the vapor to the flask containing (2)."
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "1,2,3-Trimethylbenzene",
+            "substance": {
+              "name": "1,2,3-Trimethylbenzene",
+              "molecular_formula": "C9H12",
+              "cas_number": "526-73-8"
+            },
+            "amount": {
+              "molar_concentration": 0.597,
+              "units": "mol/m^3",
+              "source_header": "10^4 * Concentration c_1 [mol dm**-3]"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Sanemasa, I.; Araki, M.; Deguchi, T.; Nagai, H., Bull. Chem. Soc. Jpn. 1982, 55, 1054-62.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

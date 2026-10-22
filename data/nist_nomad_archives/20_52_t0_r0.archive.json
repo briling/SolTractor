@@ -1,0 +1,44 @@
+{
+  "data": {
+    "m_def": "nomad_solubility_plugin.schema_packages.schema_package.EquilibriumSolution",
+    "name": "1,2-Dibromobenzene with Water",
+    "lab_id": "SDS-20/p052/0/r00",
+    "temperature": 298.15,
+    "measurement_methods": [
+      "The saturated solutions were assayed spectrophotometrically."
+    ],
+    "mixing_methods": [
+      "The time required for equilibration was indicated as between 4 and 48 hours."
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "1,2-Dibromobenzene",
+            "substance": {
+              "name": "1,2-Dibromobenzene",
+              "molecular_formula": "C6H4Br2",
+              "cas_number": "583-53-9"
+            },
+            "amount": {
+              "molar_concentration": 0.316,
+              "units": "mol/m^3",
+              "source_header": "10^4 * Concentration c_1 [mol dm**-3]"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": []
+  }
+}

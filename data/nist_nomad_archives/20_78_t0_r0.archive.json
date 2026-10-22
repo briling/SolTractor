@@ -1,0 +1,51 @@
+{
+  "data": {
+    "m_def": "nomad_solubility_plugin.schema_packages.schema_package.EquilibriumSolution",
+    "name": "1,2-Dichlorobenzene with Water",
+    "lab_id": "SDS-20/p078/0/r00",
+    "temperature": 298.15,
+    "measurement_methods": [
+      "Liquid scintillation counting with ^14C-labelled solute was employed in the solubility determinations."
+    ],
+    "mixing_methods": [
+      "An excess of 1,2-dichlorobenzene was added to water in a stainless steel centrifuge tube which was then sealed.",
+      "The equilibrium was established by allowing the sample to stand, with intermittent shaking, for a week at constant temperature.",
+      "The mixture was then centrifuged and aliquots of the solution were removed either by a pipet or syringe for analysis."
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "1,2-Dichlorobenzene",
+            "substance": {
+              "name": "1,2-Dichlorobenzene",
+              "molecular_formula": "C6H4Cl2",
+              "cas_number": "95-50-1"
+            },
+            "amount": {
+              "mass_concentration": 0.15583,
+              "units": "kg/m^3",
+              "source_header": "10^1 * g_1/V_2 [g dm**-3]"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Banerjee, S.; Yalkowsky, S.H.; Valvani, S.C., Environ. Sci. Technol. 1980, 14, 1227-9.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

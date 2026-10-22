@@ -1,0 +1,51 @@
+{
+  "data": {
+    "m_def": "nomad_solubility_plugin.schema_packages.schema_package.EquilibriumSolution",
+    "name": "1,2,4-Trichlorobenzene with Water",
+    "lab_id": "SDS-20/p034/0/r00",
+    "temperature": 298.15,
+    "measurement_methods": [
+      "assayed spectrophotometrically"
+    ],
+    "mixing_methods": [
+      "agitated at room temperature for about 24 hours",
+      "filtered",
+      "diluted"
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "1,2,4-Trichlorobenzene",
+            "substance": {
+              "name": "1,2,4-Trichlorobenzene",
+              "molecular_formula": "C6H3Cl3",
+              "cas_number": "120-82-1"
+            },
+            "amount": {
+              "mass_concentration": 0.03466,
+              "units": "kg/m^3",
+              "source_header": "10^2 * g_1/V_2 [g dm**-3]"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Yalkowsky, S.H.; Orr, R.J.; Valvani, S.C., Ind. Eng. Chem. Fundam. 1979, 18(4), 351-3.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

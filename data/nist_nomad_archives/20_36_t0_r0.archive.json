@@ -1,0 +1,49 @@
+{
+  "data": {
+    "m_def": "nomad_solubility_plugin.schema_packages.schema_package.EquilibriumSolution",
+    "name": "1,2,4-Trichlorobenzene with Water",
+    "lab_id": "SDS-20/p036/0/r00",
+    "temperature": 298.15,
+    "measurement_methods": [
+      "the amount of D_2O dissolved was determined by a modified Karl Fischer titration (1)"
+    ],
+    "mixing_methods": [
+      "Between 25 and 100 ml 1, 2, 4-trichlorobenzene and 1 to 2 ml D_2O were placed in a flask and shaken for about 90 min."
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "Water-d2",
+            "substance": {
+              "name": "Water-d2",
+              "molecular_formula": "D2O",
+              "cas_number": "7789-20-0"
+            },
+            "amount": {
+              "molality": 0.00998,
+              "units": "mol/kg",
+              "source_header": "10^3 * Molality mol_1/kg"
+            }
+          },
+          {
+            "name": "1,2,4-Trichlorobenzene",
+            "substance": {
+              "name": "1,2,4-Trichlorobenzene",
+              "molecular_formula": "C6H3Cl3",
+              "cas_number": "120-82-1"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Hutchinson, C.A.; Lyon, A.M., Columbia University Report A-745, July 1, 1943.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

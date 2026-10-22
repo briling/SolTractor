@@ -1,0 +1,50 @@
+{
+  "data": {
+    "m_def": "nomad_solubility_plugin.schema_packages.schema_package.EquilibriumSolution",
+    "name": "1,2,3,5-Tetrachlorobenzene with Water",
+    "lab_id": "SDS-20/p017/0/r00",
+    "temperature": 298.15,
+    "measurement_methods": [
+      "Liquid scintillation counting with ^14c-labeled solute was employed in the solubility determinations."
+    ],
+    "mixing_methods": [
+      "The equilibrium was performed in sealed stainless steel centrifuge tubes with constant or intermittent shaking.",
+      "The mixture was then centrifuged for 60 minutes after which aliquots of the solution were removed for analysis either by a pipet or syringe."
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "1,2,3,5-Tetrachlorobenzene",
+            "substance": {
+              "name": "1,2,3,5-Tetrachlorobenzene",
+              "molecular_formula": "C6H2Cl4",
+              "cas_number": "634-90-2"
+            },
+            "amount": {
+              "mass_concentration": 0.004016,
+              "units": "kg/m^3",
+              "source_header": "10^3 * g_1/V_2 [g dm**-3]"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Banerjee, S.; Yalkowsky, S.H.; Valvani, S.C., Environ. Sci. Technol. 1980, 14, 1227-9.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

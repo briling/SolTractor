@@ -1,0 +1,50 @@
+{
+  "data": {
+    "m_def": "nomad_solubility_plugin.schema_packages.schema_package.EquilibriumSolution",
+    "name": "1,2-Dichlorobenzene with Water",
+    "lab_id": "SDS-20/p074/0/r00",
+    "temperature": 298.15,
+    "measurement_methods": [
+      "The total water content in the organic phase was determined by a Karl Fischer titration."
+    ],
+    "mixing_methods": [
+      "Equilibrium experiments were carried out in a constant temperature water bath using a stirrer.",
+      "An equilibration period of at least 5 days was allowed."
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "1,2-Dichlorobenzene",
+            "substance": {
+              "name": "1,2-Dichlorobenzene",
+              "molecular_formula": "C6H4Cl2",
+              "cas_number": "95-50-1"
+            },
+            "amount": {
+              "mass_concentration": 0.4342,
+              "units": "kg/m^3",
+              "source_header": "10^1 * g_1/V_2 [g dm**-3]"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Goldman, S., Ph.D. Dissertation, McGill University, Montreal, 1969, p 84.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

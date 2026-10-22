@@ -1,0 +1,47 @@
+{
+  "data": {
+    "m_def": "nomad_solubility_plugin.schema_packages.schema_package.EquilibriumSolution",
+    "name": "10-Ethylbenz[a]anthracene with Water",
+    "lab_id": "SDS-38/p444/0/r00",
+    "temperature": 300.15,
+    "measurement_methods": [
+      "The method consisted of preparing serial dilutions of a suspension of (1) in (2) and determining nephelometrically the amount of (1) per unit volume beyond which further dilution caused no reduction in light scattering, which remained equal to that of pure (2). A Bausch and Lomb Dubosque colorimeter model 100-mm was employed. Many details are reported in ref. 1."
+    ],
+    "mixing_methods": [],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "10-Ethylbenz[a]anthracene",
+            "substance": {
+              "name": "10-Ethylbenz[a]anthracene",
+              "molecular_formula": "C20H16",
+              "cas_number": "14854-08-1"
+            },
+            "amount": {
+              "mass_concentration": 4.5e-05,
+              "units": "kg/m^3",
+              "source_header": "10^5 * g_1/V_2 [g/L]"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Davis, W.W.; Krahl, M.E.; Cloves, G.H.A., J. Am. Chem. Soc. 1942, 64, 108-10.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

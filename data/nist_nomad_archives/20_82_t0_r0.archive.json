@@ -1,0 +1,49 @@
+{
+  "data": {
+    "m_def": "nomad_solubility_plugin.schema_packages.schema_package.EquilibriumSolution",
+    "name": "1,3-Dichlorobenzene with Water",
+    "lab_id": "SDS-20/p082/0/r00",
+    "temperature": 283.15,
+    "measurement_methods": [
+      "The optical density of each sample was determined spectrophotometrically (2). Mean and standard deviations were calculated from three measurements."
+    ],
+    "mixing_methods": [
+      "The 1,3-dichlorobenzene was mixed with water in a sealed flask (1) with the aid of a magnetic stirrer for 48 hours in a water bath at constant temperature."
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "1,3-Dichlorobenzene",
+            "substance": {
+              "name": "1,3-Dichlorobenzene",
+              "molecular_formula": "C6H4Cl2",
+              "cas_number": "541-73-1"
+            },
+            "amount": {
+              "molality": 0.0006642,
+              "units": "mol/kg",
+              "source_header": "10^4 * Molality mol_1/kg"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Vesala, A., Ph.D. Dissertation, University of Turku, Turku, 1973.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

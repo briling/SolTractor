@@ -1,0 +1,47 @@
+{
+  "data": {
+    "m_def": "nomad_solubility_plugin.schema_packages.schema_package.EquilibriumSolution",
+    "name": "(+)-(R)-P-Mentha-1,8-diene (d-Limonene) with Water",
+    "lab_id": "SDS-38/p230/0/r01",
+    "temperature": 278.15,
+    "measurement_methods": [
+      "A technique based on head-space analysis by gas-liquid chromatography was developed to determine solubilities of sparing soluble organics. Saturated solutions need not be prepared in advance whereby phase separation problems are avoided, nor have liquid samples to be analyzed. This method is versatile enough to allow determinations provided that the pure vapor pressure of the substances is known. The gas chromatograph was a Varian Aerograph Model 1740 with a flame ionization detector."
+    ],
+    "mixing_methods": [],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "(+)-(R)-P-Mentha-1,8-diene (d-Limonene)",
+            "substance": {
+              "name": "(+)-(R)-P-Mentha-1,8-diene (d-Limonene)",
+              "molecular_formula": "C10H16",
+              "cas_number": "5989-27-5"
+            },
+            "amount": {
+              "mole_fraction": 1.4e-06,
+              "units": "1",
+              "source_header": "10^6 * Mole Fraction x_1"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Massaldi, H.A.; King, C.J., J. Chem. Eng. Data 1973, 18, 393-7.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

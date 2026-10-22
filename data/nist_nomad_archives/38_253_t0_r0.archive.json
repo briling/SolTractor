@@ -1,0 +1,49 @@
+{
+  "data": {
+    "m_def": "nomad_solubility_plugin.schema_packages.schema_package.EquilibriumSolution",
+    "name": "1-Methylnaphthalene with Water",
+    "lab_id": "SDS-38/p253/0/r00",
+    "temperature": 273.15,
+    "measurement_methods": [
+      "Component (1) was introduced into a thermostatted flask and saturated for 5 hr. with (2). Next, calcium hydride was added and the evolving hydrogen volume measured and hence the concentration of (2) in (1) was evaluated."
+    ],
+    "mixing_methods": [
+      "Component (1) was introduced into a thermostatted flask and saturated for 5 hr. with (2)."
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            },
+            "amount": {
+              "mass_fraction": 0.000202,
+              "units": "1",
+              "source_header": "g_2/100 g solution"
+            }
+          },
+          {
+            "name": "1-Methylnaphthalene",
+            "substance": {
+              "name": "1-Methylnaphthalene",
+              "molecular_formula": "C11H10",
+              "cas_number": "90-12-0"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Englin, B.A.; Plate, A.F.; Tugolukov, V.M. Pryanishnikova, M.A., Khim. Tekhnol. Topl. Masel 1965, 10, 42-6.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "data": {
+    "m_def": "nomad_solubility_plugin.schema_packages.schema_package.EquilibriumSolution",
+    "name": "1,2-Dichlorobenzene with Water",
+    "lab_id": "SDS-20/p077/1/r00",
+    "temperature": 283.15,
+    "measurement_methods": [
+      "Both elution chromatography and UV absorption methods were used to determine the aqueous solubilities."
+    ],
+    "mixing_methods": [],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "1,2-Dichlorobenzene",
+            "substance": {
+              "name": "1,2-Dichlorobenzene",
+              "molecular_formula": "C6H4Cl2",
+              "cas_number": "95-50-1"
+            },
+            "amount": {
+              "molality": 0.001102,
+              "units": "mol/kg",
+              "source_header": "10^3 * Molality mol_1/kg"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Schwarz, F.P.; Miller, J., Anal. Chem. 1980, 52(13), 2162-4.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

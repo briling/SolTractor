@@ -1,0 +1,45 @@
+{
+  "data": {
+    "m_def": "nomad_solubility_plugin.schema_packages.schema_package.EquilibriumSolution",
+    "name": "1,2-Dichlorobenzene with Water",
+    "lab_id": "SDS-20/p071/0/r00",
+    "temperature": 298.15,
+    "measurement_methods": [],
+    "mixing_methods": [],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "1,2-Dichlorobenzene",
+            "substance": {
+              "name": "1,2-Dichlorobenzene",
+              "molecular_formula": "C6H4Cl2",
+              "cas_number": "95-50-1"
+            },
+            "amount": {
+              "molality": 1.14,
+              "units": "mol/kg",
+              "source_header": "Molality mol_1/kg"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Dreisbach, R.R., \"Physical Properties of Chemical Compounds,\" Advances in Chemistry Series No. 15; American Chemical Society: Washington, D.C., 1955; p. 134.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

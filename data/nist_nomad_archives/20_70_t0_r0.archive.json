@@ -1,0 +1,50 @@
+{
+  "data": {
+    "m_def": "nomad_solubility_plugin.schema_packages.schema_package.EquilibriumSolution",
+    "name": "1,2-Dichlorobenzene with Water",
+    "lab_id": "SDS-20/p070/0/r00",
+    "temperature": 298.15,
+    "measurement_methods": [
+      "The measurements were made with samples contained in a stoppered Goetz tube placed in a constant temperature water bath.",
+      "The amount of solute dissolved was determined as the difference between total amount added and amount remaining in excess upon saturation."
+    ],
+    "mixing_methods": [
+      "Equilibrium was assured through repeated shaking and centrifuging the mixture in the stoppered tube while it was temporarily removed from the water bath."
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "1,2-Dichlorobenzene",
+            "substance": {
+              "name": "1,2-Dichlorobenzene",
+              "molecular_formula": "C6H4Cl2",
+              "cas_number": "95-50-1"
+            },
+            "amount": {
+              "molar_concentration": 170.0,
+              "units": "mol/m^3",
+              "source_header": "10^1 * Concentration c_1 [mol dm**-3]"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Booth, H.S.; Everson, H.E., Ind. Eng. Chem. 1948, 40, 1491-3.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

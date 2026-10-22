@@ -1,0 +1,50 @@
+{
+  "data": {
+    "m_def": "nomad_solubility_plugin.schema_packages.schema_package.EquilibriumSolution",
+    "name": "1-Methylnaphthalene with Water",
+    "lab_id": "SDS-38/p256/0/r03",
+    "temperature": 293.15,
+    "measurement_methods": [
+      "UV absorption measurements",
+      "spectrofluorimetry method"
+    ],
+    "mixing_methods": [
+      "rotated at least 72 h in a water bath"
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "1-Methylnaphthalene",
+            "substance": {
+              "name": "1-Methylnaphthalene",
+              "molecular_formula": "C11H10",
+              "cas_number": "90-12-0"
+            },
+            "amount": {
+              "molar_concentration": 0.178,
+              "units": "mol/m^3",
+              "source_header": "10^4 * Concentration c_1 [mol dm**-3]"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Schwarz, F.P., J. Chem. Eng. Data. 1977, 22, 273-7.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

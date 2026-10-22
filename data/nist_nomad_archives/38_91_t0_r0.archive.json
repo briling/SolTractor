@@ -1,0 +1,51 @@
+{
+  "data": {
+    "m_def": "nomad_solubility_plugin.schema_packages.schema_package.EquilibriumSolution",
+    "name": "2,2,4-Trimethylpentane with Water",
+    "lab_id": "SDS-38/p091/0/r00",
+    "temperature": 273.15,
+    "measurement_methods": [
+      "The solubility of (1) in (2) was determined by gas chromatography.",
+      "The solubilityof (2) in (1) was determined by Karl Fischer titration."
+    ],
+    "mixing_methods": [
+      "50 mL of (1) together with 50 mL of (2) were placed were placed in a 125 mL Hypovial closed with a Teflon coated rubber septum and placed in a constant-temperature water bath.",
+      "The system was stirred magnetically for 24 hr or was kept in the bath without stirring for at least 7 days before samples were taken for analysis."
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "2,2,4-Trimethylpentane",
+            "substance": {
+              "name": "2,2,4-Trimethylpentane",
+              "molecular_formula": "C8H18",
+              "cas_number": "540-84-1"
+            },
+            "amount": {
+              "mass_fraction": 2.46e-06,
+              "units": "1",
+              "source_header": "10^3 * g_1/kg"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Polak, J.; Lu, B.C.Y., Can. J. Chem. 1973, 51, 4018-23.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

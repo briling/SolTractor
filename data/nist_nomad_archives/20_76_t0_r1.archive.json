@@ -1,0 +1,49 @@
+{
+  "data": {
+    "m_def": "nomad_solubility_plugin.schema_packages.schema_package.EquilibriumSolution",
+    "name": "1,2-Dichlorobenzene with Water",
+    "lab_id": "SDS-20/p076/0/r01",
+    "temperature": 293.15,
+    "measurement_methods": [
+      "analyzed by gas chromatography using a chromatograph equipped with Ni^63 EC detector. The GLC column was packed with porous polymer Chromosorb 101."
+    ],
+    "mixing_methods": [
+      "An excess of 1,2-dichlorobenzene, 5-10 g, was equilibrated with 100 ml distilled water in a bottle for 24 hours at constant temperature."
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "1,2-Dichlorobenzene",
+            "substance": {
+              "name": "1,2-Dichlorobenzene",
+              "molecular_formula": "C6H4Cl2",
+              "cas_number": "95-50-1"
+            },
+            "amount": {
+              "mass_concentration": 0.148,
+              "units": "kg/m^3",
+              "source_header": "10^1 * g_1/V_2 [g dm**-3]"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Chiou, C.T.; Freed, V.H., \"Chemodynamic Studies on Bench Mark Industrial Chemicals\"; National Technical Information Service: Springfield, Virginia, 1977; PB-274263.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

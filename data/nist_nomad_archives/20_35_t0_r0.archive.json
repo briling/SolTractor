@@ -1,0 +1,51 @@
+{
+  "data": {
+    "m_def": "nomad_solubility_plugin.schema_packages.schema_package.EquilibriumSolution",
+    "name": "1,2,4-Trichlorobenzene with Water",
+    "lab_id": "SDS-20/p035/0/r00",
+    "temperature": 298.15,
+    "measurement_methods": [
+      "samples were taken from the solution for analysis by gas chromatography",
+      "The Chromatograph was equipped with a Ni^63 EC detector"
+    ],
+    "mixing_methods": [
+      "An excess of 1, 2, 4-trichlorobenzene was equilibrated with water in screwcapped bottles in a reciprocal shaker for 24 hours",
+      "After two days settling"
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "1,2,4-Trichlorobenzene",
+            "substance": {
+              "name": "1,2,4-Trichlorobenzene",
+              "molecular_formula": "C6H3Cl3",
+              "cas_number": "120-82-1"
+            },
+            "amount": {
+              "mass_concentration": 0.04881,
+              "units": "kg/m^3",
+              "source_header": "10^2 * g_1/V_2 [g dm**-3]"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Chiou, C.T.; Schmedding, D.W.; Manes, M., Environ. Sci. Technol. 1982, 16(1), 4-10.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

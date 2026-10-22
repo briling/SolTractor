@@ -1,0 +1,50 @@
+{
+  "data": {
+    "m_def": "nomad_solubility_plugin.schema_packages.schema_package.EquilibriumSolution",
+    "name": "1,2-Dichlorobenzene with Water",
+    "lab_id": "SDS-20/p072/0/r00",
+    "temperature": 298.15,
+    "measurement_methods": [
+      "The concentration of the tritiated water in the organic phase was determined by isotopic dilution.",
+      "The tritium activities in the tritiated water samples were determined by the acetylene method (1,2)."
+    ],
+    "mixing_methods": [
+      "Tritiated water was equilibrated with 20 ml 1,2-dichlorobenzene by stirring in a flask in a constant temperature water bath for two hours."
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "1,2-Dichlorobenzene",
+            "substance": {
+              "name": "1,2-Dichlorobenzene",
+              "molecular_formula": "C6H4Cl2",
+              "cas_number": "95-50-1"
+            },
+            "amount": {
+              "molar_concentration": 17.1,
+              "units": "mol/m^3",
+              "source_header": "10^2 * Concentration c_1 [mol dm**-3]"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Wing, J.; Johnston, W.H., J. Am. Chem. Soc. 1957, 79(4), 864-5.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

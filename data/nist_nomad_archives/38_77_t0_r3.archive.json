@@ -1,0 +1,45 @@
+{
+  "data": {
+    "m_def": "nomad_solubility_plugin.schema_packages.schema_package.EquilibriumSolution",
+    "name": "1,4-Dimethylcyclohexane with Water",
+    "lab_id": "SDS-38/p077/0/r03",
+    "temperature": 513.15,
+    "measurement_methods": [],
+    "mixing_methods": [],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "1,4-Dimethylcyclohexane",
+            "substance": {
+              "name": "1,4-Dimethylcyclohexane",
+              "molecular_formula": "C8H16",
+              "cas_number": "589-90-2"
+            },
+            "amount": {
+              "mass_fraction": 0.0025700000000000002,
+              "units": "1",
+              "source_header": "g_1/100 g solution"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Guseva, A.N.; Parnov, E.I., Vestn. Mosk. Univ. Khim. 1964, 19, 77-8.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

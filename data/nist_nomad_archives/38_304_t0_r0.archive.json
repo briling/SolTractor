@@ -1,0 +1,47 @@
+{
+  "data": {
+    "m_def": "nomad_solubility_plugin.schema_packages.schema_package.EquilibriumSolution",
+    "name": "1-Ethylnaphthalene with Water",
+    "lab_id": "SDS-38/p304/0/r00",
+    "temperature": 283.15,
+    "measurement_methods": [
+      "The solubility of (1) in (2) was determined from its absorbance. Since the concentration of (1) in (2) are too low to determine its extinction coefficent accurately, the absorption measurements were performed on measured volumes of the saturated solutions diluted with equal volumes of ethanol."
+    ],
+    "mixing_methods": [],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "1-Ethylnaphthalene",
+            "substance": {
+              "name": "1-Ethylnaphthalene",
+              "molecular_formula": "C12H12",
+              "cas_number": "1127-76-0"
+            },
+            "amount": {
+              "mass_fraction": 8.1e-06,
+              "units": "1",
+              "source_header": "10^4 * g_1/100 g solution (compiler)"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Schwarz, F.P.; Wasik, S.P., J. Chem. Eng. Data 1977, 22, 270-3.",
+        "publication_authors": []
+      }
+    ]
+  }
+}
