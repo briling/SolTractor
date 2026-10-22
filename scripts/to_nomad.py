@@ -19,7 +19,7 @@ Columns the mapper does not know are kept verbatim in `description`, together
 with the provenance (volume, page, sheet, raw row, citation, witness). Rows whose
 blank leading conditions mean "as above" are filled from the row above; rows
 still shorter than the header are skipped (`shifted_rows`).
-Entries are validated with schema/pydantic.py (the model of schema.archive.yaml) before writing. Output layout:
+Entries are validated with schema/pydantic_schema.py (the model of schema.archive.yaml) before writing. Output layout:
 out_dir/schema.archive.yaml, out_dir/SDS-60/p041-0/r03.archive.json.
 """
 import argparse, json, pathlib, re, shutil, sys, zipfile
@@ -27,7 +27,7 @@ from datetime import datetime, timezone
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
-from schema.pydantic import Amount, EquilibriumSolution, Phase, PhaseComponent, PubChemPureSubstanceSection, PublicationReference, StateOfMatter  # noqa: E402
+from schema.pydantic_schema import Amount, EquilibriumSolution, Phase, PhaseComponent, PubChemPureSubstanceSection, PublicationReference, StateOfMatter  # noqa: E402
 sys.path.insert(0, str(ROOT / 'scripts'))
 from paths import volume_root  # noqa: E402
 from textnorm import loose, strict  # noqa: E402
