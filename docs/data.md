@@ -48,7 +48,8 @@ gas-phase source fields add corresponding phases.
 Each archive has a deterministic `lab_id` in the form
 `SDS-<volume>/p<sheet>/<table>/r<row>` (for example, `SDS-57/p020/0/r00`).
 Source citations are preserved in `publication_references[].citation`, and every selected
-`Amount` includes its normalized storage `units`.
+`Amount` includes its normalized storage `units`. The exporter reads both the normalized
+measurement citation and critical-evaluation references from the source sheet.
 
 The exporter uses the configured OpenAI-compatible Qwen endpoint to populate the Pydantic
 schema. Its API key is read from the ignored `.key` file; override the API connection with
