@@ -16,21 +16,23 @@ component 1. A solid-phase composition x_i(s) or a gas-phase fraction y_i adds a
 solid or gas Phase. Density, salinity and pH go to the component or the phase.
 The ESTIMATED ERROR box is split into its temperature and solubility sentences.
 Columns the mapper does not know are kept verbatim in `description`, together
-with the provenance (volume, page, sheet, raw row, citation, witness). Rows whose
+with the provenance (volume, page, sheet, raw row, citation, witness) and, where the aligner
+matched the sheet and every number of a NIST row occurs in ours, the line "nist: <sheet>/t<table>/r<row>",
+the measurement id of the DISSOLVE ground truth (the same id nist_to_nomad.py uses). Rows whose
 blank leading conditions mean "as above" are filled from the row above; rows
 still shorter than the header are skipped (`shifted_rows`).
 Entries are validated with schema/pydantic_schema.py (the model of schema.archive.yaml) before writing. Output layout:
 out_dir/schema.archive.yaml, out_dir/SDS-60/p041-0/r03.archive.json.
 """
-import argparse, json, pathlib, re, shutil, sys, zipfile
+import argparse, csv, json, pathlib, re, shutil, sys, zipfile
 from datetime import datetime, timezone
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from schema.pydantic_schema import Amount, EquilibriumSolution, Phase, PhaseComponent, PubChemPureSubstanceSection, PublicationReference, StateOfMatter  # noqa: E402
 sys.path.insert(0, str(ROOT / 'scripts'))
-from paths import volume_root  # noqa: E402
-from textnorm import loose, strict  # noqa: E402
+from paths import NIST, volume_root  # noqa: E402
+from textnorm import loose, numbers, strict  # noqa: E402
 from sdstable import BOX_NAME, PRESSURE_UNITS, VAL, column, conditions_from_variables, normalise_rows, parse_components, split_blocks, tex, to_canonical, value  # noqa: E402
 
 M_DEF = '../upload/raw/schema.archive.yaml#/definitions/section_definitions/EquilibriumSolution'
@@ -69,6 +71,32 @@ def split_errors(text: str) -> tuple[str | None, str | None]:
     temp = [x for x in parts if re.search(r'[Tt]emp|T/K|\bT\b|\d\s*K\b|°C', x)]
     sol = [x for x in parts if x not in temp]
     return (' '.join(temp) or None), (' '.join(sol) or None)
+
+
+def nist_rows(vol: str, align: pathlib.Path | None) -> dict[tuple[int, int], list[tuple[str, list[str]]]]:
+    """(page, sheet) -> [(NIST measurement id, numeric tokens of that NIST row)] for the sheets the aligner matched.
+
+    The alignment CSV maps a NIST sheet to our (page, index_on_page); the NIST tables come from
+    ground_truth/nist/SDS-N.json (the DISSOLVE crawl). A row of ours gets the id of the first NIST
+    row whose numeric tokens all occur in it, the same test as the aligner's row measure."""
+    if align is None or not align.exists():
+        return {}
+    f = NIST / f'{vol}.json'
+    if not f.exists():
+        return {}
+    tables = {n['sheet_id']: n.get('tables', []) for n in json.load(f.open())}
+    out = {}
+    for a in csv.DictReader(align.open()):
+        if not a['page']:
+            continue
+        rows = []
+        for ti, t in enumerate(tables.get(a['sheet_id'], [])):
+            for ri, row in enumerate(t['rows']):
+                toks = [x for c in row for x in numbers(str(c))]
+                if toks:
+                    rows.append((f"{a['sheet_id']}/t{ti}/r{ri}", toks))
+        out.setdefault((int(a['page']), int(a['index_on_page'])), []).extend(rows)
+    return out
 
 
 def layer_citations(vol: str) -> dict[int, list[str]]:
@@ -128,6 +156,7 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument('volume'); ap.add_argument('boxes', type=pathlib.Path); ap.add_argument('out', type=pathlib.Path)
     ap.add_argument('--zip', action='store_true')
+    ap.add_argument('--align', type=pathlib.Path, help='aligner CSV for these boxes (default: align-crops.csv next to them, or crops-v2/align.csv for boxes-crops-v2.jsonl)')
     a = ap.parse_args()
     vol = a.volume if a.volume.startswith('SDS-') else f'SDS-{a.volume}'
     records = [json.loads(l) for l in a.boxes.open()]
@@ -136,6 +165,9 @@ def main() -> None:
     stats = {'sheets': 0, 'rows': 0, 'entries': 0, 'no_components': 0, 'no_header': 0, 'sheet_as_table': 0,
              'no_temperature': 0, 'conditions_from_variables': 0, 'shifted_rows': 0, 'ditto_rows': 0, 'entries_with_amount': 0, 'unmapped_columns': {}}
     layer = layer_citations(vol)
+    align = a.align or (a.boxes.parent / 'crops-v2' / 'align.csv' if a.boxes.name.endswith('-v2.jsonl') else a.boxes.parent / 'align-crops.csv')
+    nist = nist_rows(vol, align)
+    stats['nist_rows'] = 0
     for r in records:
         if r['kind'] != 'compilation':
             continue
@@ -233,7 +265,11 @@ def main() -> None:
                 e.phases.append(Phase(name='gas phase', state_of_matter=StateOfMatter.gas,
                                       components=[PhaseComponent(name=parts[i].name, substance=parts[i].substance, amount=Amount(mole_fraction=y)) for i, y in sorted(gasphase.items())]))
             e.name = f"{vol} p{r['page']} sheet {r['index_on_page']} row {ri}: " + ' / '.join(c['name'] for c in comps)
-            e.description = '\n'.join([f"source: IUPAC Solubility Data Series volume {vol[4:]}, page {r['page']}, sheet {r['index_on_page']}, table row {ri}",
+            row_text = strict(' | '.join(row))
+            nist_id = next((mid for mid, toks in nist.get((r['page'], r['index_on_page']), []) if all(t in row_text for t in toks)), None)
+            if nist_id:
+                stats['nist_rows'] += 1
+            e.description = '\n'.join([f"source: IUPAC Solubility Data Series volume {vol[4:]}, page {r['page']}, sheet {r['index_on_page']}, table row {ri}"] + ([f"nist: {nist_id}"] if nist_id else []) + [
                                        f"witness: MinerU 2.5-Pro crop pass; columns: {' | '.join(tex(h) for h in head)}",
                                        f"row: {' | '.join(row)}", f"citation: {r['boxes'].get('original_measurements', '').strip()}"]
                                       + ([f"unmapped: {'; '.join(extra)}"] if extra else []) + (['layout: conditions inherited from the row above (blank in print)'] if layout == 'ditto' else []))

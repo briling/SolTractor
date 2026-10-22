@@ -310,3 +310,38 @@ The crop pass has not run on these volumes; it waits for the band-finder fixes.
 | 64 | 360 | 366 | 351 | 278 |
 | 65 | 312 | 274 | 249 | 164 |
 
+
+## The ground truth as NOMAD entries, and the join
+
+The comparison with the ground truth happens inside NOMAD, on one schema and one key, instead
+of in a separate tool. `scripts/nist_to_nomad.py` turns the DISSOLVE crawl's per-row
+measurements into `EquilibriumSolution` entries deterministically: the record already names the
+solute, the solvents, the conditions and every value with its quantity and unit, so the
+quantities map onto the named `Amount` fields in storage units exactly as the extraction's do,
+a gas-phase fraction adds a gas phase, and values the schema has no field for (activity
+coefficients, salt-effect parameters, generic "solubility" columns, inverse Henry constants) stay
+in the description. Ground-truth entries have `lab_id` `NIST/<measurement id>` and a name
+starting with NIST; extraction entries keep the PDF position as `lab_id` and, where the aligner
+matched the sheet and every number of a NIST row occurs in the extracted row, carry the line
+`nist: <sheet>/t<table>/r<row>` in their description. A search for that id in NOMAD returns the
+pair; a value-level score is a join on it with a tolerance on each `Amount` field.
+
+| volume | NIST measurements | ground-truth entries (evaluations) | with a quantity | extraction entries (crop pass) | with a quantity | with a NIST row id |
+|---:|---:|---:|---:|---:|---:|---:|
+| 20 | 567 | 567 (160) | 564 | 237 (v1) | 233 | 174 (73 %) |
+| 37 | 2 246 | 2 239 (0) | 2 223 | 1 148 (v1) | 945 | 876 (76 %) |
+| 38 | 973 | 973 (0) | 968 | 897 (v2) | 769 | 712 (79 %) |
+| 57 | 2 401 | 2 401 (54) | 2 359 | 1 595 (v1) | 1 193 | 931 (58 %) |
+| 58 | 1 707 | 1 707 (0) | 1 707 | 1 023 (v1) | 921 | 610 (60 %) |
+| 59 | 3 202 | 3 202 (0) | 3 202 | 2 837 (v2) | 2 664 | 2 508 (88 %) |
+| 60 | 824 | 824 (95) | 822 | 722 (v1) | 688 | 667 (92 %) |
+| 62 | 6 004 | 6 004 (138) | 5 440 | 4 847 (v2) | 4 358 | 2 977 (61 %) |
+| all | 17 924 | 17 917 (447) | 17 285 | 13 306 | 11 771 | 9 455 (71 %) |
+
+All 17 917 ground-truth entries and all 13 306 extraction entries validate with pydantic and with
+NOMAD's metainfo. Seven NIST measurements of volume 37 have no components at all and are
+skipped. The ground truth itself is not complete: the DISSOLVE normalisation leaves out rows
+whose cells are text, ragged tables and the 724 sheets whose values are given in prose, so an
+extraction row without a NIST id is not necessarily wrong, and the row-id share is a lower bound
+on what the crop pass reproduces. The extraction entries come from the declared crop pass per
+volume (v1 or v2, as in the eight-volume table), so the pairs are stable across re-exports.
