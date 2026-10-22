@@ -19,6 +19,5 @@ data/index.json
 
 # Generated from nist_gt.jsonl by normalize_nist.py (90 MB)
 data/nist_measurements.jsonl
-data/nist_archives/
 
 .key
