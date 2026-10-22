@@ -131,6 +131,8 @@ def load_sheet_context(sheets_path):
                     "source_and_purity",
                     "experimental_remarks",
                     "experimental_data_text",
+                    "original_measurements",
+                    "critical_evaluation_refs",
                 )
                 if sheet[field]
             }
@@ -142,6 +144,20 @@ def read_api_key(key_file):
     if not token:
         raise RuntimeError(f"API key file is empty: {key_file}")
     return token
+
+
+def publication_references_for(record, sheet_context, schema):
+    citations = []
+    for value in (
+        record.get("citation"),
+        sheet_context.get("original_measurements"),
+        sheet_context.get("critical_evaluation_refs"),
+    ):
+        for citation in (value or "").splitlines():
+            citation = citation.strip()
+            if citation and citation not in citations:
+                citations.append(citation)
+    return [schema.PublicationReference(citation=citation) for citation in citations]
 
 
 def prompt_for(record, sheet_context):
@@ -318,10 +334,7 @@ def archive_for(record, sheet_context, schema, base_url, model, api_key, timeout
     solution = schema.EquilibriumSolution.model_validate(response)
     validate_grounding(solution, record)
     solution.lab_id = lab_id_for(record)
-    if record["citation"]:
-        solution.publication_references = [
-            schema.PublicationReference(citation=record["citation"])
-        ]
+    solution.publication_references = publication_references_for(record, sheet_context, schema)
     return {"data": solution.model_dump(mode="json", exclude_none=True)}
 
 
