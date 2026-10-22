@@ -2,12 +2,13 @@
  "pairs": 9030,
  "gold_rows": 17917,
  "gold_rows_unclaimed": 8887,
+ "gold_fractions_above_1_dropped": 650,
  "extraction_entries_without_id": 3851,
  "extraction_entries_duplicate_id": 50,
  "tolerance_rel": 0.005,
  "precision": 0.9377363574041315,
- "recall": 0.9008236014631363,
- "f1": 0.9152945452912282,
+ "recall": 0.9112523790347711,
+ "f1": 0.9200998213706884,
  "per_field": {
   "components[0].cas": {
    "matches": 8841,
@@ -66,11 +67,11 @@
   "components[2].mole_fraction": {
    "matches": 195,
    "mismatches": 0,
-   "omissions": 118,
+   "omissions": 108,
    "hallucinations": 0,
    "precision": 1.0,
-   "recall": 0.6230031948881789,
-   "f1": 0.7677165354330708
+   "recall": 0.6435643564356436,
+   "f1": 0.7831325301204819
   },
   "temperature": {
    "matches": 8694,
@@ -83,12 +84,12 @@
   },
   "components[0].mass_fraction": {
    "matches": 1142,
-   "mismatches": 65,
+   "mismatches": 29,
    "omissions": 225,
-   "hallucinations": 50,
+   "hallucinations": 86,
    "precision": 0.9085123309466985,
-   "recall": 0.797486033519553,
-   "f1": 0.8493863889921904
+   "recall": 0.8180515759312321,
+   "f1": 0.8609121748963439
   },
   "components[0].molality": {
    "matches": 335,
@@ -101,12 +102,12 @@
   },
   "components[0].mole_fraction": {
    "matches": 4140,
-   "mismatches": 718,
-   "omissions": 403,
-   "hallucinations": 49,
+   "mismatches": 320,
+   "omissions": 356,
+   "hallucinations": 447,
    "precision": 0.8436926839209293,
-   "recall": 0.7869226382816955,
-   "f1": 0.8143194335169158
+   "recall": 0.8596345514950167,
+   "f1": 0.851589015735884
   },
   "pressure": {
    "matches": 2414,
@@ -128,12 +129,12 @@
   },
   "components[1].mass_fraction": {
    "matches": 706,
-   "mismatches": 56,
-   "omissions": 160,
-   "hallucinations": 119,
+   "mismatches": 48,
+   "omissions": 156,
+   "hallucinations": 127,
    "precision": 0.8013620885357549,
-   "recall": 0.7657266811279827,
-   "f1": 0.7831392124237383
+   "recall": 0.7758241758241758,
+   "f1": 0.7883863763260749
   },
   "components[1].molality": {
    "matches": 336,
@@ -146,12 +147,12 @@
   },
   "components[1].mole_fraction": {
    "matches": 3958,
-   "mismatches": 267,
-   "omissions": 314,
-   "hallucinations": 169,
+   "mismatches": 128,
+   "omissions": 306,
+   "hallucinations": 308,
    "precision": 0.9007737824305871,
-   "recall": 0.8719982374972461,
-   "f1": 0.8861524683756856
+   "recall": 0.901183970856102,
+   "f1": 0.9009788299567493
   },
   "components[1].molar_concentration": {
    "matches": 687,

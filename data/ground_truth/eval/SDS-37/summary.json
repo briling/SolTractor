@@ -2,12 +2,13 @@
  "pairs": 847,
  "gold_rows": 2239,
  "gold_rows_unclaimed": 1392,
+ "gold_fractions_above_1_dropped": 1,
  "extraction_entries_without_id": 272,
  "extraction_entries_duplicate_id": 2,
  "tolerance_rel": 0.005,
  "precision": 0.9598189689098781,
- "recall": 0.9510232192050374,
- "f1": 0.9510289068140307,
+ "recall": 0.9511637712936414,
+ "f1": 0.9511045887078945,
  "per_field": {
   "components[0].cas": {
    "matches": 843,
@@ -29,12 +30,12 @@
   },
   "components[0].mole_fraction": {
    "matches": 426,
-   "mismatches": 7,
+   "mismatches": 6,
    "omissions": 22,
-   "hallucinations": 0,
+   "hallucinations": 1,
    "precision": 0.9838337182448037,
-   "recall": 0.9362637362637363,
-   "f1": 0.9594594594594595
+   "recall": 0.9383259911894273,
+   "f1": 0.9605411499436302
   },
   "components[1].cas": {
    "matches": 847,

@@ -5,9 +5,9 @@ nist_id,lab_id,precision,recall,f1,mismatched,omitted,hallucinated
 38_107/t0/r0,SDS-38/p166/0/r00,1.0,1.0,1.0,,,
 38_107/t0/r1,SDS-38/p166/0/r01,1.0,1.0,1.0,,,
 38_107/t0/r2,SDS-38/p166/0/r02,1.0,1.0,1.0,,,
-38_109/t0/r0,SDS-38/p168/0/r00,0.8,0.8,0.8,components[0].mole_fraction=2.6|2.6e-07,,
-38_109/t0/r1,SDS-38/p168/0/r01,0.8,0.8,0.8,components[0].mole_fraction=1.4|1.3999999999999998e-07,,
-38_109/t0/r2,SDS-38/p168/0/r02,0.8,0.8,0.8,components[0].mole_fraction=2.9|2.9e-07,,
+38_109/t0/r0,SDS-38/p168/0/r00,0.8,1.0,0.8889,,,components[0].mole_fraction
+38_109/t0/r1,SDS-38/p168/0/r01,0.8,1.0,0.8889,,,components[0].mole_fraction
+38_109/t0/r2,SDS-38/p168/0/r02,0.8,1.0,0.8889,,,components[0].mole_fraction
 38_11/t0/r0,SDS-38/p038/0/r00,1.0,0.8,0.8889,,temperature,
 38_11/t0/r1,SDS-38/p038/0/r01,1.0,0.8,0.8889,,temperature,
 38_111/t0/r0,SDS-38/p170/0/r00,1.0,1.0,1.0,,,

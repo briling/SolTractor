@@ -2,12 +2,13 @@
  "pairs": 2830,
  "gold_rows": 6004,
  "gold_rows_unclaimed": 3174,
+ "gold_fractions_above_1_dropped": 474,
  "extraction_entries_without_id": 1870,
  "extraction_entries_duplicate_id": 34,
  "tolerance_rel": 0.005,
  "precision": 0.9176883805240695,
- "recall": 0.8673671469872883,
- "f1": 0.8887387174472144,
+ "recall": 0.8921069095804078,
+ "f1": 0.8997854293440615,
  "per_field": {
   "components[0].bunsen_coefficient": {
    "matches": 842,
@@ -146,21 +147,21 @@
   },
   "components[0].mole_fraction": {
    "matches": 33,
-   "mismatches": 553,
-   "omissions": 28,
-   "hallucinations": 0,
+   "mismatches": 182,
+   "omissions": 20,
+   "hallucinations": 371,
    "precision": 0.05631399317406143,
-   "recall": 0.05374592833876222,
-   "f1": 0.055
+   "recall": 0.14042553191489363,
+   "f1": 0.08038976857490863
   },
   "components[1].mass_fraction": {
    "matches": 5,
-   "mismatches": 14,
-   "omissions": 23,
-   "hallucinations": 0,
+   "mismatches": 6,
+   "omissions": 21,
+   "hallucinations": 8,
    "precision": 0.2631578947368421,
-   "recall": 0.11904761904761904,
-   "f1": 0.1639344262295082
+   "recall": 0.15625,
+   "f1": 0.19607843137254902
   },
   "components[2].molar_concentration": {
    "matches": 311,
@@ -191,12 +192,12 @@
   },
   "components[0].mass_fraction": {
    "matches": 18,
-   "mismatches": 39,
+   "mismatches": 3,
    "omissions": 0,
-   "hallucinations": 0,
+   "hallucinations": 36,
    "precision": 0.3157894736842105,
-   "recall": 0.3157894736842105,
-   "f1": 0.3157894736842105
+   "recall": 0.8571428571428571,
+   "f1": 0.46153846153846156
   },
   "components[1].bunsen_coefficient": {
    "matches": 163,
@@ -218,12 +219,12 @@
   },
   "components[1].mole_fraction": {
    "matches": 39,
-   "mismatches": 50,
+   "mismatches": 1,
    "omissions": 55,
-   "hallucinations": 36,
+   "hallucinations": 85,
    "precision": 0.312,
-   "recall": 0.2708333333333333,
-   "f1": 0.2899628252788104
+   "recall": 0.4105263157894737,
+   "f1": 0.35454545454545455
   },
   "components[-1].cas": {
    "matches": 0,

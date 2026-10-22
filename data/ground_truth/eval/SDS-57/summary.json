@@ -2,12 +2,13 @@
  "pairs": 732,
  "gold_rows": 2401,
  "gold_rows_unclaimed": 1669,
+ "gold_fractions_above_1_dropped": 172,
  "extraction_entries_without_id": 664,
  "extraction_entries_duplicate_id": 3,
  "tolerance_rel": 0.005,
  "precision": 0.8241543065313557,
- "recall": 0.6822501951600313,
- "f1": 0.7349104864473717,
+ "recall": 0.7142710772833724,
+ "f1": 0.7510289005166054,
  "per_field": {
   "components[0].bunsen_coefficient": {
    "matches": 46,
@@ -45,15 +46,6 @@
    "recall": 1.0,
    "f1": 0.3157894736842105
   },
-  "components[0].mole_fraction": {
-   "matches": 35,
-   "mismatches": 25,
-   "omissions": 188,
-   "hallucinations": 0,
-   "precision": 0.5833333333333334,
-   "recall": 0.14112903225806453,
-   "f1": 0.2272727272727273
-  },
   "components[0].ostwald_coefficient": {
    "matches": 31,
    "mismatches": 0,
@@ -90,6 +82,15 @@
    "recall": 0.8813793103448276,
    "f1": 0.9031802120141342
   },
+  "components[0].mole_fraction": {
+   "matches": 35,
+   "mismatches": 2,
+   "omissions": 149,
+   "hallucinations": 23,
+   "precision": 0.5833333333333334,
+   "recall": 0.1881720430107527,
+   "f1": 0.28455284552845533
+  },
   "components[2].cas": {
    "matches": 103,
    "mismatches": 0,
@@ -111,20 +112,20 @@
   "components[2].mole_fraction": {
    "matches": 29,
    "mismatches": 0,
-   "omissions": 10,
+   "omissions": 0,
    "hallucinations": 0,
    "precision": 1.0,
-   "recall": 0.7435897435897436,
-   "f1": 0.8529411764705882
+   "recall": 1.0,
+   "f1": 1.0
   },
   "components[1].mole_fraction": {
    "matches": 166,
-   "mismatches": 99,
-   "omissions": 157,
-   "hallucinations": 3,
+   "mismatches": 9,
+   "omissions": 149,
+   "hallucinations": 93,
    "precision": 0.6194029850746269,
-   "recall": 0.3933649289099526,
-   "f1": 0.4811594202898551
+   "recall": 0.5123456790123457,
+   "f1": 0.5608108108108109
   },
   "components[1].bunsen_coefficient": {
    "matches": 135,
@@ -174,7 +175,7 @@
   "components[1].mass_fraction": {
    "matches": 0,
    "mismatches": 0,
-   "omissions": 9,
+   "omissions": 7,
    "hallucinations": 0,
    "precision": 1.0,
    "recall": 0.0,

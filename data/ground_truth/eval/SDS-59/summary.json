@@ -2,6 +2,7 @@
  "pairs": 2505,
  "gold_rows": 3202,
  "gold_rows_unclaimed": 697,
+ "gold_fractions_above_1_dropped": 0,
  "extraction_entries_without_id": 329,
  "extraction_entries_duplicate_id": 3,
  "tolerance_rel": 0.005,

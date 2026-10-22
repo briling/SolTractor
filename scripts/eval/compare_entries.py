@@ -40,8 +40,15 @@ def load_entries(src: pathlib.Path) -> list[dict]:
     return out
 
 
-def flatten(e: dict) -> dict:
-    """The comparable part of an entry: conditions and, per liquid-phase component, the numeric Amount fields."""
+FRACTIONS = ('mole_fraction', 'mass_fraction', 'solute_solvent_mass_ratio')
+
+
+def flatten(e: dict, gold: bool = False, invalid: list | None = None) -> dict:
+    """The comparable part of an entry: conditions and, per liquid-phase component, the numeric Amount fields.
+
+    On the gold side a fraction above 1 is dropped and counted: the crawl's documentation flags
+    7 279 values where NIST dropped the 10^k header factor (`fraction_column_exceeds_1`), and such
+    a value cannot be compared with anything."""
     rec = {}
     if isinstance(e.get('temperature'), (int, float)):
         rec['temperature'] = float(e['temperature'])
@@ -55,6 +62,10 @@ def flatten(e: dict) -> dict:
             item = {'cas': key}
             for k, v in (c.get('amount') or {}).items():
                 if k in NUMERIC_AMOUNT and isinstance(v, (int, float)):
+                    if gold and k in FRACTIONS and v > 1:
+                        if invalid is not None:
+                            invalid.append((e.get('lab_id'), k, v))
+                        continue
                     item[k] = float(v)
             (gas if ph.get('state_of_matter') == 'gas' else comps).append(item)
     rec['components'] = sorted(comps, key=lambda x: x['cas'])
@@ -106,7 +117,8 @@ def main() -> None:
                 continue
             ext_by_id[m.group(1)] = e
     ids = sorted(set(gold_by_id) & set(ext_by_id))
-    gold = [{'nist_id': i, **flatten(gold_by_id[i])} for i in ids]
+    invalid = []
+    gold = [{'nist_id': i, **flatten(gold_by_id[i], gold=True, invalid=invalid)} for i in ids]
     extracted = [{'nist_id': i, **flatten(ext_by_id[i])} for i in ids]
     schema = infer_schema(gold)
     annotate_xeval(schema)
@@ -114,7 +126,7 @@ def main() -> None:
     parse_eval_schema(schema)
     result = evaluate(gold, extracted, schema=schema, id_field='nist_id')
     a.out.mkdir(parents=True, exist_ok=True)
-    summary = {'pairs': len(ids), 'gold_rows': len(gold_by_id), 'gold_rows_unclaimed': len(gold_by_id) - len(ids),
+    summary = {'pairs': len(ids), 'gold_rows': len(gold_by_id), 'gold_rows_unclaimed': len(gold_by_id) - len(ids), 'gold_fractions_above_1_dropped': len(invalid),
                'extraction_entries_without_id': unmatched, 'extraction_entries_duplicate_id': dup, 'tolerance_rel': a.tol,
                'precision': result.mean_precision, 'recall': result.mean_recall, 'f1': result.mean_f1,
                'per_field': {p: {k: getattr(agg, k) for k in ('matches', 'mismatches', 'omissions', 'hallucinations', 'precision', 'recall', 'f1') if hasattr(agg, k)} for p, agg in result.per_field.items()}}
@@ -131,7 +143,7 @@ def main() -> None:
                 by.setdefault(fr.status, []).append(f'{fr.path}={fr.gold_value}|{fr.extracted_value}' if fr.status == 'mismatch' else fr.path)
             w.writerow([i, ext_by_id[i].get('lab_id', ''), round(r.precision, 4), round(r.recall, 4), round(r.f1, 4),
                         ' '.join(by.get('mismatch', [])), ' '.join(by.get('omission', [])), ' '.join(by.get('hallucination', []))])
-    print(f"pairs {len(ids)} (gold rows {len(gold_by_id)}, unclaimed {len(gold_by_id) - len(ids)}; extraction entries without id {unmatched}, duplicate id {dup})")
+    print(f"pairs {len(ids)} (gold rows {len(gold_by_id)}, unclaimed {len(gold_by_id) - len(ids)}; extraction entries without id {unmatched}, duplicate id {dup}; gold fractions above 1 dropped {len(invalid)})")
     print(f"precision {result.mean_precision:.3f}  recall {result.mean_recall:.3f}  F1 {result.mean_f1:.3f}  (relative tolerance {a.tol})")
     for p, s in sorted(summary['per_field'].items(), key=lambda kv: -(kv[1].get('matches', 0) + kv[1].get('mismatches', 0) + kv[1].get('omissions', 0))):
         print(f"  {p:48s} match {s.get('matches', 0):6d}  mismatch {s.get('mismatches', 0):5d}  omission {s.get('omissions', 0):5d}  hallucination {s.get('hallucinations', 0):5d}  P {s.get('precision', 0):.3f} R {s.get('recall', 0):.3f}")

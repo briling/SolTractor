@@ -355,28 +355,40 @@ as a match within 0.5 % relative, and the library reports precision (of what we 
 right), recall (of what NIST has, how much we got) and F1, overall and per field, with match,
 mismatch, omission and hallucination counts. Results per volume in `data/ground_truth/eval/`.
 
-| volume | crop pass | pairs | ground-truth rows unclaimed | precision | recall | F1 |
-|---:|:---:|---:|---:|---:|---:|---:|
-| 20 | v1 | 173 | 394 | 0.907 | 0.811 | 0.852 |
-| 37 | v1 | 847 | 1 392 | 0.960 | 0.951 | 0.951 |
-| 38 | v2 | 697 | 276 | 0.971 | 0.905 | 0.931 |
-| 57 | v1 | 732 | 1 669 | 0.824 | 0.682 | 0.735 |
-| 58 | v1 | 610 | 1 097 | 0.978 | 0.978 | 0.978 |
-| 59 | v2 | 2 505 | 697 | 0.981 | 0.982 | 0.981 |
-| 60 | v1 | 636 | 188 | 0.890 | 0.863 | 0.874 |
-| 62 | v2 | 2 830 | 3 174 | 0.918 | 0.867 | 0.889 |
-| all | | 9 030 | 8 887 | 0.938 | 0.901 | 0.915 |
+| volume | crop pass | pairs | ground-truth rows unclaimed | gold fractions above 1 dropped | precision | recall | F1 |
+|---:|:---:|---:|---:|---:|---:|---:|---:|
+| 20 | v1 | 173 | 394 | 0 | 0.907 | 0.811 | 0.852 |
+| 37 | v1 | 847 | 1 392 | 1 | 0.960 | 0.951 | 0.951 |
+| 38 | v2 | 697 | 276 | 3 | 0.971 | 0.905 | 0.931 |
+| 57 | v1 | 732 | 1 669 | 172 | 0.824 | 0.714 | 0.751 |
+| 58 | v1 | 610 | 1 097 | 0 | 0.978 | 0.978 | 0.978 |
+| 59 | v2 | 2 505 | 697 | 0 | 0.981 | 0.982 | 0.981 |
+| 60 | v1 | 636 | 188 | 0 | 0.890 | 0.863 | 0.874 |
+| 62 | v2 | 2 830 | 3 174 | 474 | 0.918 | 0.892 | 0.900 |
+| all | | 9 030 | 8 887 | 650 | 0.938 | 0.911 | 0.920 |
 
 Two numbers describe the result. The pair count against the unclaimed rows is coverage: how many
 of NIST's rows our entries reproduce (the row measure of the eight-volume table, seen from the
-other side); the scores are fidelity on the paired rows. Over the eight volumes, 9 030 pairs score
-F1 0.915: temperatures match in 99 % of pairs, CAS numbers always, the mole fractions in 84 to
-90 %. The per-field counts in `all/per_field.csv` say where the rest goes: 1 010 pressure
-omissions, where the crawl takes the pressure from the sheet's Variables or caption and our
-exporter only from a column or a single-valued VARIABLES box; 718 mole-fraction mismatches on the
-first component, which include the misread prefactors the row checker flags and the rows where
-the two sides assign the fraction to different components; 102 gas-phase fractions the crawl
-holds as `gas_mole_fraction` while our exporter put them on the liquid component.
+other side); the scores are fidelity on the paired rows. A gold fraction above 1 is dropped before
+scoring and counted: the crawl's documentation flags 7 279 values where NIST dropped the 10^k
+header factor (`fraction_column_exceeds_1`), 650 of them in our pairs, nearly all in volumes 57
+and 62, and our values there are the printed ones. Over the eight volumes, 9 030 pairs score
+F1 0.920: temperatures match in 99 % of pairs, CAS numbers always, the mole fractions in 87 %.
+
+`pairs.csv` names every failing pair with the field, the gold value and ours, so the mismatches
+can be sorted into kinds. Of the 448 mole-fraction mismatches, 217 are far off (a wrong column,
+a glued cell or the other component; half of them on the two-block gas tables of volume 57),
+194 differ by a power of ten (gold values such as 0.959 or 0.827 next to our 0.0096 and 0.000083,
+so one side has the header's factor wrong, and the row checker's power-of-ten note says which),
+32 by one digit. Of the 194 pressure mismatches, 171 are a filing difference: the crawl takes the
+column (the gas partial pressure) as the pressure, our exporter the total from the VARIABLES box
+and the column as the component's partial pressure. Of the 87 temperature mismatches, 36 are off
+by tens of kelvin (a digit, or a shifted row), 23 are a Celsius value stored as kelvin by one side,
+28 other (one is 2273.15, a glued digit). The omissions are dominated by the 1 010 pressures the
+crawl takes from the sheet's Variables or caption text where our exporter needs a single value,
+718 molar concentrations on sheets whose concentration column our mapper did not recognise, and
+the 119 gas-phase fractions the crawl holds as `gas_mole_fraction` while our exporter filed them
+on the liquid component.
 
 Per quantity, over all components and the eight volumes (`data/ground_truth/eval/all/per_field.csv`,
 component positions merged):
@@ -384,10 +396,10 @@ component positions merged):
 | quantity | compared | match | mismatch | omission | hallucination | precision | recall |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | CAS number | 21 155 | 20 569 | 0 | 391 | 195 | 0.991 | 0.981 |
-| mole fraction | 10 418 | 8 293 | 985 | 870 | 270 | 0.869 | 0.817 |
+| mole fraction | 10 353 | 8 293 | 448 | 805 | 807 | 0.869 | 0.869 |
 | temperature | 8 920 | 8 694 | 87 | 139 | 0 | 0.990 | 0.975 |
 | pressure | 3 678 | 2 414 | 194 | 1 010 | 60 | 0.905 | 0.667 |
-| mass fraction | 2 525 | 1 848 | 121 | 387 | 169 | 0.864 | 0.784 |
+| mass fraction | 2 521 | 1 848 | 77 | 383 | 213 | 0.864 | 0.801 |
 | molar concentration | 2 222 | 1 390 | 10 | 718 | 104 | 0.924 | 0.656 |
 | Bunsen coefficient | 1 321 | 1 214 | 11 | 73 | 23 | 0.973 | 0.935 |
 | molality | 1 056 | 946 | 12 | 82 | 16 | 0.971 | 0.910 |

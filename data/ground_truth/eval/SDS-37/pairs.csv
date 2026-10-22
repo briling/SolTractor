@@ -685,7 +685,7 @@ nist_id,lab_id,precision,recall,f1,mismatched,omitted,hallucinated
 37_49/t0/r4,SDS-37/p081/0/r04,1.0,1.0,1.0,,,
 37_5/t0/r0,SDS-37/p026/0/r00,1.0,1.0,1.0,,,
 37_5/t0/r1,SDS-37/p026/0/r01,1.0,1.0,1.0,,,
-37_50/t0/r4,SDS-37/p082/0/r04,0.8333,0.7143,0.7692,components[0].mole_fraction=2.95|2.95e-06,components[1].mass_fraction,
+37_50/t0/r4,SDS-37/p082/0/r04,0.8333,0.8333,0.8333,,components[1].mass_fraction,components[0].mole_fraction
 37_53/t0/r0,SDS-37/p107/0/r00,1.0,1.0,1.0,,,
 37_53/t0/r1,SDS-37/p107/0/r01,1.0,1.0,1.0,,,
 37_53/t0/r2,SDS-37/p107/0/r02,1.0,1.0,1.0,,,
