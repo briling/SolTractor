@@ -1,0 +1,48 @@
+{
+  "data": {
+    "name": "1-Decene with Water",
+    "lab_id": "SDS-38/p236/0/r00",
+    "temperature": 288.15,
+    "measurement_methods": [
+      "the olefin content determined by titration with bromine using standard procedures"
+    ],
+    "mixing_methods": [
+      "equilibrated with 1 mL of (1) by mechanical shaking in a thermostatted glass burette"
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "1-Decene",
+            "substance": {
+              "name": "1-Decene",
+              "molecular_formula": "C10H20",
+              "cas_number": "872-05-9"
+            },
+            "amount": {
+              "mass_fraction": 1.1000000000000001e-05,
+              "units": "1",
+              "source_header": "10^3 * g_1/100 g solution (compiler)"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Natarajan, G.S.; Venkatachalam, K.A., J. Chem. Eng. Data 1972, 17, 328-9.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

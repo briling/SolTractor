@@ -1,0 +1,59 @@
+{
+  "data": {
+    "name": "1-Ethylnaphthalene with Sodium chloride and Water",
+    "lab_id": "SDS-38/p305/0/r05",
+    "temperature": 298.15,
+    "measurement_methods": [
+      "fluorescence and UV absorption measurements",
+      "fluorescent intensity was measured at 365 nm",
+      "The UV method was used to obtain the absorptivity of 1-ethylnaphthalene in ethanol solution therefore provide an absolute solubility scale for the fluorescence method."
+    ],
+    "mixing_methods": [
+      "saturated solution was prepared by adding excess amount of 1-ethylnapthalene to an air-tight 1x1 cm quartz fluorescence cell containing 5 mL of salt solution",
+      "The cell was rotated at 20 rpm for at least 72 hr in a thermostatted water bath"
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "1-Ethylnaphthalene",
+            "substance": {
+              "name": "1-Ethylnaphthalene",
+              "molecular_formula": "C12H12",
+              "cas_number": "1127-76-0"
+            },
+            "amount": {
+              "molar_concentration": 0.0467,
+              "units": "mol/m^3",
+              "source_header": "10^5 * n_1/V_2 [mol/L]"
+            }
+          },
+          {
+            "name": "Sodium chloride",
+            "substance": {
+              "name": "Sodium chloride",
+              "molecular_formula": "NaCl",
+              "cas_number": "7647-14-5"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Schwarz, F.P., J. Chem. Eng. Data. 1977, 22, 273-7.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

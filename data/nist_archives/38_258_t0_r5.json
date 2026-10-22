@@ -1,0 +1,61 @@
+{
+  "data": {
+    "name": "1-Methylnaphthalene with Sodium chloride and Water",
+    "lab_id": "SDS-38/p258/0/r05",
+    "temperature": 293.85,
+    "measurement_methods": [
+      "The solubility of 1-methylnaphthalene in NaCl solution was determined by fluorescence and UV absorption measurements.",
+      "In the fluorescence method, saturated solution was prepared by adding excess amount of 1-methylnapthalene to an air-tight 1x1 cm quartz fluorescence cell containing 5 mL salt solution.",
+      "The cell was rotated at 20 rpm for at least cell 72 hr in a thermostatted water bath and then its fluorescent intensity was measured at 350 and 320 nm.",
+      "The Spectrofluorimeter employed a ratio-photon counting mode where 1- methylnaphthalene concentration was linearly related to the fluorescence signal.",
+      "The UV method was used to obtain the absorptivity of 1-methylnaphthalene in ethanol therefore provide an absolute solubility scale for the fluorescence method."
+    ],
+    "mixing_methods": [
+      "saturated solution was prepared by adding excess amount of 1-methylnapthalene to an air-tight 1x1 cm quartz fluorescence cell containing 5 mL salt solution",
+      "The cell was rotated at 20 rpm for at least cell 72 hr in a thermostatted water bath"
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "1-Methylnaphthalene",
+            "substance": {
+              "name": "1-Methylnaphthalene",
+              "molecular_formula": "C11H10",
+              "cas_number": "90-12-0"
+            },
+            "amount": {
+              "molar_concentration": 0.154,
+              "units": "mol/m^3",
+              "source_header": "10^4 * Concentration c_1 [mol dm**-3]"
+            }
+          },
+          {
+            "name": "Sodium chloride",
+            "substance": {
+              "name": "Sodium chloride",
+              "molecular_formula": "NaCl",
+              "cas_number": "7647-14-5"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Schwarz, F.P., J. Chem. Eng. Data. 1977, 22, 273-7.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

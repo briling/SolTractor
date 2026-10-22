@@ -1,0 +1,46 @@
+{
+  "data": {
+    "name": "1-Methylnaphthalene with Water",
+    "lab_id": "SDS-38/p257/0/r03",
+    "temperature": 298.15,
+    "measurement_methods": [
+      "The solubility of (1) in (2) was determined from its absorbance. Since the concentration of (1) in (2) are too low to determine its extinction coefficent accurately, the absorption measurements were performed on measured volumes of the saturated solutions diluted with equal volumes of ethanol."
+    ],
+    "mixing_methods": [],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "1-Methylnaphthalene",
+            "substance": {
+              "name": "1-Methylnaphthalene",
+              "molecular_formula": "C11H10",
+              "cas_number": "90-12-0"
+            },
+            "amount": {
+              "molar_concentration": 0.21000000000000002,
+              "units": "mol/m^3",
+              "source_header": "10^4 * Concentration c_1 [mol dm**-3]"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Schwarz, F.P.; Wasik, S.P., J. Chem. Eng. Data 1977, 22, 270-3.",
+        "publication_authors": []
+      }
+    ]
+  }
+}
