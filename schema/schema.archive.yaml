@@ -4,22 +4,116 @@ definitions:
     Amount:
       base_sections:
         - nomad.datamodel.data.ArchiveSection
+      description: "Named solubility and composition quantities for one component, normalized to the declared storage units. For a header 10^n q, divide the tabulated value by 10^n before unit conversion. Several measures may coexist; omitted measures are not derived."
       quantities:
-        type:
-          type: str
-          description: "Kind of amount, such as molarity, molality, mass fraction, molar fraction, or partial pressure."
-          m_annotations:
-            eln:
-              component: StringEditQuantity
-        value:
+        mole_fraction:
           type: np.float64
-          description: "Numerical value of the extracted amount in the specified units."
+          description: "Component amount divided by total amount in its phase: x in liquids, y in gases, or x(s) in solids; dimensionless."
           m_annotations:
             eln:
               component: NumberEditQuantity
-        units:
+        mass_fraction:
+          type: np.float64
+          description: "Component mass divided by solution mass; dimensionless. Divide printed 100 w or g per 100 g solution by 100, g/kg solution by 1000, and mg/kg solution by 1000000."
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+        molality:
+          type: np.float64
+          unit: mole / kilogram
+          description: "Solute amount per unit mass of solvent, in mol/kg solvent."
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+        molar_concentration:
+          type: np.float64
+          unit: mole / meter ** 3
+          description: "Component amount per solution volume, in mol/m^3. Multiply mol/dm^3 or mol/L values by 1000 for storage."
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+            display:
+              unit: mole / decimeter ** 3
+        mass_concentration:
+          type: np.float64
+          unit: kilogram / meter ** 3
+          description: "Component mass per solution volume, in kg/m^3; g/dm^3 and g/L have the same numerical value. Mass-per-mass forms use mass_fraction or solute_solvent_mass_ratio according to the stated denominator."
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+            display:
+              unit: gram / decimeter ** 3
+        solute_solvent_mass_ratio:
+          type: np.float64
+          description: "Solute mass divided by solvent mass; dimensionless. Divide g per 100 g solvent by 100, g/kg solvent by 1000, and mg/kg solvent by 1000000. The source must identify the solvent denominator."
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+        bunsen_coefficient:
+          type: np.float64
+          description: "Bunsen coefficient alpha: gas volume at the source's stated reference conditions (usually 273.15 K and 1 atm) divided by solvent volume at measurement conditions; dimensionless. Use bunsen_coefficient_per_pressure for a pressure-normalized result."
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+        bunsen_coefficient_per_pressure:
+          type: np.float64
+          unit: 1 / pascal
+          description: "Bunsen reference-condition gas-volume/solvent-volume ratio divided by gas partial pressure, in Pa^-1. The source must specify the gas-volume reference conditions; convert inverse-atmosphere values to inverse pascals."
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+        ostwald_coefficient:
+          type: np.float64
+          description: "Ostwald coefficient L: gas volume at measurement temperature and pressure divided by solvent volume at measurement conditions; dimensionless. No value is derived from the Bunsen coefficient."
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+        kuenen_coefficient:
+          type: np.float64
+          unit: meter ** 3 / kilogram
+          description: "Kuenen coefficient S: gas volume at the source's stated reference conditions (usually 273.15 K and 1 atm) per solvent mass, in m^3/kg. Use kuenen_coefficient_per_pressure for a pressure-normalized result."
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+        kuenen_coefficient_per_pressure:
+          type: np.float64
+          unit: meter ** 3 / (kilogram * pascal)
+          description: "Kuenen reference-condition gas volume per solvent mass divided by gas partial pressure, in m^3/(kg Pa). The source must specify the gas-volume reference conditions; convert cm^3/(g atm) to the storage units."
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+        henry_constant_p_over_x:
+          type: np.float64
+          unit: pascal
+          description: "Henry constant defined as gas partial pressure divided by liquid-phase mole fraction, p/x, in pascals. Select this convention from the source definition, not the symbol H alone."
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+        henry_constant_p_over_c:
+          type: np.float64
+          unit: pascal * meter ** 3 / mole
+          description: "Henry constant defined as gas partial pressure divided by liquid-phase molar concentration, p/c, in Pa m^3/mol. Convert reported atm m^3/mol or dm^3 mmHg/mol to these storage units."
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+        henry_constant_c_gas_over_c_liquid:
+          type: np.float64
+          description: "Henry constant defined as gas-phase molar concentration divided by liquid-phase molar concentration using matching concentration units; dimensionless. Select this convention from the source definition, not the symbol H alone."
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+        partial_pressure:
+          type: np.float64
+          unit: pascal
+          description: "Component partial pressure associated with the reported gas-solubility measurements, in pascals. No pressure is assumed when omitted."
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+            display:
+              unit: kilopascal
+        estimated_error_solubility:
           type: str
-          description: "Units associated with the value, such as mol/L, mol/kg, Pa, or dimensionless."
+          description: "Reported estimated error in solubility, preserved as source text with its expression, units, symbols, and line breaks."
           m_annotations:
             eln:
               component: StringEditQuantity
@@ -34,13 +128,26 @@ definitions:
           m_annotations:
             eln:
               component: StringEditQuantity
+        density:
+          type: np.float64
+          unit: kilogram / meter ** 3
+          description: "Mass density of this component at the stated measurement conditions, in kg/m^3."
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+        source_purity:
+          type: str
+          description: "Reported source, preparation, and purity of this material, preserved as text including units, symbols, percentages, and line breaks."
+          m_annotations:
+            eln:
+              component: StringEditQuantity
       sub_sections:
         substance:
           section: nomad.datamodel.metainfo.basesections.PubChemPureSubstanceSection
           description: "Chemical identity and PubChem details of the substance forming this component."
         amount:
           section: Amount
-          description: "Extracted amount expressed by its type, value, and units."
+          description: "Reported solubility and composition quantities for this component, normalized to the declared storage units."
 
     Phase:
       base_sections:
@@ -63,17 +170,36 @@ definitions:
           m_annotations:
             eln:
               component: EnumEditQuantity
+        density:
+          type: np.float64
+          unit: kilogram / meter ** 3
+          description: "Bulk mass density of this phase at the stated measurement conditions, in kg/m^3."
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+        salinity:
+          type: np.float64
+          unit: dimensionless
+          description: "Mass of dissolved salts divided by solution mass in this phase; dimensionless. Divide reported g/kg solution by 1000 for storage."
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+            display:
+              unit: gram / kilogram
+        ph:
+          type: np.float64
+          description: "pH of this phase at the stated measurement conditions; dimensionless."
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
       sub_sections:
-        amount:
-          section: Amount
-          description: "Extracted amount expressed by its type, value, and units."
         substance:
           section: nomad.datamodel.metainfo.basesections.PubChemPureSubstanceSection
           description: "Chemical identity and PubChem details of the substance forming this phase."
         components:
           repeats: true
           section: "#/PhaseComponent"
-          description: "Components forming this phase, with their substance details and extracted amounts."
+          description: "Components forming this phase, with their substance details and solubility quantities."
 
     EquilibriumSolution:
       base_sections:
@@ -89,10 +215,30 @@ definitions:
               component: NumberEditQuantity
             display:
               unit: celsius
+        temperature_initial:
+          type: np.float64
+          unit: kelvin
+          description: "Initial temperature T_in of a dynamic measurement interval, in kelvin."
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+        temperature_final:
+          type: np.float64
+          unit: kelvin
+          description: "Final temperature T_fin of a dynamic measurement interval, in kelvin."
+          m_annotations:
+            eln:
+              component: NumberEditQuantity
+        estimated_error_temperature:
+          type: str
+          description: "Reported estimated error in temperature, preserved as source text with its expression, units, symbols, and line breaks."
+          m_annotations:
+            eln:
+              component: StringEditQuantity
         pressure:
           type: np.float64
           unit: pascal
-          description: "Gas pressure over the solution (assumed to be isobar)."
+          description: "Total gas pressure over the solution, in pascals; component partial pressures are stored in PhaseComponent.amount."
           m_annotations:
             eln:
               component: NumberEditQuantity
