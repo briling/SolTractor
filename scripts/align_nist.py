@@ -29,6 +29,11 @@ def main() -> None:
     a = ap.parse_args()
     nist = json.load((NIST / f'SDS-{a.volume}.json').open())
     for n in nist:                                   # NIST keys evaluator tables as sheets without a citation
+        if 'evaluated' in n:                         # the DISSOLVE import carries NIST's own flag
+            n['kind'] = 'evaluation' if n['evaluated'] else 'compilation'
+            if not n['tables'] and n['kind'] == 'evaluation':
+                n['kind'] = 'evaluation-text'
+            continue
         n['kind'] = ('evaluation' if n['critical_evaluation'] or not n['original_measurements'].strip()
                      else 'compilation')
         if not n['tables'] and n['kind'] == 'evaluation':
