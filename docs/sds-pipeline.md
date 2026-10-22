@@ -378,6 +378,37 @@ first component, which include the misread prefactors the row checker flags and 
 the two sides assign the fraction to different components; 102 gas-phase fractions the crawl
 holds as `gas_mole_fraction` while our exporter put them on the liquid component.
 
+Per quantity, over all components and the eight volumes (`data/ground_truth/eval/all/per_field.csv`,
+component positions merged):
+
+| quantity | compared | match | mismatch | omission | hallucination | precision | recall |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| CAS number | 21 155 | 20 569 | 0 | 391 | 195 | 0.991 | 0.981 |
+| mole fraction | 10 418 | 8 293 | 985 | 870 | 270 | 0.869 | 0.817 |
+| temperature | 8 920 | 8 694 | 87 | 139 | 0 | 0.990 | 0.975 |
+| pressure | 3 678 | 2 414 | 194 | 1 010 | 60 | 0.905 | 0.667 |
+| mass fraction | 2 525 | 1 848 | 121 | 387 | 169 | 0.864 | 0.784 |
+| molar concentration | 2 222 | 1 390 | 10 | 718 | 104 | 0.924 | 0.656 |
+| Bunsen coefficient | 1 321 | 1 214 | 11 | 73 | 23 | 0.973 | 0.935 |
+| molality | 1 056 | 946 | 12 | 82 | 16 | 0.971 | 0.910 |
+| Kuenen coefficient | 914 | 831 | 1 | 54 | 28 | 0.966 | 0.938 |
+| Ostwald coefficient | 856 | 787 | 11 | 23 | 35 | 0.945 | 0.959 |
+| partial pressure | 538 | 0 | 0 | 0 | 538 | 0.000 | 0.000 |
+| solute-solvent mass ratio | 256 | 34 | 0 | 28 | 194 | 0.149 | 0.548 |
+| gas-phase mole fraction | 166 | 35 | 12 | 119 | 0 | 0.745 | 0.211 |
+| Henry constant p/c | 153 | 44 | 0 | 93 | 16 | 0.733 | 0.321 |
+| Henry constant p/x | 126 | 10 | 0 | 51 | 65 | 0.133 | 0.164 |
+| Henry constant c/c | 94 | 38 | 0 | 31 | 25 | 0.603 | 0.551 |
+| mass concentration | 67 | 44 | 0 | 20 | 3 | 0.936 | 0.688 |
+
+Three rows of that table are not extraction errors but places where the two exporters file the
+same number differently, and they can be fixed on either side: the 538 partial pressures our
+exporter stores per component where the crawl keeps one pressure per row; the solute-solvent
+mass ratio, which our exporter stores for both components of a pair of `g_1/g_2` and `g_2/g_1`
+columns and the crawl for the solute only; and the Henry constant conventions, where the crawl's
+unit strings ("atm (mole fraction)^-1") and our header reading land in different fields. The
+mole-fraction and pressure rows are the extraction's real residue.
+
 One systematic difference sits on the ground-truth side. The crawl resolves header subscripts
 (x_1) by the order of names in the system name; on the water-in-solvent sheets of volume 60 the
 print numbers water as (1), NIST's own component list agrees, and the crawl's rule assigns the
