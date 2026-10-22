@@ -429,3 +429,38 @@ hallucination on one component and an omission on the other. Taking NIST's compo
 instead, everywhere or gated on the SOURCE AND PURITY text, scored worse on the other volumes
 (F1 0.709 and 0.885 overall), so the crawl's rule stays and the caveat is recorded here; a
 per-sheet decision needs the caption, which these sheets lack.
+
+## An external header map, filtered by the checks
+
+The rules of `sdstable.column()` leave 529 distinct numeric headers of the eight volumes
+unmapped (775 columns). A language model (Qwen3.8 27B, one call per header with the header,
+the components, the other headers and sample cells, answers constrained to the quantity
+vocabulary) proposed a mapping for each; `sdstable.load_header_map()` takes such a file on
+`to_nomad.py --header-map` and `check_rows.py --header-map`, keeping only records whose kind is
+in the vocabulary, whose prefactor is a power of ten and whose unit is in the unit table, and
+checking the component index against each sheet. 383 of the 529 records pass those constraints.
+
+Used as delivered the map is a wash: on the 9 030 paired rows recall rises from 0.911 to 0.923
+and precision falls from 0.938 to 0.924, F1 0.920 to 0.921. It fills omissions (molar
+concentration 718 to 368) and adds about as many wrong fields (molar concentration
+hallucinations 69 to 271, mass concentration 3 to 168, molality mismatches 12 to 70), and the
+row checks see the same thing from the inside: hard-check failures on volume 57 go from 81 to
+500, mostly `x=x (duplicate column)`, a header mapped onto a quantity another column already
+carries.
+
+`scripts/filter_header_map.py` keeps only what the data supports. Every mapping is judged by
+two witnesses: the identities between columns, by checking each sheet that prints the header
+with and without that one mapping and attributing the checks that exist only because of it;
+and the ground truth, through the pairs of `compare_entries.py` on an export made with the
+full map, where a mismatched or hallucinated field of the mapped quantity on a sheet printing
+the header counts against it and a clean paired row for it. A mapping with at most one failure
+per five successes is kept, one with more is rejected, one that nothing touches is untested
+(kept only with `--keep-untested`). On this map: 149 kept, 140 rejected, 94 untested; the seven
+errors the model's operator had flagged by hand are all rejected. With the kept map the export
+scores F1 0.925 (precision 0.935, recall 0.921): every hallucination count is back at the
+baseline, molar concentration omissions fall from 718 to 430, and the remaining new mismatches
+are pressure columns (`bar`, `P/Atm`, `kg/cm2`) read as total pressure where the crawl files the
+partial pressure, the filing difference already listed above. Per volume, 38 goes from 0.931 to
+0.958, 57 from 0.751 to 0.775, 60 from 0.874 to 0.880; none falls. The kept map and the per-header
+report are in `data/ground_truth/eval/header-map/`; the rejected and untested headers go back
+for a second pass with reasoning on.

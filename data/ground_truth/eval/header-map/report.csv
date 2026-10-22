@@ -1,0 +1,384 @@
+header,kind,i,pre,unit,sheets,identity_pass,identity_fail,gold_good,gold_bad,verdict,failing_checks,confidence
+10^2γ_2/g cm^-3 a,density,,100,g/cm3,5,0,0,43,0,kept,,0.95
+103 mol(1)/dm3 sln,concentration,1,1000,mol/dm3,5,0,0,16,0,kept,,0.95
+Total Pressure P/atm 1P/MPa,pressure,,1,MPa,4,0,0,0,0,untested,,0.95
+n_1V_2^-1/mol m^-3,concentration,1,1,mol/m3,4,0,0,4,0,kept,,0.95
+C_1^a,concentration,1,1,mol/L,4,4,0,14,0,kept,,0.95
+μg(1)/kg(2),mass_concentration,1,1,mg/kg,4,0,0,0,35,rejected,,0.95
+Total Pressure P/psia 1P/MPa,pressure,,1,psia,4,0,0,0,0,untested,,0.95
+Solubility cm3(STP)/g,bunsen,1,1,dimensionless,3,0,0,0,31,rejected,,0.95
+1000  g_1/g_2,mass_ratio,1,1000,g/kg,3,0,6,6,0,rejected,r<->w 6,0.95
+K_H/MPa^b,henry_pc,1,1,MPa,3,0,0,0,13,rejected,,0.95
+1000 g_1/g_2,mass_ratio,1,1000,g/kg,3,0,10,10,0,rejected,r<->w 10,0.95
+(c_2 + c_3) /mol dm^-3,concentration,,1,mol/dm3,3,101,0,26,0,kept,,0.95
+Conc. of amine / mol l-1,concentration,,1,mol/L,3,28,0,28,0,kept,,0.95
+"Ethene Fraction, x1",molar_fraction,1,1,dimensionless,3,0,0,0,0,untested,,1.0
+1000 g1/g2,mass_ratio,1,1000,g/kg,3,0,7,7,0,rejected,r<->w 7,0.95
+"Solvent, x2",molar_fraction,2,1,dimensionless,3,40,43,0,17,rejected,sum_x=1 2; x=x (duplicate column) 41,0.95
+"2Ethene Partial Pressure, p1/MPa",partial_pressure,1,1,MPa,3,0,0,0,0,untested,,0.95
+"1,2 Partial p/MPa",partial_pressure,1,1,MPa,3,0,0,0,0,untested,,0.95
+"Ethene Mole Fraction, 104x1",molar_fraction,1,10000,dimensionless,3,40,0,6,21,rejected,,0.95
+Solubility of ethene /mmol L-1,concentration,1,1,mol/L,3,0,0,0,0,untested,,0.95
+"liquid, x1",molar_fraction,1,1,dimensionless,3,5,35,27,0,rejected,x=x (duplicate column) 35,0.98
+p^a/MPa,pressure,,1,MPa,3,0,0,7,0,kept,,0.98
+"Solvent vapor, y2",molar_fraction,2,1,dimensionless,3,0,41,0,17,rejected,x=x (duplicate column) 41,0.95
+P/Atm,pressure,,1,atm,3,0,0,30,0,kept,,0.95
+n_1/V_2/mol m^-3,concentration,1,1,mol/m3,3,0,0,1,1,rejected,,0.95
+"Ethene in liquid Mole Fraction, x1",molar_fraction,1,1,dimensionless,3,58,0,18,0,kept,,0.98
+Partial p/MPa,partial_pressure,1,1,MPa,2,0,0,0,0,untested,,0.95
+Mole/litre s,concentration,1,1,mol/L,2,5,0,7,9,rejected,,0.95
+(c_2+c_3) /mol  dm^-3,concentration,,1,mol/dm3,2,53,0,52,0,kept,,0.95
+Solubility s/cm3 gas at NTP(g solvent)-1,concentration,1,1,mol/dm3,2,0,0,0,18,rejected,,0.9
+g(2)/kg sln*,mass_concentration,2,1,g/kg,2,0,7,0,2,rejected,gamma<->c 7,0.95
+P=101.325,pressure,,1,kPa,2,0,0,0,0,untested,,0.95
+"Ethene x1, mol",molar_fraction,1,1,dimensionless,2,22,0,2,0,kept,,0.95
+g(1)100 g sln,mass_concentration,1,1,g/100 g,2,0,0,0,28,rejected,,0.95
+"kscc/dm3 mol-1a,c",concentration,1,1,mol/dm3,2,0,1,2,15,rejected,range 1,0.6
+10^5 mol(1) L^-1,concentration,1,100000,mol/L,2,0,0,4,0,kept,,0.95
+^1\log_10(H'/mmHg),henry_px,1,1,mmHg,2,0,2,0,0,rejected,H_px->x 2,0.95
+g_1V_2^-1/g m^-3,mass_concentration,1,1,g/dm3,2,0,0,2,0,kept,,0.95
+"Solubility, cm3 (STP)/g",bunsen,1,1,dimensionless,2,0,0,0,0,untested,,0.95
+"x_3, Mole Fraction^2",molar_fraction,3,1,dimensionless,2,0,0,16,0,kept,,0.95
+I/mol L^-1 b,concentration,1,1,mol/L,2,0,0,0,24,rejected,,0.95
+mol(2) dm-3 sln,concentration,2,1,mol/dm3,2,0,0,3,7,rejected,,0.95
+10^3 \text g(1)/100 g sln (compiler),mass_concentration,1,1000,g/100 g,2,0,14,0,14,rejected,gamma<->c 14,0.95
+10^5mol(1)/dm^3b,concentration,1,100000,mol/dm3,2,2,0,2,0,kept,,0.95
+mg(1)/L sln,mass_concentration,1,1,mg/kg,2,0,0,0,0,untested,,0.95
+Atm,pressure,,1,atm,2,0,0,10,0,kept,,0.95
+P/mm mercury,pressure,,1,mmHg,2,0,0,16,0,kept,,0.98
+10^3 \text g(1)/100 \text g sln (compiler)^a,mass_concentration,1,1000,g/100 g,2,0,8,0,8,rejected,gamma<->c 8,0.95
+mol/L sln,concentration,1,1,mol/L,2,0,0,5,1,kept,,0.95
+Cloud point disappears,temperature_C,,1,°C,2,0,0,18,0,kept,,0.95
+"1Solvent Composition, x3, Mole Fraction Toluene",molar_fraction,3,1,dimensionless,2,0,0,5,0,kept,,0.95
+Solubility s/g (100g)-1Mole,mass_concentration,1,1,g/100 g,2,0,0,0,0,untested,,0.95
+10mol(1)/dm^3b,concentration,1,10,mol/dm3,2,2,0,2,0,kept,,0.95
+"1Average Mole Fraction, x1",molar_fraction,1,1,dimensionless,2,7,0,16,0,kept,,1.0
+Ethene in Gas y1,molar_fraction,1,1,dimensionless,2,0,0,18,0,kept,,0.95
+p1/Atm,partial_pressure,1,1,atm,2,0,0,5,22,rejected,,0.95
+"Gas Phase Ethene Mole Fraction, y1",molar_fraction,1,1,dimensionless,2,9,21,21,0,rejected,x=x (duplicate column) 21,1.0
+"k_\textSCC/dm^3  mol^-1  a,c",henry_cc,1,1,mol/dm3,2,0,0,2,15,rejected,,0.95
+"in liquid, x1",molar_fraction,1,1,dimensionless,2,0,16,0,0,rejected,x=x (duplicate column) 16,0.95
+Water,mass_fraction,1,1,g/100 g,2,23,20,0,10,rejected,w=w (duplicate column) 20,0.6
+"Fraction in Liquid w, mass",mass_fraction,1,1,dimensionless,2,22,0,2,0,kept,,0.95
+I/mol  L^-1  ^b,concentration,1,1,mol/L,2,0,0,0,13,rejected,,0.95
+10^6 x_1 (\textcompiler)^a,molar_fraction,1,1000000,dimensionless,2,0,0,8,0,kept,,0.95
+Midpoint,temperature_C,,1,°C,2,0,0,18,0,kept,,0.95
+10^2mol(1)/dm^3 b,concentration,1,100,mol/dm3,2,1,0,2,0,kept,,0.95
+mol(2)dm-3sln,concentration,2,1,mol/dm3,2,0,0,10,0,kept,,0.95
+"1Solute, y1",molar_fraction,1,1,dimensionless,2,0,25,0,17,rejected,x=x (duplicate column) 25,0.95
+mL(1)/100 mL(2),mass_ratio,1,1,g/100 g,2,8,0,0,6,rejected,,0.6
+mol(2)/L sln,concentration,2,1,mol/L,2,0,0,0,0,untested,,0.95
+"1Solute, x1",molar_fraction,1,1,dimensionless,2,24,25,0,17,rejected,x=x (duplicate column) 25,0.95
+Chlorinity b,salinity,,1,dimensionless,2,0,0,20,0,kept,,0.95
+10^4 \text mol(1)/\textdm^3 \text sln,concentration,1,10000,mol/dm3,2,0,8,8,0,rejected,gamma<->c 8,0.95
+"Liquid Phase Ethene Mole Fraction, x1",molar_fraction,1,1,dimensionless,2,19,21,21,0,rejected,x=x (duplicate column) 21,1.0
+μg(1)/g(2),mass_ratio,1,1,g/kg,2,0,0,0,0,untested,,0.95
+10ml(1)/dm3(2)a,concentration,1,10,mol/dm3,2,0,0,0,6,rejected,,0.95
+"in vapor, y1",molar_fraction,1,1,dimensionless,2,0,16,0,0,rejected,x=x (duplicate column) 16,0.98
+"1 Solubility at p = 101.325 kPa Mole Fraction, x1",molar_fraction,1,1,dimensionless,2,9,9,0,0,rejected,H_px->x 9,0.98
+MPa,pressure,,1,MPa,2,0,0,10,0,kept,,0.95
+10^6 x_1 \text(compiler),molar_fraction,1,1000000,dimensionless,2,0,0,14,0,kept,,0.95
+10^4 \text mol(1) \text L^-1,concentration,1,10000,mol/L,2,0,14,14,0,rejected,gamma<->c 14,0.95
+^1T/K,temperature_K,,1,K,2,17,0,6,0,kept,,0.95
+10^4 mol(1)/L sln,concentration,1,10000,mol/L,2,17,0,9,0,kept,,0.95
+"vapor, y1",molar_fraction,1,1,dimensionless,2,0,23,15,0,rejected,x=x (duplicate column) 23,0.95
+Cloud point appears,temperature_C,,1,°C,2,0,0,18,0,kept,,0.95
+10-2g(1)/kg a,molality,1,100,mol/kg,2,0,0,7,0,kept,,0.95
+mol(NH4Cl)/dm3,concentration,2,1,mol/dm3,2,0,0,0,2,rejected,,0.95
+P_1/cmHg,partial_pressure,1,1,mmHg,2,0,20,1,16,rejected,P=p1+p_sat 20,0.95
+mol(KCl)/dm3,concentration,2,1,mol/dm3,2,0,0,16,0,kept,,0.98
+Acetone in Liquid 1 - x1,molar_fraction,1,1,dimensionless,2,0,2,18,0,kept,x=x (duplicate column) 2,0.95
+Temperatures t/°C,temperature_C,,1,°C,2,35,0,18,0,kept,,1.0
+pure  H_2O,concentration,1,1,mol/dm3,2,37,0,0,28,rejected,,0.95
+Acetone in Gas 1 - y1,molar_fraction,1,1,dimensionless,2,0,0,18,0,kept,,0.6
+100  w_j (compiler),mass_fraction,2,100,g/100 g,2,0,7,0,0,rejected,c<->w (rho) 3; w<->x 4,0.95
+"1p1= 101.325,x1",molar_fraction,1,1,dimensionless,1,0,2,0,0,rejected,x=x (duplicate column) 2,0.95
+"t,°C",temperature_C,,1,°C,1,0,0,9,0,kept,,1.0
+°C,temperature_C,,1,°C,1,0,0,0,0,untested,,1.0
+Concentration of electrolyte /mol L-1 Potassium bromide; KBr; [7758-02-3],concentration,2,1,mol/L,1,0,0,0,0,untested,,0.95
+"Composition Mole Fraction Propanol, x3 Ethene,",molar_fraction,3,1,dimensionless,1,0,0,11,0,kept,,0.95
+"^1 Mole Fraction Ethene,  x_1",molar_fraction,1,1,dimensionless,1,2,0,2,0,kept,,0.98
+Gas Mole Fraction /y1,molar_fraction,1,1,dimensionless,1,0,0,0,0,untested,,0.95
+I/mol  L^-1^b,concentration,1,1,mol/L,1,0,0,0,7,rejected,,0.95
+"^1P=101.325, x^2p =101.325, x_1",molar_fraction,1,1,dimensionless,1,0,6,0,0,rejected,x=x (duplicate column) 6,0.95
+10^4K_H/mol m^-3 Pa^-1 a,henry_pc,1,10000,dimensionless,1,0,0,0,16,rejected,,0.95
+10^3c_1/mol  \dotL^-1  ^c,concentration,1,1000,mol/L,1,0,0,20,0,kept,,0.95
+Solubility cm3 (STP)/g,bunsen,1,1,dimensionless,1,0,0,0,0,untested,,0.95
+Total Pressure /atm,pressure,,1,atm,1,0,0,21,0,kept,,0.95
+"Solvent Composition, x_3 , Mole Fraction Toluene",molar_fraction,3,1,dimensionless,1,0,0,5,0,kept,,0.95
+^2Ostwald Coefficient L /cm ^3gas cm^-3 solvent,ostwald,1,1,dimensionless,1,0,0,0,0,untested,,0.95
+q(1)/100 g soln.,mass_concentration,1,1,g/100 g,1,0,0,0,0,untested,,0.95
+"2Ethene Mole FractionVapor, y1 Liquid, x1",molar_fraction,1,1,dimensionless,1,0,0,0,0,untested,,0.95
+c_3^a mol  dm^-3,concentration,3,1,mol/dm3,1,0,0,20,0,kept,,0.95
+10^3mol(1)/kg(2)  b,molality,1,1000,mol/kg,1,1,0,1,0,kept,,0.95
+π/K,temperature_K,,1,K,1,1,0,1,0,kept,,0.95
+104 Mass %*,mass_fraction,1,100,dimensionless,1,0,0,1,0,kept,,0.95
+Concentration of nitric acid / mol l-1,concentration,2,1,mol/L,1,5,0,0,5,rejected,,0.95
+"Mole of in fraction ethene liquid,  x_C_2H_4",molar_fraction,1,1,dimensionless,1,10,10,0,10,rejected,x=x (duplicate column) 10,0.95
+10^6 mol(1) L^-1,concentration,1,1000000,mol/L,1,0,0,9,0,kept,,0.95
+H/MPa (mol fraction) ^1,henry_pc,1,1,MPa,1,0,0,2,0,kept,,0.95
+10^3x_1 ---,molar_fraction,1,1000,dimensionless,1,12,0,0,0,kept,,0.95
+"1Solubility,c, Moles per litre",concentration,1,1,mol/L,1,0,0,0,3,rejected,,0.95
+104x1(corrected by compiler),mass_fraction,1,10000,dimensionless,1,0,5,5,0,rejected,w=w (duplicate column) 5,0.95
+"vapor2, y1",molar_fraction,1,1,dimensionless,1,0,12,12,0,rejected,x=x (duplicate column) 12,0.95
+"vapor, y_1",molar_fraction,1,1,dimensionless,1,0,12,0,0,rejected,x=x (duplicate column) 12,0.95
+Solubility/mol kg-1,molality,1,1,mol/kg,1,10,0,0,10,rejected,,0.95
+T^a K,temperature_K,,1,K,1,28,0,20,0,kept,,0.98
+"Dodecane, μg(1)/L(2)",mass_concentration,1,1,mg/kg,1,0,0,0,0,untested,,0.95
+10^7  mol(1)/L sln,concentration,1,10000000,mol/L,1,9,0,9,0,kept,,0.95
+"Mole b fraction,x1",molar_fraction,1,1,dimensionless,1,1,0,1,0,kept,,0.95
+3Solvent Mole Fraction /x'3,molar_fraction,3,1,dimensionless,1,0,0,0,0,untested,,0.95
+t/^0C,temperature_C,,1,°C,1,2,0,2,0,kept,,0.95
+Ethene Partial Pressure p1/mm mercury,partial_pressure,1,1,mmHg,1,0,0,0,0,untested,,1.0
+Calcium chloride; CaCl2; [10043-52-4],mass_fraction,2,1,dimensionless,1,0,40,0,0,rejected,w=w (duplicate column) 40,0.95
+g(1)/100 g sln(corrected by compiler),mass_concentration,1,100,g/100 g,1,0,0,0,4,rejected,,0.95
+T/K T/K,temperature_K,,1,K,1,0,0,0,0,untested,,0.95
+Concentration of salt /mol L-1,concentration,2,1,mol/L,1,15,0,0,0,kept,,0.95
+c_1/cm^3(STP) dm^-3,concentration,1,1,mol/dm3,1,0,0,0,1,rejected,,0.95
+p1/MPa1,pressure,1,1,MPa,1,0,0,18,0,kept,,0.95
+103xt (compiler),molar_fraction,1,1000,dimensionless,1,1,0,1,0,kept,,0.95
+"Solubility,+",molar_fraction,1,1,dimensionless,1,0,17,17,0,rejected,x=x (duplicate column) 17,0.95
+\fracx_26.1 × 10^-4,molar_fraction,2,1,dimensionless,1,1,0,2,0,kept,,0.95
+10^7 mol(l)/L sln,concentration,1,10000000,mol/L,1,9,0,9,0,kept,,0.95
+1 Ethene in Liquid x1,molar_fraction,1,1,dimensionless,1,0,0,0,0,untested,,0.95
+10^2m_1/m_2  ^b,molality,1,100,mol/kg,1,63,0,48,0,kept,,0.95
+Mole of in,molar_fraction,1,1,dimensionless,1,16,0,16,0,kept,,0.8
+I/mol dm-3,concentration,1,1,mol/dm3,1,0,0,0,19,rejected,,0.95
+kg/cm2,pressure,,1,kg cm-2,1,0,0,12,0,kept,,0.95
+MPa1,partial_pressure,1,1,MPa,1,0,0,0,12,rejected,,0.95
+K_H/atm^-1  ^a,henry_pc,1,1,atm,1,0,0,0,0,untested,,0.95
+Total Pressure P/103 hPa 1P/MPa,pressure,,1,MPa,1,0,0,0,0,untested,,0.95
+10^6mol(1)/dm^3  b,concentration,1,1000000,mol/dm3,1,1,0,1,0,kept,,0.95
+100 w_I M_I^-1 / mol g^-1(compiler),mass_fraction,1,100,g/100 g,1,0,3,0,3,rejected,w=w (duplicate column) 3,0.95
+p/kbar,pressure,,1,kPa,1,0,0,4,0,kept,,0.95
+liquid x1,molar_fraction,1,1,dimensionless,1,1,20,21,0,rejected,x=x (duplicate column) 20,0.95
+10^4 mol(1)/dm3 sln,concentration,1,10000,mol/dm3,1,0,0,4,0,kept,,0.95
+"Ethene Partial Pressure, p1 mm Hg kPa",partial_pressure,1,1,mmHg,1,0,0,0,0,untested,,0.95
+10^6Mass\%a g(1)/100 g sln,mass_concentration,1,1000000,g/100 g,1,0,0,0,0,untested,,0.95
+sodium chloride;,mass_fraction,2,1,dimensionless,1,12,3,0,0,rejected,range 3,0.95
+x_C_6H_14,molar_fraction,1,1,dimensionless,1,3,0,0,0,kept,,0.95
+bar,pressure,,1,bar,1,0,0,12,0,kept,,0.95
+Silver Nitrate  c_2 /mol dm-3,concentration,2,1,mol/dm3,1,0,0,0,1,rejected,,0.95
+Total Pressure P/kg cm-21P/MPa,pressure,,1,kg cm-2,1,0,0,0,0,untested,,0.95
+Initial pH = 5.0102g(1)/dm3a,concentration,1,1,g/dm3,1,0,0,0,0,untested,,0.95
+(c_2+c_3+c_4) /mol dm ^-3,concentration,,1,mol/dm3,1,28,0,28,0,kept,,0.95
+105mol/L slnag(1)/100 g sln,mass_concentration,1,100000,g/100 g,1,0,0,0,3,rejected,,0.95
+100 w1M1-1/mol g-1(compiler),molality,1,1,mol/kg,1,0,1,0,1,rejected,m<->x 1,0.95
+"K_H,a/atm^b",henry_pc,1,1,atm,1,0,0,0,4,rejected,,0.95
+Total /atm,pressure,,1,atm,1,0,0,0,0,untested,,0.95
+"1 Partial Pressure Ethene, p1/atm",partial_pressure,1,1,atm,1,0,0,0,0,untested,,0.98
+C1/mM,concentration,1,1,mol/L,1,0,0,0,6,rejected,,0.95
+108 mol(1) L,concentration,1,100000000,mol/L,1,0,0,10,0,kept,,0.95
+"'Solute , y1",molar_fraction,1,1,dimensionless,1,0,16,0,0,rejected,x=x (duplicate column) 16,0.95
+p1S/mm Hg,partial_pressure,1,1,mmHg,1,0,0,0,8,rejected,,0.95
+Perchloric acid Conc. in Water w/mass% M2/mol dm-3,mass_concentration,2,1,g/100 g,1,0,0,0,0,untested,,0.95
+105mass%(1)a,mass_fraction,1,100000,dimensionless,1,0,0,0,0,untested,,0.95
+g (1)/100 g (soln.),mass_concentration,1,100,g/100 g,1,0,0,0,0,untested,,0.95
+mol(1)/1000 g(2),molality,1,1,mol/kg,1,2,0,2,0,kept,,0.95
+10^4  mol(1) L sln,concentration,1,10000,mol/L,1,0,3,3,0,rejected,gamma<->c 3,0.95
+10^3C_2/mol  L^-1  b,concentration,2,1000,mol/L,1,0,0,9,0,kept,,0.95
+"^2\textMole Fraction Ethene,  x_1",molar_fraction,1,1,dimensionless,1,1,1,0,0,rejected,H_px->x 1,0.98
+10^4 g(1)/100 g \text sln (compiler),mass_concentration,1,10000,g/100 g,1,0,0,0,9,rejected,,0.95
+"2 Solubility, S cm3(STP)(g DMF)-1",bunsen,1,1,dimensionless,1,0,0,0,0,untested,,0.95
+10^4mol(1)/dm^3b,concentration,1,10000,mol/dm3,1,1,0,1,0,kept,,0.95
+Ethene Solubility for: 1P/kPa=101.325,molar_fraction,1,1,dimensionless,1,0,0,0,0,untested,,0.95
+g(2)/100 g(I),mass_ratio,2,1,g/100 g,1,4,0,0,4,rejected,,0.95
+g-mol(3)/L-1,concentration,3,1,mol/L,1,0,0,0,1,rejected,,0.95
+Potassium Nitrate c_2/mol  dm^-3,concentration,2,1,mol/dm3,1,0,0,1,0,kept,,0.95
+H'/atm (mole fraction) ^-1,henry_pc,1,1,atm,1,0,0,2,0,kept,,0.95
+Ethene  \varepsilon/g gas (10^6 g water)^-1,mass_concentration,1,1,g/kg,1,0,0,0,1,rejected,,0.95
+P/10^5Pa P/10^5Pa,pressure,,100000,Pa,1,0,0,0,0,untested,,0.95
+"2Solubility Mole fraction,105x1",molar_fraction,1,100000,dimensionless,1,2,0,0,1,rejected,,0.95
+107 mol (l) L-1,concentration,1,10000000,mol/L,1,0,0,13,0,kept,,0.95
+100  w_1 (compiler) -,mass_fraction,1,100,dimensionless,1,0,0,1,0,kept,,0.95
+mass % H_2SO_4,mass_fraction,3,100,g/100 g,1,0,0,20,0,kept,,0.95
+"^1Mole Fraction, 10^5x_1",molar_fraction,1,100000,dimensionless,1,2,0,0,1,rejected,,0.95
+"^1P=101.325,x",molar_fraction,1,1,dimensionless,1,0,2,0,0,rejected,x=x (duplicate column) 2,0.95
+μg(1)/g sln,mass_concentration,1,1,mg/kg,1,0,0,0,0,untested,,0.95
+10^2 c_1 P_i^-1/atm mol dm-3,concentration,1,100,mol/dm3,1,18,0,17,0,kept,,0.95
+103mol(1)/dm3sln,concentration,1,1000,mol/dm3,1,0,0,3,0,kept,,0.95
+vapor y1,molar_fraction,1,1,dimensionless,1,1,20,21,0,rejected,x=x (duplicate column) 20,0.98
+Solubility at P=94.23 (0.93 atm) s/g(1)1,mass_concentration,1,1,g/dm3,1,0,0,0,0,untested,,0.95
+10^3 x_J (compiler),molar_fraction,1,1000,dimensionless,1,1,0,1,0,kept,,0.95
+^1P/kPa,partial_pressure,1,1,kPa,1,3,3,0,6,rejected,H_px->x 3,0.95
+g(2)/100 q sln,mass_concentration,2,100,g/100 g,1,0,0,0,3,rejected,,0.95
+Conc. of amine /mol l-1,concentration,,1,mol/L,1,8,0,7,0,kept,,0.95
+"1log10H', H'/mm Hg",henry_pc,1,1,mmHg,1,0,0,0,1,rejected,,0.95
+"Concentration Ethyne, cm3(STP) (g DMF)-1",concentration,2,1,g/L,1,0,0,0,0,untested,,0.95
+10^3 x_J(compiler),molar_fraction,2,1000,dimensionless,1,0,0,1,0,kept,,0.95
+10-2g(1)/kga,mass_concentration,1,100,g/kg,1,0,0,0,13,rejected,,0.95
+c_2^a mol  dm^-3,concentration,2,1,mol/dm3,1,0,0,20,0,kept,,0.95
+Total Pressure P/Mpa,pressure,,1,MPa,1,0,0,0,0,untested,,1.0
+Ethene  ^1P=101.325,molar_fraction,1,1,dimensionless,1,0,2,0,0,rejected,x=x (duplicate column) 2,0.95
+10^6 mol(1)/L sln,concentration,1,1000000,mol/L,1,8,0,8,0,kept,,0.95
+^1Ostwald  Coefficient L/ cm^3  gas  cm^3  solvent,ostwald,1,1,dimensionless,1,1,0,1,0,kept,,0.95
+"Percent by Weight 1Mole Fraction Ethene, ω1Ethene, ω1",mass_fraction,1,100,g/100 g,1,0,16,5,2,rejected,w<->x 16,0.95
+"K_H,b/atm^b",henry_pc,1,1,atm,1,0,0,0,4,rejected,,0.95
+"^2  log  H' ,  ^3   H'/mm  Hg",henry_pc,1,1,mmHg,1,0,0,5,0,kept,,0.95
+104mol(1) L-1,concentration,1,10000,mol/L,1,0,0,3,0,kept,,0.95
+H'/atm,henry_pc,1,1,atm,1,0,0,10,0,kept,,0.95
+10^4 mol(1) L^-1,concentration,1,10000,mol/L,1,0,0,9,0,kept,,0.95
+xC6H14,mass_fraction,1,1,dimensionless,1,2,0,2,0,kept,,0.95
+2 Ethene Partial Pressure  p_1 /MPa,partial_pressure,1,1,MPa,1,0,0,0,0,untested,,0.95
+1p=101.325/x1,molar_fraction,1,1,dimensionless,1,0,2,0,0,rejected,x=x (duplicate column) 2,0.95
+ln(KH/kPa) e,henry_pc,1,1,kPa,1,0,0,0,0,untested,,0.95
+^2Ostwald  Coefficient gas( cm^3  solvent) ^-1,ostwald,1,1,dimensionless,1,0,0,0,0,untested,,0.95
+p/psig,pressure,,1,psia,1,0,0,4,0,kept,,0.95
+10^2K_\textH/\textmol dm^-3 \text atm^-1a,henry_cc,1,100,mol/dm3,1,0,0,0,0,untested,,0.95
+10^5 g(1) L^-1 (2),mass_concentration,1,100000,g/L,1,0,0,1,0,kept,,0.95
+(c_2 + c_3 + c_4) /mol dm^-3,concentration,,1,mol/dm3,1,18,0,7,0,kept,,0.95
+t/K,temperature_K,,1,K,1,0,0,3,0,kept,,1.0
+1Ethene Partial Pressure p/MPa,partial_pressure,1,1,MPa,1,0,0,0,0,untested,,0.95
+Initial pH = 5.5102g(1)/dm3a,concentration,1,1,g/dm3,1,0,0,0,0,untested,,0.95
+10^5 mol(1)/L sln,concentration,1,100000,mol/L,1,8,0,0,0,kept,,0.95
+"^2P=101.325,x_1",molar_fraction,1,1,dimensionless,1,0,2,0,0,rejected,x=x (duplicate column) 2,0.95
+Solubility at P =94.23 (0.93 atm) s/g(1) -1,mass_concentration,1,1,g/dm3,1,0,0,0,0,untested,,0.6
+"Fraction Ethene, x1",molar_fraction,1,1,dimensionless,1,21,0,6,0,kept,,1.0
+(c_2+c_3) /mol dm^-3,concentration,,1,mol/dm3,1,26,0,6,0,kept,,0.95
+"10^2 \, c_j \, P_j^-1 /mol dm-3 atm-1",henry_pc,1,100,mol/dm3,1,0,0,0,0,untested,,0.95
+"1Solvent Composition, x3, Mole Fraction",molar_fraction,3,1,dimensionless,1,0,0,0,0,untested,,0.95
+Conc of +sodium carbonate /mol l-1,concentration,3,1,mol/L,1,0,0,0,3,rejected,,0.95
+(c_2+c_3+c_4) /mol  dm^-3,concentration,,1,mol/dm3,1,8,0,3,0,kept,,0.95
+...continued 1Ethene Partial Pressure p1/MPa,partial_pressure,1,1,MPa,1,0,0,0,0,untested,,0.95
+"Mole 1 Ethene Fraction, 105x1",molar_fraction,1,100000,dimensionless,1,6,0,0,3,rejected,,0.95
+g(1)/100 g sln (compiler)(2)-rich phase,mass_concentration,1,1,g/100 g,1,0,0,0,19,rejected,,0.95
+Ethene Partial p/mm mercury,partial_pressure,1,1,mmHg,1,0,0,0,0,untested,,0.98
+10^5 \text Mass  \frac8g \text sln,mass_concentration,1,100000,g/dm3,1,0,0,0,0,untested,,0.9
+g(1) L-1 (2),mass_concentration,1,1,g/L,1,0,0,2,0,kept,,0.95
+"1Partial PressureEthene, p1/MPa",partial_pressure,1,1,MPa,1,0,2,0,12,rejected,P=p1+p_sat 2,0.95
+"Ethene Mole Fraction,104x1",molar_fraction,1,10000,dimensionless,1,16,0,0,0,kept,,0.95
+10^2S/mol L^-1 atm^b,bunsen,1,100,dimensionless,1,0,0,0,11,rejected,,0.95
+Total PressureP/atm 1P/MPa,pressure,,1,atm,1,0,0,0,0,untested,,0.95
+"^1Mole Fraction Ethene, x_1 for p_1 = 101.3 kPa",molar_fraction,1,1,dimensionless,1,5,0,0,0,kept,,0.95
+10^8 x_1 \text(compiler),molar_fraction,1,100000000,dimensionless,1,9,0,9,0,kept,,0.95
+Conc. of monoethanolamine / mol l-1 (soln).,concentration,,1,mol/L,1,11,0,10,0,kept,,0.95
+P= 101.325,pressure,,1,kPa,1,0,0,0,0,untested,,0.95
+t/°C 20,temperature_C,,1,°C,1,4,0,1,0,kept,,0.95
+"liquid, x_1",molar_fraction,1,1,dimensionless,1,0,12,0,0,rejected,x=x (duplicate column) 12,0.95
+Conc of +sodium bicarbonate /mol l-1,concentration,2,1,mol/L,1,0,0,0,3,rejected,,0.95
+"fraction ethene liquid, xC2H4",molar_fraction,1,1,dimensionless,1,0,0,16,0,kept,,0.95
+103mol/L slna,concentration,1,1000,mol/L,1,0,0,2,0,kept,,0.95
+"^1 Mole Fraction Ethene, x_1 for p_1 = 101.3 kPa",molar_fraction,1,1,dimensionless,1,5,0,0,0,kept,,0.98
+Initial pH = 6.010g(1)/dm3a,concentration,1,1,g/dm3,1,0,0,0,0,untested,,0.95
+102 c1 Pi-1/mol dm-3 atm-1,henry_pc,1,100,mol/dm3,1,0,0,0,33,rejected,,0.95
+g_1 V_2^-1 / \textkg m^-3,mass_concentration,1,1,kg/m3,1,0,0,0,1,rejected,,0.95
+Solubility cm (STP)/g,bunsen,1,1,dimensionless,1,0,0,0,0,untested,,0.95
+100 g1V2-1/g cm-3,density,,1,g/cm3,1,0,0,1,0,kept,,0.6
+Y_1  ^b,molar_fraction,1,1,dimensionless,1,11,26,0,28,rejected,x=x (duplicate column) 26,0.95
+10^2 c_1 P_i^-1/mol dm-3 ath-1,henry_pc,1,100,mol/dm3,1,0,0,0,0,untested,,0.95
+104mol/L slna,concentration,1,10000,mol/L,1,0,0,3,0,kept,,0.95
+102γ2/g cm-3a,density,2,100,g/cm3,1,0,0,4,0,kept,,0.95
+1010x1 (compiler),concentration,1,10,mol/L,1,0,0,10,0,kept,,0.95
+1/MPa,pressure,,1,MPa,1,0,0,4,0,kept,,0.3
+1MPa,pressure,,1,MPa,1,0,0,12,0,kept,,0.95
+10^3C_1/mol  L^-1  c,concentration,1,1000,mol/L,1,0,0,9,0,kept,,0.95
+Conc.of amine / mol l-1,concentration,,1,mol/L,1,8,0,8,0,kept,,0.95
+Liquid Mole fraction (103)x1,molar_fraction,1,1000,dimensionless,1,0,4,0,0,rejected,x=x (duplicate column) 4,0.95
+"g(2)/100 g sln (compiler)(1)-rich ,phase",mass_concentration,2,1,g/100 g,1,0,0,0,19,rejected,,0.95
+"Composition Mole Fraction Propanol,  x_3  Ethene ,  x_1'",molar_fraction,3,1,dimensionless,1,0,0,0,0,untested,,0.95
+T/K1,temperature_K,,1,K,1,0,18,18,0,rejected,T_C=T_K 18,0.95
+"2 Solubility,s/cm3 gas(g water)-1",bunsen,1,1,dimensionless,1,0,0,0,0,untested,,0.95
+g (1)/100 g(soln.),mass_concentration,1,1,g/100 g,1,0,0,0,2,rejected,,0.95
+Solubility s/cm3 gas at NTP(g solvent)1,mass_concentration,1,1,g/100 g,1,0,0,0,0,untested,,0.9
+"'Solute , x1",molar_fraction,1,1,dimensionless,1,16,16,0,0,rejected,x=x (duplicate column) 16,0.95
+10^3mol(1)/kg(2) b,molality,1,1000,mol/kg,1,6,0,6,0,kept,,0.95
+103mol(1)/kg(2) b,molality,1,1000,mol/kg,1,6,0,6,0,kept,,0.95
+10g(1)/dm3(2)a,concentration,1,10,g/dm3,1,0,0,3,0,kept,,0.95
+"'Mole Fraction Ethene,x1",molar_fraction,1,1,dimensionless,1,0,0,0,0,untested,,0.95
+10^3c_1/mol  \dotL^-1  c,concentration,1,1000,mol/L,1,0,0,0,21,rejected,,0.95
+CV1 %,mass_fraction,1,100,g/100 g,1,0,8,4,0,rejected,w<->x 4; w=w (duplicate column) 4,0.95
+"^2\textMole Fraction Ethene, x_1",molar_fraction,1,1,dimensionless,1,1,1,0,0,rejected,H_px->x 1,0.98
+10-1g(1)/kg a,molality,1,10,mol/kg,1,3,0,3,0,kept,,0.85
+10^3 g(2)/100 g \text sln (compiler),mass_concentration,2,1000,g/100 g,1,0,0,0,2,rejected,,0.95
+^1 T/K,temperature_K,,1,K,1,5,0,5,0,kept,,0.98
+"1 Partial Pressure Ethene, p/atm",partial_pressure,1,1,atm,1,0,0,0,18,rejected,,0.95
+2Ethene Partial Pressure p1/MPa,partial_pressure,1,1,MPa,1,0,0,0,11,rejected,,0.95
+Concentration of barium chloride / mol 1-1,concentration,3,1,mol/dm3,1,0,0,0,4,rejected,,0.95
+107 x1*,concentration,1,10000000,mol/L,1,0,0,0,1,rejected,,0.95
+q(1)/100 q sln,mass_ratio,1,100,g/100 g,1,0,0,0,3,rejected,,0.95
+104 g-mol(1)/L-1,concentration,1,10000,mol/L,1,0,0,0,1,rejected,,0.95
+Concentration of electrolyte /mol L-1 Lithium chloride; LiCl; [7447-41-8],concentration,2,1,mol/L,1,0,0,0,0,untested,,0.95
+"1Solubility Coefficient, Kb/cm3 ethene at STP (cm3 solvent.atm)-1",kuenen,1,1,dimensionless,1,0,0,0,0,untested,,0.95
+"Solvent vapor, y2 1 Solute, y1",molar_fraction,2,1,dimensionless,1,0,16,0,0,rejected,sum_x=1 16,0.95
+103 mass ratio b g(1)/100 g sln,mass_ratio,1,1000,g/100 g,1,0,0,0,0,untested,,0.95
+ln H/atm,henry_pc,1,1,atm,1,0,0,0,0,untested,,0.95
+(mol fraction) -1,molar_fraction,1,1,dimensionless,1,0,20,10,0,rejected,range 10; x=x (duplicate column) 10,0.95
+Concentration of ammonium nitrate / mol 1-1,concentration,4,1,mol/L,1,0,0,0,4,rejected,,0.98
+·100  w_I (compiler),mass_fraction,1,100,g/100 g,1,0,1,0,1,rejected,w<->x 1,0.95
+t°C,temperature_C,,1,°C,1,28,0,20,0,kept,,0.95
+10ml(1)/dm3a,concentration,1,10,mol/dm3,1,0,0,0,1,rejected,,0.95
+p_1/Atm,partial_pressure,1,1,atm,1,0,0,0,0,untested,,0.95
+"1,2P/MPa",pressure,,1,MPa,1,0,0,0,0,untested,,0.95
+1p = 101.325/x1,molar_fraction,1,1,dimensionless,1,2,0,0,0,kept,,0.85
+104x1(2)-rich phase,mass_fraction,1,10000,dimensionless,1,6,0,19,0,kept,,0.95
+Concentration of sodium chloride / mol 1-1,concentration,2,1,mol/L,1,0,0,0,4,rejected,,0.98
+1000  w_I,mass_fraction,1,1000,dimensionless,1,8,0,8,0,kept,,0.95
+10^3c_1^liq/mol L^-1 b,concentration,1,1000,mol/L,1,0,0,8,0,kept,,0.95
+104Sb g-mol(l)/ dm3,concentration,1,10000,mol/dm3,1,0,0,0,0,untested,,0.95
+104x2(1)-rich phase,mass_fraction,2,10000,dimensionless,1,4,0,19,0,kept,,0.95
+mg(1) L sln,mass_concentration,1,1,mg/kg,1,0,3,0,3,rejected,gamma<->c 3,0.85
+g (l)/100 g soln,mass_concentration,1,1,g/100 g,1,0,0,0,2,rejected,,0.95
+Mass% (1)a,mass_fraction,1,100,g/100 g,1,0,0,0,0,untested,,0.95
+1Ethene in Liquid x1,molar_fraction,1,1,dimensionless,1,0,0,18,0,kept,,0.95
+103 Mass %*,mass_fraction,1,1000,dimensionless,1,0,0,1,0,kept,,0.95
+10^2g(1)/kg ---,mass_concentration,1,100,g/kg,1,0,1,0,0,rejected,gamma<->c 1,0.95
+TEMPERATURET/C 1T/K,temperature_C,,1,°C,1,0,0,0,0,untested,,0.95
+100  n_1/g_2,mass_ratio,1,100,g/kg,1,0,1,0,1,rejected,r<->w 1,0.95
+c_1/cm^3 (STP)  cm^-3,concentration,1,1,mol/dm3,1,0,0,1,0,kept,,0.95
+10^4mass\% (1)^a,mass_fraction,1,10000,g/100 g,1,0,0,0,0,untested,,0.95
+"2Ethene Mole Fraction, 105x1",molar_fraction,1,100000,dimensionless,1,6,0,0,0,kept,,0.95
+^2 Ostwald Coefficient L /cm3 gas (cm3 solvent) ^-1,ostwald,1,1,dimensionless,1,0,0,0,0,untested,,0.95
+"1Solvent Composition, x3, Mole Fraction Toluene 2log10(H'/mmHg)",molar_fraction,3,1,dimensionless,1,0,0,0,0,untested,,0.95
+c_1/mol m^-3 -,concentration,1,1,mol/m3,1,0,0,1,0,kept,,0.95
+Chlorosity (°/o.),salinity,,1,dimensionless,1,0,0,0,0,untested,,0.95
+"CONCENTRATION OF HCI, 100  w_2",mass_fraction,2,100,dimensionless,1,0,0,8,0,kept,,0.95
+108mol(1)/L sln,concentration,1,1000,mol/L,1,9,0,9,0,kept,,0.95
+"s/cm3 (NTP)(g)-1 x1,mole fraction",molar_fraction,1,1,dimensionless,1,18,0,18,0,kept,,0.95
+100 w_IM_I'/\textmol g^1 (compiler),mass_concentration,1,100,g/dm3,1,0,0,0,1,rejected,,0.95
+Ethene for: 2R/kPa =101.325,molar_fraction,1,1,dimensionless,1,0,1,1,0,rejected,x=x (duplicate column) 1,0.95
+10^3 \text g(1) \text L^-1 (2),mass_concentration,1,1000,g/L,1,0,0,1,0,kept,,0.95
+"Unfixed  CO_2 ,  c/mmol (L atm)^-1 299.8 K (80 °F)",concentration,1,1,mol/L,1,0,0,0,0,untested,,0.95
+P =101.325 kPa,pressure,,1,kPa,1,0,0,0,0,untested,,0.95
+10^2K_o/mol L^-1 atm^b,henry_cc,1,100,mol/L,1,0,0,0,5,rejected,,0.95
+K_H/mol L^-1 atm^-1 b,henry_pc,1,1,mol/L,1,0,0,0,0,untested,,0.95
+"solubility,  x_1 , for  ^2p_1=101.325^1",molar_fraction,1,1,dimensionless,1,0,2,0,0,rejected,x=x (duplicate column) 2,0.95
+"10^4 \, x_j (compiler)",molar_fraction,2,10000,dimensionless,1,0,4,0,0,rejected,w<->x 4,0.95
+Concentration of electrolyte /mol L-1,concentration,2,1,mol/L,1,0,0,0,0,untested,,0.95
+1 Ethene Partial Pressure p1/MPa,partial_pressure,1,1,MPa,1,0,0,0,0,untested,,0.95
+Fixed  CO_2  c/mmol L^-1,concentration,1,1,mol/L,1,0,0,0,0,untested,,0.95
+10^3 x_1 (compiler) -,molar_fraction,1,1000,dimensionless,1,0,0,1,0,kept,,0.95
+10^5 x_j (compiler),molar_fraction,1,100000,dimensionless,1,0,0,0,0,untested,,0.95
+10-1g(1)/dm3a,concentration,1,10,mol/dm3,1,0,0,16,0,kept,,0.95
+"P= 101.325,x",molar_fraction,1,1,dimensionless,1,0,2,0,0,rejected,x=x (duplicate column) 2,0.95
+1Ethene Partial Pressure p1/MPa,partial_pressure,1,1,MPa,1,0,0,0,0,untested,,0.95
+Solubility ε/g (100g)-1 Mole,mass_concentration,1,1,g/100 g,1,0,0,0,0,untested,,0.95
+c_2/mol dm^-3 0.5,concentration,2,1,mol/dm3,1,0,0,1,0,kept,,0.95
+PressureP/Atm,pressure,,1,atm,1,0,0,0,0,untested,,0.95
+/cm3 cm-3 atm-1,ostwald,1,1,dimensionless,1,0,0,0,0,untested,,0.95
+10^4mol(1)/dm^3 ---,concentration,1,10000,mol/dm3,1,1,1,0,0,rejected,gamma<->c 1,0.95
+"Solvent, x2 1 Solute, x1",molar_fraction,1,1,dimensionless,1,0,16,0,0,rejected,x=x (duplicate column) 16,0.95
+Chlorinity/ °/oo,salinity,,1,dimensionless,1,0,0,11,0,kept,,0.95
+K_H/atm^-1 a,henry_pc,1,1,atm,1,0,0,0,22,rejected,,0.95
+106 x1*,concentration,1,1000000,mol/dm3,1,0,0,0,1,rejected,,0.8
+^2Ostwald  Coefficient L/cm3 gas cm-3 solvent,ostwald,1,1,dimensionless,1,0,0,0,0,untested,,0.95
+ln( K_H /kPa)e,henry_pc,1,1,kPa,1,0,0,0,16,rejected,,0.95
+(c_2+c_3) /mol dm ^-3,concentration,,1,mol/dm3,1,31,0,30,0,kept,,0.95
+104g(1) L-1(2),mass_concentration,1,10000,g/L,1,0,0,1,0,kept,,0.95
+"Ethene, x1, for: 2P1= 101.325",molar_fraction,1,1,dimensionless,1,0,1,0,0,rejected,x=x (duplicate column) 1,0.95
+Ammonium chloride;,mass_concentration,2,1,g/dm3,1,0,0,0,0,untested,,0.85
+100 w_lM_l^-1/mol g^-1 (compiler),mass_fraction,1,100,g/100 g,1,0,1,0,1,rejected,w=w (duplicate column) 1,0.95
+^1Mole  Fraction  x_1.10^5,molar_fraction,1,100000,dimensionless,1,3,0,0,1,rejected,,0.95
+10-2g(1)/kg,mass_concentration,1,100,g/kg,1,0,0,0,13,rejected,,0.95
+Ethene Solubility s/g(106g water)1,mass_concentration,1,1,g/100 g,1,0,0,0,3,rejected,,0.95
+\fracx_2,molar_fraction,2,1,dimensionless,1,2,0,2,0,kept,,0.95
+Conc. of salt / mol  l^-1,concentration,2,1,mol/L,1,7,0,0,0,kept,,0.95
+L (1)/103 L sln,concentration,1,1000,mol/dm3,1,0,0,0,0,untested,,0.95
+"1x1,mol fraction",molar_fraction,1,1,dimensionless,1,0,0,6,0,kept,,0.95
+10^3c_1^air/mol L^-1 c,concentration,1,1000,mol/L,1,0,0,8,0,kept,,0.95
+Gas Mole fraction y1,molar_fraction,1,1,dimensionless,1,0,4,0,0,rejected,x=x (duplicate column) 4,0.98
+d_15^15 b,density,,1,g/cm3,1,0,0,0,0,untested,,0.85
+10^2 c_1 P_i^-1/mol dm-3 atm-1,henry_cc,1,100,mol/dm3,1,0,0,0,0,untested,,0.95
+107 mol(1) L-1,concentration,1,10000000,mol/L,1,0,0,11,0,kept,,0.95
+m_2/mol kg^-1 b 0.00,molality,2,1,mol/kg,1,6,0,0,0,kept,,0.95
+10^2S_1/mol  kg^-1  a,molality,1,100,mol/kg,1,5,0,0,5,rejected,,0.95
+c_i/mol m-3,concentration,2,1,mol/m3,1,0,0,0,0,untested,,0.95
