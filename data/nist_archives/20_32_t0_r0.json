@@ -1,0 +1,49 @@
+{
+  "data": {
+    "name": "1,2,4-Trichlorobenzene with Water",
+    "lab_id": "SDS-20/p032/0/r00",
+    "temperature": 298.15,
+    "measurement_methods": [
+      "The water content in the sample was determined by a modified Karl Fischer titration."
+    ],
+    "mixing_methods": [
+      "Addition of 2 ml H_2O to 100 ml C_6H_3CI_3 in an equilibrium flask was performed in a dry box.",
+      "The closed flask was then placed in a water thermostat bath and the assembly was shaken for 90 minutes."
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "1,2,4-Trichlorobenzene",
+            "substance": {
+              "name": "1,2,4-Trichlorobenzene",
+              "molecular_formula": "C6H3Cl3",
+              "cas_number": "120-82-1"
+            },
+            "amount": {
+              "molality": 0.01123,
+              "units": "mol/kg",
+              "source_header": "10^2 * Molality mol_1/kg"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Eidinoff, M.L. In \"Production of Heavy Water\", National Nuclear Energy Series Division III-Vol. 4F, Murphy, G.M.; Urey, H. C.; Kirshenbaum, I., Eds.; McGraw-Hill: New York, 1955; Part II, Chapter 7, pp 129-44.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "data": {
+    "name": "1,3-Bis(trifluoromethyl)benzene with Water",
+    "lab_id": "SDS-20/p200/0/r00",
+    "temperature": 298.15,
+    "measurement_methods": [
+      "The absorbances of the extracted samples were measured (265 nm) with a Pye Unicam SP 30 spectrophotometer."
+    ],
+    "mixing_methods": [
+      "An excess of 1,3-bis(trifluoromethy1) benzene was stirred with 100 ml water in a closed flask in a thermally regulated bath (±0.1°C) for 30 min.",
+      "After phase separation and standing for several hours, two samples of known amounts were removed from the aqueous phase and extracted with hexane."
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "1,3-Bis(trifluoromethyl)benzene",
+            "substance": {
+              "name": "1,3-Bis(trifluoromethyl)benzene",
+              "molecular_formula": "C8H4F6",
+              "cas_number": "402-31-3"
+            },
+            "amount": {
+              "mass_concentration": 0.0409,
+              "units": "kg/m^3",
+              "source_header": "10^2 * g_1/V_2 [g dm**-3]"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Strachan, A.N.; Field, J.P.; Fleming, K.A., Int. Solvent Extr. Conf., (Proc.), Vol. 2, 1980, page paper 80-2, 6 pp.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

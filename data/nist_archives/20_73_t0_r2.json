@@ -1,0 +1,49 @@
+{
+  "data": {
+    "name": "1,2-Dichlorobenzene with Water",
+    "lab_id": "SDS-20/p073/0/r02",
+    "temperature": 308.15,
+    "measurement_methods": [
+      "The water content was determined by tritium assay.",
+      "The count rates were determined using a typical liquid scintillator solution technique."
+    ],
+    "mixing_methods": [
+      "Tritiated water was shaken with 1,2-dichlorobenzene in 1:10 volume ratios for 4 hours in a flask in a water thermostat bath."
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "1,2-Dichlorobenzene",
+            "substance": {
+              "name": "1,2-Dichlorobenzene",
+              "molecular_formula": "C6H4Cl2",
+              "cas_number": "95-50-1"
+            },
+            "amount": {
+              "molar_concentration": 23.439999999999998,
+              "units": "mol/m^3",
+              "source_header": "10^2 * Concentration c_1 [mol dm**-3]"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Jones, J.R.; Monk, C.B., J. Chem. Soc. 1963, 2633-5.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

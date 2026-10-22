@@ -1,0 +1,46 @@
+{
+  "data": {
+    "name": "1,2-Dichlorobenzene with Water",
+    "lab_id": "SDS-20/p069/0/r04",
+    "temperature": 313.15,
+    "measurement_methods": [
+      "The determination of the solubility was based upon volumetric principals applied to the measurement of excess solute in a calibrated apparatus as described by Rex (1)."
+    ],
+    "mixing_methods": [],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "1,2-Dichlorobenzene",
+            "substance": {
+              "name": "1,2-Dichlorobenzene",
+              "molecular_formula": "C6H4Cl2",
+              "cas_number": "95-50-1"
+            },
+            "amount": {
+              "molality": 0.001319,
+              "units": "mol/kg",
+              "source_header": "10^3 * Molality mol_1/kg"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Klemenc, A.; Low, M., Rec. Trav. Chim. Pays-Bas 1930, 49(4), 629-40.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

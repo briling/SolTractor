@@ -1,0 +1,48 @@
+{
+  "data": {
+    "name": "1,3-Dichlorobenzene with Water",
+    "lab_id": "SDS-20/p083/0/r00",
+    "temperature": 298.15,
+    "measurement_methods": [
+      "Sample optical densities were determined spectrophotometrically (2)."
+    ],
+    "mixing_methods": [
+      "Equilibrium was established between the water and the 1,3-dichlorobenzene in a sealed flask (1) with the aid of a magnetic stirrer during 48 hours under isothermal conditions."
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "1,3-Dichlorobenzene",
+            "substance": {
+              "name": "1,3-Dichlorobenzene",
+              "molecular_formula": "C6H4Cl2",
+              "cas_number": "541-73-1"
+            },
+            "amount": {
+              "molality": 0.0007,
+              "units": "mol/kg",
+              "source_header": "10^4 * Molality mol_1/kg"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Vesala, A., Acta Chem. Scand. 1974, 28A(8), 839-45.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

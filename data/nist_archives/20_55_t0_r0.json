@@ -1,0 +1,49 @@
+{
+  "data": {
+    "name": "1,3-Dibromobenzene with Water",
+    "lab_id": "SDS-20/p055/0/r00",
+    "temperature": 303.15,
+    "measurement_methods": [
+      "The 1,3-dibromobenzene solubility was determined by ultraviolet spectrophotometric measurements using a Beckman DU spectrophotometer."
+    ],
+    "mixing_methods": [
+      "An excess of 1,3-dibromobenzene was added to a 4 ml of water in an ampoule which was then sealed.",
+      "The sealed ampoule was rotated in a constant temperature water bath for a week to establish saturation."
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "1,3-Dibromobenzene",
+            "substance": {
+              "name": "1,3-Dibromobenzene",
+              "molecular_formula": "C6H4Br2",
+              "cas_number": "108-36-1"
+            },
+            "amount": {
+              "mass_concentration": 0.06747,
+              "units": "kg/m^3",
+              "source_header": "10^2 * g_1/V_2 [g dm**-3]"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Hine, J.; Haworth, H.W.; Ramsay, O.B., J. Am. Chem. Soc. 1963, 85(10), 1473-6.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

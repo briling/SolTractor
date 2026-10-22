@@ -1,0 +1,46 @@
+{
+  "data": {
+    "name": "1,3-Dichlorobenzene with Water",
+    "lab_id": "SDS-20/p084/0/r01",
+    "temperature": 296.65,
+    "measurement_methods": [
+      "Solubilities were determined by using an elution chromatography analytical technique. The procedure involved the use of an inert solid packing coated with a known amount of solute in a transparent tube. Water was forced through the packed tube to remove amounts of solute. The solubility was calculated from the length of the solute depleted zone (as observed from the color difference between the depleted packing and that in the remaining portion of the tube) and the volume of water pssed through the tube. Chemisorb P was used as the inert solid packing."
+    ],
+    "mixing_methods": [],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "1,3-Dichlorobenzene",
+            "substance": {
+              "name": "1,3-Dichlorobenzene",
+              "molecular_formula": "C6H4Cl2",
+              "cas_number": "541-73-1"
+            },
+            "amount": {
+              "molality": 0.0009796,
+              "units": "mol/kg",
+              "source_header": "10^3 * Molality mol_1/kg"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Schwarz, F.P., Anal. Chem. 1980, 52, 10-15.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

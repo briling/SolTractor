@@ -1,0 +1,48 @@
+{
+  "data": {
+    "name": "1,2-Dichlorobenzene with Water",
+    "lab_id": "SDS-20/p075/0/r00",
+    "temperature": 298.15,
+    "measurement_methods": [
+      "The concentration of the water in the organic phase was determined by a conventional Karl Fischer dead stop back titration."
+    ],
+    "mixing_methods": [
+      "A mixture of 50 ml 1,2-dichlorobenzene and 6 ml water in a botte was submerged in a water thermostat bath for 2 days."
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "1,2-Dichlorobenzene",
+            "substance": {
+              "name": "1,2-Dichlorobenzene",
+              "molecular_formula": "C6H4Cl2",
+              "cas_number": "95-50-1"
+            },
+            "amount": {
+              "mass_concentration": 0.4324,
+              "units": "kg/m^3",
+              "source_header": "10^1 * g_1/V_2 [g dm**-3]"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Kirchnerova, J.; Cave, G.C.B., Can. J. Chem. 1976, 54(24), 3909-16.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "data": {
+    "name": "1,3-Dichlorobenzene with Water",
+    "lab_id": "SDS-20/p087/0/r00",
+    "temperature": 298.15,
+    "measurement_methods": [
+      "samples were taken from the solution for analysis by gas chromatography",
+      "The chromatograph was equipped with a Ni^63 EC detector"
+    ],
+    "mixing_methods": [
+      "An excess of 1,3-dichlorobenzene was equilibrated with water in screwcapped bottles in a reciprocal shaker for 24 hours",
+      "After two days settling"
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "1,3-Dichlorobenzene",
+            "substance": {
+              "name": "1,3-Dichlorobenzene",
+              "molecular_formula": "C6H4Cl2",
+              "cas_number": "541-73-1"
+            },
+            "amount": {
+              "mass_concentration": 0.1341,
+              "units": "kg/m^3",
+              "source_header": "10^1 * g_1/V_2 [g dm**-3]"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Chiou, C.T.; Schmedding, D.W.; Manes, M., Environ. Sci. Technol. 1982, 16(1), 4-10.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

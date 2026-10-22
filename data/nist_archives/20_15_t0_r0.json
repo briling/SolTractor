@@ -1,0 +1,43 @@
+{
+  "data": {
+    "name": "1,2,3,5-Tetrachlorobenzene with Water",
+    "lab_id": "SDS-20/p015/0/r00",
+    "temperature": 298.15,
+    "measurement_methods": [
+      "The saturated sample analyses were carried out spectrophotometrically either after dilution or after concentration by extraction with methylene chloride."
+    ],
+    "mixing_methods": [
+      "The time for sample equilibration varied from 4 to 48 hours."
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "1,2,3,5-Tetrachlorobenzene",
+            "substance": {
+              "name": "1,2,3,5-Tetrachlorobenzene",
+              "molecular_formula": "C6H2Cl4",
+              "cas_number": "634-90-2"
+            },
+            "amount": {
+              "molar_concentration": 0.016,
+              "units": "mol/m^3",
+              "source_header": "10^5 * Concentration c_1 [mol dm**-3]"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": []
+  }
+}

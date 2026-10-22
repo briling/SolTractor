@@ -1,0 +1,48 @@
+{
+  "data": {
+    "name": "1,3,5-Trichlorobenzene with Water",
+    "lab_id": "SDS-20/p038/0/r00",
+    "temperature": 298.15,
+    "measurement_methods": [
+      "A small excess of solute in water was agitated for a period of 4-48 hours (the exact time for equilibration was not reported in single cases) and then filtered. The saturated solution was extracted with a small volume of methylene chloride which was then assayed spectrophotometrically. At lease two independent determinations were carried out."
+    ],
+    "mixing_methods": [
+      "A small excess of solute in water was agitated for a period of 4-48 hours (the exact time for equilibration was not reported in single cases) and then filtered."
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "1,3,5-Trichlorobenzene",
+            "substance": {
+              "name": "1,3,5-Trichlorobenzene",
+              "molecular_formula": "C6H3Cl3",
+              "cas_number": "108-70-3"
+            },
+            "amount": {
+              "mass_concentration": 0.00653,
+              "units": "kg/m^3",
+              "source_header": "10^3 * g_1/V_2 [g dm**-3]"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Yalkowsky, S.H.; Orr, R.J.; Valvani, S.C., Ind. Eng. Chem. Fundam. 1979, 18(4), 351-3.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

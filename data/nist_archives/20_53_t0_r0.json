@@ -1,0 +1,48 @@
+{
+  "data": {
+    "name": "1,2-Dibromobenzene with Water",
+    "lab_id": "SDS-20/p053/0/r00",
+    "temperature": 298.15,
+    "measurement_methods": [
+      "assayed spectrophotometrically"
+    ],
+    "mixing_methods": [
+      "agitated at room temperature for a period of about 24 hours and then filtered"
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "1,2-Dibromobenzene",
+            "substance": {
+              "name": "1,2-Dibromobenzene",
+              "molecular_formula": "C6H4Br2",
+              "cas_number": "583-53-9"
+            },
+            "amount": {
+              "mass_concentration": 0.07445,
+              "units": "kg/m^3",
+              "source_header": "10^2 * g_1/V_2 [g dm**-3]"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Yalkowsky, S.H.; Orr, R.J.; Valvani, S.C., Ind. Eng. Chem. Fundam. 1979, 18(4), 351-3.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

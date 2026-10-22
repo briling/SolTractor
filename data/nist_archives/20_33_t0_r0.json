@@ -1,0 +1,48 @@
+{
+  "data": {
+    "name": "1,2,4-Trichlorobenzene with Water",
+    "lab_id": "SDS-20/p033/0/r00",
+    "temperature": 292.15,
+    "measurement_methods": [
+      "The chlorine content was determined by iodometric titration."
+    ],
+    "mixing_methods": [
+      "A 100 mg trichlorobenzene in 1 liter water mixture was shaken periodically for 5 days at 18-20°C."
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "1,2,4-Trichlorobenzene",
+            "substance": {
+              "name": "1,2,4-Trichlorobenzene",
+              "molecular_formula": "C6H3Cl3",
+              "cas_number": "120-82-1"
+            },
+            "amount": {
+              "mass_concentration": 0.03,
+              "units": "kg/m^3",
+              "source_header": "10^2 * g_1/V_2 [g dm**-3]"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Maleshchenko, K.F., Gigiena I Sanit. 1960, 25(5), 54-57.",
+        "publication_authors": []
+      }
+    ]
+  }
+}
