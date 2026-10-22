@@ -50,6 +50,8 @@ COMP = re.compile(r'^C[O0]MP[O0]NENTS')
 FRAME = re.compile(r'^(C[O0]MP[O0]NENTS|[O0]R[Il1]G[Il1]NAL|MEASUREMENTS|VAR[Il1]ABLES|PREPARED|AUX[Il1]L[Il1]ARY|EST[Il1]MATED|REFERENCES|S[O0]URCE)')
 STOP = re.compile(r'^METH[O0]D|^C[O0]MMENTS$')          # closing words used when the banner is missing
 INDEX = re.compile(r'^[Il1]NDEX$')
+COMP_CAS = re.compile(r';\s*\[\d{2,7}-\d{2}-\d\]')     # "name; formula; [CAS]" of a compilation sheet
+EVAL = re.compile(r'VALUAT|CR[Il1]T[Il1]CAL')
 NUM = re.compile(r'\d')
 
 
@@ -85,18 +87,31 @@ def render(pno, y0, y1, W, out):
 
 
 manifest = []
+fallback_pages = set()
 open_band = False                    # the last band of the previous page ran to the page bottom
 for pno, page in enumerate(pages, 1):
     W, H = float(page.get('width')), float(page.get('height'))
     words = sorted((float(w.get('yMin')), float(w.get('yMax')), w.text or '') for w in page.findall('h:word', ns))
+    # the page's text lines in reading order (y bins of 3 pt, then x), digits and brackets re-joined
+    rows_x = {}
+    for w in page.findall('h:word', ns):
+        rows_x.setdefault(round(float(w.get('yMin')) / 3), []).append((float(w.get('xMin')), float(w.get('yMin')), w.text or ''))
+    page_lines = [(min(y for _, y, _ in ws), re.sub(r'(?<=[\d\[\]\-;]) (?=[\d\[\]\-])', '', ' '.join(t for _, _, t in sorted(ws))))
+                  for _, ws in sorted(rows_x.items())]
     comps = [y0 for y0, y1, t in words if COMP.match(t)]
-    sheet_page = len({FRAME.match(t).group(1) for y0, y1, t in words if FRAME.match(t)}) >= 2
-    # a header is EXPERIMENTAL in capitals on a page that carries the sheet frame (two or more of its
-    # printed field names; COMPONENTS alone is often unreadable); VALUES is often lost by the OCR
+    # a data-sheet page carries two or more printed field names, or a component line "name; formula; [CAS]"
+    # (on some pages the OCR returns no field name at all but still that line, digits spaced)
+    comp_lines = [y for y, text in page_lines if COMP_CAS.search(text)]
+    frame_words = {FRAME.match(t).group(1) for y0, y1, t in words if FRAME.match(t)}
     # the volume's indexes (SYSTEM INDEX, REGISTRY NUMBER INDEX, AUTHOR INDEX) follow the last sheet and would
-    # continue its open band page after page; a page naming an index without any frame word closes the band
-    index_page = not sheet_page and any(INDEX.match(t) for y0, y1, t in words)
+    # continue its open band page after page; a page naming an index without the frame closes the band
+    index_page = any(INDEX.match(t) for y0, y1, t in words) and len(frame_words) < 2
+    sheet_page = (len(frame_words) >= 2 or bool(comp_lines)) and not index_page
+    evaluation = any(EVAL.search(t) for y0, y1, t in words)
     heads = [y0 for y0, y1, t in words if HEAD.match(t)] if sheet_page or (open_band and not index_page) else []
+    # "Experimental Values: (continued)" in title case on a continuation page
+    heads += [y0 for (y0, y1, t), nxt in zip(words, words[1:]) if t == 'Experimental' and nxt[2].startswith('Value') and (sheet_page or open_band) and y0 not in heads]
+    heads.sort()
     stops = sorted([y0 for y0, y1, t in words if AUX.match(t) or STOP.match(t)] + comps)
     bands = []
     if open_band and words and not index_page:
@@ -106,13 +121,35 @@ for pno, page in enumerate(pages, 1):
     for y in heads:
         stop = next((s for s in stops if s > y + 5), None)
         bands.append((y - 4, stop - 4 if stop else H))
+    fallback = False
+    if comp_lines and not evaluation and not heads and not bands:
+        # the EXPERIMENTAL header itself was lost by the OCR on a compilation sheet. Anchor below the component
+        # lines and the VARIABLES / PREPARED BY words, take the first data-dense line (three or more numeric
+        # tokens making up most of the line; a citation line "1957, 31, 1802-1811" does not qualify), include up
+        # to two header lines above it, and run to the closing banner or the page bottom (fallback band); such a
+        # band never continues on the next page. Evaluation sheets are left alone.
+        anchor = max(comp_lines + [y0 for y0, y1, t in words if re.match(r'^(VAR[Il1]ABLES|PREPARED)', t)])
+        lines = lines_of(words, 0.0, H)
+        def dense(l0, l1, n):
+            total = sum(1 for y0, y1, t in words if l0 <= (y0 + y1) / 2 < l1)
+            return n >= 3 and n >= 0.6 * total
+        k = next((k for k, (l0, l1, n) in enumerate(lines) if l0 > anchor + 2 and dense(l0, l1, n)), None)
+        if k is not None:
+            k0 = k
+            while k0 > 0 and k - k0 < 2 and lines[k0 - 1][0] > anchor + 2 and not any(FRAME.match(t) for y0, y1, t in words if lines[k0 - 1][0] <= (y0 + y1) / 2 < lines[k0 - 1][1]):
+                k0 -= 1
+            start = lines[k0][0]
+            stop = next((s for s in stops if s > start + 5), None)
+            bands.append((start - 4, stop - 4 if stop else H))
+            fallback_pages.add(pno)
+            fallback = True
     # the same band twice (a continuation band that also carries a header on the same line)
     uniq = []
     for b in bands:
         if not any(abs(b[0] - u[0]) < 6 and abs(b[1] - u[1]) < 6 for u in uniq):
             uniq.append(b)
     bands = uniq
-    open_band = bool(bands) and bands[-1][1] >= H
+    open_band = bool(bands) and bands[-1][1] >= H and not fallback
     if only and pno not in only:
         continue
     for i, (y0, y1) in enumerate(bands):
@@ -136,5 +173,5 @@ for pno, page in enumerate(pages, 1):
                 render(pno, y0, y1, W, a.out / name)
             manifest.append((name + '.png', pno, i, '', round(y0, 1), round(y1, 1), len(lines), n_num))
 with (a.out / 'manifest.csv').open('w', newline='') as f:
-    w = csv.writer(f); w.writerow(['file', 'page', 'band', 'line', 'y0', 'y1', 'n_lines', 'n_num_lines']); w.writerows(manifest)
+    w = csv.writer(f); w.writerow(['file', 'page', 'band', 'line', 'y0', 'y1', 'n_lines', 'n_num_lines', 'anchor']); w.writerows([(*m, 'fallback' if m[1] in fallback_pages else 'header') for m in manifest])
 print(f'{len(manifest)} crops -> {a.out}', file=sys.stderr)
