@@ -201,3 +201,36 @@ several series.
 The same header mapper feeds the exporter: 11 311 of the 12 786 entries (88 %, from 35 %
 with the first mapper) carry at least one solubility quantity; volumes 20 and 62 go from none
 to 98 % and 91 %.
+
+## Second crop pass on volumes 38, 62 and 59
+
+The node re-ran the crop pass with the band finder of `nd/crop-bands` (caps-only header on a
+page carrying the sheet frame, bands emitted once, closed at INFORMATION / METHOD / COMMENTS,
+index pages excluded) on the best, the worst and the second-best volume of the row measure.
+Hand-backs under `mineru/crops-v2/SDS-N/` in the library, unpacked with
+`unpack_node.py SDS-N --crops crops-v2 --raw ...` into `mineru/SDS-N/crops-v2/`, converted
+against the same page-pass boxes into `boxes-crops-v2.jsonl`, and run through
+`check_rows.py`, `align_nist.py` and `to_nomad.py`. First run against second run:
+
+| volume | crops | crops with a table | crops matching no sheet | sheets with a crop table | rows exported | checker failures | NIST aligned, rows in one line |
+|---:|---:|---:|---:|---:|---:|---:|---|
+| 38 | 575 → 407 | 242 → 165 | 47 → 2 | 183 → 163 | 889 → 843 | 45 → 45 | 9, 36 / 36 → 9, 36 / 36 |
+| 62 | 474 → 307 | 277 → 253 | 42 → 7 | 251 → 240 | 4 760 → 4 680 | 5 → 5 | 21, 422 / 688 → 21, 422 / 688 |
+| 59 | 611 → 336 | 301 → 214 | 113 → 5 | 251 → 209 | 2 444 → 2 447 | 20 → 16 | 31, 258 / 283 → 32, 248 / 295 |
+
+The band fix did what it was built for: the crops that matched no sheet (front matter,
+evaluation prose, duplicate bands) are gone, the whole-sheet crops fell from 16 to 5 on volume
+38, and the yardstick did not move. The sheets that lost their crop table are mostly crops that
+held no numeric rows in the first run; the exceptions are sheets whose printed field names never
+reached the text layer (volume 38 pages 174, 327, 494; volume 62 pages 326, 328; volume 59 page
+59, whose NIST sheet 59_34 drops from 12 to 0 rows in one line), which the frame test rejected.
+The finder now also recognises a sheet by its component line "name; formula; [CAS]" or by one
+surviving field name next to an EXPERIMENTAL header, and cuts a fallback band below the component
+and VARIABLES lines when the header word itself was lost; over the eight volumes that adds 170
+bands, mostly sheets of volumes 58 and 59 whose EXPERIMENTAL word the text layer garbles. Those
+crops are the third, small batch for the node.
+
+The 400 dpi test on the pages with glued cells (two printed values in one cell, "432.55570.68")
+returned byte-identical tables to 300 dpi for volume 38 and the same glued cells for volume 62:
+the gluing is MinerU's reading of those tables, not a resolution effect, and the arbiter is the
+place to resolve it from the text layer's lines.
