@@ -41,6 +41,8 @@ For a bounded test run, use `python export_nist_archives.py --max-records 10`.
 To export only selected IUPAC volumes, pass a space-separated list, for example
 `python export_nist_archives.py --volumes 20 57 62`.
 Existing archive files are skipped by default; pass `--overwrite` to regenerate them.
+The exporter sends up to eight concurrent LLM requests by default; change this with
+`--max-num-seqs`.
 
 Files are written to `data/nist_archives/`, named after the measurement id (for example,
 `62_197_t0_r1.json`). The exporter maps temperature, pressure, components, phase, normalized

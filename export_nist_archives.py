@@ -3,6 +3,7 @@
     python export_nist_archives.py
 """
 import argparse
+from concurrent.futures import FIRST_COMPLETED, ThreadPoolExecutor, wait
 import importlib.machinery
 import importlib.util
 import json
@@ -366,6 +367,12 @@ def main():
     parser.add_argument("--timeout", type=float, default=300, help="LLM request timeout in seconds.")
     parser.add_argument("--max-tokens", type=int, default=2048, help="Maximum LLM completion tokens.")
     parser.add_argument(
+        "--max-num-seqs",
+        type=int,
+        default=8,
+        help="Maximum concurrent LLM requests (default: 8).",
+    )
+    parser.add_argument(
         "--volumes",
         type=int,
         nargs="+",
@@ -387,51 +394,65 @@ def main():
         parser.error("--max-records must be positive")
     if args.max_tokens < 1:
         parser.error("--max-tokens must be positive")
+    if args.max_num_seqs < 1:
+        parser.error("--max-num-seqs must be positive")
 
     args.output_dir.mkdir(parents=True, exist_ok=True)
     sheet_context = load_sheet_context(args.sheets)
     schema = load_schema_models()
     api_key = read_api_key(args.key_file)
     volumes = set(args.volumes) if args.volumes is not None else None
-    count = 0
+    submitted = 0
+    written = 0
     skipped = 0
     total_records = matching_record_count(args.input, volumes, args.output_dir, args.overwrite)
     if args.max_records is not None:
         total_records = min(total_records, args.max_records)
-    with args.input.open(encoding="utf-8") as source, tqdm(
+    with ThreadPoolExecutor(max_workers=args.max_num_seqs) as executor, tqdm(
         total=total_records, desc="Exporting archives", unit="record"
     ) as progress:
-        for line in source:
-            record = json.loads(line)
-            if volumes is not None and record["iupac_volume"] not in volumes:
-                continue
-            if args.max_records is not None and count == args.max_records:
-                break
-            destination = output_path(args.output_dir, record["measurement_id"])
-            if destination.exists() and not args.overwrite:
-                skipped += 1
-                continue
-            destination.write_text(
-                json.dumps(
-                    archive_for(
-                        record,
-                        sheet_context,
-                        schema,
-                        args.base_url,
-                        args.model,
-                        api_key,
-                        args.timeout,
-                        args.max_tokens,
-                    ),
-                    ensure_ascii=False,
-                    indent=2,
+        pending = {}
+
+        def write_completed():
+            nonlocal written
+            done, _ = wait(pending, return_when=FIRST_COMPLETED)
+            for future in done:
+                destination = pending.pop(future)
+                destination.write_text(
+                    json.dumps(future.result(), ensure_ascii=False, indent=2) + "\n",
+                    encoding="utf-8",
                 )
-                + "\n",
-                encoding="utf-8",
-            )
-            count += 1
-            progress.update()
-    print(f"Wrote {count} archive files to {args.output_dir}; skipped {skipped} existing files.")
+                written += 1
+                progress.update()
+
+        with args.input.open(encoding="utf-8") as source:
+            for line in source:
+                record = json.loads(line)
+                if volumes is not None and record["iupac_volume"] not in volumes:
+                    continue
+                if args.max_records is not None and submitted == args.max_records:
+                    break
+                destination = output_path(args.output_dir, record["measurement_id"])
+                if destination.exists() and not args.overwrite:
+                    skipped += 1
+                    continue
+                pending[executor.submit(
+                    archive_for,
+                    record,
+                    sheet_context,
+                    schema,
+                    args.base_url,
+                    args.model,
+                    api_key,
+                    args.timeout,
+                    args.max_tokens,
+                )] = destination
+                submitted += 1
+                if len(pending) == args.max_num_seqs:
+                    write_completed()
+        while pending:
+            write_completed()
+    print(f"Wrote {written} archive files to {args.output_dir}; skipped {skipped} existing files.")
 
 
 if __name__ == "__main__":
