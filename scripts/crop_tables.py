@@ -50,7 +50,8 @@ COMP = re.compile(r'^C[O0]MP[O0]NENTS')
 FRAME = re.compile(r'^(C[O0]MP[O0]NENTS|[O0]R[Il1]G[Il1]NAL|MEASUREMENTS|VAR[Il1]ABLES|PREPARED|AUX[Il1]L[Il1]ARY|EST[Il1]MATED|REFERENCES|S[O0]URCE)')
 STOP = re.compile(r'^METH[O0]D|^C[O0]MMENTS$')          # closing words used when the banner is missing
 INDEX = re.compile(r'^[Il1]NDEX$')
-COMP_CAS = re.compile(r';\s*\[\d{2,7}-\d{2}-\d\]')     # "name; formula; [CAS]" of a compilation sheet
+COMP_CAS = re.compile(r';\s*[\[(]\d{2,7}-\d{2}-\d[\])]')     # "name; formula; [CAS]" of a compilation sheet; brackets often read as parentheses
+CAS_ANY = re.compile(r'[\[(]\d{2,7}-\d{2}-\d[\])]')
 EVAL = re.compile(r'VALUAT|CR[Il1]T[Il1]CAL')
 NUM = re.compile(r'\d')
 
@@ -106,7 +107,11 @@ for pno, page in enumerate(pages, 1):
     # the volume's indexes (SYSTEM INDEX, REGISTRY NUMBER INDEX, AUTHOR INDEX) follow the last sheet and would
     # continue its open band page after page; a page naming an index without the frame closes the band
     index_page = any(INDEX.match(t) for y0, y1, t in words) and len(frame_words) < 2
-    sheet_page = (len(frame_words) >= 2 or bool(comp_lines)) and not index_page
+    # a single surviving field name together with an EXPERIMENTAL header and a CAS number also marks a sheet
+    # ("COMPONENT S", "ORI G I NAL" split by the OCR, SDS-62 pages 326 and 328)
+    has_head = any(HEAD.match(t) for y0, y1, t in words)
+    has_cas = any(CAS_ANY.search(text) for y, text in page_lines)
+    sheet_page = (len(frame_words) >= 2 or bool(comp_lines) or (has_head and has_cas and len(frame_words) >= 1)) and not index_page
     evaluation = any(EVAL.search(t) for y0, y1, t in words)
     heads = [y0 for y0, y1, t in words if HEAD.match(t)] if sheet_page or (open_band and not index_page) else []
     # "Experimental Values: (continued)" in title case on a continuation page
