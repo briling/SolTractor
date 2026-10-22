@@ -105,30 +105,37 @@ next to its region images for inspection.
 
 The node ran the page pass and the crop pass over all eight NIST-keyed volumes
 (hand-backs in the library, unpacked with `scripts/unpack_node.py`, converted and
-aligned as above; files under `ground_truth/mineru/SDS-N/`). Value recall is the
-aligner's substring measure on the aligned sheets; "rows" counts NIST table rows whose
-numeric tokens all occur in one line of the matched EXPERIMENTAL VALUES box, which only
-the crop pass delivers. Note that the scraped NIST sheets cover volume 60 and 20 well
-but only 18 to 55 sheets of the other volumes.
+aligned as above; files under `ground_truth/mineru/SDS-N/`).
 
-| volume | NIST sheets | text layer: aligned, recall | page pass: aligned, recall | crop pass: aligned, recall | rows in one line (crops) | entries | second crop pass: rows in one line, entries |
-|-------:|------------:|----------------------------:|---------------------------:|---------------------------:|-------------------------:|--------:|---|
-| 20 | 94 | 90, 96.7 % | 83, 99.7 % | 83, 99.7 % | 183 / 185 | 237 | not re-run |
-| 37 | 23 | 18, 94.1 % | 19, 100 % | 19, 94.2 % | 81 / 94 | 1148 | not re-run |
-| 38 | 18 | 10, 98.3 % | 9, 100 % | 9, 100 % | 36 / 36 | 889 | 36 / 36, 897 |
-| 57 | 42 | 19, 81.2 % | 18, 83.4 % | 17, 83.0 % | 160 / 253 | 1595 | not re-run |
-| 58 | 32 | 10, 98.0 % | 30, 98.7 % | 29, 99.9 % | 198 / 235 | 1023 | not re-run |
-| 59 | 33 | 19, 87.2 % | 32, 99.5 % | 31, 99.6 % | 258 / 283 | 2423 | 285 / 295, 2 837 |
-| 60 | 288 | 263, 97.2 % | 263, 95.1 % | 264, 95.7 % | 614 / 733 | 722 | not re-run |
-| 62 | 55 | 21, 89.3 % | 21, 87.6 % | 21, 88.6 % | 422 / 688 | 4749 | 422 / 688, 4 847 |
+The ground truth is the complete NIST crawl of the DISSOLVE repository (2 784 sheets over the
+eight volumes, imported with `scripts/nist_import.py`); the aligner keys on compilation sheets
+with a table. Value recall is the substring measure over the keyed numeric tokens; rows are NIST
+table rows whose numeric tokens all occur in one line of our EXPERIMENTAL VALUES box. Crop pass
+of the first run with rowspan honoured; the second pass where it exists.
+
+| volume | NIST sheets with tables | aligned | value recall | rows in one line | second pass: aligned, rows |
+|-------:|------------------------:|--------:|-------------:|-----------------:|---|
+| 20 | 220 | 204 | 91.4 % | 465 / 541 | not re-run |
+| 37 | 374 | 363 | 71.9 % | 969 / 1 756 | not re-run |
+| 38 | 413 | 392 | 96.8 % | 811 / 901 | 392, 815 / 901 |
+| 57 | 244 | 233 | 77.3 % | 1 226 / 2 583 | not re-run |
+| 58 | 428 | 375 | 95.9 % | 1 093 / 1 356 | not re-run |
+| 59 | 415 | 392 | 98.5 % | 2 721 / 2 978 | 403, 2 771 / 3 108 |
+| 60 | 296 | 286 | 95.4 % | 686 / 818 | not re-run |
+| 62 | 268 | 254 | 87.5 % | 3 571 / 6 127 | 254, 3 560 / 6 127 |
+| all | 2 658 | 2 499 | 87.0 % | 11 542 / 17 060 (67.7 %) | |
+
+The numbers quoted in the prose of the earlier sections (36 / 36, 422 / 688, 90 to 422) were
+measured against the first, truncated scrape of 30 systems per volume; the table above is the
+one to compare with the colleague's ground-truth comparison, which uses the same crawl and the
+same unit, one NIST table row. Volumes 37, 57 and 62 are where the row structure is weakest:
+two-block tables with pressure columns, long multi-column gas tables, and seawater sheets
+whose salinity columns the mapper does not know.
 
 The text layer aligns a third of the NIST sheets of volumes 58 and 59 where the page
 pass aligns nearly all of them: the segmenter loses the sheets, not the values. Volume 57
 (gas solubilities, two-block tables with pressure columns) and 62 (long multi-column
 tables, Bunsen and Ostwald coefficients) are the hard cases for the row structure.
-The rows column is `align_nist.py`'s second number, NIST table rows whose numeric tokens all occur in one
-line of the matched box; it moved from 54 to 160 (volume 57), 569 to 614 (60) and 90 to 422 (62) when
-`crops_to_boxes.py` started to honour rowspan cells (see the quality checks below).
 `scripts/to_nomad.py` turns the crop-pass boxes of each volume into one NOMAD upload
 (`nomad-SDS-N.zip` in the library's `nomad/` folder, 12 786 entries in all, every one
 validated against the schema with NOMAD's metainfo). Since the schema of 2026-10-22 names
@@ -221,16 +228,16 @@ First run against second run:
 
 | volume | crops | crops matching no sheet | sheets with a crop table | rows exported | checker failures | NIST aligned, rows in one line |
 |---:|---|---|---|---|---|---|
-| 38 | 575 → 414 | 47 → 2 | 183 → 167 | 889 → 897 | 45 → 45 | 9, 36 / 36 → 9, 36 / 36 |
-| 62 | 474 → 317 | 42 → 8 | 251 → 248 | 4 760 → 4 858 | 5 → 5 | 21, 422 / 688 → 21, 422 / 688 |
-| 59 | 611 → 373 | 113 → 5 | 251 → 241 | 2 444 → 2 876 | 20 → 18 | 31, 258 / 283 → 32, 285 / 295 |
+| 38 | 575 → 414 | 47 → 2 | 183 → 167 | 889 → 897 | 45 → 45 | 392, 811 / 901 → 392, 815 / 901 |
+| 62 | 474 → 317 | 42 → 8 | 251 → 248 | 4 760 → 4 858 | 5 → 5 | 254, 3 571 / 6 127 → 254, 3 560 / 6 127 |
+| 59 | 611 → 373 | 113 → 5 | 251 → 241 | 2 444 → 2 876 | 20 → 18 | 392, 2 721 / 2 978 → 403, 2 771 / 3 108 |
 
 The band fix did what it was built for: the crops that matched no sheet (front matter,
 evaluation prose, duplicate bands) are gone, the whole-sheet crops fell from 16 to 5 on volume
-38, and the yardstick did not drop anywhere. The sheets that still lack a crop table are, almost
+38, and the yardstick held (volume 62 gives back 11 of 6 127 rows). The sheets that still lack a crop table are, almost
 all, crops that held no numeric rows in the first run. The fallback band, cut where the printed
 field names or the EXPERIMENTAL word never reached the text layer, is what moved volume 59: 432
-more rows and the NIST row measure from 91 % to 97 %; it also recovered the two large tables of
+more rows, eleven more NIST sheets aligned and 50 more NIST rows in one line; it also recovered the two large tables of
 volume 62 (pages 326 and 328) and the three Skripka sheets of volume 38 (pages 174, 327, 494).
 Over the eight volumes the final finder (48830b8) cuts 192 fallback bands, 64 of them in volume
 58, which has not been re-run. The bands 48830b8 adds over 096475c (volume 59: 9, volume 62: 2)

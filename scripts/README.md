@@ -54,7 +54,8 @@ without knowing which witness produced it.
 | `fetch_volumes.sh` | IUPAC GitHub mirror | `pdfs/`, `text/` | download the 56 volume PDFs and cache their text layer, one page per form feed |
 | `scan_columns.py SDS-N` | `text/` | report | tally the column-header lines under EXPERIMENTAL VALUES: the vocabulary of units and quantities per volume |
 | `segment_boxes.py SDS-N` | `text/` | `boxes/SDS-N.jsonl` | cut the text layer into sheets at the COMPONENTS header and into boxes at the printed field headers (fuzzy, OCR-tolerant); split two-column regions; flag sheets with missing parts |
-| `nist_scrape.py 60` | srdata.nist.gov | `ground_truth/nist/SDS-N.json` | scrape the hand-keyed sheets of a volume: the same boxes plus the experimental table as headers and rows; raw HTML cached |
+| `nist_import.py nist_gt.jsonl` | the DISSOLVE repository's complete NIST crawl (library `nist/nist_gt.jsonl`) | `ground_truth/nist/SDS-N.json` | write the per-volume ground truth the aligner reads from the colleague's one-record-per-sheet file: all 2 784 sheets of the eight volumes with a free PDF, evaluation sheets flagged; supersedes `nist_scrape.py`, which stopped after the first 30 systems of a volume |
+| `nist_scrape.py 60` | srdata.nist.gov | `ground_truth/nist/SDS-N.json` | the original scraper of the hand-keyed sheets (boxes plus the table as headers and rows; raw HTML cached); pages the sheet lists but not the systems list, so it is kept for reference only |
 | `align_nist.py 60 [--boxes X --out Y]` | NIST json, a boxes jsonl | `align-SDS-N.csv` | match each NIST sheet to one segmented sheet (solute CAS numbers, citation tokens, value recall; greedy one-to-one) and report the fraction of keyed values found verbatim and the NIST rows whose numeric tokens all occur in one line of the matched box: the acceptance numbers of every witness |
 | `backsearch.py SDS-N values --page P` | `text/` | report | search extracted values back into the page in two tiers (strict, loose); CAS-shaped values also get a check digit verdict |
 | `cas_survey.py` | all boxes, NIST json | report | check digit of every printed CAS number and of NIST's: OCR errors on one side, keying errors on the other |
@@ -71,7 +72,7 @@ without knowing which witness produced it.
 ## Typical sequences
 
 Text-layer witness for a volume: `fetch_volumes.sh`, `segment_boxes.py SDS-N`, then for a
-ground-truth volume `nist_scrape.py N` and `align_nist.py N`.
+ground-truth volume `nist_import.py` once (the library holds `nist/nist_gt.jsonl`) and `align_nist.py N`.
 
 Vision witness: `crop_tables.py` here, the page pass and the crop pass on the GPU node
 (driven by the internal brief in the HU Box library), `unpack_node.py` on the hand-back, then `mineru_to_boxes.py`, `crops_to_boxes.py`, and

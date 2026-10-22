@@ -1,43 +1,245 @@
 sheet_id,system,score,page,index_on_page,dup,n_values,n_found,recall,missing
-57_105,Ethene with (R) -1-Methyl-4-(1-methylethenyl) cyclohexene or Limonene,,,,,5,0,,
+57_105,Ethene with (R) -1-Methyl-4-(1-methylethenyl) cyclohexene or Limonene,0.9,161,0,,5,5,1.0,
 57_108,"Ethene with 1, 1' -Methylenebis (methylbenzene), (ditolyl methane)",1.0,164,0,,12,12,1.0,
 57_180,"Ethene with 1, 1, 2, 2-Tetrachloroethane",1.0,256,0,,14,14,1.0,
-57_219,"Ethene with 1, 1'-[Methylenebis(oxy)]bis-ethane (formaldehyde diethyl acetal)",,,,,20,0,,
+57_219,"Ethene with 1, 1'-[Methylenebis(oxy)]bis-ethane (formaldehyde diethyl acetal)",1.0,305,0,,20,20,1.0,
 57_178,"Ethene with 1, 2-Dichloroethane",,,,,14,0,,
 57_195,"Ethene with 1, 2-Dichloroethane",1.0,276,0,,24,24,1.0,
-57_48,"Ethene with 1, 2-Ethanediamine, (Ethyldiamine) and Water",,,,,30,0,,
-57_153,"Ethene with 1, 2-Ethanediol (ethylene glycol)",,,,,4,0,,
-57_154,"Ethene with 1, 2-Ethanediol (ethylene glycol)",,,,,4,0,,
+57_48,"Ethene with 1, 2-Ethanediamine, (Ethyldiamine) and Water",1.0,88,0,,29,29,1.0,
+57_153,"Ethene with 1, 2-Ethanediol (ethylene glycol)",1.0,221,0,,4,4,1.0,
+57_154,"Ethene with 1, 2-Ethanediol (ethylene glycol)",1.0,222,0,,4,4,1.0,
 57_210,"Ethene with 1, 3-Dioxolan-2-one, 4-methyl- (Propylene carbonate)",1.0,296,0,,3,3,1.0,
 57_211,"Ethene with 1, 3-Dioxolan-2-one, 4-methyl- (Propylene carbonate)",,,,,9,0,,
 57_227,"Ethene with 1, 3-Dioxolan-2-one, 4-methyl- (Propylene carbonate)",0.9,323,0,,92,92,1.0,
-57_212,"Ethene with 1, 4-Dioxane",,,,,20,0,,
-57_143,Ethene with 1-Butanol,,,,,10,0,,
-57_144,Ethene with 1-Butanol,,,,,16,0,,
-57_145,Ethene with 1-Butanol,,,,,12,0,,
-57_159,"Ethene with 1-Butanol and 1, 2-Ethanediol (ethylene glycol)",,,,,52,0,,
-57_149,Ethene with 1-Heptanol,,,,,5,0,,
-57_148,Ethene with 1-Hexanol,,,,,5,0,,
-57_241,"Ethene with 1-Methyl-2-pyrrolidinone, (N-methylpyrrolidinone)",1.0,339,0,,128,128,1.0,
-57_236,"Ethene with 1-Methyl-2-pyrrolidinone, Nitrobenzene, Benzenamine (Aniline), Dimethylsulfoxide, or Hexamethylphosphoric triamide",0.9,334,0,,26,21,0.81,298.15 298.15 298.15 298.15 298.15
-57_150,Ethene with 1-Octanol,,,,,10,0,,
+57_212,"Ethene with 1, 4-Dioxane",0.97,298,0,,20,19,0.95,2.285
+57_143,Ethene with 1-Butanol,1.0,211,0,,10,10,1.0,
+57_144,Ethene with 1-Butanol,1.0,212,0,,16,16,1.0,
+57_145,Ethene with 1-Butanol,1.0,213,0,,12,12,1.0,
+57_159,"Ethene with 1-Butanol and 1, 2-Ethanediol (ethylene glycol)",1.0,227,0,,51,51,1.0,
+57_149,Ethene with 1-Heptanol,1.0,217,0,,5,5,1.0,
+57_148,Ethene with 1-Hexanol,1.0,216,0,,5,5,1.0,
+57_241,"Ethene with 1-Methyl-2-pyrrolidinone, (N-methylpyrrolidinone)",1.0,339,0,,127,127,1.0,
+57_236,"Ethene with 1-Methyl-2-pyrrolidinone, Nitrobenzene, Benzenamine (Aniline), Dimethylsulfoxide, or Hexamethylphosphoric triamide",0.8,334,0,,26,21,0.81,298.15 298.15 298.15 298.15 298.15
+57_150,Ethene with 1-Octanol,1.0,218,0,,10,10,1.0,
 57_166,Ethene with 1-Octanol,1.0,238,0,,24,24,1.0,
-57_146,Ethene with 1-Pentanol,,,,,12,0,,
-57_147,Ethene with 1-Pentanol,,,,,10,0,,
-57_140,Ethene with 1-Propanol,,,,,10,0,,
-57_141,Ethene with 1-Propanol,,,,,20,0,,
-57_142,Ethene with 1-Propanol,,,,,13,0,,
-57_164,Ethene with 1-Propanol,0.84,235,0,,152,104,0.68,150 423.15 50.5 4.68 23.4 0.00434 150 423.15 39.1 3.51 23.4 0.00434 150 423.15 27.7 2.32 23.4 0.00434 150 423.15 16.5 1.
+57_146,Ethene with 1-Pentanol,1.0,214,0,,12,12,1.0,
+57_147,Ethene with 1-Pentanol,1.0,215,0,,10,10,1.0,
+57_140,Ethene with 1-Propanol,1.0,208,0,,10,10,1.0,
+57_141,Ethene with 1-Propanol,1.0,209,0,,20,20,1.0,
+57_142,Ethene with 1-Propanol,0.97,210,0,,13,13,1.0,
+57_164,Ethene with 1-Propanol,0.85,235,0,,152,105,0.69,150 423.15 50.5 4.68 23.4 0.00434 150 423.15 39.1 3.51 23.4 0.00434 150 423.15 27.7 2.32 23.4 0.00434 150 423.15 16.5 1.
 57_165,Ethene with 1-Propanol,1.0,237,0,,24,24,1.0,
-57_45,Ethene with 1-Propanol and Water,0.92,84,0,,36,30,0.83,298.15 298.15 298.15 298.15 298.15 298.15
+57_45,Ethene with 1-Propanol and Water,0.87,84,0,,38,28,0.74,298.15 8.76 -05 9.04 -05 298.15 298.15 298.15 298.15 298.15
 57_198,"Ethene with 1-Propene,1,1,2,3,3-pentafluoro-3-trifluoroethenyloxy- or per-fluoro (propylene vinyl) ether",1.0,281,0,,84,84,1.0,
 57_155,"Ethene with 2, 2 -[1, 2-Ethanediylbis (oxy) ] bis-ethanol, (triethylene glycol)",,,,,4,0,,
 57_61,"Ethene with 2, 2' -Dimethylbutane (Neo-hexane)",0.97,104,0,,5,5,1.0,
-57_217,"Ethene with 2, 6-Dimethylcyclohexanone",,,,,20,0,,
-57_47,"Ethene with 2-Aminoethanol, (monoethanolamine) and Water",0.9,87,0,,33,33,1.0,
-57_228,Ethene with 2-Butanone (methyl ethylketone),0.9,324,0,,56,56,1.0,
-57_46,Ethene with 2-Butanone (methyl ethylketone) and Water,0.75,85,0,,320,222,0.69,293.15 8.80 70.39 20.81 293.15 18.72 68.38 12.90 293.15 36.66 56.73 6.61 293.15 44.08 50.69 5.23 293.15 55.78 39.69 4.53
-57_216,Ethene with 2-Methylcyclohexanone,,,,,20,0,,
-57_75,Ethene with 2-Methylpropane (isobutane),0.87,121,0,,186,136,0.73,353.15 1.343 353.15 0.641 0.096 0.316 353.15 1.450 0.225 0.477 353.15 2.195 0.349 0.542 353.15 2.914 0.458 353.15 3.567 
-57_76,Ethene with 2-Methylpropane (isobutane),,,,,12,0,,
-57_151,Ethene with 2-Propanol,,,,,11,0,,
+57_217,"Ethene with 2, 6-Dimethylcyclohexanone",1.0,303,0,,20,20,1.0,
+57_47,"Ethene with 2-Aminoethanol, (monoethanolamine) and Water",0.9,87,0,,31,31,1.0,
+57_228,Ethene with 2-Butanone (methyl ethylketone),0.9,324,0,,53,53,1.0,
+57_46,Ethene with 2-Butanone (methyl ethylketone) and Water,0.75,85,0,,317,220,0.69,293.15 8.8 70.39 20.81 293.15 18.72 68.38 12.9 293.15 36.66 56.73 6.61 293.15 44.08 50.69 5.23 293.15 55.78 39.69 4.53 2
+57_216,Ethene with 2-Methylcyclohexanone,1.0,302,0,,20,20,1.0,
+57_75,Ethene with 2-Methylpropane (isobutane),0.87,121,0,,186,136,0.73,353.15 1.343 353.15 0.641 0.096 0.316 353.15 1.45 0.225 0.477 353.15 2.195 0.349 0.542 353.15 2.914 0.458 353.15 3.567 0
+57_76,Ethene with 2-Methylpropane (isobutane),1.0,123,0,,12,12,1.0,
+57_151,Ethene with 2-Propanol,1.0,219,0,,11,11,1.0,
+57_52,"Ethene with 2-Propanol, 1,1'-aminobis- (Diisopropanolamine) and Water",1.0,92,0,,23,23,1.0,
+57_51,"Ethene with 2-Propanol, 1-amino-, (Isopropanolamine) and Water",0.98,91,0,,23,22,0.96,2.79
+57_206,Ethene with 2-Propanone (acetone),1.0,292,0,,12,12,1.0,
+57_207,Ethene with 2-Propanone (acetone),1.0,293,0,,6,6,1.0,
+57_221,Ethene with 2-Propanone (acetone),0.79,311,0,,156,92,0.59,35.0 238.15 30.33 0.0495 20.08 35.0 238.15 30.36 0.0659 27.21 35.0 238.15 30.32 0.099 42.38 35.0 238.15 30.36 0.1318 58.
+57_222,Ethene with 2-Propanone (acetone),1.0,312,0,,121,121,1.0,
+57_223,Ethene with 2-Propanone (acetone),0.76,315,0,,827,438,0.53,263.15 0.9494 0.606 263.15 0.9494 0.9494 263.15 2.95 0.976 0.018 263.15 2.95 0.982 263.15 4.95 0.0101 263.15 4.95 0.9899
+57_224,Ethene with 2-Propanone (acetone),1.0,317,0,,61,61,1.0,
+57_205,Ethene with 2-Propanone or acetone,0.95,291,0,,50,45,0.9,1.524 1.323 1.237 1.089 1.025
+57_208,Ethene with 2-Propanone or acetone,1.0,294,0,,15,15,1.0,
+57_232,"Ethene with 2-Pyrrolidinone, 1-methyl-, (N-methylpyrrolidinone)",0.9,330,0,,5,4,0.8,293.15
+57_233,"Ethene with 2-Pyrrolidinone, 1-methyl-, (N-methylpyrrolidinone)",0.98,331,0,,22,21,0.95,288.15
+57_53,"Ethene with 2-Pyrrolidinone, 1-methyl-, (N-methylpyrrolidinone) and Water",1.0,93,0,,72,72,1.0,
+57_54,"Ethene with 2-Pyrrolidinone, 1-methyl-, (N-methylpyrrolidinone) and Water",0.94,94,0,,88,77,0.88,298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15
+57_197,"Ethene with 3,3,3-Trifluoro, 1-Propene (Trifluoropropylene)",0.75,279,0,,259,132,0.51,283.1 0.393 100.6 5280 283.1 0.483 0.065 0.493 100.9 1960 283.1 0.989 0.133 0.63 101.2 1120 283.1 2.558 0.364 0.87 510 2
+57_226,"Ethene with Acetic acid, ethenyl ester (vinyl acetate)",0.64,320,0,,345,163,0.47,293.1 0.937 0.063 293.1 0.964 0.036 293.1 0.71 0.047 0.953 0.966 0.034 293.1 1.01 0.94 0.966 0.034 293.1 0.24 0.76 0.966
+57_209,"Ethene with Acetic acid, methyl ester or methyl acetate",0.97,295,0,,50,47,0.94,1.575 1.373 1.286
+57_203,"Ethene with Acetic acid, trichloro-ethyl ester (ethyltrichloroacetate)",1.0,286,0,,10,10,1.0,
+57_130,Ethene with Alcohols; pressures less than 0.2 MPa (2 atm),0.9,191,0,,91,91,1.0,
+57_245,"Ethene with Amidosulfurous acid, diethyl-, methyl ester, (N-N diethyl sulfonamide, methylester)",1.0,346,0,,232,232,1.0,
+57_230,Ethene with Ammonia,1.0,328,0,,5,5,1.0,
+57_31,"Ethene with Ammonium nitrate, sodium sulfite or sodium sulfate and Water",0.73,69,0,,45,30,0.67,298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15
+57_90,Ethene with Benzene,0.95,146,0,,56,50,0.89,1.612 1.503 1.405 1.317 1.236 1.163
+57_91,Ethene with Benzene,1.0,147,0,,6,6,1.0,
+57_92,Ethene with Benzene,,,,,20,0,,
+57_93,Ethene with Benzene,1.0,149,0,,6,6,1.0,
+57_94,Ethene with Benzene,1.0,150,0,,20,20,1.0,
+57_111,Ethene with Benzene,1.0,171,0,,30,30,1.0,
+57_112,Ethene with Benzene,1.0,172,0,,40,40,1.0,
+57_113,Ethene with Benzene,1.0,173,0,,60,60,1.0,
+57_114,Ethene with Benzene,1.0,174,0,,30,30,1.0,
+57_115,Ethene with Benzene,0.88,175,0,,36,27,0.75,348.15 348.15 348.15 348.15 348.15 348.15 348.15 348.15 348.15
+57_190,Ethene with Benzene and Tetrachloromethane,1.0,267,0,,54,54,1.0,
+57_123,"Ethene with Benzene, 1, 2-dimethyl-, (o-xylene)",0.9,183,0,,112,89,0.79,40.0 233.15 182.4 0.091 40.0 233.15 0.184 40.0 233.15 587.7 0.276 40.0 233.15 0.328 60.0 213.15 192.5 11.9 0.162 60.0 21
+57_127,"Ethene with Benzene, 1, 2-dimethyl-, (o-xylene) and Ethylbenzene",1.0,188,0,,84,84,1.0,
+57_124,"Ethene with Benzene, 1, 3-dimethyl-, (m-xylene)",1.0,185,0,,92,92,1.0,
+57_128,"Ethene with Benzene, 1, 3-dimethyl-, (m-xylene) and Ethylbenzene",0.74,189,0,,42,20,0.48,60 213.15 192.5 0.163 0.2977 0.5630 0.1561 60 213.15 192.5 0.163 0.2977 0.2387 0.1561 60 213.15 60 213.15 60 213.15 60 2
+57_125,"Ethene with Benzene, 1, 4-dimethyl-, (p-xylene)",1.0,186,0,,92,92,1.0,
+57_129,"Ethene with Benzene, 1, 4-dimethyl-, (p-xylene) and Ethylbenzene",1.0,190,0,,120,120,1.0,
+57_118,"Ethene with Benzene, methyl-, (toluene)",0.94,178,0,,62,55,0.89,248.155 248.155 248.155 248.155 248.155 248.155 248.155
+57_158,Ethene with Benzenemethanol (Benzyl alcohol),1.0,226,0,,3,3,1.0,
+57_237,"Ethene with Benzonitrile, 1, 4-Dioxane, Nitrobenzene, Dimethylsulfoxide, or Hexamethylphosphoric triamide",0.8,335,0,,25,20,0.8,298.2 298.2 298.2 298.2 298.2
+57_184,Ethene with Bromobenzene,1.0,261,0,,20,20,1.0,
+57_192,Ethene with Bromochloromethane,1.0,272,0,,113,113,1.0,
+57_186,Ethene with Bromocyclohexane,1.0,263,0,,20,20,1.0,
+57_243,Ethene with Carbon disulfide,1.0,344,0,,4,4,1.0,
+57_40,"Ethene with Carbonic acid, monopotassium salt, (Potassium bicarbonate), Carbonic acid, dipotassium salt, (Potassium carbonate) and Water",1.0,78,0,,25,25,1.0,
+57_37,"Ethene with Carbonic acid, monosodium salt; (Sodium bicarbonate); Carbonic acid disodium salt and Water",1.0,75,0,,15,15,1.0,
+57_257,"Ethene with Carbowaxes; carbowax 400, carbowax 350",0.9,358,0,,14,14,1.0,
+57_181,Ethene with Chlorobenzene,1.0,257,0,,20,20,1.0,
+57_182,Ethene with Chlorobenzene,0.98,258,0,,90,86,0.96,17.05 13.56 11.83 10.45
+57_183,Ethene with Chlorobenzene,1.0,260,0,,11,11,1.0,
+57_185,Ethene with Chlorocyclohexane,1.0,262,0,,20,20,1.0,
+57_177,Ethene with Chloroethene (vinyl chloride),,,,,12,0,,
+57_218,Ethene with Cycloheptanone,1.0,304,0,,20,20,1.0,
+57_101,Ethene with Cyclohexane,1.0,157,0,,20,20,1.0,
+57_110,Ethene with Cyclohexane,0.86,170,0,,152,108,0.71,303.15 2.01 0.245 0.99 303.15 4.03 0.995 303.15 6.02 0.99 323.15 1.98 0.975 323.15 3.97 0.405 0.98 323.15 5.96 0.51 0.98
+57_152,Ethene with Cyclohexanol,0.8,220,0,,0,0,,
+57_215,Ethene with Cyclohexanone,1.0,301,0,,20,20,1.0,
+57_235,Ethene with Cyclohexylamine,1.0,333,0,,2,2,1.0,
+57_213,Ethene with Cyclopentanone,1.0,299,0,,20,20,1.0,
+57_103,"Ethene with Decahydronaphthalene, (Decalin)",1.0,159,0,,6,6,1.0,
+57_122,Ethene with Diethylbenzene,1.0,182,0,,41,41,1.0,
+57_99,"Ethene with Dimethylbenzene, (xylene), actual type not specified; taken to be m-xylene",,,,,19,0,,
+57_100,Ethene with Dimethylbenzenes (xylenes),,,,,12,0,,
+57_67,Ethene with Dodecane,1.0,110,0,,16,16,1.0,
+57_85,Ethene with Dodecane,0.81,137,0,,290,182,0.63,283.15 0.135 200.8 283.15 0.245 182.8 283.15 0.35 165.4 283.15 0.445 149.8 283.15 135.7 283.15 122.7 283.15 0.69 110.3 2
+57_86,Ethene with Eicosane (n-Eicosane),1.0,139,0,,72,72,1.0,
+57_246,Ethene with Esters of phosphoric acid,0.89,347,0,,41,40,0.98,57.1
+57_21,Ethene with Ethane and Water,0.67,49,0,,815,273,0.33,1080.2 7.448 0.003 0.881 0.0094 0.9906 1503.2 10.364 0.2452 0.7531 0.054 0.9460 1486.2 10.247 0.4087 0.7663 0.2324 0.867
+57_179,"Ethene with Ethane, 1, 2-Dichloro- (Ethylenedichloride)",1.0,255,0,,28,28,1.0,
+57_196,"Ethene with Ethane, 1,1,2-trichloro-1,2,2-trifluoro- (Freon 113)",1.0,277,0,,68,68,1.0,
+57_137,Ethene with Ethanol,1.0,205,0,,5,5,1.0,
+57_138,Ethene with Ethanol,0.92,206,0,,12,10,0.83,165.2 165.2
+57_139,Ethene with Ethanol,1.0,207,0,,22,22,1.0,
+57_163,Ethene with Ethanol,0.9,234,0,,35,28,0.8,348.15 348.15 348.15 348.15 348.15 348.15 348.15
+57_44,Ethene with Ethanol and Water,0.77,83,0,,38,28,0.74,298.15 8.76 -05 9.04 -05 298.15 298.15 298.15 298.15 298.15
+57_50,"Ethene with Ethanol, 2, 2 ' , 2 ' '-nitrilotris-, (Triethanolamine) and Water",0.9,90,0,,29,29,1.0,
+57_49,"Ethene with Ethanol, 2, 2 '-iminobis-, (Dieth-anolamine) and Water",1.0,89,0,,23,23,1.0,
+57_121,Ethene with Ethylbenzene,1.0,181,0,,42,42,1.0,
+57_126,Ethene with Ethylbenzene,1.0,187,0,,102,101,0.99,19.6
+57_238,"Ethene with Ethyne (Acetylene) and N, N -Dimethylformamide (DMF)",0.89,336,0,,144,112,0.78,55 218.15 55 218.15 55 218.15 55 218.15 55 218.15 55 218.15 55 218.15 55 218.15 55 218.15 55 218.15 55 218.15 55 218.15 
+57_258,Ethene with Fischer-Tropsch SASOL wax,0.9,359,0,,50,50,1.0,
+57_62,Ethene with Heptane,1.0,105,0,,11,11,1.0,
+57_63,Ethene with Heptane,1.0,106,0,,18,18,1.0,
+57_64,Ethene with Heptane,1.0,107,0,,20,20,1.0,
+57_78,Ethene with Heptane,1.0,125,0,,24,24,1.0,
+57_80,Ethene with Heptane,0.85,127,0,,174,121,0.7,1.425 14.06 0.855 1305.3 1.441 14.22 0.8539 1294.8 1.504 14.84 0.8945 1877.7 0.496 4.9 0.3636 126.58 0.528 5.21 0.3765 1
+57_81,Ethene with Heptane,1.0,129,0,,77,77,1.0,
+57_82,Ethene with Heptane,0.8,131,0,,357,211,0.59,357.04 12.94 0.0208 0.0704 12.94 399.93 11.38 0.0208 0.0704 11.38 431.54 9.87 0.0208 0.0704 9.87 455.76 8.66 0.0208 0.07
+57_106,Ethene with Heptane and Methylbenzene (toluene),1.0,162,0,,68,68,1.0,
+57_65,Ethene with Heptane or Octane,0.9,108,0,,16,16,1.0,
+57_201,"Ethene with Heptane, 1,1,1,7-Tetrachloro-",1.0,284,0,,25,25,1.0,
+57_68,Ethene with Hexadecane or Heptadecane,0.9,111,0,,6,6,1.0,
+57_57,Ethene with Hexane,1.0,100,0,,4,4,1.0,
+57_58,Ethene with Hexane,1.0,101,0,,47,47,1.0,
+57_59,Ethene with Hexane,1.0,102,0,,20,20,1.0,
+57_60,Ethene with Hexane,0.97,103,0,,5,5,1.0,
+57_79,Ethene with Hexane,0.9,126,0,,26,26,1.0,
+57_71,Ethene with Hexane and Dodecane,1.0,114,0,,42,42,1.0,
+57_214,"Ethene with Hexane, 1,2-epoxy-, (Hexamethylene oxide)",1.0,300,0,,20,20,1.0,
+57_88,Ethene with Hexatriacontane,1.0,141,0,,72,72,1.0,
+57_252,Ethene with Human blood and Various aqueous solutions,0.65,353,0,,6,3,0.5,298.15 298.15 298.15
+57_23,"Ethene with Hydrochloric acid, nitric acid or sulfuric acid and Water",0.73,61,0,,32,21,0.66,298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15
+57_256,Ethene with Kerosenes; Gasoline,0.9,357,0,,24,24,1.0,
+57_26,Ethene with Lanthanum Chloride and Water,1.0,64,0,,20,20,1.0,
+57_27,Ethene with Lithium chloride and Water,1.0,65,0,,16,16,1.0,
+57_30,"Ethene with Lithium chloride, sodium chloride, sodium bromide or sodium sulfite and Water",0.71,68,0,,34,21,0.62,298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15
+57_131,Ethene with Methanol,1.0,199,0,,26,26,1.0,
+57_132,Ethene with Methanol,0.9,200,0,,5,4,0.8,43.9
+57_133,Ethene with Methanol,0.83,201,0,,24,16,0.67,298.15 0.01 298.15 0.01 298.15 0.01 298.15 0.01
+57_134,Ethene with Methanol,1.0,202,0,,20,20,1.0,
+57_135,Ethene with Methanol,1.0,203,0,,12,12,1.0,
+57_136,Ethene with Methanol,,,,,15,0,,
+57_161,Ethene with Methanol,1.0,232,0,,26,26,1.0,
+57_162,Ethene with Methanol,0.99,233,0,,90,89,0.99,395.87
+57_43,Ethene with Methanol and Water,0.77,82,0,,38,28,0.74,298.15 8.76 -05 9.04 -05 298.15 298.15 298.15 298.15 298.15
+57_95,Ethene with Methylbenzene (toluene),,,,,15,0,,
+57_96,Ethene with Methylbenzene (toluene),1.0,152,0,,81,81,1.0,
+57_97,Ethene with Methylbenzene (toluene),,,,,20,0,,
+57_98,Ethene with Methylbenzene (toluene),1.0,154,0,,12,12,1.0,
+57_116,Ethene with Methylbenzene (toluene),1.0,176,0,,92,92,1.0,
+57_117,Ethene with Methylbenzene (toluene),1.0,177,0,,22,22,1.0,
+57_119,Ethene with Methylbenzene (toluene),1.0,179,0,,40,40,1.0,
+57_102,Ethene with Methylcyclohexane,1.0,158,0,,10,10,1.0,
+57_107,Ethene with Methylcyclohexane and Methylbenzene (toluene),1.0,163,0,,58,58,1.0,
+57_231,Ethene with Miscellaneous compounds,0.9,329,0,,19,19,1.0,
+57_240,"Ethene with N, N-Dimethylformamide",1.0,338,0,,79,79,1.0,
+57_104,"Ethene with Naphthalene, 1,2,3,4-tetrahydro-, (tetralin)",,,,,20,0,,
+57_24,Ethene with Nitric acid and Water,1.0,62,0,,20,20,1.0,
+57_36,"Ethene with Nitric acid, Sodium Chloride and Water",1.0,74,0,,20,20,1.0,
+57_234,Ethene with Nitrobenzene,1.0,332,0,,35,35,1.0,
+57_84,Ethene with Nonane,1.0,135,0,,24,24,1.0,
+57_66,Ethene with Nonane or Decane,0.9,109,0,,17,17,1.0,
+57_202,"Ethene with Nonane, 1,1,1,9-Tetrachloro-",1.0,285,0,,25,25,1.0,
+57_87,Ethene with Octacosane,1.0,140,0,,72,72,1.0,
+57_69,"Ethene with Octadecane, Eicosane or Docosane",0.9,112,0,,119,119,1.0,
+57_83,Ethene with Octane,0.9,133,0,,125,99,0.79,0.253 0.1715 40.23 0.289 0.195 47.09 0.363 0.2583 67.68 0.458 0.3169 90.17 0.562 0.4032 132.38 0.756 0.5457 233.47 0.592
+57_253,Ethene with Olive oil,0.9,354,0,,4,4,1.0,
+57_56,Ethene with Pentane or Hexane,0.9,99,0,,16,16,1.0,
+57_200,"Ethene with Pentane, 1,1,1,5-Tetrachloro-",1.0,283,0,,25,25,1.0,
+57_25,Ethene with Perchloric acid and Water,1.0,63,0,,33,33,1.0,
+57_254,Ethene with Petroleum,0.9,355,0,,26,26,1.0,
+57_260,"Ethene with Petroleum, crude oils",0.9,361,0,,46,46,1.0,
+57_157,Ethene with Phenol,1.0,225,0,,3,3,1.0,
+57_247,"Ethene with Phosphoric acid, tributyl ester (tributyl phosphate)",1.0,348,0,,23,23,1.0,
+57_32,"Ethene with Potassium bromide, potassium chloride or copper chloride and Water",0.7,70,0,,25,15,0.6,298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15
+57_33,Ethene with Potassium iodide and Water,1.0,71,0,,16,16,1.0,
+57_34,Ethene with Potassium nitrate and Water,1.0,72,0,,46,46,1.0,
+57_74,Ethene with Propane,0.81,119,0,,170,107,0.63,273.06 0.7822 0.3208 0.0996 0.4101 273.06 1.067 0.6208 0.1905 0.5818 273.06 1.195 0.7561 0.2308 0.6329 273.06 1.544 0.34
+57_199,"Ethene with Propane, 1,1,1,3-Tetrachloro-",1.0,282,0,,25,25,1.0,
+57_77,"Ethene with Propane, 2-methyl (isobutane)",1.0,124,0,,90,90,1.0,
+57_225,Ethene with Propanoic acid (propionic acid),0.96,318,0,,12,12,1.0,
+57_156,"Ethene with Propanol, oxybis-, (Dipropylene glycol)",1.0,224,0,,9,9,1.0,
+57_73,Ethene with Propene,1.0,118,0,,10,10,1.0,
+57_35,Ethene with Silver nitrate and Water,1.0,73,0,,40,40,1.0,
+57_28,Ethene with Sodium chloride and Water,1.0,66,0,,28,28,1.0,
+57_29,Ethene with Sodium chloride and Water,1.0,67,0,,12,12,1.0,
+57_41,"Ethene with Sodium chloride, barium chloride or sodium sulfate, Nitric acid, ammonium salt (ammonium nitrate) and Water",1.0,79,0,,24,24,1.0,
+57_39,"Ethene with Sodium chloride, Barium chloride, Nitric acid, ammonium salt (ammonium nitrate) and Water",0.83,77,0,,75,60,0.8,298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15
+57_38,"Ethene with Sulfuric acid, Sodium sulfate and Water",1.0,76,0,,10,10,1.0,
+57_244,"Ethene with Sulfuric acid, diethyl ester (diethyl sulfate)",1.0,345,0,,34,34,1.0,
+57_169,Ethene with Tetrachloromethane,1.0,245,0,,4,4,1.0,
+57_170,Ethene with Tetrachloromethane,1.0,246,0,,11,11,1.0,
+57_172,Ethene with Tetrachloromethane,1.0,248,0,,12,12,1.0,
+57_174,Ethene with Tetrachloromethane,1.0,250,0,,6,6,1.0,
+57_171,Ethene with Tetrachloromethane (Carbon tetrachloride),1.0,247,0,,6,6,1.0,
+57_173,Ethene with Tetrachloromethane (Carbon tetrachloride),0.83,249,0,,3,2,0.67,298.2
+57_194,Ethene with Tetrachloromethane (Carbon tetrachloride),1.0,275,0,,40,40,1.0,
+57_189,Ethene with Tetrachloromethane (Carbon tetrachloride) and Heptane,1.0,266,0,,34,34,1.0,
+57_168,Ethene with Tetrachloromethane or carbon tetrachloride,0.95,244,0,,50,45,0.9,2.065 1.78 1.658 1.361 1.205
+57_70,"Ethene with Tetracosane, 2,6,10,15,19,23-hexamethyl (squalane)",1.0,113,0,,20,20,1.0,
+57_259,Ethene with Three crude oil solvents; some properties given below,0.9,360,0,,83,83,1.0,
+57_175,Ethene with Trichloromethane (chloroform),1.0,251,0,,6,6,1.0,
+57_176,Ethene with Trichloromethane (chloroform),1.0,252,0,,24,24,1.0,
+57_193,Ethene with Trichloromethane (chloroform),0.86,274,0,,271,196,0.72,273.15 0.236 273.15 0.475 273.15 0.708 273.15 0.964 25 298.15 0.9859 0.148 0.973 25 298.15 0.297 0.987 25 298.15 3.018 0
+57_187,Ethene with Trichloromethane (chloroform) and 2-Propanone (acetone),1.0,264,0,,34,34,1.0,
+57_188,Ethene with Trichloromethane (chloroform) and Methylbenzene (toluene),1.0,265,0,,29,29,1.0,
+57_248,Ethene with Triphenylphosphine,1.0,349,0,,9,9,1.0,
+57_1,Ethene with Water,1.0,18,0,,60,60,1.0,
+57_2,Ethene with Water,1.0,20,0,,7,7,1.0,
+57_3,Ethene with Water,1.0,21,0,,4,4,1.0,
+57_4,Ethene with Water,1.0,22,0,,15,15,1.0,
+57_5,Ethene with Water,0.96,23,0,,12,11,0.92,9.04
+57_6,Ethene with Water,1.0,24,0,,6,6,1.0,
+57_7,Ethene with Water,1.0,25,0,,3,3,1.0,
+57_8,Ethene with Water,1.0,26,0,,15,15,1.0,
+57_9,Ethene with Water,1.0,27,0,,84,84,1.0,
+57_10,Ethene with Water,1.0,28,0,,6,6,1.0,
+57_11,Ethene with Water,0.87,29,0,,43,32,0.74,298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15 298.15
+57_12,Ethene with Water,1.0,30,0,,5,5,1.0,
+57_13,Ethene with Water,0.64,337,0,,40,11,0.28,8.7 10.4 308.15 7.08 6.85 310.93 6.75 6.90 310.93 6.75 6.30 327.59 5.32 4.95 328.15 5.29 6.05 344.26 4.49 4.32 344.26 4.
+57_14,Ethene with Water,1.0,34,0,,54,54,1.0,
+57_15,Ethene with Water,1.0,35,0,,84,84,1.0,
+57_16,Ethene with Water,0.72,36,0,,251,110,0.44,5374 3064.7 21.13 21.02 3.576 5.124 4079.7 28.13 27.98 28.1 3.826 344.32 1074.7 7.41 7.363 7.377 2.319 6.325 344.32 4289
+57_17,Ethene with Water,0.79,41,0,,336,198,0.59,310.93 1.372 1.372 0.838 5.126 310.93 2.751 1.557 2.824 310.93 3.439 3.441 1.875 310.93 6.883 6.888 2.955 1.661 310.93 1
+57_18,Ethene with Water,0.7,42,0,,228,93,0.41,344.26 0.0846 0.1172 0.27 344.26 0.4776 0.5102 344.26 114 0.7533 0.786 2.85 344.26 184 1.236 1.269 5.19 344.26 210 1.415
+57_19,Ethene with Water,1.0,45,0,,50,50,1.0,
+57_20,Ethene with Water,0.76,47,0,,312,163,0.52,0.841 0.835 0.000539 0.084 0.902 0.896 0.000597 0.093 2.07 2.06 0.00126 0.197 3.55 3.54 0.00197 0.307 3.61 3.6 0.00206 0
+57_250,"Ethene with Water; Dog blood, dog plasma, and dog hemoglobin",0.7,351,0,,200,120,0.6,25 298.15 25 298.15 25 298.15 25 298.15 25 298.15 25 298.15 25 298.15 25 298.15 25 298.15 25 298.15 25 298.15 25 298.15 
+57_251,"Ethene with Water; Human blood, dog blood, rabbit blood, and aqueous lipoidal suspensions of dog blood.",0.69,352,0,,24,14,0.58,37.5 310.65 37.5 310.65 37.5 310.65 37.5 310.65 37.5 310.65
+57_120,Ethene with Xylene (mixture of the three isomers),0.9,180,0,,24,24,1.0,
