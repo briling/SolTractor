@@ -7,11 +7,50 @@ The second argument is either a folder with one MinerU output folder per crop
 tables.jsonl condensed from it (one line per crop: {"crop": ..., "blocks": [...]}).
 Each crop goes to the compilation sheet on its page whose whole-page table text
 shares most numeric tokens with it. The table becomes one line per row, cells
-separated by " | "; a crop with no table keeps the whole-page text.
+separated by " | ", rowspan cells repeated in every row they span (a blank
+temperature under a repeated one means "as above"); a crop with no table keeps
+the whole-page text.
 """
 import html, json, pathlib, re, sys
 
 src, crops, dst = map(pathlib.Path, sys.argv[1:4])
+
+
+def html_rows(c: str) -> list[list[str]]:
+    """Rows of an HTML table with rowspan cells repeated in the rows they span.
+
+    A sheet leaves the temperature blank under a repeated value to mean "as above";
+    MinerU encodes that as a rowspan cell, and flattening row by row would drop it
+    and shift the remaining cells left. A colspan cell (the EXPERIMENTAL VALUES
+    banner) stays one cell."""
+    out, pending = [], {}                                  # pending: column -> [rows left, text]
+    for tr in re.findall(r'<tr[^>]*>(.*?)</tr>', c, re.S):
+        cells = re.findall(r'<t[dh]([^>]*)>(.*?)</t[dh]>', tr, re.S)
+        line, col, i = [], 0, 0
+        while i < len(cells) or any(k >= col for k in pending):
+            if col in pending:
+                n, text = pending[col]
+                line.append(text)
+                if n <= 1:
+                    del pending[col]
+                else:
+                    pending[col][0] = n - 1
+                col += 1
+                continue
+            if i >= len(cells):
+                col += 1
+                continue
+            attrs, body = cells[i]
+            i += 1
+            text = html.unescape(re.sub(r'<[^>]+>', '', body)).strip()
+            rs = re.search(r'rowspan="?(\d+)', attrs)
+            cs = re.search(r'colspan="?(\d+)', attrs)
+            line.append(text)
+            if rs and int(rs.group(1)) > 1:
+                pending[col] = [int(rs.group(1)) - 1, text]
+            col += int(cs.group(1)) if cs else 1
+        out.append(line)
+    return out
 
 
 def table_text(doc) -> str | None:
@@ -21,8 +60,7 @@ def table_text(doc) -> str | None:
                 continue
             c = b['content'] if isinstance(b['content'], str) else ' '.join(x.get('content', '') for x in b['content'])
             if '<table' in c:
-                rows = [[html.unescape(re.sub(r'<[^>]+>', '', td)).strip() for td in re.findall(r'<t[dh][^>]*>(.*?)</t[dh]>', r, re.S)]
-                        for r in re.findall(r'<tr[^>]*>(.*?)</tr>', c, re.S)]
+                rows = html_rows(c)
             else:                                        # markdown pipe table
                 rows = [[x.strip() for x in l.strip().strip('|').split('|')] for l in c.splitlines()
                         if l.strip().startswith('|') and not re.match(r'^\|?\s*-', l.strip())]
