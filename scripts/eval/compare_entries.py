@@ -15,7 +15,8 @@ field by field: numbers within a relative tolerance (--tol), components aligned 
 reports precision (of what we wrote, how much is right), recall (of what NIST has, how much we
 got) and F1, overall and per field, with match / mismatch / omission / hallucination counts.
 
-Writes <out>/summary.json, <out>/per_field.csv and <out>/pairs.csv.
+Writes <out>/summary.json, <out>/per_field.csv and <out>/pairs.csv (per pair: scores, and the mismatched fields with
+both values, the omitted and the hallucinated fields, so every failure can be looked up by NIST id and lab_id).
 """
 import argparse, csv, dataclasses, io, json, pathlib, re, zipfile
 
@@ -123,10 +124,13 @@ def main() -> None:
         for p, s in summary['per_field'].items():
             w.writerow([p, *(s.get(k, '') for k in ('matches', 'mismatches', 'omissions', 'hallucinations', 'precision', 'recall', 'f1'))])
     with (a.out / 'pairs.csv').open('w', newline='') as f:
-        w = csv.writer(f); w.writerow(['nist_id', 'lab_id', 'precision', 'recall', 'f1', 'mismatched_fields'])
+        w = csv.writer(f); w.writerow(['nist_id', 'lab_id', 'precision', 'recall', 'f1', 'mismatched', 'omitted', 'hallucinated'])
         for i, r in zip(ids, result.records):
-            bad = [fr.path for fr in getattr(r, 'fields', []) if getattr(fr, 'status', '') == 'mismatch']
-            w.writerow([i, ext_by_id[i].get('lab_id', ''), round(getattr(r, 'precision', 0), 4), round(getattr(r, 'recall', 0), 4), round(getattr(r, 'f1', 0), 4), ' '.join(bad)])
+            by = {}
+            for fr in r.field_results:
+                by.setdefault(fr.status, []).append(f'{fr.path}={fr.gold_value}|{fr.extracted_value}' if fr.status == 'mismatch' else fr.path)
+            w.writerow([i, ext_by_id[i].get('lab_id', ''), round(r.precision, 4), round(r.recall, 4), round(r.f1, 4),
+                        ' '.join(by.get('mismatch', [])), ' '.join(by.get('omission', [])), ' '.join(by.get('hallucination', []))])
     print(f"pairs {len(ids)} (gold rows {len(gold_by_id)}, unclaimed {len(gold_by_id) - len(ids)}; extraction entries without id {unmatched}, duplicate id {dup})")
     print(f"precision {result.mean_precision:.3f}  recall {result.mean_recall:.3f}  F1 {result.mean_f1:.3f}  (relative tolerance {a.tol})")
     for p, s in sorted(summary['per_field'].items(), key=lambda kv: -(kv[1].get('matches', 0) + kv[1].get('mismatches', 0) + kv[1].get('omissions', 0))):
