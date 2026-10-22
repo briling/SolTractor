@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "OSI Hackathon Schema",
-  "description": "Equilibrium solution data with phases, phase components, extracted amounts, PubChem substances, and publication references.",
-  "$comment": "Validates an EquilibriumSolution data object, without an EntryArchive data wrapper. Fields remain optional as in schema.archive.yaml. Numeric values use the declared storage units, except Amount.value, which uses Amount.units. The unit keyword preserves NOMAD storage units; JSON Schema validators do not convert units or run NOMAD normalizers. Each phase and phase component has an optional substance described by PubChemPureSubstanceSection.",
+  "description": "Equilibrium solution data with physical properties, phases, named component solubility quantities, PubChem substances, and publication references.",
+  "$comment": "Validates one EquilibriumSolution measurement state, without an EntryArchive data wrapper. Fields remain optional as in schema.archive.yaml. Numeric values use fixed declared storage units; fractions and mass ratios are dimensionless. Header prefactors and source units must be normalized before validation. The unit keyword preserves NOMAD storage units; JSON Schema validators do not convert units, derive missing measures, or run NOMAD normalizers. Amount quantities belong to individual phase components. Each phase and phase component has an optional substance described by PubChemPureSubstanceSection.",
   "x-nomad-source-schema": "schema.archive.yaml",
   "x-nomad-sources": [
     "https://docs.nomad-lab.eu/reference/basesections.html",
@@ -228,23 +228,84 @@
     },
     "Amount": {
       "title": "Amount",
-      "description": "An extracted amount with its measure type, numeric value, and units.",
+      "description": "Named solubility and composition quantities for one component, normalized to the declared storage units. For a header 10^n q, divide the tabulated value by 10^n before unit conversion. Several measures may coexist; omitted measures are not derived.",
       "allOf": [
         { "$ref": "#/$defs/ArchiveSection" }
       ],
       "type": "object",
       "properties": {
-        "type": {
-          "type": "string",
-          "description": "Kind of amount, such as molarity, molality, mass fraction, molar fraction, or partial pressure."
-        },
-        "value": {
+        "mole_fraction": {
           "type": "number",
-          "description": "Numerical value of the extracted amount in the specified units."
+          "description": "Component amount divided by total amount in its phase: x in liquids, y in gases, or x(s) in solids; dimensionless."
         },
-        "units": {
+        "mass_fraction": {
+          "type": "number",
+          "description": "Component mass divided by solution mass; dimensionless. Divide printed 100 w or g per 100 g solution by 100, g/kg solution by 1000, and mg/kg solution by 1000000."
+        },
+        "molality": {
+          "type": "number",
+          "unit": "mole / kilogram",
+          "description": "Solute amount per unit mass of solvent, in mol/kg solvent."
+        },
+        "molar_concentration": {
+          "type": "number",
+          "unit": "mole / meter ** 3",
+          "description": "Component amount per solution volume, in mol/m^3. Multiply mol/dm^3 or mol/L values by 1000 for storage."
+        },
+        "mass_concentration": {
+          "type": "number",
+          "unit": "kilogram / meter ** 3",
+          "description": "Component mass per solution volume, in kg/m^3; g/dm^3 and g/L have the same numerical value. Mass-per-mass forms use mass_fraction or solute_solvent_mass_ratio according to the stated denominator."
+        },
+        "solute_solvent_mass_ratio": {
+          "type": "number",
+          "description": "Solute mass divided by solvent mass; dimensionless. Divide g per 100 g solvent by 100, g/kg solvent by 1000, and mg/kg solvent by 1000000. The source must identify the solvent denominator."
+        },
+        "bunsen_coefficient": {
+          "type": "number",
+          "description": "Bunsen coefficient alpha: gas volume at the source's stated reference conditions (usually 273.15 K and 1 atm) divided by solvent volume at measurement conditions; dimensionless. Use bunsen_coefficient_per_pressure for a pressure-normalized result."
+        },
+        "bunsen_coefficient_per_pressure": {
+          "type": "number",
+          "unit": "1 / pascal",
+          "description": "Bunsen reference-condition gas-volume/solvent-volume ratio divided by gas partial pressure, in Pa^-1. The source must specify the gas-volume reference conditions; convert inverse-atmosphere values to inverse pascals."
+        },
+        "ostwald_coefficient": {
+          "type": "number",
+          "description": "Ostwald coefficient L: gas volume at measurement temperature and pressure divided by solvent volume at measurement conditions; dimensionless. No value is derived from the Bunsen coefficient."
+        },
+        "kuenen_coefficient": {
+          "type": "number",
+          "unit": "meter ** 3 / kilogram",
+          "description": "Kuenen coefficient S: gas volume at the source's stated reference conditions (usually 273.15 K and 1 atm) per solvent mass, in m^3/kg. Use kuenen_coefficient_per_pressure for a pressure-normalized result."
+        },
+        "kuenen_coefficient_per_pressure": {
+          "type": "number",
+          "unit": "meter ** 3 / (kilogram * pascal)",
+          "description": "Kuenen reference-condition gas volume per solvent mass divided by gas partial pressure, in m^3/(kg Pa). The source must specify the gas-volume reference conditions; convert cm^3/(g atm) to the storage units."
+        },
+        "henry_constant_p_over_x": {
+          "type": "number",
+          "unit": "pascal",
+          "description": "Henry constant defined as gas partial pressure divided by liquid-phase mole fraction, p/x, in pascals. Select this convention from the source definition, not the symbol H alone."
+        },
+        "henry_constant_p_over_c": {
+          "type": "number",
+          "unit": "pascal * meter ** 3 / mole",
+          "description": "Henry constant defined as gas partial pressure divided by liquid-phase molar concentration, p/c, in Pa m^3/mol. Convert reported atm m^3/mol or dm^3 mmHg/mol to these storage units."
+        },
+        "henry_constant_c_gas_over_c_liquid": {
+          "type": "number",
+          "description": "Henry constant defined as gas-phase molar concentration divided by liquid-phase molar concentration using matching concentration units; dimensionless. Select this convention from the source definition, not the symbol H alone."
+        },
+        "partial_pressure": {
+          "type": "number",
+          "unit": "pascal",
+          "description": "Component partial pressure associated with the reported gas-solubility measurements, in pascals. No pressure is assumed when omitted."
+        },
+        "estimated_error_solubility": {
           "type": "string",
-          "description": "Units associated with the value, such as mol/L, mol/kg, Pa, or dimensionless."
+          "description": "Reported estimated error in solubility, preserved as source text with its expression, units, symbols, and line breaks."
         }
       }
     },
@@ -260,13 +321,22 @@
           "type": "string",
           "description": "Short descriptive name identifying this component within the phase."
         },
+        "density": {
+          "type": "number",
+          "unit": "kilogram / meter ** 3",
+          "description": "Mass density of this component at the stated measurement conditions, in kg/m^3."
+        },
+        "source_purity": {
+          "type": "string",
+          "description": "Reported source, preparation, and purity of this material, preserved as text including units, symbols, percentages, and line breaks."
+        },
         "substance": {
           "$ref": "#/$defs/PubChemPureSubstanceSection",
           "description": "Chemical identity and PubChem details of the substance forming this component."
         },
         "amount": {
           "$ref": "#/$defs/Amount",
-          "description": "Extracted amount expressed by its type, value, and units."
+          "description": "Reported solubility and composition quantities for this component, normalized to the declared storage units."
         }
       }
     },
@@ -286,9 +356,19 @@
           "enum": ["solid", "liquid", "gas"],
           "description": "Physical state of the phase, such as solid, liquid, or gas."
         },
-        "amount": {
-          "$ref": "#/$defs/Amount",
-          "description": "Extracted amount expressed by its type, value, and units."
+        "density": {
+          "type": "number",
+          "unit": "kilogram / meter ** 3",
+          "description": "Bulk mass density of this phase at the stated measurement conditions, in kg/m^3."
+        },
+        "salinity": {
+          "type": "number",
+          "unit": "dimensionless",
+          "description": "Mass of dissolved salts divided by solution mass in this phase; dimensionless. Divide reported g/kg solution by 1000 for storage."
+        },
+        "ph": {
+          "type": "number",
+          "description": "pH of this phase at the stated measurement conditions; dimensionless."
         },
         "substance": {
           "$ref": "#/$defs/PubChemPureSubstanceSection",
@@ -297,7 +377,7 @@
         "components": {
           "type": "array",
           "items": { "$ref": "#/$defs/PhaseComponent" },
-          "description": "Components forming this phase, with their substance details and extracted amounts."
+          "description": "Components forming this phase, with their substance details and solubility quantities."
         }
       }
     },
@@ -314,10 +394,24 @@
           "unit": "kelvin",
           "description": "Isothermal temperature of the solution."
         },
+        "temperature_initial": {
+          "type": "number",
+          "unit": "kelvin",
+          "description": "Initial temperature T_in of a dynamic measurement interval, in kelvin."
+        },
+        "temperature_final": {
+          "type": "number",
+          "unit": "kelvin",
+          "description": "Final temperature T_fin of a dynamic measurement interval, in kelvin."
+        },
+        "estimated_error_temperature": {
+          "type": "string",
+          "description": "Reported estimated error in temperature, preserved as source text with its expression, units, symbols, and line breaks."
+        },
         "pressure": {
           "type": "number",
           "unit": "pascal",
-          "description": "Gas pressure over the solution (assumed to be isobar)."
+          "description": "Total gas pressure over the solution, in pascals; component partial pressures are stored in PhaseComponent.amount."
         },
         "measurement_methods": {
           "type": "array",
