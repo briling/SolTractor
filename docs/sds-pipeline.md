@@ -111,16 +111,16 @@ numeric tokens all occur in one line of the matched EXPERIMENTAL VALUES box, whi
 the crop pass delivers. Note that the scraped NIST sheets cover volume 60 and 20 well
 but only 18 to 55 sheets of the other volumes.
 
-| volume | NIST sheets | text layer: aligned, recall | page pass: aligned, recall | crop pass: aligned, recall | rows in one line (crops) | entries |
-|-------:|------------:|----------------------------:|---------------------------:|---------------------------:|-------------------------:|--------:|
-| 20 | 94 | 90, 96.7 % | 83, 99.7 % | 83, 99.7 % | 183 / 185 | 237 |
-| 37 | 23 | 18, 94.1 % | 19, 100 % | 19, 94.2 % | 81 / 94 | 1148 |
-| 38 | 18 | 10, 98.3 % | 9, 100 % | 9, 100 % | 36 / 36 | 889 |
-| 57 | 42 | 19, 81.2 % | 18, 83.4 % | 17, 83.0 % | 160 / 253 | 1595 |
-| 58 | 32 | 10, 98.0 % | 30, 98.7 % | 29, 99.9 % | 198 / 235 | 1023 |
-| 59 | 33 | 19, 87.2 % | 32, 99.5 % | 31, 99.6 % | 258 / 283 | 2423 |
-| 60 | 288 | 263, 97.2 % | 263, 95.1 % | 264, 95.7 % | 614 / 733 | 722 |
-| 62 | 55 | 21, 89.3 % | 21, 87.6 % | 21, 88.6 % | 422 / 688 | 4749 |
+| volume | NIST sheets | text layer: aligned, recall | page pass: aligned, recall | crop pass: aligned, recall | rows in one line (crops) | entries | second crop pass: rows in one line, entries |
+|-------:|------------:|----------------------------:|---------------------------:|---------------------------:|-------------------------:|--------:|---|
+| 20 | 94 | 90, 96.7 % | 83, 99.7 % | 83, 99.7 % | 183 / 185 | 237 | not re-run |
+| 37 | 23 | 18, 94.1 % | 19, 100 % | 19, 94.2 % | 81 / 94 | 1148 | not re-run |
+| 38 | 18 | 10, 98.3 % | 9, 100 % | 9, 100 % | 36 / 36 | 889 | 36 / 36, 897 |
+| 57 | 42 | 19, 81.2 % | 18, 83.4 % | 17, 83.0 % | 160 / 253 | 1595 | not re-run |
+| 58 | 32 | 10, 98.0 % | 30, 98.7 % | 29, 99.9 % | 198 / 235 | 1023 | not re-run |
+| 59 | 33 | 19, 87.2 % | 32, 99.5 % | 31, 99.6 % | 258 / 283 | 2423 | 285 / 295, 2 837 |
+| 60 | 288 | 263, 97.2 % | 263, 95.1 % | 264, 95.7 % | 614 / 733 | 722 | not re-run |
+| 62 | 55 | 21, 89.3 % | 21, 87.6 % | 21, 88.6 % | 422 / 688 | 4749 | 422 / 688, 4 847 |
 
 The text layer aligns a third of the NIST sheets of volumes 58 and 59 where the page
 pass aligns nearly all of them: the segmenter loses the sheets, not the values. Volume 57
@@ -185,6 +185,11 @@ one crop (solubility of (1) in (2) above (2) in (1)), and a header whose first l
 | 59 | 2 444 | 0 | 21 | 695/711 | 4 404 | 4 384 | 20 | 242 | 83 / 7 / 84 |
 | 60 | 722 | 0 | 0 | 1 099/1 241 | 1 582 | 1 540 | 42 | 36 | 35 / 6 / 10 |
 | 62 | 4 760 | 11 | 11 | 1 033/1 234 | 6 875 | 6 870 | 5 | 134 | 2 / 1 / 45 |
+| 38, second pass | 897 | 0 | 0 | 411/510 | 1 421 | 1 376 | 45 | 44 | 41 / 6 / 5 |
+| 59, second pass | 2 876 | 0 | 39 | 818/822 | 5 209 | 5 191 | 18 | 287 | 94 / 9 / 100 |
+| 62, second pass | 4 858 | 11 | 11 | 1 051/1 246 | 7 015 | 7 010 | 5 | 137 | 1 / 1 / 50 |
+
+The second-pass rows are the same checks on `boxes-crops-v2.jsonl` (section below): more rows, the same failure counts.
 
 The failures are what the check is for. Volume 60, page 43: the header `10^5 x_1` against
 a mass fraction that predicts `10^3 x_1`, all three rows off by exactly 10^2. Volume 37,
