@@ -1,0 +1,41 @@
+{
+  "data": {
+    "name": "Anthracene with Water",
+    "lab_id": "SDS-38/p334/0/r02",
+    "temperature": 287.25,
+    "measurement_methods": [
+      "The dynamic coupled column liquid chromatography (DCCLC) method was based on generating saturated solutions by pumping water through a column packed with glass beads that have been coated with the component (1) (generator column). The concentration of (1) in the effluent of the generator column was measured by a modification of the coupled column liquid chromatographic process that has been dexcribed in ref 1."
+    ],
+    "mixing_methods": [],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "Anthracene",
+            "substance": {
+              "name": "Anthracene",
+              "molecular_formula": "C14H10",
+              "cas_number": "120-12-7"
+            },
+            "amount": {
+              "mass_fraction": 2.22e-08,
+              "units": "1",
+              "source_header": "10^6 * g_1/kg"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": []
+  }
+}
