@@ -41,8 +41,13 @@ Files are written to `data/nist_archives/`, named after the measurement id (for 
 `62_197_t0_r1.json`). The exporter maps temperature, pressure, components, phase, normalized
 measurement values, and NIST's measurement-method text to the Pydantic model in
 `pydantic_schema.py`. One liquid `Phase` contains all components; each component has at
-most one directly reported `Amount`, preferring amount concentration over other supported
-quantities. Explicit solid-phase and gas-phase source fields add corresponding phases.
+most one directly reported, storage-unit-normalized `Amount`. Explicit solid-phase and
+gas-phase source fields add corresponding phases.
+
+The exporter uses the configured OpenAI-compatible Qwen endpoint to populate the Pydantic
+schema. Its API key is read from the ignored `.key` file; override the API connection with
+`--key-file`, `--base-url`, `--model`, `--timeout`, and `--max-tokens`. Every LLM-selected
+amount is checked against the normalized source record before an archive is written.
 
 ## How the website maps to the data
 
