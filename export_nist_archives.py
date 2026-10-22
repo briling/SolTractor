@@ -55,6 +55,20 @@ def record_components(record):
     return [component for component in [record["solute"], *(record["solvent"] or [])] if component]
 
 
+def lab_id_for(record):
+    """Return the SDS sheet, table, and row identifier required by the archive schema."""
+    try:
+        _, page = record["sheet_id"].split("_", maxsplit=1)
+        return (
+            f"SDS-{record['iupac_volume']}/p{int(page):03d}/"
+            f"{record['table_index']}/r{record['row_index']:02d}"
+        )
+    except (KeyError, ValueError) as exc:
+        raise RuntimeError(
+            f"Cannot derive lab_id from measurement {record.get('measurement_id')!r}."
+        ) from exc
+
+
 def measurement_candidates(record):
     candidates = []
     for source in ("solubility", "solvent_composition", "composition"):
@@ -300,6 +314,7 @@ def archive_for(record, sheet_context, schema, base_url, model, api_key, timeout
     )
     solution = schema.EquilibriumSolution.model_validate(response)
     validate_grounding(solution, record)
+    solution.lab_id = lab_id_for(record)
     return {"data": solution.model_dump(mode="json", exclude_none=True)}
 
 
