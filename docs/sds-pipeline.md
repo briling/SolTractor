@@ -131,10 +131,17 @@ line of the matched box; it moved from 54 to 160 (volume 57), 569 to 614 (60) an
 `crops_to_boxes.py` started to honour rowspan cells (see the quality checks below).
 `scripts/to_nomad.py` turns the crop-pass boxes of each volume into one NOMAD upload
 (`nomad-SDS-N.zip` in the library's `nomad/` folder, 12 786 entries in all, every one
-validated against the schema with NOMAD's metainfo). Crops in which the model returned
-the whole sheet as a table (header cells carrying box names) are skipped; when the
-table has no temperature column, a single-valued VARIABLES box supplies it.
-
+validated against the schema with NOMAD's metainfo). Since the schema of 2026-10-22 names
+each solubility quantity as its own field of `Amount`, the exporter fills every quantity a row
+prints for a component (mole and mass fraction, molality, molar and mass concentration, mass
+ratio, Bunsen, Ostwald and Kuenen coefficients, Henry's constant in its three conventions,
+partial pressure) in the schema's storage units, adds a solid or gas phase for x(s) and y
+columns, and carries density, salinity, pH, the SOURCE AND PURITY text per component and the
+ESTIMATED ERROR box split into temperature and solubility. 11 311 entries (88 %) carry at
+least one solubility quantity; the rest are rows whose columns the mapper does not know.
+Crops in which the model returned the whole sheet as a table (header cells carrying box
+names) are skipped; when the table has no temperature column, a single-valued VARIABLES
+box supplies it.
 
 ## Quality checks on the rows
 
@@ -191,7 +198,6 @@ pressure varies along with temperature, not bad values; the check declares itsel
 applicable when a pressure column varies, and the remaining changes are sheets with
 several series.
 
-The same header mapper feeds the exporter, which now fills an `Amount` for 10 430 of the
-12 786 entries (82 %, from 35 % before), as mole fraction, mass fraction (`100 w`, `g per 100 g
-solution`, `mg/kg solution`), molality or molarity, in that order of preference; volumes 20
-and 62 go from no amounts to 96 % and 80 %.
+The same header mapper feeds the exporter: 11 311 of the 12 786 entries (88 %, from 35 %
+with the first mapper) carry at least one solubility quantity; volumes 20 and 62 go from none
+to 98 % and 91 %.
