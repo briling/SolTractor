@@ -1,0 +1,215 @@
+volume,page,sheet,rows,columns,mapped,unmapped,compiler_unpaired,trend,outlier_row,glued_rows,short_rows,ditto_rows,verbatim
+SDS-57,20,0,1,7,7,,,n.a. (fewer than 4 temperatures),,0,0,0,1/7
+SDS-57,22,0,3,5,3,"Ethene Solubility s/g(106g water)1; Mole 1 Ethene Fraction, 105x1",,n.a. (fewer than 4 temperatures),,0,0,0,15/15
+SDS-57,23,0,1,6,3,^1T/K; P =101.325 kPa; ^2Ostwald Coefficient L /cm ^3gas cm^-3 solvent,,n.a. (fewer than 4 temperatures),,0,0,0,5/5
+SDS-57,24,0,1,5,3,"Ethene  \varepsilon/g gas (10^6 g water)^-1; ^1Mole Fraction, 10^5x_1",,n.a. (fewer than 4 temperatures),,0,0,0,6/6
+SDS-57,26,0,3,5,4,"2Ethene Mole Fraction, 105x1",,n.a. (fewer than 4 temperatures),,0,0,0,15/15
+SDS-57,27,0,14,6,5,"1Solubility, s/cm3 (STP) kg-1",,monotonic,,0,0,0,83/84
+SDS-57,28,0,1,7,4,α/; ^1Ostwald  Coefficient L/ cm^3  gas  cm^3  solvent; ^1Mole  Fraction  x_1.10^5,,n.a. (fewer than 4 temperatures),,0,0,0,5/6
+SDS-57,29,0,11,4,3,Ethene Partial p/mm mercury,,n.a. (pressure varies),,0,0,0,32/32
+SDS-57,30,0,1,5,3,"π/K; 2Solubility Mole fraction,105x1",,n.a. (fewer than 4 temperatures),,0,0,0,5/5
+SDS-57,34,0,6,7,4,"C1/mM; 1x1,mol fraction; 2Distribution Constant, Kd",,n.a.,,0,0,0,53/54
+SDS-57,35,0,12,7,4,"bar; 1MPa; 1Partial PressureEthene, p1/MPa",,n.a.,,0,0,0,82/84
+SDS-57,36,0,15,6,3,"t/F(1T/K); Total Pressure P/psia 1P/MPa; 1,2 Partial p/MPa",,n.a. (pressure varies),,15,15,0,0/0
+SDS-57,37,0,12,7,3,"t/F(1T/K); t/F(1T/K); Total Pressure P/psia 1P/MPa; 1,2 Partial p/MPa",,n.a. (pressure varies),,12,0,0,95/95
+SDS-57,38,0,9,6,3,"t/F(1 T/K); Total Pressure P/psia 1P/MPa; 1,2 Partial p/MPa",,n.a. (pressure varies),,9,9,0,0/0
+SDS-57,39,0,16,6,3,t/F (1T/K); Total Pressure P/psia 1P/MPa; Partial p/MPa,,n.a. (pressure varies),,16,16,0,0/0
+SDS-57,40,0,15,7,4,"t/F (1T/K); 1,2P/MPa; Partial p/MPa",,n.a. (pressure varies),,15,0,0,120/120
+SDS-57,42,0,17,6,5,"Ethene Mole Fraction, 104x1",,n.a.,,0,0,0,102/102
+SDS-57,43,0,16,6,5,"Ethene Mole Fraction,104x1",,n.a.,,0,0,0,95/96
+SDS-57,44,0,13,6,5,"Ethene Mole Fraction, 104x1",,n.a.,,0,0,0,78/78
+SDS-57,45,0,10,6,5,"Ethene Mole Fraction, 104x1",,n.a.,,0,0,0,60/60
+SDS-57,46,0,18,6,2,"Total Pressure P/atm 1P/MPa; 2Ethene Partial Pressure, p1/MPa; Solubility s/g (100g)-1Mole; Ethene Fraction, x1",,n.a.,,0,18,0,0/0
+SDS-57,47,0,16,6,2,"Total Pressure P/atm 1P/MPa; 2Ethene Partial Pressure, p1/MPa; Solubility s/g (100g)-1Mole; Ethene Fraction, x1",,n.a.,,0,16,0,0/0
+SDS-57,48,0,18,6,2,"Total Pressure P/atm 1P/MPa; 2Ethene Partial Pressure, p1/MPa; Solubility ε/g (100g)-1 Mole; Ethene Fraction, x1",,n.a.,,0,18,0,0/0
+SDS-57,61,0,11,2,0,Concentration of electrolyte /mol L-1; Solubility of ethene /mmol L-1,,n.a.,,0,0,0,22/22
+SDS-57,62,0,5,4,2,Concentration of nitric acid / mol l-1; Ionic Strength* / mol l-1,,n.a. (fewer than 4 temperatures),,0,0,0,20/20
+SDS-57,63,0,7,4,3,Perchloric acid Conc. in Water w/mass% M2/mol dm-3,,n.a.,,0,7,0,0/0
+SDS-57,64,0,4,6,2,1/(T/K); (1/c)log(S°/S)1; (1/m)log(S°/S); (1/m)log(x°/x),,n.a.,,0,0,0,24/24
+SDS-57,65,0,4,5,2,1/(T/K); (1/m2) log(S°/S)1; (1/m2) log(x°/x),,n.a.,,0,0,0,20/20
+SDS-57,66,0,7,3,2,Conc. of salt / mol  l^-1,,n.a. (fewer than 4 temperatures),,0,0,0,20/21
+SDS-57,67,0,4,5,2,1/(T/K); (1/m2)log(S°/S)1; (1/m2)log(x°/x),,n.a.,,0,0,0,20/20
+SDS-57,68,0,13,2,0,Concentration of electrolyte /mol L-1 Lithium chloride; LiCl; [7447-41-8]; Solubility of ethene /mmol L-1,,n.a.,,0,0,0,26/26
+SDS-57,69,0,15,2,1,Concentration of salt /mol L-1,,n.a. (fewer than 4 temperatures),,0,0,0,30/30
+SDS-57,70,0,10,2,0,Concentration of electrolyte /mol L-1 Potassium bromide; KBr; [7758-02-3]; Solubility of ethene /mmol L-1,,n.a.,,0,0,0,20/20
+SDS-57,72,0,7,6,3,Potassium Nitrate c_2/mol  dm^-3; c_1/cm^3 (STP)  cm^-3; Solubility Ratio ^D  c_1^0/c_1,,n.a. (fewer than 4 temperatures),,0,0,0,35/35
+SDS-57,73,0,7,5,3,Silver Nitrate  c_2 /mol dm-3; c_1/cm^3(STP) dm^-3,,n.a. (fewer than 4 temperatures),,0,0,0,28/28
+SDS-57,75,0,3,5,2,Conc of +sodium bicarbonate /mol l-1; Conc of +sodium carbonate /mol l-1; Ionic strength*/ mol l-1,,n.a. (fewer than 4 temperatures),,0,0,0,15/15
+SDS-57,76,0,2,6,4,Solvent Volume V/cm3; Ethene Volume Absorbed v1/cm,,n.a. (fewer than 4 temperatures),,0,0,0,10/10
+SDS-57,77,0,15,5,0,; Component 2:; sodium chloride;; NaCl; [7647-14-5]; ,,n.a.,,0,0,0,60/60
+SDS-57,79,0,4,6,2,Concentration of sodium chloride / mol 1-1; Concentration of barium chloride / mol 1-1; Concentration of ammonium nitrate / mol 1-1; Ionic * Strength / mol 1-1,,n.a. (fewer than 4 temperatures),,0,0,0,23/24
+SDS-57,82,0,6,6,2,"Ethene  ^1P=101.325; solubility,  x_1 , for  ^2p_1=101.325^1; ^2L /cm3; ^2Ostwald  Coefficient gas( cm^3  solvent) ^-1",,n.a.,,0,0,0,28/30
+SDS-57,83,0,6,5,2,"^1P=101.325,x; ^2P=101.325,x_1; ^2Ostwald  Coefficient L/cm3 gas cm-3 solvent",,n.a.,,0,0,0,24/25
+SDS-57,84,0,6,5,3,"^1P=101.325, x^2p =101.325, x_1; ^2 Ostwald Coefficient L /cm3 gas (cm3 solvent) ^-1",,outlier,0,0,0,0,24/25
+SDS-57,85,0,11,10,2,Atm; MPa; Ethene; MEK; Water; Ethene; MEK; Water,,n.a.,,0,0,0,108/108
+SDS-57,86,0,12,10,2,Atm; MPa; Ethene; MEK; Water; Ethene; MEK; Water,,n.a.,,0,0,0,109/110
+SDS-57,87,0,11,3,2,Conc. of monoethanolamine / mol l-1 (soln).,,n.a. (fewer than 4 temperatures),,0,0,0,29/33
+SDS-57,88,0,10,3,2,Conc. of amine / mol l-1,,n.a. (fewer than 4 temperatures),,0,0,0,29/30
+SDS-57,89,0,8,3,2,Conc. of amine / mol l-1,,n.a. (fewer than 4 temperatures),,0,0,0,23/24
+SDS-57,90,0,10,3,2,Conc. of amine / mol l-1,,n.a. (fewer than 4 temperatures),,0,0,0,29/30
+SDS-57,91,0,8,3,2,Conc. of amine /mol l-1,,n.a. (fewer than 4 temperatures),,0,0,0,22/24
+SDS-57,92,0,8,3,2,Conc.of amine / mol l-1,,n.a. (fewer than 4 temperatures),,0,0,0,23/24
+SDS-57,94,0,11,5,3,3Solvent Mole Fraction /x'3; Gas Mole Fraction /y1,,n.a. (fewer than 4 temperatures),,0,11,0,0/0
+SDS-57,100,0,1,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,4/4
+SDS-57,101,0,9,6,3,"P/mm mercury; Mole/litre s; 1Average Mole Fraction, x1",,6 direction changes,,0,0,0,47/47
+SDS-57,102,0,4,5,5,,,monotonic,,0,0,0,20/20
+SDS-57,103,0,1,5,5,,,n.a. (fewer than 4 temperatures),,0,0,0,4/5
+SDS-57,104,0,1,5,4,"Mole b fraction,x1",,n.a. (fewer than 4 temperatures),,0,0,0,5/5
+SDS-57,105,0,3,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,11/11
+SDS-57,106,0,3,5,4,"1log10H', H'/mm Hg",,n.a. (fewer than 4 temperatures),,0,0,0,15/15
+SDS-57,107,0,4,5,5,,,monotonic,,0,0,0,20/20
+SDS-57,109,0,2,4,3,#ΔH∞ /cal mol-1 (/J mol-1),,n.a. (fewer than 4 temperatures),,0,0,0,10/10
+SDS-57,110,0,4,4,4,,,monotonic,,0,0,0,16/16
+SDS-57,112,0,17,3,3,,,outlier,5,0,0,0,51/51
+SDS-57,114,0,10,6,4,"z_3, Volume Fraction^1; x_3, Mole Fraction^2",,n.a.,,0,1,0,51/52
+SDS-57,119,0,21,6,4,liquid x1; vapor y1,,n.a.,,0,0,0,126/126
+SDS-57,120,0,13,6,4,"liquid, x1; vapor, y1",,n.a.,,0,0,0,77/78
+SDS-57,121,0,20,5,2,"Total Pressure P/103 hPa 1P/MPa; 1 Ethene Partial Pressure p1/MPa; Ethene Mole Fraction Liquid, x1 Gas, y1",,n.a.,,0,20,0,0/0
+SDS-57,123,0,2,5,2,"Total Pressure P/atm 1P/MPa; 1Ethene Partial Pressure p/MPa; Ethene Mole Fraction Liquid, x1 Gas, y1",,n.a.,,0,2,0,0/0
+SDS-57,124,0,18,6,2,"; T/K1; p1/MPa1; s/cm3 (NTP)(g)-1 x1,mole fraction",,n.a.,,0,0,0,107/108
+SDS-57,125,0,12,3,3,,,n.a. (pressure varies),,0,0,0,36/36
+SDS-57,126,0,13,3,1,T/K T/K; P/10^5Pa P/10^5Pa,,n.a. (fewer than 4 temperatures),,0,0,0,39/39
+SDS-57,127,0,17,6,4,P/Atm; Solubility cm3(STP)/g,,n.a. (pressure varies),,0,0,2,99/100
+SDS-57,128,0,14,6,4,P/Atm; Solubility cm3(STP)/g,,n.a. (pressure varies),,0,0,0,83/84
+SDS-57,129,0,11,5,0,"TEMPERATURET/C 1T/K; Total PressureP/atm 1P/MPa; EquilibriumEtheneK1=y1/x1; Constants:HeptaneK2=y2/x2; 2Ethene Mole FractionVapor, y1 Liquid, x1",,n.a.,,0,11,0,0/0
+SDS-57,130,0,20,7,4,"Fraction in Liquid w, mass; Ethene x1, mol; 1Equilibrium Constant for Ethene K = y1/x1",,n.a.,,0,0,0,139/140
+SDS-57,131,0,20,7,4,"Fraction in Liquid w, mass; Ethene x1, mol; 1Equilibrium Constant for Ethene K = y1/x1",,n.a.,,0,0,0,102/103
+SDS-57,133,0,16,6,5,Solubility cm3(STP)/g,,n.a. (pressure varies),,0,0,0,95/96
+SDS-57,134,0,9,6,5,Solubility cm (STP)/g,,n.a. (pressure varies),,0,0,0,54/54
+SDS-57,135,0,12,3,3,,,n.a. (pressure varies),,0,0,0,36/36
+SDS-57,136,0,22,6,4,"Ethene in liquid Mole Fraction, x1; Liquid Solution Molar Volume VL/cm3(mole)-1",,n.a.,,0,0,0,130/132
+SDS-57,137,0,18,6,4,"Ethene in liquid Mole Fraction, x1; Liquid Solution Molar Volume V_L/cm3(mole)-1",,n.a.,,0,0,0,107/108
+SDS-57,138,0,18,6,4,"Ethene in liquid Mole Fraction, x1; Liquid Solution Molar Volume VL/cm3(mole)-1",,n.a.,,0,0,0,106/108
+SDS-57,140,0,18,5,5,,,n.a. (pressure varies),,0,0,0,90/90
+SDS-57,141,0,18,5,5,,,n.a. (pressure varies),,0,0,0,90/90
+SDS-57,146,0,10,4,4,,,monotonic,,0,0,0,40/40
+SDS-57,147,0,1,5,4,"Ethene, x1, for: 2P1= 101.325",,n.a. (fewer than 4 temperatures),,0,0,0,5/5
+SDS-57,149,0,1,4,3,# \Delta H^\infty /cal mol-1(/J mol-1),,n.a. (fewer than 4 temperatures),,0,0,0,5/5
+SDS-57,150,0,4,5,5,,,monotonic,,0,0,0,18/20
+SDS-57,151,0,0,5,4,"1 log10H', H'/mm Hg",,n.a.,,0,0,0,0/0
+SDS-57,152,0,7,6,3,"P/mm mercury; Mole/litre s; 1Average Mole Fraction, x1",,monotonic,,0,0,0,36/41
+SDS-57,159,0,2,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,6/6
+SDS-57,161,0,0,3,1,; Temperature,,n.a.,,0,0,0,0/0
+SDS-57,162,0,10,5,4,"1Solvent Composition, x3, Mole Fraction Toluene 2log10(H'/mmHg)",,n.a. (fewer than 4 temperatures),,0,10,0,0/0
+SDS-57,163,0,10,6,4,"1Solvent Composition, x3, Mole Fraction Toluene; 2log10(H'/mmHg)",,n.a. (fewer than 4 temperatures),,0,0,0,50/58
+SDS-57,164,0,3,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,11/12
+SDS-57,169,0,12,7,3,"PressureP/Atm; p_1/Atm; liquid, x_1; vapor, y_1",,n.a.,,0,0,0,84/84
+SDS-57,170,0,15,7,3,"P/Atm; p1/Atm; liquid, x1; vapor, y1",,n.a.,,0,0,0,90/90
+SDS-57,171,0,15,3,3,,,n.a. (pressure varies),,0,0,0,45/45
+SDS-57,172,0,14,5,4,Solubility cm3 (STP)/g,,n.a. (pressure varies),,0,0,0,70/70
+SDS-57,173,0,12,7,2,"kg/cm2; MPa1; p1/Atm; liquid, x1; vapor2, y1",,n.a.,,0,0,0,84/84
+SDS-57,174,0,5,6,5,Total Pressure P/kg cm-21P/MPa,,n.a. (pressure varies),,0,5,0,0/0
+SDS-57,175,0,9,5,3,"in liquid, x1; in vapor, y1",,n.a.,,0,0,0,44/45
+SDS-57,176,0,16,6,4,"Percent by Weight 1Mole Fraction Ethene, ω1Ethene, ω1; 2Values of k",,n.a. (pressure varies),,12,0,0,79/80
+SDS-57,177,0,11,3,3,,,n.a. (pressure varies),,0,0,0,33/33
+SDS-57,178,0,17,5,4,Solubility +,,n.a. (pressure varies),,0,17,0,0/0
+SDS-57,179,0,10,6,3,H'/atm; (mol fraction) -1 H/MPa; (mol fraction) -1,,monotonic,,0,0,0,50/50
+SDS-57,180,0,12,3,3,,,n.a. (pressure varies),,0,0,0,36/36
+SDS-57,181,0,14,5,4,"Solubility, cm3 (STP)/g",,n.a. (pressure varies),,0,0,0,70/70
+SDS-57,182,0,14,5,4,"Solubility, cm3 (STP)/g",,n.a. (pressure varies),,0,0,0,67/70
+SDS-57,183,0,17,6,6,,,n.a. (pressure varies),,0,0,0,89/89
+SDS-57,184,0,6,6,6,,,n.a. (pressure varies),,0,0,0,32/32
+SDS-57,185,0,19,6,4,^1T/K; ^1P/kPa,,n.a. (pressure varies),,0,0,0,97/101
+SDS-57,186,0,19,6,6,,,n.a. (pressure varies),,0,0,0,99/101
+SDS-57,187,0,21,6,5,"Fraction Ethene, x1",,n.a. (pressure varies),,0,0,0,111/111
+SDS-57,188,0,6,8,6,"Number of 2Solvent; Moles, Ethene",,n.a. (pressure varies),,6,0,0,45/46
+SDS-57,189,0,2,8,6,"Number of 2Solvent; Moles, Ethene",,n.a. (pressure varies),,2,0,0,14/14
+SDS-57,190,0,9,8,6,"Number of Solvent; Moles, Ethene",,n.a. (pressure varies),,9,0,0,64/69
+SDS-57,201,0,4,4,2,Liquid Mole fraction (103)x1; Gas Mole fraction y1,,n.a.,,0,0,0,16/16
+SDS-57,202,0,2,5,3,"P= 101.325,x; 1p1= 101.325,x1",,n.a. (fewer than 4 temperatures),,0,0,0,9/10
+SDS-57,203,0,1,6,5,P=101.325 kPa,,n.a. (fewer than 4 temperatures),,0,0,0,5/5
+SDS-57,206,0,1,6,5,P=101.325,,n.a. (fewer than 4 temperatures),,0,0,0,5/5
+SDS-57,207,0,2,5,4,1p=101.325/x1,,n.a. (fewer than 4 temperatures),,0,0,0,10/10
+SDS-57,208,0,2,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,10/10
+SDS-57,209,0,2,5,3,P = 101.325/x; 1p = 101.325/x1,,n.a. (fewer than 4 temperatures),,0,0,0,10/10
+SDS-57,210,0,1,7,5,P=101.325; ,,n.a. (fewer than 4 temperatures),,0,0,0,6/6
+SDS-57,212,0,4,4,4,,,monotonic,,0,0,0,16/16
+SDS-57,213,0,2,5,3,P= 101.325; 1p1= 101.325,,n.a. (fewer than 4 temperatures),,0,0,0,9/10
+SDS-57,214,0,2,5,3,P = 101.325; 1p1= 101.325,,n.a. (fewer than 4 temperatures),,0,0,0,8/10
+SDS-57,215,0,2,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,10/10
+SDS-57,216,0,1,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,5/5
+SDS-57,217,0,1,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,5/5
+SDS-57,219,0,3,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,11/11
+SDS-57,221,0,1,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,4/4
+SDS-57,224,0,3,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,9/9
+SDS-57,225,0,1,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,3/3
+SDS-57,226,0,1,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,3/3
+SDS-57,227,0,9,6,4,"z_3, Volume Fraction^1; x_3, Mole Fraction^2",,n.a. (fewer than 4 temperatures),,0,0,0,52/52
+SDS-57,232,0,13,3,3,,,n.a. (pressure varies),,0,0,0,39/39
+SDS-57,234,0,7,5,3,"in liquid, x1; in vapor, y1",,n.a.,,0,0,0,35/35
+SDS-57,235,0,11,6,3,"2Ethene Partial Pressure p1/MPa; Composition Mole Fraction Propanol, x3 Ethene,; (x1)",,n.a.,,11,0,0,83/88
+SDS-57,236,0,8,5,3,"2 Ethene Partial Pressure  p_1 /MPa; Composition Mole Fraction Propanol,  x_3  Ethene ,  x_1'",,n.a.,,8,0,0,43/48
+SDS-57,237,0,12,3,3,,,n.a. (pressure varies),,0,0,0,36/36
+SDS-57,238,0,12,3,3,,,n.a. (pressure varies),,0,0,0,34/36
+SDS-57,244,0,9,4,4,,,monotonic,,0,0,0,36/36
+SDS-57,245,0,1,5,4,Ethene for: 2R/kPa =101.325,,n.a. (fewer than 4 temperatures),,0,0,0,5/5
+SDS-57,246,0,3,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,11/11
+SDS-57,249,0,1,2,1,ln H/atm,,n.a. (fewer than 4 temperatures),,0,0,0,2/2
+SDS-57,250,0,1,4,3,# \Delta H\infty /cal mol-1(/J mol-1),,n.a. (fewer than 4 temperatures),,0,0,0,5/5
+SDS-57,251,0,1,5,3,"^1\log_10(H'/mmHg); ^2\textMole Fraction Ethene, x_1",,n.a. (fewer than 4 temperatures),,0,0,0,5/5
+SDS-57,255,0,4,4,2,"Solubility at P=94.23 (0.93 atm) s/g(1)1; 1 Solubility at p = 101.325 kPa Mole Fraction, x1",,monotonic,,0,0,0,16/16
+SDS-57,256,0,3,5,4,"1Solubility,c, Moles per litre",,n.a. (fewer than 4 temperatures),,0,0,0,14/14
+SDS-57,257,0,5,4,4,,,monotonic,,0,0,0,20/20
+SDS-57,259,0,19,4,4,,,monotonic,,0,0,0,76/76
+SDS-57,260,0,3,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,11/11
+SDS-57,261,0,5,4,4,,,monotonic,,0,0,0,20/20
+SDS-57,263,0,5,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,20/20
+SDS-57,264,0,5,6,4,"1Solvent Composition, x3, Mole Fraction Toluene; 2log10H', H'/mm Hg",,n.a. (fewer than 4 temperatures),,0,0,0,29/29
+SDS-57,265,0,5,6,3,"^1 T/K; Solvent Composition, x_3 , Mole Fraction Toluene; ^2  log  H' ,  ^3   H'/mm  Hg",,n.a. (fewer than 4 temperatures),,0,0,0,26/29
+SDS-57,266,0,5,6,4,"1Solvent Composition, x3, Mole Fraction; 2log10H', H'/mm Hg",,n.a. (fewer than 4 temperatures),,0,0,0,29/29
+SDS-57,267,0,9,5,3,Ethene Solubility for: 1P/kPa=101.325; ,,n.a. (fewer than 4 temperatures),,0,0,0,34/45
+SDS-57,272,0,11,8,7,1/MPa,,n.a. (pressure varies),,0,0,0,73/74
+SDS-57,273,0,19,7,4,"Total /atm; Liquid Phase Ethene Mole Fraction, x1; Gas Phase Ethene Mole Fraction, y1",,n.a.,,0,0,0,123/125
+SDS-57,274,0,21,7,4,"Total Pressure /atm; Liquid Phase Ethene Mole Fraction, x1; Gas Phase Ethene Mole Fraction, y1",,n.a.,,0,0,0,92/147
+SDS-57,275,0,20,3,3,,,n.a. (pressure varies),,0,0,0,58/60
+SDS-57,276,0,12,3,3,,,n.a. (pressure varies),,0,0,0,36/36
+SDS-57,278,0,15,5,1,"Total Pressure P/Mpa; 1Ethene Partial Pressure p1/MPa; 1Ethene Mole Fraction Liquid, x1 Gas, y1; Molar Volume/cm3(mole)-1Liquid Gas",,n.a.,,0,15,0,0/0
+SDS-57,279,0,15,5,2,"...continued 1Ethene Partial Pressure p1/MPa; 1Ethene Mole Fraction Liquid, x1 Gas, y1; Molar Volume/cm3(mole)-1Liquid Gas",,n.a.,,0,15,0,0/0
+SDS-57,282,0,5,4,4,,,monotonic,,0,0,0,20/20
+SDS-57,283,0,5,4,3,"^1 Mole Fraction Ethene, x_1 for p_1 = 101.3 kPa",,n.a.,,0,0,0,20/20
+SDS-57,284,0,5,4,4,,,monotonic,,0,0,0,20/20
+SDS-57,285,0,5,4,3,"^1Mole Fraction Ethene, x_1 for p_1 = 101.3 kPa",,n.a.,,0,0,0,19/20
+SDS-57,286,0,2,5,2,"H'/atm (mole fraction) ^-1; H/MPa (mol fraction) ^1; ^1 Mole Fraction Ethene,  x_1",,n.a.,,0,0,0,10/10
+SDS-57,291,0,9,4,4,,,monotonic,,0,0,0,36/36
+SDS-57,293,0,1,5,3,"^1\log_10(H'/mmHg); ^2\textMole Fraction Ethene,  x_1",,n.a. (fewer than 4 temperatures),,0,0,0,5/5
+SDS-57,294,0,3,5,5,,,n.a. (fewer than 4 temperatures),,0,0,0,15/15
+SDS-57,295,0,9,4,4,,,monotonic,,0,0,0,35/36
+SDS-57,298,0,5,4,4,,,monotonic,,0,0,0,19/20
+SDS-57,299,0,5,4,4,,,monotonic,,0,0,0,20/20
+SDS-57,300,0,5,4,4,,,monotonic,,0,0,0,20/20
+SDS-57,301,0,5,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,19/20
+SDS-57,302,0,5,4,4,,,monotonic,,0,0,0,20/20
+SDS-57,303,0,5,4,4,,,monotonic,,0,0,0,20/20
+SDS-57,305,0,5,4,4,,,monotonic,,0,0,0,20/20
+SDS-57,310,0,13,6,5,Solubility s/cm3 gas at NTP(g solvent)1,,n.a. (pressure varies),,0,13,0,0/0
+SDS-57,311,0,13,6,4,"Solubility s/cm3 gas at NTP(g solvent)-1; 'Mole Fraction Ethene,x1",,n.a.,,0,13,0,0/0
+SDS-57,312,0,18,7,6,Solubility s/cm3 gas at NTP(g solvent)-1,,n.a. (pressure varies),,0,0,0,122/122
+SDS-57,313,0,17,8,2,"Temperatures t/°C; Acetone in Liquid 1 - x1; 1 Ethene in Liquid x1; Acetone in Gas 1 - y1; Ethene in Gas y1; 1 Partial Pressure Ethene, p1/atm",,n.a.,,0,0,0,130/130
+SDS-57,315,0,18,8,2,"Temperatures t/°C; Acetone in Liquid 1 - x1; 1Ethene in Liquid x1; Acetone in Gas 1 - y1; Ethene in Gas y1; 1 Partial Pressure Ethene, p/atm",,n.a.,,0,0,0,141/143
+SDS-57,317,0,17,5,4,"Solubility,+",,n.a. (pressure varies),,0,0,0,76/76
+SDS-57,318,0,3,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,12/12
+SDS-57,319,0,16,6,3,"; Solvent, x2 1 Solute, x1; Solvent vapor, y2 1 Solute, y1",,n.a. (pressure varies),,0,0,0,96/96
+SDS-57,320,0,17,6,2,"Solvent, x2; 1Solute, x1; Solvent vapor, y2; 1Solute, y1",,n.a.,,0,0,0,98/102
+SDS-57,321,0,17,6,2,"Solvent, x2; 'Solute , x1; Solvent vapor, y2; 'Solute , y1",,n.a.,,0,0,0,97/100
+SDS-57,322,0,8,6,2,"Solvent, x2; 1Solute, x1; Solvent vapor, y2; 1Solute, y1",,n.a.,,0,0,0,47/48
+SDS-57,323,0,23,4,3,volα+/vol,,n.a. (pressure varies),,0,0,0,88/92
+SDS-57,324,0,14,5,4,Solubility+,,n.a. (pressure varies),,0,0,0,64/64
+SDS-57,330,0,1,4,4,,,n.a. (fewer than 4 temperatures),,0,1,0,0/0
+SDS-57,332,0,5,4,2,"Solubility at P =94.23 (0.93 atm) s/g(1) -1; 1 Solubility at p = 101.325 kPa Mole Fraction, x1",,monotonic,,0,0,0,20/20
+SDS-57,333,0,1,2,2,,,n.a. (fewer than 4 temperatures),,0,0,0,2/2
+SDS-57,334,0,5,2,2,,,n.a. (fewer than 4 temperatures),,0,0,0,10/10
+SDS-57,335,0,5,2,1,lnH Benzonitrile; C7H5N; [100-47-0],,n.a. (fewer than 4 temperatures),,0,0,0,10/10
+SDS-57,336,0,16,5,1,"Concentration Ethyne, cm3(STP) (g DMF)-1; Ethene Partial Pressure, p1 mm Hg kPa; 2 Solubility, S cm3(STP)(g DMF)-1; Solubility Coefficient β = 760 S/p1",,n.a. (fewer than 4 temperatures),,0,16,0,0/0
+SDS-57,338,0,10,9,4,"Mole of in fraction ethene liquid,  x_C_2H_4; α^\dagger vol/vol; Mole of in fraction ethene liquid,  x_C_2H_4; α^\dagger vol/vol; ",,n.a.,,0,0,0,69/72
+SDS-57,339,0,16,9,4,"Mole of in; fraction ethene liquid, xC2H4; α†vol/vol; Mole of in; fraction ethene liquid, xC2H4",,n.a.,,0,0,0,111/114
+SDS-57,344,0,1,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,4/4
+SDS-57,347,0,7,3,3,,,3 direction changes,,0,0,0,21/21
+SDS-57,348,0,6,4,4,,,monotonic,,0,0,0,22/23
+SDS-57,349,0,3,3,3,,,n.a. (pressure varies),,0,0,0,9/9
+SDS-57,351,0,11,6,2,"Ethene Partial Pressure p1/mm mercury; Coefficient, L/cm3(gas)2Plasma; 3Hemoglobin; cm-3(solvent)Whole Blood",,n.a. (pressure varies),,0,0,0,64/64
+SDS-57,352,0,5,4,2,"Solvent; 2 Solubility,s/cm3 gas(g water)-1",,n.a. (fewer than 4 temperatures),,0,0,0,14/14
+SDS-57,354,0,1,5,3,No of Samples; Standard deviation,,n.a. (fewer than 4 temperatures),,0,0,0,4/4
+SDS-57,355,0,2,4,3,t/^0C,,n.a. (fewer than 4 temperatures),,2,0,0,6/12
+SDS-57,359,0,10,4,2,T/K (t/°C); Solubility/mol kg-1,,n.a.,,10,0,0,50/50
+SDS-57,360,0,6,9,2,"; ; 1Solubility Coefficient, Kb/cm3 ethene at STP (cm3 solvent.atm)-1; Solvent I; Solvent II; Solvent III; 1Maximum Applicable Pressure P/atm (MPa)",,n.a.,,6,3,0,27/27
+SDS-57,361,0,10,4,3,/cm3 cm-3 atm-1,,n.a.,,0,0,0,25/26
