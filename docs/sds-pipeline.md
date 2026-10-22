@@ -226,8 +226,8 @@ reached the text layer (volume 38 pages 174, 327, 494; volume 62 pages 326, 328;
 59, whose NIST sheet 59_34 drops from 12 to 0 rows in one line), which the frame test rejected.
 The finder now also recognises a sheet by its component line "name; formula; [CAS]" or by one
 surviving field name next to an EXPERIMENTAL header, and cuts a fallback band below the component
-and VARIABLES lines when the header word itself was lost; over the eight volumes that adds 170
-bands, mostly sheets of volumes 58 and 59 whose EXPERIMENTAL word the text layer garbles. Those
+and VARIABLES lines when the header word itself was lost; over the eight volumes that adds 192
+bands (volume 58: 64, 59: 46, 20: 30, 37: 25), mostly sheets whose EXPERIMENTAL word the text layer garbles. Those
 crops are the third, small batch for the node.
 
 The 400 dpi test on the pages with glued cells (two printed values in one cell, "432.55570.68")
