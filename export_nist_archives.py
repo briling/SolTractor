@@ -342,6 +342,19 @@ def output_path(output_directory, measurement_id):
     return output_directory / f"{measurement_id.replace('/', '_')}.json"
 
 
+def matching_record_count(input_path, volumes, output_directory, overwrite):
+    with input_path.open(encoding="utf-8") as source:
+        count = 0
+        for line in source:
+            record = json.loads(line)
+            if volumes is not None and record["iupac_volume"] not in volumes:
+                continue
+            if not overwrite and output_path(output_directory, record["measurement_id"]).exists():
+                continue
+            count += 1
+        return count
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--input", type=Path, default=DEFAULT_INPUT, help="Normalized NIST JSONL input.")
@@ -352,6 +365,17 @@ def main():
     parser.add_argument("--model", default=DEFAULT_MODEL, help="Chat-completions model name.")
     parser.add_argument("--timeout", type=float, default=300, help="LLM request timeout in seconds.")
     parser.add_argument("--max-tokens", type=int, default=2048, help="Maximum LLM completion tokens.")
+    parser.add_argument(
+        "--volumes",
+        type=int,
+        nargs="+",
+        help="IUPAC volume numbers to export (default: all volumes).",
+    )
+    parser.add_argument(
+        "--overwrite",
+        action="store_true",
+        help="Replace existing archive files instead of skipping them.",
+    )
     parser.add_argument(
         "--max-records",
         type=int,
@@ -368,19 +392,25 @@ def main():
     sheet_context = load_sheet_context(args.sheets)
     schema = load_schema_models()
     api_key = read_api_key(args.key_file)
+    volumes = set(args.volumes) if args.volumes is not None else None
     count = 0
-    total_records = args.max_records
-    if total_records is None:
-        with args.input.open(encoding="utf-8") as source:
-            total_records = sum(1 for _ in source)
+    skipped = 0
+    total_records = matching_record_count(args.input, volumes, args.output_dir, args.overwrite)
+    if args.max_records is not None:
+        total_records = min(total_records, args.max_records)
     with args.input.open(encoding="utf-8") as source, tqdm(
         total=total_records, desc="Exporting archives", unit="record"
     ) as progress:
         for line in source:
+            record = json.loads(line)
+            if volumes is not None and record["iupac_volume"] not in volumes:
+                continue
             if args.max_records is not None and count == args.max_records:
                 break
-            record = json.loads(line)
             destination = output_path(args.output_dir, record["measurement_id"])
+            if destination.exists() and not args.overwrite:
+                skipped += 1
+                continue
             destination.write_text(
                 json.dumps(
                     archive_for(
@@ -401,7 +431,7 @@ def main():
             )
             count += 1
             progress.update()
-    print(f"Wrote {count} archive files to {args.output_dir}")
+    print(f"Wrote {count} archive files to {args.output_dir}; skipped {skipped} existing files.")
 
 
 if __name__ == "__main__":
