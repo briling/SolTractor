@@ -32,7 +32,7 @@ SDS-38,122,0,4,4,4,,,monotonic,,0,0,0,16/16
 SDS-38,129,0,6,4,4,,,n.a. (pressure varies),,0,0,0,23/23
 SDS-38,139,0,4,3,3,,,monotonic,,0,0,0,12/12
 SDS-38,141,0,6,3,3,,,monotonic,,0,0,0,17/17
-SDS-38,143,0,0,3,3,,,n.a.,,0,0,0,0/0
+SDS-38,143,0,2,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,2/5
 SDS-38,149,0,2,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,5/5
 SDS-38,153,0,3,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,9/9
 SDS-38,163,0,0,2,0,completely clear solution was obtained at the experimental temperature.; ,,n.a.,,0,0,0,0/0
@@ -81,7 +81,7 @@ SDS-38,307,0,3,6,3,mg(1) L sln; 10^4  mol(1) L sln; (compiler),,n.a. (fewer than
 SDS-38,310,0,3,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,9/9
 SDS-38,313,0,3,4,3,105mol/L slnag(1)/100 g sln,,n.a. (fewer than 4 temperatures),,0,0,0,12/12
 SDS-38,314,0,3,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,9/9
-SDS-38,320,0,2,3,2,\fracx_2,,n.a.,,0,0,0,4/6
+SDS-38,320,0,2,3,2,\fracx_2,,n.a. (fewer than 4 temperatures),,0,0,0,4/6
 SDS-38,325,0,15,5,5,,,n.a. (pressure varies),,0,0,0,75/75
 SDS-38,326,0,25,5,5,,,n.a. (pressure varies),,0,0,0,125/125
 SDS-38,327,0,21,5,5,,,n.a. (pressure varies),,0,0,0,104/105
@@ -106,7 +106,7 @@ SDS-38,405,0,3,2,0,"Time, Weeks; Dodecane, μg(1)/L(2)",,n.a.,,0,0,0,7/7
 SDS-38,408,0,19,5,3,experiment; smoothed with (std dev),,monotonic,,16,0,0,117/117
 SDS-38,414,0,3,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,9/9
 SDS-38,415,0,3,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,9/9
-SDS-38,416,0,1,3,0,t/°C 25; mg(2)/kg sln 60^a; \fracx_26.1 × 10^-4 \fracx_26.1 × 10^-4,,n.a.,,0,0,0,2/3
+SDS-38,416,0,2,3,2,\fracx_26.1 × 10^-4,,n.a. (fewer than 4 temperatures),,0,0,0,4/6
 SDS-38,422,0,17,5,3,experiment; smoothed with (std dev),,monotonic,,14,0,0,105/105
 SDS-38,424,0,13,4,3,107 mol (l) L-1,,outlier,7,0,0,0,65/65
 SDS-38,425,0,9,4,3,μg(1)/kg(2),,monotonic,,0,0,0,45/45

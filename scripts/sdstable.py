@@ -27,7 +27,7 @@ import re
 PRESSURE_UNITS = {'atm': 101325.0, 'kpa': 1000.0, 'pa': 1.0, 'bar': 1e5, 'mmhg': 133.322, 'torr': 133.322, 'mpa': 1e6,
                   'psia': 6894.757, 'psi': 6894.757, 'kgcm-2': 98066.5, '105pa': 1e5}
 VAL = re.compile(r'^\s*[<>~≈]?\s*(?P<v>[+-]?\d+(?:[.,]\d+)?)(?:\s*(?:±|\\pm)\s*(?P<e>\d+(?:\.\d+)?))?'
-                 r'(?:\s*(?:×|\\times|x)\s*10\^?\{?(?P<x>-?\d+)\}?)?\s*(?:\(\d+\))?\s*[a-z]?\s*$')
+                 r'(?:\s*(?:×|\\times|x)\s*10\^?\{?(?P<x>-?\d+)\}?)?\s*(?:\(\d+\))?\s*(?:\^?\s*\{?[a-z](?:\s*,\s*[a-z])*\}?)?\s*$')   # footnote: 2.46^c, 0^{a,b}, 7.1 a
 BOX_NAME = re.compile(r'COMPONENTS|ORIGINAL MEASUREMENTS|VARIABLES|PREPARED BY|SOURCE AND PURITY|METHOD|REFERENCES|AUXILIARY|ESTIMATED ERROR|CRITICAL EVALUATION', re.I)
 NUMBERED = re.compile(r'\((\d)\)|(?<![\d.,])(\d)\.(?=\s*[A-Za-z])')      # "(1) Water" or "1. Ethene"
 

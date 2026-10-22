@@ -114,8 +114,8 @@ but only 18 to 55 sheets of the other volumes.
 | volume | NIST sheets | text layer: aligned, recall | page pass: aligned, recall | crop pass: aligned, recall | rows in one line (crops) | entries |
 |-------:|------------:|----------------------------:|---------------------------:|---------------------------:|-------------------------:|--------:|
 | 20 | 94 | 90, 96.7 % | 83, 99.7 % | 83, 99.7 % | 183 / 185 | 237 |
-| 37 | 23 | 18, 94.1 % | 19, 100 % | 19, 94.2 % | 81 / 94 | 1140 |
-| 38 | 18 | 10, 98.3 % | 9, 100 % | 9, 100 % | 36 / 36 | 886 |
+| 37 | 23 | 18, 94.1 % | 19, 100 % | 19, 94.2 % | 81 / 94 | 1148 |
+| 38 | 18 | 10, 98.3 % | 9, 100 % | 9, 100 % | 36 / 36 | 889 |
 | 57 | 42 | 19, 81.2 % | 18, 83.4 % | 17, 83.0 % | 160 / 253 | 1595 |
 | 58 | 32 | 10, 98.0 % | 30, 98.7 % | 29, 99.9 % | 198 / 235 | 1023 |
 | 59 | 33 | 19, 87.2 % | 32, 99.5 % | 31, 99.6 % | 258 / 283 | 2423 |
@@ -130,7 +130,7 @@ The rows column is `align_nist.py`'s second number, NIST table rows whose numeri
 line of the matched box; it moved from 54 to 160 (volume 57), 569 to 614 (60) and 90 to 422 (62) when
 `crops_to_boxes.py` started to honour rowspan cells (see the quality checks below).
 `scripts/to_nomad.py` turns the crop-pass boxes of each volume into one NOMAD upload
-(`nomad-SDS-N.zip` in the library's `nomad/` folder, 12 775 entries in all, every one
+(`nomad-SDS-N.zip` in the library's `nomad/` folder, 12 786 entries in all, every one
 validated against the schema with NOMAD's metainfo). Crops in which the model returned
 the whole sheet as a table (header cells carrying box names) are skipped; when the
 table has no temperature column, a single-valued VARIABLES box supplies it.
@@ -171,8 +171,8 @@ one crop (solubility of (1) in (2) above (2) in (1)), and a header whose first l
 | volume | rows | ditto rows (fallback) | shifted rows | headers mapped | hard checks | pass | fail | rows with a number missing from the text layer | sheets monotonic / outlier / changing |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
 | 20 | 237 | 0 | 0 | 233/283 | 504 | 443 | 61 | 4 | 12 / 0 / 4 |
-| 37 | 1 140 | 0 | 0 | 575/645 | 1 980 | 1 872 | 108 | 65 | 58 / 13 / 8 |
-| 38 | 886 | 0 | 0 | 403/522 | 1 401 | 1 356 | 45 | 40 | 41 / 6 / 5 |
+| 37 | 1 148 | 0 | 0 | 575/645 | 2 000 | 1 892 | 108 | 70 | 60 / 13 / 8 |
+| 38 | 889 | 0 | 0 | 405/522 | 1 413 | 1 368 | 45 | 43 | 41 / 6 / 5 |
 | 57 | 1 847 | 2 | 252 | 717/1 067 | 1 834 | 1 753 | 81 | 145 | 26 / 2 / 2 |
 | 58 | 1 023 | 0 | 0 | 333/341 | 1 765 | 1 760 | 5 | 37 | 54 / 2 / 28 |
 | 59 | 2 444 | 0 | 21 | 695/711 | 4 404 | 4 384 | 20 | 242 | 83 / 7 / 84 |
@@ -191,7 +191,7 @@ pressure varies along with temperature, not bad values; the check declares itsel
 applicable when a pressure column varies, and the remaining changes are sheets with
 several series.
 
-The same header mapper feeds the exporter, which now fills an `Amount` for 10 412 of the
-12 775 entries (82 %, from 35 % before), as mole fraction, mass fraction (`100 w`, `g per 100 g
+The same header mapper feeds the exporter, which now fills an `Amount` for 10 430 of the
+12 786 entries (82 %, from 35 % before), as mole fraction, mass fraction (`100 w`, `g per 100 g
 solution`, `mg/kg solution`), molality or molarity, in that order of preference; volumes 20
 and 62 go from no amounts to 96 % and 80 %.
