@@ -1,0 +1,167 @@
+volume,page,sheet,rows,columns,mapped,unmapped,compiler_unpaired,trend,outlier_row,glued_rows,short_rows,ditto_rows,verbatim
+SDS-37,26,0,2,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,8/8
+SDS-37,30,0,7,3,3,,,monotonic,,0,0,0,21/21
+SDS-37,36,0,4,4,4,,,monotonic,,0,0,0,16/16
+SDS-37,37,0,5,3,3,,,monotonic,,0,0,0,14/14
+SDS-37,39,0,5,4,3,104x1(corrected by compiler),,outlier,4,0,0,0,25/25
+SDS-37,40,0,7,4,4,,,monotonic,,0,0,0,35/35
+SDS-37,45,0,7,3,3,,,monotonic,,0,0,0,21/21
+SDS-37,46,0,3,4,3,103mol/L slna,,n.a. (fewer than 4 temperatures),,0,0,0,15/15
+SDS-37,55,0,10,4,4,,,outlier,9,0,0,0,36/36
+SDS-37,56,0,3,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,8/8
+SDS-37,58,0,4,3,3,,,monotonic,,0,0,0,12/12
+SDS-37,59,0,2,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,3/5
+SDS-37,67,0,0,2,0,completely clear solution was obtained at the experimental temperature.; ,,n.a.,,0,0,0,0/0
+SDS-37,68,0,4,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,16/16
+SDS-37,69,0,3,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,9/9
+SDS-37,71,0,19,5,4,g(1)100 g sln,x1 (compiler),n.a. (pressure varies),,0,0,16,95/95
+SDS-37,74,0,5,3,3,,,2 direction changes,,0,0,0,18/20
+SDS-37,75,0,4,4,3,g(1)/100 g sln(corrected by compiler),,outlier,0,0,0,0,20/20
+SDS-37,76,0,4,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,7/10
+SDS-37,77,0,7,4,4,,,monotonic,,0,0,0,35/35
+SDS-37,81,0,5,4,4,,,outlier,3,0,0,0,20/20
+SDS-37,82,0,8,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,23/24
+SDS-37,107,0,6,3,3,,,monotonic,,0,0,0,17/17
+SDS-37,108,0,4,3,3,,,monotonic,,0,0,0,12/12
+SDS-37,110,0,8,3,3,,,monotonic,,0,0,0,24/24
+SDS-37,111,0,6,2,1,mL(1)/100 mL(2),,n.a.,,0,0,0,12/12
+SDS-37,114,0,4,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,16/16
+SDS-37,115,0,6,3,3,,,monotonic,,0,0,0,18/18
+SDS-37,117,0,9,3,3,,,monotonic,,0,0,0,26/26
+SDS-37,120,0,2,4,3,mol(1)/1000 g(2),,n.a. (fewer than 4 temperatures),,0,0,0,8/8
+SDS-37,121,0,5,3,3,,,monotonic,,0,0,0,15/15
+SDS-37,122,0,7,4,4,,,monotonic,,0,0,0,24/28
+SDS-37,124,0,4,4,3,g(2)/100 g(I),,n.a. (fewer than 4 temperatures),,0,0,0,16/16
+SDS-37,128,0,2,2,1,mL(1)/100 mL(2),,n.a.,,0,0,0,4/4
+SDS-37,129,0,2,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,6/6
+SDS-37,131,0,10,3,3,,,2 direction changes,,0,0,0,29/30
+SDS-37,133,0,14,3,3,,,monotonic,,0,0,0,42/42
+SDS-37,142,0,5,3,3,,,outlier,2,0,0,0,15/15
+SDS-37,143,0,0,3,1,| t/°C; 10^4x_1 (compiler) |,,n.a.,,0,0,0,0/0
+SDS-37,145,0,8,4,3,p1S/mm Hg,,monotonic,,0,0,0,32/32
+SDS-37,146,0,10,3,3,,,1 direction changes,,0,0,0,30/30
+SDS-37,147,0,8,5,5,,,n.a. (pressure varies),,0,0,0,40/40
+SDS-37,149,0,16,6,6,,,n.a. (pressure varies),,0,0,15,96/96
+SDS-37,152,0,14,3,3,,,monotonic,,0,0,0,42/42
+SDS-37,153,0,6,3,3,,,monotonic,,0,0,0,18/18
+SDS-37,154,0,3,2,1,10^4 mL (2)/mL (1),,n.a.,,0,0,0,6/6
+SDS-37,157,0,8,3,3,,,monotonic,,0,0,0,24/24
+SDS-37,159,0,22,6,2,"104x2(1)-rich phase; 104x1(2)-rich phase; g(2)/100 g sln (compiler)(1)-rich ,phase; g(1)/100 g sln (compiler)(2)-rich phase",,n.a.,,0,0,0,104/104
+SDS-37,161,0,6,3,3,,,monotonic,,0,0,0,17/17
+SDS-37,166,0,9,5,4,,,monotonic,,0,0,0,36/36
+SDS-37,168,0,10,3,3,,,n.a.,,0,0,0,30/30
+SDS-37,170,0,4,6,5,p/psig,,n.a. (fewer than 4 temperatures),,0,0,0,24/24
+SDS-37,172,0,9,6,6,,,n.a. (pressure varies),,0,0,0,48/54
+SDS-37,175,0,6,3,3,,,monotonic,,0,0,0,24/24
+SDS-37,177,0,5,5,4,mol/L sln,,n.a. (pressure varies),,0,0,0,22/22
+SDS-37,179,0,9,5,4,,,monotonic,,0,0,0,36/36
+SDS-37,181,0,4,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,14/14
+SDS-37,182,0,9,4,3,,,3 direction changes,,0,0,0,33/36
+SDS-37,183,0,7,4,3,mol(2) dm-3 sln,,monotonic,,0,0,0,28/28
+SDS-37,186,0,0,2,0,"Sudan IV was used to dye (1). The experimental apparatus and procedure used in this work were similar to those of Sobotka and Khan (ref 1). To make the measurements more accurate, the apparatus used consisted of a 1-liter dissolution flask and a 2-mL microburet. The scale was calibrated in advance by use of mercury. The dissolution flask was immersed in a water bath controlled thermostatically at 25°C. To avoid condensation of (1) from the gas phase, the temperature of gas phase in the dissolution flask was kept 1°C higher than that of the liquid phase. The dissolution flask and the microburet were connected tightly.; (1) source not specified; reagent grade; used as received; purity not specified.(2) pure.",,n.a.,,0,0,0,0/0
+SDS-37,190,0,20,5,5,,,n.a. (pressure varies),,0,0,18,100/100
+SDS-37,196,0,3,4,3,q(1)/100 q sln,,n.a. (fewer than 4 temperatures),,0,0,0,12/12
+SDS-37,198,0,5,2,2,,,n.a. (fewer than 4 temperatures),,1,0,0,14/15
+SDS-37,199,0,4,4,4,,,monotonic,,0,0,0,20/20
+SDS-37,200,0,5,4,3,103 mol(1)/dm3 sln,,outlier,0,1,0,0,23/23
+SDS-37,204,0,22,4,3,g (l)/100 g soln,,n.a. (pressure varies),,0,0,0,48/48
+SDS-37,207,0,7,4,3,std. dev.,,monotonic,,0,0,0,27/28
+SDS-37,209,0,5,3,3,,,outlier,0,5,0,0,19/20
+SDS-37,211,0,8,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,24/24
+SDS-37,216,0,5,3,3,,,outlier,1,0,0,0,20/20
+SDS-37,222,0,4,3,3,,,monotonic,,0,0,0,12/12
+SDS-37,226,0,5,3,3,,,monotonic,,0,0,0,20/20
+SDS-37,229,0,2,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,8/8
+SDS-37,234,0,4,4,4,,,monotonic,,0,0,0,16/16
+SDS-37,235,0,3,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,9/9
+SDS-37,240,0,8,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,24/24
+SDS-37,250,0,6,3,3,,,monotonic,,0,0,0,17/18
+SDS-37,251,0,2,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,6/6
+SDS-37,255,0,18,6,6,,,n.a. (pressure varies),,0,0,0,108/108
+SDS-37,257,0,6,4,4,,,monotonic,,0,0,0,24/24
+SDS-37,258,0,5,4,3,(compiler),,monotonic,,0,0,0,15/15
+SDS-37,265,0,17,5,2,Smoothed data; g (1)/100 g (soln.); x_C_6H_12,,n.a.,,0,0,0,52/68
+SDS-37,266,0,14,6,6,,,n.a. (pressure varies),,0,0,0,83/84
+SDS-37,267,0,22,4,4,,,n.a. (pressure varies),,0,0,0,48/48
+SDS-37,271,0,9,3,3,,,monotonic,,0,0,0,27/27
+SDS-37,272,0,3,4,3,mol(2)dm-3sln,,n.a. (fewer than 4 temperatures),,0,0,0,14/15
+SDS-37,273,0,5,3,3,,,monotonic,,0,0,0,20/20
+SDS-37,275,0,7,4,3,mol(2)dm-3sln,,monotonic,,0,0,0,26/28
+SDS-37,281,0,22,5,5,,,n.a. (pressure varies),,0,0,20,110/110
+SDS-37,288,0,0,2,0,"All experimental details are given in an Appendix deposited in a Documentation Centre rather than in the original paper. The solu-bility of (1) in (2) was measured by gas chromatography, whilst that of (2) in (1) was measured by Karl Fischer titration.; (1) No details given(2) No details given",,n.a.,,0,0,0,0/0
+SDS-37,289,0,4,4,3,p^a/MPa,,n.a.,,3,0,0,19/19
+SDS-37,290,0,4,3,3,,,monotonic,,0,0,0,11/12
+SDS-37,291,0,7,4,3,std. dev.,,monotonic,,0,0,0,28/28
+SDS-37,302,0,3,4,3,104mol/L slna,,n.a. (fewer than 4 temperatures),,0,0,0,15/15
+SDS-37,312,0,6,3,3,,,monotonic,,0,0,0,17/17
+SDS-37,313,0,0,3,3,,,n.a.,,0,0,0,0/0
+SDS-37,314,0,7,4,4,,,monotonic,,0,0,0,35/35
+SDS-37,320,0,17,5,5,,,n.a. (pressure varies),,0,0,14,84/85
+SDS-37,324,0,0,3,3,,,n.a.,,0,0,0,0/0
+SDS-37,325,0,7,4,4,,,monotonic,,0,0,0,35/35
+SDS-37,330,0,2,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,3/5
+SDS-37,344,0,0,2,0,completely clear solution was obtained at the experimental temperature.; ,,n.a.,,0,0,0,0/0
+SDS-37,351,0,17,6,6,,,n.a. (pressure varies),,0,0,15,102/102
+SDS-37,353,0,3,4,3,(compiler),,n.a. (fewer than 4 temperatures),,0,0,0,9/9
+SDS-37,357,0,14,6,6,,,n.a. (pressure varies),,0,0,0,84/84
+SDS-37,358,0,24,6,4,g (1)/100 g(soln.); xC6H14,,n.a.,,0,0,0,100/100
+SDS-37,359,0,36,6,4,Smoothed data; g (1)/100 g (soln.),,n.a.,,0,0,0,149/150
+SDS-37,360,0,6,3,3,,,4 direction changes,,0,0,0,23/24
+SDS-37,365,0,4,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,8/10
+SDS-37,368,0,12,5,5,,,n.a. (pressure varies),,0,0,0,60/60
+SDS-37,369,0,10,4,4,,,monotonic,,0,0,0,50/50
+SDS-37,370,0,20,5,5,,,n.a. (pressure varies),,0,0,18,80/100
+SDS-37,377,0,42,4,3,q(1)/100 g soln.,,n.a. (pressure varies),,0,0,0,88/88
+SDS-37,383,0,5,4,4,,,outlier,4,0,0,0,20/20
+SDS-37,384,0,7,4,3,p^a/MPa,,outlier,1,0,0,0,24/24
+SDS-37,385,0,5,4,3,p^a/MPa,,n.a.,,1,0,0,20/20
+SDS-37,388,0,6,5,2,mol(2)/L sln; mg(1)/L sln; 10^4mass\% (1)^a,,n.a. (fewer than 4 temperatures),,0,0,0,30/30
+SDS-37,401,0,0,2,0,completely clear solution was no longer obtained at the experimental temperature.; (2) Not specified.,,n.a.,,0,0,0,0/0
+SDS-37,402,0,4,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,16/16
+SDS-37,403,0,5,3,3,,,monotonic,,0,0,0,15/15
+SDS-37,405,0,12,4,3,(compiler),,monotonic,,0,0,0,35/35
+SDS-37,409,0,13,3,3,,,3 direction changes,,0,0,0,39/39
+SDS-37,413,0,7,3,3,,,monotonic,,0,0,0,21/21
+SDS-37,414,0,3,2,1,10^4 mL(2)/mL(1),,n.a.,,0,0,0,6/6
+SDS-37,417,0,6,3,3,,,monotonic,,0,0,0,17/17
+SDS-37,418,0,22,5,5,,,n.a. (pressure varies),,0,0,18,110/110
+SDS-37,425,0,6,3,3,,,4 direction changes,,0,0,0,24/24
+SDS-37,426,0,5,5,4,mol/L sln,,n.a. (pressure varies),,0,0,0,21/22
+SDS-37,427,0,4,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,14/14
+SDS-37,428,0,9,3,3,,,6 direction changes,,0,0,0,36/36
+SDS-37,431,0,0,2,0,"Sudan IV was used to dye (1). The experimental apparatus and procedure used in this work were similar to those of Sobotka and Khan (ref 1). To make the measurements more accurate, the apparatus used consisted of a 1-liter dissolution flask and a 2-mL microburet. The scale was calibrated in advance by use of mercury. The dissolution flask was immersed in a water bath controlled thermostatically at 25°C. To avoid condensation of (1) from the gas phase, the temperature of gas phase in the dissolution flask was kept 1°C higher than that of the liquid phase. The dissolution flask and the microburet were connected tightly.; (1) source not specified; reagent grade; used as received; purity not specified.(2) pure.",,n.a.,,0,0,0,0/0
+SDS-37,438,0,2,2,2,,,n.a. (fewer than 4 temperatures),,0,0,0,6/6
+SDS-37,441,0,4,4,3,103mol(1)/dm3sln,,monotonic,,0,0,0,20/20
+SDS-37,443,0,4,3,3,,,monotonic,,0,0,0,12/12
+SDS-37,444,0,3,4,3,mol(2) dm-3 sln,,n.a. (fewer than 4 temperatures),,0,0,0,12/12
+SDS-37,446,0,5,3,3,,,monotonic,,5,0,0,20/20
+SDS-37,448,0,4,5,3,L (1)/103 L sln; Mass% (1)a,,n.a. (fewer than 4 temperatures),,0,0,0,20/20
+SDS-37,450,0,8,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,24/24
+SDS-37,451,0,3,4,3,μg(1)/g sln,,n.a. (fewer than 4 temperatures),,0,0,0,12/12
+SDS-37,452,0,3,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,7/9
+SDS-37,455,0,3,3,2,g(2)/100 q sln,10^3 x_2  (compiler),n.a. (fewer than 4 temperatures),,0,0,0,9/9
+SDS-37,457,0,5,3,3,,,monotonic,,0,0,0,20/20
+SDS-37,463,0,4,4,4,,,monotonic,,0,0,0,16/16
+SDS-37,464,0,3,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,8/9
+SDS-37,468,0,4,4,4,,,monotonic,,0,0,0,16/16
+SDS-37,469,0,3,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,8/9
+SDS-37,471,0,7,4,4,,,monotonic,,0,0,0,35/35
+SDS-37,477,0,4,4,4,,,outlier,1,0,0,0,16/16
+SDS-37,478,0,3,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,9/9
+SDS-37,484,0,6,3,3,,,monotonic,,0,0,0,17/17
+SDS-37,493,0,0,3,3,,,n.a.,,0,0,0,0/0
+SDS-37,496,0,8,4,4,,,monotonic,,0,0,0,37/40
+SDS-37,498,0,3,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,9/9
+SDS-37,502,0,0,3,3,,,n.a.,,0,0,0,0/0
+SDS-37,512,0,0,2,0,completely clear solution was obtained at the experimental temperature.; ,,n.a.,,0,0,0,0/0
+SDS-37,513,0,4,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,16/16
+SDS-37,517,0,4,3,3,,,monotonic,,0,0,0,12/12
+SDS-37,519,0,6,3,3,,,monotonic,,0,0,0,17/17
+SDS-37,521,0,14,5,5,,,n.a. (pressure varies),,0,0,11,70/70
+SDS-37,524,0,5,3,3,,,outlier,2,0,0,0,20/20
+SDS-37,527,0,2,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,3/5
+SDS-37,528,0,2,3,2,10^3 g(2)/100 g \text sln (compiler),,n.a. (fewer than 4 temperatures),,0,0,0,3/3
+SDS-37,529,0,7,4,4,,,monotonic,,0,0,0,33/35
+SDS-37,532,0,3,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,11/11
+SDS-37,534,0,5,4,4,,,outlier,4,0,0,0,20/20
+SDS-37,535,0,4,3,3,,,monotonic,,0,0,0,12/12

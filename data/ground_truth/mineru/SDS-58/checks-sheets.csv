@@ -1,0 +1,115 @@
+volume,page,sheet,rows,columns,mapped,unmapped,compiler_unpaired,trend,outlier_row,glued_rows,short_rows,ditto_rows,verbatim
+SDS-58,48,1,4,3,3,,,monotonic,,0,0,0,12/12
+SDS-58,49,0,12,3,3,,,monotonic,,0,0,0,33/33
+SDS-58,49,1,6,3,3,,,monotonic,,0,0,0,18/18
+SDS-58,50,0,8,3,3,,,monotonic,,0,0,0,18/18
+SDS-58,50,1,4,3,3,,,monotonic,,0,0,0,12/12
+SDS-58,51,0,6,3,3,,,monotonic,,0,0,0,15/15
+SDS-58,51,1,8,3,3,,,monotonic,,0,0,0,18/18
+SDS-58,53,0,15,3,3,,,6 direction changes,,0,0,0,43/45
+SDS-58,54,0,12,3,3,,,7 direction changes,,0,0,0,36/36
+SDS-58,57,0,14,3,3,,,11 direction changes,,0,0,0,39/42
+SDS-58,59,0,11,3,3,,,7 direction changes,,0,0,0,30/33
+SDS-58,61,0,12,3,3,,,1 direction changes,,0,0,0,36/36
+SDS-58,62,0,12,3,3,,,7 direction changes,,0,0,0,36/36
+SDS-58,63,1,0,2,0,"Experimental procedure only marginally described by author. Excess solute and solvent were equilibrated in a constant temperature water bath for between 10-30 minutes. Saturated solution was with-drawn through a coarse filter and analyzed by specific gravity. Author noted that evaporation to dryness and weighing the residue was subject to too much decomposition.; (1) Purity not given, Kahlbaum, was recrystallized from alcohol to a melting point temperature of 93.5 °C.(2) Purity unknown, several sources listed, washed with water, sulfuric acid, dried over calcium chloride and distilled.",,n.a.,,0,0,0,0/0
+SDS-58,64,0,6,3,3,,,outlier,0,0,0,0,15/15
+SDS-58,64,1,0,2,0,"Experimental procedure only marginally described by author. Excess solute and solvent were equilibrated in a constant temperature water bath for between 10-30 minutes. Saturated solution was with-drawn through a coarse filter and analyzed by specific gravity. Author noted that evaporation to dryness and weighing the residue was subject to too much decomposition.; (1) Purity not given, Kahlbaum, was recrystallized from alcohol to a melting point temperature of 93.5 °C.(2) Marked ""Acetonfrei"", from Kahlbaum, dried over calcium oxide and distilled before use.",,n.a.,,0,0,0,0/0
+SDS-58,65,0,6,3,3,,,monotonic,,0,0,0,14/15
+SDS-58,67,0,11,3,3,,,5 direction changes,,0,0,0,33/33
+SDS-58,69,0,8,3,3,,,monotonic,,0,0,0,18/18
+SDS-58,70,0,8,3,3,,,monotonic,,0,0,0,18/18
+SDS-58,70,1,8,3,3,,,monotonic,,0,0,0,18/18
+SDS-58,71,0,8,3,3,,,monotonic,,0,0,0,18/18
+SDS-58,71,1,8,3,3,,,monotonic,,0,0,0,18/18
+SDS-58,83,0,8,3,3,,,monotonic,,0,0,0,18/18
+SDS-58,84,0,2,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,6/6
+SDS-58,84,1,8,3,3,,,monotonic,,0,0,0,21/21
+SDS-58,85,0,8,3,3,,,monotonic,,0,0,0,18/18
+SDS-58,88,0,4,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,9/9
+SDS-58,89,1,4,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,9/9
+SDS-58,93,0,8,3,3,,,monotonic,,0,0,0,18/18
+SDS-58,96,0,1,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,3/3
+SDS-58,102,0,4,3,3,,,monotonic,,0,0,0,12/12
+SDS-58,102,1,6,3,3,,,monotonic,,0,0,0,12/12
+SDS-58,104,1,6,3,3,,,monotonic,,0,0,0,12/12
+SDS-58,107,0,1,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,3/3
+SDS-58,108,0,1,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,3/3
+SDS-58,118,1,8,3,3,,,n.a. (pressure varies),,0,0,0,17/17
+SDS-58,121,1,8,3,3,,,monotonic,,0,0,0,21/21
+SDS-58,122,0,2,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,6/6
+SDS-58,122,1,8,3,3,,,monotonic,,0,0,0,18/18
+SDS-58,123,0,2,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,6/6
+SDS-58,128,0,11,3,3,,,3 direction changes,,0,0,0,33/33
+SDS-58,134,0,9,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,27/27
+SDS-58,141,0,9,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,27/27
+SDS-58,145,0,9,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,15/27
+SDS-58,147,0,9,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,25/27
+SDS-58,153,0,9,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,27/27
+SDS-58,158,0,9,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,25/27
+SDS-58,163,0,9,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,27/27
+SDS-58,171,0,9,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,27/27
+SDS-58,173,0,9,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,26/27
+SDS-58,179,0,9,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,27/27
+SDS-58,180,0,9,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,27/27
+SDS-58,186,0,9,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,27/27
+SDS-58,206,0,16,3,3,,,monotonic,,0,0,0,48/48
+SDS-58,207,1,4,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,9/9
+SDS-58,210,1,0,2,0,ubilities at 298 K interpolated from experimental values using ln x1 versus 1/T graph.; 1/K: precision ± 0.1.x1: ± 2 % (relative error; compiler).,,n.a.,,0,0,0,0/0
+SDS-58,211,0,50,3,3,,,6 direction changes,,0,0,0,92/93
+SDS-58,212,0,22,3,3,,,5 direction changes,,0,0,0,66/66
+SDS-58,213,1,8,3,3,,,monotonic,,0,0,0,18/18
+SDS-58,214,1,8,3,3,,,monotonic,,0,0,0,15/15
+SDS-58,219,0,0,2,0,ubilities at 298 K interpolated from experimental values using ln x1 versus 1/T graph.; T/K: precision ± 0.1.x1: ± 2 % (relative error; compiler).,,n.a.,,0,0,0,0/0
+SDS-58,219,1,8,3,3,,,outlier,3,0,0,0,15/15
+SDS-58,220,0,8,3,3,,,monotonic,,0,0,0,18/18
+SDS-58,221,0,4,3,3,,,monotonic,,0,0,0,12/12
+SDS-58,221,1,6,3,3,,,monotonic,,0,0,0,18/18
+SDS-58,226,0,13,3,3,,,6 direction changes,,0,0,0,37/39
+SDS-58,227,0,21,3,3,,,14 direction changes,,0,0,0,63/63
+SDS-58,228,0,8,3,3,,,monotonic,,0,0,0,18/18
+SDS-58,228,1,10,3,3,,,monotonic,,0,0,0,27/27
+SDS-58,229,0,13,3,3,,,3 direction changes,,0,0,0,39/39
+SDS-58,232,0,8,3,3,,,monotonic,,0,0,0,24/24
+SDS-58,239,0,15,3,3,,,4 direction changes,,0,0,0,45/45
+SDS-58,241,1,10,3,3,,,monotonic,,0,0,0,30/30
+SDS-58,242,0,8,3,3,,,monotonic,,0,0,0,18/18
+SDS-58,242,1,8,3,3,,,monotonic,,0,0,0,18/18
+SDS-58,243,0,14,3,3,,,9 direction changes,,0,0,0,42/42
+SDS-58,244,0,14,3,3,,,8 direction changes,,0,0,0,42/42
+SDS-58,246,0,8,3,3,,,monotonic,,0,0,0,21/21
+SDS-58,247,0,19,3,3,,,13 direction changes,,0,0,0,56/57
+SDS-58,297,0,4,3,3,,,monotonic,,0,0,0,12/12
+SDS-58,301,0,12,3,3,,,monotonic,,0,0,0,35/36
+SDS-58,304,0,14,3,3,,,10 direction changes,,0,0,0,39/42
+SDS-58,305,0,6,3,3,,,monotonic,,0,0,0,12/12
+SDS-58,312,1,4,3,3,,,monotonic,,0,0,0,12/12
+SDS-58,318,0,4,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,9/9
+SDS-58,326,0,4,3,3,,,monotonic,,0,0,0,12/12
+SDS-58,331,0,7,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,28/28
+SDS-58,333,1,4,3,3,,,monotonic,,0,0,0,12/12
+SDS-58,334,0,14,3,3,,,1 direction changes,,0,0,0,42/42
+SDS-58,335,0,13,3,3,,,5 direction changes,,0,0,0,39/39
+SDS-58,336,0,9,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,34/36
+SDS-58,337,0,14,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,54/56
+SDS-58,338,0,12,3,3,,,1 direction changes,,0,0,0,36/36
+SDS-58,339,0,12,3,3,,,1 direction changes,,0,0,0,34/36
+SDS-58,340,0,14,3,3,,,1 direction changes,,0,0,0,42/42
+SDS-58,341,0,14,3,3,,,3 direction changes,,0,0,0,42/42
+SDS-58,343,0,14,3,3,,,10 direction changes,,0,0,0,40/42
+SDS-58,344,0,13,3,3,,,1 direction changes,,0,0,0,39/39
+SDS-58,350,0,8,3,3,,,monotonic,,0,0,0,18/18
+SDS-58,350,1,8,3,3,,,monotonic,,0,0,0,15/15
+SDS-58,351,0,21,3,3,,,5 direction changes,,0,0,0,63/63
+SDS-58,353,1,8,3,3,,,monotonic,,0,0,0,18/18
+SDS-58,355,0,8,3,3,,,monotonic,,0,0,0,18/18
+SDS-58,355,1,6,3,3,,,monotonic,,0,0,0,12/12
+SDS-58,356,0,24,3,3,,,3 direction changes,,0,0,0,72/72
+SDS-58,358,0,8,3,3,,,monotonic,,0,0,0,18/18
+SDS-58,358,1,8,3,3,,,monotonic,,0,0,0,18/18
+SDS-58,360,0,4,3,3,,,monotonic,,0,0,0,12/12
+SDS-58,360,1,4,3,3,,,monotonic,,0,0,0,12/12
+SDS-58,363,0,8,3,3,,,monotonic,,0,0,0,15/15
+SDS-58,363,1,8,3,3,,,monotonic,,0,0,0,17/18
+SDS-58,364,0,6,3,3,,,monotonic,,0,0,0,12/12
+SDS-58,366,0,8,3,3,,,monotonic,,0,0,0,15/15

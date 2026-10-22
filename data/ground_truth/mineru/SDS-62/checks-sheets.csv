@@ -1,0 +1,249 @@
+volume,page,sheet,rows,columns,mapped,unmapped,compiler_unpaired,trend,outlier_row,glued_rows,short_rows,ditto_rows,verbatim
+SDS-62,31,0,21,6,5,P_1/cmHg,,n.a. (pressure varies),,0,0,0,95/96
+SDS-62,32,0,6,6,6,,,n.a. (pressure varies),,0,0,0,31/31
+SDS-62,33,0,10,6,6,,,n.a. (pressure varies),,0,0,9,60/60
+SDS-62,34,0,8,5,5,,,n.a.,,0,0,5,33/33
+SDS-62,35,0,0,5,5,,,n.a.,,0,0,0,0/0
+SDS-62,36,0,26,5,5,,,n.a. (pressure varies),,0,0,18,130/130
+SDS-62,37,0,12,5,5,,,n.a. (pressure varies),,0,0,11,60/60
+SDS-62,37,1,2,5,5,,,n.a. (pressure varies),,0,0,0,8/8
+SDS-62,38,0,2,6,6,,,n.a. (pressure varies),,0,0,0,11/12
+SDS-62,38,1,2,6,6,,,n.a. (fewer than 4 temperatures),,0,0,0,9/9
+SDS-62,39,0,15,6,6,,,n.a. (pressure varies),,0,0,0,76/76
+SDS-62,40,0,8,5,2,10^3c_1^liq/mol L^-1 b; 10^3c_1^air/mol L^-1 c; ratiod,,n.a.,,0,0,0,39/39
+SDS-62,41,0,10,4,4,,,n.a. (pressure varies),,0,0,4,39/40
+SDS-62,41,1,12,4,4,,,n.a. (pressure varies),,0,0,5,46/48
+SDS-62,43,0,18,4,4,,,n.a. (pressure varies),,0,0,8,72/72
+SDS-62,43,1,10,4,4,,,n.a. (pressure varies),,0,0,4,40/40
+SDS-62,45,0,14,6,6,,,n.a. (pressure varies),,0,0,12,84/84
+SDS-62,47,0,19,6,5,P_1/cmHg,,n.a. (pressure varies),,0,0,15,108/108
+SDS-62,48,0,1,6,6,,,n.a. (fewer than 4 temperatures),,0,0,0,6/6
+SDS-62,48,1,9,6,6,,,n.a. (pressure varies),,0,0,7,52/52
+SDS-62,49,0,1,5,4,10^2K_\textH/\textmol dm^-3 \text atm^-1a,,n.a. (fewer than 4 temperatures),,0,0,0,6/6
+SDS-62,49,1,1,6,6,,,n.a. (fewer than 4 temperatures),,0,0,0,6/6
+SDS-62,50,0,60,4,4,,,n.a. (pressure varies),,0,0,27,240/240
+SDS-62,51,0,4,6,6,,,n.a. (pressure varies),,0,0,3,20/20
+SDS-62,52,0,29,6,6,,,n.a. (pressure varies),,0,0,26,174/174
+SDS-62,53,0,6,6,6,,,n.a. (pressure varies),,0,0,0,31/31
+SDS-62,54,0,22,6,6,,,n.a. (pressure varies),,0,0,17,132/132
+SDS-62,56,0,11,2,2,,,n.a.,,0,11,0,0/0
+SDS-62,57,0,18,5,5,,,n.a. (pressure varies),,0,0,7,86/87
+SDS-62,58,0,6,6,6,,,n.a. (pressure varies),,0,0,0,36/36
+SDS-62,59,0,19,6,6,,,n.a. (pressure varies),,0,0,0,96/96
+SDS-62,60,0,21,6,4,"α_mean^b; L_mean^a,c",,5 direction changes,,0,0,11,90/90
+SDS-62,61,0,22,8,7,K_H/atm^-1 a,,n.a. (pressure varies),,0,0,0,176/176
+SDS-62,62,0,14,8,7,K_H/atm^-1  ^a,,n.a. (pressure varies),,0,0,0,110/112
+SDS-62,63,0,50,3,3,,,n.a. (pressure varies),,0,0,24,150/150
+SDS-62,64,0,37,6,5,Y_1  ^b,,n.a. (pressure varies),,0,0,33,197/197
+SDS-62,66,0,18,5,5,,,n.a. (pressure varies),,0,0,15,89/90
+SDS-62,67,0,36,5,5,,,n.a. (pressure varies),,0,0,31,180/180
+SDS-62,68,0,5,5,1,No. of determinations; Mean; Range; \sigma^a,,n.a.,,0,0,0,20/20
+SDS-62,69,0,15,6,6,,,n.a. (pressure varies),,0,0,0,77/78
+SDS-62,70,0,7,5,2,"K_H,a/atm^b; K_H,b/atm^b; V_1/cm^3 mol^-1",,n.a.,,0,0,0,29/29
+SDS-62,71,0,4,6,6,,,n.a. (pressure varies),,0,0,0,19/21
+SDS-62,72,0,33,5,5,,,n.a. (pressure varies),,0,0,28,165/165
+SDS-62,73,0,20,5,5,,,n.a. (pressure varies),,0,0,17,99/100
+SDS-62,74,0,13,4,3,,,n.a. (pressure varies),,0,10,0,9/9
+SDS-62,76,0,5,6,5,102S/S°b,,n.a. (pressure varies),,0,0,0,26/26
+SDS-62,76,1,8,6,6,,,n.a. (pressure varies),,0,0,0,41/41
+SDS-62,77,0,5,3,2,10^2K_0/mol L^-1 atm^-1 b,,n.a.,,0,0,0,15/15
+SDS-62,78,0,14,6,6,,,n.a. (pressure varies),,0,0,11,84/84
+SDS-62,79,0,42,3,3,,,n.a. (pressure varies),,0,0,20,108/108
+SDS-62,81,0,5,5,4,K_H/MPa^b,,monotonic,,0,0,0,24/25
+SDS-62,82,0,42,4,4,,,n.a. (pressure varies),,0,0,17,180/180
+SDS-62,83,0,18,2,1,10^4K_H/mol m^-3 Pa^-1 a,,n.a.,,0,0,0,36/36
+SDS-62,84,0,5,2,1,10^2S_1/mol  kg^-1  a,,n.a.,,0,0,0,10/10
+SDS-62,85,0,12,4,0,| T/K | ---; 10^3x_1 ---; \Delta H_1°/kJ mol^-1 ---; \Delta S_1°/J K^-1 mol^-1 | --- |,,n.a.,,0,0,0,48/48
+SDS-62,89,0,6,6,6,,,n.a. (pressure varies),,0,0,5,30/30
+SDS-62,91,0,15,3,3,,,n.a. (pressure varies),,0,0,12,45/45
+SDS-62,92,0,20,7,1,303 K; 313 K; 323 K; 333 K; 343 K; 353 K,,n.a.,,0,0,0,118/118
+SDS-62,93,0,40,7,1,423 K; 433 K; 443 K; 453 K; 463 K; 473 K,,n.a.,,0,0,0,261/262
+SDS-62,97,0,50,5,2,20.26; 3.548; 10^2m_1/m_2  ^b,,n.a.,,0,16,13,107/107
+SDS-62,98,0,20,5,4,Chlorinityb,,6 direction changes,,0,0,16,99/100
+SDS-62,99,0,20,5,4,Chlorinity b,,6 direction changes,,0,0,16,100/100
+SDS-62,100,0,17,4,2,Chlorinity/ °/oo; 10^2S/mol L^-1 atm^b,,n.a.,,0,0,0,54/55
+SDS-62,101,0,15,4,3,10^2K_o/mol L^-1 atm^b,,n.a.,,0,0,0,48/48
+SDS-62,152,0,21,6,5,K_H/mol L^-1 atm^-1 b,,n.a. (pressure varies),,0,3,8,91/92
+SDS-62,155,0,25,6,5,γ1 f,,n.a. (pressure varies),,0,0,20,129/130
+SDS-62,156,0,12,5,5,,,n.a. (fewer than 4 temperatures),,0,0,11,60/60
+SDS-62,157,0,18,7,5,"Solvent; 102W2 a,b",,n.a. (pressure varies),,0,0,10,87/87
+SDS-62,158,0,20,3,3,,,n.a. (fewer than 4 temperatures),,0,0,18,58/58
+SDS-62,159,0,4,5,5,,,n.a. (fewer than 4 temperatures),,0,0,3,20/20
+SDS-62,160,0,20,5,5,,,n.a. (fewer than 4 temperatures),,0,0,19,93/93
+SDS-62,161,0,35,6,5,a^c,,outlier,13,0,0,0,157/157
+SDS-62,162,0,44,6,6,,,3 direction changes,,0,0,0,188/189
+SDS-62,163,0,20,3,3,,,3 direction changes,,0,9,0,31/31
+SDS-62,163,1,2,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,6/6
+SDS-62,165,0,8,6,4,"Dilution x; k_\textscc/dm^3 mol^-1 a,c",,n.a. (fewer than 4 temperatures),,0,0,7,39/39
+SDS-62,167,0,20,5,5,,,6 direction changes,,0,0,16,76/78
+SDS-62,168,0,30,5,5,,,10 direction changes,,0,0,24,115/115
+SDS-62,169,0,40,3,3,,,11 direction changes,,0,0,18,84/87
+SDS-62,170,0,11,3,3,,,n.a. (fewer than 4 temperatures),,0,0,10,29/29
+SDS-62,172,0,70,3,3,,,n.a. (pressure varies),,0,0,0,200/201
+SDS-62,173,0,20,5,5,,,monotonic,,0,0,0,50/50
+SDS-62,174,0,20,5,5,,,8 direction changes,,0,0,15,80/80
+SDS-62,177,0,30,5,5,,,10 direction changes,,0,0,24,126/126
+SDS-62,178,0,36,3,3,,,10 direction changes,,0,17,0,52/52
+SDS-62,180,0,48,4,4,,,n.a. (pressure varies),,0,0,0,192/192
+SDS-62,181,0,52,4,4,,,n.a. (pressure varies),,0,0,0,208/208
+SDS-62,182,0,30,3,2,(c_2 + c_3) /mol dm^-3,,n.a. (fewer than 4 temperatures),,0,12,0,34/35
+SDS-62,183,0,8,6,4,"Dilution x; kscc/dm3 mol-1a,c",,n.a. (fewer than 4 temperatures),,0,0,7,41/41
+SDS-62,184,0,24,5,5,,,6 direction changes,,0,0,20,96/96
+SDS-62,185,0,30,5,5,,,8 direction changes,,0,0,25,120/120
+SDS-62,187,0,21,6,5,a^b,,n.a. (fewer than 4 temperatures),,0,0,19,88/89
+SDS-62,188,0,21,6,6,,,n.a. (fewer than 4 temperatures),,0,0,18,92/92
+SDS-62,189,0,9,7,6,10^2γ_2/g cm^-3 a,,n.a. (pressure varies),,0,8,0,7/7
+SDS-62,190,0,60,4,4,,,8 direction changes,,0,0,25,150/150
+SDS-62,191,0,28,4,4,,,8 direction changes,,0,0,9,84/84
+SDS-62,192,0,8,9,6,Total; Fixed; Unfixed,,n.a. (pressure varies),,0,0,0,48/48
+SDS-62,193,0,5,4,0,"Solution; Fixed  CO_2  c/mmol L^-1; Unfixed  CO_2 ,  c/mmol (L atm)^-1 299.8 K (80 °F); 333.2 K (140 °F)",,n.a.,,0,0,0,14/14
+SDS-62,194,0,5,4,4,,,n.a. (fewer than 4 temperatures),,0,0,4,20/20
+SDS-62,195,0,9,7,6,10^2γ_2/g cm^-3 a,,n.a. (pressure varies),,0,6,0,21/21
+SDS-62,196,0,8,7,6,10^2γ_2/g cm^-3 a,,n.a. (pressure varies),,0,5,0,21/21
+SDS-62,197,0,9,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,21/21
+SDS-62,198,1,5,3,3,,,n.a. (fewer than 4 temperatures),,0,0,4,14/14
+SDS-62,199,0,5,6,4,"Dilution x; k_\textSCC/dm^3  mol^-1  a,c",,n.a. (fewer than 4 temperatures),,0,0,4,24/24
+SDS-62,201,0,20,6,5,γ_2/g L^-1 a,,8 direction changes,,0,0,15,88/88
+SDS-62,202,0,9,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,21/21
+SDS-62,203,0,12,7,6,10^2γ_2/g cm^-3 a,,n.a. (pressure varies),,0,8,0,27/28
+SDS-62,204,0,6,7,6,10^2γ_2/g cm^-3 a,,n.a. (pressure varies),,0,4,0,14/14
+SDS-62,205,0,30,4,4,,,1 direction changes,,0,0,12,77/77
+SDS-62,208,0,34,3,3,,,8 direction changes,,0,16,0,49/49
+SDS-62,209,0,27,6,5,γ_1  f,,n.a. (pressure varies),,0,0,22,139/140
+SDS-62,211,0,12,5,5,,,n.a. (fewer than 4 temperatures),,0,0,9,54/54
+SDS-62,212,0,20,5,5,,,6 direction changes,,0,0,16,84/84
+SDS-62,213,0,28,5,5,,,10 direction changes,,0,0,22,112/117
+SDS-62,215,0,26,6,5,γ_1^f,,n.a. (pressure varies),,0,0,21,135/135
+SDS-62,216,0,18,5,1,a; b; ; ,,n.a. (fewer than 4 temperatures),,0,0,12,74/75
+SDS-62,218,0,12,6,4,"Dilution x; k_\textSCC/dm^3  mol^-1  a,c",,n.a. (fewer than 4 temperatures),,0,0,11,61/63
+SDS-62,219,0,20,5,5,,,n.a. (pressure varies),,0,18,0,10/10
+SDS-62,220,0,50,5,5,,,n.a. (pressure varies),,0,45,0,24/24
+SDS-62,221,0,50,5,5,,,n.a. (pressure varies),,0,45,0,25/25
+SDS-62,222,0,35,5,5,,,n.a. (pressure varies),,0,32,0,15/15
+SDS-62,223,0,9,3,3,,,n.a. (fewer than 4 temperatures),,0,0,8,26/26
+SDS-62,224,0,17,5,4,C_1^a,,n.a. (fewer than 4 temperatures),,0,0,14,79/82
+SDS-62,225,0,6,4,4,,,n.a. (pressure varies),,2,0,0,16/19
+SDS-62,227,0,23,3,2,10^3c_1/mol  \dotL^-1  c,,n.a. (fewer than 4 temperatures),,0,0,21,65/65
+SDS-62,228,0,6,3,2,p/kbar,,n.a. (fewer than 4 temperatures),,0,4,0,3/3
+SDS-62,229,0,26,6,5,γ_1 f,,n.a. (pressure varies),,0,0,21,135/135
+SDS-62,230,0,6,5,4,I/mol L^-1 b,,n.a. (fewer than 4 temperatures),,0,0,5,26/27
+SDS-62,231,0,23,6,5,I/mol dm-3,,8 direction changes,,0,22,0,3/3
+SDS-62,236,0,4,3,3,,,n.a. (fewer than 4 temperatures),,0,0,1,10/10
+SDS-62,236,1,12,3,3,,,1 direction changes,,0,0,5,29/30
+SDS-62,237,0,20,3,2,10^3c_1/mol  \dotL^-1  ^c,,n.a. (fewer than 4 temperatures),,0,0,18,56/56
+SDS-62,238,0,7,5,4,I/mol  L^-1  ^b,,n.a. (fewer than 4 temperatures),,0,0,6,32/32
+SDS-62,241,0,30,5,5,,,10 direction changes,,0,0,24,138/138
+SDS-62,243,0,25,5,5,,,11 direction changes,,0,24,0,3/3
+SDS-62,244,0,20,5,5,,,6 direction changes,,0,0,16,93/93
+SDS-62,245,0,24,5,5,,,10 direction changes,,0,0,18,107/108
+SDS-62,247,0,20,5,5,,,6 direction changes,,0,0,16,83/84
+SDS-62,248,0,26,5,5,,,10 direction changes,,0,0,20,106/106
+SDS-62,249,0,20,5,5,,,18 direction changes,,0,0,10,80/80
+SDS-62,250,0,10,6,4,"Dilution x; kscc/dm3 mol-1a,c",,n.a. (fewer than 4 temperatures),,0,0,9,51/51
+SDS-62,251,0,24,5,4,Series d,,6 direction changes,,0,0,20,67/68
+SDS-62,252,0,47,5,4,Series d,,outlier,38,0,40,2,23/23
+SDS-62,253,0,12,5,4,Seriesd,,n.a. (fewer than 4 temperatures),,0,0,10,40/40
+SDS-62,255,0,4,4,3,"k_\textscc/dm^3 mol^-1 c,d",,n.a. (fewer than 4 temperatures),,0,0,3,14/14
+SDS-62,256,0,36,6,6,,,n.a. (pressure varies),,0,0,0,183/183
+SDS-62,257,0,18,6,6,,,n.a. (pressure varies),,0,0,0,92/92
+SDS-62,259,0,30,6,3,pure  H_2O; 6 wt-%  NaCl^c; 20 wt-%  NaCl^d,,n.a.,,0,0,27,170/170
+SDS-62,260,0,27,6,3,pure  H_2O; 6 wt-%  NaCl^c; 20 wt-%  NaCl^d,,n.a.,,0,0,23,114/124
+SDS-62,262,0,28,5,5,,,10 direction changes,,0,0,22,116/117
+SDS-62,264,0,3,5,4,C_1^a,,n.a. (pressure varies),,2,0,0,13/17
+SDS-62,265,0,1,5,4,C_1^a,,n.a. (fewer than 4 temperatures),,1,0,0,3/7
+SDS-62,266,0,25,4,4,,,n.a. (pressure varies),,0,10,8,51/54
+SDS-62,267,0,30,3,3,,,n.a. (fewer than 4 temperatures),,0,0,27,87/87
+SDS-62,268,0,20,6,5,K_H/MPa^b,,n.a. (pressure varies),,0,0,0,84/84
+SDS-62,269,0,9,3,3,,,n.a. (fewer than 4 temperatures),,0,0,8,23/23
+SDS-62,270,0,18,6,5,ln( K_H /kPa)e,,n.a. (pressure varies),,0,0,0,107/108
+SDS-62,272,0,16,6,5,ln(KH/kPa) e,,n.a. (pressure varies),,0,0,0,95/96
+SDS-62,273,0,21,6,5,γ_1 f,,n.a. (pressure varies),,0,0,18,108/108
+SDS-62,274,0,10,6,5,γ1 f,,n.a. (pressure varies),,0,0,8,52/52
+SDS-62,275,0,22,4,4,,,n.a. (pressure varies),,0,0,0,87/88
+SDS-62,276,0,54,4,4,,,n.a. (pressure varies),,0,0,0,216/216
+SDS-62,278,0,16,6,5,γ_2/g L^-1 a,,6 direction changes,,0,0,12,71/72
+SDS-62,280,0,6,5,4,I/mol L-1a,,n.a. (fewer than 4 temperatures),,0,0,5,27/27
+SDS-62,281,0,34,3,2,(c_2 + c_3) /mol dm^-3,,n.a. (fewer than 4 temperatures),,0,14,0,45/45
+SDS-62,282,0,18,5,4,I/mol L^-1 b,,n.a. (fewer than 4 temperatures),,0,0,17,87/87
+SDS-62,283,0,26,4,3,(c_2 + c_3) /mol dm^-3,,n.a. (fewer than 4 temperatures),,0,25,0,2/3
+SDS-62,284,0,1,6,5,C_1^a,,n.a. (fewer than 4 temperatures),,0,0,0,6/6
+SDS-62,285,0,18,6,5,γ1 f,,n.a. (pressure varies),,0,0,15,93/93
+SDS-62,286,0,12,6,5,γ1 f,,n.a. (pressure varies),,0,0,10,62/62
+SDS-62,287,0,6,6,5,I/mol  L^-1  ^b,,n.a. (fewer than 4 temperatures),,0,0,5,32/32
+SDS-62,288,0,6,6,0,0.00; 6.11 *; 4.29 *; 3.13 *; 2.56 *; 2.10 *,,n.a.,,0,0,0,33/34
+SDS-62,291,0,46,4,4,,,8 direction changes,,0,0,18,138/138
+SDS-62,292,0,4,6,4,"Dilution; k_\textscc/dm^3 mol^-1 a,c",,n.a. (fewer than 4 temperatures),,0,0,3,19/19
+SDS-62,292,1,5,4,3,"k_\textscc/dm^3 mol^-1 c,d",,n.a. (fewer than 4 temperatures),,0,0,4,18/18
+SDS-62,293,0,20,5,5,,,6 direction changes,,0,0,16,84/84
+SDS-62,294,0,30,6,5,,,10 direction changes,,0,0,24,126/126
+SDS-62,295,0,7,6,5,γ_2/g L^-1 a,,n.a. (fewer than 4 temperatures),,0,0,6,42/42
+SDS-62,296,0,4,4,3,"k_\textscc/dm^3 mol^-1 c,d",,n.a. (fewer than 4 temperatures),,0,0,3,14/14
+SDS-62,297,0,20,5,5,,,6 direction changes,,0,0,16,80/81
+SDS-62,298,0,30,5,5,,,10 direction changes,,0,0,24,114/120
+SDS-62,300,0,8,6,4,"Dilution x; k_\textscc/dm^3 mol^-1^a,c",,n.a. (fewer than 4 temperatures),,0,0,7,40/40
+SDS-62,301,0,12,5,1,a; b; ; ,,n.a. (fewer than 4 temperatures),,0,0,8,54/54
+SDS-62,302,0,25,6,6,,,4 direction changes,,0,4,1,111/111
+SDS-62,304,0,18,5,5,,,8 direction changes,,0,0,13,75/75
+SDS-62,306,0,29,3,3,,,n.a. (fewer than 4 temperatures),,0,0,26,84/84
+SDS-62,307,0,10,6,6,,,n.a. (pressure varies),,0,0,8,60/60
+SDS-62,308,0,24,6,5,γ_1 f,,n.a. (pressure varies),,0,0,19,125/125
+SDS-62,310,0,53,4,4,,,n.a. (pressure varies),,0,0,0,211/212
+SDS-62,311,0,58,4,4,,,n.a. (pressure varies),,0,0,0,230/232
+SDS-62,313,0,28,8,3,t°C; T^a K; c_2^a mol  dm^-3; c_3^a mol  dm^-3; mass % H_2SO_4,,n.a. (fewer than 4 temperatures),,0,9,0,130/131
+SDS-62,315,0,41,5,5,,,n.a. (pressure varies),,0,0,0,202/205
+SDS-62,316,0,7,5,4,I/mol  L^-1^b,,n.a. (fewer than 4 temperatures),,0,0,6,32/32
+SDS-62,317,0,26,4,3,(c_2+c_3) /mol  dm^-3,,n.a. (fewer than 4 temperatures),,0,25,0,3/3
+SDS-62,318,0,28,5,4,(c_2+c_3+c_4) /mol dm ^-3,,n.a. (fewer than 4 temperatures),,0,26,1,7/7
+SDS-62,320,0,15,5,1,a; b; ; ,,n.a. (fewer than 4 temperatures),,0,0,11,65/65
+SDS-62,321,0,24,5,5,,,6 direction changes,,0,0,20,96/96
+SDS-62,322,0,36,5,5,,,10 direction changes,,0,0,30,144/144
+SDS-62,323,0,30,3,3,,,10 direction changes,,0,0,13,67/67
+SDS-62,324,0,8,7,7,,,n.a. (pressure varies),,0,0,7,54/54
+SDS-62,326,0,47,5,5,,,12 direction changes,,0,0,40,200/200
+SDS-62,328,0,27,5,5,,,10 direction changes,,0,0,21,111/112
+SDS-62,329,0,32,7,6,(c_1/p_1)^c,,n.a. (pressure varies),,0,28,0,28/28
+SDS-62,330,0,12,7,6,102γ2/g cm-3a,,n.a. (pressure varies),,0,11,0,7/7
+SDS-62,332,0,4,4,4,,,n.a. (fewer than 4 temperatures),,1,0,3,17/17
+SDS-62,333,0,9,4,4,,,n.a. (fewer than 4 temperatures),,1,0,8,37/37
+SDS-62,335,0,1,5,4,k_smc/kg mol^-1 c,,n.a. (fewer than 4 temperatures),,1,0,0,4/6
+SDS-62,336,0,4,6,4,"Dilution x; k_\textscc/dm^3 mol^-1^a,c",,n.a. (fewer than 4 temperatures),,0,0,3,18/18
+SDS-62,337,0,10,3,3,,,n.a. (fewer than 4 temperatures),,0,0,8,28/28
+SDS-62,340,0,20,5,5,,,6 direction changes,,0,0,16,80/80
+SDS-62,341,0,30,6,5,,,10 direction changes,,0,0,24,120/120
+SDS-62,343,0,9,3,3,,,n.a. (fewer than 4 temperatures),,0,0,8,23/23
+SDS-62,344,0,26,6,5,γ1 f,,n.a. (pressure varies),,0,0,21,134/135
+SDS-62,346,0,26,4,3,(c_2+c_3) /mol dm^-3,,n.a. (fewer than 4 temperatures),,0,21,0,15/15
+SDS-62,347,0,31,4,3,(c_2+c_3) /mol dm ^-3,,n.a. (fewer than 4 temperatures),,0,30,0,2/3
+SDS-62,348,0,18,5,4,(c_2 + c_3 + c_4) /mol dm^-3,,n.a. (fewer than 4 temperatures),,0,0,17,59/59
+SDS-62,349,1,10,3,3,,,monotonic,,0,4,0,16/16
+SDS-62,350,0,20,5,5,,,6 direction changes,,0,0,16,80/81
+SDS-62,351,0,30,5,5,,,10 direction changes,,0,0,24,119/120
+SDS-62,353,0,10,3,3,,,n.a. (fewer than 4 temperatures),,0,0,8,28/28
+SDS-62,354,0,20,5,5,,,6 direction changes,,0,0,16,80/81
+SDS-62,355,0,27,5,5,,,10 direction changes,,0,0,21,106/106
+SDS-62,356,0,3,4,4,,,n.a. (fewer than 4 temperatures),,0,0,2,11/11
+SDS-62,357,0,7,6,5,γ_2/g L^-1 a,,n.a. (fewer than 4 temperatures),,0,0,6,41/42
+SDS-62,359,0,24,6,5,γ_1 f,,n.a. (pressure varies),,0,0,19,125/125
+SDS-62,360,1,10,3,3,,,monotonic,,0,4,0,16/16
+SDS-62,361,0,16,5,5,,,n.a. (fewer than 4 temperatures),,0,0,13,73/73
+SDS-62,362,0,0,2,0,"Over Mercury. The volume of liquid was measured at the experimental temperature. For calculation of the Kuenen coefficient, the density of the solution was obtained from Landolt-Börnstein extant 1969. The molar concentration of salt in the liquid was standardized at 20°C. These data are analyzed and discussed further in Ref. 1.; By DBK Standard IGL 3021.(3) Double distilled.",,n.a.,,0,0,0,0/0
+SDS-62,363,0,25,5,5,,,8 direction changes,,0,0,20,105/105
+SDS-62,364,0,13,3,3,,,n.a. (fewer than 4 temperatures),,0,0,11,37/37
+SDS-62,365,0,27,4,3,(c_2+c_3) /mol  dm^-3,,n.a. (fewer than 4 temperatures),,0,26,0,3/3
+SDS-62,366,0,18,5,4,(c_2+c_3+c_4) /mol  dm^-3,,n.a. (fewer than 4 temperatures),,0,0,15,44/46
+SDS-62,368,0,19,5,5,,,8 direction changes,,0,0,14,77/81
+SDS-62,370,0,14,5,2,α  ^c (T = 288 K); α  ^c (T = 298 K); α  ^c (T = 308 K),,n.a. (fewer than 4 temperatures),,0,0,0,59/59
+SDS-62,374,1,2,4,3,"k_\textscc/dm^3 mol^-1 c,d",,n.a. (fewer than 4 temperatures),,0,0,1,6/6
+SDS-62,375,0,10,3,3,,,n.a. (fewer than 4 temperatures),,0,0,8,28/28
+SDS-62,375,1,6,3,3,,,n.a. (fewer than 4 temperatures),,0,0,4,15/16
+SDS-62,377,0,35,7,2,; ; Ammonium chloride;; NH_4Cl ; [12125-02-9]; ,,n.a.,,0,0,25,270/273
+SDS-62,379,0,40,7,3,d_15^15 b; ; ; Calcium chloride; CaCl2; [10043-52-4],,8 direction changes,,0,0,28,309/309
+SDS-62,384,0,3,5,5,,,n.a. (pressure varies),,0,0,2,15/15
+SDS-62,386,0,0,6,0,; Ba; 250; Fe; 2000; Rb 70,,n.a.,,0,0,0,0/0
+SDS-62,387,0,22,6,5,K_H/MPa^b,,n.a. (pressure varies),,0,0,0,90/90
+SDS-62,388,0,0,2,0,"Acetic acid, sodium salt; E120, 309, 310",,n.a.,,0,0,0,0/0
+SDS-62,389,0,0,2,0,"Ferrate(3-)- hexacis(cyano-C)-, tripotassium, (OC-6-11)-; E131, 364",,n.a.,,0,0,0,0/0
+SDS-62,390,0,0,2,0,"Nitric acid, ammonium salt; E93, E103, E104, E112, E113, E118, E128, 165-168, 212, 220, 264, 269, 298, 363",,n.a.,,0,0,0,0/0
+SDS-62,391,0,0,2,0,"Sodium iodide; E115, 278-280",,n.a.,,0,0,0,0/0
+SDS-62,392,0,0,2,0,"50-21-5; E121, E130, 313, 355",,n.a.,,0,0,0,0/0
+SDS-62,393,0,0,2,0,"7733-02-0; E96, 181",,n.a.,,0,0,0,0/0

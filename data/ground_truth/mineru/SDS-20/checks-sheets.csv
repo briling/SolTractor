@@ -1,0 +1,60 @@
+volume,page,sheet,rows,columns,mapped,unmapped,compiler_unpaired,trend,outlier_row,glued_rows,short_rows,ditto_rows,verbatim
+SDS-20,24,0,1,3,2,10^8 mol(1)/dm^3 b  10^10 x(1) b,,n.a. (fewer than 4 temperatures),,1,0,0,3/4
+SDS-20,27,0,1,4,3,10^6mol(1)/dm^3  b,,n.a. (fewer than 4 temperatures),,0,0,0,4/4
+SDS-20,30,0,5,4,4,,,monotonic,,0,0,0,19/19
+SDS-20,33,0,10,5,4,mol(KCl)/dm3,,n.a. (fewer than 4 temperatures),,0,0,0,49/50
+SDS-20,34,0,18,5,3,mol(KCl)/dm3; 10-1g(1)/dm3a,,n.a. (fewer than 4 temperatures),,0,0,0,90/90
+SDS-20,35,0,10,5,3,mol(NH4Cl)/dm3; Initial pH = 6.010g(1)/dm3a,,n.a. (fewer than 4 temperatures),,0,0,0,50/50
+SDS-20,36,0,19,5,4,mol(NH4Cl)/dm3,,n.a. (fewer than 4 temperatures),,0,0,0,95/95
+SDS-20,40,0,1,4,3,10^5mol(1)/dm^3b,,n.a. (fewer than 4 temperatures),,0,0,0,4/4
+SDS-20,61,0,1,3,2,104mol(1)/dm3b 106x(1)a,,n.a. (fewer than 4 temperatures),,1,0,0,4/4
+SDS-20,62,0,1,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,4/4
+SDS-20,74,0,1,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,4/4
+SDS-20,80,0,1,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,4/4
+SDS-20,83,0,1,4,3,10^4mol(1)/dm^3b,,n.a. (fewer than 4 temperatures),,0,0,0,4/4
+SDS-20,88,0,1,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,4/4
+SDS-20,93,0,1,4,0,| T/K | ---; 10^4mol(1)/dm^3 ---; 10^2g(1)/kg ---; 10^6x(1) | --- |,,n.a.,,0,0,0,4/4
+SDS-20,100,0,8,4,4,,,monotonic,,0,0,0,32/32
+SDS-20,104,0,3,4,3,10ml(1)/dm3(2)a,,n.a. (fewer than 4 temperatures),,0,0,0,12/12
+SDS-20,105,0,3,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,12/12
+SDS-20,107,0,3,4,3,10g(1)/dm3(2)a,,n.a. (fewer than 4 temperatures),,0,0,0,11/11
+SDS-20,114,0,8,4,4,,,monotonic,,0,0,0,32/32
+SDS-20,117,0,2,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,10/10
+SDS-20,118,0,3,4,1,Elution Chromatography; UV Absorption; ,,n.a.,,0,0,0,15/15
+SDS-20,120,0,1,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,4/4
+SDS-20,123,0,2,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,8/8
+SDS-20,128,0,1,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,3/4
+SDS-20,129,0,5,6,4,; ,,monotonic,,0,0,0,20/20
+SDS-20,136,0,1,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,3/3
+SDS-20,145,0,3,5,4,10-2g(1)/kg a,,n.a. (pressure varies),,0,0,0,15/15
+SDS-20,146,0,1,4,3,10^2mol(1)/dm^3 b,,n.a. (fewer than 4 temperatures),,0,0,0,4/4
+SDS-20,148,0,1,3,2,105mol(1)/dm3b 106x(1)a,,n.a. (fewer than 4 temperatures),,1,0,0,4/4
+SDS-20,150,0,1,4,3,10^5mol(1)/dm^3b,,n.a. (fewer than 4 temperatures),,0,0,0,4/4
+SDS-20,152,0,1,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,4/4
+SDS-20,167,0,6,4,3,10^3mol(1)/kg(2) b,,monotonic,,0,0,0,30/30
+SDS-20,169,0,4,4,4,,,monotonic,,0,0,0,15/15
+SDS-20,182,0,3,4,3,10-1g(1)/kg a,,n.a. (fewer than 4 temperatures),,0,0,0,12/12
+SDS-20,183,0,2,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,8/8
+SDS-20,184,0,1,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,4/4
+SDS-20,188,0,12,4,4,,,monotonic,,0,0,0,48/48
+SDS-20,192,0,7,4,4,,,monotonic,,0,0,0,28/28
+SDS-20,198,0,1,4,3,10^3mol(1)/kg(2)  b,,n.a. (fewer than 4 temperatures),,0,0,0,4/4
+SDS-20,201,0,4,4,4,,,monotonic,,0,0,0,15/15
+SDS-20,207,0,13,4,3,10-2g(1)/kga,,7 direction changes,,0,0,0,52/52
+SDS-20,208,0,10,4,4,,,5 direction changes,,0,0,0,40/40
+SDS-20,214,0,12,4,4,,,6 direction changes,,0,0,0,48/48
+SDS-20,219,0,13,4,3,10-2g(1)/kg,,8 direction changes,,0,0,0,52/52
+SDS-20,222,0,1,4,3,10mol(1)/dm^3b,,n.a. (fewer than 4 temperatures),,0,0,0,4/4
+SDS-20,223,0,1,4,3,10mol(1)/dm^3b,,n.a. (fewer than 4 temperatures),,0,0,0,4/4
+SDS-20,230,0,4,5,4,10-2g(1)/kg a,,n.a. (pressure varies),,0,0,0,20/20
+SDS-20,231,0,4,4,4,,,monotonic,,0,0,0,15/15
+SDS-20,238,0,1,4,3,10ml(1)/dm3a,,n.a. (fewer than 4 temperatures),,0,0,0,4/4
+SDS-20,239,0,3,4,3,10ml(1)/dm3(2)a,,n.a. (fewer than 4 temperatures),,0,0,0,12/12
+SDS-20,240,0,6,4,3,103mol(1)/kg(2) b,,monotonic,,0,0,0,30/30
+SDS-20,242,0,4,4,4,,,monotonic,,0,0,0,15/15
+SDS-20,247,0,1,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,4/4
+SDS-20,249,0,1,3,2,103mol(1)/dm3b 105x(1)a,,n.a. (fewer than 4 temperatures),,1,0,0,4/4
+SDS-20,251,0,1,3,2,103mol(1)/dm3b 105x(1)a,,n.a. (fewer than 4 temperatures),,1,0,0,4/4
+SDS-20,258,0,1,4,3,10^2mol(1)/dm^3 b,,n.a. (fewer than 4 temperatures),,0,0,0,4/4
+SDS-20,259,0,1,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,3/4
+SDS-20,279,0,1,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,4/4

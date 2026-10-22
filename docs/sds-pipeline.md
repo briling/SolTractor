@@ -127,8 +127,65 @@ pass aligns nearly all of them: the segmenter loses the sheets, not the values. 
 (gas solubilities, two-block tables with pressure columns) and 62 (long multi-column
 tables, Bunsen and Ostwald coefficients) are the hard cases for the row structure.
 `scripts/to_nomad.py` turns the crop-pass boxes of each volume into one NOMAD upload
-(`nomad-SDS-N.zip` in the library's `nomad/` folder, 12 998 entries in all, every one
+(`nomad-SDS-N.zip` in the library's `nomad/` folder, 11 965 entries in all, every one
 validated against the schema with NOMAD's metainfo). Crops in which the model returned
 the whole sheet as a table (header cells carrying box names) are skipped; when the
 table has no temperature column, a single-valued VARIABLES box supplies it.
 
+
+## Quality checks on the rows
+
+`scripts/check_rows.py` checks every exported row against the physics the sheets print
+twice. The compilers added a "(compiler)" column to nearly every table, converting the
+original quantity to the IUPAC one, and the IUPAC quantities are related by closed
+formulas: mass and mole fraction through the molar masses (from the printed formulas),
+mass ratio and mass fraction, molality and mole fraction, Celsius and kelvin, Ostwald and
+Bunsen coefficient (L = αT/273.15), Bunsen coefficient and mole fraction through the
+water density, Henry's constant and mole fraction at the stated partial pressure, total
+pressure against partial pressure plus the water vapour pressure, closure of the mole
+fractions of one phase, ranges. Each check applies only where its inputs are printed in
+the row; the recomputed value must agree with the printed one within one unit of the
+last printed digit plus 0.3 % (`--tolerance`). A failing ratio close to a power of ten is
+noted as a misread prefactor or exponent, which is what a vision model gets wrong in a
+header. Per sheet, the solubility against temperature must change direction at most once
+(the row whose removal restores the trend is the outlier), a compiler column must have
+the printed column it was computed from, and the header coverage is reported. With
+`--text` every numeric token of a row is searched in the text layer of its page.
+
+The row width check found the largest single defect of the crop pass: when a sheet
+leaves the temperature blank to mean "as above", MinerU drops the empty cells and the row
+comes back shorter than the header, so the values would be assigned to the wrong columns.
+`sdstable.normalise_rows` fills such rows from the row above when the missing cells are
+the leading condition columns (2 083 rows in volume 62, 699 in 57); rows still short are
+skipped by the exporter (592 and 342). Two other layout defects are handled in
+`split_blocks`: two sub-tables in one crop (solubility of (1) in (2) above (2) in (1)),
+and a header whose first line holds `t/°C` and a title. Results over the crop pass of the
+eight volumes (`check_rows.py --all --text`):
+
+| volume | rows | ditto rows filled | shifted rows | headers mapped | hard checks | pass | fail | rows with a number missing from the text layer | sheets monotonic / outlier / changing |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
+| 20 | 237 | 0 | 0 | 233/283 | 504 | 443 | 61 | 4 | 12 / 0 / 4 |
+| 37 | 1 140 | 145 | 0 | 573/644 | 1 980 | 1 872 | 108 | 65 | 58 / 13 / 8 |
+| 38 | 887 | 107 | 1 | 405/522 | 1 256 | 1 212 | 44 | 40 | 36 / 6 / 5 |
+| 57 | 1 847 | 699 | 342 | 702/1 066 | 1 769 | 1 581 | 188 | 136 | 27 / 1 / 5 |
+| 58 | 1 023 | 0 | 0 | 333/341 | 1 765 | 1 760 | 5 | 37 | 54 / 2 / 28 |
+| 59 | 2 424 | 0 | 1 | 695/711 | 4 404 | 4 384 | 20 | 242 | 83 / 7 / 84 |
+| 60 | 722 | 42 | 10 | 1 104/1 241 | 1 576 | 1 534 | 42 | 36 | 36 / 6 / 10 |
+| 62 | 4 631 | 2 083 | 592 | 1 035/1 239 | 6 013 | 5 856 | 157 | 103 | 4 / 2 / 53 |
+
+The failures are what the check is for. Volume 60, page 43: the header `10^5 x_1` against
+a mass fraction that predicts `10^3 x_1`, all three rows off by exactly 10^2. Volume 37,
+page 39: `10^3 x_1` disagrees with the printed `g(1)/100 g sln` by a factor ten while the
+next column, `10^4 x_1 (corrected by compiler)`, agrees, so the sheet itself carries a
+compiler's correction the check reproduces. Volume 20 shows a steady 3.5 % between
+`mol(1)/kg` and `10^6 x(1)` on one sheet, which is the compilers' arithmetic rather than a
+reading error. Sheets where many checks fail at once have a shifted or misaligned header.
+Volume 62's trend column (4 monotonic sheets, 53 changing) reflects tables in which the
+pressure varies along with temperature, not bad values; the check declares itself not
+applicable when a pressure column varies, and the remaining changes are sheets with
+several series.
+
+The same header mapper feeds the exporter, which now fills an `Amount` for 9 892 of the
+11 965 entries (83 %, from 35 % before), as mole fraction, mass fraction (`100 w`, `g per 100 g
+solution`, `mg/kg solution`), molality or molarity, in that order of preference; volumes 20
+and 62 go from no amounts to 96 % and 83 %.
