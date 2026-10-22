@@ -161,6 +161,10 @@ class Component(PureSubstanceComponent):
 class PublicationReference(ArchiveSection):
     """Bibliographic details for a related publication or dataset."""
 
+    citation: str | None = Field(
+        default=None,
+        description="Source citation preserved verbatim when structured bibliographic metadata is unavailable.",
+    )
     DOI_number: str | None = Field(
         default=None,
         description="DOI identifying the publication or dataset.",
@@ -258,6 +262,10 @@ class Amount(ArchiveSection):
     estimated_error_solubility: str | None = Field(
         default=None,
         description="Reported estimated error in solubility, preserved as source text with its expression, units, symbols, and line breaks.",
+    )
+    units: str | None = Field(
+        default=None,
+        description="Storage unit for the single populated numeric amount field, or 1 for dimensionless amounts.",
     )
 
 
