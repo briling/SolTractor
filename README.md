@@ -5,6 +5,11 @@ Text extraction with quality control from the IUPAC Solubility Data Series
 fixed-form data sheets, about 21000 pages, to be turned into structured records that can
 be checked value by value against the page.
 
+## Data availability
+
+The extracted data is available in the
+[NOMAD project](https://nomad-lab.eu/oasis/projects/PwvbZwnyRW-FtUjwrwkUfQ).
+
 ## Layout
 
 - `data/`: the text layer of every volume, the volume classification, the segmented
@@ -14,7 +19,10 @@ be checked value by value against the page.
   they live in the HU Box library `sds-extraction` (see `docs/sds-pipeline.md`).
 - `scripts/`: the pipeline, stdlib-only Python run as `python3 -I scripts/<name>.py`,
   plus `fetch_volumes.sh`. Documented in `docs/sds-pipeline.md`.
-- `schema/`: the target record as a NOMAD YAML schema, a JSON schema and a pydantic model.
+- `schema/`: the target record as a NOMAD YAML schema, a JSON schema, and a Pydantic
+  model. The accompanying
+  [nomad-solubility-plugin](https://github.com/ka-sarthak/nomad-solubility-plugin)
+  supports structuring and hosting the data on NOMAD deployments.
 - `docs/`: `sds-pipeline.md` (data, scripts, QC numbers). The brief for running the
   document vision model on a GPU node is internal and lives in the HU Box library, not here.
 
