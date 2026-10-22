@@ -1,0 +1,48 @@
+{
+  "data": {
+    "name": "7,8-Dimethyltetradecane with Water",
+    "lab_id": "SDS-38/p388/0/r01",
+    "temperature": 313.15,
+    "measurement_methods": [
+      "Component (1) was introduced into a thermostatted flask and saturated for 5 hr. with (2). Next, calcium hydride was added and the evolving hydrogen volume measured and hence the concentration of (2) in (1) was evaluated."
+    ],
+    "mixing_methods": [
+      "Component (1) was introduced into a thermostatted flask and saturated for 5 hr. with (2)."
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            },
+            "amount": {
+              "mass_fraction": 0.000219,
+              "units": "1",
+              "source_header": "g_2/100 g solution"
+            }
+          },
+          {
+            "name": "7,8-Dimethyltetradecane",
+            "substance": {
+              "name": "7,8-Dimethyltetradecane",
+              "molecular_formula": "C16H34",
+              "cas_number": "2801-86-7"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Englin, B.A.; Plate, A.F.; Tugolukov, V.M. Pryanishnikova, M.A., Khim. Tekhnol. Topl. Masel 1965, 10, 42-6.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

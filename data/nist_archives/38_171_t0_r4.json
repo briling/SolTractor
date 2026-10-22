@@ -1,0 +1,48 @@
+{
+  "data": {
+    "name": "2,6-Dimethylheptane with Water",
+    "lab_id": "SDS-38/p171/0/r04",
+    "temperature": 323.15,
+    "measurement_methods": [
+      "Component (1) was introduced into a thermostatted flask and saturated for 5 hours with (2). Next, calcium hydride was added and the evolving hydrogen volume measured and hence the concentration of (2) in (1) was evaluated."
+    ],
+    "mixing_methods": [
+      "saturated for 5 hours with (2)"
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            },
+            "amount": {
+              "mass_fraction": 0.000465,
+              "units": "1",
+              "source_header": "g_2/100 g solution"
+            }
+          },
+          {
+            "name": "2,6-Dimethylheptane",
+            "substance": {
+              "name": "2,6-Dimethylheptane",
+              "molecular_formula": "C9H20",
+              "cas_number": "1072-05-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Englin, B.A.; Plate, A.F.; Tugolukov, V.M. Pryanishnikova, M.A., Khim. Tekhnol. Topl. Masel 1965, 10, 42-6.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

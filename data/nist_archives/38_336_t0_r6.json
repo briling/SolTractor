@@ -1,0 +1,59 @@
+{
+  "data": {
+    "name": "Anthracene with Sodium chloride and Water",
+    "lab_id": "SDS-38/p336/0/r06",
+    "temperature": 298.45,
+    "measurement_methods": [
+      "fluorescence and UV absorption measurements",
+      "fluorescent intensity was measured at 258 nm",
+      "ratio-photon counting mode"
+    ],
+    "mixing_methods": [
+      "saturated solution was prepared by adding excess amount of anthracene to an air-tight 1x1 cm quartz fluorescence cell containing 5 mL salt solution",
+      "The cell was rotated at 20 rpm for at least 72 hr in a thermostated water bath"
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "Anthracene",
+            "substance": {
+              "name": "Anthracene",
+              "molecular_formula": "C14H10",
+              "cas_number": "120-12-7"
+            },
+            "amount": {
+              "molar_concentration": 0.000192,
+              "units": "mol/m^3",
+              "source_header": "10^7 * n_1/V_2 [mol/L]"
+            }
+          },
+          {
+            "name": "Sodium chloride",
+            "substance": {
+              "name": "Sodium chloride",
+              "molecular_formula": "NaCl",
+              "cas_number": "7647-14-5"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Schwarz, F.P., J. Chem. Eng. Data. 1977, 22, 273-7.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

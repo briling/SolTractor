@@ -1,0 +1,46 @@
+{
+  "data": {
+    "name": "Acenaphthene with Seawater",
+    "lab_id": "SDS-38/p277/0/r00",
+    "temperature": 288.15,
+    "measurement_methods": [
+      "A 100 mL-aliquot was extracted three times with n-hexane. The concentrated hexane extract was analyzed by a gas chromatograph equipped with a flame ionization detector to determine the hydrocarbon concentration."
+    ],
+    "mixing_methods": [
+      "Saturated solutions was prepared by equilibrating seawater with an excess of hydrocarbon for 24 hrs in a constant temperature gyrotary shaker followed by 12 hr stationary period."
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "Acenaphthene",
+            "substance": {
+              "name": "Acenaphthene",
+              "molecular_formula": "C12H10",
+              "cas_number": "83-32-9"
+            },
+            "amount": {
+              "solute_solvent_mass_ratio": 2.14e-07,
+              "units": "1",
+              "source_header": "10^6 * g_1/g_2"
+            }
+          },
+          {
+            "name": "Seawater",
+            "substance": {
+              "name": "Seawater"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Rossi, S.S.; Thomas, W.H., Environ. Sci. Technol. 1981, 15, 715-6.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

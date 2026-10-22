@@ -1,0 +1,49 @@
+{
+  "data": {
+    "name": "2-Octene with Water",
+    "lab_id": "SDS-38/p086/0/r00",
+    "temperature": 288.15,
+    "measurement_methods": [
+      "olefin content determined by titration with bromine using standard procedures"
+    ],
+    "mixing_methods": [
+      "equilibrated with 1 mL of (1) by mechanical shaking in a thermostatted glass burette",
+      "After settling (judged visually), 5 mL of the aqueous layer was withdrawn"
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "2-Octene",
+            "substance": {
+              "name": "2-Octene",
+              "molecular_formula": "C8H16",
+              "cas_number": "111-67-1"
+            },
+            "amount": {
+              "mass_fraction": 3.3e-05,
+              "units": "1",
+              "source_header": "10^3 * g_1/100 g solution (compiler)"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Natarajan, G.S.; Venkatachalam, K.A., J. Chem. Eng. Data 1972, 17, 328-9.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

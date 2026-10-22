@@ -1,0 +1,48 @@
+{
+  "data": {
+    "name": "3-Methyloctane with Water",
+    "lab_id": "SDS-38/p173/0/r01",
+    "temperature": 293.15,
+    "measurement_methods": [
+      "Component (1) was introduced into a thermostatted flask and saturated for 5 hours with (2). Next, calcium hydride was added and the evolving hydrogen volume measured and hence the concentration of (2) in (1) was evaluated."
+    ],
+    "mixing_methods": [
+      "Component (1) was introduced into a thermostatted flask and saturated for 5 hours with (2)."
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            },
+            "amount": {
+              "mass_fraction": 8.7e-05,
+              "units": "1",
+              "source_header": "g_2/100 g solution"
+            }
+          },
+          {
+            "name": "3-Methyloctane",
+            "substance": {
+              "name": "3-Methyloctane",
+              "molecular_formula": "C9H20",
+              "cas_number": "2216-33-3"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Englin, B.A.; Plate, A.F.; Tugolukov, V.M. Pryanishnikova, M.A., Khim. Tekhnol. Topl. Masel 1965, 10, 42-6.",
+        "publication_authors": []
+      }
+    ]
+  }
+}
