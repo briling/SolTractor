@@ -49,6 +49,7 @@ AUX = re.compile(r'^AUX[Il1]L[Il1]ARY$|^[Il1]NF[O0]RMAT[Il1][O0]N:?$')
 COMP = re.compile(r'^C[O0]MP[O0]NENTS')
 FRAME = re.compile(r'^(C[O0]MP[O0]NENTS|[O0]R[Il1]G[Il1]NAL|MEASUREMENTS|VAR[Il1]ABLES|PREPARED|AUX[Il1]L[Il1]ARY|EST[Il1]MATED|REFERENCES|S[O0]URCE)')
 STOP = re.compile(r'^METH[O0]D|^C[O0]MMENTS$')          # closing words used when the banner is missing
+INDEX = re.compile(r'^[Il1]NDEX$')
 NUM = re.compile(r'\d')
 
 
@@ -92,10 +93,13 @@ for pno, page in enumerate(pages, 1):
     sheet_page = len({FRAME.match(t).group(1) for y0, y1, t in words if FRAME.match(t)}) >= 2
     # a header is EXPERIMENTAL in capitals on a page that carries the sheet frame (two or more of its
     # printed field names; COMPONENTS alone is often unreadable); VALUES is often lost by the OCR
-    heads = [y0 for y0, y1, t in words if HEAD.match(t)] if sheet_page or open_band else []
+    # the volume's indexes (SYSTEM INDEX, REGISTRY NUMBER INDEX, AUTHOR INDEX) follow the last sheet and would
+    # continue its open band page after page; a page naming an index without any frame word closes the band
+    index_page = not sheet_page and any(INDEX.match(t) for y0, y1, t in words)
+    heads = [y0 for y0, y1, t in words if HEAD.match(t)] if sheet_page or (open_band and not index_page) else []
     stops = sorted([y0 for y0, y1, t in words if AUX.match(t) or STOP.match(t)] + comps)
     bands = []
-    if open_band and words:
+    if open_band and words and not index_page:
         first_head = heads[0] if heads else H
         first_stop = next((s for s in stops if s < first_head), None)
         bands.append((max(0.0, words[0][0] - 4), first_stop - 4 if first_stop else H))
