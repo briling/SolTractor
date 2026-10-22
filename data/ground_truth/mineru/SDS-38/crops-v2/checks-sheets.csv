@@ -24,6 +24,7 @@ SDS-38,97,0,3,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,9/9
 SDS-38,99,0,4,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,13/14
 SDS-38,100,0,9,3,3,,,6 direction changes,,0,0,0,36/36
 SDS-38,106,0,4,4,4,,,monotonic,,0,0,0,20/20
+SDS-38,107,0,4,4,3,103 mol(1)/dm3 sln,,monotonic,,0,0,0,20/20
 SDS-38,109,0,6,4,4,,,n.a. (pressure varies),,0,0,0,23/23
 SDS-38,111,0,5,3,3,,,monotonic,,5,0,0,20/20
 SDS-38,118,0,3,4,3,(compiler),,n.a. (fewer than 4 temperatures),,0,0,0,9/9
@@ -40,6 +41,7 @@ SDS-38,168,0,3,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,10/12
 SDS-38,170,0,4,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,8/10
 SDS-38,172,0,7,4,4,,,monotonic,,0,0,0,35/35
 SDS-38,173,0,18,5,5,,,n.a. (pressure varies),,0,0,0,74/90
+SDS-38,174,0,9,5,5,,,n.a. (pressure varies),,0,0,0,45/45
 SDS-38,176,0,5,4,4,,,outlier,4,0,0,0,20/20
 SDS-38,177,0,6,4,4,,,n.a. (pressure varies),,0,0,0,24/24
 SDS-38,202,0,4,3,3,,,monotonic,,0,0,0,12/12
@@ -80,6 +82,7 @@ SDS-38,314,0,3,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,9/9
 SDS-38,320,0,2,3,2,\fracx_2,,n.a. (fewer than 4 temperatures),,0,0,0,4/6
 SDS-38,325,0,15,5,5,,,n.a. (pressure varies),,0,0,0,75/75
 SDS-38,326,0,25,5,5,,,n.a. (pressure varies),,0,0,0,125/125
+SDS-38,327,0,21,5,5,,,n.a. (pressure varies),,0,0,0,104/105
 SDS-38,334,0,6,3,3,,,monotonic,,0,0,0,17/17
 SDS-38,337,0,9,4,3,10^4 mol(1) L^-1,,outlier,7,0,0,0,44/45
 SDS-38,338,0,4,4,1,10^4 \text mol(1) \text L^-1; 10^3 \text g(1)/100 g sln (compiler); 10^6 x_1 \text(compiler),,n.a.,,0,0,0,16/16
@@ -128,6 +131,7 @@ SDS-38,487,0,2,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,5/6
 SDS-38,488,0,4,3,3,,,monotonic,,0,0,0,12/12
 SDS-38,491,0,5,4,4,,,n.a. (pressure varies),,0,0,0,20/20
 SDS-38,493,0,25,5,5,,,n.a. (pressure varies),,0,0,0,123/125
+SDS-38,494,0,20,5,5,,,n.a. (pressure varies),,0,0,0,99/100
 SDS-38,503,0,2,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,8/8
 SDS-38,512,0,2,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,8/8
 SDS-38,532,0,6,2,1,10^5 g(1) L^-1 (2),,n.a.,,0,0,0,13/13

@@ -13,6 +13,7 @@ SDS-62,39,0,15,6,6,,,n.a. (pressure varies),,0,0,0,76/76
 SDS-62,40,0,8,5,2,10^3c_1^liq/mol L^-1 b; 10^3c_1^air/mol L^-1 c; ratiod,,n.a.,,0,0,0,39/39
 SDS-62,41,0,10,4,4,,,n.a. (pressure varies),,0,0,0,39/40
 SDS-62,41,1,12,4,4,,,n.a. (pressure varies),,0,0,0,46/48
+SDS-62,42,0,34,4,0,; ; (a); (b),,n.a.,,0,0,0,105/106
 SDS-62,43,0,18,4,4,,,n.a. (pressure varies),,0,0,0,72/72
 SDS-62,43,1,10,4,4,,,n.a. (pressure varies),,0,0,0,40/40
 SDS-62,45,0,14,6,6,,,n.a. (pressure varies),,0,0,0,84/84
@@ -81,6 +82,7 @@ SDS-62,170,0,11,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,29/29
 SDS-62,172,0,70,3,3,,,n.a. (pressure varies),,0,0,0,200/201
 SDS-62,173,0,20,5,5,,,8 direction changes,,0,0,0,80/80
 SDS-62,174,0,20,5,5,,,8 direction changes,,0,0,0,80/80
+SDS-62,176,0,20,5,5,,,6 direction changes,,0,0,0,84/85
 SDS-62,177,0,30,5,5,,,10 direction changes,,0,0,0,126/126
 SDS-62,178,0,36,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,101/101
 SDS-62,180,0,48,4,4,,,n.a. (pressure varies),,0,0,0,192/192
@@ -131,6 +133,7 @@ SDS-62,236,0,6,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,13/13
 SDS-62,236,1,12,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,29/30
 SDS-62,237,0,20,3,2,10^3c_1/mol  \dotL^-1  ^c,,n.a. (fewer than 4 temperatures),,0,0,0,56/56
 SDS-62,238,0,7,5,4,I/mol  L^-1  ^b,,n.a. (fewer than 4 temperatures),,0,0,0,32/32
+SDS-62,240,0,20,5,5,,,6 direction changes,,0,0,0,93/93
 SDS-62,241,0,30,5,5,,,10 direction changes,,0,0,0,138/138
 SDS-62,243,0,25,5,5,,,n.a. (fewer than 4 temperatures),,0,0,0,111/113
 SDS-62,244,0,20,5,5,,,6 direction changes,,0,0,0,93/93
@@ -197,6 +200,9 @@ SDS-62,321,0,24,5,5,,,6 direction changes,,0,0,0,96/96
 SDS-62,322,0,36,5,5,,,10 direction changes,,0,0,0,144/144
 SDS-62,323,0,34,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,80/80
 SDS-62,324,0,8,7,7,,,n.a. (pressure varies),,0,0,0,54/54
+SDS-62,325,0,21,5,5,,,n.a. (fewer than 4 temperatures),,0,0,0,90/90
+SDS-62,327,0,20,5,5,,,6 direction changes,,0,0,0,84/84
+SDS-62,328,0,27,5,5,,,10 direction changes,,0,0,0,111/112
 SDS-62,329,0,32,7,6,(c_1/p_1)^c,,n.a. (pressure varies),,0,0,0,224/224
 SDS-62,330,0,12,7,6,102γ2/g cm-3a,,n.a. (pressure varies),,0,0,0,84/84
 SDS-62,332,0,4,4,4,,,n.a. (fewer than 4 temperatures),,1,0,0,17/17
@@ -226,11 +232,13 @@ SDS-62,363,0,25,5,5,,,8 direction changes,,0,0,0,105/105
 SDS-62,364,0,13,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,37/37
 SDS-62,365,0,27,4,3,(c_2+c_3) /mol  dm^-3,,n.a. (fewer than 4 temperatures),,0,0,0,104/107
 SDS-62,366,0,8,5,4,(c_2+c_3+c_4) /mol  dm^-3,,n.a. (fewer than 4 temperatures),,0,0,0,25/26
+SDS-62,367,0,20,5,5,,,8 direction changes,,0,0,0,84/85
 SDS-62,368,0,19,5,5,,,8 direction changes,,0,0,0,77/81
 SDS-62,370,0,14,5,2,α  ^c (T = 288 K); α  ^c (T = 298 K); α  ^c (T = 308 K),,n.a. (fewer than 4 temperatures),,0,0,0,59/59
 SDS-62,374,1,2,4,3,"k_\textscc/dm^3 mol^-1 c,d",,n.a. (fewer than 4 temperatures),,0,0,0,6/6
 SDS-62,375,0,10,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,28/28
 SDS-62,375,1,6,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,15/16
+SDS-62,376,0,16,5,4,,,6 direction changes,,0,0,0,53/53
 SDS-62,377,0,35,7,2,; ; Ammonium chloride;; NH_4Cl ; [12125-02-9]; ,,n.a.,,0,0,0,270/273
 SDS-62,379,0,40,7,3,d_15^15 b; ; ; Calcium chloride; CaCl2; [10043-52-4],,8 direction changes,,0,0,0,309/309
 SDS-62,384,0,3,5,5,,,n.a. (pressure varies),,0,0,0,15/15

@@ -5,17 +5,24 @@ SDS-59,34,0,17,4,4,,,3 direction changes,,0,0,0,47/51
 SDS-59,36,0,14,4,4,,,7 direction changes,,0,0,0,40/42
 SDS-59,37,0,12,4,4,,,8 direction changes,,0,0,0,36/36
 SDS-59,38,0,15,4,4,,,3 direction changes,,0,0,0,45/45
+SDS-59,39,0,12,4,4,,,8 direction changes,,0,0,0,34/36
 SDS-59,40,0,14,4,4,,,11 direction changes,,0,0,0,40/42
+SDS-59,41,0,15,4,4,,,3 direction changes,,0,0,0,43/45
+SDS-59,42,0,12,4,4,,,8 direction changes,,0,0,0,36/36
+SDS-59,43,0,12,4,4,,,7 direction changes,,0,0,0,34/36
 SDS-59,44,0,14,4,4,,,1 direction changes,,0,0,0,40/42
 SDS-59,45,1,8,3,3,,,monotonic,,0,0,0,15/15
 SDS-59,51,0,17,4,4,,,11 direction changes,,0,0,0,47/51
 SDS-59,52,0,9,4,4,,,3 direction changes,,0,0,0,26/27
 SDS-59,53,0,13,4,4,,,9 direction changes,,0,0,0,37/39
 SDS-59,54,0,16,4,4,,,10 direction changes,,0,0,0,48/48
+SDS-59,55,0,15,4,4,,,8 direction changes,,0,0,0,43/45
 SDS-59,56,0,15,4,4,,,11 direction changes,,0,0,0,43/45
 SDS-59,57,0,12,4,4,,,7 direction changes,,0,0,0,32/36
 SDS-59,58,0,14,4,4,,,7 direction changes,,0,0,0,39/42
+SDS-59,59,0,12,4,4,,,5 direction changes,,0,0,0,36/36
 SDS-59,60,0,11,4,4,,,8 direction changes,,0,0,0,31/33
+SDS-59,61,0,12,4,4,,,8 direction changes,,0,0,0,34/36
 SDS-59,64,0,8,3,3,,,monotonic,,0,0,0,23/24
 SDS-59,64,1,4,3,3,,,monotonic,,0,0,0,12/12
 SDS-59,65,1,10,3,3,,,monotonic,,0,0,0,27/27
@@ -30,6 +37,7 @@ SDS-59,74,0,13,4,4,,,7 direction changes,,0,0,0,39/39
 SDS-59,75,0,16,4,4,,,1 direction changes,,0,0,0,46/48
 SDS-59,76,0,15,4,4,,,9 direction changes,,0,0,0,43/45
 SDS-59,77,0,14,4,4,,,11 direction changes,,0,0,0,40/42
+SDS-59,78,0,12,4,4,,,8 direction changes,,0,0,0,34/36
 SDS-59,79,0,12,4,4,,,1 direction changes,,0,0,0,34/36
 SDS-59,80,0,8,3,3,,,monotonic,,0,0,0,15/15
 SDS-59,80,1,8,3,3,,,monotonic,,0,0,0,14/15
@@ -44,9 +52,11 @@ SDS-59,85,0,16,4,4,,,12 direction changes,,0,0,0,46/48
 SDS-59,86,0,19,4,4,,,9 direction changes,,0,0,0,50/57
 SDS-59,87,0,17,4,4,,,7 direction changes,,0,0,0,45/51
 SDS-59,88,0,20,4,4,,,9 direction changes,,0,0,0,53/60
+SDS-59,89,0,15,4,4,,,9 direction changes,,0,0,0,45/45
 SDS-59,90,0,12,4,4,,,5 direction changes,,0,0,0,34/36
 SDS-59,91,0,20,4,4,,,8 direction changes,,0,0,0,60/60
 SDS-59,93,0,17,4,4,,,10 direction changes,,0,0,0,49/51
+SDS-59,97,0,14,4,4,,,9 direction changes,,0,0,0,40/42
 SDS-59,98,0,14,4,4,,,8 direction changes,,0,0,0,40/42
 SDS-59,101,0,13,4,4,,,9 direction changes,,0,0,0,39/39
 SDS-59,102,0,14,4,4,,,3 direction changes,,0,0,0,42/42
@@ -54,6 +64,7 @@ SDS-59,103,0,13,4,4,,,5 direction changes,,0,0,0,39/39
 SDS-59,105,0,11,4,4,,,8 direction changes,,0,0,0,33/33
 SDS-59,106,0,11,4,4,,,8 direction changes,,0,0,0,33/33
 SDS-59,116,1,4,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,9/9
+SDS-59,119,1,4,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,8/9
 SDS-59,121,1,8,3,3,,,monotonic,,0,0,0,24/24
 SDS-59,122,0,6,3,3,,,monotonic,,0,0,0,18/18
 SDS-59,122,1,10,3,3,,,monotonic,,0,0,0,27/27
@@ -75,10 +86,13 @@ SDS-59,144,0,15,4,4,,,3 direction changes,,0,0,0,42/45
 SDS-59,145,0,22,4,4,,,14 direction changes,,0,0,0,64/66
 SDS-59,146,0,14,4,4,,,7 direction changes,,0,0,0,39/42
 SDS-59,147,0,8,3,3,,,monotonic,,0,0,0,15/15
+SDS-59,148,0,17,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,65/68
+SDS-59,149,0,12,4,4,,,8 direction changes,,0,0,0,34/36
 SDS-59,150,0,13,4,4,,,7 direction changes,,0,0,0,37/39
 SDS-59,151,0,14,4,4,,,1 direction changes,,0,0,0,40/42
 SDS-59,152,1,12,3,3,,,7 direction changes,,0,0,0,34/36
 SDS-59,153,0,10,3,3,,,outlier,5,0,0,0,29/30
+SDS-59,154,1,8,3,3,,,monotonic,,0,0,0,18/18
 SDS-59,155,0,8,3,3,,,monotonic,,0,0,0,18/18
 SDS-59,155,1,8,3,3,,,monotonic,,0,0,0,18/18
 SDS-59,156,0,1,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,3/3
@@ -95,14 +109,17 @@ SDS-59,167,1,8,3,3,,,monotonic,,0,0,0,21/21
 SDS-59,168,1,8,3,3,,,monotonic,,0,0,0,19/21
 SDS-59,169,1,3,7,6,,,n.a. (fewer than 4 temperatures),,0,0,0,18/18
 SDS-59,170,1,8,3,3,,,monotonic,,0,0,0,19/21
+SDS-59,171,0,18,4,4,,,9 direction changes,,0,0,0,52/54
 SDS-59,172,0,4,3,3,,,monotonic,,0,0,0,12/12
 SDS-59,174,0,15,3,3,,,monotonic,,0,0,0,45/45
 SDS-59,175,0,6,3,3,,,monotonic,,0,0,0,12/12
+SDS-59,177,1,6,3,3,,,monotonic,,0,0,0,15/15
 SDS-59,179,0,8,3,3,,,monotonic,,0,0,0,21/21
 SDS-59,179,1,8,3,3,,,monotonic,,0,0,0,24/24
 SDS-59,180,1,10,3,3,,,monotonic,,0,0,0,30/30
 SDS-59,182,1,6,3,3,,,monotonic,,0,0,0,15/15
 SDS-59,183,0,11,3,3,,,monotonic,,0,0,0,32/33
+SDS-59,185,0,12,3,3,,,monotonic,,0,0,0,35/36
 SDS-59,186,0,13,3,3,,,monotonic,,0,0,0,39/39
 SDS-59,187,0,6,3,3,,,monotonic,,0,0,0,12/12
 SDS-59,188,0,8,3,3,,,monotonic,,0,0,0,24/24
@@ -115,6 +132,7 @@ SDS-59,193,0,6,3,3,,,monotonic,,0,0,0,15/15
 SDS-59,193,1,12,3,3,,,monotonic,,0,0,0,35/36
 SDS-59,194,0,17,3,3,,,2 direction changes,,0,0,0,49/51
 SDS-59,196,0,9,3,3,,,monotonic,,0,0,0,26/27
+SDS-59,197,0,12,3,3,,,monotonic,,0,0,0,36/36
 SDS-59,198,1,1,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,2/3
 SDS-59,199,0,8,3,3,,,monotonic,,0,0,0,20/21
 SDS-59,199,1,8,3,3,,,monotonic,,0,0,0,19/21
@@ -129,6 +147,7 @@ SDS-59,208,0,15,4,4,,,monotonic,,0,0,0,42/45
 SDS-59,209,0,13,4,4,,,outlier,11,0,0,0,37/39
 SDS-59,210,0,12,4,4,,,4 direction changes,,0,0,0,34/36
 SDS-59,211,0,14,4,4,,,7 direction changes,,0,0,0,40/42
+SDS-59,212,0,20,4,4,,,12 direction changes,,0,0,0,55/60
 SDS-59,214,0,23,4,4,,,9 direction changes,,0,0,0,67/69
 SDS-59,215,0,19,4,4,,,11 direction changes,,0,0,0,55/57
 SDS-59,216,0,15,4,4,,,2 direction changes,,0,0,0,42/45
@@ -157,6 +176,7 @@ SDS-59,245,0,10,3,3,,,monotonic,,0,0,0,30/30
 SDS-59,246,0,8,3,3,,,monotonic,,0,0,0,15/15
 SDS-59,248,0,11,4,4,,,7 direction changes,,0,0,0,31/33
 SDS-59,249,0,8,3,3,,,monotonic,,0,0,0,15/15
+SDS-59,251,1,6,3,3,,,monotonic,,0,0,0,15/15
 SDS-59,252,1,10,3,3,,,monotonic,,0,0,0,30/30
 SDS-59,253,0,8,3,3,,,monotonic,,0,0,0,21/21
 SDS-59,253,1,3,3,2,t/K,,n.a. (fewer than 4 temperatures),,0,0,0,9/9
@@ -166,6 +186,8 @@ SDS-59,256,0,50,3,3,,,17 direction changes,,21,21,0,86/87
 SDS-59,257,0,26,4,4,,,3 direction changes,,0,0,0,77/78
 SDS-59,258,0,17,4,4,,,11 direction changes,,0,0,0,47/51
 SDS-59,259,0,20,4,3,Phases,,9 direction changes,,0,0,0,58/60
+SDS-59,260,0,50,3,3,,,14 direction changes,,18,18,0,96/96
+SDS-59,261,0,25,4,4,,,10 direction changes,,0,0,0,70/75
 SDS-59,262,0,21,4,4,,,7 direction changes,,0,0,0,61/63
 SDS-59,264,0,24,4,4,,,15 direction changes,,0,0,0,66/72
 SDS-59,266,0,21,4,4,,,5 direction changes,,0,0,0,63/63
@@ -179,23 +201,32 @@ SDS-59,281,0,10,3,3,,,1 direction changes,,0,0,0,30/30
 SDS-59,281,1,10,3,3,,,1 direction changes,,0,0,0,30/30
 SDS-59,282,0,8,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,30/32
 SDS-59,283,0,10,3,3,,,1 direction changes,,0,0,0,25/27
+SDS-59,285,0,11,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,42/44
 SDS-59,286,0,10,3,3,,,1 direction changes,,0,0,0,26/30
 SDS-59,286,1,10,3,3,,,5 direction changes,,0,0,0,24/27
 SDS-59,287,0,12,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,46/48
 SDS-59,292,0,8,3,3,,,monotonic,,0,0,0,21/24
 SDS-59,293,0,4,3,3,,,monotonic,,0,0,0,12/12
 SDS-59,296,1,8,3,3,,,monotonic,,0,0,0,15/15
+SDS-59,300,0,14,4,4,,,3 direction changes,,0,0,0,37/42
 SDS-59,304,1,4,3,3,,,monotonic,,0,0,0,12/12
 SDS-59,318,0,22,3,3,,,12 direction changes,,0,0,0,64/66
+SDS-59,319,0,22,3,3,,,11 direction changes,,0,0,0,66/66
 SDS-59,320,0,13,4,4,,,7 direction changes,,0,0,0,37/39
+SDS-59,321,0,13,4,4,,,6 direction changes,,0,0,0,37/39
 SDS-59,322,0,15,4,4,,,4 direction changes,,0,0,0,43/45
 SDS-59,324,0,15,4,4,,,10 direction changes,,0,0,0,42/45
 SDS-59,325,0,13,4,4,,,outlier,8,0,0,0,37/39
 SDS-59,326,0,14,4,4,,,7 direction changes,,0,0,0,40/42
+SDS-59,329,0,11,4,4,,,6 direction changes,,0,0,0,31/33
+SDS-59,332,0,9,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,27/27
+SDS-59,333,0,9,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,27/27
 SDS-59,334,0,9,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,25/27
 SDS-59,336,0,9,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,27/27
+SDS-59,338,0,9,3,3,,,n.a. (fewer than 4 temperatures),,0,0,0,25/27
 SDS-59,347,0,21,4,4,,,5 direction changes,,0,0,0,63/63
 SDS-59,348,0,11,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,42/44
+SDS-59,349,1,10,3,3,,,6 direction changes,,0,0,0,27/27
 SDS-59,351,1,8,3,3,,,monotonic,,0,0,0,18/18
 SDS-59,352,1,8,3,3,,,monotonic,,0,0,0,18/18
 SDS-59,353,0,8,3,3,,,monotonic,,0,0,0,18/18

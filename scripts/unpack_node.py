@@ -37,9 +37,10 @@ def main() -> None:
             sys.exit('--crops needs --raw <node folder of this crop run>')
         raw, crops_dir = a.raw, out / a.crops
         crops_dir.mkdir(exist_ok=True)
-        for src, dst in ((f'{vol}.crops.log', 'run.log'), ('handback.md', 'handback.md'), (f'{vol}.manifest.csv', 'manifest.csv'), ('manifest.csv', 'manifest.csv')):
-            if (raw / src).exists():
-                shutil.copy(raw / src, crops_dir / dst)
+        for pattern, dst in (('*.crops.log', 'run.log'), ('handback.md', 'handback.md'), ('*manifest.csv', 'manifest.csv')):
+            src = next(iter(sorted(raw.glob(pattern))), None)         # the node names them <folder>.manifest.csv, <folder>.crops.log
+            if src:
+                shutil.copy(src, crops_dir / dst)
     else:
         raw = out / 'raw'
         if not raw.exists():
