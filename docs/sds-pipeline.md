@@ -345,3 +345,44 @@ whose cells are text, ragged tables and the 724 sheets whose values are given in
 extraction row without a NIST id is not necessarily wrong, and the row-id share is a lower bound
 on what the crop pass reproduces. The extraction entries come from the declared crop pass per
 volume (v1 or v2, as in the eight-volume table), so the pairs are stable across re-exports.
+
+## Scored against the ground truth
+
+`scripts/eval/compare_entries.py` scores the pairs with FAIRmat's `json-extract-eval`, the
+evaluator the DISSOLVE repository names for its gold: every pair is flattened to temperature,
+pressure and the numeric `Amount` fields of each component (aligned by CAS number), numbers count
+as a match within 0.5 % relative, and the library reports precision (of what we wrote, how much is
+right), recall (of what NIST has, how much we got) and F1, overall and per field, with match,
+mismatch, omission and hallucination counts. Results per volume in `data/ground_truth/eval/`.
+
+| volume | crop pass | pairs | ground-truth rows unclaimed | precision | recall | F1 |
+|---:|:---:|---:|---:|---:|---:|---:|
+| 20 | v1 | 173 | 394 | 0.907 | 0.811 | 0.852 |
+| 37 | v1 | 847 | 1 392 | 0.960 | 0.951 | 0.951 |
+| 38 | v2 | 697 | 276 | 0.971 | 0.905 | 0.931 |
+| 57 | v1 | 732 | 1 669 | 0.824 | 0.682 | 0.735 |
+| 58 | v1 | 610 | 1 097 | 0.978 | 0.978 | 0.978 |
+| 59 | v2 | 2 505 | 697 | 0.981 | 0.982 | 0.981 |
+| 60 | v1 | 636 | 188 | 0.890 | 0.863 | 0.874 |
+| 62 | v2 | 2 830 | 3 174 | 0.918 | 0.867 | 0.889 |
+| all | | 9 030 | 8 887 | 0.938 | 0.901 | 0.915 |
+
+Two numbers describe the result. The pair count against the unclaimed rows is coverage: how many
+of NIST's rows our entries reproduce (the row measure of the eight-volume table, seen from the
+other side); the scores are fidelity on the paired rows. Over the eight volumes, 9 030 pairs score
+F1 0.915: temperatures match in 99 % of pairs, CAS numbers always, the mole fractions in 84 to
+90 %. The per-field counts in `all/per_field.csv` say where the rest goes: 1 010 pressure
+omissions, where the crawl takes the pressure from the sheet's Variables or caption and our
+exporter only from a column or a single-valued VARIABLES box; 718 mole-fraction mismatches on the
+first component, which include the misread prefactors the row checker flags and the rows where
+the two sides assign the fraction to different components; 102 gas-phase fractions the crawl
+holds as `gas_mole_fraction` while our exporter put them on the liquid component.
+
+One systematic difference sits on the ground-truth side. The crawl resolves header subscripts
+(x_1) by the order of names in the system name; on the water-in-solvent sheets of volume 60 the
+print numbers water as (1), NIST's own component list agrees, and the crawl's rule assigns the
+value to the organic component. Our entries follow the print, so those pairs score as a
+hallucination on one component and an omission on the other. Taking NIST's component order
+instead, everywhere or gated on the SOURCE AND PURITY text, scored worse on the other volumes
+(F1 0.709 and 0.885 overall), so the crawl's rule stays and the caveat is recorded here; a
+per-sheet decision needs the caption, which these sheets lack.

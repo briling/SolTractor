@@ -1,0 +1,12 @@
+field,matches,mismatches,omissions,hallucinations,precision,recall,f1
+components[0].cas,2502,0,3,0,1.0,0.9988023952095808,0.9994008388256441
+components[0].mole_fraction,2277,96,5,0,0.9595448798988622,0.9575273338940286,0.9585350452536309
+components[1].cas,2493,0,12,0,1.0,0.9952095808383233,0.9975990396158464
+components[1].mole_fraction,2395,96,12,0,0.9614612605379366,0.9568517778665602,0.9591509811774129
+temperature,2410,3,3,0,0.998756734355574,0.9975165562913907,0.9981362600952578
+components[-1].cas,0,0,0,23,0.0,1.0,0.0
+components[-1].mole_fraction,0,0,0,23,0.0,1.0,0.0
+components[2].cas,129,0,0,0,1.0,1.0,1.0
+components[2].mole_fraction,127,0,0,0,1.0,1.0,1.0
+components[2].molar_concentration,2,0,0,0,1.0,1.0,1.0
+pressure,28,0,0,0,1.0,1.0,1.0

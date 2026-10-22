@@ -1,0 +1,157 @@
+{
+ "pairs": 847,
+ "gold_rows": 2239,
+ "gold_rows_unclaimed": 1392,
+ "extraction_entries_without_id": 272,
+ "extraction_entries_duplicate_id": 2,
+ "tolerance_rel": 0.005,
+ "precision": 0.9598189689098781,
+ "recall": 0.9510232192050374,
+ "f1": 0.9510289068140307,
+ "per_field": {
+  "components[0].cas": {
+   "matches": 843,
+   "mismatches": 0,
+   "omissions": 4,
+   "hallucinations": 0,
+   "precision": 1.0,
+   "recall": 0.9952774498229043,
+   "f1": 0.9976331360946745
+  },
+  "components[0].mass_fraction": {
+   "matches": 388,
+   "mismatches": 10,
+   "omissions": 45,
+   "hallucinations": 8,
+   "precision": 0.9556650246305419,
+   "recall": 0.8758465011286681,
+   "f1": 0.9140164899882215
+  },
+  "components[0].mole_fraction": {
+   "matches": 426,
+   "mismatches": 7,
+   "omissions": 22,
+   "hallucinations": 0,
+   "precision": 0.9838337182448037,
+   "recall": 0.9362637362637363,
+   "f1": 0.9594594594594595
+  },
+  "components[1].cas": {
+   "matches": 847,
+   "mismatches": 0,
+   "omissions": 0,
+   "hallucinations": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0
+  },
+  "components[1].mass_fraction": {
+   "matches": 352,
+   "mismatches": 11,
+   "omissions": 31,
+   "hallucinations": 0,
+   "precision": 0.9696969696969697,
+   "recall": 0.8934010152284264,
+   "f1": 0.92998678996037
+  },
+  "components[1].mole_fraction": {
+   "matches": 380,
+   "mismatches": 0,
+   "omissions": 8,
+   "hallucinations": 1,
+   "precision": 0.9973753280839895,
+   "recall": 0.979381443298969,
+   "f1": 0.988296488946684
+  },
+  "pressure": {
+   "matches": 238,
+   "mismatches": 0,
+   "omissions": 49,
+   "hallucinations": 0,
+   "precision": 1.0,
+   "recall": 0.8292682926829268,
+   "f1": 0.9066666666666667
+  },
+  "temperature": {
+   "matches": 823,
+   "mismatches": 9,
+   "omissions": 10,
+   "hallucinations": 0,
+   "precision": 0.9891826923076923,
+   "recall": 0.9774346793349169,
+   "f1": 0.983273596176822
+  },
+  "components[1].solute_solvent_mass_ratio": {
+   "matches": 0,
+   "mismatches": 0,
+   "omissions": 0,
+   "hallucinations": 63,
+   "precision": 0.0,
+   "recall": 1.0,
+   "f1": 0.0
+  },
+  "components[0].molar_concentration": {
+   "matches": 0,
+   "mismatches": 0,
+   "omissions": 24,
+   "hallucinations": 0,
+   "precision": 1.0,
+   "recall": 0.0,
+   "f1": 0.0
+  },
+  "components[0].solute_solvent_mass_ratio": {
+   "matches": 0,
+   "mismatches": 0,
+   "omissions": 0,
+   "hallucinations": 80,
+   "precision": 0.0,
+   "recall": 1.0,
+   "f1": 0.0
+  },
+  "components[0].mass_concentration": {
+   "matches": 4,
+   "mismatches": 0,
+   "omissions": 0,
+   "hallucinations": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0
+  },
+  "components[-1].cas": {
+   "matches": 0,
+   "mismatches": 0,
+   "omissions": 0,
+   "hallucinations": 4,
+   "precision": 0.0,
+   "recall": 1.0,
+   "f1": 0.0
+  },
+  "components[1].molar_concentration": {
+   "matches": 0,
+   "mismatches": 0,
+   "omissions": 13,
+   "hallucinations": 0,
+   "precision": 1.0,
+   "recall": 0.0,
+   "f1": 0.0
+  },
+  "components[2].cas": {
+   "matches": 1,
+   "mismatches": 0,
+   "omissions": 0,
+   "hallucinations": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0
+  },
+  "components[0].molality": {
+   "matches": 0,
+   "mismatches": 0,
+   "omissions": 2,
+   "hallucinations": 0,
+   "precision": 1.0,
+   "recall": 0.0,
+   "f1": 0.0
+  }
+ }
+}
