@@ -1,0 +1,59 @@
+{
+  "data": {
+    "name": "Benzo[e]pyrene with Sodium chloride and Water",
+    "lab_id": "SDS-38/p439/0/r00",
+    "temperature": 282.05,
+    "measurement_methods": [
+      "fluorescence and UV absorption measurements",
+      "fluorescent intensity was measured at 410 and 265 nm",
+      "ratio-photon counting mode"
+    ],
+    "mixing_methods": [
+      "saturated solution was prepared by adding excess amount of benzo{e}pyrene to an air-tight 1 × 1 cm quartz fluorescence cell containing 5 mL salt solution",
+      "The cell was rotated at 20 rpm for at least 72 hr in a thermostated water bath"
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "Benzo[e]pyrene",
+            "substance": {
+              "name": "Benzo[e]pyrene",
+              "molecular_formula": "C20H12",
+              "cas_number": "192-97-2"
+            },
+            "amount": {
+              "molar_concentration": 8.200000000000001e-06,
+              "units": "mol/m^3",
+              "source_header": "10^8 * n_1/V_2 [mol/L]"
+            }
+          },
+          {
+            "name": "Sodium chloride",
+            "substance": {
+              "name": "Sodium chloride",
+              "molecular_formula": "NaCl",
+              "cas_number": "7647-14-5"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Schwarz, F.P., J. Chem. Eng. Data. 1977, 22, 273-7.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

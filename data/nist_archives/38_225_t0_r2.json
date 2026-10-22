@@ -1,0 +1,43 @@
+{
+  "data": {
+    "name": "Butylbenzene with Water",
+    "lab_id": "SDS-38/p225/0/r02",
+    "temperature": 308.15,
+    "measurement_methods": [
+      "In a thermostatted glass-stoppered flask 10-25 mL (1) was shaken for min 4 hrs. with titrated water (a few mL of HTO equivalent to ca. 2 mc/mL), decanted, a 5-mL aliquot reshaken for 4 hrs. with 5 mL H_2O in a 10 mL flask, sampled and assayed with a Nuclear Enterprises type 8301 liquid scintillation counter. The two-stage process eliminates quenching effect (due to solvent) on the scintillator."
+    ],
+    "mixing_methods": [
+      "In a thermostatted glass-stoppered flask 10-25 mL (1) was shaken for min 4 hrs. with titrated water (a few mL of HTO equivalent to ca. 2 mc/mL), decanted, a 5-mL aliquot reshaken for 4 hrs. with 5 mL H_2O in a 10 mL flask"
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          },
+          {
+            "name": "Butylbenzene",
+            "substance": {
+              "name": "Butylbenzene",
+              "molecular_formula": "C10H14",
+              "cas_number": "104-51-8"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Jones, J.R.; Monk, C.B., J. Chem. Soc. 1963, 2633-5.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "data": {
+    "name": "Benzo[a]pyrene with Water",
+    "lab_id": "SDS-38/p433/0/r03",
+    "temperature": 300.15,
+    "measurement_methods": [
+      "The method consisted of preparing serial dilutions of a suspension of (1) in (2) and determining nephelometrically the amount of (1) per unit volume beyond which further dilution caused no reduction in light scattering, which remained equal to that of pure (2). A Bausch and Lomb Dubosque colorimeter model 100-mm was employed. Many details are reported in ref. 1."
+    ],
+    "mixing_methods": [],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "Benzo[a]pyrene",
+            "substance": {
+              "name": "Benzo[a]pyrene",
+              "molecular_formula": "C20H12",
+              "cas_number": "50-32-8"
+            },
+            "amount": {
+              "mass_concentration": 4e-06,
+              "units": "kg/m^3",
+              "source_header": "10^6 * g_1/V_2 [g/L]"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Davis, W.W.; Krahl, M.E.; Cloves, G.H.A., J. Am. Chem. Soc. 1942, 64, 108-10.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

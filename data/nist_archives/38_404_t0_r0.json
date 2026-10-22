@@ -1,0 +1,41 @@
+{
+  "data": {
+    "name": "Benz[a]anthracene with Water",
+    "lab_id": "SDS-38/p404/0/r00",
+    "temperature": 298.15,
+    "measurement_methods": [
+      "The dynamic coupled column liquid chromatography (DCCLC) method was based on generating saturated solutions by pumping water through a column packed with glass beads that have been coated with the component (1) (generator column). The concentration of (1) in the effluent of the generator column was measured by a modification of the coupled column liquid chromatographic process that has been described in ref 1."
+    ],
+    "mixing_methods": [],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "Benz[a]anthracene",
+            "substance": {
+              "name": "Benz[a]anthracene",
+              "molecular_formula": "C18H12",
+              "cas_number": "56-55-3"
+            },
+            "amount": {
+              "mass_fraction": 9.4e-09,
+              "units": "1",
+              "source_header": "10^3 * g_1/kg"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": []
+  }
+}

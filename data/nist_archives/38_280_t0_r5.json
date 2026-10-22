@@ -1,0 +1,48 @@
+{
+  "data": {
+    "name": "Biphenyl with Water",
+    "lab_id": "SDS-38/p280/0/r05",
+    "temperature": 285.75,
+    "measurement_methods": [
+      "Weighed portions of the samples were inserted into a quartz cuvette and measured in a Beckman DU spectrophotometer. Absorbances were corrected for absorption of (1) onto the walls of the cuvette."
+    ],
+    "mixing_methods": [
+      "A round-bottomed flask containing about 4 mL of (1) and 400 mL of (2) was evacuated, suspended in a thermostat, shaken for 24h and then allowed to settle for at least another 24h."
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "Biphenyl",
+            "substance": {
+              "name": "Biphenyl",
+              "molecular_formula": "C12H10",
+              "cas_number": "92-52-4"
+            },
+            "amount": {
+              "mass_fraction": 4.58e-06,
+              "units": "1",
+              "source_header": "10^4 * g_1/100 g solution (compiler)"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Bohon, R.L.; Claussen, W.F., J. Am. Chem. Soc. 1951, 73, 1571-8.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

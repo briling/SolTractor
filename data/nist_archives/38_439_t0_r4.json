@@ -1,0 +1,61 @@
+{
+  "data": {
+    "name": "Benzo[e]pyrene with Sodium chloride and Water",
+    "lab_id": "SDS-38/p439/0/r04",
+    "temperature": 292.35,
+    "measurement_methods": [
+      "The solubility of benzo{e}pyrene in NaCl solution was determined by fluorescence and UV absorption measurements.",
+      "In the fluorescence method, saturated solution was prepared by adding excess amount of benzo{e}pyrene to an air-tight 1 × 1 cm quartz fluorescence cell containing 5 mL salt solution.",
+      "The cell was rotated at 20 rpm for at least 72 hr in a thermostated water bath and then its fluorescent intensity was measured at 410 and 265 nm.",
+      "The Spectrofluorimeter employed a ratio-photon counting mode where benzo[e]pyrene concentration was linearly related to the fluorescence signal.",
+      "The UV method was used to obtain the absorptivity of benzo[e]pyrene in cyclohexane therefore provide an absolute solubility scale for the fluorescence method."
+    ],
+    "mixing_methods": [
+      "saturated solution was prepared by adding excess amount of benzo{e}pyrene to an air-tight 1 × 1 cm quartz fluorescence cell containing 5 mL salt solution",
+      "The cell was rotated at 20 rpm for at least 72 hr in a thermostated water bath"
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "Benzo[e]pyrene",
+            "substance": {
+              "name": "Benzo[e]pyrene",
+              "molecular_formula": "C20H12",
+              "cas_number": "192-97-2"
+            },
+            "amount": {
+              "molar_concentration": 1.04e-05,
+              "units": "mol/m^3",
+              "source_header": "10^8 * n_1/V_2 [mol/L]"
+            }
+          },
+          {
+            "name": "Sodium chloride",
+            "substance": {
+              "name": "Sodium chloride",
+              "molecular_formula": "NaCl",
+              "cas_number": "7647-14-5"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Schwarz, F.P., J. Chem. Eng. Data. 1977, 22, 273-7.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

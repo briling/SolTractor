@@ -1,0 +1,50 @@
+{
+  "data": {
+    "name": "Biphenyl with Water",
+    "lab_id": "SDS-38/p281/0/r04",
+    "temperature": 303.45,
+    "measurement_methods": [
+      "Samples of the replicate were extracted with cyclohexane.",
+      "Standard solutions were prepared either by direct weighing using a Cahn electrobalance, or by weighing 0.1-0.2 g of samples followed by serial dilution in calibrated glassware."
+    ],
+    "mixing_methods": [
+      "Approximately 20 g of (1) was placed in each of three 250-mL glass-stoppered flasks with (2).",
+      "The flasks were suspended in an open water bath and shaken gently from one to three weeks between measurements."
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "Biphenyl",
+            "substance": {
+              "name": "Biphenyl",
+              "molecular_formula": "C12H10",
+              "cas_number": "92-52-4"
+            },
+            "amount": {
+              "mass_fraction": 8.88e-06,
+              "units": "1",
+              "source_header": "10^4 * g_1/100 g solution (compiler)"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Wauchope, R.D.; Getzen, F.W., J. Chem. Eng. Data 1972, 17(1), 38-41.",
+        "publication_authors": []
+      }
+    ]
+  }
+}

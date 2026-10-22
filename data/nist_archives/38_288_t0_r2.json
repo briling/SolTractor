@@ -1,0 +1,62 @@
+{
+  "data": {
+    "name": "Biphenyl with Sodium chloride and Water",
+    "lab_id": "SDS-38/p288/0/r02",
+    "temperature": 298.15,
+    "measurement_methods": [
+      "analyzed using a spectrophotometer in the ultra-violet region of the spectrum"
+    ],
+    "mixing_methods": [
+      "heated in a hot-water bath until the hydrocarbon was melted, then shaken vigorously while cooling until excess hydrocarbon had recrystallized",
+      "placed into a water bath thermostatically controlled at 25.00 ± 0.05°C for at least 48 hr, and shaken occasionally during that time"
+    ],
+    "phases": [
+      {
+        "name": "liquid solution",
+        "state_of_matter": "liquid",
+        "components": [
+          {
+            "name": "Biphenyl",
+            "substance": {
+              "name": "Biphenyl",
+              "molecular_formula": "C12H10",
+              "cas_number": "92-52-4"
+            },
+            "amount": {
+              "mass_fraction": 4.62e-06,
+              "units": "1",
+              "source_header": "10^4 * g_1/100 g solution"
+            }
+          },
+          {
+            "name": "Sodium chloride",
+            "substance": {
+              "name": "Sodium chloride",
+              "molecular_formula": "NaCl",
+              "cas_number": "7647-14-5"
+            },
+            "amount": {
+              "mass_fraction": 0.03905,
+              "units": "1",
+              "source_header": "g_2/kg"
+            }
+          },
+          {
+            "name": "Water",
+            "substance": {
+              "name": "Water",
+              "molecular_formula": "H2O",
+              "cas_number": "7732-18-5"
+            }
+          }
+        ]
+      }
+    ],
+    "publication_references": [
+      {
+        "citation": "Paul, M.A., J. Am. Chem. Soc. 1952, 74, 5274-7.",
+        "publication_authors": []
+      }
+    ]
+  }
+}
