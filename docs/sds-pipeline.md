@@ -113,21 +113,21 @@ but only 18 to 55 sheets of the other volumes.
 
 | volume | NIST sheets | text layer: aligned, recall | page pass: aligned, recall | crop pass: aligned, recall | rows in one line (crops) | entries |
 |-------:|------------:|----------------------------:|---------------------------:|---------------------------:|-------------------------:|--------:|
-| 20 | 94 | 90, 96.7 % | 83, 99.7 % | 83, 99.7 % | 120 / 185 | 237 |
+| 20 | 94 | 90, 96.7 % | 83, 99.7 % | 83, 99.7 % | 183 / 185 | 237 |
 | 37 | 23 | 18, 94.1 % | 19, 100 % | 19, 94.2 % | 81 / 94 | 1140 |
 | 38 | 18 | 10, 98.3 % | 9, 100 % | 9, 100 % | 36 / 36 | 886 |
 | 57 | 42 | 19, 81.2 % | 18, 83.4 % | 17, 83.0 % | 160 / 253 | 1595 |
 | 58 | 32 | 10, 98.0 % | 30, 98.7 % | 29, 99.9 % | 198 / 235 | 1023 |
 | 59 | 33 | 19, 87.2 % | 32, 99.5 % | 31, 99.6 % | 258 / 283 | 2423 |
 | 60 | 288 | 263, 97.2 % | 263, 95.1 % | 264, 95.7 % | 614 / 733 | 722 |
-| 62 | 55 | 21, 89.3 % | 21, 87.6 % | 21, 88.6 % | 337 / 688 | 4749 |
+| 62 | 55 | 21, 89.3 % | 21, 87.6 % | 21, 88.6 % | 422 / 688 | 4749 |
 
 The text layer aligns a third of the NIST sheets of volumes 58 and 59 where the page
 pass aligns nearly all of them: the segmenter loses the sheets, not the values. Volume 57
 (gas solubilities, two-block tables with pressure columns) and 62 (long multi-column
 tables, Bunsen and Ostwald coefficients) are the hard cases for the row structure.
 The rows column is `align_nist.py`'s second number, NIST table rows whose numeric tokens all occur in one
-line of the matched box; it moved from 54 to 160 (volume 57), 569 to 614 (60) and 78 to 337 (62) when
+line of the matched box; it moved from 54 to 160 (volume 57), 569 to 614 (60) and 90 to 422 (62) when
 `crops_to_boxes.py` started to honour rowspan cells (see the quality checks below).
 `scripts/to_nomad.py` turns the crop-pass boxes of each volume into one NOMAD upload
 (`nomad-SDS-N.zip` in the library's `nomad/` folder, 12 775 entries in all, every one
