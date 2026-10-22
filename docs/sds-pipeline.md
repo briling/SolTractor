@@ -248,3 +248,65 @@ The 400 dpi test on the pages with glued cells (two printed values in one cell, 
 returned byte-identical tables to 300 dpi for volume 38 and the same glued cells for volume 62:
 the gluing is MinerU's reading of those tables, not a resolution effect, and the arbiter is the
 place to resolve it from the text layer's lines.
+
+## The whole corpus through the page pass
+
+The node also ran the page pass over the 46 unmined volumes (hand-backs in the library,
+`mineru/SDS-N/SDS-N.zip`, page pass only). They are unpacked and converted under
+`data/mineru/SDS-N/`, of which only `handback.md` is in the repository: the converted
+`boxes-page.jsonl` and `run.log` sit in the library next to the raw page zips
+(`mineru/SDS-N/`), as the page JSON does, and are read from the ignored `data/mineru/SDS-N/`
+folder, which the clone links or copies from there. The text-layer count is
+`segment_boxes.py`; the page-pass count is `mineru_to_boxes.py` on the same volume. Totals over the 46 volumes: 17921 pages,
+15471 text-layer sheets, 15183 page-pass sheets of which 13416 compilation sheets.
+The crop pass has not run on these volumes; it waits for the band-finder fixes.
+
+| volume | pages | text-layer sheets | page-pass sheets | compilation |
+|-------:|------:|------------------:|-----------------:|------------:|
+| 1 | 411 | 364 | 371 | 339 |
+| 2 | 377 | 345 | 333 | 306 |
+| 3 | 265 | 227 | 216 | 180 |
+| 4 | 347 | 301 | 301 | 270 |
+| 7 | 533 | 451 | 461 | 414 |
+| 8 | 383 | 333 | 344 | 320 |
+| 9 | 281 | 241 | 234 | 221 |
+| 10 | 613 | 523 | 530 | 500 |
+| 11 | 370 | 335 | 280 | 214 |
+| 12 | 494 | 438 | 433 | 410 |
+| 13 | 514 | 440 | 433 | 375 |
+| 14 | 351 | 310 | 297 | 249 |
+| 15 | 456 | 419 | 404 | 353 |
+| 18 | 261 | 229 | 217 | 195 |
+| 21 | 360 | 321 | 315 | 294 |
+| 22 | 418 | 379 | 371 | 371 |
+| 23 | 379 | 323 | 300 | 245 |
+| 24 | 467 | 418 | 414 | 377 |
+| 25 | 461 | 423 | 398 | 319 |
+| 26 | 474 | 353 | 383 | 351 |
+| 29 | 267 | 215 | 227 | 168 |
+| 30 | 534 | 455 | 465 | 391 |
+| 31 | 368 | 322 | 297 | 267 |
+| 32 | 368 | 324 | 315 | 296 |
+| 33 | 380 | 321 | 276 | 243 |
+| 34 | 373 | 317 | 323 | 320 |
+| 35 | 371 | 313 | 314 | 310 |
+| 36 | 553 | 452 | 483 | 478 |
+| 40 | 363 | 299 | 283 | 279 |
+| 41 | 301 | 265 | 191 | 170 |
+| 42 | 494 | 397 | 417 | 378 |
+| 43 | 329 | 263 | 283 | 255 |
+| 44 | 265 | 280 | 285 | 261 |
+| 47 | 562 | 486 | 546 | 432 |
+| 48 | 371 | 345 | 335 | 246 |
+| 49 | 264 | 237 | 231 | 167 |
+| 50 | 500 | 447 | 407 | 386 |
+| 51 | 289 | 239 | 188 | 161 |
+| 52 | 388 | 336 | 297 | 268 |
+| 54 | 383 | 189 | 311 | 311 |
+| 55 | 381 | 333 | 323 | 267 |
+| 56 | 320 | 291 | 295 | 275 |
+| 61 | 286 | 193 | 140 | 140 |
+| 63 | 324 | 339 | 316 | 202 |
+| 64 | 360 | 366 | 351 | 278 |
+| 65 | 312 | 274 | 249 | 164 |
+
