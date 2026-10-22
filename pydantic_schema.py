@@ -1,7 +1,9 @@
 """Pydantic v2 models for the OSI Hackathon NOMAD schema.
 
-Numbers use NOMAD storage units; ``Amount.value`` uses the extracted
-``Amount.units``. Serialize with
+Numbers use the fixed NOMAD storage units declared in the JSON Schema and
+field metadata; dimensionless fractions are stored as ratios. Header prefactors
+and source units must be normalized before validation. No unit conversion or
+derivation of missing measures is performed by these models. Serialize with
 ``model_dump(mode="json", exclude_none=True)`` to omit unset scalar quantities
 and produce data compatible with ``json_schema.json``.
 """
@@ -182,19 +184,80 @@ class PublicationReference(ArchiveSection):
 
 
 class Amount(ArchiveSection):
-    """An extracted amount with its measure type, numeric value, and units."""
+    """Named solubility and composition quantities for one component, normalized to the declared storage units. For a header 10^n q, divide the tabulated value by 10^n before unit conversion. Several measures may coexist; omitted measures are not derived."""
 
-    type: str | None = Field(
+    mole_fraction: float | None = Field(
         default=None,
-        description="Kind of amount, such as molarity, molality, mass fraction, molar fraction, or partial pressure.",
+        description="Component amount divided by total amount in its phase: x in liquids, y in gases, or x(s) in solids; dimensionless.",
     )
-    value: float | None = Field(
+    mass_fraction: float | None = Field(
         default=None,
-        description="Numerical value of the extracted amount in the specified units.",
+        description="Component mass divided by solution mass; dimensionless. Divide printed 100 w or g per 100 g solution by 100, g/kg solution by 1000, and mg/kg solution by 1000000.",
     )
-    units: str | None = Field(
+    molality: float | None = Field(
         default=None,
-        description="Units associated with the value, such as mol/L, mol/kg, Pa, or dimensionless.",
+        description="Solute amount per unit mass of solvent, in mol/kg solvent.",
+        json_schema_extra={"unit": "mole / kilogram"},
+    )
+    molar_concentration: float | None = Field(
+        default=None,
+        description="Component amount per solution volume, in mol/m^3. Multiply mol/dm^3 or mol/L values by 1000 for storage.",
+        json_schema_extra={"unit": "mole / meter ** 3"},
+    )
+    mass_concentration: float | None = Field(
+        default=None,
+        description="Component mass per solution volume, in kg/m^3; g/dm^3 and g/L have the same numerical value. Mass-per-mass forms use mass_fraction or solute_solvent_mass_ratio according to the stated denominator.",
+        json_schema_extra={"unit": "kilogram / meter ** 3"},
+    )
+    solute_solvent_mass_ratio: float | None = Field(
+        default=None,
+        description="Solute mass divided by solvent mass; dimensionless. Divide g per 100 g solvent by 100, g/kg solvent by 1000, and mg/kg solvent by 1000000. The source must identify the solvent denominator.",
+    )
+    bunsen_coefficient: float | None = Field(
+        default=None,
+        description="Bunsen coefficient alpha: gas volume at the source's stated reference conditions (usually 273.15 K and 1 atm) divided by solvent volume at measurement conditions; dimensionless. Use bunsen_coefficient_per_pressure for a pressure-normalized result.",
+    )
+    bunsen_coefficient_per_pressure: float | None = Field(
+        default=None,
+        description="Bunsen reference-condition gas-volume/solvent-volume ratio divided by gas partial pressure, in Pa^-1. The source must specify the gas-volume reference conditions; convert inverse-atmosphere values to inverse pascals.",
+        json_schema_extra={"unit": "1 / pascal"},
+    )
+    ostwald_coefficient: float | None = Field(
+        default=None,
+        description="Ostwald coefficient L: gas volume at measurement temperature and pressure divided by solvent volume at measurement conditions; dimensionless. No value is derived from the Bunsen coefficient.",
+    )
+    kuenen_coefficient: float | None = Field(
+        default=None,
+        description="Kuenen coefficient S: gas volume at the source's stated reference conditions (usually 273.15 K and 1 atm) per solvent mass, in m^3/kg. Use kuenen_coefficient_per_pressure for a pressure-normalized result.",
+        json_schema_extra={"unit": "meter ** 3 / kilogram"},
+    )
+    kuenen_coefficient_per_pressure: float | None = Field(
+        default=None,
+        description="Kuenen reference-condition gas volume per solvent mass divided by gas partial pressure, in m^3/(kg Pa). The source must specify the gas-volume reference conditions; convert cm^3/(g atm) to the storage units.",
+        json_schema_extra={"unit": "meter ** 3 / (kilogram * pascal)"},
+    )
+    henry_constant_p_over_x: float | None = Field(
+        default=None,
+        description="Henry constant defined as gas partial pressure divided by liquid-phase mole fraction, p/x, in pascals. Select this convention from the source definition, not the symbol H alone.",
+        json_schema_extra={"unit": "pascal"},
+    )
+    henry_constant_p_over_c: float | None = Field(
+        default=None,
+        description="Henry constant defined as gas partial pressure divided by liquid-phase molar concentration, p/c, in Pa m^3/mol. Convert reported atm m^3/mol or dm^3 mmHg/mol to these storage units.",
+        json_schema_extra={"unit": "pascal * meter ** 3 / mole"},
+    )
+    henry_constant_c_gas_over_c_liquid: float | None = Field(
+        default=None,
+        description="Henry constant defined as gas-phase molar concentration divided by liquid-phase molar concentration using matching concentration units; dimensionless. Select this convention from the source definition, not the symbol H alone.",
+    )
+    partial_pressure: float | None = Field(
+        default=None,
+        description="Component partial pressure associated with the reported gas-solubility measurements, in pascals. No pressure is assumed when omitted.",
+        json_schema_extra={"unit": "pascal"},
+    )
+    estimated_error_solubility: str | None = Field(
+        default=None,
+        description="Reported estimated error in solubility, preserved as source text with its expression, units, symbols, and line breaks.",
     )
 
 
@@ -205,18 +268,27 @@ class PhaseComponent(ArchiveSection):
         default=None,
         description="Short descriptive name identifying this component within the phase.",
     )
+    density: float | None = Field(
+        default=None,
+        description="Mass density of this component at the stated measurement conditions, in kg/m^3.",
+        json_schema_extra={"unit": "kilogram / meter ** 3"},
+    )
+    source_purity: str | None = Field(
+        default=None,
+        description="Reported source, preparation, and purity of this material, preserved as text including units, symbols, percentages, and line breaks.",
+    )
     substance: PubChemPureSubstanceSection | None = Field(
         default=None,
         description="Chemical identity and PubChem details of the substance forming this component.",
     )
     amount: Amount | None = Field(
         default=None,
-        description="Extracted amount expressed by its type, value, and units.",
+        description="Reported solubility and composition quantities for this component, normalized to the declared storage units.",
     )
 
 
 class Phase(ArchiveSection):
-    """A phase, its extracted amount, substance, and components within a solution."""
+    """A phase, its physical properties, substance, and components within a solution."""
 
     name: str | None = Field(
         default=None,
@@ -226,9 +298,19 @@ class Phase(ArchiveSection):
         default=None,
         description="Physical state of the phase, such as solid, liquid, or gas.",
     )
-    amount: Amount | None = Field(
+    density: float | None = Field(
         default=None,
-        description="Extracted amount expressed by its type, value, and units.",
+        description="Bulk mass density of this phase at the stated measurement conditions, in kg/m^3.",
+        json_schema_extra={"unit": "kilogram / meter ** 3"},
+    )
+    salinity: float | None = Field(
+        default=None,
+        description="Mass of dissolved salts divided by solution mass in this phase; dimensionless. Divide reported g/kg solution by 1000 for storage.",
+        json_schema_extra={"unit": "dimensionless"},
+    )
+    ph: float | None = Field(
+        default=None,
+        description="pH of this phase at the stated measurement conditions; dimensionless.",
     )
     substance: PubChemPureSubstanceSection | None = Field(
         default=None,
@@ -236,7 +318,7 @@ class Phase(ArchiveSection):
     )
     components: list[PhaseComponent] = Field(
         default_factory=list,
-        description="Components forming this phase, with their substance details and extracted amounts.",
+        description="Components forming this phase, with their substance details and solubility quantities.",
     )
 
 
@@ -246,10 +328,26 @@ class EquilibriumSolution(EntryData, BaseSection):
     temperature: float | None = Field(
         default=None,
         description="Isothermal temperature of the solution.",
+        json_schema_extra={"unit": "kelvin"},
+    )
+    temperature_initial: float | None = Field(
+        default=None,
+        description="Initial temperature T_in of a dynamic measurement interval, in kelvin.",
+        json_schema_extra={"unit": "kelvin"},
+    )
+    temperature_final: float | None = Field(
+        default=None,
+        description="Final temperature T_fin of a dynamic measurement interval, in kelvin.",
+        json_schema_extra={"unit": "kelvin"},
+    )
+    estimated_error_temperature: str | None = Field(
+        default=None,
+        description="Reported estimated error in temperature, preserved as source text with its expression, units, symbols, and line breaks.",
     )
     pressure: float | None = Field(
         default=None,
-        description="Gas pressure over the solution (assumed to be isobar).",
+        description="Total gas pressure over the solution, in pascals; component partial pressures are stored in PhaseComponent.amount.",
+        json_schema_extra={"unit": "pascal"},
     )
     measurement_methods: list[str] = Field(
         default_factory=list,
