@@ -97,7 +97,7 @@ for pno, page in enumerate(pages, 1):
     rows_x = {}
     for w in page.findall('h:word', ns):
         rows_x.setdefault(round(float(w.get('yMin')) / 3), []).append((float(w.get('xMin')), float(w.get('yMin')), w.text or ''))
-    page_lines = [(min(y for _, y, _ in ws), re.sub(r'(?<=[\d\[\]\-;]) (?=[\d\[\]\-])', '', ' '.join(t for _, _, t in sorted(ws))))
+    page_lines = [(min(y for _, y, _ in ws), re.sub(r'(?<=[\d\[\]()\-;]) (?=[\d\[\]()\-])', '', ' '.join(t for _, _, t in sorted(ws))))
                   for _, ws in sorted(rows_x.items())]
     comps = [y0 for y0, y1, t in words if COMP.match(t)]
     # a data-sheet page carries two or more printed field names, or a component line "name; formula; [CAS]"
