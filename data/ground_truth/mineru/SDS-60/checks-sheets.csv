@@ -97,18 +97,18 @@ SDS-60,77,1,1,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,4/4
 SDS-60,78,0,1,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,3/4
 SDS-60,78,1,4,4,4,,,monotonic,,0,0,0,20/20
 SDS-60,79,0,6,4,4,,,monotonic,,0,0,0,23/23
-SDS-60,80,0,4,5,5,,,n.a. (fewer than 4 temperatures),,0,0,3,20/20
-SDS-60,81,0,8,5,3,"CONCENTRATION OF HCI, 100  w_2; 1000  w_I",,2 direction changes,,0,6,0,10/10
-SDS-60,82,0,5,5,5,,,n.a. (fewer than 4 temperatures),,0,0,4,25/25
+SDS-60,80,0,4,5,5,,,n.a. (fewer than 4 temperatures),,0,0,0,20/20
+SDS-60,81,0,8,5,3,"CONCENTRATION OF HCI, 100  w_2; 1000  w_I",,6 direction changes,,0,0,0,40/40
+SDS-60,82,0,5,5,5,,,n.a. (fewer than 4 temperatures),,0,0,0,25/25
 SDS-60,83,0,1,5,5,,,n.a. (fewer than 4 temperatures),,0,0,0,5/5
-SDS-60,83,1,4,5,5,,,n.a. (fewer than 4 temperatures),,0,0,3,20/20
+SDS-60,83,1,4,5,5,,,n.a. (fewer than 4 temperatures),,0,0,0,20/20
 SDS-60,84,0,1,5,5,,,n.a. (fewer than 4 temperatures),,0,0,0,5/5
-SDS-60,84,1,4,5,5,,,n.a. (fewer than 4 temperatures),,0,0,3,20/20
+SDS-60,84,1,4,5,5,,,n.a. (fewer than 4 temperatures),,0,0,0,20/20
 SDS-60,85,0,1,5,5,,,n.a. (fewer than 4 temperatures),,0,0,0,5/5
-SDS-60,85,1,3,5,3,100  w_j (compiler); 10^5 x_j (compiler),,n.a. (fewer than 4 temperatures),,0,0,2,15/15
-SDS-60,86,0,3,5,5,,,n.a. (fewer than 4 temperatures),,0,0,2,15/15
-SDS-60,86,1,6,5,5,,,n.a. (fewer than 4 temperatures),,0,0,5,30/30
-SDS-60,87,0,5,5,5,,,n.a. (fewer than 4 temperatures),,0,0,4,25/25
+SDS-60,85,1,3,5,3,100  w_j (compiler); 10^5 x_j (compiler),,n.a. (fewer than 4 temperatures),,0,0,0,15/15
+SDS-60,86,0,3,5,5,,,n.a. (fewer than 4 temperatures),,0,0,0,15/15
+SDS-60,86,1,6,5,5,,,n.a. (fewer than 4 temperatures),,0,0,0,30/30
+SDS-60,87,0,5,5,5,,,n.a. (fewer than 4 temperatures),,0,0,0,25/25
 SDS-60,88,0,1,4,3,100  w_IM_I^-1/mol g^-1,,n.a. (fewer than 4 temperatures),,0,0,0,4/4
 SDS-60,88,1,1,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,2/3
 SDS-60,89,0,4,4,3,c_i/mol m-3,,monotonic,,0,0,0,18/20
@@ -202,7 +202,7 @@ SDS-60,145,0,1,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,4/4
 SDS-60,145,1,1,4,3,g_1V_2^-1/kg m^-3,,n.a. (fewer than 4 temperatures),,0,0,0,4/4
 SDS-60,146,0,1,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,4/4
 SDS-60,146,1,3,5,5,,,n.a. (fewer than 4 temperatures),,0,0,0,15/15
-SDS-60,147,0,4,4,4,,,n.a. (fewer than 4 temperatures),,0,0,3,16/16
+SDS-60,147,0,4,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,16/16
 SDS-60,147,1,1,4,3,100  w_IM_I^-1/mol g^-1 (compiler),,n.a. (fewer than 4 temperatures),,0,0,0,4/4
 SDS-60,148,0,3,5,5,,,n.a. (fewer than 4 temperatures),,0,0,0,15/15
 SDS-60,148,1,4,5,4,CV1 %,,monotonic,,0,0,0,20/20
@@ -217,12 +217,12 @@ SDS-60,152,1,1,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,4/4
 SDS-60,153,0,1,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,4/4
 SDS-60,153,1,4,4,4,,,monotonic,,0,0,0,20/20
 SDS-60,154,0,4,4,4,,,monotonic,,0,0,0,16/16
-SDS-60,155,0,4,5,5,,,monotonic,,0,4,0,0/0
+SDS-60,155,0,4,5,0,t/°C 20; c_2/mol dm^-3 0.5; c_1/mol m^-3 -; 100  w_1 (compiler) -; 10^3 x_1 (compiler) -,,n.a.,,0,0,0,20/20
 SDS-60,156,0,8,4,4,,,6 direction changes,,0,0,0,32/32
-SDS-60,157,0,6,5,5,,,n.a. (fewer than 4 temperatures),,0,0,5,30/30
+SDS-60,157,0,6,5,5,,,n.a. (fewer than 4 temperatures),,0,0,0,30/30
 SDS-60,157,1,1,6,5,,,n.a. (fewer than 4 temperatures),,0,0,0,5/5
-SDS-60,158,0,4,5,5,,,n.a. (fewer than 4 temperatures),,0,0,3,20/20
-SDS-60,159,0,6,5,5,,,n.a. (fewer than 4 temperatures),,0,0,5,30/30
+SDS-60,158,0,4,5,5,,,n.a. (fewer than 4 temperatures),,0,0,0,20/20
+SDS-60,159,0,6,5,5,,,n.a. (fewer than 4 temperatures),,0,0,0,30/30
 SDS-60,159,1,1,4,3,100 w_IM_I^-1/mol g^-1,,n.a. (fewer than 4 temperatures),,0,0,0,4/4
 SDS-60,160,0,1,4,4,,,n.a. (fewer than 4 temperatures),,1,0,0,5/5
 SDS-60,160,1,1,4,4,,,n.a. (fewer than 4 temperatures),,0,0,0,3/3

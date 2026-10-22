@@ -156,24 +156,24 @@ SDS-37,69,0,1,range,,"[0, 1]",,,pass,
 SDS-37,69,0,2,w<->x,6.4,6.49307e-05,0.01454,0.103,pass,
 SDS-37,69,0,2,range,,"[0, 1]",,,pass,
 SDS-37,71,0,0,range,,"[0, 1]",,,pass,
-SDS-37,71,0,1,range,,"[0, 1]",,,pass,ditto row
-SDS-37,71,0,2,range,,"[0, 1]",,,pass,ditto row
-SDS-37,71,0,3,range,,"[0, 1]",,,pass,ditto row
-SDS-37,71,0,4,range,,"[0, 1]",,,pass,ditto row
+SDS-37,71,0,1,range,,"[0, 1]",,,pass,
+SDS-37,71,0,2,range,,"[0, 1]",,,pass,
+SDS-37,71,0,3,range,,"[0, 1]",,,pass,
+SDS-37,71,0,4,range,,"[0, 1]",,,pass,
 SDS-37,71,0,5,range,,"[0, 1]",,,pass,
-SDS-37,71,0,6,range,,"[0, 1]",,,pass,ditto row
-SDS-37,71,0,7,range,,"[0, 1]",,,pass,ditto row
-SDS-37,71,0,8,range,,"[0, 1]",,,pass,ditto row
-SDS-37,71,0,9,range,,"[0, 1]",,,pass,ditto row
-SDS-37,71,0,10,range,,"[0, 1]",,,pass,ditto row
-SDS-37,71,0,11,range,,"[0, 1]",,,pass,ditto row
+SDS-37,71,0,6,range,,"[0, 1]",,,pass,
+SDS-37,71,0,7,range,,"[0, 1]",,,pass,
+SDS-37,71,0,8,range,,"[0, 1]",,,pass,
+SDS-37,71,0,9,range,,"[0, 1]",,,pass,
+SDS-37,71,0,10,range,,"[0, 1]",,,pass,
+SDS-37,71,0,11,range,,"[0, 1]",,,pass,
 SDS-37,71,0,12,range,,"[0, 1]",,,pass,
-SDS-37,71,0,13,range,,"[0, 1]",,,pass,ditto row
-SDS-37,71,0,14,range,,"[0, 1]",,,pass,ditto row
-SDS-37,71,0,15,range,,"[0, 1]",,,pass,ditto row
-SDS-37,71,0,16,range,,"[0, 1]",,,pass,ditto row
-SDS-37,71,0,17,range,,"[0, 1]",,,pass,ditto row
-SDS-37,71,0,18,range,,"[0, 1]",,,pass,ditto row
+SDS-37,71,0,13,range,,"[0, 1]",,,pass,
+SDS-37,71,0,14,range,,"[0, 1]",,,pass,
+SDS-37,71,0,15,range,,"[0, 1]",,,pass,
+SDS-37,71,0,16,range,,"[0, 1]",,,pass,
+SDS-37,71,0,17,range,,"[0, 1]",,,pass,
+SDS-37,71,0,18,range,,"[0, 1]",,,pass,
 SDS-37,74,0,0,w<->x,1.02 ± 0.20,1.02124e-05,0.001217,0.013,pass,
 SDS-37,74,0,0,range,,"[0, 1]",,,pass,
 SDS-37,74,0,0,verbatim,4.0 | 1.02 ± 0.20 | 40.9,text layer of the page,1 of 4 tokens missing,0,fail,
@@ -482,36 +482,36 @@ SDS-37,147,0,7,w<->x,0.862,0.861872,0.0001479,0.103,pass,
 SDS-37,147,0,7,range,,"[0, 1]",,,pass,
 SDS-37,149,0,0,w<->x,1.24,0.000124127,0.001027,0.013,pass,
 SDS-37,149,0,0,range,,"[0, 1]",,,pass,
-SDS-37,149,0,1,w<->x,1.32,0.000131975,0.0001873,0.013,pass,ditto row
-SDS-37,149,0,1,range,,"[0, 1]",,,pass,ditto row
-SDS-37,149,0,2,w<->x,1.57,0.000157138,0.0008764,0.013,pass,ditto row
-SDS-37,149,0,2,range,,"[0, 1]",,,pass,ditto row
-SDS-37,149,0,3,w<->x,1.66,0.000166142,0.0008533,0.013,pass,ditto row
-SDS-37,149,0,3,range,,"[0, 1]",,,pass,ditto row
-SDS-37,149,0,4,w<->x,2.06,0.000206089,0.0004332,0.013,pass,ditto row
-SDS-37,149,0,4,range,,"[0, 1]",,,pass,ditto row
-SDS-37,149,0,5,w<->x,2.61,0.000260832,0.0006421,0.013,pass,ditto row
-SDS-37,149,0,5,range,,"[0, 1]",,,pass,ditto row
-SDS-37,149,0,6,w<->x,3.28,0.000327845,0.0004728,0.013,pass,ditto row
-SDS-37,149,0,6,range,,"[0, 1]",,,pass,ditto row
-SDS-37,149,0,7,w<->x,3.43,0.000344025,0.002988,0.013,pass,ditto row
-SDS-37,149,0,7,range,,"[0, 1]",,,pass,ditto row
-SDS-37,149,0,8,w<->x,4.01,0.000401825,0.002056,0.013,pass,ditto row
-SDS-37,149,0,8,range,,"[0, 1]",,,pass,ditto row
-SDS-37,149,0,9,w<->x,4.84,0.000464273,0.04076,0.013,fail,ditto row
-SDS-37,149,0,9,range,,"[0, 1]",,,pass,ditto row
-SDS-37,149,0,10,w<->x,4.98,0.000498978,0.001964,0.013,pass,ditto row
-SDS-37,149,0,10,range,,"[0, 1]",,,pass,ditto row
-SDS-37,149,0,11,w<->x,5.78,0.000577672,0.000567,0.013,pass,ditto row
-SDS-37,149,0,11,range,,"[0, 1]",,,pass,ditto row
-SDS-37,149,0,12,w<->x,6.41,0.000640194,0.001257,0.013,pass,ditto row
-SDS-37,149,0,12,range,,"[0, 1]",,,pass,ditto row
-SDS-37,149,0,13,w<->x,6.84,0.000684207,0.0003021,0.013,pass,ditto row
-SDS-37,149,0,13,range,,"[0, 1]",,,pass,ditto row
-SDS-37,149,0,14,w<->x,7.87,0.00078618,0.001042,0.013,pass,ditto row
-SDS-37,149,0,14,range,,"[0, 1]",,,pass,ditto row
-SDS-37,149,0,15,w<->x,8.5,0.000878943,0.03405,0.103,pass,ditto row
-SDS-37,149,0,15,range,,"[0, 1]",,,pass,ditto row
+SDS-37,149,0,1,w<->x,1.32,0.000131975,0.0001873,0.013,pass,
+SDS-37,149,0,1,range,,"[0, 1]",,,pass,
+SDS-37,149,0,2,w<->x,1.57,0.000157138,0.0008764,0.013,pass,
+SDS-37,149,0,2,range,,"[0, 1]",,,pass,
+SDS-37,149,0,3,w<->x,1.66,0.000166142,0.0008533,0.013,pass,
+SDS-37,149,0,3,range,,"[0, 1]",,,pass,
+SDS-37,149,0,4,w<->x,2.06,0.000206089,0.0004332,0.013,pass,
+SDS-37,149,0,4,range,,"[0, 1]",,,pass,
+SDS-37,149,0,5,w<->x,2.61,0.000260832,0.0006421,0.013,pass,
+SDS-37,149,0,5,range,,"[0, 1]",,,pass,
+SDS-37,149,0,6,w<->x,3.28,0.000327845,0.0004728,0.013,pass,
+SDS-37,149,0,6,range,,"[0, 1]",,,pass,
+SDS-37,149,0,7,w<->x,3.43,0.000344025,0.002988,0.013,pass,
+SDS-37,149,0,7,range,,"[0, 1]",,,pass,
+SDS-37,149,0,8,w<->x,4.01,0.000401825,0.002056,0.013,pass,
+SDS-37,149,0,8,range,,"[0, 1]",,,pass,
+SDS-37,149,0,9,w<->x,4.84,0.000464273,0.04076,0.013,fail,
+SDS-37,149,0,9,range,,"[0, 1]",,,pass,
+SDS-37,149,0,10,w<->x,4.98,0.000498978,0.001964,0.013,pass,
+SDS-37,149,0,10,range,,"[0, 1]",,,pass,
+SDS-37,149,0,11,w<->x,5.78,0.000577672,0.000567,0.013,pass,
+SDS-37,149,0,11,range,,"[0, 1]",,,pass,
+SDS-37,149,0,12,w<->x,6.41,0.000640194,0.001257,0.013,pass,
+SDS-37,149,0,12,range,,"[0, 1]",,,pass,
+SDS-37,149,0,13,w<->x,6.84,0.000684207,0.0003021,0.013,pass,
+SDS-37,149,0,13,range,,"[0, 1]",,,pass,
+SDS-37,149,0,14,w<->x,7.87,0.00078618,0.001042,0.013,pass,
+SDS-37,149,0,14,range,,"[0, 1]",,,pass,
+SDS-37,149,0,15,w<->x,8.5,0.000878943,0.03405,0.103,pass,
+SDS-37,149,0,15,range,,"[0, 1]",,,pass,
 SDS-37,152,0,0,w<->x,3.95,0.000394887,0.0002851,0.013,pass,
 SDS-37,152,0,0,range,,"[0, 1]",,,pass,
 SDS-37,152,0,1,w<->x,3.97,0.0003972,0.0005031,0.013,pass,
@@ -737,25 +737,25 @@ SDS-37,183,0,5,range,,"[0, 1]",,,pass,
 SDS-37,183,0,6,w<->x,4.76,0.00475652,0.0007303,0.013,pass,
 SDS-37,183,0,6,range,,"[0, 1]",,,pass,
 SDS-37,190,0,0,range,,"[0, 1]",,,pass,
-SDS-37,190,0,1,range,,"[0, 1]",,,pass,ditto row
-SDS-37,190,0,2,range,,"[0, 1]",,,pass,ditto row
-SDS-37,190,0,3,range,,"[0, 1]",,,pass,ditto row
-SDS-37,190,0,4,range,,"[0, 1]",,,pass,ditto row
-SDS-37,190,0,5,range,,"[0, 1]",,,pass,ditto row
-SDS-37,190,0,6,range,,"[0, 1]",,,pass,ditto row
-SDS-37,190,0,7,range,,"[0, 1]",,,pass,ditto row
-SDS-37,190,0,8,range,,"[0, 1]",,,pass,ditto row
-SDS-37,190,0,9,range,,"[0, 1]",,,pass,ditto row
+SDS-37,190,0,1,range,,"[0, 1]",,,pass,
+SDS-37,190,0,2,range,,"[0, 1]",,,pass,
+SDS-37,190,0,3,range,,"[0, 1]",,,pass,
+SDS-37,190,0,4,range,,"[0, 1]",,,pass,
+SDS-37,190,0,5,range,,"[0, 1]",,,pass,
+SDS-37,190,0,6,range,,"[0, 1]",,,pass,
+SDS-37,190,0,7,range,,"[0, 1]",,,pass,
+SDS-37,190,0,8,range,,"[0, 1]",,,pass,
+SDS-37,190,0,9,range,,"[0, 1]",,,pass,
 SDS-37,190,0,10,range,,"[0, 1]",,,pass,
-SDS-37,190,0,11,range,,"[0, 1]",,,pass,ditto row
-SDS-37,190,0,12,range,,"[0, 1]",,,pass,ditto row
-SDS-37,190,0,13,range,,"[0, 1]",,,pass,ditto row
-SDS-37,190,0,14,range,,"[0, 1]",,,pass,ditto row
-SDS-37,190,0,15,range,,"[0, 1]",,,pass,ditto row
-SDS-37,190,0,16,range,,"[0, 1]",,,pass,ditto row
-SDS-37,190,0,17,range,,"[0, 1]",,,pass,ditto row
-SDS-37,190,0,18,range,,"[0, 1]",,,pass,ditto row
-SDS-37,190,0,19,range,,"[0, 1]",,,pass,ditto row
+SDS-37,190,0,11,range,,"[0, 1]",,,pass,
+SDS-37,190,0,12,range,,"[0, 1]",,,pass,
+SDS-37,190,0,13,range,,"[0, 1]",,,pass,
+SDS-37,190,0,14,range,,"[0, 1]",,,pass,
+SDS-37,190,0,15,range,,"[0, 1]",,,pass,
+SDS-37,190,0,16,range,,"[0, 1]",,,pass,
+SDS-37,190,0,17,range,,"[0, 1]",,,pass,
+SDS-37,190,0,18,range,,"[0, 1]",,,pass,
+SDS-37,190,0,19,range,,"[0, 1]",,,pass,
 SDS-37,196,0,0,r<->x,4.133,0.000412647,0.001579,0.004,pass,
 SDS-37,196,0,0,range,,"[0, 1]",,,pass,
 SDS-37,196,0,1,r<->x,4.676,0.000466797,0.001718,0.004,pass,
@@ -999,7 +999,7 @@ SDS-37,258,0,3,range,,"[0, 1]",,,pass,
 SDS-37,258,0,4,w<->x,22.9,0.00228506,0.002158,0.013,pass,
 SDS-37,258,0,4,range,,"[0, 1]",,,pass,
 SDS-37,265,0,0,T_C=T_K,403,403.15,0.15,0.3,pass,
-SDS-37,265,0,0,verbatim,403 | 130 | 0.66 | 95 | ,text layer of the page,1 of 4 tokens missing,0,fail,
+SDS-37,265,0,0,verbatim,403 | 130 | 0.66 | 95 |  | ,text layer of the page,1 of 4 tokens missing,0,fail,
 SDS-37,265,0,1,T_C=T_K,413,413.15,0.15,0.3,pass,
 SDS-37,265,0,2,T_C=T_K,423,423.15,0.15,0.3,pass,
 SDS-37,265,0,3,T_C=T_K,433,433.15,0.15,0.3,pass,
@@ -1008,20 +1008,20 @@ SDS-37,265,0,5,T_C=T_K,453,453.15,0.15,0.3,pass,
 SDS-37,265,0,6,T_C=T_K,463,463.15,0.15,0.3,pass,
 SDS-37,265,0,7,T_C=T_K,473,473.15,0.15,0.3,pass,
 SDS-37,265,0,8,T_C=T_K,483,483.15,0.15,0.3,pass,
-SDS-37,265,0,8,verbatim,483 | 210 | 3.58 | 519 | ,text layer of the page,2 of 4 tokens missing,0,fail,
+SDS-37,265,0,8,verbatim,483 | 210 | 3.58 | 519 |  | ,text layer of the page,2 of 4 tokens missing,0,fail,
 SDS-37,265,0,9,T_C=T_K,493,493.15,0.15,0.3,pass,
 SDS-37,265,0,10,T_C=T_K,503,503.15,0.15,0.3,pass,
-SDS-37,265,0,10,verbatim,503 | 230 | 5.18 | 751 | ,text layer of the page,3 of 4 tokens missing,0,fail,
+SDS-37,265,0,10,verbatim,503 | 230 | 5.18 | 751 |  | ,text layer of the page,3 of 4 tokens missing,0,fail,
 SDS-37,265,0,11,T_C=T_K,508,508.15,0.15,0.3,pass,
-SDS-37,265,0,11,verbatim,508 | 235 | 5.64 | 818 | ,text layer of the page,3 of 4 tokens missing,0,fail,
+SDS-37,265,0,11,verbatim,508 | 235 | 5.64 | 818 |  | ,text layer of the page,3 of 4 tokens missing,0,fail,
 SDS-37,265,0,12,T_C=T_K,513,513.15,0.15,0.3,pass,
 SDS-37,265,0,13,T_C=T_K,518,518.15,0.15,0.3,pass,
 SDS-37,265,0,14,T_C=T_K,523,523.15,0.15,0.3,pass,
-SDS-37,265,0,14,verbatim,523 | 250 | 7.28 | 1055 | ,text layer of the page,3 of 4 tokens missing,0,fail,
+SDS-37,265,0,14,verbatim,523 | 250 | 7.28 | 1055 |  | ,text layer of the page,3 of 4 tokens missing,0,fail,
 SDS-37,265,0,15,T_C=T_K,528,528.15,0.15,0.3,pass,
-SDS-37,265,0,15,verbatim,528 | 255 | 7.92 | 1148 | ,text layer of the page,2 of 4 tokens missing,0,fail,
+SDS-37,265,0,15,verbatim,528 | 255 | 7.92 | 1148 |  | ,text layer of the page,2 of 4 tokens missing,0,fail,
 SDS-37,265,0,16,T_C=T_K,528.9,528.85,0.05,0.3,pass,
-SDS-37,265,0,16,verbatim,528.9 | 255.7 | 8.01 | 1162 | ,text layer of the page,2 of 4 tokens missing,0,fail,
+SDS-37,265,0,16,verbatim,528.9 | 255.7 | 8.01 | 1162 |  | ,text layer of the page,2 of 4 tokens missing,0,fail,
 SDS-37,266,0,0,w<->x,0.0102,0.0101955,0.0004369,0.103,pass,
 SDS-37,266,0,0,range,,"[0, 1]",,,pass,
 SDS-37,266,0,1,w<->x,0.0211,0.0211332,0.001574,0.103,pass,
@@ -1107,27 +1107,27 @@ SDS-37,275,0,6,w<->x,6.1,0.000611708,0.0028,0.103,pass,
 SDS-37,275,0,6,range,,"[0, 1]",,,pass,
 SDS-37,275,0,6,verbatim,40 | 0.00552 | 0.0131a | 6.1,text layer of the page,1 of 4 tokens missing,0,fail,
 SDS-37,281,0,0,range,,"[0, 1]",,,pass,
-SDS-37,281,0,1,range,,"[0, 1]",,,pass,ditto row
-SDS-37,281,0,2,range,,"[0, 1]",,,pass,ditto row
-SDS-37,281,0,3,range,,"[0, 1]",,,pass,ditto row
-SDS-37,281,0,4,range,,"[0, 1]",,,pass,ditto row
-SDS-37,281,0,5,range,,"[0, 1]",,,pass,ditto row
-SDS-37,281,0,6,range,,"[0, 1]",,,pass,ditto row
-SDS-37,281,0,7,range,,"[0, 1]",,,pass,ditto row
-SDS-37,281,0,8,range,,"[0, 1]",,,pass,ditto row
-SDS-37,281,0,9,range,,"[0, 1]",,,pass,ditto row
-SDS-37,281,0,10,range,,"[0, 1]",,,pass,ditto row
+SDS-37,281,0,1,range,,"[0, 1]",,,pass,
+SDS-37,281,0,2,range,,"[0, 1]",,,pass,
+SDS-37,281,0,3,range,,"[0, 1]",,,pass,
+SDS-37,281,0,4,range,,"[0, 1]",,,pass,
+SDS-37,281,0,5,range,,"[0, 1]",,,pass,
+SDS-37,281,0,6,range,,"[0, 1]",,,pass,
+SDS-37,281,0,7,range,,"[0, 1]",,,pass,
+SDS-37,281,0,8,range,,"[0, 1]",,,pass,
+SDS-37,281,0,9,range,,"[0, 1]",,,pass,
+SDS-37,281,0,10,range,,"[0, 1]",,,pass,
 SDS-37,281,0,11,range,,"[0, 1]",,,pass,
-SDS-37,281,0,12,range,,"[0, 1]",,,pass,ditto row
-SDS-37,281,0,13,range,,"[0, 1]",,,pass,ditto row
-SDS-37,281,0,14,range,,"[0, 1]",,,pass,ditto row
-SDS-37,281,0,15,range,,"[0, 1]",,,pass,ditto row
-SDS-37,281,0,16,range,,"[0, 1]",,,pass,ditto row
-SDS-37,281,0,17,range,,"[0, 1]",,,pass,ditto row
-SDS-37,281,0,18,range,,"[0, 1]",,,pass,ditto row
-SDS-37,281,0,19,range,,"[0, 1]",,,pass,ditto row
-SDS-37,281,0,20,range,,"[0, 1]",,,pass,ditto row
-SDS-37,281,0,21,range,,"[0, 1]",,,pass,ditto row
+SDS-37,281,0,12,range,,"[0, 1]",,,pass,
+SDS-37,281,0,13,range,,"[0, 1]",,,pass,
+SDS-37,281,0,14,range,,"[0, 1]",,,pass,
+SDS-37,281,0,15,range,,"[0, 1]",,,pass,
+SDS-37,281,0,16,range,,"[0, 1]",,,pass,
+SDS-37,281,0,17,range,,"[0, 1]",,,pass,
+SDS-37,281,0,18,range,,"[0, 1]",,,pass,
+SDS-37,281,0,19,range,,"[0, 1]",,,pass,
+SDS-37,281,0,20,range,,"[0, 1]",,,pass,
+SDS-37,281,0,21,range,,"[0, 1]",,,pass,
 SDS-37,289,0,3,w<->x,79.3,0.0792896,0.0001313,0.013,pass,
 SDS-37,289,0,3,range,,"[0, 1]",,,pass,
 SDS-37,290,0,0,range,,"[0, 1]",,,pass,
@@ -1190,39 +1190,39 @@ SDS-37,314,0,6,r<->w,0.01710,0.000170971,0.000171,0.004,pass,
 SDS-37,314,0,6,range,,"[0, 1]",,,pass,
 SDS-37,320,0,0,w<->x,0.0023,0.00231967,0.008551,0.103,pass,
 SDS-37,320,0,0,range,,"[0, 1]",,,pass,
-SDS-37,320,0,1,w<->x,0.0027,0.00274581,0.01697,0.103,pass,ditto row
-SDS-37,320,0,1,range,,"[0, 1]",,,pass,ditto row
-SDS-37,320,0,2,w<->x,0.0027,0.00274581,0.01697,0.103,pass,ditto row
-SDS-37,320,0,2,range,,"[0, 1]",,,pass,ditto row
-SDS-37,320,0,3,w<->x,0.0027,0.00274581,0.01697,0.103,pass,ditto row
-SDS-37,320,0,3,range,,"[0, 1]",,,pass,ditto row
+SDS-37,320,0,1,w<->x,0.0027,0.00274581,0.01697,0.103,pass,
+SDS-37,320,0,1,range,,"[0, 1]",,,pass,
+SDS-37,320,0,2,w<->x,0.0027,0.00274581,0.01697,0.103,pass,
+SDS-37,320,0,2,range,,"[0, 1]",,,pass,
+SDS-37,320,0,3,w<->x,0.0027,0.00274581,0.01697,0.103,pass,
+SDS-37,320,0,3,range,,"[0, 1]",,,pass,
 SDS-37,320,0,4,w<->x,0.0038,0.00381714,0.00451,0.103,pass,
 SDS-37,320,0,4,range,,"[0, 1]",,,pass,
-SDS-37,320,0,5,w<->x,0.0058,0.00576736,0.005628,0.103,pass,ditto row
-SDS-37,320,0,5,range,,"[0, 1]",,,pass,ditto row
-SDS-37,320,0,6,w<->x,0.0084,0.00841221,0.001454,0.103,pass,ditto row
-SDS-37,320,0,6,range,,"[0, 1]",,,pass,ditto row
-SDS-37,320,0,7,w<->x,0.0086,0.00863496,0.004065,0.103,pass,ditto row
-SDS-37,320,0,7,range,,"[0, 1]",,,pass,ditto row
-SDS-37,320,0,8,w<->x,0.0091,0.00908154,0.002028,0.103,pass,ditto row
-SDS-37,320,0,8,range,,"[0, 1]",,,pass,ditto row
-SDS-37,320,0,9,w<->x,0.0089,0.00885807,0.004712,0.103,pass,ditto row
-SDS-37,320,0,9,range,,"[0, 1]",,,pass,ditto row
-SDS-37,320,0,10,w<->x,0.0080,0.00796781,0.004024,0.103,pass,ditto row
-SDS-37,320,0,10,range,,"[0, 1]",,,pass,ditto row
+SDS-37,320,0,5,w<->x,0.0058,0.00576736,0.005628,0.103,pass,
+SDS-37,320,0,5,range,,"[0, 1]",,,pass,
+SDS-37,320,0,6,w<->x,0.0084,0.00841221,0.001454,0.103,pass,
+SDS-37,320,0,6,range,,"[0, 1]",,,pass,
+SDS-37,320,0,7,w<->x,0.0086,0.00863496,0.004065,0.103,pass,
+SDS-37,320,0,7,range,,"[0, 1]",,,pass,
+SDS-37,320,0,8,w<->x,0.0091,0.00908154,0.002028,0.103,pass,
+SDS-37,320,0,8,range,,"[0, 1]",,,pass,
+SDS-37,320,0,9,w<->x,0.0089,0.00885807,0.004712,0.103,pass,
+SDS-37,320,0,9,range,,"[0, 1]",,,pass,
+SDS-37,320,0,10,w<->x,0.0080,0.00796781,0.004024,0.103,pass,
+SDS-37,320,0,10,range,,"[0, 1]",,,pass,
 SDS-37,320,0,11,w<->x,0.0097,0.00975416,0.005584,0.103,pass,
 SDS-37,320,0,11,range,,"[0, 1]",,,pass,
-SDS-37,320,0,12,w<->x,0.0118,0.011792,0.0006748,0.103,pass,ditto row
-SDS-37,320,0,12,range,,"[0, 1]",,,pass,ditto row
+SDS-37,320,0,12,w<->x,0.0118,0.011792,0.0006748,0.103,pass,
+SDS-37,320,0,12,range,,"[0, 1]",,,pass,
 SDS-37,320,0,12,verbatim,340 | 235 | 23.80 | 5.4 | 0.0118,text layer of the page,1 of 5 tokens missing,0,fail,
-SDS-37,320,0,13,w<->x,0.0138,0.0138604,0.00438,0.103,pass,ditto row
-SDS-37,320,0,13,range,,"[0, 1]",,,pass,ditto row
-SDS-37,320,0,14,w<->x,0.0152,0.0152567,0.00373,0.103,pass,ditto row
-SDS-37,320,0,14,range,,"[0, 1]",,,pass,ditto row
-SDS-37,320,0,15,w<->x,0.0140,0.0140922,0.006585,0.103,pass,ditto row
-SDS-37,320,0,15,range,,"[0, 1]",,,pass,ditto row
-SDS-37,320,0,16,w<->x,0.0116,0.0115641,0.003094,0.103,pass,ditto row
-SDS-37,320,0,16,range,,"[0, 1]",,,pass,ditto row
+SDS-37,320,0,13,w<->x,0.0138,0.0138604,0.00438,0.103,pass,
+SDS-37,320,0,13,range,,"[0, 1]",,,pass,
+SDS-37,320,0,14,w<->x,0.0152,0.0152567,0.00373,0.103,pass,
+SDS-37,320,0,14,range,,"[0, 1]",,,pass,
+SDS-37,320,0,15,w<->x,0.0140,0.0140922,0.006585,0.103,pass,
+SDS-37,320,0,15,range,,"[0, 1]",,,pass,
+SDS-37,320,0,16,w<->x,0.0116,0.0115641,0.003094,0.103,pass,
+SDS-37,320,0,16,range,,"[0, 1]",,,pass,
 SDS-37,325,0,0,w<->x,2.72,2.7176e-06,0.000882,0.013,pass,
 SDS-37,325,0,0,r<->w,0.00130,1.29998e-05,1.3e-05,0.013,pass,
 SDS-37,325,0,0,range,,"[0, 1]",,,pass,
@@ -1252,38 +1252,38 @@ SDS-37,330,0,1,range,,"[0, 1]",,,pass,
 SDS-37,330,0,1,verbatim,25b | 17.9c | 3.74 x 10-6,text layer of the page,1 of 3 tokens missing,0,fail,
 SDS-37,351,0,0,w<->x,0.2214,2.21605e-05,0.0009273,0.004,pass,
 SDS-37,351,0,0,range,,"[0, 1]",,,pass,
-SDS-37,351,0,1,w<->x,0.302,3.02312e-05,0.001034,0.013,pass,ditto row
-SDS-37,351,0,1,range,,"[0, 1]",,,pass,ditto row
-SDS-37,351,0,2,w<->x,0.319,3.19249e-05,0.0007801,0.013,pass,ditto row
-SDS-37,351,0,2,range,,"[0, 1]",,,pass,ditto row
-SDS-37,351,0,3,w<->x,0.342,3.42249e-05,0.0007294,0.013,pass,ditto row
-SDS-37,351,0,3,range,,"[0, 1]",,,pass,ditto row
-SDS-37,351,0,4,w<->x,0.339,3.39322e-05,0.0009501,0.013,pass,ditto row
-SDS-37,351,0,4,range,,"[0, 1]",,,pass,ditto row
-SDS-37,351,0,5,w<->x,0.342,3.42249e-05,0.0007294,0.013,pass,ditto row
-SDS-37,351,0,5,range,,"[0, 1]",,,pass,ditto row
-SDS-37,351,0,6,w<->x,0.3398,3.40158e-05,0.001055,0.004,pass,ditto row
-SDS-37,351,0,6,range,,"[0, 1]",,,pass,ditto row
-SDS-37,351,0,7,w<->x,0.3396,3.39949e-05,0.001029,0.004,pass,ditto row
-SDS-37,351,0,7,range,,"[0, 1]",,,pass,ditto row
-SDS-37,351,0,8,w<->x,0.342,3.42249e-05,0.0007294,0.013,pass,ditto row
-SDS-37,351,0,8,range,,"[0, 1]",,,pass,ditto row
+SDS-37,351,0,1,w<->x,0.302,3.02312e-05,0.001034,0.013,pass,
+SDS-37,351,0,1,range,,"[0, 1]",,,pass,
+SDS-37,351,0,2,w<->x,0.319,3.19249e-05,0.0007801,0.013,pass,
+SDS-37,351,0,2,range,,"[0, 1]",,,pass,
+SDS-37,351,0,3,w<->x,0.342,3.42249e-05,0.0007294,0.013,pass,
+SDS-37,351,0,3,range,,"[0, 1]",,,pass,
+SDS-37,351,0,4,w<->x,0.339,3.39322e-05,0.0009501,0.013,pass,
+SDS-37,351,0,4,range,,"[0, 1]",,,pass,
+SDS-37,351,0,5,w<->x,0.342,3.42249e-05,0.0007294,0.013,pass,
+SDS-37,351,0,5,range,,"[0, 1]",,,pass,
+SDS-37,351,0,6,w<->x,0.3398,3.40158e-05,0.001055,0.004,pass,
+SDS-37,351,0,6,range,,"[0, 1]",,,pass,
+SDS-37,351,0,7,w<->x,0.3396,3.39949e-05,0.001029,0.004,pass,
+SDS-37,351,0,7,range,,"[0, 1]",,,pass,
+SDS-37,351,0,8,w<->x,0.342,3.42249e-05,0.0007294,0.013,pass,
+SDS-37,351,0,8,range,,"[0, 1]",,,pass,
 SDS-37,351,0,9,w<->x,0.398,3.98289e-05,0.0007261,0.013,pass,
 SDS-37,351,0,9,range,,"[0, 1]",,,pass,
-SDS-37,351,0,10,w<->x,0.541,5.41535e-05,0.0009891,0.013,pass,ditto row
-SDS-37,351,0,10,range,,"[0, 1]",,,pass,ditto row
-SDS-37,351,0,11,w<->x,0.644,6.4464e-05,0.0009939,0.013,pass,ditto row
-SDS-37,351,0,11,range,,"[0, 1]",,,pass,ditto row
-SDS-37,351,0,12,w<->x,0.6349,6.35438e-05,0.0008469,0.004,pass,ditto row
-SDS-37,351,0,12,range,,"[0, 1]",,,pass,ditto row
-SDS-37,351,0,13,w<->x,0.633,6.33555e-05,0.0008774,0.013,pass,ditto row
-SDS-37,351,0,13,range,,"[0, 1]",,,pass,ditto row
-SDS-37,351,0,14,w<->x,0.64,6.40457e-05,0.0007143,0.103,pass,ditto row
-SDS-37,351,0,14,range,,"[0, 1]",,,pass,ditto row
-SDS-37,351,0,15,w<->x,0.648,6.48614e-05,0.0009473,0.013,pass,ditto row
-SDS-37,351,0,15,range,,"[0, 1]",,,pass,ditto row
-SDS-37,351,0,16,w<->x,0.64,6.40457e-05,0.0007143,0.103,pass,ditto row
-SDS-37,351,0,16,range,,"[0, 1]",,,pass,ditto row
+SDS-37,351,0,10,w<->x,0.541,5.41535e-05,0.0009891,0.013,pass,
+SDS-37,351,0,10,range,,"[0, 1]",,,pass,
+SDS-37,351,0,11,w<->x,0.644,6.4464e-05,0.0009939,0.013,pass,
+SDS-37,351,0,11,range,,"[0, 1]",,,pass,
+SDS-37,351,0,12,w<->x,0.6349,6.35438e-05,0.0008469,0.004,pass,
+SDS-37,351,0,12,range,,"[0, 1]",,,pass,
+SDS-37,351,0,13,w<->x,0.633,6.33555e-05,0.0008774,0.013,pass,
+SDS-37,351,0,13,range,,"[0, 1]",,,pass,
+SDS-37,351,0,14,w<->x,0.64,6.40457e-05,0.0007143,0.103,pass,
+SDS-37,351,0,14,range,,"[0, 1]",,,pass,
+SDS-37,351,0,15,w<->x,0.648,6.48614e-05,0.0009473,0.013,pass,
+SDS-37,351,0,15,range,,"[0, 1]",,,pass,
+SDS-37,351,0,16,w<->x,0.64,6.40457e-05,0.0007143,0.103,pass,
+SDS-37,351,0,16,range,,"[0, 1]",,,pass,
 SDS-37,353,0,0,range,,"[0, 1]",,,pass,
 SDS-37,353,0,1,range,,"[0, 1]",,,pass,
 SDS-37,353,0,2,range,,"[0, 1]",,,pass,
@@ -1454,35 +1454,35 @@ SDS-37,369,0,9,w<->x,22.2,2.21605e-05,0.001778,0.013,pass,
 SDS-37,369,0,9,r<->w,0.0106,0.000105989,0.000106,0.013,pass,
 SDS-37,369,0,9,range,,"[0, 1]",,,pass,
 SDS-37,370,0,0,range,,"[0, 1]",,,pass,
-SDS-37,370,0,1,range,,"[0, 1]",,,pass,ditto row
-SDS-37,370,0,2,range,,"[0, 1]",,,pass,ditto row
+SDS-37,370,0,1,range,,"[0, 1]",,,pass,
+SDS-37,370,0,2,range,,"[0, 1]",,,pass,
 SDS-37,370,0,2,verbatim,200 | 100 | 9.8 | 0.084 | 1.88,text layer of the page,3 of 5 tokens missing,0,fail,
-SDS-37,370,0,3,range,,"[0, 1]",,,pass,ditto row
-SDS-37,370,0,4,range,,"[0, 1]",,,pass,ditto row
-SDS-37,370,0,5,range,,"[0, 1]",,,pass,ditto row
-SDS-37,370,0,6,range,,"[0, 1]",,,pass,ditto row
-SDS-37,370,0,7,range,,"[0, 1]",,,pass,ditto row
+SDS-37,370,0,3,range,,"[0, 1]",,,pass,
+SDS-37,370,0,4,range,,"[0, 1]",,,pass,
+SDS-37,370,0,5,range,,"[0, 1]",,,pass,
+SDS-37,370,0,6,range,,"[0, 1]",,,pass,
+SDS-37,370,0,7,range,,"[0, 1]",,,pass,
 SDS-37,370,0,7,verbatim,200 | 600 | 58.8 | 0.051 | 1.11,text layer of the page,1 of 5 tokens missing,0,fail,
-SDS-37,370,0,8,range,,"[0, 1]",,,pass,ditto row
+SDS-37,370,0,8,range,,"[0, 1]",,,pass,
 SDS-37,370,0,8,verbatim,200 | 700 | 68.6 | 0.047 | 1.02,text layer of the page,1 of 5 tokens missing,0,fail,
-SDS-37,370,0,9,range,,"[0, 1]",,,pass,ditto row
+SDS-37,370,0,9,range,,"[0, 1]",,,pass,
 SDS-37,370,0,9,verbatim,200 | 800 | 78.5 | 0.041 | 0.89,text layer of the page,3 of 5 tokens missing,0,fail,
 SDS-37,370,0,10,range,,"[0, 1]",,,pass,
 SDS-37,370,0,10,verbatim,220 | 50.8 | 5.0 | 0.187 | 4.59,text layer of the page,2 of 5 tokens missing,0,fail,
-SDS-37,370,0,11,range,,"[0, 1]",,,pass,ditto row
+SDS-37,370,0,11,range,,"[0, 1]",,,pass,
 SDS-37,370,0,11,verbatim,220 | 80 | 8.3 | 0.145 | 3.42,text layer of the page,2 of 5 tokens missing,0,fail,
-SDS-37,370,0,12,range,,"[0, 1]",,,pass,ditto row
+SDS-37,370,0,12,range,,"[0, 1]",,,pass,
 SDS-37,370,0,12,verbatim,220 | 100 | 9.8 | 0.134 | 3.13,text layer of the page,1 of 5 tokens missing,0,fail,
-SDS-37,370,0,13,range,,"[0, 1]",,,pass,ditto row
-SDS-37,370,0,14,range,,"[0, 1]",,,pass,ditto row
-SDS-37,370,0,15,range,,"[0, 1]",,,pass,ditto row
-SDS-37,370,0,16,range,,"[0, 1]",,,pass,ditto row
+SDS-37,370,0,13,range,,"[0, 1]",,,pass,
+SDS-37,370,0,14,range,,"[0, 1]",,,pass,
+SDS-37,370,0,15,range,,"[0, 1]",,,pass,
+SDS-37,370,0,16,range,,"[0, 1]",,,pass,
 SDS-37,370,0,16,verbatim,220 | 500 | 49.0 | 0.083 | 1.86,text layer of the page,2 of 5 tokens missing,0,fail,
-SDS-37,370,0,17,range,,"[0, 1]",,,pass,ditto row
+SDS-37,370,0,17,range,,"[0, 1]",,,pass,
 SDS-37,370,0,17,verbatim,220 | 600 | 58.8 | 0.074 | 1.64,text layer of the page,1 of 5 tokens missing,0,fail,
-SDS-37,370,0,18,range,,"[0, 1]",,,pass,ditto row
+SDS-37,370,0,18,range,,"[0, 1]",,,pass,
 SDS-37,370,0,18,verbatim,220 | 700 | 68.6 | 0.068 | 1.50,text layer of the page,2 of 5 tokens missing,0,fail,
-SDS-37,370,0,19,range,,"[0, 1]",,,pass,ditto row
+SDS-37,370,0,19,range,,"[0, 1]",,,pass,
 SDS-37,370,0,19,verbatim,220 | 800 | 78.5 | 0.065 | 1.43,text layer of the page,2 of 5 tokens missing,0,fail,
 SDS-37,377,0,0,range,,"[0, 1]",,,pass,
 SDS-37,377,0,21,range,,"[0, 1]",,,pass,
@@ -1632,48 +1632,48 @@ SDS-37,417,0,5,w<->x,4.92,0.00491615,0.0007829,0.013,pass,
 SDS-37,417,0,5,range,,"[0, 1]",,,pass,
 SDS-37,418,0,0,w<->x,0.0141,0.0140645,0.002521,0.103,pass,
 SDS-37,418,0,0,range,,"[0, 1]",,,pass,
-SDS-37,418,0,1,w<->x,0.0141,0.0140645,0.002521,0.103,pass,ditto row
-SDS-37,418,0,1,range,,"[0, 1]",,,pass,ditto row
-SDS-37,418,0,2,w<->x,0.0136,0.0136276,0.002029,0.103,pass,ditto row
-SDS-37,418,0,2,range,,"[0, 1]",,,pass,ditto row
-SDS-37,418,0,3,w<->x,0.0119,0.0118949,0.0004268,0.103,pass,ditto row
-SDS-37,418,0,3,range,,"[0, 1]",,,pass,ditto row
+SDS-37,418,0,1,w<->x,0.0141,0.0140645,0.002521,0.103,pass,
+SDS-37,418,0,1,range,,"[0, 1]",,,pass,
+SDS-37,418,0,2,w<->x,0.0136,0.0136276,0.002029,0.103,pass,
+SDS-37,418,0,2,range,,"[0, 1]",,,pass,
+SDS-37,418,0,3,w<->x,0.0119,0.0118949,0.0004268,0.103,pass,
+SDS-37,418,0,3,range,,"[0, 1]",,,pass,
 SDS-37,418,0,4,w<->x,0.0313,0.0313438,0.0014,0.013,pass,
 SDS-37,418,0,4,range,,"[0, 1]",,,pass,
-SDS-37,418,0,5,w<->x,0.0311,0.0310949,0.0001654,0.013,pass,ditto row
-SDS-37,418,0,5,range,,"[0, 1]",,,pass,ditto row
-SDS-37,418,0,6,w<->x,0.0308,0.0308463,0.001504,0.013,pass,ditto row
-SDS-37,418,0,6,range,,"[0, 1]",,,pass,ditto row
+SDS-37,418,0,5,w<->x,0.0311,0.0310949,0.0001654,0.013,pass,
+SDS-37,418,0,5,range,,"[0, 1]",,,pass,
+SDS-37,418,0,6,w<->x,0.0308,0.0308463,0.001504,0.013,pass,
+SDS-37,418,0,6,range,,"[0, 1]",,,pass,
 SDS-37,418,0,7,w<->x,0.0411,0.0411519,0.001263,0.013,pass,
 SDS-37,418,0,7,range,,"[0, 1]",,,pass,
-SDS-37,418,0,8,w<->x,0.0438,0.0438506,0.001156,0.013,pass,ditto row
-SDS-37,418,0,8,range,,"[0, 1]",,,pass,ditto row
-SDS-37,418,0,9,w<->x,0.0452,0.0452193,0.0004267,0.013,pass,ditto row
-SDS-37,418,0,9,range,,"[0, 1]",,,pass,ditto row
-SDS-37,418,0,10,w<->x,0.0438,0.0438506,0.001156,0.013,pass,ditto row
-SDS-37,418,0,10,range,,"[0, 1]",,,pass,ditto row
-SDS-37,418,0,11,w<->x,0.0411,0.0411519,0.001263,0.013,pass,ditto row
-SDS-37,418,0,11,range,,"[0, 1]",,,pass,ditto row
+SDS-37,418,0,8,w<->x,0.0438,0.0438506,0.001156,0.013,pass,
+SDS-37,418,0,8,range,,"[0, 1]",,,pass,
+SDS-37,418,0,9,w<->x,0.0452,0.0452193,0.0004267,0.013,pass,
+SDS-37,418,0,9,range,,"[0, 1]",,,pass,
+SDS-37,418,0,10,w<->x,0.0438,0.0438506,0.001156,0.013,pass,
+SDS-37,418,0,10,range,,"[0, 1]",,,pass,
+SDS-37,418,0,11,w<->x,0.0411,0.0411519,0.001263,0.013,pass,
+SDS-37,418,0,11,range,,"[0, 1]",,,pass,
 SDS-37,418,0,12,w<->x,0.0411,0.0411519,0.001263,0.013,pass,
 SDS-37,418,0,12,range,,"[0, 1]",,,pass,
-SDS-37,418,0,13,w<->x,0.0455,0.0454946,0.0001189,0.013,pass,ditto row
-SDS-37,418,0,13,range,,"[0, 1]",,,pass,ditto row
-SDS-37,418,0,14,w<->x,0.0514,0.0513999,1.489e-06,0.013,pass,ditto row
-SDS-37,418,0,14,range,,"[0, 1]",,,pass,ditto row
-SDS-37,418,0,15,w<->x,0.0578,0.0578514,0.0008895,0.013,pass,ditto row
-SDS-37,418,0,15,range,,"[0, 1]",,,pass,ditto row
-SDS-37,418,0,16,w<->x,0.0590,0.066483,0.1268,0.013,fail,ditto row
-SDS-37,418,0,16,range,,"[0, 1]",,,pass,ditto row
-SDS-37,418,0,17,w<->x,0.0759,0.075961,0.0008037,0.013,pass,ditto row
-SDS-37,418,0,17,range,,"[0, 1]",,,pass,ditto row
-SDS-37,418,0,18,w<->x,0.0882,0.0882026,2.986e-05,0.013,pass,ditto row
-SDS-37,418,0,18,range,,"[0, 1]",,,pass,ditto row
-SDS-37,418,0,19,w<->x,0.1002,0.100247,0.00047,0.013,pass,ditto row
-SDS-37,418,0,19,range,,"[0, 1]",,,pass,ditto row
-SDS-37,418,0,20,w<->x,0.1663,0.166295,2.865e-05,0.013,pass,ditto row
-SDS-37,418,0,20,range,,"[0, 1]",,,pass,ditto row
-SDS-37,418,0,21,w<->x,0.1560,0.156022,0.0001406,0.013,pass,ditto row
-SDS-37,418,0,21,range,,"[0, 1]",,,pass,ditto row
+SDS-37,418,0,13,w<->x,0.0455,0.0454946,0.0001189,0.013,pass,
+SDS-37,418,0,13,range,,"[0, 1]",,,pass,
+SDS-37,418,0,14,w<->x,0.0514,0.0513999,1.489e-06,0.013,pass,
+SDS-37,418,0,14,range,,"[0, 1]",,,pass,
+SDS-37,418,0,15,w<->x,0.0578,0.0578514,0.0008895,0.013,pass,
+SDS-37,418,0,15,range,,"[0, 1]",,,pass,
+SDS-37,418,0,16,w<->x,0.0590,0.066483,0.1268,0.013,fail,
+SDS-37,418,0,16,range,,"[0, 1]",,,pass,
+SDS-37,418,0,17,w<->x,0.0759,0.075961,0.0008037,0.013,pass,
+SDS-37,418,0,17,range,,"[0, 1]",,,pass,
+SDS-37,418,0,18,w<->x,0.0882,0.0882026,2.986e-05,0.013,pass,
+SDS-37,418,0,18,range,,"[0, 1]",,,pass,
+SDS-37,418,0,19,w<->x,0.1002,0.100247,0.00047,0.013,pass,
+SDS-37,418,0,19,range,,"[0, 1]",,,pass,
+SDS-37,418,0,20,w<->x,0.1663,0.166295,2.865e-05,0.013,pass,
+SDS-37,418,0,20,range,,"[0, 1]",,,pass,
+SDS-37,418,0,21,w<->x,0.1560,0.156022,0.0001406,0.013,pass,
+SDS-37,418,0,21,range,,"[0, 1]",,,pass,
 SDS-37,425,0,0,w<->x,0.1243,0.000124353,0.0004251,0.004,pass,
 SDS-37,425,0,0,range,,"[0, 1]",,,pass,
 SDS-37,425,0,1,w<->x,0.1236,0.000123707,0.0008656,0.004,pass,
@@ -1945,32 +1945,32 @@ SDS-37,519,0,5,w<->x,26.6,0.00266407,0.001532,0.013,pass,
 SDS-37,519,0,5,range,,"[0, 1]",,,pass,
 SDS-37,521,0,0,w<->x,0.0020,0.0019956,0.002199,0.103,pass,
 SDS-37,521,0,0,range,,"[0, 1]",,,pass,
-SDS-37,521,0,1,w<->x,0.0020,0.0019956,0.002199,0.103,pass,ditto row
-SDS-37,521,0,1,range,,"[0, 1]",,,pass,ditto row
-SDS-37,521,0,2,w<->x,0.0020,0.0019956,0.002199,0.103,pass,ditto row
-SDS-37,521,0,2,range,,"[0, 1]",,,pass,ditto row
-SDS-37,521,0,3,w<->x,0.0020,0.0019956,0.002199,0.103,pass,ditto row
-SDS-37,521,0,3,range,,"[0, 1]",,,pass,ditto row
+SDS-37,521,0,1,w<->x,0.0020,0.0019956,0.002199,0.103,pass,
+SDS-37,521,0,1,range,,"[0, 1]",,,pass,
+SDS-37,521,0,2,w<->x,0.0020,0.0019956,0.002199,0.103,pass,
+SDS-37,521,0,2,range,,"[0, 1]",,,pass,
+SDS-37,521,0,3,w<->x,0.0020,0.0019956,0.002199,0.103,pass,
+SDS-37,521,0,3,range,,"[0, 1]",,,pass,
 SDS-37,521,0,4,w<->x,0.0061,0.00609784,0.0003542,0.103,pass,
 SDS-37,521,0,4,range,,"[0, 1]",,,pass,
-SDS-37,521,0,5,w<->x,0.0061,0.00609784,0.0003542,0.103,pass,ditto row
-SDS-37,521,0,5,range,,"[0, 1]",,,pass,ditto row
-SDS-37,521,0,6,w<->x,0.0061,0.00609784,0.0003542,0.103,pass,ditto row
-SDS-37,521,0,6,range,,"[0, 1]",,,pass,ditto row
+SDS-37,521,0,5,w<->x,0.0061,0.00609784,0.0003542,0.103,pass,
+SDS-37,521,0,5,range,,"[0, 1]",,,pass,
+SDS-37,521,0,6,w<->x,0.0061,0.00609784,0.0003542,0.103,pass,
+SDS-37,521,0,6,range,,"[0, 1]",,,pass,
 SDS-37,521,0,7,w<->x,0.0069,0.0068601,0.005782,0.103,pass,
 SDS-37,521,0,7,range,,"[0, 1]",,,pass,
-SDS-37,521,0,8,w<->x,0.0107,0.0107501,0.004686,0.103,pass,ditto row
-SDS-37,521,0,8,range,,"[0, 1]",,,pass,ditto row
-SDS-37,521,0,9,w<->x,0.0187,0.0187342,0.001827,0.103,pass,ditto row
-SDS-37,521,0,9,range,,"[0, 1]",,,pass,ditto row
-SDS-37,521,0,10,w<->x,0.0196,0.0195845,0.0007907,0.013,pass,ditto row
-SDS-37,521,0,10,range,,"[0, 1]",,,pass,ditto row
-SDS-37,521,0,11,w<->x,0.0187,0.0187342,0.001827,0.103,pass,ditto row
-SDS-37,521,0,11,range,,"[0, 1]",,,pass,ditto row
-SDS-37,521,0,12,w<->x,0.0156,0.0155986,8.752e-05,0.103,pass,ditto row
-SDS-37,521,0,12,range,,"[0, 1]",,,pass,ditto row
-SDS-37,521,0,13,w<->x,0.0107,0.0107501,0.004686,0.103,pass,ditto row
-SDS-37,521,0,13,range,,"[0, 1]",,,pass,ditto row
+SDS-37,521,0,8,w<->x,0.0107,0.0107501,0.004686,0.103,pass,
+SDS-37,521,0,8,range,,"[0, 1]",,,pass,
+SDS-37,521,0,9,w<->x,0.0187,0.0187342,0.001827,0.103,pass,
+SDS-37,521,0,9,range,,"[0, 1]",,,pass,
+SDS-37,521,0,10,w<->x,0.0196,0.0195845,0.0007907,0.013,pass,
+SDS-37,521,0,10,range,,"[0, 1]",,,pass,
+SDS-37,521,0,11,w<->x,0.0187,0.0187342,0.001827,0.103,pass,
+SDS-37,521,0,11,range,,"[0, 1]",,,pass,
+SDS-37,521,0,12,w<->x,0.0156,0.0155986,8.752e-05,0.103,pass,
+SDS-37,521,0,12,range,,"[0, 1]",,,pass,
+SDS-37,521,0,13,w<->x,0.0107,0.0107501,0.004686,0.103,pass,
+SDS-37,521,0,13,range,,"[0, 1]",,,pass,
 SDS-37,524,0,0,w<->x,3.51 ± 0.26,3.50574e-07,0.001213,0.013,pass,
 SDS-37,524,0,0,range,,"[0, 1]",,,pass,
 SDS-37,524,0,1,w<->x,3.63 ± 0.51,3.63159e-07,0.0004384,0.013,pass,

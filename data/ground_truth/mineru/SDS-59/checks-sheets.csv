@@ -159,7 +159,7 @@ SDS-59,253,0,8,3,3,,,monotonic,,0,0,0,21/21
 SDS-59,253,1,3,3,2,t/K,,n.a. (fewer than 4 temperatures),,0,0,0,9/9
 SDS-59,254,1,8,3,3,,,n.a. (pressure varies),,0,0,0,20/20
 SDS-59,255,0,12,4,4,,,6 direction changes,,0,0,0,36/36
-SDS-59,256,0,30,3,3,,,17 direction changes,,1,1,0,86/87
+SDS-59,256,0,50,3,3,,,17 direction changes,,21,21,0,86/87
 SDS-59,257,0,26,4,4,,,3 direction changes,,0,0,0,77/78
 SDS-59,258,0,17,4,4,,,11 direction changes,,0,0,0,47/51
 SDS-59,259,0,20,4,3,Phases,,9 direction changes,,0,0,0,58/60

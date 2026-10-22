@@ -108,6 +108,18 @@ def main() -> None:
     print(f'SDS-{a.volume}: {len(nist)} NIST sheets with tables {kinds}, {len(anchors)} OCR sheets; '
           f'aligned {len(aligned)} (score >= {a.min_score}), {dups} OCR sheets matched twice')
     print(f'table numeric tokens: {nv}, found verbatim in OCR box: {nf} ({nf / nv:.1%})' if nv else 'no values')
+    hit = tot = 0                                      # the row measure: every numeric token of a NIST row in one line of the box
+    for ni, n in enumerate(nist):
+        if ni not in pick:
+            continue
+        lines = [strict(x) for x in anchors[pick[ni][1]]['boxes'].get('experimental_values', '').split('\n')]
+        for t in n['tables']:
+            for row in t['rows']:
+                toks = [v for c in row for v in numbers(c)]
+                if toks:
+                    tot += 1
+                    hit += any(all(v in ln for v in toks) for ln in lines)
+    print(f'NIST table rows with all numeric tokens in one line of the matched box: {hit} / {tot}')
     low = sorted((r for r in aligned if r['recall'] != '' and r['recall'] < 0.8), key=lambda r: r['recall'])
     print(f'{len(low)} aligned sheets with recall < 0.8; worst:')
     for r in low[:8]:
