@@ -110,20 +110,21 @@ aligned as above; files under `ground_truth/mineru/SDS-N/`).
 The ground truth is the complete NIST crawl of the DISSOLVE repository (2 784 sheets over the
 eight volumes, imported with `scripts/nist_import.py`); the aligner keys on compilation sheets
 with a table. Value recall is the substring measure over the keyed numeric tokens; rows are NIST
-table rows whose numeric tokens all occur in one line of our EXPERIMENTAL VALUES box. Crop pass
-of the first run with rowspan honoured; the second pass where it exists.
+table rows whose numeric tokens all occur in one line of our EXPERIMENTAL VALUES box. Crop pass v1 is the first run
+with rowspan honoured in the converter, v2 the second run with the fixed band finder and its fallback
+bands (volumes 38, 59, 62).
 
-| volume | NIST sheets with tables | aligned | value recall | rows in one line | second pass: aligned, rows |
-|-------:|------------------------:|--------:|-------------:|-----------------:|---|
-| 20 | 220 | 204 | 91.4 % | 465 / 541 | not re-run |
-| 37 | 374 | 363 | 71.9 % | 969 / 1 756 | not re-run |
-| 38 | 413 | 392 | 96.8 % | 811 / 901 | 392, 815 / 901 |
-| 57 | 244 | 233 | 77.3 % | 1 226 / 2 583 | not re-run |
-| 58 | 428 | 375 | 95.9 % | 1 093 / 1 356 | not re-run |
-| 59 | 415 | 392 | 98.5 % | 2 721 / 2 978 | 403, 2 771 / 3 108 |
-| 60 | 296 | 286 | 95.4 % | 686 / 818 | not re-run |
-| 62 | 268 | 254 | 87.5 % | 3 571 / 6 127 | 254, 3 560 / 6 127 |
-| all | 2 658 | 2 499 | 87.0 % | 11 542 / 17 060 (67.7 %) | |
+| volume | NIST sheets with tables | crop pass | aligned | value recall | rows in one line |
+|-------:|------------------------:|:---:|--------:|-------------:|-----------------:|
+| 20 | 220 | v1 | 204 | 91.4 % | 465 / 541 |
+| 37 | 374 | v1 | 363 | 71.9 % | 969 / 1 756 |
+| 38 | 413 | v2 | 392 | 96.7 % | 815 / 901 |
+| 57 | 244 | v1 | 233 | 77.3 % | 1 226 / 2 583 |
+| 58 | 428 | v1 | 375 | 95.9 % | 1 093 / 1 356 |
+| 59 | 415 | v2 | 403 | 98.4 % | 2 771 / 3 108 |
+| 60 | 296 | v1 | 286 | 95.4 % | 686 / 818 |
+| 62 | 268 | v2 | 254 | 87.5 % | 3 560 / 6 127 |
+| all | 2 658 | | 2 510 | 87.0 % | 11 585 / 17 190 (67.4 %) |
 
 The numbers quoted in the prose of the earlier sections (36 / 36, 422 / 688, 90 to 422) were
 measured against the first, truncated scrape of 30 systems per volume; the table above is the
