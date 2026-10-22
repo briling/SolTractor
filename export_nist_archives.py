@@ -87,33 +87,34 @@ def normalized_amount_candidate(component_name, value):
     """Map a normalized NIST value to one named Amount field and its storage unit."""
     quantity = value["quantity"]
     unit = (value["unit"] or "").lower().replace("–", "-").replace("−", "-")
-    field, factor = {
-        "mole_fraction": ("mole_fraction", 1),
-        "gas_mole_fraction": ("mole_fraction", 1),
-        "mass_fraction": ("mass_fraction", 1),
-        "molality": ("molality", 1),
-        "mass_per_100g_solution": ("mass_fraction", 0.01),
-        "mass_per_kg": ("mass_fraction", 0.001),
-        "mass_ratio": ("solute_solvent_mass_ratio", 1),
-        "bunsen_coefficient": ("bunsen_coefficient", 1),
-        "ostwald_coefficient": ("ostwald_coefficient", 1),
-    }.get(quantity, (None, None))
+    field, factor, storage_unit = {
+        "mole_fraction": ("mole_fraction", 1, "1"),
+        "gas_mole_fraction": ("mole_fraction", 1, "1"),
+        "mass_fraction": ("mass_fraction", 1, "1"),
+        "molality": ("molality", 1, "mol/kg"),
+        "mass_per_100g_solution": ("mass_fraction", 0.01, "1"),
+        "mass_per_kg": ("mass_fraction", 0.001, "1"),
+        "mass_ratio": ("solute_solvent_mass_ratio", 1, "1"),
+        "bunsen_coefficient": ("bunsen_coefficient", 1, "1"),
+        "ostwald_coefficient": ("ostwald_coefficient", 1, "1"),
+    }.get(quantity, (None, None, None))
     if quantity == "amount_concentration":
         if "mol/l" in unit or "mol l" in unit or unit == "":
-            field, factor = "molar_concentration", 1_000
+            field, factor, storage_unit = "molar_concentration", 1_000, "mol/m^3"
     elif quantity == "mass_concentration":
         if "g dm" in unit or unit == "g/l":
-            field, factor = "mass_concentration", 1
+            field, factor, storage_unit = "mass_concentration", 1, "kg/m^3"
         elif unit == "mg/l":
-            field, factor = "mass_concentration", 0.001
+            field, factor, storage_unit = "mass_concentration", 0.001, "kg/m^3"
         elif "g m" in unit:
-            field, factor = "mass_concentration", 0.001
+            field, factor, storage_unit = "mass_concentration", 0.001, "kg/m^3"
     if field is None:
         return None
     return {
         "component_name": component_name,
         "field": field,
         "value": value["value"] * factor,
+        "units": storage_unit,
         "source_header": value["header"],
     }
 
@@ -156,7 +157,7 @@ def prompt_for(record, sheet_context):
             "The liquid phase must contain exactly the listed source components.",
             "Each phase component may have at most one amount.",
             "An amount may only set one named field from a candidate for that same component; "
-            "preserve the candidate field, value, and source_header exactly.",
+            "preserve the candidate field, value, units, and source_header exactly.",
             "Omit an amount when the record does not directly report one for that component.",
             "Add solid or gas phases only when the source phase fields explicitly identify them.",
             "Use temperature_K as temperature and pressure_kPa multiplied by 1000 as pressure.",
@@ -183,6 +184,7 @@ def prompt_for(record, sheet_context):
                     },
                     "amount": {
                         "one named Amount field from amount_candidates": "number",
+                        "units": "string",
                         "source_header": "string",
                     },
                 }],
@@ -285,7 +287,7 @@ def validate_grounding(solution, record):
             amount_values = {
                 field: value
                 for field, value in amount.model_dump(exclude_none=True).items()
-                if field not in {"m_def", "source_header"}
+                if field not in {"m_def", "source_header", "units"}
             }
             if len(amount_values) != 1:
                 raise RuntimeError(
@@ -296,6 +298,7 @@ def validate_grounding(solution, record):
                 candidate["component_name"] == component.name
                 and candidate["field"] == field
                 and candidate["value"] == value
+                and candidate["units"] == amount.units
                 and candidate["source_header"] == source_header
                 for candidate in candidates
             ):
@@ -315,6 +318,10 @@ def archive_for(record, sheet_context, schema, base_url, model, api_key, timeout
     solution = schema.EquilibriumSolution.model_validate(response)
     validate_grounding(solution, record)
     solution.lab_id = lab_id_for(record)
+    if record["citation"]:
+        solution.publication_references = [
+            schema.PublicationReference(citation=record["citation"])
+        ]
     return {"data": solution.model_dump(mode="json", exclude_none=True)}
 
 
