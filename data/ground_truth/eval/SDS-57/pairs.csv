@@ -1,0 +1,733 @@
+nist_id,lab_id,precision,recall,f1,mismatched,omitted,hallucinated
+57_10/t0/r0,SDS-57/p028/0/r00,0.8333,0.7143,0.7692,,components[0].henry_constant_p_over_c components[0].ostwald_coefficient,components[0].henry_constant_p_over_x
+57_103/t0/r0,SDS-57/p159/0/r00,0.8333,1.0,0.9091,,,pressure
+57_103/t0/r1,SDS-57/p159/0/r01,0.8333,1.0,0.9091,,,pressure
+57_107/t0/r0,SDS-57/p163/0/r00,0.8571,1.0,0.9231,,,components[2].henry_constant_p_over_x
+57_107/t0/r1,SDS-57/p163/0/r01,0.8571,0.8571,0.8571,,components[1].mole_fraction,components[2].henry_constant_p_over_x
+57_107/t0/r2,SDS-57/p163/0/r02,0.8571,0.8571,0.8571,,components[1].mole_fraction,components[2].henry_constant_p_over_x
+57_107/t0/r3,SDS-57/p163/0/r03,0.8571,0.8571,0.8571,,components[1].mole_fraction,components[2].henry_constant_p_over_x
+57_107/t0/r4,SDS-57/p163/0/r04,0.8571,1.0,0.9231,,,components[2].henry_constant_p_over_x
+57_108/t0/r0,SDS-57/p164/0/r00,0.6,0.6,0.6,pressure=1532.0339999999999|101300.0,components[0].cas,components[1].mole_fraction
+57_108/t0/r1,SDS-57/p164/0/r01,0.6,0.6,0.6,pressure=1130.787|101300.0,components[0].cas,components[1].mole_fraction
+57_108/t0/r2,SDS-57/p164/0/r02,0.6,0.6,0.6,pressure=670.771|101300.0,components[0].cas,components[1].mole_fraction
+57_110/t0/r12,SDS-57/p170/0/r00,0.75,0.4286,0.5455,,components[1].mole_fraction gas[0].cas gas[0].mole_fraction pressure,components[1].partial_pressure
+57_110/t0/r13,SDS-57/p170/0/r01,0.75,0.4286,0.5455,,components[1].mole_fraction gas[0].cas gas[0].mole_fraction pressure,components[1].partial_pressure
+57_110/t0/r14,SDS-57/p170/0/r02,0.75,0.4286,0.5455,,components[1].mole_fraction gas[0].cas gas[0].mole_fraction pressure,components[1].partial_pressure
+57_110/t0/r15,SDS-57/p170/0/r03,0.75,0.4286,0.5455,,components[1].mole_fraction gas[0].cas gas[0].mole_fraction pressure,components[1].partial_pressure
+57_110/t0/r16,SDS-57/p170/0/r04,0.75,0.4286,0.5455,,components[1].mole_fraction gas[0].cas gas[0].mole_fraction pressure,components[1].partial_pressure
+57_110/t0/r17,SDS-57/p170/0/r05,0.75,0.4286,0.5455,,components[1].mole_fraction gas[0].cas gas[0].mole_fraction pressure,components[1].partial_pressure
+57_110/t0/r18,SDS-57/p170/0/r06,0.75,0.4286,0.5455,,components[1].mole_fraction gas[0].cas gas[0].mole_fraction pressure,components[1].partial_pressure
+57_110/t0/r19,SDS-57/p170/0/r07,0.75,0.4286,0.5455,,components[1].mole_fraction gas[0].cas gas[0].mole_fraction pressure,components[1].partial_pressure
+57_110/t0/r20,SDS-57/p170/0/r08,0.75,0.4286,0.5455,,components[1].mole_fraction gas[0].cas gas[0].mole_fraction pressure,components[1].partial_pressure
+57_110/t0/r21,SDS-57/p170/0/r09,0.75,0.4286,0.5455,,components[1].mole_fraction gas[0].cas gas[0].mole_fraction pressure,components[1].partial_pressure
+57_110/t0/r22,SDS-57/p170/0/r10,1.0,0.6,0.75,,components[1].mole_fraction pressure,
+57_110/t0/r23,SDS-57/p170/0/r11,1.0,0.6,0.75,,components[1].mole_fraction pressure,
+57_110/t0/r24,SDS-57/p170/0/r12,1.0,0.6,0.75,,components[1].mole_fraction pressure,
+57_110/t0/r25,SDS-57/p170/0/r13,1.0,0.6,0.75,,components[1].mole_fraction pressure,
+57_110/t0/r26,SDS-57/p170/0/r14,1.0,0.6,0.75,,components[1].mole_fraction pressure,
+57_113/t0/r0,SDS-57/p173/0/r00,0.75,0.4286,0.5455,,components[1].mole_fraction gas[0].cas gas[0].mole_fraction pressure,components[1].partial_pressure
+57_113/t0/r1,SDS-57/p173/0/r01,0.75,0.4286,0.5455,,components[1].mole_fraction gas[0].cas gas[0].mole_fraction pressure,components[1].partial_pressure
+57_113/t0/r10,SDS-57/p173/0/r10,0.75,0.4286,0.5455,,components[1].mole_fraction gas[0].cas gas[0].mole_fraction pressure,components[1].partial_pressure
+57_113/t0/r11,SDS-57/p173/0/r11,0.75,0.4286,0.5455,,components[1].mole_fraction gas[0].cas gas[0].mole_fraction pressure,components[1].partial_pressure
+57_113/t0/r2,SDS-57/p173/0/r02,0.75,0.4286,0.5455,,components[1].mole_fraction gas[0].cas gas[0].mole_fraction pressure,components[1].partial_pressure
+57_113/t0/r3,SDS-57/p173/0/r03,0.75,0.4286,0.5455,,components[1].mole_fraction gas[0].cas gas[0].mole_fraction pressure,components[1].partial_pressure
+57_113/t0/r4,SDS-57/p173/0/r04,0.75,0.4286,0.5455,,components[1].mole_fraction gas[0].cas gas[0].mole_fraction pressure,components[1].partial_pressure
+57_113/t0/r5,SDS-57/p173/0/r05,0.75,0.4286,0.5455,,components[1].mole_fraction gas[0].cas gas[0].mole_fraction pressure,components[1].partial_pressure
+57_113/t0/r6,SDS-57/p173/0/r06,0.75,0.4286,0.5455,,components[1].mole_fraction gas[0].cas gas[0].mole_fraction pressure,components[1].partial_pressure
+57_113/t0/r7,SDS-57/p173/0/r07,0.75,0.4286,0.5455,,components[1].mole_fraction gas[0].cas gas[0].mole_fraction pressure,components[1].partial_pressure
+57_113/t0/r8,SDS-57/p173/0/r08,0.75,0.4286,0.5455,,components[1].mole_fraction gas[0].cas gas[0].mole_fraction pressure,components[1].partial_pressure
+57_113/t0/r9,SDS-57/p173/0/r09,0.75,0.4286,0.5455,,components[1].mole_fraction gas[0].cas gas[0].mole_fraction pressure,components[1].partial_pressure
+57_116/t0/r0,SDS-57/p176/0/r00,0.8,0.6667,0.7273,,components[1].henry_constant_c_gas_over_c_liquid components[1].mass_fraction,components[1].partial_pressure
+57_116/t0/r10,SDS-57/p176/0/r10,0.8,0.8,0.8,,components[1].henry_constant_c_gas_over_c_liquid,components[1].partial_pressure
+57_116/t0/r12,SDS-57/p176/0/r12,0.8,0.6667,0.7273,,components[1].henry_constant_c_gas_over_c_liquid components[1].mass_fraction,components[1].partial_pressure
+57_116/t0/r13,SDS-57/p176/0/r13,0.8,0.6667,0.7273,,components[1].henry_constant_c_gas_over_c_liquid components[1].mass_fraction,components[1].partial_pressure
+57_116/t0/r4,SDS-57/p176/0/r04,0.8,0.6667,0.7273,,components[1].henry_constant_c_gas_over_c_liquid components[1].mass_fraction,components[1].partial_pressure
+57_116/t0/r7,SDS-57/p176/0/r07,0.8,0.8,0.8,,components[1].henry_constant_c_gas_over_c_liquid,components[1].partial_pressure
+57_116/t0/r8,SDS-57/p176/0/r08,0.8,0.6667,0.7273,,components[1].henry_constant_c_gas_over_c_liquid components[1].mass_fraction,components[1].partial_pressure
+57_119/t0/r0,SDS-57/p179/0/r00,1.0,0.8,0.8889,,components[1].henry_constant_p_over_c,
+57_119/t0/r1,SDS-57/p179/0/r01,1.0,0.8,0.8889,,components[1].henry_constant_p_over_c,
+57_119/t0/r2,SDS-57/p179/0/r02,1.0,0.8,0.8889,,components[1].henry_constant_p_over_c,
+57_119/t0/r3,SDS-57/p179/0/r03,1.0,0.8,0.8889,,components[1].henry_constant_p_over_c,
+57_119/t0/r4,SDS-57/p179/0/r04,1.0,0.8,0.8889,,components[1].henry_constant_p_over_c,
+57_119/t0/r5,SDS-57/p179/0/r05,1.0,0.8,0.8889,,components[1].henry_constant_p_over_c,
+57_119/t0/r6,SDS-57/p179/0/r06,1.0,0.8,0.8889,,components[1].henry_constant_p_over_c,
+57_119/t0/r7,SDS-57/p179/0/r07,1.0,0.8,0.8889,,components[1].henry_constant_p_over_c,
+57_119/t0/r8,SDS-57/p179/0/r08,1.0,0.8,0.8889,,components[1].henry_constant_p_over_c,
+57_119/t0/r9,SDS-57/p179/0/r09,1.0,0.8,0.8889,,components[1].henry_constant_p_over_c,
+57_12/t0/r0,SDS-57/p030/0/r00,1.0,1.0,1.0,,,
+57_123/t0/r0,SDS-57/p183/0/r00,0.8333,0.8333,0.8333,,components[0].henry_constant_p_over_c,components[0].henry_constant_p_over_x
+57_123/t0/r10,SDS-57/p183/0/r10,0.8333,0.8333,0.8333,,components[0].henry_constant_p_over_c,components[0].henry_constant_p_over_x
+57_123/t0/r3,SDS-57/p183/0/r03,0.8333,0.8333,0.8333,,components[0].henry_constant_p_over_c,components[0].henry_constant_p_over_x
+57_123/t0/r6,SDS-57/p183/0/r06,0.8333,0.8333,0.8333,,components[0].henry_constant_p_over_c,components[0].henry_constant_p_over_x
+57_124/t0/r0,SDS-57/p185/0/r00,0.8333,0.8333,0.8333,,components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x
+57_124/t0/r10,SDS-57/p185/0/r10,0.8333,0.8333,0.8333,,components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x
+57_124/t0/r13,SDS-57/p185/0/r13,0.8333,0.8333,0.8333,,components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x
+57_124/t0/r16,SDS-57/p185/0/r16,0.8333,0.8333,0.8333,,components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x
+57_124/t0/r3,SDS-57/p185/0/r03,0.8333,0.8333,0.8333,,components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x
+57_124/t0/r6,SDS-57/p185/0/r06,0.8333,0.8333,0.8333,,components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x
+57_125/t0/r0,SDS-57/p186/0/r00,0.8333,0.8333,0.8333,,components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x
+57_125/t0/r10,SDS-57/p186/0/r10,0.6667,0.6667,0.6667,temperature=273.15|2273.15,components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x
+57_125/t0/r13,SDS-57/p186/0/r13,0.6667,0.6667,0.6667,temperature=251.95|2251.95,components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x
+57_125/t0/r16,SDS-57/p186/0/r16,0.6667,0.6667,0.6667,temperature=233.15|2233.15,components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x
+57_125/t0/r5,SDS-57/p186/0/r05,0.8333,0.8333,0.8333,,components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x
+57_125/t0/r8,SDS-57/p186/0/r08,0.8333,0.8333,0.8333,,components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x
+57_126/t0/r0,SDS-57/p187/0/r00,0.8,0.6667,0.7273,,components[1].henry_constant_p_over_c components[1].mole_fraction,components[1].henry_constant_p_over_x
+57_126/t0/r10,SDS-57/p187/0/r10,0.8,0.6667,0.7273,,components[1].henry_constant_p_over_c components[1].mole_fraction,components[1].henry_constant_p_over_x
+57_126/t0/r13,SDS-57/p187/0/r13,0.8,0.6667,0.7273,,components[1].henry_constant_p_over_c components[1].mole_fraction,components[1].henry_constant_p_over_x
+57_126/t0/r16,SDS-57/p187/0/r16,0.8,0.6667,0.7273,,components[1].henry_constant_p_over_c components[1].mole_fraction,components[1].henry_constant_p_over_x
+57_126/t0/r3,SDS-57/p187/0/r03,0.8,0.6667,0.7273,,components[1].henry_constant_p_over_c components[1].mole_fraction,components[1].henry_constant_p_over_x
+57_126/t0/r6,SDS-57/p187/0/r06,0.8,0.6667,0.7273,,components[1].henry_constant_p_over_c components[1].mole_fraction,components[1].henry_constant_p_over_x
+57_127/t0/r0,SDS-57/p188/0/r00,1.0,1.0,1.0,,,
+57_127/t0/r8,SDS-57/p188/0/r04,1.0,1.0,1.0,,,
+57_129/t0/r0,SDS-57/p190/0/r00,1.0,1.0,1.0,,,
+57_129/t0/r12,SDS-57/p190/0/r06,1.0,1.0,1.0,,,
+57_129/t0/r6,SDS-57/p190/0/r03,1.0,1.0,1.0,,,
+57_14/t0/r0,SDS-57/p034/0/r00,1.0,0.6667,0.8,,components[0].henry_constant_p_over_c components[0].mole_fraction,
+57_14/t0/r1,SDS-57/p034/0/r01,1.0,0.6667,0.8,,components[0].henry_constant_p_over_c components[0].mole_fraction,
+57_14/t0/r2,SDS-57/p034/0/r02,1.0,0.6667,0.8,,components[0].henry_constant_p_over_c components[0].mole_fraction,
+57_14/t0/r3,SDS-57/p034/0/r03,1.0,0.6667,0.8,,components[0].henry_constant_p_over_c components[0].mole_fraction,
+57_14/t0/r4,SDS-57/p034/0/r04,1.0,0.6667,0.8,,components[0].henry_constant_p_over_c components[0].mole_fraction,
+57_14/t0/r5,SDS-57/p034/0/r05,1.0,0.6667,0.8,,components[0].henry_constant_p_over_c components[0].mole_fraction,
+57_140/t0/r0,SDS-57/p208/0/r00,0.7143,1.0,0.8333,,,components[1].mole_fraction pressure
+57_140/t0/r1,SDS-57/p208/0/r01,0.7143,1.0,0.8333,,,components[1].mole_fraction pressure
+57_144/t0/r0,SDS-57/p212/0/r00,0.8,0.8,0.8,,components[0].cas,pressure
+57_144/t0/r1,SDS-57/p212/0/r01,0.8,0.8,0.8,,components[0].cas,pressure
+57_144/t0/r2,SDS-57/p212/0/r02,0.8,0.8,0.8,,components[0].cas,pressure
+57_144/t0/r3,SDS-57/p212/0/r03,0.8,0.8,0.8,,components[0].cas,pressure
+57_147/t0/r0,SDS-57/p215/0/r00,0.7143,1.0,0.8333,,,components[1].mole_fraction pressure
+57_147/t0/r1,SDS-57/p215/0/r01,0.7143,1.0,0.8333,,,components[1].mole_fraction pressure
+57_148/t0/r0,SDS-57/p216/0/r00,0.7143,1.0,0.8333,,,components[1].mole_fraction pressure
+57_149/t0/r0,SDS-57/p217/0/r00,0.7143,1.0,0.8333,,,components[1].mole_fraction pressure
+57_15/t0/r0,SDS-57/p035/0/r00,0.6,0.4286,0.5,gas[0].mole_fraction=0.86|0.004 temperature=439.15|100.0,components[0].mole_fraction pressure,
+57_15/t0/r1,SDS-57/p035/0/r01,0.6,0.4286,0.5,gas[0].mole_fraction=0.89|0.005 temperature=439.15|150.0,components[0].mole_fraction pressure,
+57_15/t0/r10,SDS-57/p035/0/r10,0.6,0.4286,0.5,gas[0].mole_fraction=0.597|0.036 temperature=573.15|380.0,components[0].mole_fraction pressure,
+57_15/t0/r11,SDS-57/p035/0/r11,0.6,0.4286,0.5,gas[0].mole_fraction=0.55|0.047 temperature=573.15|550.0,components[0].mole_fraction pressure,
+57_15/t0/r2,SDS-57/p035/0/r02,0.6,0.4286,0.5,gas[0].mole_fraction=0.959|0.01 temperature=439.15|635.0,components[0].mole_fraction pressure,
+57_15/t0/r3,SDS-57/p035/0/r03,0.6667,0.3333,0.4444,temperature=439.15|945.0,gas[0].cas gas[0].mole_fraction pressure,
+57_15/t0/r4,SDS-57/p035/0/r04,0.6,0.4286,0.5,gas[0].mole_fraction=0.63|0.014 temperature=523.15|190.0,components[0].mole_fraction pressure,
+57_15/t0/r5,SDS-57/p035/0/r05,0.6,0.4286,0.5,gas[0].mole_fraction=0.688|0.018 temperature=523.15|240.0,components[0].mole_fraction pressure,
+57_15/t0/r6,SDS-57/p035/0/r06,0.6,0.4286,0.5,gas[0].mole_fraction=0.766|0.026 temperature=523.15|375.0,components[0].mole_fraction pressure,
+57_15/t0/r7,SDS-57/p035/0/r07,0.6,0.4286,0.5,gas[0].mole_fraction=0.75|0.034 temperature=523.15|570.0,components[0].mole_fraction pressure,
+57_15/t0/r8,SDS-57/p035/0/r08,0.6,0.4286,0.5,gas[0].mole_fraction=0.81|0.04 temperature=523.15|730.0,components[0].mole_fraction pressure,
+57_15/t0/r9,SDS-57/p035/0/r09,0.6,0.4286,0.5,gas[0].mole_fraction=0.516|0.024 temperature=573.15|240.0,components[0].mole_fraction pressure,
+57_151/t0/r0,SDS-57/p219/0/r00,1.0,0.8333,0.9091,,components[0].cas,
+57_151/t0/r1,SDS-57/p219/0/r01,1.0,0.8333,0.9091,,components[0].cas,
+57_151/t0/r2,SDS-57/p219/0/r02,1.0,0.8333,0.9091,,components[0].cas,
+57_153/t0/r0,SDS-57/p221/0/r00,0.8,0.8,0.8,,components[0].cas,components[1].mole_fraction
+57_156/t0/r0,SDS-57/p224/0/r00,1.0,1.0,1.0,,,
+57_156/t0/r1,SDS-57/p224/0/r01,1.0,1.0,1.0,,,
+57_156/t0/r2,SDS-57/p224/0/r02,1.0,1.0,1.0,,,
+57_157/t0/r0,SDS-57/p225/0/r00,1.0,1.0,1.0,,,
+57_158/t0/r0,SDS-57/p226/0/r00,1.0,1.0,1.0,,,
+57_159/t0/r0,SDS-57/p227/0/r00,1.0,0.625,0.7692,,components[0].cas components[0].mole_fraction components[1].cas,
+57_159/t0/r1,SDS-57/p227/0/r01,1.0,0.625,0.7692,,components[0].cas components[0].mole_fraction components[1].cas,
+57_159/t0/r2,SDS-57/p227/0/r02,1.0,0.625,0.7692,,components[0].cas components[0].mole_fraction components[1].cas,
+57_159/t0/r3,SDS-57/p227/0/r03,1.0,0.625,0.7692,,components[0].cas components[0].mole_fraction components[1].cas,
+57_159/t0/r4,SDS-57/p227/0/r04,1.0,0.625,0.7692,,components[0].cas components[0].mole_fraction components[1].cas,
+57_159/t0/r5,SDS-57/p227/0/r05,1.0,0.625,0.7692,,components[0].cas components[0].mole_fraction components[1].cas,
+57_159/t0/r6,SDS-57/p227/0/r06,1.0,0.625,0.7692,,components[0].cas components[0].mole_fraction components[1].cas,
+57_159/t0/r7,SDS-57/p227/0/r07,1.0,0.625,0.7692,,components[0].cas components[0].mole_fraction components[1].cas,
+57_159/t0/r8,SDS-57/p227/0/r08,1.0,0.625,0.7692,,components[0].cas components[0].mole_fraction components[1].cas,
+57_164/t0/r0,SDS-57/p235/0/r00,0.5,0.2,0.2857,pressure=4320000.0|6606390.0,components[0].cas components[1].mole_fraction temperature,
+57_164/t0/r1,SDS-57/p235/0/r01,0.5,0.2,0.2857,pressure=2900000.0|5319562.5,components[0].cas components[1].mole_fraction temperature,
+57_164/t0/r10,SDS-57/p235/0/r10,0.5,0.2,0.2857,pressure=1190000.0|2127825.0,components[0].cas components[1].mole_fraction temperature,
+57_164/t0/r2,SDS-57/p235/0/r02,0.5,0.2,0.2857,pressure=1440000.0|4002337.5,components[0].cas components[1].mole_fraction temperature,
+57_164/t0/r3,SDS-57/p235/0/r03,0.5,0.2,0.2857,pressure=4980000.0|6332812.5,components[0].cas components[1].mole_fraction temperature,
+57_164/t0/r4,SDS-57/p235/0/r04,0.5,0.2,0.2857,pressure=3730000.0|5167575.0,components[0].cas components[1].mole_fraction temperature,
+57_164/t0/r5,SDS-57/p235/0/r05,0.5,0.2,0.2857,pressure=2460000.0|3982072.4999999995,components[0].cas components[1].mole_fraction temperature,
+57_164/t0/r6,SDS-57/p235/0/r06,0.5,0.2,0.2857,pressure=1230000.0|2837100.0,components[0].cas components[1].mole_fraction temperature,
+57_164/t0/r7,SDS-57/p235/0/r07,0.5,0.2,0.2857,pressure=4830000.0|5623537.5,components[0].cas components[1].mole_fraction temperature,
+57_164/t0/r8,SDS-57/p235/0/r08,0.5,0.2,0.2857,pressure=3590000.0|4427902.5,components[0].cas components[1].mole_fraction temperature,
+57_164/t0/r9,SDS-57/p235/0/r09,0.5,0.2,0.2857,pressure=2390000.0|3282930.0,components[0].cas components[1].mole_fraction temperature,
+57_168/t0/r0,SDS-57/p244/0/r00,0.7143,1.0,0.8333,,,components[1].mole_fraction pressure
+57_168/t0/r1,SDS-57/p244/0/r01,0.7143,1.0,0.8333,,,components[1].mole_fraction pressure
+57_168/t0/r2,SDS-57/p244/0/r02,0.7143,1.0,0.8333,,,components[1].mole_fraction pressure
+57_168/t0/r3,SDS-57/p244/0/r03,0.7143,1.0,0.8333,,,components[1].mole_fraction pressure
+57_168/t0/r4,SDS-57/p244/0/r04,0.7143,1.0,0.8333,,,components[1].mole_fraction pressure
+57_168/t0/r5,SDS-57/p244/0/r05,0.7143,1.0,0.8333,,,components[1].mole_fraction pressure
+57_168/t0/r6,SDS-57/p244/0/r06,0.7143,1.0,0.8333,,,components[1].mole_fraction pressure
+57_168/t0/r7,SDS-57/p244/0/r07,0.7143,1.0,0.8333,,,components[1].mole_fraction pressure
+57_168/t0/r8,SDS-57/p244/0/r08,0.7143,1.0,0.8333,,,components[1].mole_fraction pressure
+57_169/t0/r0,SDS-57/p245/0/r00,1.0,1.0,1.0,,,
+57_170/t0/r0,SDS-57/p246/0/r00,1.0,1.0,1.0,,,
+57_170/t0/r1,SDS-57/p246/0/r01,1.0,1.0,1.0,,,
+57_170/t0/r2,SDS-57/p246/0/r02,1.0,1.0,1.0,,,
+57_18/t0/r0,SDS-57/p042/0/r00,0.8,1.0,0.8889,,,components[0].partial_pressure
+57_18/t0/r1,SDS-57/p042/0/r01,0.8,1.0,0.8889,,,components[0].partial_pressure
+57_18/t0/r10,SDS-57/p042/0/r10,0.8,1.0,0.8889,,,components[0].partial_pressure
+57_18/t0/r11,SDS-57/p042/0/r11,0.8,1.0,0.8889,,,components[0].partial_pressure
+57_18/t0/r12,SDS-57/p042/0/r12,0.8,1.0,0.8889,,,components[0].partial_pressure
+57_18/t0/r13,SDS-57/p042/0/r13,0.8,1.0,0.8889,,,components[0].partial_pressure
+57_18/t0/r14,SDS-57/p042/0/r14,0.8,1.0,0.8889,,,components[0].partial_pressure
+57_18/t0/r15,SDS-57/p042/0/r15,0.8,1.0,0.8889,,,components[0].partial_pressure
+57_18/t0/r16,SDS-57/p042/0/r16,0.8,1.0,0.8889,,,components[0].partial_pressure
+57_18/t0/r2,SDS-57/p042/0/r02,0.8,1.0,0.8889,,,components[0].partial_pressure
+57_18/t0/r3,SDS-57/p042/0/r03,0.8,1.0,0.8889,,,components[0].partial_pressure
+57_18/t0/r4,SDS-57/p042/0/r04,0.8,1.0,0.8889,,,components[0].partial_pressure
+57_18/t0/r5,SDS-57/p042/0/r05,0.8,1.0,0.8889,,,components[0].partial_pressure
+57_18/t0/r6,SDS-57/p042/0/r06,0.8,1.0,0.8889,,,components[0].partial_pressure
+57_18/t0/r7,SDS-57/p042/0/r07,0.8,1.0,0.8889,,,components[0].partial_pressure
+57_18/t0/r8,SDS-57/p042/0/r08,0.8,1.0,0.8889,,,components[0].partial_pressure
+57_18/t0/r9,SDS-57/p042/0/r09,0.8,0.8,0.8,,components[0].mole_fraction,components[0].partial_pressure
+57_180/t0/r0,SDS-57/p256/0/r00,1.0,0.6667,0.8,,components[1].cas pressure,
+57_180/t0/r1,SDS-57/p256/0/r01,1.0,0.6667,0.8,,components[1].cas pressure,
+57_180/t0/r2,SDS-57/p256/0/r02,1.0,0.6667,0.8,,components[1].cas pressure,
+57_181/t0/r0,SDS-57/p257/0/r00,0.7143,1.0,0.8333,,,components[1].mole_fraction pressure
+57_181/t0/r1,SDS-57/p257/0/r01,0.7143,1.0,0.8333,,,components[1].mole_fraction pressure
+57_181/t0/r2,SDS-57/p257/0/r02,0.7143,1.0,0.8333,,,components[1].mole_fraction pressure
+57_181/t0/r3,SDS-57/p257/0/r03,0.7143,1.0,0.8333,,,components[1].mole_fraction pressure
+57_181/t0/r4,SDS-57/p257/0/r04,0.7143,1.0,0.8333,,,components[1].mole_fraction pressure
+57_183/t0/r0,SDS-57/p260/0/r00,1.0,1.0,1.0,,,
+57_183/t0/r1,SDS-57/p260/0/r01,1.0,1.0,1.0,,,
+57_183/t0/r2,SDS-57/p260/0/r02,1.0,1.0,1.0,,,
+57_184/t0/r0,SDS-57/p261/0/r00,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_184/t0/r1,SDS-57/p261/0/r01,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_184/t0/r2,SDS-57/p261/0/r02,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_184/t0/r3,SDS-57/p261/0/r03,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_184/t0/r4,SDS-57/p261/0/r04,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_186/t0/r0,SDS-57/p263/0/r00,0.6667,0.6667,0.6667,components[1].ostwald_coefficient=3.84|209.0,temperature,components[1].mole_fraction
+57_186/t0/r1,SDS-57/p263/0/r01,0.6667,0.6667,0.6667,components[1].ostwald_coefficient=3.32|176.0,temperature,components[1].mole_fraction
+57_186/t0/r2,SDS-57/p263/0/r02,0.6667,0.6667,0.6667,components[1].ostwald_coefficient=2.92|151.0,temperature,components[1].mole_fraction
+57_186/t0/r3,SDS-57/p263/0/r03,0.6667,0.6667,0.6667,components[1].ostwald_coefficient=2.61|131.7,temperature,components[1].mole_fraction
+57_186/t0/r4,SDS-57/p263/0/r04,0.6667,0.6667,0.6667,components[1].ostwald_coefficient=2.43|115.6,temperature,components[1].mole_fraction
+57_188/t0/r0,SDS-57/p265/0/r00,0.8571,0.8571,0.8571,,components[2].henry_constant_p_over_c,components[2].henry_constant_p_over_x
+57_188/t0/r1,SDS-57/p265/0/r01,0.8571,0.75,0.8,,components[0].mole_fraction components[2].henry_constant_p_over_c,components[2].henry_constant_p_over_x
+57_188/t0/r2,SDS-57/p265/0/r02,0.8571,0.75,0.8,,components[0].mole_fraction components[2].henry_constant_p_over_c,components[2].henry_constant_p_over_x
+57_188/t0/r3,SDS-57/p265/0/r03,0.8571,0.75,0.8,,components[0].mole_fraction components[2].henry_constant_p_over_c,components[2].henry_constant_p_over_x
+57_188/t0/r4,SDS-57/p265/0/r04,0.8571,0.8571,0.8571,,components[2].henry_constant_p_over_c,components[2].henry_constant_p_over_x
+57_19/t0/r0,SDS-57/p045/0/r00,0.75,0.6,0.6667,pressure=101325000.0|94770.0,components[0].mole_fraction,
+57_19/t0/r1,SDS-57/p045/0/r01,0.75,0.6,0.6667,pressure=101325000.0|86030.0,components[0].mole_fraction,
+57_19/t0/r2,SDS-57/p045/0/r02,0.75,0.6,0.6667,pressure=101325000.0|68670.0,components[0].mole_fraction,
+57_19/t0/r3,SDS-57/p045/0/r03,0.75,0.6,0.6667,pressure=101325000.0|36880.0,components[0].mole_fraction,
+57_19/t0/r4,SDS-57/p045/0/r04,0.75,0.75,0.75,pressure=344650000.0|338090.0,,
+57_19/t0/r5,SDS-57/p045/0/r05,0.75,0.75,0.75,pressure=344650000.0|329350.0,,
+57_19/t0/r6,SDS-57/p045/0/r06,0.75,0.75,0.75,pressure=344650000.0|311990.0,,
+57_19/t0/r7,SDS-57/p045/0/r07,0.75,0.75,0.75,pressure=344650000.0|280200.0,,
+57_19/t0/r8,SDS-57/p045/0/r08,0.75,0.75,0.75,pressure=344650000.0|227980.0,,
+57_19/t0/r9,SDS-57/p045/0/r09,0.75,0.6,0.6667,pressure=344650000.0|139750.0,components[0].mole_fraction,
+57_192/t0/r15,SDS-57/p272/0/r09,0.8333,0.7143,0.7692,pressure=10320000.0|10132500.0,temperature,
+57_192/t0/r2,SDS-57/p272/0/r02,1.0,0.8571,0.9231,,temperature,
+57_192/t0/r4,SDS-57/p272/0/r04,1.0,0.8571,0.9231,,temperature,
+57_192/t0/r9,SDS-57/p272/0/r03,0.6667,0.5714,0.6154,components[0].mole_fraction=0.11|0.04 gas[0].mole_fraction=0.89|0.955,temperature,
+57_193/t0/r19,SDS-57/p274/0/r00,0.6,0.4286,0.5,pressure=839000.0|1012999.9999999999,components[1].mole_fraction gas[0].cas gas[0].mole_fraction,components[1].partial_pressure
+57_193/t0/r20,SDS-57/p274/0/r01,0.6,0.4286,0.5,pressure=1834000.0|2027000.0000000002,components[1].mole_fraction gas[0].cas gas[0].mole_fraction,components[1].partial_pressure
+57_193/t0/r21,SDS-57/p274/0/r02,0.6,0.4286,0.5,pressure=2845000.0|3040000.0,components[1].mole_fraction gas[0].cas gas[0].mole_fraction,components[1].partial_pressure
+57_193/t0/r22,SDS-57/p274/0/r03,0.6,0.4286,0.5,pressure=3838000.0|4053000.0,components[1].mole_fraction gas[0].cas gas[0].mole_fraction,components[1].partial_pressure
+57_193/t0/r23,SDS-57/p274/0/r04,0.6,0.4286,0.5,pressure=4813000.0|5066000.0,components[1].mole_fraction gas[0].cas gas[0].mole_fraction,components[1].partial_pressure
+57_193/t0/r24,SDS-57/p274/0/r05,0.6,0.4286,0.5,pressure=5776000.0|6080000.0,components[1].mole_fraction gas[0].cas gas[0].mole_fraction,components[1].partial_pressure
+57_193/t0/r25,SDS-57/p274/0/r06,0.6,0.4286,0.5,pressure=6688000.0|7093000.0,components[1].mole_fraction gas[0].cas gas[0].mole_fraction,components[1].partial_pressure
+57_193/t0/r26,SDS-57/p274/0/r07,0.6,0.4286,0.5,pressure=7506000.0|8106000.0,components[1].mole_fraction gas[0].cas gas[0].mole_fraction,components[1].partial_pressure
+57_193/t0/r27,SDS-57/p274/0/r08,0.6,0.4286,0.5,pressure=7970000.0|9119000.0,components[1].mole_fraction gas[0].cas gas[0].mole_fraction,components[1].partial_pressure
+57_193/t0/r28,SDS-57/p274/0/r09,0.6,0.4286,0.5,pressure=7645000.0|9210000.0,components[1].mole_fraction gas[0].cas gas[0].mole_fraction,components[1].partial_pressure
+57_193/t0/r29,SDS-57/p274/0/r10,0.6,0.4286,0.5,pressure=666700.0|1012999.9999999999,components[1].mole_fraction gas[0].cas gas[0].mole_fraction,components[1].partial_pressure
+57_193/t0/r30,SDS-57/p274/0/r11,0.6,0.4286,0.5,pressure=1688000.0|2027000.0000000002,components[1].mole_fraction gas[0].cas gas[0].mole_fraction,components[1].partial_pressure
+57_193/t0/r31,SDS-57/p274/0/r12,0.6,0.4286,0.5,pressure=2645000.0|3040000.0,components[1].mole_fraction gas[0].cas gas[0].mole_fraction,components[1].partial_pressure
+57_193/t0/r32,SDS-57/p274/0/r13,0.6,0.4286,0.5,pressure=3591000.0|4053000.0,components[1].mole_fraction gas[0].cas gas[0].mole_fraction,components[1].partial_pressure
+57_193/t0/r33,SDS-57/p274/0/r14,0.6,0.4286,0.5,pressure=4539000.0|5066000.0,components[1].mole_fraction gas[0].cas gas[0].mole_fraction,components[1].partial_pressure
+57_193/t0/r34,SDS-57/p274/0/r15,0.6,0.4286,0.5,pressure=5484000.0|6080000.0,components[1].mole_fraction gas[0].cas gas[0].mole_fraction,components[1].partial_pressure
+57_193/t0/r35,SDS-57/p274/0/r16,0.6,0.4286,0.5,pressure=6412000.0|7093000.0,components[1].mole_fraction gas[0].cas gas[0].mole_fraction,components[1].partial_pressure
+57_193/t0/r36,SDS-57/p274/0/r17,0.6,0.4286,0.5,pressure=7312000.0|8106000.0,components[1].mole_fraction gas[0].cas gas[0].mole_fraction,components[1].partial_pressure
+57_193/t0/r37,SDS-57/p274/0/r18,0.6,0.4286,0.5,pressure=8098000.0|9119000.0,components[1].mole_fraction gas[0].cas gas[0].mole_fraction,components[1].partial_pressure
+57_193/t0/r38,SDS-57/p274/0/r19,0.6,0.4286,0.5,pressure=8481000.0|10133000.0,components[1].mole_fraction gas[0].cas gas[0].mole_fraction,components[1].partial_pressure
+57_193/t0/r39,SDS-57/p274/0/r20,0.6,0.4286,0.5,pressure=8148000.0|10224000.0,components[1].mole_fraction gas[0].cas gas[0].mole_fraction,components[1].partial_pressure
+57_2/t0/r0,SDS-57/p020/0/r00,0.75,0.8571,0.8,,pressure,components[0].henry_constant_p_over_x components[0].mole_fraction
+57_203/t0/r0,SDS-57/p286/0/r00,1.0,0.6,0.75,,components[1].henry_constant_p_over_c components[1].mole_fraction,
+57_203/t0/r1,SDS-57/p286/0/r01,1.0,0.6,0.75,,components[1].henry_constant_p_over_c components[1].mole_fraction,
+57_205/t0/r0,SDS-57/p291/0/r00,0.8333,1.0,0.9091,,,components[1].mole_fraction
+57_205/t0/r1,SDS-57/p291/0/r01,0.8333,1.0,0.9091,,,components[1].mole_fraction
+57_205/t0/r2,SDS-57/p291/0/r02,0.8333,1.0,0.9091,,,components[1].mole_fraction
+57_205/t0/r3,SDS-57/p291/0/r03,0.8333,1.0,0.9091,,,components[1].mole_fraction
+57_205/t0/r4,SDS-57/p291/0/r04,0.8333,1.0,0.9091,,,components[1].mole_fraction
+57_205/t0/r5,SDS-57/p291/0/r05,0.8333,1.0,0.9091,,,components[1].mole_fraction
+57_205/t0/r6,SDS-57/p291/0/r06,0.8333,1.0,0.9091,,,components[1].mole_fraction
+57_205/t0/r7,SDS-57/p291/0/r07,0.8333,0.8333,0.8333,components[1].mole_fraction=0.9641|0.009641,,
+57_205/t0/r8,SDS-57/p291/0/r08,0.8333,0.8333,0.8333,components[1].mole_fraction=0.9144|0.009144,,
+57_208/t0/r0,SDS-57/p294/0/r00,0.7143,0.8333,0.7692,components[1].mole_fraction=0.78|0.0078000000000000005,,pressure
+57_208/t0/r1,SDS-57/p294/0/r01,0.7143,0.8333,0.7692,components[1].mole_fraction=0.746|0.00746,,pressure
+57_208/t0/r2,SDS-57/p294/0/r02,0.7143,0.8333,0.7692,components[1].mole_fraction=0.681|0.00681,,pressure
+57_209/t0/r0,SDS-57/p295/0/r00,0.8333,1.0,0.9091,,,components[0].mole_fraction
+57_209/t0/r1,SDS-57/p295/0/r01,0.8333,1.0,0.9091,,,components[0].mole_fraction
+57_209/t0/r2,SDS-57/p295/0/r02,0.8333,1.0,0.9091,,,components[0].mole_fraction
+57_209/t0/r3,SDS-57/p295/0/r03,0.8333,1.0,0.9091,,,components[0].mole_fraction
+57_209/t0/r4,SDS-57/p295/0/r04,0.8333,1.0,0.9091,,,components[0].mole_fraction
+57_209/t0/r5,SDS-57/p295/0/r05,0.8333,1.0,0.9091,,,components[0].mole_fraction
+57_209/t0/r6,SDS-57/p295/0/r06,0.8333,1.0,0.9091,,,components[0].mole_fraction
+57_209/t0/r7,SDS-57/p295/0/r07,0.8333,1.0,0.9091,,,components[0].mole_fraction
+57_209/t0/r8,SDS-57/p295/0/r08,0.8333,0.8333,0.8333,components[0].mole_fraction=0.9581|0.009581,,
+57_212/t0/r0,SDS-57/p298/0/r00,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_212/t0/r2,SDS-57/p298/0/r02,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_212/t0/r3,SDS-57/p298/0/r03,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_212/t0/r4,SDS-57/p298/0/r04,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_213/t0/r0,SDS-57/p299/0/r00,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_213/t0/r1,SDS-57/p299/0/r01,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_213/t0/r2,SDS-57/p299/0/r02,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_213/t0/r3,SDS-57/p299/0/r03,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_213/t0/r4,SDS-57/p299/0/r04,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_214/t0/r0,SDS-57/p300/0/r00,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_214/t0/r1,SDS-57/p300/0/r01,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_214/t0/r2,SDS-57/p300/0/r02,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_214/t0/r3,SDS-57/p300/0/r03,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_214/t0/r4,SDS-57/p300/0/r04,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_215/t0/r0,SDS-57/p301/0/r00,0.6,0.5,0.5455,components[1].ostwald_coefficient=3.33|150.0,pressure temperature,components[1].mole_fraction
+57_215/t0/r1,SDS-57/p301/0/r01,0.6,0.5,0.5455,components[1].ostwald_coefficient=2.99|131.5,pressure temperature,components[1].mole_fraction
+57_215/t0/r2,SDS-57/p301/0/r02,0.6,0.5,0.5455,components[1].ostwald_coefficient=2.67|114.5,pressure temperature,components[1].mole_fraction
+57_215/t0/r3,SDS-57/p301/0/r03,0.6,0.5,0.5455,components[1].ostwald_coefficient=2.52|106.9,pressure temperature,components[1].mole_fraction
+57_215/t0/r4,SDS-57/p301/0/r04,0.6,0.5,0.5455,components[1].ostwald_coefficient=2.4|100.5,pressure temperature,components[1].mole_fraction
+57_216/t0/r0,SDS-57/p302/0/r00,0.8333,0.8333,0.8333,,components[0].cas,components[1].mole_fraction
+57_216/t0/r1,SDS-57/p302/0/r01,0.8333,0.8333,0.8333,,components[0].cas,components[1].mole_fraction
+57_216/t0/r2,SDS-57/p302/0/r02,0.8333,0.8333,0.8333,,components[0].cas,components[1].mole_fraction
+57_216/t0/r3,SDS-57/p302/0/r03,0.8333,0.8333,0.8333,,components[0].cas,components[1].mole_fraction
+57_216/t0/r4,SDS-57/p302/0/r04,0.8333,0.8333,0.8333,,components[0].cas,components[1].mole_fraction
+57_217/t0/r0,SDS-57/p303/0/r00,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_217/t0/r1,SDS-57/p303/0/r01,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_217/t0/r2,SDS-57/p303/0/r02,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_217/t0/r3,SDS-57/p303/0/r03,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_217/t0/r4,SDS-57/p303/0/r04,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_219/t0/r0,SDS-57/p305/0/r00,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_219/t0/r1,SDS-57/p305/0/r01,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_219/t0/r2,SDS-57/p305/0/r02,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_219/t0/r3,SDS-57/p305/0/r03,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_219/t0/r4,SDS-57/p305/0/r04,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_222/t0/r0,SDS-57/p312/0/r00,0.5,0.6,0.5455,,components[0].cas components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x components[1].partial_pressure pressure
+57_222/t0/r1,SDS-57/p312/0/r01,0.5,0.6,0.5455,,components[0].cas components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x components[1].partial_pressure pressure
+57_222/t0/r10,SDS-57/p312/0/r10,0.5,0.6,0.5455,,components[0].cas components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x components[1].partial_pressure pressure
+57_222/t0/r11,SDS-57/p312/0/r11,0.5,0.6,0.5455,,components[0].cas components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x components[1].partial_pressure pressure
+57_222/t0/r12,SDS-57/p312/0/r12,0.5,0.6,0.5455,,components[0].cas components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x components[1].partial_pressure pressure
+57_222/t0/r13,SDS-57/p312/0/r13,0.5,0.6,0.5455,,components[0].cas components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x components[1].partial_pressure pressure
+57_222/t0/r14,SDS-57/p312/0/r14,0.5,0.6,0.5455,,components[0].cas components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x components[1].partial_pressure pressure
+57_222/t0/r15,SDS-57/p312/0/r15,0.5,0.6,0.5455,,components[0].cas components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x components[1].partial_pressure pressure
+57_222/t0/r16,SDS-57/p312/0/r16,0.5,0.6,0.5455,,components[0].cas components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x components[1].partial_pressure pressure
+57_222/t0/r17,SDS-57/p312/0/r17,0.5,0.6,0.5455,,components[0].cas components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x components[1].partial_pressure pressure
+57_222/t0/r2,SDS-57/p312/0/r02,0.5,0.6,0.5455,,components[0].cas components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x components[1].partial_pressure pressure
+57_222/t0/r3,SDS-57/p312/0/r03,0.5,0.6,0.5455,,components[0].cas components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x components[1].partial_pressure pressure
+57_222/t0/r4,SDS-57/p312/0/r04,0.5,0.6,0.5455,,components[0].cas components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x components[1].partial_pressure pressure
+57_222/t0/r5,SDS-57/p312/0/r05,0.5,0.6,0.5455,,components[0].cas components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x components[1].partial_pressure pressure
+57_222/t0/r6,SDS-57/p312/0/r06,0.5,0.6,0.5455,,components[0].cas components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x components[1].partial_pressure pressure
+57_222/t0/r7,SDS-57/p312/0/r07,0.5,0.6,0.5455,,components[0].cas components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x components[1].partial_pressure pressure
+57_222/t0/r8,SDS-57/p312/0/r08,0.5,0.6,0.5455,,components[0].cas components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x components[1].partial_pressure pressure
+57_222/t0/r9,SDS-57/p312/0/r09,0.5,0.6,0.5455,,components[0].cas components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x components[1].partial_pressure pressure
+57_223/t0/r100,SDS-57/p315/0/r15,1.0,0.4286,0.6,,components[0].cas components[1].mole_fraction gas[0].cas gas[0].mole_fraction,
+57_223/t0/r102,SDS-57/p315/0/r16,1.0,0.4286,0.6,,components[0].cas components[1].mole_fraction gas[0].cas gas[0].mole_fraction,
+57_223/t0/r104,SDS-57/p315/0/r17,1.0,0.4286,0.6,,components[0].cas components[1].mole_fraction gas[0].cas gas[0].mole_fraction,
+57_223/t0/r70,SDS-57/p315/0/r00,1.0,0.4286,0.6,,components[0].cas components[1].mole_fraction gas[0].cas gas[0].mole_fraction,
+57_223/t0/r72,SDS-57/p315/0/r01,1.0,0.4286,0.6,,components[0].cas components[1].mole_fraction gas[0].cas gas[0].mole_fraction,
+57_223/t0/r74,SDS-57/p315/0/r02,1.0,0.4286,0.6,,components[0].cas components[1].mole_fraction gas[0].cas gas[0].mole_fraction,
+57_223/t0/r76,SDS-57/p315/0/r03,1.0,0.4286,0.6,,components[0].cas components[1].mole_fraction gas[0].cas gas[0].mole_fraction,
+57_223/t0/r78,SDS-57/p315/0/r04,1.0,0.4286,0.6,,components[0].cas components[1].mole_fraction gas[0].cas gas[0].mole_fraction,
+57_223/t0/r80,SDS-57/p315/0/r05,1.0,0.4286,0.6,,components[0].cas components[1].mole_fraction gas[0].cas gas[0].mole_fraction,
+57_223/t0/r82,SDS-57/p315/0/r06,1.0,0.4286,0.6,,components[0].cas components[1].mole_fraction gas[0].cas gas[0].mole_fraction,
+57_223/t0/r84,SDS-57/p315/0/r07,1.0,0.4286,0.6,,components[0].cas components[1].mole_fraction gas[0].cas gas[0].mole_fraction,
+57_223/t0/r86,SDS-57/p315/0/r08,1.0,0.4286,0.6,,components[0].cas components[1].mole_fraction gas[0].cas gas[0].mole_fraction,
+57_223/t0/r88,SDS-57/p315/0/r09,1.0,0.4286,0.6,,components[0].cas components[1].mole_fraction gas[0].cas gas[0].mole_fraction,
+57_223/t0/r90,SDS-57/p315/0/r10,1.0,0.4286,0.6,,components[0].cas components[1].mole_fraction gas[0].cas gas[0].mole_fraction,
+57_223/t0/r92,SDS-57/p315/0/r11,1.0,0.4286,0.6,,components[0].cas components[1].mole_fraction gas[0].cas gas[0].mole_fraction,
+57_223/t0/r94,SDS-57/p315/0/r12,1.0,0.4286,0.6,,components[0].cas components[1].mole_fraction gas[0].cas gas[0].mole_fraction,
+57_223/t0/r96,SDS-57/p315/0/r13,1.0,0.4286,0.6,,components[0].cas components[1].mole_fraction gas[0].cas gas[0].mole_fraction,
+57_223/t0/r98,SDS-57/p315/0/r14,1.0,0.4286,0.6,,components[0].cas components[1].mole_fraction gas[0].cas gas[0].mole_fraction,
+57_224/t0/r0,SDS-57/p317/0/r00,1.0,0.8,0.8889,,components[0].cas,
+57_224/t0/r1,SDS-57/p317/0/r01,1.0,0.8,0.8889,,components[0].cas,
+57_224/t0/r10,SDS-57/p317/0/r10,1.0,0.8,0.8889,,components[0].cas,
+57_224/t0/r11,SDS-57/p317/0/r11,1.0,0.8,0.8889,,components[0].cas,
+57_224/t0/r12,SDS-57/p317/0/r12,1.0,0.8,0.8889,,components[0].cas,
+57_224/t0/r13,SDS-57/p317/0/r13,1.0,0.8,0.8889,,components[0].cas,
+57_224/t0/r14,SDS-57/p317/0/r14,1.0,0.8,0.8889,,components[0].cas,
+57_224/t0/r15,SDS-57/p317/0/r15,1.0,0.8,0.8889,,components[0].cas,
+57_224/t0/r16,SDS-57/p317/0/r16,1.0,0.8,0.8889,,components[0].cas,
+57_224/t0/r2,SDS-57/p317/0/r02,1.0,0.8,0.8889,,components[0].cas,
+57_224/t0/r3,SDS-57/p317/0/r03,1.0,0.8,0.8889,,components[0].cas,
+57_224/t0/r4,SDS-57/p317/0/r04,1.0,0.8,0.8889,,components[0].cas,
+57_224/t0/r5,SDS-57/p317/0/r05,1.0,0.8,0.8889,,components[0].cas,
+57_224/t0/r6,SDS-57/p317/0/r06,1.0,0.8,0.8889,,components[0].cas,
+57_224/t0/r7,SDS-57/p317/0/r07,1.0,0.8,0.8889,,components[0].cas,
+57_224/t0/r8,SDS-57/p317/0/r08,1.0,0.8,0.8889,,components[0].cas,
+57_224/t0/r9,SDS-57/p317/0/r09,1.0,0.8,0.8889,,components[0].cas,
+57_225/t0/r0,SDS-57/p318/0/r00,0.8,0.8,0.8,,components[0].henry_constant_p_over_c,components[0].henry_constant_p_over_x
+57_225/t0/r1,SDS-57/p318/0/r01,0.8,0.8,0.8,,components[0].henry_constant_p_over_c,components[0].henry_constant_p_over_x
+57_225/t0/r2,SDS-57/p318/0/r02,0.8,0.8,0.8,,components[0].henry_constant_p_over_c,components[0].henry_constant_p_over_x
+57_226/t0/r16,SDS-57/p320/0/r00,0.75,0.3,0.4286,,components[0].cas components[0].mole_fraction components[1].mole_fraction gas[0].cas gas[0].mole_fraction gas[1].cas gas[1].mole_fraction,components[-1].cas
+57_226/t0/r17,SDS-57/p320/0/r01,0.75,0.3,0.4286,,components[0].cas components[0].mole_fraction components[1].mole_fraction gas[0].cas gas[0].mole_fraction gas[1].cas gas[1].mole_fraction,components[-1].cas
+57_226/t0/r18,SDS-57/p320/0/r02,0.75,0.3,0.4286,,components[0].cas components[0].mole_fraction components[1].mole_fraction gas[0].cas gas[0].mole_fraction gas[1].cas gas[1].mole_fraction,components[-1].cas
+57_226/t0/r19,SDS-57/p320/0/r03,0.75,0.3,0.4286,,components[0].cas components[0].mole_fraction components[1].mole_fraction gas[0].cas gas[0].mole_fraction gas[1].cas gas[1].mole_fraction,components[-1].cas
+57_226/t0/r20,SDS-57/p320/0/r04,0.75,0.3,0.4286,,components[0].cas components[0].mole_fraction components[1].mole_fraction gas[0].cas gas[0].mole_fraction gas[1].cas gas[1].mole_fraction,components[-1].cas
+57_226/t0/r21,SDS-57/p320/0/r05,0.75,0.3,0.4286,,components[0].cas components[0].mole_fraction components[1].mole_fraction gas[0].cas gas[0].mole_fraction gas[1].cas gas[1].mole_fraction,components[-1].cas
+57_226/t0/r22,SDS-57/p320/0/r06,0.75,0.3,0.4286,,components[0].cas components[0].mole_fraction components[1].mole_fraction gas[0].cas gas[0].mole_fraction gas[1].cas gas[1].mole_fraction,components[-1].cas
+57_226/t0/r23,SDS-57/p320/0/r07,0.75,0.3,0.4286,,components[0].cas components[0].mole_fraction components[1].mole_fraction gas[0].cas gas[0].mole_fraction gas[1].cas gas[1].mole_fraction,components[-1].cas
+57_226/t0/r24,SDS-57/p320/0/r08,0.75,0.3,0.4286,,components[0].cas components[0].mole_fraction components[1].mole_fraction gas[0].cas gas[0].mole_fraction gas[1].cas gas[1].mole_fraction,components[-1].cas
+57_226/t0/r25,SDS-57/p320/0/r09,0.75,0.3,0.4286,,components[0].cas components[0].mole_fraction components[1].mole_fraction gas[0].cas gas[0].mole_fraction gas[1].cas gas[1].mole_fraction,components[-1].cas
+57_226/t0/r26,SDS-57/p320/0/r10,0.75,0.3,0.4286,,components[0].cas components[0].mole_fraction components[1].mole_fraction gas[0].cas gas[0].mole_fraction gas[1].cas gas[1].mole_fraction,components[-1].cas
+57_226/t0/r27,SDS-57/p320/0/r11,0.75,0.3,0.4286,,components[0].cas components[0].mole_fraction components[1].mole_fraction gas[0].cas gas[0].mole_fraction gas[1].cas gas[1].mole_fraction,components[-1].cas
+57_226/t0/r28,SDS-57/p320/0/r12,0.75,0.3,0.4286,,components[0].cas components[0].mole_fraction components[1].mole_fraction gas[0].cas gas[0].mole_fraction gas[1].cas gas[1].mole_fraction,components[-1].cas
+57_226/t0/r29,SDS-57/p320/0/r13,0.75,0.3,0.4286,,components[0].cas components[0].mole_fraction components[1].mole_fraction gas[0].cas gas[0].mole_fraction gas[1].cas gas[1].mole_fraction,components[-1].cas
+57_226/t0/r30,SDS-57/p320/0/r14,0.75,0.3,0.4286,,components[0].cas components[0].mole_fraction components[1].mole_fraction gas[0].cas gas[0].mole_fraction gas[1].cas gas[1].mole_fraction,components[-1].cas
+57_226/t0/r31,SDS-57/p320/0/r15,0.75,0.3,0.4286,,components[0].cas components[0].mole_fraction components[1].mole_fraction gas[0].cas gas[0].mole_fraction gas[1].cas gas[1].mole_fraction,components[-1].cas
+57_226/t0/r32,SDS-57/p320/0/r16,0.75,0.3,0.4286,,components[0].cas components[0].mole_fraction components[1].mole_fraction gas[0].cas gas[0].mole_fraction gas[1].cas gas[1].mole_fraction,components[-1].cas
+57_227/t0/r0,SDS-57/p323/0/r00,0.5,0.4,0.4444,,components[0].cas components[0].mole_fraction components[1].cas,components[-1].cas components[-1].mole_fraction
+57_227/t0/r1,SDS-57/p323/0/r01,0.5,0.4,0.4444,,components[0].cas components[0].mole_fraction components[1].cas,components[-1].cas components[-1].mole_fraction
+57_227/t0/r10,SDS-57/p323/0/r10,0.5,0.4,0.4444,,components[0].cas components[0].mole_fraction components[1].cas,components[-1].cas components[-1].mole_fraction
+57_227/t0/r11,SDS-57/p323/0/r11,0.5,0.4,0.4444,,components[0].cas components[0].mole_fraction components[1].cas,components[-1].cas components[-1].mole_fraction
+57_227/t0/r12,SDS-57/p323/0/r12,0.5,0.4,0.4444,,components[0].cas components[0].mole_fraction components[1].cas,components[-1].cas components[-1].mole_fraction
+57_227/t0/r13,SDS-57/p323/0/r13,0.5,0.4,0.4444,,components[0].cas components[0].mole_fraction components[1].cas,components[-1].cas components[-1].mole_fraction
+57_227/t0/r14,SDS-57/p323/0/r14,0.5,0.4,0.4444,,components[0].cas components[0].mole_fraction components[1].cas,components[-1].cas components[-1].mole_fraction
+57_227/t0/r15,SDS-57/p323/0/r15,0.5,0.4,0.4444,,components[0].cas components[0].mole_fraction components[1].cas,components[-1].cas components[-1].mole_fraction
+57_227/t0/r16,SDS-57/p323/0/r16,0.5,0.4,0.4444,,components[0].cas components[0].mole_fraction components[1].cas,components[-1].cas components[-1].mole_fraction
+57_227/t0/r17,SDS-57/p323/0/r17,0.5,0.4,0.4444,,components[0].cas components[0].mole_fraction components[1].cas,components[-1].cas components[-1].mole_fraction
+57_227/t0/r18,SDS-57/p323/0/r18,0.5,0.4,0.4444,,components[0].cas components[0].mole_fraction components[1].cas,components[-1].cas components[-1].mole_fraction
+57_227/t0/r19,SDS-57/p323/0/r19,0.5,0.4,0.4444,,components[0].cas components[0].mole_fraction components[1].cas,components[-1].cas components[-1].mole_fraction
+57_227/t0/r2,SDS-57/p323/0/r02,0.5,0.4,0.4444,,components[0].cas components[0].mole_fraction components[1].cas,components[-1].cas components[-1].mole_fraction
+57_227/t0/r20,SDS-57/p323/0/r20,0.5,0.4,0.4444,,components[0].cas components[0].mole_fraction components[1].cas,components[-1].cas components[-1].mole_fraction
+57_227/t0/r21,SDS-57/p323/0/r21,0.5,0.4,0.4444,,components[0].cas components[0].mole_fraction components[1].cas,components[-1].cas components[-1].mole_fraction
+57_227/t0/r22,SDS-57/p323/0/r22,0.5,0.4,0.4444,,components[0].cas components[0].mole_fraction components[1].cas,components[-1].cas components[-1].mole_fraction
+57_227/t0/r3,SDS-57/p323/0/r03,0.5,0.4,0.4444,,components[0].cas components[0].mole_fraction components[1].cas,components[-1].cas components[-1].mole_fraction
+57_227/t0/r4,SDS-57/p323/0/r04,0.5,0.4,0.4444,,components[0].cas components[0].mole_fraction components[1].cas,components[-1].cas components[-1].mole_fraction
+57_227/t0/r5,SDS-57/p323/0/r05,0.5,0.4,0.4444,,components[0].cas components[0].mole_fraction components[1].cas,components[-1].cas components[-1].mole_fraction
+57_227/t0/r6,SDS-57/p323/0/r06,0.5,0.4,0.4444,,components[0].cas components[0].mole_fraction components[1].cas,components[-1].cas components[-1].mole_fraction
+57_227/t0/r7,SDS-57/p323/0/r07,0.5,0.4,0.4444,,components[0].cas components[0].mole_fraction components[1].cas,components[-1].cas components[-1].mole_fraction
+57_227/t0/r8,SDS-57/p323/0/r08,0.5,0.4,0.4444,,components[0].cas components[0].mole_fraction components[1].cas,components[-1].cas components[-1].mole_fraction
+57_227/t0/r9,SDS-57/p323/0/r09,0.5,0.4,0.4444,,components[0].cas components[0].mole_fraction components[1].cas,components[-1].cas components[-1].mole_fraction
+57_228/t0/r0,SDS-57/p324/0/r00,1.0,0.8,0.8889,,components[1].cas,
+57_228/t0/r1,SDS-57/p324/0/r01,1.0,0.8,0.8889,,components[1].cas,
+57_228/t0/r10,SDS-57/p324/0/r10,1.0,0.8,0.8889,,components[1].cas,
+57_228/t0/r11,SDS-57/p324/0/r11,1.0,0.8,0.8889,,components[1].cas,
+57_228/t0/r12,SDS-57/p324/0/r12,1.0,0.8,0.8889,,components[1].cas,
+57_228/t0/r13,SDS-57/p324/0/r13,1.0,0.8,0.8889,,components[1].cas,
+57_228/t0/r2,SDS-57/p324/0/r02,1.0,0.8,0.8889,,components[1].cas,
+57_228/t0/r3,SDS-57/p324/0/r03,1.0,0.8,0.8889,,components[1].cas,
+57_228/t0/r4,SDS-57/p324/0/r04,1.0,0.8,0.8889,,components[1].cas,
+57_228/t0/r5,SDS-57/p324/0/r05,1.0,0.8,0.8889,,components[1].cas,
+57_228/t0/r6,SDS-57/p324/0/r06,1.0,0.8,0.8889,,components[1].cas,
+57_228/t0/r7,SDS-57/p324/0/r07,1.0,0.8,0.8889,,components[1].cas,
+57_228/t0/r8,SDS-57/p324/0/r08,1.0,0.8,0.8889,,components[1].cas,
+57_228/t0/r9,SDS-57/p324/0/r09,1.0,0.8,0.8889,,components[1].cas,
+57_235/t0/r0,SDS-57/p333/0/r00,1.0,1.0,1.0,,,
+57_24/t0/r0,SDS-57/p062/0/r00,1.0,0.8571,0.9231,,components[0].molar_concentration,
+57_24/t0/r1,SDS-57/p062/0/r01,1.0,0.8571,0.9231,,components[0].molar_concentration,
+57_24/t0/r2,SDS-57/p062/0/r02,1.0,0.8571,0.9231,,components[0].molar_concentration,
+57_24/t0/r3,SDS-57/p062/0/r03,1.0,0.8571,0.9231,,components[0].molar_concentration,
+57_24/t0/r4,SDS-57/p062/0/r04,1.0,0.8571,0.9231,,components[0].molar_concentration,
+57_240/t0/r0,SDS-57/p338/0/r00,0.5,0.3333,0.4,pressure=790000.0|2716000.0 temperature=298.15|323.5,components[0].bunsen_coefficient components[0].mole_fraction,
+57_240/t0/r1,SDS-57/p338/0/r01,0.75,0.5,0.6,pressure=1023000.0|3384000.0000000005,components[0].bunsen_coefficient components[0].mole_fraction,
+57_240/t0/r2,SDS-57/p338/0/r02,0.75,0.5,0.6,temperature=298.15|343.15,components[0].bunsen_coefficient components[0].mole_fraction,
+57_240/t0/r3,SDS-57/p338/0/r03,0.75,0.5,0.6,pressure=1611000.0|1763000.0,components[0].bunsen_coefficient components[0].mole_fraction,
+57_240/t0/r4,SDS-57/p338/0/r04,0.75,0.5,0.6,pressure=1864000.0|2290000.0,components[0].bunsen_coefficient components[0].mole_fraction,
+57_240/t0/r5,SDS-57/p338/0/r05,0.75,0.5,0.6,pressure=1976000.0|2898000.0,components[0].bunsen_coefficient components[0].mole_fraction,
+57_240/t0/r6,SDS-57/p338/0/r06,0.75,0.5,0.6,pressure=800000.0|3151000.0,components[0].bunsen_coefficient components[0].mole_fraction,
+57_240/t0/r7,SDS-57/p338/0/r07,0.75,0.5,0.6,pressure=1408000.0|3617000.0,components[0].bunsen_coefficient components[0].mole_fraction,
+57_240/t0/r8,SDS-57/p338/0/r08,0.75,0.5,0.6,pressure=1550000.0|4185000.0,components[0].bunsen_coefficient components[0].mole_fraction,
+57_240/t0/r9,SDS-57/p338/0/r09,0.75,0.5,0.6,pressure=2128000.0|4215000.0,components[0].bunsen_coefficient components[0].mole_fraction,
+57_241/t0/r0,SDS-57/p339/0/r00,0.6667,0.3333,0.4444,temperature=298.15|18.14,components[0].bunsen_coefficient components[0].mole_fraction components[1].cas,
+57_241/t0/r1,SDS-57/p339/0/r01,0.6667,0.3333,0.4444,temperature=298.15|24.01,components[0].bunsen_coefficient components[0].mole_fraction components[1].cas,
+57_241/t0/r10,SDS-57/p339/0/r10,0.6667,0.3333,0.4444,temperature=298.15|8.71,components[0].bunsen_coefficient components[0].mole_fraction components[1].cas,
+57_241/t0/r11,SDS-57/p339/0/r11,0.6667,0.3333,0.4444,temperature=298.15|13.37,components[0].bunsen_coefficient components[0].mole_fraction components[1].cas,
+57_241/t0/r12,SDS-57/p339/0/r12,0.6667,0.3333,0.4444,temperature=323.15|30.4,components[0].bunsen_coefficient components[0].mole_fraction components[1].cas,
+57_241/t0/r13,SDS-57/p339/0/r13,0.6667,0.3333,0.4444,temperature=323.15|53.8,components[0].bunsen_coefficient components[0].mole_fraction components[1].cas,
+57_241/t0/r14,SDS-57/p339/0/r14,0.6667,0.3333,0.4444,temperature=323.15|86.84,components[0].bunsen_coefficient components[0].mole_fraction components[1].cas,
+57_241/t0/r15,SDS-57/p339/0/r15,0.6667,0.3333,0.4444,temperature=323.15|94.64,components[0].bunsen_coefficient components[0].mole_fraction components[1].cas,
+57_241/t0/r2,SDS-57/p339/0/r02,0.6667,0.3333,0.4444,temperature=298.15|25.53,components[0].bunsen_coefficient components[0].mole_fraction components[1].cas,
+57_241/t0/r3,SDS-57/p339/0/r03,0.6667,0.3333,0.4444,temperature=298.15|27.46,components[0].bunsen_coefficient components[0].mole_fraction components[1].cas,
+57_241/t0/r4,SDS-57/p339/0/r04,0.6667,0.3333,0.4444,temperature=298.15|38.81,components[0].bunsen_coefficient components[0].mole_fraction components[1].cas,
+57_241/t0/r5,SDS-57/p339/0/r05,0.6667,0.3333,0.4444,temperature=298.15|50.36,components[0].bunsen_coefficient components[0].mole_fraction components[1].cas,
+57_241/t0/r6,SDS-57/p339/0/r06,0.6667,0.3333,0.4444,temperature=298.15|51.98,components[0].bunsen_coefficient components[0].mole_fraction components[1].cas,
+57_241/t0/r7,SDS-57/p339/0/r07,0.6667,0.3333,0.4444,temperature=298.15|73.06,components[0].bunsen_coefficient components[0].mole_fraction components[1].cas,
+57_241/t0/r8,SDS-57/p339/0/r08,0.6667,0.3333,0.4444,temperature=298.15|83.39,components[0].bunsen_coefficient components[0].mole_fraction components[1].cas,
+57_241/t0/r9,SDS-57/p339/0/r09,0.6667,0.3333,0.4444,temperature=298.15|5.78,components[0].bunsen_coefficient components[0].mole_fraction components[1].cas,
+57_243/t0/r0,SDS-57/p344/0/r00,1.0,1.0,1.0,,,
+57_247/t0/r0,SDS-57/p348/0/r00,0.8333,0.8333,0.8333,,components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x
+57_247/t0/r1,SDS-57/p348/0/r01,0.8333,0.8333,0.8333,,components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x
+57_247/t0/r2,SDS-57/p348/0/r02,0.8333,0.8333,0.8333,,components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x
+57_247/t0/r3,SDS-57/p348/0/r03,0.8333,0.8333,0.8333,,components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x
+57_247/t0/r4,SDS-57/p348/0/r04,0.8333,0.8333,0.8333,,components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x
+57_247/t0/r5,SDS-57/p348/0/r05,0.8333,0.8333,0.8333,,components[1].henry_constant_p_over_c,components[1].henry_constant_p_over_x
+57_248/t0/r0,SDS-57/p349/0/r00,1.0,1.0,1.0,,,
+57_248/t0/r1,SDS-57/p349/0/r01,1.0,1.0,1.0,,,
+57_248/t0/r2,SDS-57/p349/0/r02,1.0,1.0,1.0,,,
+57_253/t0/r0,SDS-57/p354/0/r00,0.75,0.75,0.75,,components[1].cas,components[-1].cas
+57_254/t0/r0,SDS-57/p355/0/r00,0.4,0.5,0.4444,,components[0].bunsen_coefficient components[1].cas,components[0].ostwald_coefficient components[-1].cas pressure
+57_254/t0/r4,SDS-57/p355/0/r01,0.4,0.5,0.4444,,components[0].bunsen_coefficient components[1].cas,components[0].ostwald_coefficient components[-1].cas pressure
+57_258/t0/r0,SDS-57/p359/0/r00,1.0,0.75,0.8571,,temperature,
+57_258/t0/r1,SDS-57/p359/0/r01,1.0,0.75,0.8571,,temperature,
+57_258/t0/r2,SDS-57/p359/0/r02,1.0,0.75,0.8571,,temperature,
+57_258/t0/r3,SDS-57/p359/0/r03,1.0,0.75,0.8571,,temperature,
+57_258/t0/r4,SDS-57/p359/0/r04,1.0,0.75,0.8571,,temperature,
+57_258/t0/r5,SDS-57/p359/0/r05,1.0,0.75,0.8571,,temperature,
+57_258/t0/r6,SDS-57/p359/0/r06,1.0,0.75,0.8571,,temperature,
+57_258/t0/r7,SDS-57/p359/0/r07,1.0,0.75,0.8571,,temperature,
+57_258/t0/r8,SDS-57/p359/0/r08,1.0,0.75,0.8571,,temperature,
+57_258/t0/r9,SDS-57/p359/0/r09,1.0,0.75,0.8571,,temperature,
+57_26/t0/r0,SDS-57/p064/0/r00,1.0,0.7143,0.8333,,components[1].kuenen_coefficient components[1].mole_fraction,
+57_26/t0/r1,SDS-57/p064/0/r01,1.0,0.7143,0.8333,,components[1].kuenen_coefficient components[1].mole_fraction,
+57_26/t0/r2,SDS-57/p064/0/r02,1.0,0.7143,0.8333,,components[1].kuenen_coefficient components[1].mole_fraction,
+57_26/t0/r3,SDS-57/p064/0/r03,1.0,0.7143,0.8333,,components[1].kuenen_coefficient components[1].mole_fraction,
+57_27/t0/r0,SDS-57/p065/0/r00,1.0,0.7143,0.8333,,components[0].kuenen_coefficient components[0].mole_fraction,
+57_27/t0/r1,SDS-57/p065/0/r01,1.0,0.7143,0.8333,,components[0].kuenen_coefficient components[0].mole_fraction,
+57_27/t0/r2,SDS-57/p065/0/r02,1.0,0.7143,0.8333,,components[0].kuenen_coefficient components[0].mole_fraction,
+57_27/t0/r3,SDS-57/p065/0/r03,1.0,0.7143,0.8333,,components[0].kuenen_coefficient components[0].mole_fraction,
+57_29/t0/r0,SDS-57/p067/0/r00,1.0,0.8333,0.9091,,components[0].mole_fraction,
+57_29/t0/r1,SDS-57/p067/0/r01,1.0,0.8333,0.9091,,components[0].mole_fraction,
+57_29/t0/r2,SDS-57/p067/0/r02,1.0,0.8333,0.9091,,components[0].mole_fraction,
+57_29/t0/r3,SDS-57/p067/0/r03,1.0,0.8333,0.9091,,components[0].mole_fraction,
+57_34/t0/r0,SDS-57/p072/0/r00,1.0,0.8571,0.9231,,components[2].molar_concentration,
+57_35/t0/r0,SDS-57/p073/0/r00,0.8333,0.8333,0.8333,,components[2].molar_concentration,components[0].molar_concentration
+57_37/t0/r0,SDS-57/p075/0/r00,1.0,0.7778,0.875,,components[0].molar_concentration components[2].molar_concentration,
+57_37/t0/r1,SDS-57/p075/0/r01,1.0,0.7778,0.875,,components[0].molar_concentration components[2].molar_concentration,
+57_37/t0/r2,SDS-57/p075/0/r02,1.0,0.7778,0.875,,components[0].molar_concentration components[2].molar_concentration,
+57_4/t0/r0,SDS-57/p022/0/r00,0.8,0.8,0.8,,components[0].henry_constant_p_over_c,components[0].henry_constant_p_over_x
+57_4/t0/r1,SDS-57/p022/0/r01,0.8,0.8,0.8,,components[0].henry_constant_p_over_c,components[0].henry_constant_p_over_x
+57_4/t0/r2,SDS-57/p022/0/r02,0.8,0.8,0.8,,components[0].henry_constant_p_over_c,components[0].henry_constant_p_over_x
+57_41/t0/r0,SDS-57/p079/0/r00,1.0,0.6,0.75,,components[0].molar_concentration components[2].molar_concentration components[3].molar_concentration components[4].cas,
+57_41/t0/r1,SDS-57/p079/0/r01,1.0,0.6,0.75,,components[0].molar_concentration components[2].molar_concentration components[3].molar_concentration components[4].cas,
+57_41/t0/r2,SDS-57/p079/0/r02,1.0,0.6,0.75,,components[0].molar_concentration components[2].molar_concentration components[3].molar_concentration components[4].cas,
+57_41/t0/r3,SDS-57/p079/0/r03,1.0,0.6,0.75,,components[0].molar_concentration components[2].molar_concentration components[3].molar_concentration components[4].cas,
+57_46/t0/r0,SDS-57/p085/0/r00,1.0,0.6,0.75,,components[2].cas pressure,
+57_46/t0/r10,SDS-57/p085/0/r10,1.0,0.6,0.75,,components[2].cas pressure,
+57_46/t0/r2,SDS-57/p085/0/r02,1.0,0.6,0.75,,components[2].cas pressure,
+57_46/t0/r3,SDS-57/p085/0/r03,1.0,0.5,0.6667,,components[1].mole_fraction components[2].cas pressure,
+57_46/t0/r4,SDS-57/p085/0/r04,1.0,0.6,0.75,,components[2].cas pressure,
+57_46/t0/r5,SDS-57/p085/0/r05,1.0,0.6,0.75,,components[2].cas pressure,
+57_46/t0/r6,SDS-57/p085/0/r06,1.0,0.6,0.75,,components[2].cas pressure,
+57_46/t0/r7,SDS-57/p085/0/r07,1.0,0.6,0.75,,components[2].cas pressure,
+57_46/t0/r8,SDS-57/p085/0/r08,1.0,0.6,0.75,,components[2].cas pressure,
+57_46/t0/r9,SDS-57/p085/0/r09,1.0,0.5,0.6667,,components[1].mole_fraction components[2].cas pressure,
+57_47/t0/r0,SDS-57/p087/0/r02,0.8,0.5714,0.6667,,components[1].bunsen_coefficient components[1].cas components[1].molar_concentration,components[0].bunsen_coefficient
+57_47/t0/r1,SDS-57/p087/0/r01,0.8,0.5714,0.6667,,components[1].bunsen_coefficient components[1].cas components[1].molar_concentration,components[0].bunsen_coefficient
+57_47/t0/r10,SDS-57/p087/0/r10,0.8,0.5714,0.6667,,components[1].bunsen_coefficient components[1].cas components[1].molar_concentration,components[0].bunsen_coefficient
+57_47/t0/r3,SDS-57/p087/0/r03,0.8,0.5714,0.6667,,components[1].bunsen_coefficient components[1].cas components[1].molar_concentration,components[0].bunsen_coefficient
+57_47/t0/r4,SDS-57/p087/0/r04,0.8,0.5714,0.6667,,components[1].bunsen_coefficient components[1].cas components[1].molar_concentration,components[0].bunsen_coefficient
+57_47/t0/r5,SDS-57/p087/0/r05,0.8,0.5714,0.6667,,components[1].bunsen_coefficient components[1].cas components[1].molar_concentration,components[0].bunsen_coefficient
+57_47/t0/r6,SDS-57/p087/0/r06,0.8,0.5714,0.6667,,components[1].bunsen_coefficient components[1].cas components[1].molar_concentration,components[0].bunsen_coefficient
+57_47/t0/r7,SDS-57/p087/0/r07,0.8,0.5714,0.6667,,components[1].bunsen_coefficient components[1].cas components[1].molar_concentration,components[0].bunsen_coefficient
+57_47/t0/r8,SDS-57/p087/0/r08,0.8,0.5714,0.6667,,components[1].bunsen_coefficient components[1].cas components[1].molar_concentration,components[0].bunsen_coefficient
+57_47/t0/r9,SDS-57/p087/0/r09,0.8,0.5714,0.6667,,components[1].bunsen_coefficient components[1].cas components[1].molar_concentration,components[0].bunsen_coefficient
+57_48/t0/r0,SDS-57/p088/0/r00,1.0,0.5714,0.7273,,components[0].cas components[0].molar_concentration pressure,
+57_48/t0/r1,SDS-57/p088/0/r01,1.0,0.5714,0.7273,,components[0].cas components[0].molar_concentration pressure,
+57_48/t0/r2,SDS-57/p088/0/r02,1.0,0.5714,0.7273,,components[0].cas components[0].molar_concentration pressure,
+57_48/t0/r3,SDS-57/p088/0/r03,1.0,0.5714,0.7273,,components[0].cas components[0].molar_concentration pressure,
+57_48/t0/r4,SDS-57/p088/0/r04,1.0,0.5714,0.7273,,components[0].cas components[0].molar_concentration pressure,
+57_48/t0/r5,SDS-57/p088/0/r05,1.0,0.5714,0.7273,,components[0].cas components[0].molar_concentration pressure,
+57_48/t0/r6,SDS-57/p088/0/r06,1.0,0.5714,0.7273,,components[0].cas components[0].molar_concentration pressure,
+57_48/t0/r7,SDS-57/p088/0/r07,1.0,0.5714,0.7273,,components[0].cas components[0].molar_concentration pressure,
+57_48/t0/r8,SDS-57/p088/0/r08,1.0,0.5714,0.7273,,components[0].cas components[0].molar_concentration pressure,
+57_48/t0/r9,SDS-57/p088/0/r09,1.0,0.5714,0.7273,,components[0].cas components[0].molar_concentration pressure,
+57_49/t0/r0,SDS-57/p089/0/r00,0.8333,0.7143,0.7692,,components[1].cas components[2].molar_concentration,components[-1].cas
+57_49/t0/r1,SDS-57/p089/0/r01,0.8333,0.7143,0.7692,,components[1].cas components[2].molar_concentration,components[-1].cas
+57_49/t0/r2,SDS-57/p089/0/r02,0.8333,0.7143,0.7692,,components[1].cas components[2].molar_concentration,components[-1].cas
+57_49/t0/r3,SDS-57/p089/0/r03,0.8333,0.7143,0.7692,,components[1].cas components[2].molar_concentration,components[-1].cas
+57_49/t0/r4,SDS-57/p089/0/r04,0.8333,0.7143,0.7692,,components[1].cas components[2].molar_concentration,components[-1].cas
+57_49/t0/r5,SDS-57/p089/0/r05,0.8333,0.7143,0.7692,,components[1].cas components[2].molar_concentration,components[-1].cas
+57_49/t0/r6,SDS-57/p089/0/r06,0.8333,0.7143,0.7692,,components[1].cas components[2].molar_concentration,components[-1].cas
+57_49/t0/r7,SDS-57/p089/0/r07,0.8333,0.7143,0.7692,,components[1].cas components[2].molar_concentration,components[-1].cas
+57_50/t0/r0,SDS-57/p090/0/r00,0.6667,0.5714,0.6154,,components[0].cas components[1].molar_concentration components[2].bunsen_coefficient,components[1].bunsen_coefficient components[-1].cas
+57_50/t0/r1,SDS-57/p090/0/r01,0.6667,0.5714,0.6154,,components[0].cas components[1].molar_concentration components[2].bunsen_coefficient,components[1].bunsen_coefficient components[-1].cas
+57_50/t0/r2,SDS-57/p090/0/r02,0.6667,0.5714,0.6154,,components[0].cas components[1].molar_concentration components[2].bunsen_coefficient,components[1].bunsen_coefficient components[-1].cas
+57_50/t0/r3,SDS-57/p090/0/r03,0.6667,0.5714,0.6154,,components[0].cas components[1].molar_concentration components[2].bunsen_coefficient,components[1].bunsen_coefficient components[-1].cas
+57_50/t0/r4,SDS-57/p090/0/r04,0.6667,0.5714,0.6154,,components[0].cas components[1].molar_concentration components[2].bunsen_coefficient,components[1].bunsen_coefficient components[-1].cas
+57_50/t0/r5,SDS-57/p090/0/r05,0.6667,0.5714,0.6154,,components[0].cas components[1].molar_concentration components[2].bunsen_coefficient,components[1].bunsen_coefficient components[-1].cas
+57_50/t0/r6,SDS-57/p090/0/r06,0.6667,0.5714,0.6154,,components[0].cas components[1].molar_concentration components[2].bunsen_coefficient,components[1].bunsen_coefficient components[-1].cas
+57_50/t0/r7,SDS-57/p090/0/r07,0.6667,0.5714,0.6154,,components[0].cas components[1].molar_concentration components[2].bunsen_coefficient,components[1].bunsen_coefficient components[-1].cas
+57_50/t0/r8,SDS-57/p090/0/r08,0.6667,0.5714,0.6154,,components[0].cas components[1].molar_concentration components[2].bunsen_coefficient,components[1].bunsen_coefficient components[-1].cas
+57_50/t0/r9,SDS-57/p090/0/r09,0.6667,0.5714,0.6154,,components[0].cas components[1].molar_concentration components[2].bunsen_coefficient,components[1].bunsen_coefficient components[-1].cas
+57_51/t0/r0,SDS-57/p091/0/r00,1.0,0.7143,0.8333,,components[2].cas components[2].molar_concentration,
+57_51/t0/r2,SDS-57/p091/0/r02,1.0,0.7143,0.8333,,components[2].cas components[2].molar_concentration,
+57_51/t0/r3,SDS-57/p091/0/r03,1.0,0.7143,0.8333,,components[2].cas components[2].molar_concentration,
+57_51/t0/r4,SDS-57/p091/0/r04,1.0,0.7143,0.8333,,components[2].cas components[2].molar_concentration,
+57_51/t0/r5,SDS-57/p091/0/r05,1.0,0.7143,0.8333,,components[2].cas components[2].molar_concentration,
+57_51/t0/r6,SDS-57/p091/0/r06,1.0,0.7143,0.8333,,components[2].cas components[2].molar_concentration,
+57_51/t0/r7,SDS-57/p091/0/r07,1.0,0.7143,0.8333,,components[2].cas components[2].molar_concentration,
+57_52/t0/r0,SDS-57/p092/0/r00,1.0,0.7143,0.8333,,components[0].cas components[0].molar_concentration,
+57_52/t0/r1,SDS-57/p092/0/r01,1.0,0.7143,0.8333,,components[0].cas components[0].molar_concentration,
+57_52/t0/r2,SDS-57/p092/0/r02,1.0,0.7143,0.8333,,components[0].cas components[0].molar_concentration,
+57_52/t0/r3,SDS-57/p092/0/r03,1.0,0.7143,0.8333,,components[0].cas components[0].molar_concentration,
+57_52/t0/r4,SDS-57/p092/0/r04,1.0,0.7143,0.8333,,components[0].cas components[0].molar_concentration,
+57_52/t0/r5,SDS-57/p092/0/r05,1.0,0.7143,0.8333,,components[0].cas components[0].molar_concentration,
+57_52/t0/r6,SDS-57/p092/0/r06,1.0,0.7143,0.8333,,components[0].cas components[0].molar_concentration,
+57_52/t0/r7,SDS-57/p092/0/r07,1.0,0.7143,0.8333,,components[0].cas components[0].molar_concentration,
+57_57/t0/r0,SDS-57/p100/0/r00,1.0,1.0,1.0,,,
+57_58/t0/r0,SDS-57/p101/0/r00,0.8,0.6667,0.7273,pressure=26717.729|101325.0,components[1].mole_fraction,
+57_58/t0/r1,SDS-57/p101/0/r01,0.8,0.8,0.8,pressure=46249.402|101325.0,,
+57_58/t0/r2,SDS-57/p101/0/r02,0.8,0.8,0.8,pressure=62114.72|101325.0,,
+57_58/t0/r3,SDS-57/p101/0/r03,0.8,0.6667,0.7273,pressure=67594.254|101325.0,components[1].mole_fraction,
+57_58/t0/r4,SDS-57/p101/0/r04,0.8,0.8,0.8,pressure=76180.19099999999|101325.0,,
+57_58/t0/r5,SDS-57/p101/0/r05,0.8,0.6667,0.7273,pressure=72433.843|101325.0,components[1].mole_fraction,
+57_58/t0/r6,SDS-57/p101/0/r06,0.8,0.8,0.8,pressure=81579.732|101325.0,,
+57_58/t0/r7,SDS-57/p101/0/r07,0.8,0.6667,0.7273,pressure=76020.20400000001|101325.0,components[1].mole_fraction,
+57_58/t0/r8,SDS-57/p101/0/r08,0.8,0.8,0.8,pressure=85819.371|101325.0,,
+57_59/t0/r0,SDS-57/p102/0/r00,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_59/t0/r1,SDS-57/p102/0/r01,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_59/t0/r2,SDS-57/p102/0/r02,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_59/t0/r3,SDS-57/p102/0/r03,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_6/t0/r0,SDS-57/p024/0/r00,0.8,0.8,0.8,,components[0].henry_constant_p_over_c,components[0].henry_constant_p_over_x
+57_60/t0/r0,SDS-57/p103/0/r00,1.0,1.0,1.0,,,
+57_61/t0/r0,SDS-57/p104/0/r00,1.0,0.6667,0.8,,components[0].mole_fraction components[1].cas,
+57_62/t0/r0,SDS-57/p105/0/r00,1.0,1.0,1.0,,,
+57_62/t0/r1,SDS-57/p105/0/r01,1.0,1.0,1.0,,,
+57_62/t0/r2,SDS-57/p105/0/r02,1.0,1.0,1.0,,,
+57_63/t0/r0,SDS-57/p106/0/r00,1.0,1.0,1.0,,,
+57_64/t0/r0,SDS-57/p107/0/r00,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_64/t0/r1,SDS-57/p107/0/r01,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_64/t0/r2,SDS-57/p107/0/r02,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_64/t0/r3,SDS-57/p107/0/r03,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_67/t0/r0,SDS-57/p110/0/r00,1.0,1.0,1.0,,,
+57_67/t0/r1,SDS-57/p110/0/r01,1.0,1.0,1.0,,,
+57_67/t0/r2,SDS-57/p110/0/r02,1.0,1.0,1.0,,,
+57_67/t0/r3,SDS-57/p110/0/r03,1.0,1.0,1.0,,,
+57_71/t0/r0,SDS-57/p114/0/r07,0.8333,0.7143,0.7692,,components[1].mole_fraction pressure,components[2].ostwald_coefficient
+57_71/t0/r2,SDS-57/p114/0/r03,0.8333,0.7143,0.7692,,components[1].mole_fraction pressure,components[2].ostwald_coefficient
+57_71/t0/r3,SDS-57/p114/0/r04,0.8333,0.7143,0.7692,,components[1].mole_fraction pressure,components[2].ostwald_coefficient
+57_71/t0/r4,SDS-57/p114/0/r05,0.8333,0.7143,0.7692,,components[1].mole_fraction pressure,components[2].ostwald_coefficient
+57_71/t0/r5,SDS-57/p114/0/r06,0.8333,0.7143,0.7692,,components[1].mole_fraction pressure,components[2].ostwald_coefficient
+57_71/t0/r7,SDS-57/p114/0/r08,0.8333,0.7143,0.7692,,components[1].mole_fraction pressure,components[2].ostwald_coefficient
+57_71/t0/r8,SDS-57/p114/0/r09,0.8333,0.7143,0.7692,,components[1].mole_fraction pressure,components[2].ostwald_coefficient
+57_74/t0/r0,SDS-57/p119/0/r00,0.6,0.4286,0.5,pressure=127000.0|142900.0,components[0].mole_fraction gas[0].cas gas[0].mole_fraction,components[0].partial_pressure
+57_74/t0/r1,SDS-57/p119/0/r01,0.6,0.4286,0.5,pressure=151200.0|166200.0,components[0].mole_fraction gas[0].cas gas[0].mole_fraction,components[0].partial_pressure
+57_74/t0/r10,SDS-57/p119/0/r10,0.6,0.4286,0.5,pressure=893400.0|927100.0,components[0].mole_fraction gas[0].cas gas[0].mole_fraction,components[0].partial_pressure
+57_74/t0/r11,SDS-57/p119/0/r11,0.6,0.4286,0.5,pressure=1139000.0|1149000.0,components[0].mole_fraction gas[0].cas gas[0].mole_fraction,components[0].partial_pressure
+57_74/t0/r12,SDS-57/p119/0/r12,0.6,0.4286,0.5,pressure=122200.0|382000.0,components[0].mole_fraction gas[0].cas gas[0].mole_fraction,components[0].partial_pressure
+57_74/t0/r13,SDS-57/p119/0/r13,0.6,0.4286,0.5,pressure=585100.0|818700.0,components[0].mole_fraction gas[0].cas gas[0].mole_fraction,components[0].partial_pressure
+57_74/t0/r14,SDS-57/p119/0/r14,0.6,0.4286,0.5,pressure=932800.0|1141000.0,components[0].mole_fraction gas[0].cas gas[0].mole_fraction,components[0].partial_pressure
+57_74/t0/r15,SDS-57/p119/0/r15,0.6,0.4286,0.5,pressure=993300.0|1198000.0,components[0].mole_fraction gas[0].cas gas[0].mole_fraction,components[0].partial_pressure
+57_74/t0/r16,SDS-57/p119/0/r16,0.6,0.4286,0.5,pressure=1087000.0|1284000.0,components[0].mole_fraction gas[0].cas gas[0].mole_fraction,components[0].partial_pressure
+57_74/t0/r17,SDS-57/p119/0/r17,0.6,0.4286,0.5,pressure=1103000.0|1299000.0,components[0].mole_fraction gas[0].cas gas[0].mole_fraction,components[0].partial_pressure
+57_74/t0/r18,SDS-57/p119/0/r18,0.6,0.4286,0.5,pressure=1580000.0|1732000.0,components[0].mole_fraction gas[0].cas gas[0].mole_fraction,components[0].partial_pressure
+57_74/t0/r19,SDS-57/p119/0/r19,0.6,0.4286,0.5,pressure=1840000.0|1963000.0,components[0].mole_fraction gas[0].cas gas[0].mole_fraction,components[0].partial_pressure
+57_74/t0/r2,SDS-57/p119/0/r02,0.6,0.4286,0.5,pressure=172100.0|186400.0,components[0].mole_fraction gas[0].cas gas[0].mole_fraction,components[0].partial_pressure
+57_74/t0/r20,SDS-57/p119/0/r20,0.6,0.4286,0.5,pressure=2477000.0|2511000.0,components[0].mole_fraction gas[0].cas gas[0].mole_fraction,components[0].partial_pressure
+57_74/t0/r3,SDS-57/p119/0/r03,0.6,0.4286,0.5,pressure=248200.0|259400.00000000003,components[0].mole_fraction gas[0].cas gas[0].mole_fraction,components[0].partial_pressure
+57_74/t0/r4,SDS-57/p119/0/r04,0.6,0.4286,0.5,pressure=365300.0|370800.0,components[0].mole_fraction gas[0].cas gas[0].mole_fraction,components[0].partial_pressure
+57_74/t0/r5,SDS-57/p119/0/r05,0.6,0.4286,0.5,pressure=386000.0|418500.0,components[0].mole_fraction gas[0].cas gas[0].mole_fraction,components[0].partial_pressure
+57_74/t0/r6,SDS-57/p119/0/r06,0.6,0.4286,0.5,pressure=225500.0|303000.0,components[0].mole_fraction gas[0].cas gas[0].mole_fraction,components[0].partial_pressure
+57_74/t0/r7,SDS-57/p119/0/r07,0.6,0.4286,0.5,pressure=333400.0|405300.0,components[0].mole_fraction gas[0].cas gas[0].mole_fraction,components[0].partial_pressure
+57_74/t0/r8,SDS-57/p119/0/r08,0.6,0.4286,0.5,pressure=487400.0|550200.0,components[0].mole_fraction gas[0].cas gas[0].mole_fraction,components[0].partial_pressure
+57_74/t0/r9,SDS-57/p119/0/r09,0.6,0.4286,0.5,pressure=665100.0|716400.0,components[0].mole_fraction gas[0].cas gas[0].mole_fraction,components[0].partial_pressure
+57_77/t0/r0,SDS-57/p124/0/r00,0.5,0.4,0.4444,temperature=293.15|566.3,components[0].mole_fraction pressure,components[0].partial_pressure
+57_77/t0/r1,SDS-57/p124/0/r01,0.5,0.4,0.4444,temperature=293.15|566.3,components[0].mole_fraction pressure,components[0].partial_pressure
+57_77/t0/r10,SDS-57/p124/0/r10,0.5,0.4,0.4444,temperature=313.15|586.3,components[0].mole_fraction pressure,components[0].partial_pressure
+57_77/t0/r11,SDS-57/p124/0/r11,0.5,0.4,0.4444,temperature=313.15|586.3,components[0].mole_fraction pressure,components[0].partial_pressure
+57_77/t0/r12,SDS-57/p124/0/r12,0.5,0.4,0.4444,temperature=313.15|586.3,components[0].mole_fraction pressure,components[0].partial_pressure
+57_77/t0/r13,SDS-57/p124/0/r13,0.5,0.4,0.4444,temperature=313.15|586.3,components[0].mole_fraction pressure,components[0].partial_pressure
+57_77/t0/r14,SDS-57/p124/0/r14,0.5,0.4,0.4444,temperature=333.15|606.3,components[0].mole_fraction pressure,components[0].partial_pressure
+57_77/t0/r15,SDS-57/p124/0/r15,0.5,0.4,0.4444,temperature=333.15|606.3,components[0].mole_fraction pressure,components[0].partial_pressure
+57_77/t0/r16,SDS-57/p124/0/r16,0.5,0.4,0.4444,temperature=333.15|606.3,components[0].mole_fraction pressure,components[0].partial_pressure
+57_77/t0/r17,SDS-57/p124/0/r17,0.5,0.4,0.4444,temperature=333.15|606.3,components[0].mole_fraction pressure,components[0].partial_pressure
+57_77/t0/r2,SDS-57/p124/0/r02,0.5,0.4,0.4444,temperature=293.15|566.3,components[0].mole_fraction pressure,components[0].partial_pressure
+57_77/t0/r3,SDS-57/p124/0/r03,0.5,0.4,0.4444,temperature=293.15|566.3,components[0].mole_fraction pressure,components[0].partial_pressure
+57_77/t0/r4,SDS-57/p124/0/r04,0.5,0.4,0.4444,temperature=293.15|566.3,components[0].mole_fraction pressure,components[0].partial_pressure
+57_77/t0/r5,SDS-57/p124/0/r05,0.5,0.4,0.4444,temperature=303.15|576.3,components[0].mole_fraction pressure,components[0].partial_pressure
+57_77/t0/r6,SDS-57/p124/0/r06,0.5,0.4,0.4444,temperature=303.15|576.3,components[0].mole_fraction pressure,components[0].partial_pressure
+57_77/t0/r7,SDS-57/p124/0/r07,0.5,0.4,0.4444,temperature=303.15|576.3,components[0].mole_fraction pressure,components[0].partial_pressure
+57_77/t0/r8,SDS-57/p124/0/r08,0.5,0.4,0.4444,temperature=303.15|576.3,components[0].mole_fraction pressure,components[0].partial_pressure
+57_77/t0/r9,SDS-57/p124/0/r09,0.5,0.4,0.4444,temperature=303.15|576.3,components[0].mole_fraction pressure,components[0].partial_pressure
+57_80/t0/r0,SDS-57/p127/0/r00,1.0,1.0,1.0,,,
+57_80/t0/r1,SDS-57/p127/0/r01,1.0,1.0,1.0,,,
+57_80/t0/r10,SDS-57/p127/0/r10,1.0,1.0,1.0,,,
+57_80/t0/r11,SDS-57/p127/0/r11,1.0,1.0,1.0,,,
+57_80/t0/r12,SDS-57/p127/0/r12,1.0,1.0,1.0,,,
+57_80/t0/r13,SDS-57/p127/0/r13,1.0,1.0,1.0,,,
+57_80/t0/r14,SDS-57/p127/0/r14,1.0,1.0,1.0,,,
+57_80/t0/r2,SDS-57/p127/0/r02,1.0,1.0,1.0,,,
+57_80/t0/r3,SDS-57/p127/0/r03,1.0,1.0,1.0,,,
+57_80/t0/r4,SDS-57/p127/0/r04,1.0,1.0,1.0,,,
+57_80/t0/r5,SDS-57/p127/0/r05,1.0,1.0,1.0,,,
+57_80/t0/r6,SDS-57/p127/0/r06,1.0,1.0,1.0,,,
+57_80/t0/r7,SDS-57/p127/0/r07,1.0,1.0,1.0,,,
+57_80/t0/r8,SDS-57/p127/0/r08,1.0,1.0,1.0,,,
+57_80/t0/r9,SDS-57/p127/0/r09,1.0,1.0,1.0,,,
+57_82/t0/r20,SDS-57/p131/0/r00,1.0,0.6667,0.8,,components[1].mass_fraction components[1].mole_fraction,
+57_82/t0/r35,SDS-57/p131/0/r15,1.0,0.6667,0.8,,components[1].mass_fraction components[1].mole_fraction,
+57_83/t0/r0,SDS-57/p133/0/r00,1.0,1.0,1.0,,,
+57_83/t0/r1,SDS-57/p133/0/r01,1.0,1.0,1.0,,,
+57_83/t0/r10,SDS-57/p133/0/r10,1.0,1.0,1.0,,,
+57_83/t0/r11,SDS-57/p133/0/r11,1.0,1.0,1.0,,,
+57_83/t0/r12,SDS-57/p133/0/r12,1.0,1.0,1.0,,,
+57_83/t0/r13,SDS-57/p133/0/r13,1.0,1.0,1.0,,,
+57_83/t0/r14,SDS-57/p133/0/r14,1.0,1.0,1.0,,,
+57_83/t0/r15,SDS-57/p133/0/r15,1.0,1.0,1.0,,,
+57_83/t0/r2,SDS-57/p133/0/r02,1.0,1.0,1.0,,,
+57_83/t0/r3,SDS-57/p133/0/r03,1.0,1.0,1.0,,,
+57_83/t0/r4,SDS-57/p133/0/r04,1.0,1.0,1.0,,,
+57_83/t0/r5,SDS-57/p133/0/r05,1.0,1.0,1.0,,,
+57_83/t0/r6,SDS-57/p133/0/r06,1.0,1.0,1.0,,,
+57_83/t0/r7,SDS-57/p133/0/r07,1.0,1.0,1.0,,,
+57_83/t0/r8,SDS-57/p133/0/r08,1.0,1.0,1.0,,,
+57_83/t0/r9,SDS-57/p133/0/r09,1.0,1.0,1.0,,,
+57_85/t0/r22,SDS-57/p137/0/r00,1.0,0.8,0.8889,,components[1].mole_fraction,
+57_85/t0/r23,SDS-57/p137/0/r01,1.0,0.8,0.8889,,components[1].mole_fraction,
+57_85/t0/r24,SDS-57/p137/0/r02,1.0,0.8,0.8889,,components[1].mole_fraction,
+57_85/t0/r25,SDS-57/p137/0/r03,1.0,0.8,0.8889,,components[1].mole_fraction,
+57_85/t0/r26,SDS-57/p137/0/r04,1.0,0.8,0.8889,,components[1].mole_fraction,
+57_85/t0/r27,SDS-57/p137/0/r05,1.0,0.8,0.8889,,components[1].mole_fraction,
+57_85/t0/r28,SDS-57/p137/0/r06,1.0,0.8,0.8889,,components[1].mole_fraction,
+57_85/t0/r29,SDS-57/p137/0/r07,1.0,0.8,0.8889,,components[1].mole_fraction,
+57_85/t0/r30,SDS-57/p137/0/r08,1.0,0.8,0.8889,,components[1].mole_fraction,
+57_85/t0/r31,SDS-57/p137/0/r09,1.0,0.8,0.8889,,components[1].mole_fraction,
+57_85/t0/r32,SDS-57/p137/0/r10,1.0,0.8,0.8889,,components[1].mole_fraction,
+57_85/t0/r33,SDS-57/p137/0/r11,1.0,0.8,0.8889,,components[1].mole_fraction,
+57_85/t0/r34,SDS-57/p137/0/r12,1.0,0.8,0.8889,,components[1].mole_fraction,
+57_85/t0/r35,SDS-57/p137/0/r13,1.0,0.8,0.8889,,components[1].mole_fraction,
+57_85/t0/r36,SDS-57/p137/0/r14,1.0,0.8,0.8889,,components[1].mole_fraction,
+57_85/t0/r37,SDS-57/p137/0/r15,1.0,0.8,0.8889,,components[1].mole_fraction,
+57_85/t0/r38,SDS-57/p137/0/r16,1.0,0.8,0.8889,,components[1].mole_fraction,
+57_85/t0/r39,SDS-57/p137/0/r17,1.0,0.8,0.8889,,components[1].mole_fraction,
+57_87/t0/r1,SDS-57/p140/0/r01,1.0,1.0,1.0,,,
+57_87/t0/r10,SDS-57/p140/0/r10,1.0,1.0,1.0,,,
+57_87/t0/r11,SDS-57/p140/0/r11,1.0,1.0,1.0,,,
+57_87/t0/r13,SDS-57/p140/0/r13,1.0,1.0,1.0,,,
+57_87/t0/r14,SDS-57/p140/0/r14,1.0,1.0,1.0,,,
+57_87/t0/r15,SDS-57/p140/0/r15,1.0,1.0,1.0,,,
+57_87/t0/r16,SDS-57/p140/0/r16,1.0,1.0,1.0,,,
+57_87/t0/r17,SDS-57/p140/0/r17,1.0,1.0,1.0,,,
+57_87/t0/r2,SDS-57/p140/0/r02,1.0,1.0,1.0,,,
+57_87/t0/r3,SDS-57/p140/0/r03,1.0,1.0,1.0,,,
+57_87/t0/r4,SDS-57/p140/0/r04,1.0,1.0,1.0,,,
+57_87/t0/r5,SDS-57/p140/0/r05,1.0,1.0,1.0,,,
+57_87/t0/r7,SDS-57/p140/0/r07,1.0,1.0,1.0,,,
+57_87/t0/r8,SDS-57/p140/0/r08,1.0,1.0,1.0,,,
+57_87/t0/r9,SDS-57/p140/0/r09,1.0,1.0,1.0,,,
+57_88/t0/r1,SDS-57/p141/0/r01,1.0,1.0,1.0,,,
+57_88/t0/r10,SDS-57/p141/0/r10,1.0,1.0,1.0,,,
+57_88/t0/r11,SDS-57/p141/0/r11,1.0,1.0,1.0,,,
+57_88/t0/r13,SDS-57/p141/0/r13,1.0,1.0,1.0,,,
+57_88/t0/r14,SDS-57/p141/0/r14,1.0,1.0,1.0,,,
+57_88/t0/r15,SDS-57/p141/0/r15,1.0,1.0,1.0,,,
+57_88/t0/r16,SDS-57/p141/0/r16,1.0,1.0,1.0,,,
+57_88/t0/r17,SDS-57/p141/0/r17,1.0,1.0,1.0,,,
+57_88/t0/r2,SDS-57/p141/0/r02,1.0,1.0,1.0,,,
+57_88/t0/r3,SDS-57/p141/0/r03,1.0,1.0,1.0,,,
+57_88/t0/r4,SDS-57/p141/0/r04,1.0,1.0,1.0,,,
+57_88/t0/r5,SDS-57/p141/0/r05,1.0,1.0,1.0,,,
+57_88/t0/r7,SDS-57/p141/0/r07,1.0,1.0,1.0,,,
+57_88/t0/r8,SDS-57/p141/0/r08,1.0,1.0,1.0,,,
+57_88/t0/r9,SDS-57/p141/0/r09,1.0,1.0,1.0,,,
+57_9/t0/r0,SDS-57/p027/0/r00,0.8571,1.0,0.9231,,,components[0].mole_fraction
+57_9/t0/r1,SDS-57/p027/0/r01,0.8571,1.0,0.9231,,,components[0].mole_fraction
+57_9/t0/r10,SDS-57/p027/0/r10,0.8571,1.0,0.9231,,,components[0].mole_fraction
+57_9/t0/r11,SDS-57/p027/0/r11,0.8571,1.0,0.9231,,,components[0].mole_fraction
+57_9/t0/r12,SDS-57/p027/0/r12,0.8571,1.0,0.9231,,,components[0].mole_fraction
+57_9/t0/r13,SDS-57/p027/0/r13,0.8571,1.0,0.9231,,,components[0].mole_fraction
+57_9/t0/r2,SDS-57/p027/0/r02,0.8571,1.0,0.9231,,,components[0].mole_fraction
+57_9/t0/r3,SDS-57/p027/0/r03,0.8571,1.0,0.9231,,,components[0].mole_fraction
+57_9/t0/r4,SDS-57/p027/0/r04,0.8571,1.0,0.9231,,,components[0].mole_fraction
+57_9/t0/r5,SDS-57/p027/0/r05,0.8571,1.0,0.9231,,,components[0].mole_fraction
+57_9/t0/r6,SDS-57/p027/0/r06,0.8571,1.0,0.9231,,,components[0].mole_fraction
+57_9/t0/r7,SDS-57/p027/0/r07,0.8571,1.0,0.9231,,,components[0].mole_fraction
+57_9/t0/r8,SDS-57/p027/0/r08,0.8571,1.0,0.9231,,,components[0].mole_fraction
+57_9/t0/r9,SDS-57/p027/0/r09,0.8571,1.0,0.9231,,,components[0].mole_fraction
+57_90/t0/r0,SDS-57/p146/0/r00,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_90/t0/r1,SDS-57/p146/0/r01,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_90/t0/r2,SDS-57/p146/0/r02,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_90/t0/r3,SDS-57/p146/0/r03,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_90/t0/r4,SDS-57/p146/0/r04,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_90/t0/r5,SDS-57/p146/0/r05,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_90/t0/r6,SDS-57/p146/0/r06,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_90/t0/r7,SDS-57/p146/0/r07,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_90/t0/r8,SDS-57/p146/0/r08,0.8571,0.8571,0.8571,components[1].mole_fraction=0.9828|0.009828,,
+57_90/t0/r9,SDS-57/p146/0/r09,0.8571,0.8571,0.8571,components[1].mole_fraction=0.9327|0.009327,,
+57_94/t0/r0,SDS-57/p150/0/r00,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_94/t0/r1,SDS-57/p150/0/r01,0.8571,1.0,0.9231,,,components[1].mole_fraction
+57_94/t0/r2,SDS-57/p150/0/r02,0.8571,0.8571,0.8571,components[1].mole_fraction=0.94|0.009399999999999999,,
+57_94/t0/r3,SDS-57/p150/0/r03,0.8571,0.8571,0.8571,components[1].mole_fraction=0.86|0.0086,,
+57_96/t0/r0,SDS-57/p152/0/r00,1.0,0.8333,0.9091,,components[1].mole_fraction,
+57_96/t0/r1,SDS-57/p152/0/r01,1.0,0.8333,0.9091,,components[1].mole_fraction,
+57_96/t0/r11,SDS-57/p152/0/r04,0.8,0.6667,0.7273,pressure=34783.71|101325.0,components[1].mole_fraction,
+57_96/t0/r13,SDS-57/p152/0/r05,0.8,0.6667,0.7273,pressure=36716.879|101325.0,components[1].mole_fraction,
+57_96/t0/r15,SDS-57/p152/0/r06,1.0,0.8333,0.9091,,components[1].mole_fraction,
+57_96/t0/r2,SDS-57/p152/0/r02,0.8,0.6667,0.7273,pressure=29677.477|101325.0,components[1].mole_fraction,
+57_96/t0/r5,SDS-57/p152/0/r03,0.8,0.6667,0.7273,pressure=32437.243000000002|101325.0,components[1].mole_fraction,

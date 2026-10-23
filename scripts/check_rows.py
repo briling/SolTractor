@@ -35,7 +35,7 @@ import argparse, collections, csv, json, math, pathlib, re, sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from paths import MINED, volume_root  # noqa: E402
-from sdstable import BOX_NAME, column, conditions_from_variables, molar_mass, normalise_rows, parse_components, sigfigs, split_blocks, tex, to_canonical, value  # noqa: E402
+from sdstable import load_header_map, BOX_NAME, column, conditions_from_variables, molar_mass, normalise_rows, parse_components, sigfigs, split_blocks, tex, to_canonical, value  # noqa: E402
 from textnorm import numbers, strict  # noqa: E402
 
 WATER = '7732-18-5'
@@ -348,11 +348,14 @@ def main() -> None:
     ap.add_argument('--boxes', type=pathlib.Path)
     ap.add_argument('--out', type=pathlib.Path)
     ap.add_argument('--text', action='store_true', help='also check every numeric token against the text layer of the page')
+    ap.add_argument('--header-map', type=pathlib.Path, help='jsonl of mappings for headers the rules leave unmapped (checked by hard constraints)')
     ap.add_argument('--tolerance', type=float, default=0.003, help='relative tolerance added to the printed precision (default 0.003)')
     ap.add_argument('--all', action='store_true', help='all ground-truth volumes with crop-pass boxes; prints a summary table')
     a = ap.parse_args()
     global REL_EXTRA
     REL_EXTRA = a.tolerance
+    if a.header_map:
+        print('header map:', load_header_map(a.header_map), file=sys.stderr)
     vols = [f'SDS-{n}' for n in sorted(MINED)] if a.all else [a.volume if a.volume.startswith('SDS-') else f'SDS-{a.volume}']
     summaries = []
     for vol in vols:

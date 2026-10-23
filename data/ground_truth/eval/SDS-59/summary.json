@@ -1,0 +1,113 @@
+{
+ "pairs": 2505,
+ "gold_rows": 3202,
+ "gold_rows_unclaimed": 697,
+ "gold_fractions_above_1_dropped": 0,
+ "extraction_entries_without_id": 329,
+ "extraction_entries_duplicate_id": 3,
+ "tolerance_rel": 0.005,
+ "precision": 0.9812090105503279,
+ "recall": 0.9816633399866933,
+ "f1": 0.9813764412566808,
+ "per_field": {
+  "components[0].cas": {
+   "matches": 2502,
+   "mismatches": 0,
+   "omissions": 3,
+   "hallucinations": 0,
+   "precision": 1.0,
+   "recall": 0.9988023952095808,
+   "f1": 0.9994008388256441
+  },
+  "components[0].mole_fraction": {
+   "matches": 2277,
+   "mismatches": 96,
+   "omissions": 5,
+   "hallucinations": 0,
+   "precision": 0.9595448798988622,
+   "recall": 0.9575273338940286,
+   "f1": 0.9585350452536309
+  },
+  "components[1].cas": {
+   "matches": 2493,
+   "mismatches": 0,
+   "omissions": 12,
+   "hallucinations": 0,
+   "precision": 1.0,
+   "recall": 0.9952095808383233,
+   "f1": 0.9975990396158464
+  },
+  "components[1].mole_fraction": {
+   "matches": 2395,
+   "mismatches": 96,
+   "omissions": 12,
+   "hallucinations": 0,
+   "precision": 0.9614612605379366,
+   "recall": 0.9568517778665602,
+   "f1": 0.9591509811774129
+  },
+  "temperature": {
+   "matches": 2410,
+   "mismatches": 3,
+   "omissions": 3,
+   "hallucinations": 0,
+   "precision": 0.998756734355574,
+   "recall": 0.9975165562913907,
+   "f1": 0.9981362600952578
+  },
+  "components[-1].cas": {
+   "matches": 0,
+   "mismatches": 0,
+   "omissions": 0,
+   "hallucinations": 23,
+   "precision": 0.0,
+   "recall": 1.0,
+   "f1": 0.0
+  },
+  "components[-1].mole_fraction": {
+   "matches": 0,
+   "mismatches": 0,
+   "omissions": 0,
+   "hallucinations": 23,
+   "precision": 0.0,
+   "recall": 1.0,
+   "f1": 0.0
+  },
+  "components[2].cas": {
+   "matches": 129,
+   "mismatches": 0,
+   "omissions": 0,
+   "hallucinations": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0
+  },
+  "components[2].mole_fraction": {
+   "matches": 127,
+   "mismatches": 0,
+   "omissions": 0,
+   "hallucinations": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0
+  },
+  "components[2].molar_concentration": {
+   "matches": 2,
+   "mismatches": 0,
+   "omissions": 0,
+   "hallucinations": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0
+  },
+  "pressure": {
+   "matches": 28,
+   "mismatches": 0,
+   "omissions": 0,
+   "hallucinations": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0
+  }
+ }
+}

@@ -1,0 +1,104 @@
+{
+ "pairs": 610,
+ "gold_rows": 1707,
+ "gold_rows_unclaimed": 1097,
+ "gold_fractions_above_1_dropped": 0,
+ "extraction_entries_without_id": 413,
+ "extraction_entries_duplicate_id": 0,
+ "tolerance_rel": 0.005,
+ "precision": 0.9781967213114754,
+ "recall": 0.9777049180327869,
+ "f1": 0.977829347337544,
+ "per_field": {
+  "components[0].cas": {
+   "matches": 610,
+   "mismatches": 0,
+   "omissions": 0,
+   "hallucinations": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0
+  },
+  "components[0].mole_fraction": {
+   "matches": 580,
+   "mismatches": 28,
+   "omissions": 0,
+   "hallucinations": 0,
+   "precision": 0.9539473684210527,
+   "recall": 0.9539473684210527,
+   "f1": 0.9539473684210527
+  },
+  "components[1].cas": {
+   "matches": 606,
+   "mismatches": 0,
+   "omissions": 4,
+   "hallucinations": 0,
+   "precision": 1.0,
+   "recall": 0.9934426229508196,
+   "f1": 0.9967105263157894
+  },
+  "components[1].mole_fraction": {
+   "matches": 577,
+   "mismatches": 22,
+   "omissions": 5,
+   "hallucinations": 6,
+   "precision": 0.9537190082644628,
+   "recall": 0.9552980132450332,
+   "f1": 0.9545078577336642
+  },
+  "temperature": {
+   "matches": 603,
+   "mismatches": 0,
+   "omissions": 0,
+   "hallucinations": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0
+  },
+  "pressure": {
+   "matches": 6,
+   "mismatches": 0,
+   "omissions": 0,
+   "hallucinations": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0
+  },
+  "components[2].cas": {
+   "matches": 2,
+   "mismatches": 0,
+   "omissions": 6,
+   "hallucinations": 0,
+   "precision": 1.0,
+   "recall": 0.25,
+   "f1": 0.4
+  },
+  "components[2].mole_fraction": {
+   "matches": 2,
+   "mismatches": 0,
+   "omissions": 6,
+   "hallucinations": 0,
+   "precision": 1.0,
+   "recall": 0.25,
+   "f1": 0.4
+  },
+  "components[-1].cas": {
+   "matches": 0,
+   "mismatches": 0,
+   "omissions": 0,
+   "hallucinations": 6,
+   "precision": 0.0,
+   "recall": 1.0,
+   "f1": 0.0
+  },
+  "components[-1].mole_fraction": {
+   "matches": 0,
+   "mismatches": 0,
+   "omissions": 0,
+   "hallucinations": 6,
+   "precision": 0.0,
+   "recall": 1.0,
+   "f1": 0.0
+  }
+ }
+}
