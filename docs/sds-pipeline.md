@@ -138,7 +138,7 @@ pass aligns nearly all of them: the segmenter loses the sheets, not the values. 
 (gas solubilities, two-block tables with pressure columns) and 62 (long multi-column
 tables, Bunsen and Ostwald coefficients) are the hard cases for the row structure.
 `scripts/to_nomad.py` turns the crop-pass boxes of each volume into one NOMAD upload
-(`nomad-SDS-N.zip` in the library's `nomad/` folder, 12 786 entries in all, every one
+(`nomad-SDS-N.zip` in the library's `nomad/` folder, 13 306 entries in all after the second crop pass, every one
 validated against the schema with NOMAD's metainfo). Since the schema of 2026-10-22 names
 each solubility quantity as its own field of `Amount`, the exporter fills every quantity a row
 prints for a component (mole and mass fraction, molality, molar and mass concentration, mass
@@ -211,7 +211,7 @@ pressure varies along with temperature, not bad values; the check declares itsel
 applicable when a pressure column varies, and the remaining changes are sheets with
 several series.
 
-The same header mapper feeds the exporter: 11 311 of the 12 786 entries (88 %, from 35 %
+The same header mapper feeds the exporter: 11 771 of the 13 306 entries (88 %, from 35 %
 with the first mapper) carry at least one solubility quantity; volumes 20 and 62 go from none
 to 98 % and 91 %.
 
@@ -457,10 +457,11 @@ the header counts against it and a clean paired row for it. A mapping with at mo
 per five successes is kept, one with more is rejected, one that nothing touches is untested
 (kept only with `--keep-untested`). On this map: 149 kept, 140 rejected, 94 untested; the seven
 errors the model's operator had flagged by hand are all rejected. With the kept map the export
-scores F1 0.925 (precision 0.935, recall 0.921): every hallucination count is back at the
-baseline, molar concentration omissions fall from 718 to 430, and the remaining new mismatches
-are pressure columns (`bar`, `P/Atm`, `kg/cm2`) read as total pressure where the crawl files the
-partial pressure, the filing difference already listed above. Per volume, 38 goes from 0.931 to
+scores F1 0.925 (precision 0.935, recall 0.921): hallucinations are back at the
+baseline (one more in all), molar concentration omissions fall from 718 to 430, and about 170
+new mismatches remain, mostly pressure columns (`bar`, `P/Atm`, `kg/cm2`) read as total pressure
+where the crawl files the partial pressure, the filing difference already listed above, and some
+molalities. Per volume, 38 goes from 0.931 to
 0.958, 57 from 0.751 to 0.775, 60 from 0.874 to 0.880; none falls. The kept map and the per-header
-report are in `data/ground_truth/eval/header-map/`; the rejected and untested headers go back
-for a second pass with reasoning on.
+report are in `data/ground_truth/eval/header-map/`; the rejected and untested headers are
+candidates for a second pass with reasoning on and the failing check as feedback.
