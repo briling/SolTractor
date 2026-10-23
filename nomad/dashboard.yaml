@@ -1,0 +1,188 @@
+# Dashboard for the SolTractor entries on NOMAD (EquilibriumSolution, nomad-solubility-plugin).
+# Load it on the entries page of an upload or project: click the "<>" icon next to the
+# widget buttons (Terms, Histogram, Scatter plot, ...) and paste this file into the dialog.
+- type: histogram
+  show_input: false
+  autorange: true
+  nbins: 30
+  y:
+    scale: linear
+  x:
+    search_quantity: data.temperature#nomad_solubility_plugin.schema_packages.schema_package.EquilibriumSolution
+    title: Temperature
+  title: Temperature distribution
+  layout:
+    xxl:
+      minH: 3
+      minW: 3
+      h: 3
+      w: 8
+      y: 0
+      x: Infinity
+    xl:
+      minH: 3
+      minW: 3
+      h: 3
+      w: 8
+      y: 0
+      x: Infinity
+    lg:
+      minH: 3
+      minW: 3
+      h: 3
+      w: 8
+      y: 0
+      x: Infinity
+    md:
+      minH: 3
+      minW: 3
+      h: 7
+      w: 11
+      y: 0
+      x: 7
+    sm:
+      minH: 3
+      minW: 3
+      h: 3
+      w: 8
+      y: 0
+      x: Infinity
+- type: terms
+  scale: linear
+  search_quantity: data.phases.components.name#nomad_solubility_plugin.schema_packages.schema_package.EquilibriumSolution
+  title: Phase component
+  layout:
+    xxl:
+      minH: 3
+      minW: 3
+      h: 9
+      w: 6
+      y: 0
+      x: Infinity
+    xl:
+      minH: 3
+      minW: 3
+      h: 9
+      w: 6
+      y: 0
+      x: Infinity
+    lg:
+      minH: 3
+      minW: 3
+      h: 9
+      w: 6
+      y: 0
+      x: Infinity
+    md:
+      minH: 3
+      minW: 3
+      h: 7
+      w: 7
+      y: 0
+      x: 0
+    sm:
+      minH: 3
+      minW: 3
+      h: 9
+      w: 6
+      y: 0
+      x: Infinity
+- type: scatter_plot
+  autorange: true
+  size: 1000
+  markers:
+    color:
+      search_quantity: null
+  y:
+    search_quantity: data.phases[].components[].amount.mole_fraction |
+      [0]#nomad_solubility_plugin.schema_packages.schema_package.EquilibriumSolution
+    title: Mole fraction
+    scale: log
+  x:
+    search_quantity: data.temperature#nomad_solubility_plugin.schema_packages.schema_package.EquilibriumSolution
+    title: Temperature
+  title: Mole fraction vs Temperature
+  layout:
+    xxl:
+      minH: 3
+      minW: 3
+      h: 6
+      w: 9
+      y: 0
+      x: Infinity
+    xl:
+      minH: 3
+      minW: 3
+      h: 6
+      w: 9
+      y: 0
+      x: Infinity
+    lg:
+      minH: 3
+      minW: 3
+      h: 6
+      w: 9
+      y: 0
+      x: Infinity
+    md:
+      minH: 3
+      minW: 3
+      h: 6
+      w: 9
+      y: 7
+      x: 0
+    sm:
+      minH: 3
+      minW: 3
+      h: 6
+      w: 9
+      y: 0
+      x: Infinity
+- type: scatter_plot
+  autorange: true
+  size: 1000
+  y:
+    search_quantity: data.phases[].components[].amount.mass_fraction |
+      [0]#nomad_solubility_plugin.schema_packages.schema_package.EquilibriumSolution
+    title: Mass fraction
+    scale: log
+  x:
+    search_quantity: data.temperature#nomad_solubility_plugin.schema_packages.schema_package.EquilibriumSolution
+    title: Temperature
+  title: Mass fraction vs Temperature
+  layout:
+    xxl:
+      minH: 3
+      minW: 3
+      h: 6
+      w: 9
+      y: 0
+      x: Infinity
+    xl:
+      minH: 3
+      minW: 3
+      h: 6
+      w: 9
+      y: 0
+      x: Infinity
+    lg:
+      minH: 3
+      minW: 3
+      h: 6
+      w: 9
+      y: 0
+      x: Infinity
+    md:
+      minH: 3
+      minW: 3
+      h: 6
+      w: 9
+      y: 7
+      x: 9
+    sm:
+      minH: 3
+      minW: 3
+      h: 6
+      w: 9
+      y: 0
+      x: Infinity
