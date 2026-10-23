@@ -15,6 +15,9 @@ the temperature distribution, and mole and mass fraction against temperature. On
 project's entries page, click the `<>` icon next to the widget buttons and paste the file
 into the dialog.
 
+The hackathon submission, with its figures and supporting tables, is in
+[`docs/submission/`](docs/submission/README.md).
+
 ## Layout
 
 - `data/`: the text layer of every volume, the volume classification, the segmented
