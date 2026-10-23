@@ -10,6 +10,11 @@ be checked value by value against the page.
 The extracted data is available in the
 [NOMAD project](https://nomad-lab.eu/oasis/projects/PwvbZwnyRW-FtUjwrwkUfQ).
 
+`nomad/dashboard.yaml` holds the dashboard over these entries: phase components by count,
+the temperature distribution, and mole and mass fraction against temperature. On the
+project's entries page, click the `<>` icon next to the widget buttons and paste the file
+into the dialog.
+
 ## Layout
 
 - `data/`: the text layer of every volume, the volume classification, the segmented
