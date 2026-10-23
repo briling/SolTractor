@@ -138,7 +138,7 @@ pass aligns nearly all of them: the segmenter loses the sheets, not the values. 
 (gas solubilities, two-block tables with pressure columns) and 62 (long multi-column
 tables, Bunsen and Ostwald coefficients) are the hard cases for the row structure.
 `scripts/to_nomad.py` turns the crop-pass boxes of each volume into one NOMAD upload
-(`nomad-SDS-N.zip` in the library's `nomad/` folder, 12 786 entries in all, every one
+(`nomad-SDS-N.zip` in the library's `nomad/` folder, 13 306 entries in all after the second crop pass, every one
 validated against the schema with NOMAD's metainfo). Since the schema of 2026-10-22 names
 each solubility quantity as its own field of `Amount`, the exporter fills every quantity a row
 prints for a component (mole and mass fraction, molality, molar and mass concentration, mass
@@ -211,7 +211,7 @@ pressure varies along with temperature, not bad values; the check declares itsel
 applicable when a pressure column varies, and the remaining changes are sheets with
 several series.
 
-The same header mapper feeds the exporter: 11 311 of the 12 786 entries (88 %, from 35 %
+The same header mapper feeds the exporter: 11 771 of the 13 306 entries (88 %, from 35 %
 with the first mapper) carry at least one solubility quantity; volumes 20 and 62 go from none
 to 98 % and 91 %.
 
@@ -310,3 +310,158 @@ The crop pass has not run on these volumes; it waits for the band-finder fixes.
 | 64 | 360 | 366 | 351 | 278 |
 | 65 | 312 | 274 | 249 | 164 |
 
+
+## The ground truth as NOMAD entries, and the join
+
+The comparison with the ground truth happens inside NOMAD, on one schema and one key, instead
+of in a separate tool. `scripts/nist_to_nomad.py` turns the DISSOLVE crawl's per-row
+measurements into `EquilibriumSolution` entries deterministically: the record already names the
+solute, the solvents, the conditions and every value with its quantity and unit, so the
+quantities map onto the named `Amount` fields in storage units exactly as the extraction's do,
+a gas-phase fraction adds a gas phase, and values the schema has no field for (activity
+coefficients, salt-effect parameters, generic "solubility" columns, inverse Henry constants) stay
+in the description. Ground-truth entries have `lab_id` `NIST/<measurement id>` and a name
+starting with NIST; extraction entries keep the PDF position as `lab_id` and, where the aligner
+matched the sheet and every number of a NIST row occurs in the extracted row, carry the line
+`nist: <sheet>/t<table>/r<row>` in their description. A search for that id in NOMAD returns the
+pair; a value-level score is a join on it with a tolerance on each `Amount` field.
+
+| volume | NIST measurements | ground-truth entries (evaluations) | with a quantity | extraction entries (crop pass) | with a quantity | with a NIST row id |
+|---:|---:|---:|---:|---:|---:|---:|
+| 20 | 567 | 567 (160) | 564 | 237 (v1) | 233 | 174 (73 %) |
+| 37 | 2 246 | 2 239 (0) | 2 223 | 1 148 (v1) | 945 | 876 (76 %) |
+| 38 | 973 | 973 (0) | 968 | 897 (v2) | 769 | 712 (79 %) |
+| 57 | 2 401 | 2 401 (54) | 2 359 | 1 595 (v1) | 1 193 | 931 (58 %) |
+| 58 | 1 707 | 1 707 (0) | 1 707 | 1 023 (v1) | 921 | 610 (60 %) |
+| 59 | 3 202 | 3 202 (0) | 3 202 | 2 837 (v2) | 2 664 | 2 508 (88 %) |
+| 60 | 824 | 824 (95) | 822 | 722 (v1) | 688 | 667 (92 %) |
+| 62 | 6 004 | 6 004 (138) | 5 440 | 4 847 (v2) | 4 358 | 2 977 (61 %) |
+| all | 17 924 | 17 917 (447) | 17 285 | 13 306 | 11 771 | 9 455 (71 %) |
+
+All 17 917 ground-truth entries and all 13 306 extraction entries validate with pydantic and with
+NOMAD's metainfo. Seven NIST measurements of volume 37 have no components at all and are
+skipped. The ground truth itself is not complete: the DISSOLVE normalisation leaves out rows
+whose cells are text, ragged tables and the 724 sheets whose values are given in prose, so an
+extraction row without a NIST id is not necessarily wrong, and the row-id share is a lower bound
+on what the crop pass reproduces. The extraction entries come from the declared crop pass per
+volume (v1 or v2, as in the eight-volume table), so the pairs are stable across re-exports.
+
+## Scored against the ground truth
+
+`scripts/eval/compare_entries.py` scores the pairs with FAIRmat's `json-extract-eval`, the
+evaluator the DISSOLVE repository names for its gold: every pair is flattened to temperature,
+pressure and the numeric `Amount` fields of each component (aligned by CAS number), numbers count
+as a match within 0.5 % relative, and the library reports precision (of what we wrote, how much is
+right), recall (of what NIST has, how much we got) and F1, overall and per field, with match,
+mismatch, omission and hallucination counts. Results per volume in `data/ground_truth/eval/`.
+
+| volume | crop pass | pairs | ground-truth rows unclaimed | gold fractions above 1 dropped | precision | recall | F1 |
+|---:|:---:|---:|---:|---:|---:|---:|---:|
+| 20 | v1 | 173 | 394 | 0 | 0.907 | 0.811 | 0.852 |
+| 37 | v1 | 847 | 1 392 | 1 | 0.960 | 0.951 | 0.951 |
+| 38 | v2 | 697 | 276 | 3 | 0.971 | 0.905 | 0.931 |
+| 57 | v1 | 732 | 1 669 | 172 | 0.824 | 0.714 | 0.751 |
+| 58 | v1 | 610 | 1 097 | 0 | 0.978 | 0.978 | 0.978 |
+| 59 | v2 | 2 505 | 697 | 0 | 0.981 | 0.982 | 0.981 |
+| 60 | v1 | 636 | 188 | 0 | 0.890 | 0.863 | 0.874 |
+| 62 | v2 | 2 830 | 3 174 | 474 | 0.918 | 0.892 | 0.900 |
+| all | | 9 030 | 8 887 | 650 | 0.938 | 0.911 | 0.920 |
+
+Two numbers describe the result. The pair count against the unclaimed rows is coverage: how many
+of NIST's rows our entries reproduce (the row measure of the eight-volume table, seen from the
+other side); the scores are fidelity on the paired rows. A gold fraction above 1 is dropped before
+scoring and counted: the crawl's documentation flags 7 279 values where NIST dropped the 10^k
+header factor (`fraction_column_exceeds_1`), 650 of them in our pairs, nearly all in volumes 57
+and 62, and our values there are the printed ones. Over the eight volumes, 9 030 pairs score
+F1 0.920: temperatures match in 99 % of pairs, CAS numbers always, the mole fractions in 87 %.
+
+`pairs.csv` names every failing pair with the field, the gold value and ours, so the mismatches
+can be sorted into kinds. Of the 448 mole-fraction mismatches, 217 are far off (a wrong column,
+a glued cell or the other component; half of them on the two-block gas tables of volume 57),
+194 differ by a power of ten (gold values such as 0.959 or 0.827 next to our 0.0096 and 0.000083,
+so one side has the header's factor wrong, and the row checker's power-of-ten note says which),
+32 by one digit. Of the 194 pressure mismatches, 171 are a filing difference: the crawl takes the
+column (the gas partial pressure) as the pressure, our exporter the total from the VARIABLES box
+and the column as the component's partial pressure. Of the 87 temperature mismatches, 36 are off
+by tens of kelvin (a digit, or a shifted row), 23 are a Celsius value stored as kelvin by one side,
+28 other (one is 2273.15, a glued digit). The omissions are dominated by the 1 010 pressures the
+crawl takes from the sheet's Variables or caption text where our exporter needs a single value,
+718 molar concentrations on sheets whose concentration column our mapper did not recognise, and
+the 119 gas-phase fractions the crawl holds as `gas_mole_fraction` while our exporter filed them
+on the liquid component.
+
+Per quantity, over all components and the eight volumes (`data/ground_truth/eval/all/per_field.csv`,
+component positions merged):
+
+| quantity | compared | match | mismatch | omission | hallucination | precision | recall |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| CAS number | 21 155 | 20 569 | 0 | 391 | 195 | 0.991 | 0.981 |
+| mole fraction | 10 353 | 8 293 | 448 | 805 | 807 | 0.869 | 0.869 |
+| temperature | 8 920 | 8 694 | 87 | 139 | 0 | 0.990 | 0.975 |
+| pressure | 3 678 | 2 414 | 194 | 1 010 | 60 | 0.905 | 0.667 |
+| mass fraction | 2 521 | 1 848 | 77 | 383 | 213 | 0.864 | 0.801 |
+| molar concentration | 2 222 | 1 390 | 10 | 718 | 104 | 0.924 | 0.656 |
+| Bunsen coefficient | 1 321 | 1 214 | 11 | 73 | 23 | 0.973 | 0.935 |
+| molality | 1 056 | 946 | 12 | 82 | 16 | 0.971 | 0.910 |
+| Kuenen coefficient | 914 | 831 | 1 | 54 | 28 | 0.966 | 0.938 |
+| Ostwald coefficient | 856 | 787 | 11 | 23 | 35 | 0.945 | 0.959 |
+| partial pressure | 538 | 0 | 0 | 0 | 538 | 0.000 | 0.000 |
+| solute-solvent mass ratio | 256 | 34 | 0 | 28 | 194 | 0.149 | 0.548 |
+| gas-phase mole fraction | 166 | 35 | 12 | 119 | 0 | 0.745 | 0.211 |
+| Henry constant p/c | 153 | 44 | 0 | 93 | 16 | 0.733 | 0.321 |
+| Henry constant p/x | 126 | 10 | 0 | 51 | 65 | 0.133 | 0.164 |
+| Henry constant c/c | 94 | 38 | 0 | 31 | 25 | 0.603 | 0.551 |
+| mass concentration | 67 | 44 | 0 | 20 | 3 | 0.936 | 0.688 |
+
+Three rows of that table are not extraction errors but places where the two exporters file the
+same number differently, and they can be fixed on either side: the 538 partial pressures our
+exporter stores per component where the crawl keeps one pressure per row; the solute-solvent
+mass ratio, which our exporter stores for both components of a pair of `g_1/g_2` and `g_2/g_1`
+columns and the crawl for the solute only; and the Henry constant conventions, where the crawl's
+unit strings ("atm (mole fraction)^-1") and our header reading land in different fields. The
+mole-fraction and pressure rows are the extraction's real residue.
+
+One systematic difference sits on the ground-truth side. The crawl resolves header subscripts
+(x_1) by the order of names in the system name; on the water-in-solvent sheets of volume 60 the
+print numbers water as (1), NIST's own component list agrees, and the crawl's rule assigns the
+value to the organic component. Our entries follow the print, so those pairs score as a
+hallucination on one component and an omission on the other. Taking NIST's component order
+instead, everywhere or gated on the SOURCE AND PURITY text, scored worse on the other volumes
+(F1 0.709 and 0.885 overall), so the crawl's rule stays and the caveat is recorded here; a
+per-sheet decision needs the caption, which these sheets lack.
+
+## An external header map, filtered by the checks
+
+The rules of `sdstable.column()` leave 529 distinct numeric headers of the eight volumes
+unmapped (775 columns). A language model (Qwen3.8 27B, one call per header with the header,
+the components, the other headers and sample cells, answers constrained to the quantity
+vocabulary) proposed a mapping for each; `sdstable.load_header_map()` takes such a file on
+`to_nomad.py --header-map` and `check_rows.py --header-map`, keeping only records whose kind is
+in the vocabulary, whose prefactor is a power of ten and whose unit is in the unit table, and
+checking the component index against each sheet. 383 of the 529 records pass those constraints.
+
+Used as delivered the map is a wash: on the 9 030 paired rows recall rises from 0.911 to 0.923
+and precision falls from 0.938 to 0.924, F1 0.920 to 0.921. It fills omissions (molar
+concentration 718 to 368) and adds about as many wrong fields (molar concentration
+hallucinations 69 to 271, mass concentration 3 to 168, molality mismatches 12 to 70), and the
+row checks see the same thing from the inside: hard-check failures on volume 57 go from 81 to
+500, mostly `x=x (duplicate column)`, a header mapped onto a quantity another column already
+carries.
+
+`scripts/filter_header_map.py` keeps only what the data supports. Every mapping is judged by
+two witnesses: the identities between columns, by checking each sheet that prints the header
+with and without that one mapping and attributing the checks that exist only because of it;
+and the ground truth, through the pairs of `compare_entries.py` on an export made with the
+full map, where a mismatched or hallucinated field of the mapped quantity on a sheet printing
+the header counts against it and a clean paired row for it. A mapping with at most one failure
+per five successes is kept, one with more is rejected, one that nothing touches is untested
+(kept only with `--keep-untested`). On this map: 149 kept, 140 rejected, 94 untested; the seven
+errors the model's operator had flagged by hand are all rejected. With the kept map the export
+scores F1 0.925 (precision 0.935, recall 0.921): hallucinations are back at the
+baseline (one more in all), molar concentration omissions fall from 718 to 430, and about 170
+new mismatches remain, mostly pressure columns (`bar`, `P/Atm`, `kg/cm2`) read as total pressure
+where the crawl files the partial pressure, the filing difference already listed above, and some
+molalities. Per volume, 38 goes from 0.931 to
+0.958, 57 from 0.751 to 0.775, 60 from 0.874 to 0.880; none falls. The kept map and the per-header
+report are in `data/ground_truth/eval/header-map/`; the rejected and untested headers are
+candidates for a second pass with reasoning on and the failing check as feedback.

@@ -19,7 +19,8 @@ canonical unit of the kind:
 `split_blocks(lines)` returns the (header, rows) blocks of a crop table and
 `normalise_rows(cols, rows)` fills ditto rows (blank conditions meaning "as above");
 `conditions_from_variables(text)` the single T and P of a VARIABLES box.
-`to_canonical(col, v)` applies prefactor and factor. `molar_mass(formula)` reads the
+`to_canonical(col, v)` applies prefactor and factor. `load_header_map(path)` adds mappings for headers the
+rules leave as `other` (a language model's answers, checked by hard constraints before use). `molar_mass(formula)` reads the
 printed formula; substance identity is left to NOMAD's PubChem normaliser.
 """
 import re
@@ -67,6 +68,38 @@ FRACT_WORDS = re.compile(r'^(?:Mole?|Mol)\s+Fractions?\s*(?:of\s+)?(?P<name>.*?)
 def _index(m) -> int | None:
     i = m.group('i') if m and 'i' in m.groupdict() else None
     return None if i is None else 1 if i in 'Il' else int(i)
+
+
+KINDS = ('temperature_C', 'temperature_F', 'temperature_K', 'temperature_in_K', 'temperature_fin_K', 'pressure', 'partial_pressure',
+         'molar_fraction', 'mass_fraction', 'mass_ratio', 'solid_fraction', 'gas_fraction', 'molality', 'concentration', 'mass_concentration',
+         'density', 'bunsen', 'ostwald', 'kuenen', 'henry_px', 'henry_pc', 'henry_cc', 'ph', 'salinity', 'solid_phase', 'other')
+UNIT_FACTOR = {   # external map units -> factor to the kind's canonical unit (see the module docstring)
+    'K': 1.0, '°C': 1.0, '°F': 1.0, 'Pa': 1.0, 'kPa': 1e3, 'MPa': 1e6, 'atm': 101325.0, 'bar': 1e5, 'mmHg': 133.322, 'psia': 6894.757, 'kg cm-2': 98066.5,
+    'mol/kg': 1.0, 'mol/dm3': 1.0, 'mol/L': 1.0, 'mol/m3': 1e-3, 'g/dm3': 1.0, 'g/L': 1.0, 'kg/m3': 1.0, 'g/cm3': 1000.0,
+    'g/100 g': 0.01, 'g/kg': 1e-3, 'mg/kg': 1e-6, 'dimensionless': 1.0, None: 1.0}
+HEADER_MAP: dict[str, dict] = {}
+
+
+def load_header_map(path) -> dict:
+    """Mappings for headers the rules leave as `other`, e.g. from a language model; one jsonl record per
+    header with kind, i, pre, unit (see the vocabulary above). Hard constraints decide what is kept:
+    the kind must be in KINDS, pre a power of ten, the unit in UNIT_FACTOR; the component index is
+    checked against the sheet when the mapping is used. Returns the counts of kept and dropped records."""
+    import json, math
+    kept = dropped = 0
+    for line in open(path):
+        if not line.strip():
+            continue
+        r = json.loads(line)
+        kind, pre, unit = r.get('kind'), r.get('pre', 1), r.get('unit')
+        ok = (kind in KINDS and kind != 'other' and isinstance(pre, (int, float)) and pre > 0
+              and abs(math.log10(pre) - round(math.log10(pre))) < 1e-9 and unit in UNIT_FACTOR)
+        if ok:
+            HEADER_MAP[tex(r['header'])] = {'kind': kind, 'i': r.get('i'), 'j': r.get('j'), 'pre': float(pre), 'factor': UNIT_FACTOR[unit], 'note': 'external map: ' + str(r.get('note', ''))[:80]}
+            kept += 1
+        else:
+            dropped += 1
+    return {'kept': kept, 'dropped': dropped}
 
 
 def column(head: str, comps: list[dict] | None = None) -> dict:
@@ -190,6 +223,9 @@ def column(head: str, comps: list[dict] | None = None) -> dict:
         return kind('salinity')
     if re.match(r'^Solid\s+Phase', b, re.I):
         return kind('solid_phase')
+    ext = HEADER_MAP.get(tex(head))
+    if ext and (ext['i'] is None or any(c['i'] == ext['i'] for c in comps) or not comps):
+        return kind(ext['kind'], i=ext['i'], j=ext['j'], factor=ext['factor'], note=ext['note']) if not col.update(pre=ext['pre']) else col
     return col
 
 
