@@ -321,22 +321,52 @@ quantities map onto the named `Amount` fields in storage units exactly as the ex
 a gas-phase fraction adds a gas phase, and values the schema has no field for (activity
 coefficients, salt-effect parameters, generic "solubility" columns, inverse Henry constants) stay
 in the description. Ground-truth entries have `lab_id` `NIST/<measurement id>` and a name
-starting with NIST; extraction entries keep the PDF position as `lab_id` and, where the aligner
-matched the sheet and every number of a NIST row occurs in the extracted row, carry the line
-`nist: <sheet>/t<table>/r<row>` in their description. A search for that id in NOMAD returns the
-pair; a value-level score is a join on it with a tolerance on each `Amount` field.
+starting with NIST; extraction entries keep the PDF position as `lab_id`, carry their logical
+row id (`id: SDS-60/p041/0/t0/r3`, see `scripts/provenance.py`) and, where the aligner matched
+the sheet and the row pairs with a NIST row, the line `nist: <sheet>/t<table>/r<row>` in their
+description. A search for that id in NOMAD returns the pair; a value-level score is a join on it
+with a tolerance on each `Amount` field.
 
 | volume | NIST measurements | ground-truth entries (evaluations) | with a quantity | extraction entries (crop pass) | with a quantity | with a NIST row id |
 |---:|---:|---:|---:|---:|---:|---:|
-| 20 | 567 | 567 (160) | 564 | 237 (v1) | 233 | 174 (73 %) |
-| 37 | 2 246 | 2 239 (0) | 2 223 | 1 148 (v1) | 945 | 876 (76 %) |
-| 38 | 973 | 973 (0) | 968 | 897 (v2) | 769 | 712 (79 %) |
-| 57 | 2 401 | 2 401 (54) | 2 359 | 1 595 (v1) | 1 193 | 931 (58 %) |
-| 58 | 1 707 | 1 707 (0) | 1 707 | 1 023 (v1) | 921 | 610 (60 %) |
-| 59 | 3 202 | 3 202 (0) | 3 202 | 2 837 (v2) | 2 664 | 2 508 (88 %) |
+| 20 | 567 | 567 (160) | 564 | 237 (v1) | 233 | 155 (65 %) |
+| 37 | 2 246 | 2 239 (0) | 2 223 | 1 148 (v1) | 945 | 893 (78 %) |
+| 38 | 973 | 973 (0) | 968 | 897 (v2) | 769 | 757 (84 %) |
+| 57 | 2 401 | 2 401 (54) | 2 359 | 1 595 (v1) | 1 193 | 1 154 (72 %) |
+| 58 | 1 707 | 1 707 (0) | 1 707 | 1 023 (v1) | 921 | 684 (67 %) |
+| 59 | 3 202 | 3 202 (0) | 3 202 | 2 837 (v2) | 2 664 | 2 527 (89 %) |
 | 60 | 824 | 824 (95) | 822 | 722 (v1) | 688 | 667 (92 %) |
-| 62 | 6 004 | 6 004 (138) | 5 440 | 4 847 (v2) | 4 358 | 2 977 (61 %) |
-| all | 17 924 | 17 917 (447) | 17 285 | 13 306 | 11 771 | 9 455 (71 %) |
+| 62 | 6 004 | 6 004 (138) | 5 440 | 4 847 (v2) | 4 358 | 2 765 (57 %) |
+| all | 17 924 | 17 917 (447) | 17 285 | 13 306 | 11 771 | 9 602 (72 %) |
+
+**How a row finds its NIST row.** The pairing must not look at the values the score then
+compares; otherwise a row with one misread digit never pairs, and the misread disappears from
+the score instead of counting as a mismatch. `provenance.pair_rows` therefore restores the
+mapping between the rows of a sheet and the rows of the NIST sheet the aligner matched from the
+conditions and the row order alone. Two rows agree when their temperatures agree (fully within
+0.05 K, fading to nothing at 0.5 K, so a value rounded on one side still agrees) and their
+pressures, where both sides give one, within 0.5 %. The rows that agree with at least one NIST
+row are matched one to one by an exact assignment over the whole sheet (tables are not a
+boundary, so a table split at a page break pairs with the uncut one) that minimises the summed
+disagreement, with the squared distance between positions as a tie-breaker that keeps the order
+of a series printed at one temperature. Each pair is then tested by solving again without it:
+if the disagreement does not rise, only the order chose the partner, which is accepted when the
+group of tied rows has as many rows on both sides and otherwise left `ambiguous` (a row lost on
+one side of such a series). A row that agrees with no NIST row, a misread temperature or none at
+all, is placed between its neighbours' partners when exactly as many NIST rows are free there,
+so a misread is scored rather than dropped. NIST's own pressure spelling ("Pressure [MPa]") is
+deliberately not read: the crawl files the gas partial pressure there where we file the total,
+and as a matching key it rejected correct pairs. Every decision, with the pair's margin, is
+written to the trace next to the export, and the export's statistics count every NIST row once
+by the reason it has no partner: of the 18 688 NIST table rows of the eight volumes, 9 602 pair
+with an exported row, 1 487 lie on sheets the aligner did not match, 2 470 on matched sheets that
+export nothing (no crop table, or a crop of the whole sheet), 80 pair with a row the exporter
+skips as shifted, and 5 049 are not claimed by any row of a sheet that exports rows. The tests in
+`tests/` pin this down twice: example cases with the expected partner written out, and Hypothesis
+properties over generated tables damaged the way readers damage them (a row dropped, read twice,
+inserted, a temperature misread or lost, the table split, the ground truth reordered or two rows
+swapped), checked against the generator's knowledge of where each row came from: no pair is ever
+invented, no NIST row is claimed twice, and every row the damage did not touch is paired.
 
 All 17 917 ground-truth entries and all 13 306 extraction entries validate with pydantic and with
 NOMAD's metainfo. Seven NIST measurements of volume 37 have no components at all and are
@@ -357,23 +387,33 @@ mismatch, omission and hallucination counts. Results per volume in `data/ground_
 
 | volume | crop pass | pairs | ground-truth rows unclaimed | gold fractions above 1 dropped | precision | recall | F1 |
 |---:|:---:|---:|---:|---:|---:|---:|---:|
-| 20 | v1 | 173 | 394 | 0 | 0.907 | 0.811 | 0.852 |
-| 37 | v1 | 847 | 1 392 | 1 | 0.960 | 0.951 | 0.951 |
-| 38 | v2 | 697 | 276 | 3 | 0.971 | 0.905 | 0.931 |
-| 57 | v1 | 732 | 1 669 | 172 | 0.824 | 0.714 | 0.751 |
-| 58 | v1 | 610 | 1 097 | 0 | 0.978 | 0.978 | 0.978 |
-| 59 | v2 | 2 505 | 697 | 0 | 0.981 | 0.982 | 0.981 |
-| 60 | v1 | 636 | 188 | 0 | 0.890 | 0.863 | 0.874 |
-| 62 | v2 | 2 830 | 3 174 | 474 | 0.918 | 0.892 | 0.900 |
-| all | | 9 030 | 8 887 | 650 | 0.938 | 0.911 | 0.920 |
+| 20 | v1 | 155 | 412 | 0 | 0.896 | 0.823 | 0.854 |
+| 37 | v1 | 854 | 1 385 | 5 | 0.959 | 0.940 | 0.945 |
+| 38 | v2 | 747 | 226 | 3 | 0.960 | 0.896 | 0.920 |
+| 57 | v1 | 957 | 1 444 | 167 | 0.847 | 0.730 | 0.774 |
+| 58 | v1 | 684 | 1 023 | 0 | 0.952 | 0.980 | 0.964 |
+| 59 | v2 | 2 527 | 675 | 0 | 0.977 | 0.981 | 0.979 |
+| 60 | v1 | 644 | 180 | 0 | 0.884 | 0.862 | 0.871 |
+| 62 | v2 | 2 669 | 3 335 | 431 | 0.913 | 0.883 | 0.893 |
+| all | | 9 237 | 8 680 | 606 | 0.932 | 0.905 | 0.914 |
 
 Two numbers describe the result. The pair count against the unclaimed rows is coverage: how many
 of NIST's rows our entries reproduce (the row measure of the eight-volume table, seen from the
-other side); the scores are fidelity on the paired rows. A gold fraction above 1 is dropped before
+other side); the scores are fidelity on the paired rows. A NIST id whose row the ground-truth
+entries leave out (text cells, ragged tables) is not scored, so the pairs are fewer than the
+entries carrying an id. A gold fraction above 1 is dropped before
 scoring and counted: the crawl's documentation flags 7 279 values where NIST dropped the 10^k
-header factor (`fraction_column_exceeds_1`), 650 of them in our pairs, nearly all in volumes 57
-and 62, and our values there are the printed ones. Over the eight volumes, 9 030 pairs score
-F1 0.920: temperatures match in 99 % of pairs, CAS numbers always, the mole fractions in 87 %.
+header factor (`fraction_column_exceeds_1`), 606 of them in our pairs, nearly all in volumes 57
+and 62, and our values there are the printed ones. Over the eight volumes, 9 237 pairs score
+F1 0.914 (temperature precision 0.990, CAS numbers 0.981, mole fractions 0.864). Because the
+pairing ignores the scored values, the score now includes rows a value-based pairing never
+paired: misreads, which count as mismatches, and rows whose fields our exporter files
+differently, such as the third component of the ternary sheets of volume 58, which count as
+hallucinations. That is why some volumes score slightly lower on more pairs.
+
+The breakdown of mismatches into kinds below, and the header-map evaluation of the next section,
+were measured on the earlier, value-based pairing (9 030 pairs, F1 0.920) and are still to be
+re-measured on the present one.
 
 `pairs.csv` names every failing pair with the field, the gold value and ours, so the mismatches
 can be sorted into kinds. Of the 448 mole-fraction mismatches, 217 are far off (a wrong column,
@@ -395,26 +435,31 @@ component positions merged):
 
 | quantity | compared | match | mismatch | omission | hallucination | precision | recall |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| CAS number | 21 155 | 20 569 | 0 | 391 | 195 | 0.991 | 0.981 |
-| mole fraction | 10 353 | 8 293 | 448 | 805 | 807 | 0.869 | 0.869 |
-| temperature | 8 920 | 8 694 | 87 | 139 | 0 | 0.990 | 0.975 |
-| pressure | 3 678 | 2 414 | 194 | 1 010 | 60 | 0.905 | 0.667 |
-| mass fraction | 2 521 | 1 848 | 77 | 383 | 213 | 0.864 | 0.801 |
-| molar concentration | 2 222 | 1 390 | 10 | 718 | 104 | 0.924 | 0.656 |
-| Bunsen coefficient | 1 321 | 1 214 | 11 | 73 | 23 | 0.973 | 0.935 |
-| molality | 1 056 | 946 | 12 | 82 | 16 | 0.971 | 0.910 |
-| Kuenen coefficient | 914 | 831 | 1 | 54 | 28 | 0.966 | 0.938 |
-| Ostwald coefficient | 856 | 787 | 11 | 23 | 35 | 0.945 | 0.959 |
-| partial pressure | 538 | 0 | 0 | 0 | 538 | 0.000 | 0.000 |
+| CAS number | 22 004 | 21 149 | 0 | 440 | 415 | 0.981 | 0.980 |
+| mole fraction | 10 823 | 8 528 | 433 | 948 | 914 | 0.864 | 0.861 |
+| temperature | 9 118 | 8 920 | 86 | 112 | 0 | 0.990 | 0.978 |
+| pressure | 3 731 | 2 391 | 344 | 925 | 71 | 0.852 | 0.653 |
+| mass fraction | 2 589 | 1 832 | 89 | 480 | 188 | 0.869 | 0.763 |
+| molar concentration | 2 279 | 1 288 | 8 | 859 | 124 | 0.907 | 0.598 |
+| Bunsen coefficient | 1 371 | 1 256 | 18 | 73 | 24 | 0.968 | 0.932 |
+| molality | 1 268 | 1 161 | 21 | 69 | 17 | 0.968 | 0.928 |
+| Ostwald coefficient | 876 | 794 | 24 | 29 | 29 | 0.937 | 0.937 |
+| Kuenen coefficient | 709 | 645 | 9 | 30 | 25 | 0.950 | 0.943 |
+| partial pressure | 501 | 0 | 0 | 0 | 501 | 0.000 | 0.000 |
 | solute-solvent mass ratio | 256 | 34 | 0 | 28 | 194 | 0.149 | 0.548 |
-| gas-phase mole fraction | 166 | 35 | 12 | 119 | 0 | 0.745 | 0.211 |
-| Henry constant p/c | 153 | 44 | 0 | 93 | 16 | 0.733 | 0.321 |
-| Henry constant p/x | 126 | 10 | 0 | 51 | 65 | 0.133 | 0.164 |
-| Henry constant c/c | 94 | 38 | 0 | 31 | 25 | 0.603 | 0.551 |
-| mass concentration | 67 | 44 | 0 | 20 | 3 | 0.936 | 0.688 |
+| Henry constant p/c | 248 | 44 | 0 | 188 | 16 | 0.733 | 0.190 |
+| Henry constant p/x | 199 | 45 | 0 | 63 | 91 | 0.331 | 0.417 |
+| gas-phase mole fraction | 136 | 6 | 11 | 119 | 0 | 0.353 | 0.044 |
+| Henry constant c/c | 103 | 38 | 0 | 40 | 25 | 0.603 | 0.487 |
+| mass concentration | 60 | 33 | 0 | 24 | 3 | 0.917 | 0.579 |
+
+The pressure mismatches (344) are mostly the filing difference described above, now visible on
+rows a value-based pairing left unpaired; the gas-phase mole fractions fell because the two-block
+gas tables of volume 57 tie on temperature and pressure and are left `ambiguous` rather than
+paired by their values.
 
 Three rows of that table are not extraction errors but places where the two exporters file the
-same number differently, and they can be fixed on either side: the 538 partial pressures our
+same number differently, and they can be fixed on either side: the 501 partial pressures our
 exporter stores per component where the crawl keeps one pressure per row; the solute-solvent
 mass ratio, which our exporter stores for both components of a pair of `g_1/g_2` and `g_2/g_1`
 columns and the crawl for the solute only; and the Henry constant conventions, where the crawl's
