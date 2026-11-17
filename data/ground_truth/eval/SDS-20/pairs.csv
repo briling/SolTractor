@@ -1,6 +1,4 @@
 nist_id,lab_id,precision,recall,f1,mismatched,omitted,hallucinated
-20_10/t4/r2,SDS-20/p036/0/r06,1.0,0.625,0.7692,,components[0].cas components[0].molar_concentration temperature,
-20_10/t6/r0,SDS-20/p036/0/r12,1.0,0.625,0.7692,,components[0].cas components[0].molar_concentration temperature,
 20_107/t0/r0,SDS-20/p145/0/r00,0.8333,0.8333,0.8333,,components[0].mass_fraction,pressure
 20_107/t0/r1,SDS-20/p145/0/r01,0.8333,0.8333,0.8333,,components[0].mass_fraction,pressure
 20_107/t0/r2,SDS-20/p145/0/r02,0.8333,0.8333,0.8333,,components[0].mass_fraction,pressure
@@ -110,8 +108,10 @@ nist_id,lab_id,precision,recall,f1,mismatched,omitted,hallucinated
 20_36/t0/r0,SDS-20/p062/0/r00,1.0,1.0,1.0,,,
 20_47/t0/r0,SDS-20/p074/0/r00,1.0,1.0,1.0,,,
 20_5/t0/r0,SDS-20/p027/0/r00,1.0,0.8333,0.9091,,components[0].molar_concentration,
+20_53/t0/r0,SDS-20/p080/0/r00,1.0,1.0,1.0,,,
 20_56/t0/r0,SDS-20/p083/0/r00,1.0,0.8333,0.9091,,components[0].molar_concentration,
 20_61/t0/r0,SDS-20/p088/0/r00,1.0,1.0,1.0,,,
+20_65/t0/r0,SDS-20/p093/0/r00,1.0,0.3333,0.5,,components[0].mass_concentration components[0].molar_concentration components[0].mole_fraction temperature,
 20_69/t0/r0,SDS-20/p100/0/r00,0.8333,0.8333,0.8333,,components[1].mass_fraction,components[1].solute_solvent_mass_ratio
 20_69/t0/r1,SDS-20/p100/0/r01,0.8333,0.8333,0.8333,,components[1].mass_fraction,components[1].solute_solvent_mass_ratio
 20_69/t0/r2,SDS-20/p100/0/r02,0.8333,0.8333,0.8333,,components[1].mass_fraction,components[1].solute_solvent_mass_ratio
@@ -144,27 +144,9 @@ nist_id,lab_id,precision,recall,f1,mismatched,omitted,hallucinated
 20_81/t0/r7,SDS-20/p114/0/r07,0.8333,0.8333,0.8333,,components[0].mass_fraction,components[0].solute_solvent_mass_ratio
 20_84/t0/r0,SDS-20/p117/0/r00,1.0,1.0,1.0,,,
 20_84/t0/r1,SDS-20/p117/0/r01,1.0,1.0,1.0,,,
-20_85/t0/r0,SDS-20/p118/0/r00,1.0,0.75,0.8571,,components[0].mass_fraction,
-20_85/t0/r1,SDS-20/p118/0/r01,1.0,0.75,0.8571,,components[0].mass_fraction,
 20_87/t0/r0,SDS-20/p120/0/r00,1.0,1.0,1.0,,,
 20_89/t0/r0,SDS-20/p123/0/r00,0.8333,0.8333,0.8333,,components[0].mass_fraction,components[0].solute_solvent_mass_ratio
 20_89/t0/r1,SDS-20/p123/0/r01,0.8333,0.8333,0.8333,,components[0].mass_fraction,components[0].solute_solvent_mass_ratio
-20_9/t1/r3,SDS-20/p034/0/r00,1.0,0.75,0.8571,,components[0].molar_concentration temperature,
-20_9/t1/r5,SDS-20/p034/0/r02,1.0,0.75,0.8571,,components[0].molar_concentration temperature,
-20_9/t1/r6,SDS-20/p034/0/r03,1.0,0.75,0.8571,,components[0].molar_concentration temperature,
-20_9/t2/r0,SDS-20/p034/0/r04,1.0,0.75,0.8571,,components[0].molar_concentration temperature,
-20_9/t2/r1,SDS-20/p034/0/r05,1.0,0.75,0.8571,,components[0].molar_concentration temperature,
-20_9/t2/r2,SDS-20/p034/0/r06,1.0,0.75,0.8571,,components[0].molar_concentration temperature,
-20_9/t2/r3,SDS-20/p034/0/r07,1.0,0.75,0.8571,,components[0].molar_concentration temperature,
-20_9/t2/r4,SDS-20/p034/0/r08,1.0,0.75,0.8571,,components[0].molar_concentration temperature,
-20_9/t2/r5,SDS-20/p034/0/r09,1.0,0.75,0.8571,,components[0].molar_concentration temperature,
-20_9/t2/r6,SDS-20/p034/0/r10,1.0,0.75,0.8571,,components[0].molar_concentration temperature,
-20_9/t3/r0,SDS-20/p034/0/r11,1.0,0.625,0.7692,,components[0].molar_concentration components[2].mass_concentration temperature,
-20_9/t3/r1,SDS-20/p034/0/r12,1.0,0.625,0.7692,,components[0].molar_concentration components[2].mass_concentration temperature,
-20_9/t3/r2,SDS-20/p034/0/r13,1.0,0.625,0.7692,,components[0].molar_concentration components[2].mass_concentration temperature,
-20_9/t3/r3,SDS-20/p034/0/r14,1.0,0.625,0.7692,,components[0].molar_concentration components[2].mass_concentration temperature,
-20_9/t3/r5,SDS-20/p034/0/r16,1.0,0.625,0.7692,,components[0].molar_concentration components[2].mass_concentration temperature,
-20_9/t3/r6,SDS-20/p034/0/r17,1.0,0.625,0.7692,,components[0].molar_concentration components[2].mass_concentration temperature,
 20_92/t0/r0,SDS-20/p128/0/r00,1.0,1.0,1.0,,,
 20_93/t0/r0,SDS-20/p129/0/r00,0.8333,0.8333,0.8333,,components[0].mass_fraction,components[0].solute_solvent_mass_ratio
 20_93/t0/r1,SDS-20/p129/0/r01,0.8333,0.8333,0.8333,,components[0].mass_fraction,components[0].solute_solvent_mass_ratio
