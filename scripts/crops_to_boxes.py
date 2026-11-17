@@ -10,10 +10,21 @@ shares most numeric tokens with it. The table becomes one line per row, cells
 separated by " | ", rowspan cells repeated in every row they span (a blank
 temperature under a repeated one means "as above"); a crop with no table keeps
 the whole-page text.
+
+A sheet that takes a crop records it under `crop` (name, number of shared numeric
+tokens, tokens compared) and gains the crop's band as a region, read from the
+manifest.csv next to the crop results (vertical extent in PDF points). Every crop
+assignment, taken or not, is a `crop_to_sheet` record in the trace written next to the
+output (`boxes-crops.trace.jsonl`), with the candidate sheets and their scores.
 """
-import html, json, pathlib, re, sys
+import csv, html, json, pathlib, re, sys
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from provenance import Trace, region, sheet_id_of  # noqa: E402
 
 src, crops, dst = map(pathlib.Path, sys.argv[1:4])
+run_dir = crops if crops.is_dir() else crops.parent                       # crops/ or crops-v2/
+witness = f'mineru-{run_dir.name}'
+manifest = {r['file'].removesuffix('.png'): r for r in csv.DictReader((run_dir / 'manifest.csv').open())} if (run_dir / 'manifest.csv').exists() else {}
 
 
 def html_rows(c: str) -> list[list[str]]:
@@ -85,23 +96,36 @@ for r in records:
     by_page.setdefault(r['page'], []).append(r)
 NUM = re.compile(r'\d+(?:\.\d+)?')
 used, no_table, unmatched = 0, 0, 0
+trace = Trace(dst.with_suffix('.trace.jsonl'))
 for page, recs in by_page.items():
     bands = [k for k in sorted(crop) if k.startswith(f'p{page:03d}_') and crop[k]]
     targets = [r for r in recs if r['kind'] == 'compilation']
-    no_table += sum(1 for k in crop if k.startswith(f'p{page:03d}_') and not crop[k])
+    for k in sorted(crop):
+        if k.startswith(f'p{page:03d}_') and not crop[k]:
+            no_table += 1
+            trace.decide('crop_to_sheet', k, None, 'no_table')
     # each crop goes to the sheet on its page whose whole-page table text shares most numeric tokens
     taken = set()
     for name in bands:
         toks = [t for t in NUM.findall(crop[name]) if len(t) >= 3]
-        best = max(((sum(1 for t in toks if t in r['boxes'].get('experimental_values', '')), i)
-                    for i, r in enumerate(targets) if i not in taken), default=(0, None))
+        scores = [(sum(1 for t in toks if t in r['boxes'].get('experimental_values', '')), i)
+                  for i, r in enumerate(targets) if i not in taken]
+        best = max(scores, default=(0, None))
+        candidates = [[sheet_id_of(targets[i]), s] for s, i in scores]
         if best[1] is None or (toks and best[0] == 0):
             unmatched += 1
+            trace.decide('crop_to_sheet', name, None, 'no_free_sheet' if best[1] is None else 'no_shared_numbers', candidates, tokens=len(toks))
             continue
         r = targets[best[1]]; taken.add(best[1])
         r['boxes']['experimental_values'] = crop[name]
         r['flags'] = r.get('flags', []) + ['crop_table']
+        r['crop'] = {'name': name, 'witness': witness, 'shared_numbers': best[0], 'tokens': len(toks)}
+        if name in manifest:
+            m = manifest[name]
+            r.setdefault('regions', []).append(region(witness, int(m['page']), 'band', name, y0=float(m['y0']), y1=float(m['y1'])))
+        trace.decide('crop_to_sheet', name, sheet_id_of(r), 'most_shared_numbers', candidates, tokens=len(toks))
         used += 1
+trace.close()
 with dst.open('w') as f:
     for r in records:
         f.write(json.dumps(r, ensure_ascii=False) + '\n')
