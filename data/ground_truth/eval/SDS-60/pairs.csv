@@ -5,15 +5,13 @@ nist_id,lab_id,precision,recall,f1,mismatched,omitted,hallucinated
 60_101/t0/r0,SDS-60/p083/1/r00,1.0,1.0,1.0,,,
 60_101/t0/r1,SDS-60/p083/1/r01,1.0,1.0,1.0,,,
 60_101/t0/r2,SDS-60/p083/1/r02,1.0,1.0,1.0,,,
+60_101/t0/r3,SDS-60/p083/1/r03,1.0,1.0,1.0,,,
 60_102/t0/r0,SDS-60/p084/0/r00,1.0,1.0,1.0,,,
 60_103/t0/r0,SDS-60/p084/1/r00,1.0,1.0,1.0,,,
 60_103/t0/r1,SDS-60/p084/1/r01,1.0,1.0,1.0,,,
 60_103/t0/r2,SDS-60/p084/1/r02,1.0,1.0,1.0,,,
 60_103/t0/r3,SDS-60/p084/1/r03,1.0,1.0,1.0,,,
 60_104/t0/r0,SDS-60/p085/0/r00,1.0,1.0,1.0,,,
-60_105/t0/r3,SDS-60/p086/0/r00,1.0,1.0,1.0,,,
-60_105/t0/r4,SDS-60/p086/0/r01,1.0,1.0,1.0,,,
-60_105/t0/r5,SDS-60/p086/0/r02,1.0,1.0,1.0,,,
 60_106/t0/r0,SDS-60/p086/1/r00,1.0,1.0,1.0,,,
 60_106/t0/r1,SDS-60/p086/1/r01,1.0,1.0,1.0,,,
 60_106/t0/r2,SDS-60/p086/1/r02,1.0,1.0,1.0,,,
@@ -31,6 +29,10 @@ nist_id,lab_id,precision,recall,f1,mismatched,omitted,hallucinated
 60_11/t0/r1,SDS-60/p027/1/r01,1.0,1.0,1.0,,,
 60_11/t0/r2,SDS-60/p027/1/r02,1.0,1.0,1.0,,,
 60_11/t0/r3,SDS-60/p027/1/r03,1.0,1.0,1.0,,,
+60_110/t0/r0,SDS-60/p089/0/r00,1.0,1.0,1.0,,,
+60_110/t0/r1,SDS-60/p089/0/r01,1.0,1.0,1.0,,,
+60_110/t0/r2,SDS-60/p089/0/r02,1.0,1.0,1.0,,,
+60_110/t0/r3,SDS-60/p089/0/r03,1.0,1.0,1.0,,,
 60_112/t0/r0,SDS-60/p091/0/r00,1.0,1.0,1.0,,,
 60_113/t0/r0,SDS-60/p091/1/r00,1.0,1.0,1.0,,,
 60_114/t0/r0,SDS-60/p092/0/r00,1.0,1.0,1.0,,,
@@ -76,7 +78,10 @@ nist_id,lab_id,precision,recall,f1,mismatched,omitted,hallucinated
 60_143/t0/r0,SDS-60/p109/0/r00,0.3333,0.3333,0.3333,,components[1].cas components[1].henry_constant_p_over_c components[1].mass_fraction components[1].mole_fraction,components[0].henry_constant_p_over_c components[0].mass_fraction components[0].mole_fraction components[-1].cas
 60_144/t0/r0,SDS-60/p109/1/r00,0.5,0.5,0.5,,components[1].henry_constant_p_over_c components[1].mass_fraction components[1].mole_fraction,components[0].henry_constant_p_over_c components[0].mass_fraction components[0].mole_fraction
 60_145/t0/r0,SDS-60/p110/0/r00,0.3333,0.3333,0.3333,,components[1].cas components[1].henry_constant_p_over_c components[1].mass_fraction components[1].mole_fraction,components[0].henry_constant_p_over_c components[0].mass_fraction components[0].mole_fraction components[-1].cas
+60_147/t0/r0,SDS-60/p116/1/r02,0.6,0.6,0.6,components[0].mass_fraction=0.0089|0.00713 components[0].mole_fraction=0.000353|0.001082,,
+60_147/t0/r1,SDS-60/p116/1/r03,0.6,0.6,0.6,components[0].mass_fraction=0.00713|0.0070799999999999995 components[0].mole_fraction=0.001082|0.001075,,
 60_147/t0/r2,SDS-60/p116/1/r00,1.0,1.0,1.0,,,
+60_147/t0/r3,SDS-60/p116/1/r01,0.6,0.6,0.6,components[0].mass_fraction=0.00708|0.0089 components[0].mole_fraction=0.001075|0.001353,,
 60_147/t0/r4,SDS-60/p116/1/r04,1.0,1.0,1.0,,,
 60_147/t0/r5,SDS-60/p116/1/r05,1.0,1.0,1.0,,,
 60_149/t0/r0,SDS-60/p117/0/r00,1.0,1.0,1.0,,,
@@ -107,8 +112,6 @@ nist_id,lab_id,precision,recall,f1,mismatched,omitted,hallucinated
 60_15/t0/r34,SDS-60/p030/0/r30,1.0,0.8333,0.9091,,components[0].molar_concentration,
 60_15/t0/r35,SDS-60/p030/0/r31,1.0,0.8333,0.9091,,components[0].molar_concentration,
 60_15/t0/r36,SDS-60/p030/0/r32,1.0,0.8333,0.9091,,components[0].molar_concentration,
-60_15/t0/r4,SDS-60/p030/0/r00,1.0,0.8333,0.9091,,components[0].molar_concentration,
-60_15/t0/r5,SDS-60/p030/0/r01,1.0,0.8333,0.9091,,components[0].molar_concentration,
 60_15/t0/r6,SDS-60/p030/0/r02,1.0,0.8333,0.9091,,components[0].molar_concentration,
 60_15/t0/r7,SDS-60/p030/0/r03,1.0,0.8333,0.9091,,components[0].molar_concentration,
 60_15/t0/r8,SDS-60/p030/0/r04,1.0,0.8333,0.9091,,components[0].molar_concentration,
@@ -200,6 +203,7 @@ nist_id,lab_id,precision,recall,f1,mismatched,omitted,hallucinated
 60_186/t0/r0,SDS-60/p136/0/r00,1.0,1.0,1.0,,,
 60_187/t0/r0,SDS-60/p136/1/r00,1.0,1.0,1.0,,,
 60_188/t0/r0,SDS-60/p137/0/r00,1.0,1.0,1.0,,,
+60_189/t0/r0,SDS-60/p137/1/r00,1.0,1.0,1.0,,,
 60_19/t0/r0,SDS-60/p032/1/r00,1.0,1.0,1.0,,,
 60_19/t0/r1,SDS-60/p032/1/r01,1.0,1.0,1.0,,,
 60_19/t0/r2,SDS-60/p032/1/r02,1.0,1.0,1.0,,,
@@ -237,7 +241,6 @@ nist_id,lab_id,precision,recall,f1,mismatched,omitted,hallucinated
 60_200/t0/r0,SDS-60/p143/1/r00,1.0,1.0,1.0,,,
 60_200/t0/r1,SDS-60/p143/1/r01,1.0,1.0,1.0,,,
 60_201/t0/r0,SDS-60/p144/0/r00,1.0,1.0,1.0,,,
-60_202/t0/r1,SDS-60/p145/0/r00,1.0,1.0,1.0,,,
 60_203/t0/r0,SDS-60/p145/1/r00,1.0,1.0,1.0,,,
 60_204/t0/r0,SDS-60/p146/0/r00,1.0,1.0,1.0,,,
 60_205/t0/r0,SDS-60/p146/1/r00,1.0,1.0,1.0,,,
@@ -291,7 +294,6 @@ nist_id,lab_id,precision,recall,f1,mismatched,omitted,hallucinated
 60_219/t0/r1,SDS-60/p153/1/r01,0.5,0.5,0.5,,components[1].henry_constant_c_gas_over_c_liquid components[1].mass_fraction components[1].mole_fraction,components[0].henry_constant_c_gas_over_c_liquid components[0].mass_fraction components[0].mole_fraction
 60_219/t0/r2,SDS-60/p153/1/r02,0.5,0.5,0.5,,components[1].henry_constant_c_gas_over_c_liquid components[1].mass_fraction components[1].mole_fraction,components[0].henry_constant_c_gas_over_c_liquid components[0].mass_fraction components[0].mole_fraction
 60_219/t0/r3,SDS-60/p153/1/r03,0.5,0.5,0.5,,components[1].henry_constant_c_gas_over_c_liquid components[1].mass_fraction components[1].mole_fraction,components[0].henry_constant_c_gas_over_c_liquid components[0].mass_fraction components[0].mole_fraction
-60_22/t0/r20,SDS-60/p035/0/r00,1.0,0.75,0.8571,,components[0].molar_concentration,
 60_22/t0/r21,SDS-60/p035/0/r01,1.0,0.75,0.8571,,components[0].molar_concentration,
 60_22/t0/r22,SDS-60/p035/0/r02,1.0,0.75,0.8571,,components[0].molar_concentration,
 60_22/t0/r23,SDS-60/p035/0/r03,1.0,0.75,0.8571,,components[0].molar_concentration,
@@ -304,15 +306,15 @@ nist_id,lab_id,precision,recall,f1,mismatched,omitted,hallucinated
 60_22/t0/r30,SDS-60/p035/0/r10,1.0,0.75,0.8571,,components[0].molar_concentration,
 60_22/t0/r31,SDS-60/p035/0/r11,1.0,0.75,0.8571,,components[0].molar_concentration,
 60_22/t0/r32,SDS-60/p035/0/r12,1.0,0.75,0.8571,,components[0].molar_concentration,
-60_22/t0/r33,SDS-60/p035/0/r17,1.0,0.75,0.8571,,components[0].molar_concentration,
+60_22/t0/r33,SDS-60/p035/0/r13,1.0,0.75,0.8571,,components[0].molar_concentration,
 60_22/t0/r34,SDS-60/p035/0/r14,1.0,0.75,0.8571,,components[0].molar_concentration,
 60_22/t0/r35,SDS-60/p035/0/r15,1.0,0.75,0.8571,,components[0].molar_concentration,
 60_22/t0/r36,SDS-60/p035/0/r16,1.0,0.75,0.8571,,components[0].molar_concentration,
+60_22/t0/r37,SDS-60/p035/0/r17,1.0,0.75,0.8571,,components[0].molar_concentration,
 60_220/t0/r0,SDS-60/p154/0/r00,0.5,0.5,0.5,,components[1].henry_constant_c_gas_over_c_liquid components[1].mass_fraction components[1].mole_fraction,components[0].henry_constant_c_gas_over_c_liquid components[0].mass_fraction components[0].mole_fraction
 60_220/t0/r1,SDS-60/p154/0/r01,0.5,0.5,0.5,,components[1].henry_constant_c_gas_over_c_liquid components[1].mass_fraction components[1].mole_fraction,components[0].henry_constant_c_gas_over_c_liquid components[0].mass_fraction components[0].mole_fraction
 60_220/t0/r2,SDS-60/p154/0/r02,0.5,0.5,0.5,,components[1].henry_constant_c_gas_over_c_liquid components[1].mass_fraction components[1].mole_fraction,components[0].henry_constant_c_gas_over_c_liquid components[0].mass_fraction components[0].mole_fraction
 60_220/t0/r3,SDS-60/p154/0/r03,0.5,0.5,0.5,,components[1].henry_constant_c_gas_over_c_liquid components[1].mass_fraction components[1].mole_fraction,components[0].henry_constant_c_gas_over_c_liquid components[0].mass_fraction components[0].mole_fraction
-60_221/t0/r1,SDS-60/p155/0/r00,1.0,0.5,0.6667,,components[0].mass_fraction components[0].molar_concentration components[0].mole_fraction components[1].molar_concentration,
 60_222/t0/r0,SDS-60/p156/0/r00,1.0,1.0,1.0,,,
 60_222/t0/r4,SDS-60/p156/0/r04,1.0,1.0,1.0,,,
 60_223/t0/r0,SDS-60/p157/0/r00,1.0,1.0,1.0,,,
@@ -321,8 +323,6 @@ nist_id,lab_id,precision,recall,f1,mismatched,omitted,hallucinated
 60_223/t0/r3,SDS-60/p157/0/r03,1.0,1.0,1.0,,,
 60_223/t0/r4,SDS-60/p157/0/r04,1.0,1.0,1.0,,,
 60_223/t0/r5,SDS-60/p157/0/r05,1.0,1.0,1.0,,,
-60_224/t0/r1,SDS-60/p158/0/r00,1.0,1.0,1.0,,,
-60_224/t0/r2,SDS-60/p158/0/r01,1.0,1.0,1.0,,,
 60_226/t0/r0,SDS-60/p159/0/r00,1.0,1.0,1.0,,,
 60_226/t0/r1,SDS-60/p159/0/r01,1.0,1.0,1.0,,,
 60_226/t0/r2,SDS-60/p159/0/r02,1.0,1.0,1.0,,,
@@ -431,6 +431,7 @@ nist_id,lab_id,precision,recall,f1,mismatched,omitted,hallucinated
 60_276/t0/r0,SDS-60/p192/0/r00,1.0,1.0,1.0,,,
 60_276/t0/r1,SDS-60/p192/0/r01,1.0,1.0,1.0,,,
 60_276/t0/r2,SDS-60/p192/0/r02,1.0,1.0,1.0,,,
+60_276/t0/r3,SDS-60/p192/0/r03,1.0,1.0,1.0,,,
 60_277/t0/r0,SDS-60/p192/1/r00,1.0,1.0,1.0,,,
 60_278/t0/r0,SDS-60/p193/0/r00,1.0,1.0,1.0,,,
 60_278/t0/r1,SDS-60/p193/0/r01,1.0,1.0,1.0,,,
@@ -441,6 +442,8 @@ nist_id,lab_id,precision,recall,f1,mismatched,omitted,hallucinated
 60_280/t0/r0,SDS-60/p194/0/r00,1.0,1.0,1.0,,,
 60_280/t0/r1,SDS-60/p194/0/r01,1.0,1.0,1.0,,,
 60_280/t0/r2,SDS-60/p194/0/r02,1.0,1.0,1.0,,,
+60_281/t0/r0,SDS-60/p195/0/r00,0.6667,0.6667,0.6667,,components[2].mass_fraction components[2].mole_fraction,components[0].mass_fraction components[0].mole_fraction
+60_281/t1/r0,SDS-60/p195/0/r04,0.6667,0.6667,0.6667,,components[2].mass_fraction components[2].mole_fraction,components[0].mass_fraction components[0].mole_fraction
 60_283/t0/r0,SDS-60/p197/0/r00,1.0,0.8333,0.9091,,components[0].solute_solvent_mass_ratio,
 60_284/t0/r0,SDS-60/p197/1/r00,0.8333,0.8333,0.8333,components[0].mole_fraction=8.28e-05|0.00828,,
 60_285/t0/r0,SDS-60/p198/0/r00,0.75,0.6,0.6667,,components[0].mass_fraction components[0].mole_fraction,components[1].mass_fraction
@@ -496,6 +499,7 @@ nist_id,lab_id,precision,recall,f1,mismatched,omitted,hallucinated
 60_36/t0/r1,SDS-60/p047/1/r01,1.0,1.0,1.0,,,
 60_37/t0/r0,SDS-60/p048/0/r00,1.0,1.0,1.0,,,
 60_38/t0/r0,SDS-60/p048/1/r00,1.0,1.0,1.0,,,
+60_39/t0/r0,SDS-60/p049/0/r00,1.0,1.0,1.0,,,
 60_4/t0/r0,SDS-60/p021/1/r00,1.0,1.0,1.0,,,
 60_40/t0/r0,SDS-60/p049/1/r00,1.0,1.0,1.0,,,
 60_41/t0/r0,SDS-60/p050/0/r00,0.6,0.6,0.6,,components[0].mass_fraction components[0].mole_fraction,components[1].mass_fraction components[1].mole_fraction
@@ -510,18 +514,21 @@ nist_id,lab_id,precision,recall,f1,mismatched,omitted,hallucinated
 60_49/t0/r0,SDS-60/p054/0/r00,0.5,0.5,0.5,,components[0].mass_fraction components[0].molar_concentration components[0].mole_fraction,components[1].mass_fraction components[1].molar_concentration components[1].mole_fraction
 60_50/t0/r0,SDS-60/p054/1/r00,0.5,0.5,0.5,,components[0].mass_fraction components[0].molar_concentration components[0].mole_fraction,components[1].mass_fraction components[1].molar_concentration components[1].mole_fraction
 60_51/t0/r0,SDS-60/p055/0/r00,0.8571,0.8571,0.8571,components[1].molar_concentration=8700.0|8.7,,
+60_53/t0/r0,SDS-60/p056/0/r00,0.6,0.6,0.6,,components[0].mass_fraction components[0].mole_fraction,components[1].mass_fraction components[1].mole_fraction
+60_53/t0/r1,SDS-60/p056/0/r01,0.6,0.6,0.6,,components[0].mass_fraction components[0].mole_fraction,components[1].mass_fraction components[1].mole_fraction
 60_54/t0/r0,SDS-60/p056/1/r00,0.5,0.5,0.5,,components[0].mass_fraction components[0].molar_concentration components[0].mole_fraction,components[1].mass_fraction components[1].molar_concentration components[1].mole_fraction
 60_55/t0/r0,SDS-60/p057/0/r00,0.6,0.6,0.6,,components[0].mass_fraction components[0].mole_fraction,components[1].mass_fraction components[1].mole_fraction
 60_55/t0/r1,SDS-60/p057/0/r01,0.6,0.6,0.6,,components[0].mass_fraction components[0].mole_fraction,components[1].mass_fraction components[1].mole_fraction
-60_56/t0/r12,SDS-60/p058/0/r03,1.0,0.4,0.5714,,components[0].mass_fraction components[0].mole_fraction temperature,
-60_56/t0/r3,SDS-60/p058/0/r00,1.0,0.4,0.5714,,components[0].mass_fraction components[0].mole_fraction temperature,
-60_56/t0/r6,SDS-60/p058/0/r01,1.0,0.4,0.5714,,components[0].mass_fraction components[0].mole_fraction temperature,
-60_56/t0/r9,SDS-60/p058/0/r02,1.0,0.4,0.5714,,components[0].mass_fraction components[0].mole_fraction temperature,
 60_57/t0/r0,SDS-60/p058/1/r00,1.0,0.8333,0.9091,,components[0].solute_solvent_mass_ratio,
 60_57/t0/r1,SDS-60/p058/1/r01,1.0,0.8333,0.9091,,components[0].solute_solvent_mass_ratio,
 60_57/t0/r2,SDS-60/p058/1/r02,1.0,0.8333,0.9091,,components[0].solute_solvent_mass_ratio,
 60_57/t0/r3,SDS-60/p058/1/r03,1.0,0.8333,0.9091,,components[0].solute_solvent_mass_ratio,
 60_58/t0/r0,SDS-60/p059/0/r00,1.0,1.0,1.0,,,
+60_59/t0/r0,SDS-60/p059/1/r00,0.5,0.6,0.5455,,components[0].mass_fraction components[0].mole_fraction,components[1].mass_fraction components[1].molar_concentration components[1].mole_fraction
+60_59/t0/r1,SDS-60/p059/1/r01,0.5,0.6,0.5455,,components[0].mass_fraction components[0].mole_fraction,components[1].mass_fraction components[1].molar_concentration components[1].mole_fraction
+60_59/t0/r2,SDS-60/p059/1/r02,0.5,0.6,0.5455,,components[0].mass_fraction components[0].mole_fraction,components[1].mass_fraction components[1].molar_concentration components[1].mole_fraction
+60_59/t0/r3,SDS-60/p059/1/r03,0.5,0.6,0.5455,,components[0].mass_fraction components[0].mole_fraction,components[1].mass_fraction components[1].molar_concentration components[1].mole_fraction
+60_59/t0/r4,SDS-60/p059/1/r04,0.5,0.6,0.5455,,components[0].mass_fraction components[0].mole_fraction,components[1].mass_fraction components[1].molar_concentration components[1].mole_fraction
 60_6/t0/r0,SDS-60/p025/0/r00,1.0,1.0,1.0,,,
 60_60/t0/r0,SDS-60/p060/0/r00,1.0,1.0,1.0,,,
 60_60/t0/r2,SDS-60/p060/0/r02,1.0,1.0,1.0,,,
@@ -604,7 +611,8 @@ nist_id,lab_id,precision,recall,f1,mismatched,omitted,hallucinated
 60_9/t0/r0,SDS-60/p026/1/r00,1.0,1.0,1.0,,,
 60_90/t0/r0,SDS-60/p076/0/r00,1.0,1.0,1.0,,,
 60_91/t0/r0,SDS-60/p076/1/r00,1.0,1.0,1.0,,,
-60_91/t0/r1,SDS-60/p076/1/r02,0.8,0.8,0.8,temperature=303.15|313.15,,
+60_91/t0/r1,SDS-60/p076/1/r01,1.0,1.0,1.0,,,
+60_91/t0/r2,SDS-60/p076/1/r02,1.0,1.0,1.0,,,
 60_92/t0/r0,SDS-60/p077/0/r00,0.5,0.5,0.5,,components[1].henry_constant_c_gas_over_c_liquid components[1].mass_fraction components[1].mole_fraction,components[0].henry_constant_c_gas_over_c_liquid components[0].mass_fraction components[0].mole_fraction
 60_93/t0/r0,SDS-60/p077/1/r00,0.3333,0.3333,0.3333,,components[1].cas components[1].henry_constant_c_gas_over_c_liquid components[1].mass_fraction components[1].mole_fraction,components[0].henry_constant_c_gas_over_c_liquid components[0].mass_fraction components[0].mole_fraction components[-1].cas
 60_94/t0/r0,SDS-60/p078/0/r00,0.5,0.5,0.5,,components[1].henry_constant_c_gas_over_c_liquid components[1].mass_fraction components[1].mole_fraction,components[0].henry_constant_c_gas_over_c_liquid components[0].mass_fraction components[0].mole_fraction

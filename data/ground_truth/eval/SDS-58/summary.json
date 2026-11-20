@@ -1,17 +1,17 @@
 {
- "pairs": 610,
+ "pairs": 684,
  "gold_rows": 1707,
- "gold_rows_unclaimed": 1097,
+ "gold_rows_unclaimed": 1023,
  "gold_fractions_above_1_dropped": 0,
- "extraction_entries_without_id": 413,
+ "extraction_entries_without_id": 339,
  "extraction_entries_duplicate_id": 0,
  "tolerance_rel": 0.005,
- "precision": 0.9781967213114754,
- "recall": 0.9777049180327869,
- "f1": 0.977829347337544,
+ "precision": 0.9516812865497076,
+ "recall": 0.9798245614035088,
+ "f1": 0.9635659012851995,
  "per_field": {
   "components[0].cas": {
-   "matches": 610,
+   "matches": 684,
    "mismatches": 0,
    "omissions": 0,
    "hallucinations": 0,
@@ -20,43 +20,34 @@
    "f1": 1.0
   },
   "components[0].mole_fraction": {
-   "matches": 580,
+   "matches": 602,
    "mismatches": 28,
    "omissions": 0,
    "hallucinations": 0,
-   "precision": 0.9539473684210527,
-   "recall": 0.9539473684210527,
-   "f1": 0.9539473684210527
+   "precision": 0.9555555555555556,
+   "recall": 0.9555555555555556,
+   "f1": 0.9555555555555556
   },
   "components[1].cas": {
-   "matches": 606,
+   "matches": 680,
    "mismatches": 0,
    "omissions": 4,
    "hallucinations": 0,
    "precision": 1.0,
-   "recall": 0.9934426229508196,
-   "f1": 0.9967105263157894
+   "recall": 0.9941520467836257,
+   "f1": 0.9970674486803519
   },
   "components[1].mole_fraction": {
-   "matches": 577,
+   "matches": 641,
    "mismatches": 22,
-   "omissions": 5,
+   "omissions": 6,
    "hallucinations": 6,
-   "precision": 0.9537190082644628,
-   "recall": 0.9552980132450332,
-   "f1": 0.9545078577336642
+   "precision": 0.9581464872944694,
+   "recall": 0.9581464872944694,
+   "f1": 0.9581464872944694
   },
   "temperature": {
-   "matches": 603,
-   "mismatches": 0,
-   "omissions": 0,
-   "hallucinations": 0,
-   "precision": 1.0,
-   "recall": 1.0,
-   "f1": 1.0
-  },
-  "pressure": {
-   "matches": 6,
+   "matches": 677,
    "mismatches": 0,
    "omissions": 0,
    "hallucinations": 0,
@@ -65,28 +56,28 @@
    "f1": 1.0
   },
   "components[2].cas": {
-   "matches": 2,
+   "matches": 81,
    "mismatches": 0,
    "omissions": 6,
    "hallucinations": 0,
    "precision": 1.0,
-   "recall": 0.25,
-   "f1": 0.4
+   "recall": 0.9310344827586207,
+   "f1": 0.9642857142857143
   },
   "components[2].mole_fraction": {
-   "matches": 2,
+   "matches": 63,
    "mismatches": 0,
    "omissions": 6,
    "hallucinations": 0,
    "precision": 1.0,
-   "recall": 0.25,
-   "f1": 0.4
+   "recall": 0.9130434782608695,
+   "f1": 0.9545454545454545
   },
   "components[-1].cas": {
    "matches": 0,
    "mismatches": 0,
    "omissions": 0,
-   "hallucinations": 6,
+   "hallucinations": 85,
    "precision": 0.0,
    "recall": 1.0,
    "f1": 0.0
@@ -95,7 +86,7 @@
    "matches": 0,
    "mismatches": 0,
    "omissions": 0,
-   "hallucinations": 6,
+   "hallucinations": 85,
    "precision": 0.0,
    "recall": 1.0,
    "f1": 0.0

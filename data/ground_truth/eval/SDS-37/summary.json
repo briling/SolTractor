@@ -1,44 +1,44 @@
 {
- "pairs": 847,
+ "pairs": 854,
  "gold_rows": 2239,
- "gold_rows_unclaimed": 1392,
- "gold_fractions_above_1_dropped": 1,
- "extraction_entries_without_id": 272,
- "extraction_entries_duplicate_id": 2,
+ "gold_rows_unclaimed": 1385,
+ "gold_fractions_above_1_dropped": 5,
+ "extraction_entries_without_id": 255,
+ "extraction_entries_duplicate_id": 0,
  "tolerance_rel": 0.005,
- "precision": 0.9598189689098781,
- "recall": 0.9511637712936414,
- "f1": 0.9511045887078945,
+ "precision": 0.9594652615144419,
+ "recall": 0.9396634883461581,
+ "f1": 0.9449433535499109,
  "per_field": {
   "components[0].cas": {
-   "matches": 843,
+   "matches": 850,
    "mismatches": 0,
    "omissions": 4,
    "hallucinations": 0,
    "precision": 1.0,
-   "recall": 0.9952774498229043,
-   "f1": 0.9976331360946745
+   "recall": 0.9953161592505855,
+   "f1": 0.9976525821596244
   },
   "components[0].mass_fraction": {
-   "matches": 388,
+   "matches": 365,
    "mismatches": 10,
-   "omissions": 45,
-   "hallucinations": 8,
-   "precision": 0.9556650246305419,
-   "recall": 0.8758465011286681,
-   "f1": 0.9140164899882215
+   "omissions": 78,
+   "hallucinations": 10,
+   "precision": 0.948051948051948,
+   "recall": 0.8057395143487859,
+   "f1": 0.8711217183770883
   },
   "components[0].mole_fraction": {
-   "matches": 426,
-   "mismatches": 6,
-   "omissions": 22,
-   "hallucinations": 1,
-   "precision": 0.9838337182448037,
-   "recall": 0.9383259911894273,
-   "f1": 0.9605411499436302
+   "matches": 398,
+   "mismatches": 7,
+   "omissions": 56,
+   "hallucinations": 5,
+   "precision": 0.9707317073170731,
+   "recall": 0.8633405639913232,
+   "f1": 0.9138920780711826
   },
   "components[1].cas": {
-   "matches": 847,
+   "matches": 854,
    "mismatches": 0,
    "omissions": 0,
    "hallucinations": 0,
@@ -46,41 +46,41 @@
    "recall": 1.0,
    "f1": 1.0
   },
-  "components[1].mass_fraction": {
-   "matches": 352,
-   "mismatches": 11,
-   "omissions": 31,
-   "hallucinations": 0,
-   "precision": 0.9696969696969697,
-   "recall": 0.8934010152284264,
-   "f1": 0.92998678996037
-  },
-  "components[1].mole_fraction": {
-   "matches": 380,
-   "mismatches": 0,
-   "omissions": 8,
-   "hallucinations": 1,
-   "precision": 0.9973753280839895,
-   "recall": 0.979381443298969,
-   "f1": 0.988296488946684
-  },
   "pressure": {
-   "matches": 238,
-   "mismatches": 0,
-   "omissions": 49,
+   "matches": 255,
+   "mismatches": 2,
+   "omissions": 38,
    "hallucinations": 0,
-   "precision": 1.0,
-   "recall": 0.8292682926829268,
-   "f1": 0.9066666666666667
+   "precision": 0.9922178988326849,
+   "recall": 0.864406779661017,
+   "f1": 0.9239130434782609
   },
   "temperature": {
-   "matches": 823,
+   "matches": 832,
    "mismatches": 9,
-   "omissions": 10,
+   "omissions": 8,
    "hallucinations": 0,
-   "precision": 0.9891826923076923,
-   "recall": 0.9774346793349169,
-   "f1": 0.983273596176822
+   "precision": 0.9892984542211652,
+   "recall": 0.9799764428739693,
+   "f1": 0.9846153846153846
+  },
+  "components[1].mass_fraction": {
+   "matches": 347,
+   "mismatches": 11,
+   "omissions": 31,
+   "hallucinations": 2,
+   "precision": 0.9638888888888889,
+   "recall": 0.8920308483290489,
+   "f1": 0.9265687583444593
+  },
+  "components[1].mole_fraction": {
+   "matches": 374,
+   "mismatches": 1,
+   "omissions": 1,
+   "hallucinations": 0,
+   "precision": 0.9973333333333333,
+   "recall": 0.9946808510638298,
+   "f1": 0.9960053262316911
   },
   "components[1].solute_solvent_mass_ratio": {
    "matches": 0,
@@ -94,7 +94,7 @@
   "components[0].molar_concentration": {
    "matches": 0,
    "mismatches": 0,
-   "omissions": 24,
+   "omissions": 26,
    "hallucinations": 0,
    "precision": 1.0,
    "recall": 0.0,
@@ -104,7 +104,7 @@
    "matches": 0,
    "mismatches": 0,
    "omissions": 0,
-   "hallucinations": 80,
+   "hallucinations": 73,
    "precision": 0.0,
    "recall": 1.0,
    "f1": 0.0
@@ -137,7 +137,7 @@
    "f1": 0.0
   },
   "components[2].cas": {
-   "matches": 1,
+   "matches": 7,
    "mismatches": 0,
    "omissions": 0,
    "hallucinations": 0,

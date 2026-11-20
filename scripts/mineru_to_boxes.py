@@ -6,8 +6,17 @@ MinerU renders every data sheet as one HTML table whose cells are the printed bo
 A sheet starts at a cell beginning with COMPONENTS; its other cells are assigned to
 boxes by their printed header. Row text of the EXPERIMENTAL VALUES table is kept
 as MinerU emits it (rows may be run together).
+
+Each record carries its `sheet_id` (provenance.py) and the region of the MinerU block it
+was read from; that block is the whole form table, usually most of the page. A table
+without COMPONENTS on the page after a sheet is that sheet's continuation: it is written
+as a record of its own (for the scripts that read one record per sheet) with `continues`
+naming the sheet it belongs to. The volume is the file name (out/SDS-60.jsonl) or, for
+mineru/SDS-60/boxes-page.jsonl, the folder.
 """
 import html, json, pathlib, re, sys
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from provenance import region, sheet_id  # noqa: E402
 
 HEADERS = {
     'COMPONENTS': 'components', 'ORIGINAL MEASUREMENTS': 'original_measurements', 'EVALUATOR': 'evaluator',
@@ -57,27 +66,31 @@ def sheets_of_table(table_html: str, page: int, start_index: int) -> list[dict]:
 def main() -> None:
     src, dst = pathlib.Path(sys.argv[1]), pathlib.Path(sys.argv[2])
     doc = json.load(src.open())
-    vol = dst.stem
+    vol = dst.stem if dst.stem.startswith('SDS-') else dst.parent.name     # out/SDS-60.jsonl or mineru/SDS-60/boxes-page.jsonl
     records = []
     for p in doc['pages']:
         page = p['page_idx'] + 1
         n = 0
-        for b in p['blocks']:
+        for bi, b in enumerate(p['blocks']):
             if b['type'] != 'table':
                 continue
             recs = sheets_of_table(b['content'], page, n)
             # a table without COMPONENTS continues the previous sheet (second page of a long table)
             if not recs and records and records[-1]['page'] == page - 1:
                 cont = dict(records[-1]); cont = json.loads(json.dumps(records[-1]))
-                cont.update(continued=True, page=page, index_on_page=n)
+                cont.update(continued=True, page=page, index_on_page=n,
+                            continues=records[-1].get('continues') or sheet_id(vol, records[-1]['page'], records[-1]['index_on_page']))
                 cont['boxes'] = {'components': records[-1]['boxes'].get('components', ''),
                                  'original_measurements': records[-1]['boxes'].get('original_measurements', ''),
                                  'experimental_values': clean(b['content'])}
                 recs = [cont]
+            for r in recs:                                   # the block holds the whole form table, often several sheets
+                r['regions'] = [region('mineru-page', page, 'block', f'p{page:03d}/b{bi}', bbox=b.get('bbox'))]
             n += len(recs)
             records.extend(recs)
     for r in records:
         r['volume'] = vol
+        r['sheet_id'] = sheet_id(vol, r['page'], r['index_on_page'])
     dst.parent.mkdir(parents=True, exist_ok=True)
     with dst.open('w') as f:
         for r in records:

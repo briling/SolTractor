@@ -26,12 +26,6 @@ nist_id,lab_id,precision,recall,f1,mismatched,omitted,hallucinated
 58_11/t0/r7,SDS-58/p054/0/r07,1.0,1.0,1.0,,,
 58_11/t0/r8,SDS-58/p054/0/r08,1.0,1.0,1.0,,,
 58_11/t0/r9,SDS-58/p054/0/r09,1.0,1.0,1.0,,,
-58_118/t0/r0,SDS-58/p118/1/r00,1.0,1.0,1.0,,,
-58_118/t0/r1,SDS-58/p118/1/r01,1.0,1.0,1.0,,,
-58_118/t0/r2,SDS-58/p118/1/r02,1.0,1.0,1.0,,,
-58_118/t0/r3,SDS-58/p118/1/r03,1.0,1.0,1.0,,,
-58_118/t0/r4,SDS-58/p118/1/r04,1.0,1.0,1.0,,,
-58_118/t0/r5,SDS-58/p118/1/r05,1.0,1.0,1.0,,,
 58_124/t0/r0,SDS-58/p121/1/r00,1.0,1.0,1.0,,,
 58_124/t0/r1,SDS-58/p121/1/r01,1.0,1.0,1.0,,,
 58_124/t0/r2,SDS-58/p121/1/r02,1.0,1.0,1.0,,,
@@ -74,8 +68,42 @@ nist_id,lab_id,precision,recall,f1,mismatched,omitted,hallucinated
 58_14/t0/r7,SDS-58/p057/0/r07,1.0,1.0,1.0,,,
 58_14/t0/r8,SDS-58/p057/0/r08,1.0,1.0,1.0,,,
 58_14/t0/r9,SDS-58/p057/0/r09,1.0,1.0,1.0,,,
+58_143/t0/r0,SDS-58/p134/0/r00,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_143/t0/r1,SDS-58/p134/0/r01,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
 58_143/t0/r2,SDS-58/p134/0/r02,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_143/t0/r3,SDS-58/p134/0/r03,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_143/t0/r4,SDS-58/p134/0/r04,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_143/t0/r5,SDS-58/p134/0/r05,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_143/t0/r6,SDS-58/p134/0/r06,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_143/t0/r7,SDS-58/p134/0/r07,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_143/t0/r8,SDS-58/p134/0/r08,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_150/t0/r0,SDS-58/p141/0/r00,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_150/t0/r1,SDS-58/p141/0/r01,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_150/t0/r2,SDS-58/p141/0/r02,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_150/t0/r3,SDS-58/p141/0/r03,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_150/t0/r4,SDS-58/p141/0/r04,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_150/t0/r5,SDS-58/p141/0/r05,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_150/t0/r6,SDS-58/p141/0/r06,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_150/t0/r7,SDS-58/p141/0/r07,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_150/t0/r8,SDS-58/p141/0/r08,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_154/t0/r0,SDS-58/p145/0/r00,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_154/t0/r1,SDS-58/p145/0/r01,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_154/t0/r2,SDS-58/p145/0/r02,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_154/t0/r3,SDS-58/p145/0/r03,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_154/t0/r4,SDS-58/p145/0/r04,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_154/t0/r5,SDS-58/p145/0/r05,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_154/t0/r6,SDS-58/p145/0/r06,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_154/t0/r7,SDS-58/p145/0/r07,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_154/t0/r8,SDS-58/p145/0/r08,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_156/t0/r0,SDS-58/p147/0/r00,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_156/t0/r1,SDS-58/p147/0/r01,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
 58_156/t0/r2,SDS-58/p147/0/r02,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_156/t0/r3,SDS-58/p147/0/r03,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_156/t0/r4,SDS-58/p147/0/r04,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_156/t0/r5,SDS-58/p147/0/r05,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_156/t0/r6,SDS-58/p147/0/r06,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_156/t0/r7,SDS-58/p147/0/r07,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_156/t0/r8,SDS-58/p147/0/r08,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
 58_16/t0/r0,SDS-58/p059/0/r00,1.0,1.0,1.0,,,
 58_16/t0/r1,SDS-58/p059/0/r01,1.0,1.0,1.0,,,
 58_16/t0/r10,SDS-58/p059/0/r10,1.0,1.0,1.0,,,
@@ -87,6 +115,15 @@ nist_id,lab_id,precision,recall,f1,mismatched,omitted,hallucinated
 58_16/t0/r7,SDS-58/p059/0/r07,1.0,1.0,1.0,,,
 58_16/t0/r8,SDS-58/p059/0/r08,1.0,1.0,1.0,,,
 58_16/t0/r9,SDS-58/p059/0/r09,1.0,1.0,1.0,,,
+58_162/t0/r0,SDS-58/p153/0/r00,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_162/t0/r1,SDS-58/p153/0/r01,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_162/t0/r2,SDS-58/p153/0/r02,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_162/t0/r3,SDS-58/p153/0/r03,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_162/t0/r4,SDS-58/p153/0/r04,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_162/t0/r5,SDS-58/p153/0/r05,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_162/t0/r6,SDS-58/p153/0/r06,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_162/t0/r7,SDS-58/p153/0/r07,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_162/t0/r8,SDS-58/p153/0/r08,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
 58_18/t0/r0,SDS-58/p338/0/r11,1.0,1.0,1.0,,,
 58_18/t0/r1,SDS-58/p338/0/r10,1.0,1.0,1.0,,,
 58_18/t0/r10,SDS-58/p338/0/r01,1.0,1.0,1.0,,,
@@ -99,6 +136,33 @@ nist_id,lab_id,precision,recall,f1,mismatched,omitted,hallucinated
 58_18/t0/r7,SDS-58/p338/0/r04,1.0,1.0,1.0,,,
 58_18/t0/r8,SDS-58/p338/0/r03,1.0,1.0,1.0,,,
 58_18/t0/r9,SDS-58/p338/0/r02,1.0,1.0,1.0,,,
+58_181/t0/r0,SDS-58/p173/0/r00,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_181/t0/r1,SDS-58/p173/0/r01,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_181/t0/r2,SDS-58/p173/0/r02,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_181/t0/r3,SDS-58/p173/0/r03,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_181/t0/r4,SDS-58/p173/0/r04,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_181/t0/r5,SDS-58/p173/0/r05,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_181/t0/r6,SDS-58/p173/0/r06,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_181/t0/r7,SDS-58/p173/0/r07,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_181/t0/r8,SDS-58/p173/0/r08,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_187/t0/r0,SDS-58/p179/0/r00,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_187/t0/r1,SDS-58/p179/0/r01,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_187/t0/r2,SDS-58/p179/0/r02,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_187/t0/r3,SDS-58/p179/0/r03,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_187/t0/r4,SDS-58/p179/0/r04,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_187/t0/r5,SDS-58/p179/0/r05,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_187/t0/r6,SDS-58/p179/0/r06,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_187/t0/r7,SDS-58/p179/0/r07,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_187/t0/r8,SDS-58/p179/0/r08,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_188/t0/r0,SDS-58/p180/0/r00,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_188/t0/r1,SDS-58/p180/0/r01,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_188/t0/r2,SDS-58/p180/0/r02,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_188/t0/r3,SDS-58/p180/0/r03,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_188/t0/r4,SDS-58/p180/0/r04,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_188/t0/r5,SDS-58/p180/0/r05,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_188/t0/r6,SDS-58/p180/0/r06,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_188/t0/r7,SDS-58/p180/0/r07,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_188/t0/r8,SDS-58/p180/0/r08,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
 58_19/t0/r0,SDS-58/p062/0/r00,1.0,1.0,1.0,,,
 58_19/t0/r1,SDS-58/p062/0/r01,1.0,1.0,1.0,,,
 58_19/t0/r10,SDS-58/p062/0/r10,1.0,1.0,1.0,,,
@@ -111,6 +175,15 @@ nist_id,lab_id,precision,recall,f1,mismatched,omitted,hallucinated
 58_19/t0/r7,SDS-58/p062/0/r07,1.0,1.0,1.0,,,
 58_19/t0/r8,SDS-58/p062/0/r08,1.0,1.0,1.0,,,
 58_19/t0/r9,SDS-58/p062/0/r09,1.0,1.0,1.0,,,
+58_194/t0/r0,SDS-58/p186/0/r00,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_194/t0/r1,SDS-58/p186/0/r01,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_194/t0/r2,SDS-58/p186/0/r02,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_194/t0/r3,SDS-58/p186/0/r03,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_194/t0/r4,SDS-58/p186/0/r04,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_194/t0/r5,SDS-58/p186/0/r05,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_194/t0/r6,SDS-58/p186/0/r06,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_194/t0/r7,SDS-58/p186/0/r07,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
+58_194/t0/r8,SDS-58/p186/0/r08,0.75,1.0,0.8571,,,components[-1].cas components[-1].mole_fraction
 58_2/t0/r0,SDS-58/p048/1/r00,1.0,1.0,1.0,,,
 58_2/t0/r1,SDS-58/p048/1/r01,1.0,1.0,1.0,,,
 58_2/t0/r2,SDS-58/p048/1/r02,1.0,1.0,1.0,,,
@@ -134,6 +207,7 @@ nist_id,lab_id,precision,recall,f1,mismatched,omitted,hallucinated
 58_216/t0/r0,SDS-58/p207/1/r00,1.0,1.0,1.0,,,
 58_216/t0/r1,SDS-58/p207/1/r01,1.0,1.0,1.0,,,
 58_216/t0/r2,SDS-58/p207/1/r02,1.0,1.0,1.0,,,
+58_22/t0/r0,SDS-58/p064/0/r00,1.0,0.8,0.8889,,components[1].mole_fraction,
 58_22/t0/r1,SDS-58/p064/0/r01,1.0,1.0,1.0,,,
 58_22/t0/r2,SDS-58/p064/0/r02,1.0,1.0,1.0,,,
 58_22/t0/r3,SDS-58/p064/0/r03,1.0,1.0,1.0,,,
